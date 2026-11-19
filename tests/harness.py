@@ -36,7 +36,7 @@ def new_page(b,base,viewport=DESKTOP,theme='light',color_scheme=None,storage=Non
     pg=ctx.new_page();pg.errs=[]
     pg.on('pageerror',lambda e:pg.errs.append('pageerror: '+str(e)))
     pg.on('console',lambda m:m.type=='error' and pg.errs.append('console: '+m.text))
-    pg.goto(base+'/index.html');pg.wait_for_function("typeof studioNav==='function' && !document.querySelector('.boot-splash')",timeout=20000)
+    pg.goto(base+'/index.html');pg.wait_for_function("typeof studioNav==='function' && !document.querySelector('.boot-splash') && !!window.__TGAT1_DATA_EXTRA && !!window.__TGAT1_V382_READY__",timeout=20000)
     if theme=='dark': pg.evaluate("studioTheme('dark')")
     return pg
 

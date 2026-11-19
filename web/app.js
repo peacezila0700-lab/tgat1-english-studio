@@ -11,7 +11,7 @@ window.TGAT1_VERSION=Object.freeze({app:'43.0.0',cache:'tgat1-studio-v43.0.0',co
 
 
 /* v40.7.27 data guard: core data is synchronous; the question bank and senses load on demand. */
-(function(){var d=window.__TGAT1_DATA;if(d&&d.studio&&d.items&&d.legacy&&d.pack)return;
+(function(){var d=window.__TGAT1_DATA;if(d&&d.studio&&d.items&&d.legacy)return;
 var m='โหลดไฟล์ข้อมูลไม่ครบ (data-*.js) — กรุณาต่ออินเทอร์เน็ตแล้วรีเฟรช หรือล้างแคชของแอป';
 document.addEventListener('DOMContentLoaded',function(){var alert=document.createElement('div');alert.setAttribute('role','alert');alert.style.cssText='padding:16px;margin:16px;border-radius:12px;background:#fee;color:#900;font:16px sans-serif';alert.textContent=m;document.body.insertBefore(alert,document.body.firstChild)});
 throw new Error('TGAT1 data files missing');})();
@@ -662,6 +662,22 @@ const STUDIO_DATA = window.__TGAT1_DATA.studio;
       set:function(v){Object.defineProperty(w,'senses',{value:v,writable:true,configurable:true,enumerable:true});}});
   });
 })();
+// T3 lazy chunk: studio.examples (legacy example mirror) + pack live in data-extra.js.
+// Loaded on first use; every consumer awaits TGAT1_ensureExtra() before reading them.
+window.TGAT1_ensureExtra=(function(){
+  var extra=window.__TGAT1_DATA_EXTRA||null,loading=null;
+  function load(){
+    if(extra)return Promise.resolve(extra);
+    if(loading)return loading;
+    loading=new Promise(function(resolve,reject){
+      var sc=document.createElement('script');sc.src=new URL('./data-extra.js',document.baseURI).href;sc.async=true;
+      sc.onload=function(){extra=window.__TGAT1_DATA_EXTRA||null;loading=null;if(extra){if(extra.examples)window.__TGAT1_DATA.studio.examples=extra.examples;if(extra.pack!==undefined)window.__TGAT1_DATA.pack=extra.pack;resolve(extra)}else reject(new Error('Extra data missing'))};
+      sc.onerror=function(){loading=null;sc.remove();reject(new Error('data-extra.js could not be loaded'))};document.head.appendChild(sc);
+    });
+    return loading;
+  }
+  return load;
+})();
 const STUDIO_POLYSEMY=(window.STUDIO_POLYSEMY&&typeof window.STUDIO_POLYSEMY==='object')?window.STUDIO_POLYSEMY:{};
 (function(){const byWord=new Map(STUDIO_DATA.words.map(x=>[String(x.w).toLowerCase(),x]));Object.entries(STUDIO_POLYSEMY).forEach(([word,s])=>{const x=byWord.get(word);if(x){x.th=s.summary;x.pos=s.pos;x.senses=s.senses;}if(typeof D!=='undefined'&&Array.isArray(D.V)){const old=D.V.find(v=>String(v[0]).toLowerCase()===word);if(old){old[1]=s.summary;old[2]=s.pos;}}});})();
 const STUDIO_STORE='tgat1_english_studio_v1';
@@ -844,7 +860,7 @@ function studioVSearch(q){
 function studioVLevel(v){STUDIO_VLEVEL=v;STUDIO_VPAGE=0;studioVocabulary()}
 function studioVCat(v){STUDIO_VCAT=v;STUDIO_VPAGE=0;studioVocabulary()}
 function studioVPage(n){STUDIO_VPAGE=Math.max(0,STUDIO_VPAGE+n);studioVocabulary()}
-function studioWordDetail(i){const x=STUDIO_DATA.words[i];if(!x)return;const st=STUDIO_VSTATE.items[x.w]||{};const legacy=(S.st||{})[x.w];const ex=(STUDIO_DATA.examples[x.w]||[]).filter(e=>!/(?:\bIn the report,\s*[“"].+?[”"]\s+adds information\b|\bIn the passage,\s*[“"].+?[”"]\s+describes a feature\b)/i.test(String(e)));const fav=STUDIO_VSTATE.favorites.includes(x.w);const senses=Array.isArray(x.senses)?x.senses:[];const senseHtml=senses.length?`<div class="st-poly-wrap"><div class="st-poly-head">ความหมายตามชนิดคำและบริบท</div>${senses.map((z,j)=>`<div class="st-poly-item"><div><span class="st-poly-index">${j+1}</span><b>${studioEsc(z.pos)}</b></div><p>${studioEsc(z.meaning)}</p><div class="st-poly-example">${studioEsc(z.example)}</div><div class="st-poly-translation">${studioEsc(z.translation)}</div></div>`).join('')}<p class="st-poly-note">คำหนึ่งคำอาจมีหลายความหมาย ให้ดูชนิดคำและคำรอบข้างในประโยคก่อนเลือกคำแปล</p></div>`:'';studioModal(`<div class="st-eyebrow">${studioEsc(x.cat)}</div><div class="st-title" style="font-size:29px">${studioEsc(x.w)}</div><div class="st-inline"><span class="st-tag blue">${studioEsc(studioWordPosLabel(x.pos))}</span><span class="st-tag" title="กลุ่มความยาก A/B/C เป็นการจัดกลุ่มภายในแอปต่อ headword ไม่ใช่ระดับ CEFR">กลุ่มความยาก ${studioEsc(x.level)} · ภายในแอป</span><span class="st-tag" title="ป้ายที่มาเดิมของรายการ ยังไม่ได้ยืนยันแหล่ง/สิทธิ์ ดู SOURCE-REGISTER.csv">ที่มา: ${studioEsc(x.source)}</span></div><h3 style="font-size:20px;margin:20px 0 5px">${studioEsc(x.th)}</h3>${senseHtml}${ex.length?`<div class="st-divider"></div><b>ตัวอย่างประโยคจากคลังเดิม</b>${ex.map(e=>`<p class="st-subtitle" style="margin-top:7px">${studioEsc(e)}</p>`).join('')}`:'<p class="st-subtitle" style="margin-top:8px">รายการนี้ไม่มีตัวอย่างประโยคจากคลังเดิมเพิ่มเติม</p>'}<div class="st-divider"></div><p class="st-subtitle">สถานะของคุณ: ${st.status==='known'?'ทำเครื่องหมายว่ารู้แล้ว':st.status==='again'?'ต้องทบทวน':legacy&&legacy[2]===0?'เคยตอบผิดในเกมศัพท์':'ยังไม่ประเมิน'} · ${st.reps||0} รอบทบทวน</p><div class="st-inline" style="margin-top:14px"><button class="st-btn ghost" onclick="studioSayWord(${i})">🔊 ฟังเสียง</button><button class="st-btn" onclick="studioMarkWord(${i},'known')">✓ รู้คำนี้แล้ว</button><button class="st-btn secondary" onclick="studioMarkWord(${i},'again')">↻ ต้องทบทวน</button><button class="st-btn ghost" onclick="studioToggleFav(${i})">${fav?'♥ เอาออกจากรายการโปรด':'♡ บันทึกคำโปรด'}</button></div>`)}
+async function studioWordDetail(i){const x=STUDIO_DATA.words[i];if(!x)return;await window.TGAT1_ensureExtra().catch(function(){});const st=STUDIO_VSTATE.items[x.w]||{};const legacy=(S.st||{})[x.w];const ex=(STUDIO_DATA.examples[x.w]||[]).filter(e=>!/(?:\bIn the report,\s*[“"].+?[”"]\s+adds information\b|\bIn the passage,\s*[“"].+?[”"]\s+describes a feature\b)/i.test(String(e)));const fav=STUDIO_VSTATE.favorites.includes(x.w);const senses=Array.isArray(x.senses)?x.senses:[];const senseHtml=senses.length?`<div class="st-poly-wrap"><div class="st-poly-head">ความหมายตามชนิดคำและบริบท</div>${senses.map((z,j)=>`<div class="st-poly-item"><div><span class="st-poly-index">${j+1}</span><b>${studioEsc(z.pos)}</b></div><p>${studioEsc(z.meaning)}</p><div class="st-poly-example">${studioEsc(z.example)}</div><div class="st-poly-translation">${studioEsc(z.translation)}</div></div>`).join('')}<p class="st-poly-note">คำหนึ่งคำอาจมีหลายความหมาย ให้ดูชนิดคำและคำรอบข้างในประโยคก่อนเลือกคำแปล</p></div>`:'';studioModal(`<div class="st-eyebrow">${studioEsc(x.cat)}</div><div class="st-title" style="font-size:29px">${studioEsc(x.w)}</div><div class="st-inline"><span class="st-tag blue">${studioEsc(studioWordPosLabel(x.pos))}</span><span class="st-tag" title="กลุ่มความยาก A/B/C เป็นการจัดกลุ่มภายในแอปต่อ headword ไม่ใช่ระดับ CEFR">กลุ่มความยาก ${studioEsc(x.level)} · ภายในแอป</span><span class="st-tag" title="ป้ายที่มาเดิมของรายการ ยังไม่ได้ยืนยันแหล่ง/สิทธิ์ ดู SOURCE-REGISTER.csv">ที่มา: ${studioEsc(x.source)}</span></div><h3 style="font-size:20px;margin:20px 0 5px">${studioEsc(x.th)}</h3>${senseHtml}${ex.length?`<div class="st-divider"></div><b>ตัวอย่างประโยคจากคลังเดิม</b>${ex.map(e=>`<p class="st-subtitle" style="margin-top:7px">${studioEsc(e)}</p>`).join('')}`:'<p class="st-subtitle" style="margin-top:8px">รายการนี้ไม่มีตัวอย่างประโยคจากคลังเดิมเพิ่มเติม</p>'}<div class="st-divider"></div><p class="st-subtitle">สถานะของคุณ: ${st.status==='known'?'ทำเครื่องหมายว่ารู้แล้ว':st.status==='again'?'ต้องทบทวน':legacy&&legacy[2]===0?'เคยตอบผิดในเกมศัพท์':'ยังไม่ประเมิน'} · ${st.reps||0} รอบทบทวน</p><div class="st-inline" style="margin-top:14px"><button class="st-btn ghost" onclick="studioSayWord(${i})">🔊 ฟังเสียง</button><button class="st-btn" onclick="studioMarkWord(${i},'known')">✓ รู้คำนี้แล้ว</button><button class="st-btn secondary" onclick="studioMarkWord(${i},'again')">↻ ต้องทบทวน</button><button class="st-btn ghost" onclick="studioToggleFav(${i})">${fav?'♥ เอาออกจากรายการโปรด':'♡ บันทึกคำโปรด'}</button></div>`)}
 function studioSayWord(i){const x=STUDIO_DATA.words[i];if(x&&typeof say==='function')say(x.w);else studioToast('เบราว์เซอร์นี้ยังไม่รองรับเสียงอ่าน')}
 function studioPhraseDetail(i){const x=STUDIO_DATA.phrases[i];if(!x)return;studioModal(`<div class="st-eyebrow">${studioEsc(x.type)} · ${studioEsc(x.source)}</div><div class="st-title" style="font-size:28px">${studioEsc(x.w)}</div><h3>${studioEsc(x.th)}</h3><div class="st-divider"></div><b>บริบท / ตัวอย่าง</b><p class="st-subtitle" style="margin-top:8px">${studioEsc(x.example||x.context||'ไม่มีตัวอย่างในแหล่งข้อมูล')}</p>`)}
 function studioMarkWord(i,status){const x=STUDIO_DATA.words[i];if(!x)return;const old=STUDIO_VSTATE.items[x.w]||{reps:0};const reps=(old.reps||0)+1;const intervals=[1,2,4,7,14,30];const due=status==='known'?Date.now()+intervals[Math.min(reps-1,intervals.length-1)]*86400000:Date.now();STUDIO_VSTATE.items[x.w]={status,reps,interval:status==='known'?intervals[Math.min(reps-1,intervals.length-1)]:0,due,last:Date.now()};studioSave('tgat1_studio_vocab_progress_v1',STUDIO_VSTATE);studioCloseModal();studioVocabulary();studioToast(status==='known'?'บันทึกว่ารู้คำนี้แล้ว':'เพิ่มเข้าคิวทบทวนแล้ว')}
@@ -1499,9 +1515,9 @@ VLT_explainPanel=VLT_explainPanelV12;
 
 // Add IPA, senses, collocations and word relationships to the vocabulary detail window.
 const studioWordDetailOriginal=studioWordDetail;
-studioWordDetail=function(i){
+studioWordDetail=async function(i){
  if(!window.TGAT1LazySenses.loaded){window.TGAT1LazySenses.ensure().then(()=>studioWordDetail(i)).catch(e=>studioToast('โหลดข้อมูลความหมายไม่สำเร็จ'));return;}
- studioWordDetailOriginal(i);
+ await studioWordDetailOriginal(i);
  const x=STUDIO_DATA.words[i]; const box=document.querySelector('#studioModal .st-modal-box'); if(!x||!box||box.querySelector('.v12-word-meta'))return;
  const phraseMatches=(STUDIO_DATA.phrases||[]).filter(p=>String(p.w||'').toLowerCase().split(/\s+/).includes(String(x.w).toLowerCase())).slice(0,6).map(p=>p.w);
  const coll=Array.from(new Set([...(x.collocations||[]),...phraseMatches])).slice(0,8);
@@ -4748,7 +4764,8 @@ window.TGAT1_addGameHook(function(){const head=[...document.querySelectorAll('.s
 'use strict';
 if(window.__TGAT1_V382_INIT__) return;
 window.__TGAT1_V382_INIT__=true;
-const PACK = window.__TGAT1_DATA.pack;
+function v382Init(){
+const PACK = (window.__TGAT1_DATA_EXTRA&&window.__TGAT1_DATA_EXTRA.pack)||window.__TGAT1_DATA.pack||{};
 const esc=window.studioEsc||((s)=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])));
 const norm=s=>String(s||'').trim().toLowerCase().replace(/\s+/g,' ');
 const weakExample=s=>/The article discusses .* in detail\.|Researchers .* the evidence before reaching a conclusion\.|The report describes the result as .*\./i.test(String(s||''));
@@ -4787,6 +4804,9 @@ PACK.words.forEach(p=>{
    if(STUDIO_DATA.examples&&typeof STUDIO_DATA.examples==='object'&&!Array.isArray(STUDIO_DATA.examples))STUDIO_DATA.examples[x.w]=[p.senses[0].example];
  }
 });
+// T3: pack words were merged just now (they live in the lazy chunk); re-normalize the
+// vocab SRS state so the 7 pack words' progress is not dropped on every reload.
+if(typeof STUDIO_VSTATE!=='undefined'&&window.TGAT1DataGuards&&typeof window.TGAT1DataGuards.normalizeVocabState==='function'){try{STUDIO_VSTATE=window.TGAT1DataGuards.normalizeVocabState(studioLoad('tgat1_studio_vocab_progress_v1',{items:{},favorites:[],sessions:[]}),STUDIO_DATA.words)}catch(e){console.error('TGAT1 vocab state re-normalize skipped',e)}}
 window.__TGAT1ApplyPendingSenseRepairs=function(){
  if(!pendingSenseRepairs.length)return 0;
  let changed=0;
@@ -4866,7 +4886,10 @@ window.TGAT1_V382_CONTENT_AUDIT=()=>({phrasesAdded:phraseAdded,phrasesImproved:p
 // Expose counts in the app shell and update the document release label.
 const audit=window.TGAT1_V382_CONTENT_AUDIT();document.documentElement.dataset.contentRelease='38.2.0';
 window.dispatchEvent(new CustomEvent('tgat1-content-expanded',{detail:audit}));
-})();
+window.__TGAT1_V382_READY__=true;
+}
+// T3: the pack merge needs the lazy chunk; run once it is loaded
+if(window.__TGAT1_DATA_EXTRA){v382Init()}else{window.TGAT1_ensureExtra().then(function(){try{v382Init()}catch(e){console.error('TGAT1 v382 init failed',e)}}).catch(function(e){console.error('TGAT1 v382 init failed (extra chunk)',e)})}})();
 
 
 /* ===== 34 · 41-content-expansion-v39-5.js ===== */
@@ -5818,6 +5841,7 @@ function TG_summary(o){const safe=s=>typeof window.studioEsc==='function'?window
   }
   async function run(){
     if(window.TGAT1LazySenses&&typeof TGAT1LazySenses.ensure==='function'){try{await TGAT1LazySenses.ensure()}catch(e){}}
+    if(window.TGAT1_ensureExtra){try{await window.TGAT1_ensureExtra()}catch(e){}}
     let bank=Array.isArray(window.VLT_BANK)?window.VLT_BANK:[];
     if(!bank.length&&typeof window.VLT_ensureBank==='function'){try{await window.VLT_ensureBank();bank=window.VLT_BANK||[]}catch(e){}}
     return {version:window.TGAT1_VERSION.content,checkedAt:new Date().toISOString(),vocabulary:vocabulary(),bank:bankAudit(bank),readingLab:readingLab(),
