@@ -710,7 +710,25 @@ function studioMockHistory(){return (Array.isArray(VLT_STATE.history)?VLT_STATE.
 function studioPartStats(){const out={};studioQuestionParts().forEach(p=>out[p.id]={name:p.name,correct:0,total:0});(VLT_STATE.history||[]).forEach(h=>(h.categories||[]).forEach(c=>{if(out[c.cat]){out[c.cat].correct+=Number(c.score)||0;out[c.cat].total+=Number(c.total)||0}}));return Object.entries(out).map(([id,x])=>({id,...x,acc:x.total?Math.round(x.correct/x.total*100):null}))}
 function studioWeakPart(){const stats=studioPartStats().filter(x=>x.total>0).sort((a,b)=>a.acc-b.acc);if(stats.length)return stats[0];const miss=Object.keys(VLT_STATE.missed||{}).map(id=>VLT_get(id)).filter(Boolean);if(miss.length){const counts={};miss.forEach(q=>counts[q.category]=(counts[q.category]||0)+1);const id=Object.keys(counts).sort((a,b)=>counts[b]-counts[a])[0];return {id,name:studioQuestionParts().find(x=>x.id===id)?.name||id,acc:null,total:miss.length,correct:0}}return null}
 function studioUpdateChrome(page){const map={home:['HOME','สวัสดี ยินดีต้อนรับกลับ'],profile:['MY PROFILE','โปรไฟล์ของฉัน'],vocab:['VOCABULARY','Vocabulary Center'],exam:['EXAM CENTER','ศูนย์สอบ TGAT1'],game:['GAME CENTER','Game Center'],analytics:['ANALYTICS','สถิติพัฒนาการ'],settings:['SETTINGS','ตั้งค่าและสำรองข้อมูล']};const x=map[page]||map.home;document.getElementById('studioCrumb').textContent=x[0];document.getElementById('studioTitle').textContent=(page==='home'?'ภาพรวมการเตรียมสอบ':x[1]);document.getElementById('studioXP').textContent=studioXP().toLocaleString()+' XP';document.getElementById('studioAvatar').textContent=(STUDIO_PROFILE.name||'S').trim().slice(0,1).toUpperCase();document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===page));/* T1 merge: v6/v9/v30/v382 chrome-title overrides folded in. */const crumb=document.getElementById('studioCrumb'),title=document.getElementById('studioTitle');if(['errors','review','advanced'].includes(page)){if(crumb)crumb.textContent=page.toUpperCase();if(title)title.textContent=page==='errors'?'Error Notebook':page==='review'?'Smart Review':'บทเรียนขั้นสูง'}else if(page==='grammar'){if(crumb)crumb.textContent='GRAMMAR';if(title)title.textContent='Grammar Cheat Sheet'}else if(page==='reading'){if(crumb)crumb.textContent=window.TGAT1_isLegacyReading&&window.TGAT1_isLegacyReading()?'READING BANK':'READING LAB';if(title)title.textContent=window.TGAT1_isLegacyReading&&window.TGAT1_isLegacyReading()?'Reading · Original Question Bank':'Reading Lab'}}
-function studioNav(page){/* v40.8.0: a finished vocabulary session keeps Q only to show its result; leaving it must not warn about unsaved progress. */if(Q&&typeof STUDIO_SESSION_FINISHED!=='undefined'&&STUDIO_SESSION_FINISHED&&page!==STUDIO_PAGE)Q=null;if((VLT_RUN||Q)&&page!==STUDIO_PAGE){TGConfirm('กำลังทำแบบฝึกอยู่ หากออกจากหน้านี้ความคืบหน้ารอบปัจจุบันอาจไม่ถูกบันทึก ต้องการออกหรือไม่?').then(ok=>{if(!ok)return;if(VLT_RUN){VLT_stopTimer();VLT_RUN=null;}if(Q){studioClearSession();stopExamClock();Q=null;}studioNavNow(page)});return}studioNavNow(page)}function studioNavNow(page){if(page!==STUDIO_PAGE){STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false}STUDIO_PAGE=page;STUDIO_VPAGE=0;studioUpdateChrome(page);studioRender()}
+function studioNav(page){/* v40.8.0: a finished vocabulary session keeps Q only to show its result; leaving it must not warn about unsaved progress. */if(Q&&typeof STUDIO_SESSION_FINISHED!=='undefined'&&STUDIO_SESSION_FINISHED&&page!==STUDIO_PAGE)Q=null;if((VLT_RUN||Q)&&page!==STUDIO_PAGE){TGConfirm('กำลังทำแบบฝึกอยู่ หากออกจากหน้านี้ความคืบหน้ารอบปัจจุบันอาจไม่ถูกบันทึก ต้องการออกหรือไม่?').then(ok=>{if(!ok)return;if(VLT_RUN){VLT_stopTimer();VLT_RUN=null;}if(Q){studioClearSession();stopExamClock();Q=null;}studioNavNow(page)});return}studioNavNow(page)}
+/* T1 merge: single studioNavNow with v8 page-flash, v18 a11y announcer and
+   v382 legacy-reading reset folded in (v7 sweep was dead code and is dropped). */
+function studioNavNow(page){
+  const before=STUDIO_PAGE;
+  /* v382: leaving the reading page clears the legacy-bank mode. */
+  if(page!=='reading'&&window.TGAT1_setLegacyReading)window.TGAT1_setLegacyReading(false);
+  if(page!==STUDIO_PAGE){STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false}
+  STUDIO_PAGE=page;STUDIO_VPAGE=0;studioUpdateChrome(page);studioRender();
+  /* v18: announce the new page title in the live region. */
+  const live=document.getElementById('tgat-v18-live');const title=document.getElementById('studioTitle');
+  if(live&&title)live.textContent='หน้า '+title.textContent;
+  /* v8: page-change flash (skipped under prefers-reduced-motion). */
+  if(before!==STUDIO_PAGE&&!(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)){
+    const overlay=document.createElement('div');
+    overlay.style.cssText='position:fixed;inset:0;z-index:9998;pointer-events:none;background:radial-gradient(circle at 50% 42%,rgba(115,137,255,.16),transparent 58%);animation:v8PageFlash .48s ease-out forwards';
+    document.body.appendChild(overlay);overlay.addEventListener('animationend',()=>overlay.remove(),{once:true});
+  }
+}
 function studioRender(){const app=document.getElementById('app');if(!app)return;const page=STUDIO_PAGE;if((page==='exam'||page==='analytics')&&!VLT_BANK.length){const status=document.createElement('div');status.className='st-card';status.setAttribute('role','status');status.textContent='กำลังโหลดคลังข้อสอบ…';app.replaceChildren(status);VLT_ensureBank().then(()=>{if(STUDIO_PAGE===page)studioRender()}).catch(e=>{console.error(e);studioToast(e.message||'โหลดคลังข้อสอบไม่สำเร็จ')});return;}switch(page){case'home':studioHome();break;case'profile':studioProfile();break;case'vocab':studioVocabulary();break;case'exam':studioExam();break;case'game':studioGame();break;case'analytics':studioAnalytics();break;case'settings':studioSettings();break;default:studioHome()}}
 /* T1 merge: captured before the merged dispatcher below reassigns studioRender. */
 const studioRenderBase=studioRender;
@@ -1128,21 +1146,8 @@ finish=function(){try{studioCaptureErrors(Q)}catch(e){}return studioOriginalFini
   },{passive:true});
 
   // Page navigation gets a top light sweep; the new screen itself enters with a soft motion.
-  if(typeof window.studioNav==='function'){
-    const original=window.studioNav;
-    window.studioNav=function(){
-      const before=window.STUDIO_PAGE;
-      const result=original.apply(this,arguments);
-      if(false){
-        const bar=document.createElement('div');
-        bar.className='st-page-sweep';
-        document.body.appendChild(bar);
-        bar.addEventListener('animationend',()=>bar.remove(),{once:true});
-        setTimeout(()=>{if(bar.isConnected)bar.remove()},750);
-      }
-      return result;
-    };
-  }
+  /* T1 merge: v7 page-sweep wrapper was dead code (if(false)) and is dropped;
+     its live successors (v8 flash, v18 announcer, v382 reset) live in studioNavNow. */
 
   // A subtle, one-time entrance for the app shell; never blocks taps.
   requestAnimationFrame(()=>document.body.classList.add('st-personal-ready'));
@@ -1170,21 +1175,7 @@ finish=function(){try{studioCaptureErrors(Q)}catch(e){}return studioOriginalFini
    if(!t||t.disabled)return;
    burst(e.clientX,e.clientY);
  },{passive:true});
- // Make route changes feel decisive while preserving original handlers and state.
- if(typeof window.studioNav==='function'&&!window.__v8NavWrapped){
-   window.__v8NavWrapped=true;
-   const prev=window.studioNav;
-   window.studioNav=function(){
-     const before=window.STUDIO_PAGE;
-     const r=prev.apply(this,arguments);
-     if(before!==window.STUDIO_PAGE&&!reduced){
-       const overlay=document.createElement('div');
-       overlay.style.cssText='position:fixed;inset:0;z-index:9998;pointer-events:none;background:radial-gradient(circle at 50% 42%,rgba(115,137,255,.16),transparent 58%);animation:v8PageFlash .48s ease-out forwards';
-       document.body.appendChild(overlay);overlay.addEventListener('animationend',()=>overlay.remove(),{once:true});
-     }
-     return r;
-   };
- }
+ /* T1 merge: v8 page-flash wrapper folded into studioNavNow. */
  if(!document.getElementById('v8-pageflash-keyframes')){
    const st=document.createElement('style');st.id='v8-pageflash-keyframes';
    st.textContent='@keyframes v8PageFlash{0%{opacity:0}25%{opacity:1}100%{opacity:0}}';
@@ -2179,17 +2170,7 @@ window.studioStartFlashcards=function(){const due=Object.entries(STUDIO_VSTATE.i
 (function(){'use strict';
   // Add an accessible announcement region without changing existing app content.
   if(!document.getElementById('tgat-v18-live')){var live=document.createElement('div');live.id='tgat-v18-live';live.className='sr-only';live.setAttribute('role','status');live.setAttribute('aria-live','polite');live.setAttribute('aria-atomic','true');live.style.cssText='position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0';document.body.appendChild(live);}
-  // Announce only the page title, not the entire frequently re-rendered app subtree.
-  if(!window.__TGAT1_V35_NAV_ANNOUNCER__){
-    window.__TGAT1_V35_NAV_ANNOUNCER__=true;
-    var priorNav=window.studioNav;
-    if(typeof priorNav==='function')window.studioNav=function(){
-      var result=priorNav.apply(this,arguments);
-      var title=document.getElementById('studioTitle');
-      if(title&&live)live.textContent='หน้า '+title.textContent;
-      return result;
-    };
-  }
+  /* T1 merge: v18 nav announcer folded into studioNavNow. */
   // Label icon-only buttons where their visible title/aria label is missing.
   document.querySelectorAll('button').forEach(function(b){if(!b.getAttribute('aria-label')&&!b.textContent.trim()){var t=b.getAttribute('title');if(t)b.setAttribute('aria-label',t);}});
   // Ensure the app's primary content landmark has a stable accessible name.
@@ -4784,6 +4765,7 @@ let readingState={};try{readingState=JSON.parse(localStorage.getItem(STORAGE)||'
 let readingRun=null,phraseRun=null,phraseCategory='All',legacyReading=false;
 /* T1 merge: legacy-reading flag exposed for the merged studioUpdateChrome dispatcher. */
 window.TGAT1_isLegacyReading=function(){return legacyReading};
+window.TGAT1_setLegacyReading=function(v){legacyReading=!!v};
 const categories=['All',...new Set(PACK.phrases.map(x=>x.type))];
 function saveReading(){try{localStorage.setItem(STORAGE,JSON.stringify(readingState))}catch(e){}}
 function stateFor(id){return readingState[id]||{attempts:0,correct:0,total:0,lastAt:0,lastPercent:0};}
@@ -4829,8 +4811,7 @@ window.TGAT1_addVocabularyPreHook(function(){if(STUDIO_VTAB==='everyday'){render
 window.TGAT1_addVocabularyHook(function(){const tabs=document.querySelector('.st-tabs');if(tabs&&!tabs.querySelector('[data-v382-everyday]'))tabs.insertAdjacentHTML('beforeend','<button class="st-tab" data-v382-everyday onclick="studioVTab(\'everyday\')">Everyday English · '+curatedPhraseRows().length+'</button>');});
 const originalVTab=studioVTab;
 studioVTab=function(tab){if(tab==='everyday'){STUDIO_VTAB='everyday';STUDIO_VPAGE=0;STUDIO_VQUERY='';phraseCategory='All';renderPhraseBank();return;}originalVTab.apply(this,arguments);};
-const previousNav=studioNav;
-studioNav=function(page){if(page!=='reading')legacyReading=false;return previousNav.apply(this,arguments);};
+/* T1 merge: v382 legacy-reading reset folded into studioNavNow. */
 /* T1 merge: single studioRender dispatcher folding the v6/v9/v30/v382 wrapper chain.
    reading -> legacy bank (renderReading + decorate) or Reading Lab; grammar -> Grammar Clinic;
    errors/review/advanced -> studioRenderTools; everything else -> studioRenderCore. */
