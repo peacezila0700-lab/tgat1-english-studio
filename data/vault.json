@@ -6905,18 +6905,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What did the students propose for the busiest bus stop?",
-  "context": "Students at a hot urban school surveyed people waiting at three bus stops near the campus. Most respondents said the lack of shade was uncomfortable, but the students also noticed that the busiest stop had the least space for a large shelter. They presented the results to the city transport office and suggested planting trees at two stops while installing a smaller shade structure at the busiest one. The office agreed to study the proposal. The students were pleased but did not claim that the survey had solved the problem. They said their main achievement was identifying different needs at different stops. Their teacher used the project to discuss why public design should consider both the number of users and the physical limits of a location.",
+  "prompt": "Why is the workshop being moved?",
+  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
   "options": [
-   "Planting several large trees.",
-   "Moving the stop to the campus.",
-   "Building a full shelter for the class.",
-   "A smaller shade structure."
+   "The workshop has been cancelled.",
+   "A larger group has booked the hall.",
+   "The weather forecast is poor.",
+   "The temple hall is having roof repairs."
   ],
   "answer": 3,
-  "explanation": "นักเรียนเสนอ “planting trees at two stops while installing a smaller shade structure at the busiest one” เพราะป้ายที่คนเยอะที่สุดมีพื้นที่น้อยที่สุด ตัวเลือกปลูกต้นไม้ที่ป้ายนั้น/ย้ายป้าย/สร้างศาลาใหญ่ จึงผิด",
+  "explanation": "อีเมลระบุว่าต้องย้ายเพราะ “the temple hall has a roof repair scheduled for this weekend” ตัวเลือกผู้สอนไม่ว่าง/ยกเลิกงาน/มีกลุ่มใหญ่จอง hall/พยากรณ์อากาศไม่ดี ไม่มีข้อมูล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A bus stop shade project",
+  "topic": "Email: change of venue for a community workshop",
   "diff": 2
  },
  {
@@ -6925,18 +6925,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What did the city transport office decide to do?",
-  "context": "Students at a hot urban school surveyed people waiting at three bus stops near the campus. Most respondents said the lack of shade was uncomfortable, but the students also noticed that the busiest stop had the least space for a large shelter. They presented the results to the city transport office and suggested planting trees at two stops while installing a smaller shade structure at the busiest one. The office agreed to study the proposal. The students were pleased but did not claim that the survey had solved the problem. They said their main achievement was identifying different needs at different stops. Their teacher used the project to discuss why public design should consider both the number of users and the physical limits of a location.",
+  "prompt": "What should participants bring to the workshop?",
+  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
   "options": [
-   "It said it would look into it.",
-   "It approved the planting of trees.",
-   "It paid for the shade structure.",
-   "It asked students to survey again."
+   "Gloves and a small container for compost.",
+   "A lunch box for the break.",
+   "A personal watering can.",
+   "A written list of questions."
   ],
   "answer": 0,
-  "explanation": "บทความระบุตรง ๆ ว่า “The office agreed to study the proposal.” ยังไม่ได้อนุมัติ ปลูกต้นไม้ หรือจ่ายเงิน ตัวเลือกให้สำรวจใหม่ก็ไม่มีในบทความ ตัวเลือก “It approved the planting of trees.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “It paid for the shade structure.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “It asked students to survey again.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "explanation": "อีเมลระบุ “Please bring your own gloves and a small container if you would like to take home some compost” จึงตอบถุงมือและภาชนะรับปุ๋ยหมัก ตัวเลือกเมล็ดพันธุ์/กล่องข้าว/บัวรดน้ำ/รายการคำถาม ไม่ได้กล่าวไว้ ตัวเลือก “A lunch box for the break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A personal watering can.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A written list of questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A bus stop shade project",
+  "topic": "Email: change of venue for a community workshop",
   "diff": 2
  },
  {
@@ -6945,18 +6945,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which summary best fits the passage as a whole?",
-  "context": "Students at a hot urban school surveyed people waiting at three bus stops near the campus. Most respondents said the lack of shade was uncomfortable, but the students also noticed that the busiest stop had the least space for a large shelter. They presented the results to the city transport office and suggested planting trees at two stops while installing a smaller shade structure at the busiest one. The office agreed to study the proposal. The students were pleased but did not claim that the survey had solved the problem. They said their main achievement was identifying different needs at different stops. Their teacher used the project to discuss why public design should consider both the number of users and the physical limits of a location.",
+  "prompt": "In the passage, what does “the new venue” refer to?",
+  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
   "options": [
-   "Why hot cities need more bus stops.",
-   "A student survey that shaped a shade proposal.",
-   "The city transport office’s plans for new trees.",
-   "How students choose survey questions."
+   "The usual temple hall.",
+   "The Riverside Community Hall.",
+   "The organizer's office.",
+   "The parking area behind the hall."
   ],
   "answer": 1,
-  "explanation": "แกนเรื่องคือนักเรียนสำรวจผู้รอรถแล้วนำเสนอผลพร้อมข้อเสนอที่ต่างกันตามแต่ละป้าย ตัวเลือกความจำเป็นของป้ายเพิ่ม/แผนของสำนักงาน/วิธีเลือกคำถาม ไม่ใช่ประเด็นหลัก ตัวเลือก “Why hot cities need more bus stops.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The city transport office’s plans for new trees.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “How students choose survey questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
-  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A bus stop shade project",
+  "explanation": "ข้อความ “If you cannot find the new venue on the day” อ้างถึง Riverside Community Hall ซึ่งเป็นสถานที่ใหม่ ตัวเลือกตลาด/วัดเดิม/สำนักงาน/ที่จอดรถ ไม่ใช่สิ่งถูกอ้างถึง",
+  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
+  "topic": "Email: change of venue for a community workshop",
   "diff": 2
  },
  {
@@ -6965,18 +6965,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does “They” in “They presented the results to the city transport office” refer to?",
-  "context": "Students at a hot urban school surveyed people waiting at three bus stops near the campus. Most respondents said the lack of shade was uncomfortable, but the students also noticed that the busiest stop had the least space for a large shelter. They presented the results to the city transport office and suggested planting trees at two stops while installing a smaller shade structure at the busiest one. The office agreed to study the proposal. The students were pleased but did not claim that the survey had solved the problem. They said their main achievement was identifying different needs at different stops. Their teacher used the project to discuss why public design should consider both the number of users and the physical limits of a location.",
+  "prompt": "Which option best restates: “Drinks and light snacks will be provided by the organizers.”?",
+  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
   "options": [
-   "The people waiting at the bus stops.",
-   "The transport office staff.",
-   "The students who did the survey.",
-   "The students’ teacher."
+   "The organizers will charge for snacks.",
+   "Only water will be provided.",
+   "The organizers will provide drinks and snacks.",
+   "Snacks are available only for children."
   ],
   "answer": 2,
-  "explanation": "ประโยคก่อนหน้าเล่าว่า “Students at a hot urban school surveyed people waiting at three bus stops” ดังนั้นผู้ที่นำผลไปเสนอคือกลุ่มนักเรียนนั้น ตัวเลือกผู้รอรถ/เจ้าหน้าที่สำนักงาน/ครู ไม่ใช่ผู้ทำ action นี้",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A bus stop shade project",
+  "explanation": "ใจความคือผู้จัดจะจัดเครื่องดื่มและของว่างให้ ตัวเลือกต้อง自带/เก็บเงิน/มีแค่น้ำ/เฉพาะเด็ก ขัดกับอีเมล ตัวเลือก “The organizers will charge for snacks.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Only water will be provided.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Snacks are available only for children.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "Email: change of venue for a community workshop",
   "diff": 2
  },
  {
@@ -6985,18 +6985,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the phrase “physical limits” is closest in meaning to",
-  "context": "Students at a hot urban school surveyed people waiting at three bus stops near the campus. Most respondents said the lack of shade was uncomfortable, but the students also noticed that the busiest stop had the least space for a large shelter. They presented the results to the city transport office and suggested planting trees at two stops while installing a smaller shade structure at the busiest one. The office agreed to study the proposal. The students were pleased but did not claim that the survey had solved the problem. They said their main achievement was identifying different needs at different stops. Their teacher used the project to discuss why public design should consider both the number of users and the physical limits of a location.",
+  "prompt": "What is the tone of the email?",
+  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
   "options": [
-   "rules written by the city transport office.",
-   "limits on the number of users.",
-   "problems found in a survey.",
-   "restrictions caused by a place itself."
+   "Indifferent to participants' needs.",
+   "Formal and distant.",
+   "Joking about the move.",
+   "Polite and apologetic about the change."
   ],
   "answer": 3,
-  "explanation": "“the physical limits of a location” ในบริบทนี้คือข้อจำกัดทางกายภาพของพื้นที่ เช่น ป้ายที่คนเยอะที่สุด “had the least space for a large shelter” ไม่ใช่กฎที่สำนักงานเขียนหรือจำนวนผู้ใช้",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A bus stop shade project",
+  "explanation": "อีเมลใช้คำว่า “We apologize for the inconvenience and thank you for your understanding” แสดงน้ำเสียงสุภาพและขอโทษ ตัวเลือกโกรธ/ไม่ใส่ใจ/ห่างเหิน/พูดเล่น ขัดกับอีเมล ตัวเลือก “Indifferent to participants' needs.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Joking about the move.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "Email: change of venue for a community workshop",
   "diff": 2
  },
  {
@@ -8105,18 +8105,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What did staff discover about labeled items?",
-  "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
+  "prompt": "What do the morning sessions focus on?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
   "options": [
-   "They were kept for months.",
-   "They were mostly phones and wallets.",
-   "They were returned much faster.",
-   "They were harder to describe online."
+   "Reading and vocabulary tests.",
+   "Sports and outdoor games.",
+   "Speaking and listening in small groups.",
+   "Science experiments and projects."
   ],
   "answer": 2,
-  "explanation": "ผลทบทวนระบุว่า “items with clear labels were returned much faster than similar items without labels” ตัวเลือกเก็บนานหลายเดือนคือของที่ไม่ถูกรับคืน (ส่วนใหญ่ร่มและเสื้อผ้า)",
+  "explanation": "โฆษณาระบุว่าช่วงเช้า “are dedicated to small-group lessons focused on speaking and listening” จึงตอบพูดและฟังในกลุ่มเล็ก ตัวเลือกไวยากรณ์/อ่านสอบ/กีฬา/ทดลองวิทยาศาสตร์ ไม่ใช่ช่วงเช้า ตัวเลือก “Reading and vocabulary tests.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sports and outdoor games.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Science experiments and projects.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A lost-and-found data review",
+  "topic": "Advertisement: summer language camp for teenagers",
   "diff": 1
  },
  {
@@ -8125,18 +8125,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which two things did the office add to its notice system?",
-  "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
+  "prompt": "What is included in the camp fee?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
   "options": [
-   "A phone line and a paper register.",
-   "Name tags and a storage deadline.",
-   "A weekly photo board and a lost-item fine.",
-   "A web page and regular pictures."
+   "Only lessons and materials.",
+   "Meals and transport only.",
+   "Lessons and a certificate.",
+   "Lessons, materials, meals, and a T-shirt."
   ],
   "answer": 3,
-  "explanation": "บทความบอกว่าเปลี่ยนระบบประกาศ “by adding a simple online form and a weekly photo board” ตัวเลือกสายโทรศัพท์/ทะเบียนกระดาษ/ค่าปรับ ไม่มีในบทความ",
+  "explanation": "โฆษณาระบุ “The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt” จึงตอบเรียน อุปกรณ์ อาหาร เสื้อ ตัวเลือกที่พัก/เฉพาะเรียน/เฉพาะอาหาร/เรียนและ证书 ไม่ได้กล่าว",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A lost-and-found data review",
+  "topic": "Advertisement: summer language camp for teenagers",
   "diff": 1
  },
  {
@@ -8145,18 +8145,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does the passage suggest about the photo board?",
-  "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
+  "prompt": "Who can join the camp?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
   "options": [
-   "It describes items without revealing owners’ details.",
-   "It shows printed photographs of the people who lost items.",
-   "It replaced the one-year records review.",
-   "It lists umbrellas and clothing only."
+   "Students aged thirteen to fifteen.",
+   "University students.",
+   "Students aged sixteen to eighteen.",
+   "Any age from ten to eighteen."
   ],
   "answer": 0,
-  "explanation": "สำนักงาน “did not publish personal details; they used descriptions that owners could recognize” บอร์ดรูปจึงแสดงของพร้อมคำบรรยายโดยไม่เปิดข้อมูลส่วนตัว ตัวเลือกแสดงรูปเจ้าของ/แทนการทบทวน/ลงเฉพาะร่มเสื้อผ้า ไม่มีข้อมูล ตัวเลือก “It shows printed photographs of the people who lost items.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “It replaced the one-year records review.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “It lists umbrellas and clothing only.” ขัดกับข้อมูลที่บทความให้ไว้",
-  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
-  "topic": "A lost-and-found data review",
+  "explanation": "โฆษณาระบุ “is open to students aged thirteen to fifteen” จึงตอบนักเรียนอายุ 13–15 ปี ตัวเลือกต่ำกว่า 12/นักศึกษา/16–18/10–18 ขัดกับโฆษณา",
+  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
+  "topic": "Advertisement: summer language camp for teenagers",
   "diff": 1
  },
  {
@@ -8165,18 +8165,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the word “unclaimed” is closest in meaning to",
-  "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
+  "prompt": "Which option best restates: “A 10 percent discount is offered for families enrolling two or more children.”?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
   "options": [
-   "damaged while they were in storage.",
-   "not collected by their owners.",
-   "recorded in the online form by staff.",
-   "without any labels or descriptions."
+   "A 10 percent discount is given to every family.",
+   "Families with two or more children get a 10 percent discount.",
+   "Families with one child get a 20 percent discount.",
+   "The discount depends on the children's ages."
   ],
   "answer": 1,
-  "explanation": "“many unclaimed items were kept for months” แล้วเป้าหมายของสำนักงานคือให้ของ “claimed before the storage deadline” = ของที่ยังไม่มีเจ้าของมารับ ตัวเลือกไม่มีป้ายชื่อเป็นสาเหตุที่ทำให้รับช้า ไม่ใช่ความหมายของคำ ส่วนเสียหาย/บันทึกในแบบฟอร์มไม่เกี่ยว",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A lost-and-found data review",
+  "explanation": "ใจความคือครอบครัวที่ลงทะเบียนลูกสองคนขึ้นไปได้ส่วนลด 10% ตัวเลือกคิดเต็มเฉพาะลูกคนแรก/ทุกครอบครัวได้ส่วนลด/ลูกคนเดียวได้ 20%/ส่วนลดขึ้นกับอายุ ขัดกับโฆษณา ตัวเลือก “A 10 percent discount is given to every family.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Families with one child get a 20 percent discount.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The discount depends on the children's ages.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "Advertisement: summer language camp for teenagers",
   "diff": 2
  },
  {
@@ -8185,18 +8185,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Why does the author mention umbrellas and clothing?",
-  "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
+  "prompt": "What is the advertisement's purpose?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
   "options": [
-   "To explain why the office stopped storing items.",
-   "To prove that every umbrella carried a clear label.",
-   "To show that some items stayed longer than others.",
-   "To suggest that owners should photograph their wallets."
+   "To compare camps in different cities.",
+   "To teach language teaching methods.",
+   "To persuade parents to enroll their children in the camp.",
+   "To criticize expensive summer programs."
   ],
   "answer": 2,
-  "explanation": "ผู้เขียนยกตัวอย่างร่มและเสื้อผ้ามาเทียบกับโทรศัพท์และกระเป๋าสตางค์ ตามข้อความ “Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer” จึงเป็นการแสดงว่าของบางประเภทถูกเก็บไว้นานกว่า ตัวเลือกแรกไม่มีในบทอ่าน เพราะสำนักงานยังเก็บของจนถึง “the storage deadline” ส่วนตัวเลือกที่สองและสามเป็นการเติมข้อมูลที่บทอ่านไม่ได้กล่าวถึง",
-  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
-  "topic": "A lost-and-found data review",
+  "explanation": "โฆษณาสรุปด้วย “Don't let this summer slip away — book now” มีจุดประสงค์ชักชวนผู้ปกครองลงทะเบียน ตัวเลือกรายงานผล/เปรียบเทียบ/สอนวิธีสอน/วิจารณ์โปรแกรมแพง ไม่ใช่จุดประสงค์",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "Advertisement: summer language camp for teenagers",
   "diff": 3
  },
  {
@@ -9308,12 +9308,12 @@
   "prompt": "Where was the highest bicycle count recorded?",
   "context": "A student research team counted bicycles at four intersections during the morning rush hour. They expected the busiest road to have the most bicycles, but the highest count occurred on a quieter street beside a school. The team later discovered that the street had a protected bicycle lane and fewer parked cars. The students repeated the count on two other mornings to make sure the result was not unusual. The numbers were similar each time. They reported that the count could not prove that the bicycle lane caused more people to cycle, because other factors might also matter. However, they suggested that the protected lane was worth studying further. Their report emphasized the difference between observing a pattern and proving its cause.",
   "options": [
-   "On the busiest road in the town.",
    "On a less busy road next to a school.",
+   "On the busiest road in the town.",
    "At an intersection near a park.",
    "On a street with many parked cars nearby."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "ทีมคาดว่าถนนที่คับคั่งที่สุดจะมีจักรยานมากสุด แต่ “the highest count occurred on a quieter street beside a school” ซึ่งถนนนั้นมีเลนจักรยานแบบมีที่กั้นและรถจอดน้อยกว่า",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A small-town bicycle count",
@@ -9329,11 +9329,11 @@
   "context": "A student research team counted bicycles at four intersections during the morning rush hour. They expected the busiest road to have the most bicycles, but the highest count occurred on a quieter street beside a school. The team later discovered that the street had a protected bicycle lane and fewer parked cars. The students repeated the count on two other mornings to make sure the result was not unusual. The numbers were similar each time. They reported that the count could not prove that the bicycle lane caused more people to cycle, because other factors might also matter. However, they suggested that the protected lane was worth studying further. Their report emphasized the difference between observing a pattern and proving its cause.",
   "options": [
    "To compare the four different intersections.",
-   "To count bicycles during the evening.",
    "To check that the result was not unusual.",
+   "To count bicycles during the evening.",
    "To measure the length of the bicycle lane."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทความระบุว่าทำซ้ำ “to make sure the result was not unusual” และผลคือ “The numbers were similar each time.” ตัวเลือกเทียบสี่แยกเป็นการนับครั้งแรกอยู่แล้ว และไม่มีข้อมูลเรื่องตอนเย็นหรือวัดความยาวเลน ตัวเลือก “To compare the four different intersections.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To count bicycles during the evening.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “To measure the length of the bicycle lane.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A small-town bicycle count",
@@ -9350,10 +9350,10 @@
   "options": [
    "watched by police during rush hour.",
    "reserved for students going to school.",
-   "recently repainted with bright colors.",
-   "separated from cars for safety."
+   "separated from cars for safety.",
+   "recently repainted with bright colors."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "“the street had a protected bicycle lane and fewer parked cars” ช่องจักรยานแบบ protected คือมีสิ่งกั้นแยกจากรถยนต์เพื่อความปลอดภัย บทความไม่ได้พูดถึงตำรวจ การสงวนให้นักเรียน หรือการทาสีใหม่ ตัวเลือก “watched by police during rush hour.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “reserved for students going to school.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “recently repainted with bright colors.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A small-town bicycle count",
@@ -9368,12 +9368,12 @@
   "prompt": "Which option best restates: “Their report emphasized the difference between observing a pattern and proving its cause.”?",
   "context": "A student research team counted bicycles at four intersections during the morning rush hour. They expected the busiest road to have the most bicycles, but the highest count occurred on a quieter street beside a school. The team later discovered that the street had a protected bicycle lane and fewer parked cars. The students repeated the count on two other mornings to make sure the result was not unusual. The numbers were similar each time. They reported that the count could not prove that the bicycle lane caused more people to cycle, because other factors might also matter. However, they suggested that the protected lane was worth studying further. Their report emphasized the difference between observing a pattern and proving its cause.",
   "options": [
-   "Seeing a pattern is not the same as explaining why it happens.",
    "A report should prove the cause of a pattern.",
    "Patterns cannot be observed without counting.",
-   "The report proved why people chose that street."
+   "The report proved why people chose that street.",
+   "Seeing a pattern is not the same as explaining why it happens."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "ใจความคือรายงานชี้ให้เห็นความต่างระหว่างการสังเกตแพทเทิร์นกับการพิสูจน์สาเหตุ = เห็นรูปแบบไม่ได้แปลว่ารู้เหตุผล ตัวเลือกสามตรงข้าม (บทความบอกว่าพิสูจน์ไม่ได้) และตัวเลือกหนึ่งบิดเป็นข้อเรียกร้อง ตัวเลือก “A report should prove the cause of a pattern.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Patterns cannot be observed without counting.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The report proved why people chose that street.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
   "topic": "A small-town bicycle count",
@@ -9388,12 +9388,12 @@
   "prompt": "What is the passage mainly about?",
   "context": "A student research team counted bicycles at four intersections during the morning rush hour. They expected the busiest road to have the most bicycles, but the highest count occurred on a quieter street beside a school. The team later discovered that the street had a protected bicycle lane and fewer parked cars. The students repeated the count on two other mornings to make sure the result was not unusual. The numbers were similar each time. They reported that the count could not prove that the bicycle lane caused more people to cycle, because other factors might also matter. However, they suggested that the protected lane was worth studying further. Their report emphasized the difference between observing a pattern and proving its cause.",
   "options": [
-   "Why students should cycle to school.",
    "A bicycle count that raised questions about a lane.",
+   "Why students should cycle to school.",
    "A town plan to build protected lanes.",
    "How to count traffic at intersections."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "แกนเรื่องคือการนับจักรยานที่พบรูปแบบน่าสนใจ (ถนนเงียบข้างโรงเรียนมีจักรยานมากที่สุดเพราะมีเลนมีที่กั้น) แต่ยังสรุปสาเหตุไม่ได้ ตัวเลือกแผนสร้างเลน/แนะนำปั่นไปโรงเรียน/วิธีนับจราจร ไม่ใช่สาระหลัก ตัวเลือก “Why students should cycle to school.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A town plan to build protected lanes.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “How to count traffic at intersections.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A small-town bicycle count",
@@ -9409,11 +9409,11 @@
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
    "Arrive early and tune their instruments.",
-   "Check the new seating chart and choose their own seats.",
    "Arrive ten minutes early and use the seating chart.",
+   "Check the new seating chart and choose their own seats.",
    "Come ten minutes late for special shows."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทความระบุว่า “The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance” ตัวเลือกจูนเครื่องดนตรี/เลือกที่นั่งเอง/มาสาย ไม่มีในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A community music rehearsal",
@@ -9430,10 +9430,10 @@
   "options": [
    "The chart was placed too far away.",
    "Guest musicians had already changed the seats.",
-   "The conductor never explained how the chart worked.",
-   "They already knew where they usually sat."
+   "They already knew where they usually sat.",
+   "The conductor never explained how the chart worked."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "ข้อความบอกว่า “several musicians ignored the chart because they already knew where they usually sat” ตัวเลือกป้ายอยู่ไกล/แขกรับเชิญย้ายที่นั่ง/ผู้ควบคุมไม่อธิบาย ไม่มีข้อมูล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A community music rehearsal",
@@ -9448,12 +9448,12 @@
   "prompt": "What is the passage mainly about?",
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
-   "Why a seating chart made rehearsals run more smoothly.",
    "How the orchestra chose its guest musicians each year.",
    "Which instruments needed more practice before a performance.",
-   "When the community orchestra moved to a larger hall."
+   "When the community orchestra moved to a larger hall.",
+   "Why a seating chart made rehearsals run more smoothly."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "บทอ่านอธิบายว่าแผนผังที่นั่งช่วยลดการตัดสินใจเล็กน้อยตอนเริ่มซ้อม ตามคำของวาทยกรที่ว่า “It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice” เรื่องหลักจึงเป็นเหตุผลที่แผนผังทำให้การซ้อมราบรื่นขึ้น ตัวเลือกอื่นพูดถึงการเลือกนักดนตรีรับเชิญ เครื่องดนตรี หรือหอประชุมใหม่ ซึ่งบทอ่านไม่ได้กล่าวถึง",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A community music rehearsal",
@@ -9468,12 +9468,12 @@
   "prompt": "In the passage, the word “predictable” is closest in meaning to",
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
-   "finishing earlier than planned.",
    "happening in an expected way.",
+   "finishing earlier than planned.",
    "organized by the guest musicians.",
    "quiet enough for practice."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "“Rehearsals became more predictable” หมายถึงการซ้อมดำเนินไปตามที่คาดไว้ได้ (เริ่มตรงเวลา ทุกคนรู้ที่นั่ง) ไม่ใช่จบเร็วขึ้น หรือเงียบพอสำหรับซ้อม ตัวเลือก “finishing earlier than planned.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “organized by the guest musicians.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “quiet enough for practice.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A community music rehearsal",
@@ -9489,11 +9489,11 @@
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
    "To explain who chose the music.",
-   "To prove that guests arrived earlier than other members.",
    "To show when the chart helped the most.",
+   "To prove that guests arrived earlier than other members.",
    "To describe how the orchestra recruited new players."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทอ่านบอกว่า “Rehearsals became more predictable, especially when guest musicians joined” การยกตัวอย่างนักดนตรีรับเชิญจึงแสดงช่วงเวลาที่แผนผังที่นั่งช่วยได้มากที่สุด ตัวเลือกอื่นกล่าวถึงการเลือกเพลง การมาถึงของแขก และการรับสมัครผู้เล่นใหม่ ซึ่งไม่มีข้อมูลในบทอ่าน ตัวเลือก “To explain who chose the music.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To prove that guests arrived earlier than other members.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “To describe how the orchestra recruited new players.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A community music rehearsal",
@@ -9510,10 +9510,10 @@
   "options": [
    "The fountain was not cleaned often.",
    "The new safety sign was difficult for people to read.",
-   "The square was too busy for a fountain.",
-   "The flow was uneven at peak times."
+   "The flow was uneven at peak times.",
+   "The square was too busy for a fountain."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "ผลทบทวนคือ “the fountain was clean but its water pressure changed during the busiest hours” ตัวเลือกไม่สะอาดบ่อย ๆ จึงตรงข้ามกับข้อความ และไม่มีข้อมูลว่าป้ายอ่านยาก",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A public fountain maintenance plan",
@@ -9528,12 +9528,12 @@
   "prompt": "What else did staff create besides the sign?",
   "context": "A town installed a public drinking fountain in a busy square, but staff noticed that people sometimes avoided it. A maintenance review found that the fountain was clean but its water pressure changed during the busiest hours. Staff adjusted the system and added a small sign explaining that the water was safe to drink. They also created a weekly inspection checklist. After several months, usage increased. The town did not attribute the change to the sign alone; the improved water flow and regular checks happened at the same time. The maintenance team now treats the fountain as a service that requires both technical care and clear information. The experience has influenced plans for two additional fountains in other public spaces.",
   "options": [
-   "A list for regular checks.",
    "A monthly report for the town.",
    "A second fountain in the square.",
-   "A printed list of safe drinking times."
+   "A printed list of safe drinking times.",
+   "A list for regular checks."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "บทความระบุว่า “They also created a weekly inspection checklist.” ส่วนน้ำพุเพิ่มอีกสองแห่งอยู่ในแผนสำหรับพื้นที่สาธารณะอื่น ไม่ใช่ในจัตุรัสนี้ ตัวเลือก “A monthly report for the town.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A second fountain in the square.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “A printed list of safe drinking times.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A public fountain maintenance plan",
@@ -9548,12 +9548,12 @@
   "prompt": "What can be inferred from the town’s comment about the sign?",
   "context": "A town installed a public drinking fountain in a busy square, but staff noticed that people sometimes avoided it. A maintenance review found that the fountain was clean but its water pressure changed during the busiest hours. Staff adjusted the system and added a small sign explaining that the water was safe to drink. They also created a weekly inspection checklist. After several months, usage increased. The town did not attribute the change to the sign alone; the improved water flow and regular checks happened at the same time. The maintenance team now treats the fountain as a service that requires both technical care and clear information. The experience has influenced plans for two additional fountains in other public spaces.",
   "options": [
-   "The sign alone caused the change.",
    "Several changes together caused the increase.",
+   "The sign alone caused the change.",
    "Some staff doubted that the new checklist helped.",
    "Usage increased before any changes."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "เมือง “did not attribute the change to the sign alone; the improved water flow and regular checks happened at the same time” = การเพิ่มขึ้นมาจากหลายการปรับพร้อมกัน ตัวเลือกป้ายมีผลอย่างเดียวจึงตรงข้าม",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A public fountain maintenance plan",
@@ -9569,11 +9569,11 @@
   "context": "A town installed a public drinking fountain in a busy square, but staff noticed that people sometimes avoided it. A maintenance review found that the fountain was clean but its water pressure changed during the busiest hours. Staff adjusted the system and added a small sign explaining that the water was safe to drink. They also created a weekly inspection checklist. After several months, usage increased. The town did not attribute the change to the sign alone; the improved water flow and regular checks happened at the same time. The maintenance team now treats the fountain as a service that requires both technical care and clear information. The experience has influenced plans for two additional fountains in other public spaces.",
   "options": [
    "the number of complaints from the public.",
-   "the pressure of the water in the system.",
    "the amount the fountain was used.",
+   "the pressure of the water in the system.",
    "the cleanliness of the fountain."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "ตอนแรก “people sometimes avoided it” หลังปรับระบบ “After several months, usage increased.” = คนมาใช้น้ำพุมากขึ้น ตัวเลือกแรงดันน้ำและความสะอาดเป็นสิ่งที่เจ้าหน้าที่แก้ ไม่ใช่สิ่งที่เพิ่มขึ้น ส่วนจำนวนคำร้องเรียนไม่มีในบท ตัวเลือก “the number of complaints from the public.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “the pressure of the water in the system.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “the cleanliness of the fountain.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A public fountain maintenance plan",
@@ -9590,10 +9590,10 @@
   "options": [
    "Because two more public fountains are being built soon.",
    "Because staff need to inspect it daily.",
-   "Because people complained about the square.",
-   "It needs both technical care and clear information."
+   "It needs both technical care and clear information.",
+   "Because people complained about the square."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "บทความสรุปว่าทีม “treats the fountain as a service that requires both technical care and clear information” ซึ่งมาจากบทเรียนที่ว่าทั้งแรงดันน้ำและป้ายช่วยเพิ่มการใช้งาน ตัวเลือกแผนสร้างเพิ่มเป็นผลลัพธ์ต่อยอด ไม่ใช่เหตุผลของมุมมองนี้ ตัวเลือก “Because two more public fountains are being built soon.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Because staff need to inspect it daily.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Because people complained about the square.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A public fountain maintenance plan",
@@ -10508,12 +10508,12 @@
   "prompt": "What problem did students find with the first version of the archive?",
   "context": "A teacher asked students to create an archive of past school debate topics. At first, students simply stored the topics in folders, but they soon realized that the collection was difficult to search. They added tags for subjects such as technology, health, education, and the environment. They also recorded which topics had been used more than once. The new system allowed students to find older material without accidentally repeating a recent topic. The teacher emphasized that the archive was not meant to provide ready-made arguments. It was a record of questions that had already been discussed. Students could use it to compare how opinions had changed over time and to choose new questions for future debates.",
   "options": [
-   "The collection was difficult to search.",
    "The folders were too few for the topics.",
+   "The collection was difficult to search.",
    "Students kept repeating old debate topics.",
    "The teacher refused to store the topics."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทความบอกว่าหลังเก็บหัวข้อใส่โฟลเดอร์ “they soon realized that the collection was difficult to search” การซ้ำหัวข้อเป็นปัญหาที่ระบบใหม่ช่วยป้องกัน ไม่ใช่ปัญหาของเวอร์ชันแรก ตัวเลือก “The folders were too few for the topics.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Students kept repeating old debate topics.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The teacher refused to store the topics.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school debate archive",
@@ -10529,11 +10529,11 @@
   "context": "A teacher asked students to create an archive of past school debate topics. At first, students simply stored the topics in folders, but they soon realized that the collection was difficult to search. They added tags for subjects such as technology, health, education, and the environment. They also recorded which topics had been used more than once. The new system allowed students to find older material without accidentally repeating a recent topic. The teacher emphasized that the archive was not meant to provide ready-made arguments. It was a record of questions that had already been discussed. Students could use it to compare how opinions had changed over time and to choose new questions for future debates.",
   "options": [
    "Which students chose each of the debate topics.",
-   "Which topics had been used more than once.",
    "How long each debate lasted.",
+   "Which topics had been used more than once.",
    "The arguments used in past debates."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "ข้อความระบุว่า “They also recorded which topics had been used more than once.” ส่วนการเก็บข้อโต้แย้งถูกปฏิเสธชัดเพราะครูเน้นว่าคลังนี้ “was not meant to provide ready-made arguments”",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school debate archive",
@@ -10550,10 +10550,10 @@
   "options": [
    "Students should copy arguments from old debates.",
    "The archive records answers instead of debate questions.",
-   "The archive lists past questions, not answers to copy.",
-   "Teachers need to write the arguments for students."
+   "Teachers need to write the arguments for students.",
+   "The archive lists past questions, not answers to copy."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ใจความคือคลังเก็บรายการคำถามที่เคยถกมาแล้ว ไม่ใช่ชุดข้อโต้แย้งสำเร็จรูปให้ลอก ตัวเลือกแรกและสามตรงข้ามกับ emphasis ของครู และตัวเลือกสองสลับคำถามกับคำตอบ ตัวเลือก “Students should copy arguments from old debates.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The archive records answers instead of debate questions.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Teachers need to write the arguments for students.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
   "topic": "A school debate archive",
@@ -10568,12 +10568,12 @@
   "prompt": "What is the main idea of the passage?",
   "context": "A teacher asked students to create an archive of past school debate topics. At first, students simply stored the topics in folders, but they soon realized that the collection was difficult to search. They added tags for subjects such as technology, health, education, and the environment. They also recorded which topics had been used more than once. The new system allowed students to find older material without accidentally repeating a recent topic. The teacher emphasized that the archive was not meant to provide ready-made arguments. It was a record of questions that had already been discussed. Students could use it to compare how opinions had changed over time and to choose new questions for future debates.",
   "options": [
+   "How students built a searchable debate archive.",
    "Why school debates repeat the same topics.",
    "A teacher’s method for choosing debate questions.",
-   "How opinions change over time in schools.",
-   "How students built a searchable debate archive."
+   "How opinions change over time in schools."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "แกนเรื่องคือการพัฒนาคลังหัวข้อโต้วาทีจากโฟลเดอร์ค้นยากไปสู่ระบบติดแท็กและบันทึกการใช้ซ้ำ ตัวเลือกวิธีเลือกคำถามของครู/ความเห็นที่เปลี่ยนไป เป็นเพียงส่วนย่อยของเรื่อง ตัวเลือก “Why school debates repeat the same topics.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “A teacher’s method for choosing debate questions.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “How opinions change over time in schools.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A school debate archive",
@@ -10588,12 +10588,12 @@
   "prompt": "In the passage, the phrase “ready-made arguments” is closest in meaning to",
   "context": "A teacher asked students to create an archive of past school debate topics. At first, students simply stored the topics in folders, but they soon realized that the collection was difficult to search. They added tags for subjects such as technology, health, education, and the environment. They also recorded which topics had been used more than once. The new system allowed students to find older material without accidentally repeating a recent topic. The teacher emphasized that the archive was not meant to provide ready-made arguments. It was a record of questions that had already been discussed. Students could use it to compare how opinions had changed over time and to choose new questions for future debates.",
   "options": [
-   "complete arguments to copy.",
    "questions that have not been discussed.",
+   "complete arguments to copy.",
    "opinions that changed over time.",
    "topics with tags for each subject."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "ครูย้ำว่าคลัง “was not meant to provide ready-made arguments. It was a record of questions” = ไม่ได้มีไว้ให้ข้อโต้แย้งสำเร็จรูปไปใช้ได้ทันที ตัวเลือกคำถามที่ยังไม่เคยอภิปราย/ความเห็นที่เปลี่ยน/แท็กหัวข้อ เป็นสิ่งอื่นในบท ไม่ใช่ความหมายของวลีนี้",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A school debate archive",
@@ -10609,11 +10609,11 @@
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
    "Customers had complained about having to pay in cash.",
-   "Some sellers did not want their own devices.",
    "The market wanted to charge vendors a fee.",
-   "One booth had more space than the others."
+   "One booth had more space than the others.",
+   "Some sellers did not want their own devices."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "ประโยคแรกระบุเหตุผลว่า “because some small vendors did not want to buy their own machines” ตัวเลือกผู้ซื้อบ่นเรื่องเงินสด/ตลาดอยากเก็บค่าเช่า/บูธหนึ่งกว้างกว่า ไม่มีข้อมูลในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A farmers market payment trial",
@@ -10628,12 +10628,12 @@
   "prompt": "What did organizers add when long queues appeared?",
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
+   "Another device and queue tickets.",
    "More cashiers at the busiest booth.",
    "A rule limiting card payments to the mornings.",
-   "Another device and queue tickets.",
    "Extra stalls for the smaller vendors."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "บทความระบุว่า “Organizers then added a second terminal and a simple number system.” ตัวเลือกเพิ่มพนักงานเก็บเงิน/จำกัดเวลาใช้บัตร/เพิ่มร้านค้า ไม่มีในบทความ ตัวเลือก “More cashiers at the busiest booth.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “A rule limiting card payments to the mornings.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Extra stalls for the smaller vendors.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A farmers market payment trial",
@@ -10649,11 +10649,11 @@
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
    "cheap for small vendors.",
+   "workable in real conditions.",
    "new to most market visitors.",
-   "tested over several busy seasons.",
-   "workable in real conditions."
+   "tested over several busy seasons."
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "ผู้จัดสรุปว่า “the idea was practical but depended on enough terminals being available at busy times” = ใช้ได้จริงแต่มีเงื่อนไข ตัวเลือกถูก/ใหม่/ทดสอบหลายฤดูกาล ไม่ใช่ความหมายของ practical",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A farmers market payment trial",
@@ -10668,12 +10668,12 @@
   "prompt": "Why does the author mention the holiday market?",
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
-   "To indicate when the system will be tested again.",
    "To explain why vendors refused.",
    "To show that queues are shorter during the holidays.",
+   "To indicate when the system will be tested again.",
    "To argue that card payments should replace cash entirely."
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "ประโยคสุดท้ายบอกว่าผู้จัด “plan to test the system again during the holiday market, when visitor numbers are higher” การอ้างถึงตลาดช่วงวันหยุดจึงบอกช่วงเวลาที่จะทดสอบระบบครั้งถัดไป ตัวเลือกแรกขัดกับบทอ่านเพราะร้านค้าเห็นว่าระบบช่วย “reduced equipment costs” ตัวเลือกที่สองไม่มีข้อมูลเรื่องความยาวคิวช่วงวันหยุด และตัวเลือกสุดท้ายเป็นข้อเสนอที่บทอ่านไม่ได้กล่าวถึง",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A farmers market payment trial",
@@ -10689,11 +10689,11 @@
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
    "They believe the first trial has already succeeded.",
-   "They expect busier times to stress the system.",
    "They will remove the number system first.",
-   "They expect fewer vendors to join."
+   "They expect fewer vendors to join.",
+   "They expect busier times to stress the system."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "การเลือกทดสอบซ้ำ “during the holiday market, when visitor numbers are higher” สะท้อนความกังวลเดิมว่าคิวจะยาวเมื่อคนมาพร้อมกันมาก จึงตอบว่าคาดว่าการใช้งานหนาแน่นจะทดสอบระบบ ตัวเลือกเชื่อว่าสำเร็จแล้วขัดกับการที่ยังต้องทดสอบอีก ตัวเลือก “They believe the first trial has already succeeded.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “They will remove the number system first.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “They expect fewer vendors to join.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A farmers market payment trial",
@@ -10708,12 +10708,12 @@
   "prompt": "How were the two groups of plants watered?",
   "context": "A science class tested two watering methods in a school garden. One group of plants was watered a little every day, while another received a larger amount every three days. Students measured soil moisture and plant height rather than relying only on appearance. After several weeks, the plants in both groups grew, but the second group used less water overall. The students did not recommend the same schedule for every plant because different species had different needs. They concluded that watering decisions should consider both the plant and the soil. The experiment also taught them why measuring conditions is more reliable than judging a result from a single visual impression.",
   "options": [
+   "One a little daily, the other more every three days.",
    "Both received the same amount each day.",
    "Both were watered only when the soil dried.",
-   "One a little daily, the other more every three days.",
    "One group was not watered at all."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "การทดลองคือ “One group of plants was watered a little every day, while another received a larger amount every three days.” ตัวเลือกอื่นผิดจากเงื่อนไขการทดลองที่ระบุไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school garden watering test",
@@ -10729,11 +10729,11 @@
   "context": "A science class tested two watering methods in a school garden. One group of plants was watered a little every day, while another received a larger amount every three days. Students measured soil moisture and plant height rather than relying only on appearance. After several weeks, the plants in both groups grew, but the second group used less water overall. The students did not recommend the same schedule for every plant because different species had different needs. They concluded that watering decisions should consider both the plant and the soil. The experiment also taught them why measuring conditions is more reliable than judging a result from a single visual impression.",
   "options": [
    "Leaf color and the flower count.",
+   "Earth wetness and crop growth.",
    "Water volume and pot size.",
-   "Soil temperature and root depth.",
-   "Earth wetness and crop growth."
+   "Soil temperature and root depth."
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "บทความระบุว่า “Students measured soil moisture and plant height rather than relying only on appearance.” ตัวเลือกสีใบ/จำนวนดอก/อุณหภูมิ/ความรากลึก ไม่ใช่สิ่งที่วัด",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school garden watering test",
@@ -10748,12 +10748,12 @@
   "prompt": "What does “They” in “They concluded that watering decisions” refer to?",
   "context": "A science class tested two watering methods in a school garden. One group of plants was watered a little every day, while another received a larger amount every three days. Students measured soil moisture and plant height rather than relying only on appearance. After several weeks, the plants in both groups grew, but the second group used less water overall. The students did not recommend the same schedule for every plant because different species had different needs. They concluded that watering decisions should consider both the plant and the soil. The experiment also taught them why measuring conditions is more reliable than judging a result from a single visual impression.",
   "options": [
-   "The students in the science class.",
    "The plants growing in both garden groups.",
    "The teachers of the class.",
+   "The students in the science class.",
    "The two watering methods."
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "ประโยคก่อนหน้าคือ “The students did not recommend the same schedule for every plant” ผู้ที่สรุปผลจึงเป็นนักเรียนกลุ่มนั้น ไม่ใช่พืช ครู หรือวิธีรดน้ำ ตัวเลือก “The plants growing in both garden groups.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The teachers of the class.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The two watering methods.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
   "topic": "A school garden watering test",
@@ -10769,11 +10769,11 @@
   "context": "A science class tested two watering methods in a school garden. One group of plants was watered a little every day, while another received a larger amount every three days. Students measured soil moisture and plant height rather than relying only on appearance. After several weeks, the plants in both groups grew, but the second group used less water overall. The students did not recommend the same schedule for every plant because different species had different needs. They concluded that watering decisions should consider both the plant and the soil. The experiment also taught them why measuring conditions is more reliable than judging a result from a single visual impression.",
   "options": [
    "The experiment lasted a few days.",
-   "Different species needed different amounts.",
    "Both groups of plants grew at exactly the same rate.",
-   "Measuring the soil moisture was too difficult."
+   "Measuring the soil moisture was too difficult.",
+   "Different species needed different amounts."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "เหตุผลในบทความคือ “because different species had different needs” ตัวเลือกการทดลองสั้นผิด (กินเวลา several weeks) และทั้งสองกลุ่มโต แต่กลุ่มที่สองใช้น้ำน้อยกว่า จึงไม่ใช่โตเท่ากัน ตัวเลือก “The experiment lasted a few days.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Both groups of plants grew at exactly the same rate.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Measuring the soil moisture was too difficult.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A school garden watering test",
@@ -10788,12 +10788,12 @@
   "prompt": "In the passage, the word “reliable” is closest in meaning to",
   "context": "A science class tested two watering methods in a school garden. One group of plants was watered a little every day, while another received a larger amount every three days. Students measured soil moisture and plant height rather than relying only on appearance. After several weeks, the plants in both groups grew, but the second group used less water overall. The students did not recommend the same schedule for every plant because different species had different needs. They concluded that watering decisions should consider both the plant and the soil. The experiment also taught them why measuring conditions is more reliable than judging a result from a single visual impression.",
   "options": [
+   "more likely to be correct.",
    "less expensive for a school class.",
    "quicker to finish each day.",
-   "more likely to be correct.",
    "more interesting for students."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "นักเรียนวัดความชื้นดินและความสูงพืช “rather than relying only on appearance” และสรุปว่า “measuring conditions is more reliable than judging a result” = การวัดให้ผลที่เชื่อถือได้/ถูกต้องกว่าการดูด้วยตา ไม่ใช่เรื่องราคา ความเร็ว หรือความสนุก",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A school garden watering test",
@@ -11710,10 +11710,10 @@
   "options": [
    "It was too long for older visitors.",
    "It was closed during the trial walk.",
-   "It had no historic buildings left.",
-   "Part of it was a hard uphill climb."
+   "Part of it was a hard uphill climb.",
+   "It had no historic buildings left."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "การเดินทดสอบเผยว่า “one street had a steep section that was uncomfortable for some visitors” กลุ่มจึงเปลี่ยนเส้นทาง ตัวเลือกถนนยาวเกิน/ปิด/ไม่มีตึกเก่า ไม่มีข้อมูลในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A local history walking route",
@@ -11728,12 +11728,12 @@
   "prompt": "What did the group put in the guide instead of only distances?",
   "context": "A group of teenagers designed a walking route that connected six historic buildings in their town. They first planned the route using a digital map, but a trial walk revealed that one street had a steep section that was uncomfortable for some visitors. The group changed the route and added a short explanation about why the original street had been important. They also placed estimated walking times between stops rather than giving only distances. The final guide was shorter than their first version, yet testers said it was easier to follow. The students learned that a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably from one place to another.",
   "options": [
-   "How long each part takes on foot.",
    "Photographs of the six historic buildings.",
    "Notes about the town’s steep streets.",
-   "Bus times for older visitors who got tired."
+   "Bus times for older visitors who got tired.",
+   "How long each part takes on foot."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "บทความระบุว่า “They also placed estimated walking times between stops rather than giving only distances.” ตัวเลือกภาพถ่าย/โน้ตถนนชัน/ตารางรถเมล์ ไม่มีในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A local history walking route",
@@ -11748,12 +11748,12 @@
   "prompt": "What does the passage mainly describe?",
   "context": "A group of teenagers designed a walking route that connected six historic buildings in their town. They first planned the route using a digital map, but a trial walk revealed that one street had a steep section that was uncomfortable for some visitors. The group changed the route and added a short explanation about why the original street had been important. They also placed estimated walking times between stops rather than giving only distances. The final guide was shorter than their first version, yet testers said it was easier to follow. The students learned that a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably from one place to another.",
   "options": [
-   "Six historic buildings that are worth visiting.",
    "Teenagers improving a local walking guide.",
+   "Six historic buildings that are worth visiting.",
    "Why digital maps mislead walkers.",
    "A town plan to repair steep streets."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "แกนเรื่องคือกลุ่มวัยรุ่นออกแบบเส้นทางเดินแล้วปรับจากผลเดินทดสอบจนได้คู่มือที่ตามง่ายขึ้น ตัวเลือกแนะนำตึกเก่า/แผนที่ดิจิทัลทำให้หลง/แผนซ่อมถนน ไม่ใช่ประเด็นหลัก ตัวเลือก “Six historic buildings that are worth visiting.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Why digital maps mislead walkers.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A town plan to repair steep streets.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A local history walking route",
@@ -11769,11 +11769,11 @@
   "context": "A group of teenagers designed a walking route that connected six historic buildings in their town. They first planned the route using a digital map, but a trial walk revealed that one street had a steep section that was uncomfortable for some visitors. The group changed the route and added a short explanation about why the original street had been important. They also placed estimated walking times between stops rather than giving only distances. The final guide was shorter than their first version, yet testers said it was easier to follow. The students learned that a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably from one place to another.",
   "options": [
    "To show that digital maps miss hills.",
-   "To describe what testers liked about the town.",
    "To explain why the group changed the route.",
+   "To describe what testers liked about the town.",
    "To prove that six buildings were too many stops."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทอ่านเล่าว่า “a trial walk revealed that one street had a steep section that was uncomfortable for some visitors” แล้วตามด้วย “The group changed the route” การยกเรื่องทางชันจึงอธิบายสาเหตุที่กลุ่มเปลี่ยนเส้นทาง ตัวเลือกแรกพูดเกินข้อมูลเพราะบทอ่านไม่ได้บอกว่าแผนที่ดิจิทัลพลาดเสมอ ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลรองรับ",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A local history walking route",
@@ -11790,10 +11790,10 @@
   "options": [
    "hid a serious problem from the group.",
    "created a new walking route.",
-   "confirmed an earlier guess.",
-   "showed something previously unknown."
+   "showed something previously unknown.",
+   "confirmed an earlier guess."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "“a trial walk revealed that one street had a steep section” = การเดินทดสอบทำให้ค้นพบสิ่งที่ยังไม่รู้มาก่อน ตัวเลือกซ่อนปัญหาตรงข้ามกับคำว่า revealed และกลุ่มไม่ได้เดาไว้ก่อนจึงไม่ใช่การยืนยัน ตัวเลือก “hid a serious problem from the group.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “created a new walking route.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “confirmed an earlier guess.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A local history walking route",
@@ -11808,12 +11808,12 @@
   "prompt": "Why did the checkout sheet fail to solve the problem?",
   "context": "A school science department had a growing problem with equipment that was returned late. Teachers created a checkout sheet, but students often forgot to write down when an item was due. The department replaced the sheet with a simple online form that showed the return date before a request could be submitted. Staff also added reminders one day before the deadline. Late returns decreased during the first month. However, the department noticed that students sometimes entered the wrong item number. To reduce this problem, staff added photos beside the most commonly borrowed equipment. The department concluded that a good system should make the correct action easy rather than simply reminding users to be careful.",
   "options": [
-   "Learners did not note return deadlines.",
    "Teachers did not keep the old sheet updated.",
+   "Learners did not note return deadlines.",
    "The sheet was stored in the wrong room.",
    "Students could not find the correct item numbers."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทความระบุว่า “students often forgot to write down when an item was due” จึงเปลี่ยนไปใช้ฟอร์มออนไลน์ที่แสดงวันคืนก่อนส่งคำขอ ตัวเลือกครูไม่อัปเดต/เก็บผิดห้อง/หาเลขไม่ได้ ไม่มีข้อมูล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school equipment checkout system",
@@ -11829,11 +11829,11 @@
   "context": "A school science department had a growing problem with equipment that was returned late. Teachers created a checkout sheet, but students often forgot to write down when an item was due. The department replaced the sheet with a simple online form that showed the return date before a request could be submitted. Staff also added reminders one day before the deadline. Late returns decreased during the first month. However, the department noticed that students sometimes entered the wrong item number. To reduce this problem, staff added photos beside the most commonly borrowed equipment. The department concluded that a good system should make the correct action easy rather than simply reminding users to be careful.",
   "options": [
    "A second reminder before each return deadline.",
-   "Pictures next to frequently loaned items.",
    "A list of item numbers on the wall.",
+   "Pictures next to frequently loaned items.",
    "A form that rejected unknown numbers."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "ข้อความระบุว่า “staff added photos beside the most commonly borrowed equipment” เพื่อลดปัญหากรอกเลขผิด ตัวเลือกเตือนซ้ำ/ติดรายการเลข/ฟอร์มปฏิเสธเลขที่ไม่รู้จัก ไม่มีในบทความ ตัวเลือก “A second reminder before each return deadline.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A list of item numbers on the wall.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A form that rejected unknown numbers.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school equipment checkout system",
@@ -11850,10 +11850,10 @@
   "options": [
    "Students should be reminded to return equipment on time.",
    "Online forms cost less than paper sheets in most schools.",
-   "A department improved its checkout system step by step.",
-   "Photographs of equipment encouraged students to borrow more."
+   "Photographs of equipment encouraged students to borrow more.",
+   "A department improved its checkout system step by step."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "บทอ่านเรียงลำดับการปรับปรุง ตั้งแต่ใบยืมอุปกรณ์ แบบฟอร์มออนไลน์ที่ “showed the return date before a request could be submitted” การแจ้งเตือนล่วงหน้า ไปจนถึงการใส่รูปประกอบ แล้วสรุปว่า “a good system should make the correct action easy” ใจความหลักจึงเป็นการปรับระบบทีละขั้น ตัวเลือกแรกเป็นเพียงมาตรการหนึ่ง ตัวเลือกที่สองเป็นการเปรียบเทียบต้นทุนที่ไม่มีในบทอ่าน และตัวเลือกสุดท้ายผิดวัตถุประสงค์ เพราะรูปประกอบมีไว้ลดการกรอกเลขพัสดุผิด",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A school equipment checkout system",
@@ -11868,12 +11868,12 @@
   "prompt": "What can be inferred about the department’s conclusion?",
   "context": "A school science department had a growing problem with equipment that was returned late. Teachers created a checkout sheet, but students often forgot to write down when an item was due. The department replaced the sheet with a simple online form that showed the return date before a request could be submitted. Staff also added reminders one day before the deadline. Late returns decreased during the first month. However, the department noticed that students sometimes entered the wrong item number. To reduce this problem, staff added photos beside the most commonly borrowed equipment. The department concluded that a good system should make the correct action easy rather than simply reminding users to be careful.",
   "options": [
+   "Good systems prevent errors by design.",
    "Students need stricter rules to be careful.",
    "Reminders are useless in any system.",
-   "Equipment photos should replace paper forms.",
-   "Good systems prevent errors by design."
+   "Equipment photos should replace paper forms."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "ข้อสรุปคือ “a good system should make the correct action easy rather than simply reminding users to be careful” = ออกแบบให้การกระทำที่ถูกทำง่ายซึ่งป้องกันข้อผิดพลาดตั้งแต่ต้น ตัวเลือกกฎเข้มขึ้นจึงตรงข้ามกับแนวทางนี้",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A school equipment checkout system",
@@ -11888,12 +11888,12 @@
   "prompt": "In the passage, the word “replaced” is closest in meaning to",
   "context": "A school science department had a growing problem with equipment that was returned late. Teachers created a checkout sheet, but students often forgot to write down when an item was due. The department replaced the sheet with a simple online form that showed the return date before a request could be submitted. Staff also added reminders one day before the deadline. Late returns decreased during the first month. However, the department noticed that students sometimes entered the wrong item number. To reduce this problem, staff added photos beside the most commonly borrowed equipment. The department concluded that a good system should make the correct action easy rather than simply reminding users to be careful.",
   "options": [
-   "put something new in place of.",
    "added several extra pages to.",
+   "put something new in place of.",
    "returned to the science office.",
    "copied out by hand."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "“The department replaced the sheet with a simple online form” = เลิกใช้ใบลงชื่อแล้วใช้ฟอร์มออนไลน์แทน ตัวเลือกเพิ่มหน้ากระดาษ/ส่งคืนห้องวิทยาศาสตร์/คัดลอกด้วยมือ ไม่ใช่ความหมายของ replaced เพราะใบเดิมถูกเลิกใช้ ไม่ได้ถูกปรับหรือทำสำเนา ตัวเลือก “added several extra pages to.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “returned to the science office.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “copied out by hand.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A school equipment checkout system",
@@ -11909,11 +11909,11 @@
   "context": "Residents in a newly built neighborhood complained that some sidewalks were much hotter than others. A student team mapped the streets and measured surface temperatures at the same time each afternoon. They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction. Instead of recommending trees everywhere, the team marked several locations where planting could provide shade without blocking entrances or underground utilities. The neighborhood committee used the map to choose two pilot streets. The students stressed that their measurements represented a few afternoons, not every season. They suggested repeating the study during the hottest part of summer before making a larger planting plan.",
   "options": [
    "Asking residents which streets felt hot.",
-   "Measuring surface temperatures at the same afternoon time.",
    "Comparing air temperatures each morning.",
+   "Measuring surface temperatures at the same afternoon time.",
    "Using satellite images of the streets."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "บทความระบุว่าทีม “mapped the streets and measured surface temperatures at the same time each afternoon” ตัวเลือกถามชาวบ้าน/วัดอากาศตอนเช้า/ใช้ภาพถ่ายดาวเทียม ไม่มีในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A neighborhood shade-tree survey",
@@ -11930,10 +11930,10 @@
   "options": [
    "The neighborhood committee paid for two streets.",
    "Mature trees made sidewalks too dark.",
-   "Some spots would block entrances or utilities.",
-   "Building height stopped tree growth."
+   "Building height stopped tree growth.",
+   "Some spots would block entrances or utilities."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ทีมเลือกเฉพาะจุดที่ “planting could provide shade without blocking entrances or underground utilities” แสดงว่าบางจุดปลูกไม่ได้เพราะขวางทางเข้าหรืองานระบบใต้ดิน ตัวเลือกงบประมาณ/ร่มเกินไป/ตึกสูงขัดการเติบโต ไม่ใช่เหตุผลที่ระบุ ตัวเลือก “The neighborhood committee paid for two streets.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Mature trees made sidewalks too dark.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Building height stopped tree growth.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A neighborhood shade-tree survey",
@@ -11948,12 +11948,12 @@
   "prompt": "In the passage, the word “mature” is closest in meaning to",
   "context": "Residents in a newly built neighborhood complained that some sidewalks were much hotter than others. A student team mapped the streets and measured surface temperatures at the same time each afternoon. They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction. Instead of recommending trees everywhere, the team marked several locations where planting could provide shade without blocking entrances or underground utilities. The neighborhood committee used the map to choose two pilot streets. The students stressed that their measurements represented a few afternoons, not every season. They suggested repeating the study during the hottest part of summer before making a larger planting plan.",
   "options": [
+   "fully grown.",
    "recently planted.",
    "carefully trimmed.",
-   "very small and young.",
-   "fully grown."
+   "very small and young."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "“sidewalks with mature trees were generally cooler” เพราะต้นไม้ที่โตเต็มที่ให้ร่มเงามาก ตัวเลือกเพิ่งปลูก/ต้นเล็กยังอ่อนมีความหมายตรงข้าม ส่วนตัดแต่งกิ่งไม่ใช่ความหมายของ mature ตัวเลือก “recently planted.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “carefully trimmed.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “very small and young.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A neighborhood shade-tree survey",
@@ -11968,12 +11968,12 @@
   "prompt": "Which option best restates: “They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction.”?",
   "context": "Residents in a newly built neighborhood complained that some sidewalks were much hotter than others. A student team mapped the streets and measured surface temperatures at the same time each afternoon. They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction. Instead of recommending trees everywhere, the team marked several locations where planting could provide shade without blocking entrances or underground utilities. The neighborhood committee used the map to choose two pilot streets. The students stressed that their measurements represented a few afternoons, not every season. They suggested repeating the study during the hottest part of summer before making a larger planting plan.",
   "options": [
-   "Trees usually cooled sidewalks, but not in every place.",
    "Trees cooled every sidewalk in the same way.",
+   "Trees usually cooled sidewalks, but not in every place.",
    "The height of buildings decided which streets had trees.",
    "Sidewalks without trees were always cooler."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "ใจความคือทางเท้าที่มีไม้ใหญ่โดยทั่วไปเย็นกว่า แต่ผลไม่เท่ากันทุกจุดเพราะขึ้นกับความสูงตึกและทิศถนน ตัวเลือกแรกตรงข้ามกับ “varied” และตัวเลือกสามกลับข้างข้อค้นพบ ตัวเลือก “Trees cooled every sidewalk in the same way.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The height of buildings decided which streets had trees.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sidewalks without trees were always cooler.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
   "topic": "A neighborhood shade-tree survey",
@@ -11989,11 +11989,11 @@
   "context": "Residents in a newly built neighborhood complained that some sidewalks were much hotter than others. A student team mapped the streets and measured surface temperatures at the same time each afternoon. They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction. Instead of recommending trees everywhere, the team marked several locations where planting could provide shade without blocking entrances or underground utilities. The neighborhood committee used the map to choose two pilot streets. The students stressed that their measurements represented a few afternoons, not every season. They suggested repeating the study during the hottest part of summer before making a larger planting plan.",
   "options": [
    "Why new neighborhoods feel too hot.",
-   "A temperature survey that guided tree planting.",
    "A committee’s rules for street repairs.",
+   "A temperature survey that guided tree planting.",
    "How students measure surface temperatures outdoors."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "แกนเรื่องคือทีมสำรวจอุณหภูมิจนได้แผนที่ซึ่งคณะกรรมการใช้เลือกถนนนำร่องสองสาย พร้อมข้อจำกัดของข้อมูล ตัวเลือกวิธีวัดเป็นเพียงรายละเอียด และไม่มีกฎซ่อมถนนในบทความ ตัวเลือก “Why new neighborhoods feel too hot.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A committee’s rules for street repairs.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “How students measure surface temperatures outdoors.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A neighborhood shade-tree survey",
@@ -12910,10 +12910,10 @@
   "options": [
    "Students had asked for many more outdoor lessons.",
    "The school had no room for experiments.",
-   "Book exercises seemed unrelated to life.",
-   "Plants grew too slowly in the classroom."
+   "Plants grew too slowly in the classroom.",
+   "Book exercises seemed unrelated to life."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "บทความให้เหตุผลว่า “Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room.” ตัวเลือกนักเรียนขอ/ไม่มีห้อง/พืชโตช้า ไม่มีข้อมูลในบทความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school garden science class",
@@ -12928,12 +12928,12 @@
   "prompt": "Which equipment did the students need for the garden work?",
   "context": "Science teachers at one school wanted students to understand why plants grew differently under changing conditions. Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room. They began by asking groups of students to measure the height of young plants and record their observations each week. Rulers, plant labels, and simple journals were enough; no expensive equipment was needed. After six weeks, students could use their measurements to explain how plants responded to sunlight and water. The results were encouraging, although plants in shaded areas grew more slowly. The teachers now plan to move some pots regularly and compare the records. They hope the garden will have a lasting place in science lessons and show students how evidence can answer practical questions.",
   "options": [
+   "Measuring tools, name tags and notebooks.",
    "Thermometers and expensive soil testing kits.",
    "Cameras and measuring tapes.",
-   "Scales and light meters.",
-   "Measuring tools, name tags and notebooks."
+   "Scales and light meters."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "ข้อความระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed.” ตัวเลือกเครื่องมือวัดอื่น ๆ จึงผิด เพราะบทความเน้นว่าไม่ต้องใช้อุปกรณ์ราคาแพง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A school garden science class",
@@ -12948,12 +12948,12 @@
   "prompt": "Why does the author mention rulers and simple journals?",
   "context": "Science teachers at one school wanted students to understand why plants grew differently under changing conditions. Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room. They began by asking groups of students to measure the height of young plants and record their observations each week. Rulers, plant labels, and simple journals were enough; no expensive equipment was needed. After six weeks, students could use their measurements to explain how plants responded to sunlight and water. The results were encouraging, although plants in shaded areas grew more slowly. The teachers now plan to move some pots regularly and compare the records. They hope the garden will have a lasting place in science lessons and show students how evidence can answer practical questions.",
   "options": [
-   "To show that the project needed little equipment.",
    "To list what students had to buy before the class.",
+   "To show that the project needed little equipment.",
    "To explain how teachers measured the garden beds.",
    "To prove that journals were better than plant labels."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทอ่านระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed” การยกอุปกรณ์เหล่านี้จึงแสดงให้เห็นว่าโครงการไม่จำเป็นต้องใช้ของแพง ตัวเลือกแรกขัดกับข้อความนั้นโดยตรง ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่าน",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A school garden science class",
@@ -12969,11 +12969,11 @@
   "context": "Science teachers at one school wanted students to understand why plants grew differently under changing conditions. Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room. They began by asking groups of students to measure the height of young plants and record their observations each week. Rulers, plant labels, and simple journals were enough; no expensive equipment was needed. After six weeks, students could use their measurements to explain how plants responded to sunlight and water. The results were encouraging, although plants in shaded areas grew more slowly. The teachers now plan to move some pots regularly and compare the records. They hope the garden will have a lasting place in science lessons and show students how evidence can answer practical questions.",
   "options": [
    "surprising to the teachers.",
-   "giving reason to feel hopeful.",
    "difficult to measure.",
+   "giving reason to feel hopeful.",
    "complete and final."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "“The results were encouraging, although plants in shaded areas grew more slowly” = ผลน่าพอใจ/ให้ความหวังว่าวิธีนี้ได้ผล แม้ยังมีจุดที่ต้องปรับ ตัวเลือกน่าประหลาดใจ/วัดยาก/เสร็จสิ้นสมบูรณ์ ไม่ใช่ความหมายนี้ ตัวเลือก “surprising to the teachers.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “difficult to measure.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “complete and final.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A school garden science class",
@@ -12990,10 +12990,10 @@
   "options": [
    "It replaced the textbook examples.",
    "It produced the same results in shaded and sunny spots.",
-   "Teachers plan to keep using it in future lessons.",
-   "It required students to buy their own measuring tools."
+   "It required students to buy their own measuring tools.",
+   "Teachers plan to keep using it in future lessons."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ตอนท้ายระบุว่าครู “now plan to move some pots regularly and compare the records” และ “hope the garden will have a lasting place in science lessons” จึงอนุมานได้ว่าครูจะใช้สวนนี้ในบทเรียนต่อไป ตัวเลือกแรกเกินข้อมูล เพราะบทอ่านบอกเพียงว่าตัวอย่างในหนังสือ “felt distant from daily life” ตัวเลือกที่สองขัดกับข้อความ “plants in shaded areas grew more slowly” และตัวเลือกที่สามขัดกับประโยคที่บอกว่าไม่จำเป็นต้องใช้อุปกรณ์ราคาแพง",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A school garden science class",
@@ -14108,12 +14108,12 @@
   "prompt": "What did visitors do before the signs were added?",
   "context": "Visitors to the town's public art trail often admired the sculptures but walked on without learning who had made them or what they represented. Artists and local guides decided to add short descriptions at each stop. They chose weather-resistant signs and asked visitors to comment on the wording and placement. During the rainy season, they counted how many people paused to read the signs and spoke with several tour groups. The review showed that visitors spent longer looking at the artworks, although some signs were difficult to read in bright sunlight. The organizers will test larger lettering and different positions before replacing the signs. They do not intend to redesign the whole trail; they simply need to adjust a few details so that the information is easier to use.",
   "options": [
-   "Asked the local guides about each artwork.",
    "Admired the sculptures and walked on.",
+   "Asked the local guides about each artwork.",
    "Read the artists’ names along the whole trail.",
    "Took photographs at the stops."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "บทความระบุว่าผู้เยี่ยมชม “often admired the sculptures but walked on without learning who had made them or what they represented” จึงมีการเพิ่มคำบรรยายสั้น ๆ ที่แต่ละจุด ตัวเลือก “Asked the local guides about each artwork.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Read the artists’ names along the whole trail.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Took photographs at the stops.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A public art trail",
@@ -14129,11 +14129,11 @@
   "context": "Visitors to the town's public art trail often admired the sculptures but walked on without learning who had made them or what they represented. Artists and local guides decided to add short descriptions at each stop. They chose weather-resistant signs and asked visitors to comment on the wording and placement. During the rainy season, they counted how many people paused to read the signs and spoke with several tour groups. The review showed that visitors spent longer looking at the artworks, although some signs were difficult to read in bright sunlight. The organizers will test larger lettering and different positions before replacing the signs. They do not intend to redesign the whole trail; they simply need to adjust a few details so that the information is easier to use.",
   "options": [
    "They were damaged by the rainy season.",
-   "They were placed too close together.",
    "They were hard to read in bright sunlight.",
+   "They were placed too close together.",
    "They used wording that most visitors disliked."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "ผลการทบทวนคือ “some signs were difficult to read in bright sunlight” ผู้จัดจึงจะทดสอบตัวอักษรใหญ่ขึ้นและตำแหน่งใหม่ ตัวเลือกเสียหายจากฝน/วางชิดกัน/ถ้อยคำไม่ถูกใจ ไม่มีข้อมูล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A public art trail",
@@ -14150,10 +14150,10 @@
   "options": [
    "easy to move to another place.",
    "printed in very large letters.",
-   "cheap for the organizers to buy in bulk.",
-   "not easily damaged by rain or sun."
+   "not easily damaged by rain or sun.",
+   "cheap for the organizers to buy in bulk."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "พวกเขา “chose weather-resistant signs” เพราะต้องติดตั้งกลางแจ้งและผ่านช่วงฝน = ทนแดดทนฝนไม่เสียหายง่าย ตัวเลือกย้ายง่าย/ตัวอักษรใหญ่/ราคาถูก ไม่ใช่ความหมายของคำนี้ ตัวเลือก “easy to move to another place.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “printed in very large letters.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “cheap for the organizers to buy in bulk.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A public art trail",
@@ -14168,12 +14168,12 @@
   "prompt": "Why does the author mention bright sunlight?",
   "context": "Visitors to the town's public art trail often admired the sculptures but walked on without learning who had made them or what they represented. Artists and local guides decided to add short descriptions at each stop. They chose weather-resistant signs and asked visitors to comment on the wording and placement. During the rainy season, they counted how many people paused to read the signs and spoke with several tour groups. The review showed that visitors spent longer looking at the artworks, although some signs were difficult to read in bright sunlight. The organizers will test larger lettering and different positions before replacing the signs. They do not intend to redesign the whole trail; they simply need to adjust a few details so that the information is easier to use.",
   "options": [
-   "To identify a problem the organizers must fix.",
    "To explain when most visitors walk.",
    "To show why the signs were made weather-resistant.",
-   "To suggest that the trail should close in summer."
+   "To suggest that the trail should close in summer.",
+   "To identify a problem the organizers must fix."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "บทอ่านบอกผลทบทวนว่า “some signs were difficult to read in bright sunlight” แล้วตามด้วยการที่ผู้จัด “will test larger lettering and different positions” การอ้างถึงแสงแดดจึงเป็นการระบุปัญหาที่ต้องแก้ไข ตัวเลือกอื่นไม่ตรงกับบทอ่าน เพราะป้ายถูกเลือกให้ทนสภาพอากาศก่อนเริ่มทดสอบ และไม่มีข้อมูลเรื่องเวลาเดินชมหรือการปิดเส้นทางในฤดูร้อน",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A public art trail",
@@ -14188,12 +14188,12 @@
   "prompt": "What can be inferred about the organizers’ next steps?",
   "context": "Visitors to the town's public art trail often admired the sculptures but walked on without learning who had made them or what they represented. Artists and local guides decided to add short descriptions at each stop. They chose weather-resistant signs and asked visitors to comment on the wording and placement. During the rainy season, they counted how many people paused to read the signs and spoke with several tour groups. The review showed that visitors spent longer looking at the artworks, although some signs were difficult to read in bright sunlight. The organizers will test larger lettering and different positions before replacing the signs. They do not intend to redesign the whole trail; they simply need to adjust a few details so that the information is easier to use.",
   "options": [
-   "They will remove the signs for now.",
    "They will change small details, not the trail itself.",
+   "They will remove the signs for now.",
    "They will replace every sign immediately.",
    "They will stop asking visitors to comment."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "ผู้จัดจะ “test larger lettering and different positions before replacing the signs” และ “do not intend to redesign the whole trail; they simply need to adjust a few details” = ปรับรายละเอียดทีละน้อย ตัวเลือกถอดป้ายทั้งหมด/เปลี่ยนทันที/เลิกขอความเห็น จึงผิด",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A public art trail",
@@ -14209,11 +14209,11 @@
   "context": "Many residents owned drills, ladders, and other tools that they used only once or twice a year. A neighborhood group saw an opportunity to help people save money and avoid filling their homes with rarely used equipment. It set up a shared tool library, using numbered labels to identify each item and return cards to record who borrowed it. The organizers reviewed borrowing records over several weekends and asked members what should change. The scheme improved access to useful equipment, and several households said they no longer needed to buy their own tools. However, some items came back late, making it difficult for the next person to borrow them. The group now plans to send reminder messages before each due date and review the system after another trial period.",
   "options": [
    "Photos of tools and a member list.",
-   "A phone line and a paper register.",
    "Coded tags and sign-out slips.",
+   "A phone line and a paper register.",
    "Barcodes and an online booking form."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทความระบุว่าตั้งห้องสมุดเครื่องมือ “using numbered labels to identify each item and return cards to record who borrowed it” ตัวเลือกอื่นไม่มีในบทความ ตัวเลือก “Photos of tools and a member list.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A phone line and a paper register.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Barcodes and an online booking form.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A shared tool library",
@@ -14230,10 +14230,10 @@
   "options": [
    "Members refused to use the labels.",
    "Too few residents joined the group.",
-   "The tools were often returned broken.",
-   "Some items were returned too late."
+   "Some items were returned too late.",
+   "The tools were often returned broken."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "ข้อความระบุว่า “some items came back late, making it difficult for the next person to borrow them” กลุ่มจึงวางแผนส่งข้อความเตือนก่อนถึงกำหนดคืน ตัวเลือกของชำรุด/คนเข้าร่วมน้อย ไม่มีข้อมูล ตัวเลือก “Members refused to use the labels.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Too few residents joined the group.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The tools were often returned broken.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A shared tool library",
@@ -14248,12 +14248,12 @@
   "prompt": "What does “It” in “It set up a shared tool library” refer to?",
   "context": "Many residents owned drills, ladders, and other tools that they used only once or twice a year. A neighborhood group saw an opportunity to help people save money and avoid filling their homes with rarely used equipment. It set up a shared tool library, using numbered labels to identify each item and return cards to record who borrowed it. The organizers reviewed borrowing records over several weekends and asked members what should change. The scheme improved access to useful equipment, and several households said they no longer needed to buy their own tools. However, some items came back late, making it difficult for the next person to borrow them. The group now plans to send reminder messages before each due date and review the system after another trial period.",
   "options": [
-   "A neighborhood group.",
    "A local hardware tool shop.",
    "The town council.",
-   "A single local household."
+   "A single local household.",
+   "A neighborhood group."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "ประโยคก่อนหน้าคือ “A neighborhood group saw an opportunity to help people save money” ผู้ที่ตั้งห้องสมุดเครื่องมือจึงคือกลุ่มเพื่อนบ้านนั้น ไม่ใช่ร้านค้า สภาเมือง หรือครัวเรือนใดครัวเรือนหนึ่ง ตัวเลือก “A local hardware tool shop.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The town council.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “A single local household.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
   "topic": "A shared tool library",
@@ -14268,12 +14268,12 @@
   "prompt": "Why did the group plan to send reminder messages?",
   "context": "Many residents owned drills, ladders, and other tools that they used only once or twice a year. A neighborhood group saw an opportunity to help people save money and avoid filling their homes with rarely used equipment. It set up a shared tool library, using numbered labels to identify each item and return cards to record who borrowed it. The organizers reviewed borrowing records over several weekends and asked members what should change. The scheme improved access to useful equipment, and several households said they no longer needed to buy their own tools. However, some items came back late, making it difficult for the next person to borrow them. The group now plans to send reminder messages before each due date and review the system after another trial period.",
   "options": [
-   "To ask members what should change next.",
    "To reduce the number of late returns.",
+   "To ask members what should change next.",
    "To record who borrowed each item.",
    "To tell members about new tools."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "การส่งข้อความเตือนก่อนถึงกำหนดคืนมุ่งแก้ปัญหา “some items came back late” ส่วนการถามความเห็นว่าควรปรับอะไรทำไปแล้วตอนทบทวนบันทึกการยืม และการบันทึกผู้ยืมเป็นหน้าที่ของ return cards ตัวเลือก “To ask members what should change next.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To record who borrowed each item.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “To tell members about new tools.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A shared tool library",
@@ -14289,11 +14289,11 @@
   "context": "Many residents owned drills, ladders, and other tools that they used only once or twice a year. A neighborhood group saw an opportunity to help people save money and avoid filling their homes with rarely used equipment. It set up a shared tool library, using numbered labels to identify each item and return cards to record who borrowed it. The organizers reviewed borrowing records over several weekends and asked members what should change. The scheme improved access to useful equipment, and several households said they no longer needed to buy their own tools. However, some items came back late, making it difficult for the next person to borrow them. The group now plans to send reminder messages before each due date and review the system after another trial period.",
   "options": [
    "a dishonest plan to trick people.",
-   "a list of tools offered for sale.",
    "an organized plan or project.",
+   "a list of tools offered for sale.",
    "a group of nearby households."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "“The scheme improved access to useful equipment” หมายถึงโครงการห้องสมุดเครื่องมือที่กลุ่มจัดตั้งขึ้น ในบริบทนี้ scheme ไม่ได้มีความหมายเชิงลบว่าแผนหลอกลวง ห้องสมุดไม่ได้ขายเครื่องมือ และไม่ใช่กลุ่มครัวเรือน ตัวเลือก “a dishonest plan to trick people.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “a list of tools offered for sale.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “a group of nearby households.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A shared tool library",
@@ -14310,10 +14310,10 @@
   "options": [
    "They opened a public cooling center.",
    "They printed safety tips for nearby homes.",
-   "They asked health services for funding.",
-   "They checked on neighbors and shared advice."
+   "They checked on neighbors and shared advice.",
+   "They asked health services for funding."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "บทความระบุว่า “They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion.” ศูนย์ทำความเย็นมีอยู่แล้วในชุมชน และการประสานกับบริการสุขภาพเป็นแผนในอนาคต",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A heatwave support network",
@@ -14328,12 +14328,12 @@
   "prompt": "What was the phone tree used for?",
   "context": "During a series of hot afternoons, some older residents found it difficult to stay cool or reach a public cooling center. Local health volunteers started a simple support network. They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion. A phone tree helped volunteers contact people who lived alone, while printed safety tips were left at community centers. After six weeks, more residents knew where to find cool indoor spaces and whom to call for help. The network still had limits: volunteers could not visit every home each day. To make the support more lasting, the organizers plan to coordinate with local health services and invite additional residents to join the phone list.",
   "options": [
-   "Contacting people who lived alone.",
    "Calling the local health services.",
    "Recording how many tips were printed.",
-   "Warning residents about hot afternoons."
+   "Warning residents about hot afternoons.",
+   "Contacting people who lived alone."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "ข้อความบอกว่า “A phone tree helped volunteers contact people who lived alone” ส่วนการประสานกับบริการสุขภาพเป็นแผนของผู้จัด และการเตือนเรื่องอากาศร้อนไม่ใช่วัตถุประสงค์ของสายโทรศัพท์นี้ ตัวเลือก “Calling the local health services.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Recording how many tips were printed.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Warning residents about hot afternoons.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A heatwave support network",
@@ -14348,12 +14348,12 @@
   "prompt": "Which summary best fits the passage as a whole?",
   "context": "During a series of hot afternoons, some older residents found it difficult to stay cool or reach a public cooling center. Local health volunteers started a simple support network. They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion. A phone tree helped volunteers contact people who lived alone, while printed safety tips were left at community centers. After six weeks, more residents knew where to find cool indoor spaces and whom to call for help. The network still had limits: volunteers could not visit every home each day. To make the support more lasting, the organizers plan to coordinate with local health services and invite additional residents to join the phone list.",
   "options": [
-   "Why cooling centers are hard to find.",
    "A volunteer network helping residents in hot weather.",
+   "Why cooling centers are hard to find.",
    "A town plan to build more indoor spaces.",
    "How heat exhaustion is treated by doctors."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "แกนเรื่องคืออาสาสมัครสุขภาพตั้งเครือข่ายช่วยเหลือผู้สูงวัยในช่วงอากาศร้อน แล้วขยายผลและวางแผนให้ยั่งยืน ตัวเลือกศูนย์ทำความเย็นหายาก/แผนสร้างพื้นที่/วิธีรักษา ไม่ใช่สาระหลัก ตัวเลือก “Why cooling centers are hard to find.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A town plan to build more indoor spaces.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “How heat exhaustion is treated by doctors.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A heatwave support network",
@@ -14369,11 +14369,11 @@
   "context": "During a series of hot afternoons, some older residents found it difficult to stay cool or reach a public cooling center. Local health volunteers started a simple support network. They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion. A phone tree helped volunteers contact people who lived alone, while printed safety tips were left at community centers. After six weeks, more residents knew where to find cool indoor spaces and whom to call for help. The network still had limits: volunteers could not visit every home each day. To make the support more lasting, the organizers plan to coordinate with local health services and invite additional residents to join the phone list.",
   "options": [
    "To explain how residents learned to drink more water.",
-   "To prove that cooling centers were too far from homes.",
    "To show how volunteers reached people living alone.",
+   "To prove that cooling centers were too far from homes.",
    "To describe the training that all volunteers received."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "บทอ่านระบุว่า “A phone tree helped volunteers contact people who lived alone” การยกเรื่องเครือข่ายโทรบอกต่อจึงแสดงวิธีเข้าถึงผู้ที่อาศัยอยู่ลำพัง ตัวเลือกแรกเกี่ยวกับคำแนะนำอีกข้อหนึ่งในเรื่องน้ำดื่ม ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A heatwave support network",
@@ -14390,10 +14390,10 @@
   "options": [
    "reaching more people at once.",
    "costing the organizers less.",
-   "starting again in summer.",
-   "continuing for a long time."
+   "continuing for a long time.",
+   "starting again in summer."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "“To make the support more lasting” = ทำให้ความช่วยเหลืออยู่ได้นานต่อเนื่อง จึงต้องประสานกับบริการสุขภาพและเพิ่มคนในรายชื่อ ตัวเลือกเข้าถึงมากขึ้น/ถูกลง/เริ่มใหม่ทุกฤดู ไม่ใช่ความหมายของ lasting",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A heatwave support network",
@@ -15308,12 +15308,12 @@
   "prompt": "What happened after the Chiang Mai seller started going live?",
   "context": "Live-stream shopping has become a popular way for small sellers in Thailand to reach customers. Instead of posting photos and waiting for orders, sellers appear on camera, show their products, and answer viewers’ questions in real time. A clothing seller in Chiang Mai says her sales doubled after she began going live three evenings a week. However, the method is more demanding than it looks. Sellers must prepare products in advance, speak clearly for long periods, and respond quickly to comments. Some viewers also complain that the excitement of a live sale makes them buy things they do not really need. Consumer groups advise shoppers to check return policies before paying and to wait a few minutes before deciding. For sellers, experts suggest starting with short sessions and asking a friend to help read comments, so that the host can focus on presenting.",
   "options": [
-   "She sold twice as much as before.",
    "She opened a second shop in the city.",
+   "She sold twice as much as before.",
    "She stopped posting photos of clothes.",
    "She hired a friend to answer comments."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทความบอกว่า “her sales doubled after she began going live three evenings a week” = ขายได้เป็นสองเท่า ตัวเลือกเปิดร้านที่สองและเลิกโพสต์รูปไม่มีในบท ส่วนการให้เพื่อนช่วยอ่านคอมเมนต์เป็นคำแนะนำของผู้เชี่ยวชาญ ไม่ใช่สิ่งที่ผู้ขายคนนี้ทำ ตัวเลือก “She opened a second shop in the city.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “She stopped posting photos of clothes.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “She hired a friend to answer comments.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "Selling products on live video",
@@ -15329,11 +15329,11 @@
   "context": "Live-stream shopping has become a popular way for small sellers in Thailand to reach customers. Instead of posting photos and waiting for orders, sellers appear on camera, show their products, and answer viewers’ questions in real time. A clothing seller in Chiang Mai says her sales doubled after she began going live three evenings a week. However, the method is more demanding than it looks. Sellers must prepare products in advance, speak clearly for long periods, and respond quickly to comments. Some viewers also complain that the excitement of a live sale makes them buy things they do not really need. Consumer groups advise shoppers to check return policies before paying and to wait a few minutes before deciding. For sellers, experts suggest starting with short sessions and asking a friend to help read comments, so that the host can focus on presenting.",
   "options": [
    "Ask a friend to read the comments for them.",
-   "Check return rules and wait briefly.",
    "Shop during short live sessions instead.",
+   "Check return rules and wait briefly.",
    "Compare live prices with prices in photos."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "กลุ่มผู้บริโภคแนะนำให้ “check return policies before paying and to wait a few minutes before deciding” จึงตอบว่าดูเงื่อนไขการคืนสินค้าและรอสักครู่ ตัวเลือกให้เพื่อนอ่านคอมเมนต์และไลฟ์สั้น ๆ เป็นคำแนะนำสำหรับผู้ขาย ส่วนเทียบราคากับรูปไม่มีในบท ตัวเลือก “Ask a friend to read the comments for them.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Shop during short live sessions instead.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Compare live prices with prices in photos.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "Selling products on live video",
@@ -15350,10 +15350,10 @@
   "options": [
    "asking for money.",
    "very popular with viewers.",
-   "needing a lot of effort.",
-   "easy to learn quickly."
+   "easy to learn quickly.",
+   "needing a lot of effort."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ประโยคถัดไปอธิบายว่าผู้ขายต้องเตรียมสินค้า พูดนาน และตอบคอมเมนต์เร็ว ดังนั้น “more demanding than it looks” = ต้องใช้ความพยายามมากกว่าที่เห็น ตัวเลือกขอเงินมาจากคำว่า demand ในความหมายอื่น ส่วนเป็นที่นิยมและเรียนง่ายไม่ใช่ความหมายนี้ ตัวเลือก “asking for money.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “very popular with viewers.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “easy to learn quickly.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "Selling products on live video",
@@ -15368,12 +15368,12 @@
   "prompt": "What can be inferred about live-stream shopping from the passage?",
   "context": "Live-stream shopping has become a popular way for small sellers in Thailand to reach customers. Instead of posting photos and waiting for orders, sellers appear on camera, show their products, and answer viewers’ questions in real time. A clothing seller in Chiang Mai says her sales doubled after she began going live three evenings a week. However, the method is more demanding than it looks. Sellers must prepare products in advance, speak clearly for long periods, and respond quickly to comments. Some viewers also complain that the excitement of a live sale makes them buy things they do not really need. Consumer groups advise shoppers to check return policies before paying and to wait a few minutes before deciding. For sellers, experts suggest starting with short sessions and asking a friend to help read comments, so that the host can focus on presenting.",
   "options": [
+   "It can lead some viewers to spend unwisely.",
    "It works best for clothing sellers in big cities.",
    "It requires no preparation before going live.",
-   "It has replaced photo-based selling entirely.",
-   "It can lead some viewers to spend unwisely."
+   "It has replaced photo-based selling entirely."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "บทความบอกว่าความตื่นเต้นของการไลฟ์ “makes them buy things they do not really need” จึงอนุมานได้ว่าทำให้บางคนใช้เงินไม่รอบคอบ ตัวเลือกไม่ต้องเตรียมตัวขัดกับ “prepare products in advance” ตัวเลือกเหมาะกับเมืองใหญ่และแทนที่การขายแบบรูปทั้งหมดไม่มีหลักฐานในบท ตัวเลือก “It works best for clothing sellers in big cities.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “It requires no preparation before going live.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “It has replaced photo-based selling entirely.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "Selling products on live video",
@@ -15388,12 +15388,12 @@
   "prompt": "What does “them” in “makes them buy things they do not really need” refer to?",
   "context": "Live-stream shopping has become a popular way for small sellers in Thailand to reach customers. Instead of posting photos and waiting for orders, sellers appear on camera, show their products, and answer viewers’ questions in real time. A clothing seller in Chiang Mai says her sales doubled after she began going live three evenings a week. However, the method is more demanding than it looks. Sellers must prepare products in advance, speak clearly for long periods, and respond quickly to comments. Some viewers also complain that the excitement of a live sale makes them buy things they do not really need. Consumer groups advise shoppers to check return policies before paying and to wait a few minutes before deciding. For sellers, experts suggest starting with short sessions and asking a friend to help read comments, so that the host can focus on presenting.",
   "options": [
-   "Some viewers.",
    "Small sellers.",
+   "Some viewers.",
    "Consumer groups.",
    "The products."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "ประโยคเต็มคือ “Some viewers also complain that the excitement of a live sale makes them buy things they do not really need.” them จึงหมายถึงผู้ชมบางคน ผู้ขาย กลุ่มผู้บริโภค และสินค้า ไม่ใช่ผู้ที่ถูกกระตุ้นให้ซื้อ ตัวเลือก “Small sellers.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Consumer groups.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The products.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
   "topic": "Selling products on live video",
@@ -15409,11 +15409,11 @@
   "context": "During class discussions, a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak. Language teachers wanted to make participation fairer without slowing lessons too much. They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute. Question prompts and role cards helped groups stay focused. After a month, teachers found that more learners were sharing ideas, although some beginners still needed extra time to prepare an answer. The teachers plan to give discussion questions to students before the next lesson. They will also keep a reliable record of participation and use feedback from the class to decide when to change the activity.",
   "options": [
    "Discussions made lessons too long.",
-   "A few confident students answered everything.",
    "Beginners refused to join any group.",
-   "Teachers asked too few questions."
+   "Teachers asked too few questions.",
+   "A few confident students answered everything."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "บทความระบุว่า “a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak” ตัวเลือกอภิปรายยืดเยื้อ/มือใหม่ปฏิเสธเข้าร่วม ไม่มีข้อมูล ตัวเลือก “Discussions made lessons too long.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Beginners refused to join any group.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Teachers asked too few questions.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A classroom discussion group",
@@ -15428,12 +15428,12 @@
   "prompt": "Which two tools helped groups stay focused?",
   "context": "During class discussions, a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak. Language teachers wanted to make participation fairer without slowing lessons too much. They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute. Question prompts and role cards helped groups stay focused. After a month, teachers found that more learners were sharing ideas, although some beginners still needed extra time to prepare an answer. The teachers plan to give discussion questions to students before the next lesson. They will also keep a reliable record of participation and use feedback from the class to decide when to change the activity.",
   "options": [
+   "Question prompts and role cards.",
    "Turn-taking cards and small timers.",
    "Small groups and name lists.",
-   "Question prompts and role cards.",
    "Record sheets and feedback forms."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "ข้อความระบุว่า “Question prompts and role cards helped groups stay focused.” ส่วนบัตรผลัดกันพูดและกลุ่มย่อยเป็นอีกมาตรการหนึ่งที่ทำให้ทุกคนมีโอกาสพูด ไม่ใช่ตัวช่วยเรื่องโฟกัสที่ระบุไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A classroom discussion group",
@@ -15449,11 +15449,11 @@
   "context": "During class discussions, a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak. Language teachers wanted to make participation fairer without slowing lessons too much. They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute. Question prompts and role cards helped groups stay focused. After a month, teachers found that more learners were sharing ideas, although some beginners still needed extra time to prepare an answer. The teachers plan to give discussion questions to students before the next lesson. They will also keep a reliable record of participation and use feedback from the class to decide when to change the activity.",
   "options": [
    "give money to support the class activities.",
+   "share ideas in the discussion.",
    "lead the whole group.",
-   "prepare answers at home.",
-   "share ideas in the discussion."
+   "prepare answers at home."
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "ครูใช้การ์ดผลัดกันพูดเพื่อให้ “each student had a clear chance to contribute” และผลคือ “more learners were sharing ideas” = มีส่วนร่วมแสดงความคิดเห็น ตัวเลือกบริจาคเงินเป็นความหมายอื่นของ contribute ที่ไม่เข้ากับบริบท ตัวเลือก “give money to support the class activities.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “lead the whole group.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “prepare answers at home.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A classroom discussion group",
@@ -15468,12 +15468,12 @@
   "prompt": "Which option best restates: “They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute.”?",
   "context": "During class discussions, a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak. Language teachers wanted to make participation fairer without slowing lessons too much. They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute. Question prompts and role cards helped groups stay focused. After a month, teachers found that more learners were sharing ideas, although some beginners still needed extra time to prepare an answer. The teachers plan to give discussion questions to students before the next lesson. They will also keep a reliable record of participation and use feedback from the class to decide when to change the activity.",
   "options": [
-   "New methods gave every student a chance to speak.",
    "The cards let confident students answer more often.",
    "Small groups replaced the class discussions.",
+   "New methods gave every student a chance to speak.",
    "Students had to contribute before the lesson."
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "ใจความคือการใช้บัตรผลัดพูดและกลุ่มย่อยเพื่อให้ทุกคนมีโอกาสพูดชัด ๆ ตัวเลือกแรกตรงข้ามกับเป้าหมายเรื่องความเท่าเทียม และตัวเลือกสามบิดเวลาเป็นก่อนเรียน ตัวเลือก “The cards let confident students answer more often.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Small groups replaced the class discussions.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Students had to contribute before the lesson.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
   "topic": "A classroom discussion group",
@@ -15489,11 +15489,11 @@
   "context": "During class discussions, a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak. Language teachers wanted to make participation fairer without slowing lessons too much. They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute. Question prompts and role cards helped groups stay focused. After a month, teachers found that more learners were sharing ideas, although some beginners still needed extra time to prepare an answer. The teachers plan to give discussion questions to students before the next lesson. They will also keep a reliable record of participation and use feedback from the class to decide when to change the activity.",
   "options": [
    "Teaching beginners a second language.",
-   "Making class discussion fairer for all students.",
    "Choosing questions for language classes.",
-   "Recording participation in one school."
+   "Recording participation in one school.",
+   "Making class discussion fairer for all students."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "แกนเรื่องคือครูปรับวิธีอภิปราย (บัตรผลัดพูด กลุ่มย่อย การ์ดบทบาท) เพื่อให้ผู้เรียนเงียบมีโอกาสเท่าเทียม แล้วประเมินผลและวางแผนต่อ ตัวเลือกบันทึกการมีส่วนร่วมเป็นเพียงมาตรการย่อย ตัวเลือก “Teaching beginners a second language.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Choosing questions for language classes.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Recording participation in one school.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A classroom discussion group",
@@ -15508,12 +15508,12 @@
   "prompt": "What did the first session of the event focus on?",
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
+   "Basic stitches and choosing safe repairs.",
    "Buying new needles, thread and spare fabric.",
    "Deciding which clothes to throw away.",
-   "Basic stitches and choosing safe repairs.",
    "Publishing a guide for beginners."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "บทความระบุว่า “The first session focused on basic stitches and on deciding which garments were safe to repair.” ตัวเลือกซื้ออุปกรณ์เป็นสิ่งที่อาสาสมัครจัดเตรียมให้ และการเผยแพร่คู่มือเป็นแผนในอนาคต",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A repair-and-reuse event",
@@ -15529,11 +15529,11 @@
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
    "Clothes with a few small tears in the fabric.",
+   "Those with badly worn seams or fastenings.",
    "Garments made of thin spare fabric.",
-   "Items that families had worn for many years.",
-   "Those with badly worn seams or fastenings."
+   "Items that families had worn for many years."
   ],
-  "answer": 3,
+  "answer": 1,
   "explanation": "ข้อความระบุว่า “not every damaged item could be safely fixed, especially when seams or fastenings were badly worn” ส่วนรอยขาดเล็ก ๆ คือสิ่งที่อาสาสมัครสอนซ่อมได้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A repair-and-reuse event",
@@ -15548,12 +15548,12 @@
   "prompt": "What is the passage mainly about?",
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
-   "A repair event and the changes it prompted.",
    "Which stitches are hardest to learn.",
    "Why families threw away clothes with small tears.",
+   "A repair event and the changes it prompted.",
    "How volunteers made needles and thread at the event."
   ],
-  "answer": 0,
+  "answer": 2,
   "explanation": "บทอ่านเล่าว่าอาสาสมัครสอนซ่อมเสื้อผ้าในงานสุดสัปดาห์ ผู้เข้าร่วมหลายคนกลับมาพร้อมเสื้อผ้าที่ซ่อมเอง ต่อมาพบข้อจำกัด และ “Organizers now plan to publish a short guide showing which repairs are suitable for beginners” เรื่องหลักจึงเป็นงานซ่อมและการปรับแผนที่ตามมา ตัวเลือกอื่นเป็นรายละเอียดเรื่องตะเข็บ เหตุผลที่ทิ้งเสื้อผ้า และอุปกรณ์ที่อาสาสมัครเตรียมไว้ให้",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A repair-and-reuse event",
@@ -15569,11 +15569,11 @@
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
    "pieces of spare fabric.",
-   "items of clothing.",
    "small tears in cloth.",
-   "tools used for sewing."
+   "tools used for sewing.",
+   "items of clothing."
   ],
-  "answer": 1,
+  "answer": 3,
   "explanation": "บริบทคืออาสาสมัครสอนครอบครัวซ่อมเสื้อผ้าที่มีรอยขาดเล็ก ๆ และตัดสินว่า “which garments were safe to repair” = เสื้อผ้าแต่ละชิ้น ไม่ใช่เศษผ้า รอยขาด หรืออุปกรณ์เย็บ ตัวเลือก “pieces of spare fabric.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “small tears in cloth.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “tools used for sewing.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A repair-and-reuse event",
@@ -15588,12 +15588,12 @@
   "prompt": "What can be inferred about the next repair event?",
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
+   "It will include clearer advice on safe repairs.",
    "It will accept only garments without any tears.",
    "It will be run by the families who attended before.",
-   "It will include clearer advice on safe repairs.",
    "It will move to a larger hall for more families."
   ],
-  "answer": 2,
+  "answer": 0,
   "explanation": "ประโยคสุดท้ายระบุว่าผู้จัด “will adjust the workshop to make the safety advice clearer before the next event” จึงอนุมานได้ว่าจะมีคำแนะนำด้านความปลอดภัยที่ชัดเจนขึ้น ตัวเลือกแรกขัดกับวัตถุประสงค์ของงานที่สอนซ่อมเสื้อผ้ามีรอยขาด ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A repair-and-reuse event",
@@ -16510,10 +16510,10 @@
   "options": [
    "The drama club needs Room 204 on Thursday.",
    "More students signed up than expected.",
-   "The technician will use the main hall.",
-   "Its usual room is having equipment fixed."
+   "Its usual room is having equipment fixed.",
+   "The technician will use the main hall."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "อีเมลบอกว่า “The air conditioner in Room 204 is being repaired” จึงต้องย้ายห้อง ตัวเลือกชมรมการแสดงต้องการห้อง 204 ผิด เพราะชมรมใช้ห้องโถงร่วมกัน ตัวเลือกคนสมัครเยอะและช่างใช้ห้องโถงไม่มีในอีเมล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A workshop room change",
@@ -16528,12 +16528,12 @@
   "prompt": "Why should students come ten minutes early?",
   "context": "Subject: Change to Thursday’s English workshop. Dear students, I am writing to let you know that this Thursday’s English workshop will move from Room 204 to the main hall. The air conditioner in Room 204 is being repaired, and the technician cannot finish the work until Friday. The workshop will still start at 3:30 p.m., but please arrive ten minutes early, because the hall is shared with the drama club and we need to set up the chairs ourselves. Bring the reading you received last week; we will discuss it in small groups. If you cannot attend because of the new location, reply to this email by Wednesday evening, and I will send you the slides and a short task to complete at home. Thank you for your understanding. Best regards, Ms. Kanya Wong, English Department",
   "options": [
-   "To help arrange the seating.",
    "To pick up the reading from last week.",
    "To meet the drama club before the session.",
-   "To give their replies to Ms. Wong in person."
+   "To give their replies to Ms. Wong in person.",
+   "To help arrange the seating."
   ],
-  "answer": 0,
+  "answer": 3,
   "explanation": "อีเมลขอให้มาก่อนสิบนาทีเพราะ “we need to set up the chairs ourselves” จึงตอบว่าช่วยจัดที่นั่ง ตัวเลือกรับเอกสาร ผิดเพราะได้รับไปแล้วสัปดาห์ก่อน ส่วนพบชมรมการแสดงและตอบกลับด้วยตนเองไม่มีในอีเมล ตัวเลือก “To pick up the reading from last week.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “To meet the drama club before the session.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To give their replies to Ms. Wong in person.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A workshop room change",
@@ -16548,12 +16548,12 @@
   "prompt": "In the passage, the word “attend” is closest in meaning to",
   "context": "Subject: Change to Thursday’s English workshop. Dear students, I am writing to let you know that this Thursday’s English workshop will move from Room 204 to the main hall. The air conditioner in Room 204 is being repaired, and the technician cannot finish the work until Friday. The workshop will still start at 3:30 p.m., but please arrive ten minutes early, because the hall is shared with the drama club and we need to set up the chairs ourselves. Bring the reading you received last week; we will discuss it in small groups. If you cannot attend because of the new location, reply to this email by Wednesday evening, and I will send you the slides and a short task to complete at home. Thank you for your understanding. Best regards, Ms. Kanya Wong, English Department",
   "options": [
-   "pay attention to.",
    "be present at.",
+   "pay attention to.",
    "arrive late to.",
    "write about."
   ],
-  "answer": 1,
+  "answer": 0,
   "explanation": "“If you cannot attend because of the new location” = ถ้ามาร่วมเวิร์กช็อปไม่ได้ attend ในที่นี้แปลว่าเข้าร่วม ไม่ใช่ตั้งใจฟัง (pay attention) มาสาย หรือเขียนถึง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A workshop room change",
@@ -16569,11 +16569,11 @@
   "context": "Subject: Change to Thursday’s English workshop. Dear students, I am writing to let you know that this Thursday’s English workshop will move from Room 204 to the main hall. The air conditioner in Room 204 is being repaired, and the technician cannot finish the work until Friday. The workshop will still start at 3:30 p.m., but please arrive ten minutes early, because the hall is shared with the drama club and we need to set up the chairs ourselves. Bring the reading you received last week; we will discuss it in small groups. If you cannot attend because of the new location, reply to this email by Wednesday evening, and I will send you the slides and a short task to complete at home. Thank you for your understanding. Best regards, Ms. Kanya Wong, English Department",
   "options": [
    "The main hall.",
-   "The air conditioner.",
    "The reading given out last week.",
+   "The air conditioner.",
    "The new location of the workshop."
   ],
-  "answer": 2,
+  "answer": 1,
   "explanation": "ประโยคเต็มคือ “Bring the reading you received last week; we will discuss it in small groups.” it จึงหมายถึงเอกสารที่ได้รับสัปดาห์ก่อน ห้องโถง แอร์ และสถานที่ใหม่ ไม่ใช่สิ่งที่จะนำมาอภิปรายกลุ่ม ตัวเลือก “The main hall.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The air conditioner.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The new location of the workshop.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
   "topic": "A workshop room change",
@@ -16590,10 +16590,10 @@
   "options": [
    "So she can book a larger room for Friday.",
    "So the technician can finish the repair on time.",
-   "So the drama club knows how many chairs to bring.",
-   "So absent students can still get the materials."
+   "So absent students can still get the materials.",
+   "So the drama club knows how many chairs to bring."
   ],
-  "answer": 3,
+  "answer": 2,
   "explanation": "อีเมลบอกว่าคนที่มาไม่ได้ให้ตอบกลับ แล้ว “I will send you the slides and a short task to complete at home” จุดประสงค์จึงเป็นการส่งเอกสารให้คนที่ขาด ตัวเลือกจองห้องวันศุกร์ เร่งช่าง และบอกชมรมการแสดงเรื่องเก้าอี้ ไม่มีในอีเมล ตัวเลือก “So she can book a larger room for Friday.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “So the technician can finish the repair on time.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “So the drama club knows how many chairs to bring.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A workshop room change",
@@ -16608,12 +16608,12 @@
   "prompt": "Why did new players stop coming after their first sessions?",
   "context": "Coaches at a neighborhood sports club noticed that new players often stopped attending after their first few sessions. Some felt left out when established teams kept the same roles and practiced at different levels. The coaches began mixing skill levels during drills and rotating team roles so that everyone could take part. They used cones, balls, and clear instructions rather than buying new equipment. After six weeks, more new players were attending regularly and several had joined a team. Scheduling remained difficult because some players could only come at weekends. The coaches plan to offer an extra weekend session and review attendance at the end of each term. Their aim is to build a lasting program where new members feel welcome and can improve at their own pace.",
   "options": [
-   "They felt excluded by long-time groups.",
    "The first drills were far too hard for beginners.",
+   "They felt excluded by long-time groups.",
    "The club had no equipment for them.",
    "Sessions were held only at weekends."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทความระบุว่า “Some felt left out when established teams kept the same roles and practiced at different levels.” ตัวเลือกไม่มีอุปกรณ์ผิดเพราะโค้ชใช้ของเดิมที่มี และตารางสุดสัปดาห์เป็นข้อจำกัดของผู้ฝึกบางคนที่พบภายหลัง ตัวเลือก “The first drills were far too hard for beginners.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The club had no equipment for them.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sessions were held only at weekends.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A youth sports program",
@@ -16629,11 +16629,11 @@
   "context": "Coaches at a neighborhood sports club noticed that new players often stopped attending after their first few sessions. Some felt left out when established teams kept the same roles and practiced at different levels. The coaches began mixing skill levels during drills and rotating team roles so that everyone could take part. They used cones, balls, and clear instructions rather than buying new equipment. After six weeks, more new players were attending regularly and several had joined a team. Scheduling remained difficult because some players could only come at weekends. The coaches plan to offer an extra weekend session and review attendance at the end of each term. Their aim is to build a lasting program where new members feel welcome and can improve at their own pace.",
   "options": [
    "Shorter training sessions and clearer instructions.",
-   "Combining abilities and switching positions.",
    "New equipment and weekend training.",
+   "Combining abilities and switching positions.",
    "Fixed roles and separate skill groups."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "โค้ช “began mixing skill levels during drills and rotating team roles so that everyone could take part” โดยใช้กรวย ลูกบอล และคำสั่งที่ชัดเจนแทนการซื้ออุปกรณ์ใหม่ ตัวเลือกบทตายตัว/แยกกลุ่มทักษะ ตรงข้ามกับสิ่งที่ทำ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A youth sports program",
@@ -16650,10 +16650,10 @@
   "options": [
    "They want new members to improve quickly.",
    "They plan to end the whole program after each term.",
-   "They want a program that keeps newcomers included.",
-   "They aim to build teams of the best players."
+   "They aim to build teams of the best players.",
+   "They want a program that keeps newcomers included."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ใจความคือเป้าหมายคือโปรแกรมที่ยั่งยืน ทำให้สมาชิกใหม่รู้สึกได้รับการต้อนรับและเก่งขึ้นตามจังหวะตัวเอง ตัวเลือกหนึ่งบิดเป็นต้องเก่งเร็ว ตัวเลือกสามขัดกับแนวคิดผสมทุกระดับทักษะ ตัวเลือก “They want new members to improve quickly.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “They plan to end the whole program after each term.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “They aim to build teams of the best players.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
   "topic": "A youth sports program",
@@ -16668,12 +16668,12 @@
   "prompt": "What is the main idea of the passage?",
   "context": "Coaches at a neighborhood sports club noticed that new players often stopped attending after their first few sessions. Some felt left out when established teams kept the same roles and practiced at different levels. The coaches began mixing skill levels during drills and rotating team roles so that everyone could take part. They used cones, balls, and clear instructions rather than buying new equipment. After six weeks, more new players were attending regularly and several had joined a team. Scheduling remained difficult because some players could only come at weekends. The coaches plan to offer an extra weekend session and review attendance at the end of each term. Their aim is to build a lasting program where new members feel welcome and can improve at their own pace.",
   "options": [
+   "Coaches changing a program to keep new players.",
    "Why neighborhood sports clubs need new equipment.",
    "How coaches plan weekend sports sessions.",
-   "A club’s rules about team roles.",
-   "Coaches changing a program to keep new players."
+   "A club’s rules about team roles."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "แกนเรื่องคือโค้ชสังเกตว่าผู้เล่นใหม่หายไปแล้วปรับการฝึก (ผสมระดับ หมุนบทบาท เพิ่มรอบสุดสัปดาห์) จนการเข้าร่วมดีขึ้น ตัวเลือกอุปกรณ์ใหม่/กฎบทบาท/วิธีจัดตาราง ไม่ใช่ประเด็นหลัก ตัวเลือก “Why neighborhood sports clubs need new equipment.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “How coaches plan weekend sports sessions.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A club’s rules about team roles.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A youth sports program",
@@ -16688,12 +16688,12 @@
   "prompt": "In the passage, the word “established” is closest in meaning to",
   "context": "Coaches at a neighborhood sports club noticed that new players often stopped attending after their first few sessions. Some felt left out when established teams kept the same roles and practiced at different levels. The coaches began mixing skill levels during drills and rotating team roles so that everyone could take part. They used cones, balls, and clear instructions rather than buying new equipment. After six weeks, more new players were attending regularly and several had joined a team. Scheduling remained difficult because some players could only come at weekends. The coaches plan to offer an extra weekend session and review attendance at the end of each term. Their aim is to build a lasting program where new members feel welcome and can improve at their own pace.",
   "options": [
-   "already formed for some time.",
    "officially approved by the city.",
+   "already formed for some time.",
    "made up of new players.",
    "stronger than other teams."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "ผู้เล่นใหม่รู้สึกถูกกันออกเมื่อ “established teams kept the same roles” = ทีมที่ตั้งมานานแล้ว ตรงข้ามกับผู้เล่นใหม่ ตัวเลือกประกอบด้วยผู้เล่นใหม่จึงผิด ส่วนได้รับอนุมัติ/เก่งกว่าไม่ใช่ความหมายในบริบทนี้",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A youth sports program",
@@ -16709,11 +16709,11 @@
   "context": "Residents in one apartment complex wanted to reduce electricity use but were unsure which daily habits made the biggest difference. A volunteer group offered a short home energy check. Its first step was to share a simple checklist and demonstrate how standby power works. Volunteers used plug-in meters to show how much electricity some devices consumed when left on, then handed out printed reminders. After several weeks, a number of households reported switching off unused devices and reducing their bills. The group also learned that energy savings varied because homes had different appliances and routines. Rather than promise the same result for everyone, the volunteers plan to compare more readings and update their advice. The approach was practical because families could try the changes immediately and measure whether they helped.",
   "options": [
    "Handing out plug-in meters to households.",
-   "Sharing a checklist and demonstrating standby power.",
    "Comparing electricity bills from last year.",
+   "Sharing a checklist and demonstrating standby power.",
    "Asking families which appliances they owned."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "บทความระบุว่า “Its first step was to share a simple checklist and demonstrate how standby power works.” ส่วนเครื่องวัดแบบเสียบปลั๊กเป็นสิ่งที่อาสาสมัครใช้แสดงตัวเลขเอง ไม่ได้แจกให้ครัวเรือนในตอนแรก ตัวเลือก “Handing out plug-in meters to households.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Comparing electricity bills from last year.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Asking families which appliances they owned.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A community energy plan",
@@ -16730,10 +16730,10 @@
   "options": [
    "Buying fewer electrical appliances.",
    "Using the checklist daily.",
-   "Switching off unused devices and lower bills.",
-   "Asking for more printed reminders."
+   "Asking for more printed reminders.",
+   "Switching off unused devices and lower bills."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ข้อความระบุว่า “a number of households reported switching off unused devices and reducing their bills” ตัวเลือกซื้อเครื่องใช้น้อยลง/ใช้เช็กลิสต์ทุกวัน/ขอใบเตือนเพิ่ม ไม่มีข้อมูลในบทความ ตัวเลือก “Buying fewer electrical appliances.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Using the checklist daily.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Asking for more printed reminders.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A community energy plan",
@@ -16748,12 +16748,12 @@
   "prompt": "In the passage, the phrase “standby power” is closest in meaning to",
   "context": "Residents in one apartment complex wanted to reduce electricity use but were unsure which daily habits made the biggest difference. A volunteer group offered a short home energy check. Its first step was to share a simple checklist and demonstrate how standby power works. Volunteers used plug-in meters to show how much electricity some devices consumed when left on, then handed out printed reminders. After several weeks, a number of households reported switching off unused devices and reducing their bills. The group also learned that energy savings varied because homes had different appliances and routines. Rather than promise the same result for everyone, the volunteers plan to compare more readings and update their advice. The approach was practical because families could try the changes immediately and measure whether they helped.",
   "options": [
+   "electricity used by devices left switched on.",
    "power stored for an emergency.",
    "energy saved by a checklist.",
-   "electricity produced at home.",
-   "electricity used by devices left switched on."
+   "electricity produced at home."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "อาสาสมัครใช้เครื่องวัดเสียบปลั๊กเพื่อแสดง “how much electricity some devices consumed when left on” = ไฟฟ้าที่เครื่องใช้กินขณะเปิดค้างไว้/สแตนด์บาย ไม่ใช่ไฟสำรองหรือไฟที่ผลิตเอง",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A community energy plan",
@@ -16768,12 +16768,12 @@
   "prompt": "What is the main idea of the passage?",
   "context": "Residents in one apartment complex wanted to reduce electricity use but were unsure which daily habits made the biggest difference. A volunteer group offered a short home energy check. Its first step was to share a simple checklist and demonstrate how standby power works. Volunteers used plug-in meters to show how much electricity some devices consumed when left on, then handed out printed reminders. After several weeks, a number of households reported switching off unused devices and reducing their bills. The group also learned that energy savings varied because homes had different appliances and routines. Rather than promise the same result for everyone, the volunteers plan to compare more readings and update their advice. The approach was practical because families could try the changes immediately and measure whether they helped.",
   "options": [
-   "Volunteers helped households test small energy changes.",
    "Standby power is the largest cost in every home.",
+   "Volunteers helped households test small energy changes.",
    "Families should buy plug-in meters before saving energy.",
    "A single checklist works the same way in every apartment."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "บทอ่านเล่าว่ากลุ่มอาสาสมัครเสนอการตรวจการใช้พลังงานในบ้าน สาธิตการทำงานของไฟสแตนด์บาย ใช้เครื่องวัดแบบเสียบปลั๊ก และแจกใบเตือน จนหลายครัวเรือน “reported switching off unused devices and reducing their bills” ใจความหลักจึงเป็นการช่วยให้ครัวเรือนทดลองปรับเปลี่ยนเล็กๆ แล้ววัดผลเอง ตัวเลือกแรกและสามขัดกับข้อความ “energy savings varied because homes had different appliances and routines” ส่วนตัวเลือกที่สองเป็นการแนะนำให้ซื้ออุปกรณ์ซึ่งบทอ่านไม่ได้กล่าวถึง",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A community energy plan",
@@ -16789,11 +16789,11 @@
   "context": "Residents in one apartment complex wanted to reduce electricity use but were unsure which daily habits made the biggest difference. A volunteer group offered a short home energy check. Its first step was to share a simple checklist and demonstrate how standby power works. Volunteers used plug-in meters to show how much electricity some devices consumed when left on, then handed out printed reminders. After several weeks, a number of households reported switching off unused devices and reducing their bills. The group also learned that energy savings varied because homes had different appliances and routines. Rather than promise the same result for everyone, the volunteers plan to compare more readings and update their advice. The approach was practical because families could try the changes immediately and measure whether they helped.",
   "options": [
    "Households refused to use the meters.",
-   "Its advice must fit different homes.",
    "The first checklist contained mistakes.",
+   "Its advice must fit different homes.",
    "Bills will rise again next year."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "เพราะผลประหยัดต่างกันตามเครื่องใช้และกิจวัตรของแต่ละบ้าน การเก็บข้อมูลเพิ่มจึงช่วยให้คำแนะนำเหมาะกับแต่ละครัวเรือนได้ ตัวเลือกเช็กลิสต์ผิด/ครัวเรือนปฏิเสธการใช้เครื่องวัด ไม่มีข้อมูลในบทความ ตัวเลือก “Households refused to use the meters.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The first checklist contained mistakes.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Bills will rise again next year.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A community energy plan",
@@ -17710,10 +17710,10 @@
   "options": [
    "A trainer offered the session for free.",
    "Medical help arrived too slowly.",
-   "Volunteers were unsure how to respond to accidents.",
-   "Participants asked for a reference card."
+   "Participants asked for a reference card.",
+   "Volunteers were unsure how to respond to accidents."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "บทความระบุว่าหลังอุบัติเหตุเล็กน้อย “organizers realized that many volunteers were unsure how to respond before medical help arrived” จึงจัดวันอบรม ตัวเลือกเทรนเนอร์เสนอฟรี/ผู้เข้าร่วมขอบัตร ไม่มีข้อมูล",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A first-aid awareness day",
@@ -17728,12 +17728,12 @@
   "prompt": "Which step were some participants still uncertain about?",
   "context": "After a minor accident at a community sports event, organizers realized that many volunteers were unsure how to respond before medical help arrived. They arranged a first-aid awareness day with a qualified trainer. The session began with a demonstration of how to check whether a person was responsive and how to call emergency services. Volunteers practiced using bandages and placing someone in the recovery position, then received a short reference card. Organizers later asked participants what they remembered and which steps needed more practice. Most could describe the basic response, but some were uncertain about dealing with severe bleeding. The team plans to invite the trainer back for a refresher. They want to make sure the advice remains reliable and consistent with current guidance.",
   "options": [
+   "Dealing with severe bleeding.",
    "Calling the emergency services.",
    "Placing someone in the recovery position.",
-   "Checking whether a person was responsive.",
-   "Dealing with severe bleeding."
+   "Checking whether a person was responsive."
   ],
-  "answer": 3,
+  "answer": 0,
   "explanation": "ผลสอบถามคือ “Most could describe the basic response, but some were uncertain about dealing with severe bleeding.” ตัวเลือกอื่นเป็นขั้นตอนที่ผู้เข้าร่วมส่วนใหญ่ทำได้ดีแล้ว ตัวเลือก “Calling the emergency services.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Placing someone in the recovery position.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Checking whether a person was responsive.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
   "topic": "A first-aid awareness day",
@@ -17748,12 +17748,12 @@
   "prompt": "What does “They” in “They arranged a first-aid awareness day” refer to?",
   "context": "After a minor accident at a community sports event, organizers realized that many volunteers were unsure how to respond before medical help arrived. They arranged a first-aid awareness day with a qualified trainer. The session began with a demonstration of how to check whether a person was responsive and how to call emergency services. Volunteers practiced using bandages and placing someone in the recovery position, then received a short reference card. Organizers later asked participants what they remembered and which steps needed more practice. Most could describe the basic response, but some were uncertain about dealing with severe bleeding. The team plans to invite the trainer back for a refresher. They want to make sure the advice remains reliable and consistent with current guidance.",
   "options": [
-   "The organizers of the sports event.",
    "The volunteers who attended the session.",
+   "The organizers of the sports event.",
    "The qualified trainer.",
    "The community sports teams."
   ],
-  "answer": 0,
+  "answer": 1,
   "explanation": "ประโยคก่อนหน้าคือ “organizers realized that many volunteers were unsure how to respond” ผู้ที่จัดวันอบรมจึงคือ organizers ไม่ใช่อาสาสมัครผู้เข้าอบรมหรือเทรนเนอร์ที่ถูกเชิญมา",
   "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
   "topic": "A first-aid awareness day",
@@ -17769,11 +17769,11 @@
   "context": "After a minor accident at a community sports event, organizers realized that many volunteers were unsure how to respond before medical help arrived. They arranged a first-aid awareness day with a qualified trainer. The session began with a demonstration of how to check whether a person was responsive and how to call emergency services. Volunteers practiced using bandages and placing someone in the recovery position, then received a short reference card. Organizers later asked participants what they remembered and which steps needed more practice. Most could describe the basic response, but some were uncertain about dealing with severe bleeding. The team plans to invite the trainer back for a refresher. They want to make sure the advice remains reliable and consistent with current guidance.",
   "options": [
    "To teach participants some new bandage skills.",
-   "To keep the advice reliable and consistent.",
    "To replace the printed reference cards.",
+   "To keep the advice reliable and consistent.",
    "To test volunteers on severe bleeding."
   ],
-  "answer": 1,
+  "answer": 2,
   "explanation": "บทความระบุว่า “They want to make sure the advice remains reliable and consistent with current guidance.” จึงเชิญเทรนเนอร์กลับมาทบทวน (refresher) ตัวเลือกทดสอบ/เปลี่ยนบัตร ไม่ใช่จุดประสงค์ที่ระบุ ตัวเลือก “To teach participants some new bandage skills.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To replace the printed reference cards.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To test volunteers on severe bleeding.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A first-aid awareness day",
@@ -17790,10 +17790,10 @@
   "options": [
    "badly injured and bleeding.",
    "willing to help other people.",
-   "able to react when spoken to.",
-   "lying in the recovery position."
+   "lying in the recovery position.",
+   "able to react when spoken to."
   ],
-  "answer": 2,
+  "answer": 3,
   "explanation": "ขั้นแรกของการปฐมพยาบาลคือ “check whether a person was responsive” = ดูว่าผู้บาดเจ็บยังรู้สึกตัวและตอบสนองหรือไม่ ตัวเลือกบาดเจ็บรุนแรง/ท่าพักฟื้นเป็นเรื่องอื่นในบท ส่วนเต็มใจช่วยคนอื่นไม่ใช่ความหมายในบริบทนี้ ตัวเลือก “badly injured and bleeding.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “willing to help other people.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “lying in the recovery position.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
   "topic": "A first-aid awareness day",

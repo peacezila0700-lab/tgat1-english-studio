@@ -157,11 +157,15 @@
  },
  {
   "id": "S06-Q047",
-  "exp": "บทความระบุตรง ๆ ว่า “The office agreed to study the proposal.” ยังไม่ได้อนุมัติ ปลูกต้นไม้ หรือจ่ายเงิน ตัวเลือกให้สำรวจใหม่ก็ไม่มีในบทความ ตัวเลือก “It approved the planting of trees.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “It paid for the shade structure.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “It asked students to survey again.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "exp": "อีเมลระบุ “Please bring your own gloves and a small container if you would like to take home some compost” จึงตอบถุงมือและภาชนะรับปุ๋ยหมัก ตัวเลือกเมล็ดพันธุ์/กล่องข้าว/บัวรดน้ำ/รายการคำถาม ไม่ได้กล่าวไว้ ตัวเลือก “A lunch box for the break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A personal watering can.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A written list of questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
-  "id": "S06-Q048",
-  "exp": "แกนเรื่องคือนักเรียนสำรวจผู้รอรถแล้วนำเสนอผลพร้อมข้อเสนอที่ต่างกันตามแต่ละป้าย ตัวเลือกความจำเป็นของป้ายเพิ่ม/แผนของสำนักงาน/วิธีเลือกคำถาม ไม่ใช่ประเด็นหลัก ตัวเลือก “Why hot cities need more bus stops.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The city transport office’s plans for new trees.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “How students choose survey questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "id": "S06-Q049",
+  "exp": "ใจความคือผู้จัดจะจัดเครื่องดื่มและของว่างให้ ตัวเลือกต้อง自带/เก็บเงิน/มีแค่น้ำ/เฉพาะเด็ก ขัดกับอีเมล ตัวเลือก “The organizers will charge for snacks.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Only water will be provided.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Snacks are available only for children.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+ },
+ {
+  "id": "S06-Q050",
+  "exp": "อีเมลใช้คำว่า “We apologize for the inconvenience and thank you for your understanding” แสดงน้ำเสียงสุภาพและขอโทษ ตัวเลือกโกรธ/ไม่ใส่ใจ/ห่างเหิน/พูดเล่น ขัดกับอีเมล ตัวเลือก “Indifferent to participants' needs.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Joking about the move.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
   "id": "S06-Q054",
@@ -176,8 +180,12 @@
   "exp": "ช่อง (4) ต้องใช้ met the target ซึ่งเป็น collocation แปลว่า ทำได้ตามเป้าหมาย ส่วน sat (นั่ง), set (กำหนดเป้าหมาย — ซ้ำกับ the target set in 2023), let (ปล่อย) ไม่เข้ากับความหมาย ตัวเลือก “sat” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “set” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “let” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
-  "id": "S07-Q048",
-  "exp": "สำนักงาน “did not publish personal details; they used descriptions that owners could recognize” บอร์ดรูปจึงแสดงของพร้อมคำบรรยายโดยไม่เปิดข้อมูลส่วนตัว ตัวเลือกแสดงรูปเจ้าของ/แทนการทบทวน/ลงเฉพาะร่มเสื้อผ้า ไม่มีข้อมูล ตัวเลือก “It shows printed photographs of the people who lost items.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “It replaced the one-year records review.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “It lists umbrellas and clothing only.” ขัดกับข้อมูลที่บทความให้ไว้"
+  "id": "S07-Q046",
+  "exp": "โฆษณาระบุว่าช่วงเช้า “are dedicated to small-group lessons focused on speaking and listening” จึงตอบพูดและฟังในกลุ่มเล็ก ตัวเลือกไวยากรณ์/อ่านสอบ/กีฬา/ทดลองวิทยาศาสตร์ ไม่ใช่ช่วงเช้า ตัวเลือก “Reading and vocabulary tests.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sports and outdoor games.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Science experiments and projects.” ขัดกับข้อมูลที่บทความให้ไว้"
+ },
+ {
+  "id": "S07-Q049",
+  "exp": "ใจความคือครอบครัวที่ลงทะเบียนลูกสองคนขึ้นไปได้ส่วนลด 10% ตัวเลือกคิดเต็มเฉพาะลูกคนแรก/ทุกครอบครัวได้ส่วนลด/ลูกคนเดียวได้ 20%/ส่วนลดขึ้นกับอายุ ขัดกับโฆษณา ตัวเลือก “A 10 percent discount is given to every family.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Families with one child get a 20 percent discount.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The discount depends on the children's ages.” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
   "id": "S07-Q053",

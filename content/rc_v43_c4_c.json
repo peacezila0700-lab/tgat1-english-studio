@@ -1,0 +1,312 @@
+[
+ {
+  "first": "S11-Q046",
+  "topic": "Email: feedback request after a hotel stay",
+  "context": "Dear Guest, thank you for choosing Riverside Hotel for your recent stay. We hope you enjoyed your time with us, and we are writing to ask for a few minutes of your time to share your experience. Your feedback helps us improve the service for future guests, and we read every response carefully. Could you please rate the following: the warmth of our welcome at check-in, the comfort of your room, the quality of the breakfast buffet, and the helpfulness of our staff during your stay? You can complete the short form on our website, and it will take no more than five minutes. If anything fell short of your expectations, please tell us in the form so that we can address it directly. As a thank-you, every completed survey will receive a voucher for fifteen percent off your next booking. We value your opinion and hope to welcome you back again soon.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why is the hotel asking for feedback?",
+    "key": "To improve the service for future guests.",
+    "d": [
+     "To meet a requirement from management.",
+     "To fill in an annual survey requirement.",
+     "To compete with other hotels."
+    ],
+    "exp": "อีเมลระบุว่า “Your feedback helps us improve the service for future guests” จึงตอบเพื่อปรับปรุงบริการสำหรับแขกในอนาคต ตัวเลือกรายงานการตลาด/ข้อกำหนดผู้บริหาร/รายงานประจำปี/แข่งขัน ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "How long will the feedback form take to complete?",
+    "key": "No more than five minutes.",
+    "d": [
+     "About fifteen minutes.",
+     "Around thirty minutes.",
+     "Only a few seconds."
+    ],
+    "exp": "อีเมลระบุ “it will take no more than five minutes” จึงตอบไม่เกินห้านาที ตัวเลือก 15/30 นาที/1 ชั่วโมง/ไม่กี่วินาที ขัดกับอีเมล"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “it” refer to in “so that we can address it directly”?",
+    "key": "Anything that fell short of the guest's expectations.",
+    "d": [
+     "The voucher for the next booking.",
+     "The check-in process only.",
+     "The staff's helpfulness rating."
+    ],
+    "exp": "ข้อความ “If anything fell short of your expectations, please tell us in the form so that we can address it directly” อ้างถึงสิ่งใดก็ตามที่ไม่เป็นไปตามคาดหวัง ตัวเลือกบุฟเฟ่ต์/ voucher/ check-in/ คะแนนพนักงาน ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “As a thank-you, every completed survey will receive a voucher for fifteen percent off your next booking.”?",
+    "key": "Guests who complete the survey get a 15 percent discount voucher.",
+    "d": [
+     "Only some surveys receive a voucher.",
+     "The voucher gives a free night's stay.",
+     "Surveys must be repeated to earn a voucher."
+    ],
+    "exp": "ใจความคือแขกที่ตอบแบบสอบถามครบได้ voucher ลด 15% สำหรับการจองครั้งถัดไป ตัวเลือกบางแบบ/คืนฟรี/ลดอัตโนมัติ/ต้องทำซ้ำ ขัดกับอีเมล"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the hotel's attitude toward guest feedback?",
+    "key": "Valued and read carefully.",
+    "d": [
+     "Only used for marketing purposes.",
+     "Considered but not acted upon.",
+     "Unnecessary for established hotels."
+    ],
+    "exp": "อีเมลระบุ “we are writing to ask for a few minutes of your time” และ “we read every response carefully” แสดงว่าให้ความสำคัญและอ่านอย่างละเอียด ตัวเลือกถูกละเว้น/ใช้เฉพาะการตลาด/ไม่ปฏิบัติตาม/ไม่จำเป็น ขัดกับอีเมล"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q046",
+  "topic": "News report: local farmers switch to organic growing",
+  "context": "A growing number of farmers in the northern region are switching to organic growing methods, and the results so far are encouraging. According to the regional agriculture office, more than three hundred farms have stopped using chemical pesticides and fertilizers in favor of compost, crop rotation, and natural pest control. Farmers report that although yields took a year or two to stabilize, the soil has become healthier and water use has fallen. Consumers, meanwhile, have shown a strong preference for organic produce, with supermarket chains expanding their organic sections to meet demand. The agriculture office has launched a training program to help farmers transition smoothly, offering workshops on soil management and natural pest control. Officials caution that organic farming requires more labor and careful planning, but say the long-term benefits for soil health and farm income make the switch worthwhile.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What have the farmers stopped using?",
+    "key": "Chemical pesticides and fertilizers.",
+    "d": [
+     "Natural pest control methods.",
+     "Water from irrigation channels.",
+     "Traditional seed varieties."
+    ],
+    "exp": "ข่าวระบุว่าเกษตรกร “have stopped using chemical pesticides and fertilizers” จึงตอบเลิกใช้สารเคมีและปุ๋ยเคมี ตัวเลือกปุ๋ยหมัก/ควบคุมแมลงธรรมชาติ/น้ำชลประทาน/พันธุ์พื้นเมือง ขัดกับข่าว"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did farmers find about their soil after switching?",
+    "key": "The soil has become healthier.",
+    "d": [
+     "The soil holds less water.",
+     "The soil is easier to plow.",
+     "The soil produces larger yields immediately."
+    ],
+    "exp": "ข่าวระบุว่า “the soil has become healthier and water use has fallen” จึงตอบดินมีสุขภาพดีขึ้น ตัวเลือกต้องใช้สารเคมี/อุ้มน้ำน้อย/ไถง่าย/ให้ผลผลิตทันที ขัดกับข่าว"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Farmers are switching to organic methods with encouraging results.",
+    "d": [
+     "Chemical farming is becoming more popular.",
+     "Farmers are abandoning their land.",
+     "The government is banning organic farming."
+    ],
+    "exp": "ข่าวรายงานว่าเกษตรกรกำลังเปลี่ยนสู่การปลูกแบบออร์แกนิกและผลลัพธ์น่าพอใจ ตัวเลือกซูเปอร์มาร์เก็ตปิด section/เกษตรเคมี लोकप्रिय/เกษตรกรทิ้งที่ดิน/รัฐบาลห้ามออร์แกนิก ขัดกับข่าว"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Officials caution that organic farming requires more labor and careful planning.”?",
+    "key": "Officials warn that organic farming needs more work and planning.",
+    "d": [
+     "Organic farming needs less planning than other methods.",
+     "Officials discourage all farming changes.",
+     "Labor is the only concern with organic farming."
+    ],
+    "exp": "ใจความคือเจ้าหน้าที่เตือนว่าการเกษตรออร์แกนิกต้องใช้แรงงานและการวางแผนมากขึ้น ตัวเลือกไม่ต้องใช้แรง/วางแผนน้อยกว่า/ discourage การเปลี่ยนแปลง/มีแค่แรงงานเป็นกังวล ขัดกับข่าว"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the agriculture office's attitude toward organic farming?",
+    "key": "Supportive, offering training and seeing long-term benefits.",
+    "d": [
+     "Neutral and uninvolved.",
+     "Critical of farmers' methods.",
+     "Certain the switch will fail."
+    ],
+    "exp": "ข่าวระบุว่าสำนักงานเกษตร “has launched a training program to help farmers transition smoothly” และ “the long-term benefits... make the switch worthwhile” แสดงว่าสนับสนุน ตัวเลือกคัดค้าน/เป็นกลาง/วิจารณ์/แน่ใจว่าล้มเหลว ขัดกับข่าว"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q046",
+  "topic": "Announcement: public transport fare adjustment",
+  "context": "The Metropolitan Transit Authority wishes to inform all passengers of a fare adjustment that will take effect from the first of next month. The basic single-trip fare will increase from twenty baht to twenty-five baht, while monthly passes will remain unchanged at one thousand baht. The adjustment is necessary, the authority explains, because fuel and maintenance costs have risen sharply over the past two years, and the previous fares did not cover these increases. Students, senior citizens, and holders of disabled cards will continue to receive a fifty percent discount on all trips. The authority has also promised to add twenty more buses on the busiest routes during peak hours to improve service as part of the same package. Passengers are encouraged to use the monthly pass for unlimited travel and to check the new fare tables at stations and on the authority's website.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What will the new basic single-trip fare be?",
+    "key": "Twenty-five baht.",
+    "d": [
+     "Twenty baht.",
+     "Thirty baht.",
+     "Fifteen baht."
+    ],
+    "exp": "ประกาศระบุ “The basic single-trip fare will increase from twenty baht to twenty-five baht” จึงตอบ 25 บาท ตัวเลือก 20/30/15/ฟรี ขัดกับประกาศ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why is the fare being adjusted?",
+    "key": "Fuel and maintenance costs have risen.",
+    "d": [
+     "Because passenger numbers have fallen.",
+     "To pay for station renovations.",
+     "Because the monthly pass is too cheap."
+    ],
+    "exp": "ประกาศระบุ “because fuel and maintenance costs have risen sharply” จึงตอบค่าน้ำมันและบำรุงรักษาเพิ่มขึ้น ตัวเลือกซื้อรถใหม่/ผู้โดยสารลด/ปรับปรุงสถานี/ monthly pass ถูก ไม่มีข้อมูล"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “these increases” refer to?",
+    "key": "The rises in fuel and maintenance costs.",
+    "d": [
+     "The increases in monthly pass prices.",
+     "The rises in bus route numbers.",
+     "The increases in discount percentages."
+    ],
+    "exp": "ข้อความ “the previous fares did not cover these increases” อ้างถึงค่าน้ำมันและค่าบำรุงรักษาที่สูงขึ้น ตัวเลือกผู้โดยสาร/ monthly pass/ เส้นทาง/ ส่วนลด ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The authority has also promised to add twenty more buses on the busiest routes during peak hours.”?",
+    "key": "Twenty extra buses will run on busy routes at peak times.",
+    "d": [
+     "Buses will run only at off-peak times.",
+     "The busiest routes will have fewer buses.",
+     "The extra buses are for night service only."
+    ],
+    "exp": "ใจความคือผู้ประกอบการจะเพิ่มรถโดยสาร 20 คันบนเส้นทางที่繁忙ในช่วงเร่งด่วน ตัวเลือกเพิ่มแล้ว/วิ่งเฉพาะนอกเวลาเร่งด่วน/เส้นทาง繁忙ลดรถ/รถเพิ่มสำหรับกลางคืน ขัดกับประกาศ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the authority's attitude toward the fare adjustment?",
+    "key": "Necessary and justified, with service improvements to match.",
+    "d": [
+     "Indifferent to passenger concerns.",
+     "Unwilling to improve service.",
+     "Certain the fares should have risen sooner."
+    ],
+    "exp": "ประกาศระบุ “The adjustment is necessary” และมีบริการเสริมเพิ่มรถ แสดงว่าเห็นชอบว่าจำเป็นต้องทำและมีบริการปรับปรุง ตัวเลือกขอโทษ/ไม่ใส่ใจ/ไม่อยากปรับปรุง/ควรขึ้นนานแล้ว ขัดกับประกาศ"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q046",
+  "topic": "Article: how libraries are adapting to digital readers",
+  "context": "Libraries are no longer just places to borrow printed books. Across the country, public libraries are rethinking their role to serve readers who increasingly choose digital formats. Many have expanded their e-book collections, allowing readers to borrow titles on phones and tablets without visiting the building. Others have created comfortable spaces with charging points and quiet zones for people who want to read or study on their own devices. Library managers say the change is not about replacing print, but about meeting readers where they are. Visits to the children's reading hours remain strong, and printed picture books remain popular with young families. The challenge, staff say, is keeping the physical spaces welcoming while managing the growing demand for digital access and public computers. The future library, they argue, will offer both — a place to gather and a gateway to digital reading.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What have many libraries expanded to serve digital readers?",
+    "key": "Their e-book collections.",
+    "d": [
+     "Their printed book collections only.",
+     "Their parking spaces.",
+     "Their children's toy corners."
+    ],
+    "exp": "บทความระบุว่าหลายแห่ง “have expanded their e-book collections” ให้ยืมบนมือถือ ตัวเลือกหนังสือพิมพ์/เวลาเปิด/ที่จอด/ของเล่นเด็ก ไม่ได้กล่าว"
+   },
+   {
+    "type": "detail",
+    "prompt": "What do library managers say the change is not about?",
+    "key": "Replacing print with digital formats.",
+    "d": [
+     "Meeting readers' needs.",
+     "Managing computer demand.",
+     "Serving young families."
+    ],
+    "exp": "บทความระบุว่า “The change is not about replacing print, but about meeting readers where they are” จึงตอบไม่ใช่การแทนที่หนังสือพิมพ์ ตัวเลือกตอบสนองผู้อ่าน/สถานที่น่าอยู่/จัดการคอมพิวเตอร์/บริการครอบครัว ขัดกับบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the article?",
+    "key": "Libraries are adapting to digital readers while keeping physical spaces.",
+    "d": [
+     "Libraries are closing due to digital reading.",
+     "Digital reading has made libraries unnecessary.",
+     "Libraries only serve children and families."
+    ],
+    "exp": "บทความสรุปว่า “The future library... will offer both — a place to gather and a gateway to digital reading” จึงตอบห้องสมุดปรับตัวสู่ผู้อ่านดิจิทัลพร้อมรักษาพื้นที่ ตัวเลือกหนังสือพิมพ์หาย/ห้องสมุดปิด/ห้องสมุดไม่จำเป็น/บริการเฉพาะเด็ก ขัดกับบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The challenge, staff say, is keeping the physical spaces welcoming while managing the growing demand for digital access.”?",
+    "key": "Staff say the challenge is balancing welcoming spaces and digital demand.",
+    "d": [
+     "Digital access is no longer a challenge.",
+     "Staff want to remove physical spaces.",
+     "The challenge is only about computer demand."
+    ],
+    "exp": "ใจความคือความท้าทายคือการรักษาพื้นที่ให้น่าอยู่ควบคู่ไปกับความต้องการดิจิทัล ตัวเลือกพื้นที่สำคัญกว่า/ดิจิทัลไม่ท้าทาย/อยากลบพื้นที่/ท้าทายเฉพาะคอมพิวเตอร์ ขัดกับบทความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the article's attitude toward the future of libraries?",
+    "key": "Optimistic that libraries will offer both physical and digital services.",
+    "d": [
+     "Doubtful that libraries will survive.",
+     "Certain that print will disappear.",
+     "Critical of digital adaptation."
+    ],
+    "exp": "บทความระบุว่า “The future library, they argue, will offer both — a place to gather and a gateway to digital reading” แสดงทัศนะเชิงบวก ตัวเลือกสงสัย/ไม่ใส่ใจ/แน่ใจว่าพิมพ์หาย/วิจารณ์ ขัดกับบทความ"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q046",
+  "topic": "Advertisement: weekend photography workshop",
+  "context": "Love taking photos? Join our two-day weekend photography workshop, designed for beginners who want to get more from their camera or phone. On day one, you will learn the basics: how light works, how to frame a shot, and how to choose the right setting for different situations. Day two is a practical outdoor session at the old town, where you will practice capturing portraits, street scenes, and architecture with guidance from a professional photographer. All equipment is provided, so you don't need to own a camera — just bring your phone or borrow one of ours. The workshop runs from 9 a.m. to 4 p.m. on both days, with a lunch break and a short review of each participant's photos at the end. The fee is 2,400 baht, which includes all materials, lunch, and a printed guide to keep. Spaces are limited to twelve participants, so book early to avoid missing out.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What will participants learn on day one?",
+    "key": "Basics of light, framing, and camera settings.",
+    "d": [
+     "How to sell photos to magazines.",
+     "How to repair camera equipment.",
+     "How to photograph wildlife only."
+    ],
+    "exp": "โฆษณาระบุว่าวันแรก “you will learn the basics: how light works, how to frame a shot, and how to choose the right setting” จึงตอบพื้นฐานแสง/การจัดองค์ประกอบ/การตั้งค่า ตัวเลือกตัดต่อ/ขายรูป/ซ่อมอุปกรณ์/ถ่ายสัตว์ ไม่ได้กล่าว"
+   },
+   {
+    "type": "detail",
+    "prompt": "What is provided for participants?",
+    "key": "All equipment, plus lunch and a printed guide.",
+    "d": [
+     "Only camera equipment.",
+     "Accommodation for the weekend.",
+     "A certificate of completion."
+    ],
+    "exp": "โฆษณาระบุ “All equipment is provided” และค่าเรียน “includes all materials, lunch, and a printed guide” จึงตอบอุปกรณ์พร้อมอาหารและคู่มือ ตัวเลือกเฉพาะอุปกรณ์/รถรับส่ง/ที่พัก/证书 ไม่ได้กล่าว"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “one of ours” refer to?",
+    "key": "A camera borrowed from the workshop.",
+    "d": [
+     "A camera owned by the photographer.",
+     "A phone provided by the workshop.",
+     "A lunch from the workshop."
+    ],
+    "exp": "ข้อความ “you don't need to own a camera — just bring your phone or borrow one of ours” อ้างถึงกล้องที่ borrow จาก workshop ตัวเลือกกล้องช่างภาพ/โทรศัพท์/คู่มือ/อาหาร ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Spaces are limited to twelve participants, so book early to avoid missing out.”?",
+    "key": "Only twelve places are available, so book soon.",
+    "d": [
+     "Participants can join on the day without booking.",
+     "The workshop is already fully booked.",
+     "Late bookings are preferred over early ones."
+    ],
+    "exp": "ใจความคือรับเพียง 12 คน จึงควรจองเร็ว ตัวเลือกไม่จำกัด/เข้าร่วมวันนั้นได้/เต็มแล้ว/จองช้าดีกว่า ขัดกับโฆษณา"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the advertisement's tone?",
+    "key": "Encouraging and welcoming to beginners.",
+    "d": [
+     "Dismissive of phone photography.",
+     "Formal and technical.",
+     "Indifferent to participant needs."
+    ],
+    "exp": "โฆษณาใช้ “Love taking photos? Join our two-day weekend photography workshop, designed for beginners” แสดงน้ำเสียงชวนและต้อนรับผู้เริ่มต้น ตัวเลือกเฉพาะมืออาชีพ/ดูแคลนมือถือ/เป็นทางการ/ไม่ใส่ใจ ขัดกับโฆษณา"
+   }
+  ]
+ }
+]
