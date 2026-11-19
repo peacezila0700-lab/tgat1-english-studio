@@ -145,15 +145,15 @@
     "exp": "ข้อความระบุว่า “sound quality varied across the large room, and some viewers had difficulty hearing quieter scenes” กลุ่มจึงจะทดสอบอุปกรณ์และผังห้องก่อนจัดครั้งต่อไป"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the organizers regard the first film night?",
-    "key": "As a success that still needs improvements.",
+    "type": "inference",
+    "prompt": "What can be inferred about the next film night?",
+    "key": "It will follow tests of the room and equipment.",
     "d": [
-     "As a failure they will not repeat.",
-     "As perfect in every way.",
-     "As useful only for close friends."
+     "It will be held in a smaller room near the park.",
+     "It will no longer include group discussions.",
+     "It will charge visitors a small fee for the costs."
     ],
-    "exp": "ผู้จัดพบผลดีว่า “people had begun talking with neighbors they had not known before” แต่ก็ยอมรับว่า “The event was not flawless” และวางแผนทดสอบอุปกรณ์ก่อนจัดอีกครั้ง = สำเร็จแต่ยังต้องปรับ ไม่ได้ล้มเลิก"
+    "exp": "ตอนท้ายระบุว่า “Before holding another event, the group plans to test the equipment and room layout” จึงอนุมานได้ว่างานครั้งถัดไปจะจัดหลังจากทดสอบอุปกรณ์และผังห้องแล้ว ตัวเลือกแรกและสองไม่มีข้อมูลรองรับ เพราะกลุ่มยังใช้ห้องสาธารณะและมีการอภิปรายกลุ่มต่อไป ส่วนตัวเลือกที่สามขัดกับเจตนาที่ผู้จัด “borrowed a projector and used a public room to keep costs low”"
    },
    {
     "type": "wic",
@@ -216,15 +216,15 @@
     "exp": "ผู้อำนวยการหมายความว่าถ้าเลื่อนการซ่อมออกไป ของสะสมจะยิ่งเสี่ยงเสียหาย ตรงกับตัวเลือกที่บอกว่าการรอจะทำให้ของเสียหายมากขึ้น ตัวเลือกเสร็จเร็วในฤดูร้อนไม่มีในบท ตัวเลือกเสียหายหนักแล้วเกินกว่าที่บทบอก และตัวเลือกอยากเลื่อนงานขัดกับคำพูดของเธอ"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the writer present the cafés’ concerns?",
-    "key": "As a real issue the council will look at later.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A museum closure and the arrangements made during it.",
     "d": [
-     "As a minor complaint that nobody needs to address.",
-     "As the main reason the museum is closing.",
-     "As a problem the museum has already solved."
+     "Why the city council supports local café owners.",
+     "Which objects will stay in the museum’s storage rooms.",
+     "How the leaking roof damaged the museum’s collection."
     ],
-    "exp": "ข่าวเขียนว่า “Some local cafés near the museum are worried about losing customers, and the city council has promised to review their situation in September.” แสดงว่าเป็นปัญหาจริงที่สภาจะพิจารณาภายหลัง ไม่ใช่เรื่องเล็กที่ไม่ต้องสนใจ ไม่ใช่สาเหตุของการปิด และยังไม่ได้ถูกแก้"
+    "exp": "บทอ่านแจ้งว่าพิพิธภัณฑ์จะปิดแปดเดือนเพื่อซ่อมหลังคาที่รั่วและเปลี่ยนระบบไฟฟ้า แล้วบอกสิ่งที่จัดไว้ระหว่างปิด เช่น การย้ายวัตถุราวสองร้อยชิ้นไปยัง “a temporary gallery in the central library” ตัวเลือกให้โรงเรียนที่จองไว้ และกำหนดเปิดใหม่ในเดือนกุมภาพันธ์ เรื่องหลักจึงเป็นการปิดซ่อมและการจัดเตรียมระหว่างปิด ตัวเลือกแรกเป็นเพียงส่วนย่อยเรื่องร้านค้าใกล้เคียง ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่าน"
    },
    {
     "type": "wic",

@@ -25,15 +25,15 @@
     "exp": "ข้อความระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed.” ตัวเลือกเครื่องมือวัดอื่น ๆ จึงผิด เพราะบทความเน้นว่าไม่ต้องใช้อุปกรณ์ราคาแพง"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the teachers feel about the garden project so far?",
-    "key": "Positive, though they see room to improve.",
+    "type": "purpose",
+    "prompt": "Why does the author mention rulers and simple journals?",
+    "key": "To show that the project needed little equipment.",
     "d": [
-     "Disappointed by the slow growth.",
-     "Unsure whether to keep the garden.",
-     "Proud that no expensive equipment was needed."
+     "To list what students had to buy before the class.",
+     "To explain how teachers measured the garden beds.",
+     "To prove that journals were better than plant labels."
     ],
-    "exp": "ครูมองว่า “The results were encouraging” และยังวางแผนย้ายกระถางเพื่อเทียบบันทึก พร้อมหวังให้สวนอยู่ในการเรียนระยะยาว = พึงพอใจแต่ยังพัฒนาต่อ ตัวเลือกผิดหวัง/ลังเล ไม่มีสัญญาณในข้อความ"
+    "exp": "บทอ่านระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed” การยกอุปกรณ์เหล่านี้จึงแสดงให้เห็นว่าโครงการไม่จำเป็นต้องใช้ของแพง ตัวเลือกแรกขัดกับข้อความนั้นโดยตรง ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่าน"
    },
    {
     "type": "wic",
@@ -47,15 +47,15 @@
     "exp": "“The results were encouraging, although plants in shaded areas grew more slowly” = ผลน่าพอใจ/ให้ความหวังว่าวิธีนี้ได้ผล แม้ยังมีจุดที่ต้องปรับ ตัวเลือกน่าประหลาดใจ/วัดยาก/เสร็จสิ้นสมบูรณ์ ไม่ใช่ความหมายนี้"
    },
    {
-    "type": "true",
-    "prompt": "According to the passage, which statement is TRUE?",
-    "key": "Students recorded their observations every week.",
+    "type": "inference",
+    "prompt": "What can be inferred about the garden project?",
+    "key": "Teachers plan to keep using it in future lessons.",
     "d": [
-     "Plants in shaded areas grew the fastest.",
-     "The garden project lasted six days.",
-     "Teachers plan to stop using the garden."
+     "It replaced the textbook examples.",
+     "It produced the same results in shaded and sunny spots.",
+     "It required students to buy their own measuring tools."
     ],
-    "exp": "บทความระบุว่านักเรียนต้อง “record their observations each week” ส่วนพืชในที่ร่ม “grew more slowly” ไม่ใช่เร็วสุด โครงการกินเวลา “six weeks” ไม่ใช่หกวัน และครูหวังให้สวน “have a lasting place in science lessons”"
+    "exp": "ตอนท้ายระบุว่าครู “now plan to move some pots regularly and compare the records” และ “hope the garden will have a lasting place in science lessons” จึงอนุมานได้ว่าครูจะใช้สวนนี้ในบทเรียนต่อไป ตัวเลือกแรกเกินข้อมูล เพราะบทอ่านบอกเพียงว่าตัวอย่างในหนังสือ “felt distant from daily life” ตัวเลือกที่สองขัดกับข้อความ “plants in shaded areas grew more slowly” และตัวเลือกที่สามขัดกับประโยคที่บอกว่าไม่จำเป็นต้องใช้อุปกรณ์ราคาแพง"
    }
   ]
  },
@@ -216,15 +216,15 @@
     "exp": "พวกเขา “chose weather-resistant signs” เพราะต้องติดตั้งกลางแจ้งและผ่านช่วงฝน = ทนแดดทนฝนไม่เสียหายง่าย ตัวเลือกย้ายง่าย/ตัวอักษรใหญ่/ราคาถูก ไม่ใช่ความหมายของคำนี้"
    },
    {
-    "type": "true",
-    "prompt": "Which statement agrees with the information in the passage?",
-    "key": "Visitors spent longer looking at the artworks.",
+    "type": "purpose",
+    "prompt": "Why does the author mention bright sunlight?",
+    "key": "To identify a problem the organizers must fix.",
     "d": [
-     "The organizers will redesign the whole art trail.",
-     "Visitors were asked to comment before the signs were made.",
-     "The signs were counted only on dry days."
+     "To explain when most visitors walk.",
+     "To show why the signs were made weather-resistant.",
+     "To suggest that the trail should close in summer."
     ],
-    "exp": "บทความระบุว่า “visitors spent longer looking at the artworks” ส่วนผู้จัด “do not intend to redesign the whole trail” ผู้เยี่ยมชมถูกขอความเห็นเรื่องถ้อยคำและตำแหน่ง (คือหลังทำต้นแบบ) และการนับทำ “During the rainy season”"
+    "exp": "บทอ่านบอกผลทบทวนว่า “some signs were difficult to read in bright sunlight” แล้วตามด้วยการที่ผู้จัด “will test larger lettering and different positions” การอ้างถึงแสงแดดจึงเป็นการระบุปัญหาที่ต้องแก้ไข ตัวเลือกอื่นไม่ตรงกับบทอ่าน เพราะป้ายถูกเลือกให้ทนสภาพอากาศก่อนเริ่มทดสอบ และไม่มีข้อมูลเรื่องเวลาเดินชมหรือการปิดเส้นทางในฤดูร้อน"
    },
    {
     "type": "inference",

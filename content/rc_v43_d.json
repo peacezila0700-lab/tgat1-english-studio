@@ -145,15 +145,15 @@
     "exp": "ข้อความบอกว่า “several musicians ignored the chart because they already knew where they usually sat” ตัวเลือกป้ายอยู่ไกล/แขกรับเชิญย้ายที่นั่ง/ผู้ควบคุมไม่อธิบาย ไม่มีข้อมูล"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the conductor view the seating chart?",
-    "key": "As a tool that removes small interruptions.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "Why a seating chart made rehearsals run more smoothly.",
     "d": [
-     "As a way to control where members sit.",
-     "As something useful only for guests.",
-     "As much less important than the rehearsal time."
+     "How the orchestra chose its guest musicians each year.",
+     "Which instruments needed more practice before a performance.",
+     "When the community orchestra moved to a larger hall."
     ],
-    "exp": "ผู้ควบคุมอธิบายว่าแผนที่ไม่ได้สำคัญเพราะตัวเก้าอี้ แต่ “it reduced small decisions that could otherwise interrupt the beginning of practice” = เป็นเครื่องมือตัดการตัดสินใจเล็ก ๆ ที่ขัดจังหวะต้นการซ้อม"
+    "exp": "บทอ่านอธิบายว่าแผนผังที่นั่งช่วยลดการตัดสินใจเล็กน้อยตอนเริ่มซ้อม ตามคำของวาทยกรที่ว่า “It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice” เรื่องหลักจึงเป็นเหตุผลที่แผนผังทำให้การซ้อมราบรื่นขึ้น ตัวเลือกอื่นพูดถึงการเลือกนักดนตรีรับเชิญ เครื่องดนตรี หรือหอประชุมใหม่ ซึ่งบทอ่านไม่ได้กล่าวถึง"
    },
    {
     "type": "wic",
@@ -167,15 +167,15 @@
     "exp": "“Rehearsals became more predictable” หมายถึงการซ้อมดำเนินไปตามที่คาดไว้ได้ (เริ่มตรงเวลา ทุกคนรู้ที่นั่ง) ไม่ใช่จบเร็วขึ้น หรือเงียบพอสำหรับซ้อม"
    },
    {
-    "type": "true",
-    "prompt": "Which of these statements is TRUE?",
-    "key": "The orchestra later changed the chart for special performances.",
+    "type": "purpose",
+    "prompt": "Why does the author mention guest musicians?",
+    "key": "To show when the chart helped the most.",
     "d": [
-     "All musicians used the chart from the first day.",
-     "Rehearsals became harder when guests joined.",
-     "The chart was removed after a few rehearsals."
+     "To explain who chose the music.",
+     "To prove that guests arrived earlier than other members.",
+     "To describe how the orchestra recruited new players."
     ],
-    "exp": "บทความระบุว่า “the orchestra changed the chart for smaller groups and special performances” ส่วนช่วงแรกมีหลายคนเมินแผนผัง การซ้อมกลับคาดเดาได้ง่ายขึ้นโดยเฉพาะเมื่อมีแขกร่วม และแผนผังไม่ได้ถูกถอดออก"
+    "exp": "บทอ่านบอกว่า “Rehearsals became more predictable, especially when guest musicians joined” การยกตัวอย่างนักดนตรีรับเชิญจึงแสดงช่วงเวลาที่แผนผังที่นั่งช่วยได้มากที่สุด ตัวเลือกอื่นกล่าวถึงการเลือกเพลง การมาถึงของแขก และการรับสมัครผู้เล่นใหม่ ซึ่งไม่มีข้อมูลในบทอ่าน"
    }
   ]
  },

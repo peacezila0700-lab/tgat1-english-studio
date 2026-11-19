@@ -47,15 +47,15 @@
     "exp": "“School staff and parents mapped streets with less traffic and arranged a supervised trial ride” = การปั่นทดลองที่มีผู้ใหญ่คอยดูแล ถนนมีรถน้อยลง ไม่ใช่ไม่มีรถเลย และสภาท้องถิ่นเข้ามาภายหลังเรื่องทาสีถนน ไม่ได้จัดการปั่น"
    },
    {
-    "type": "true",
-    "prompt": "Which option matches what the passage says?",
-    "key": "More pupils rode bikes after the test.",
+    "type": "purpose",
+    "prompt": "Why does the author mention reflective bands?",
+    "key": "To describe what the trial riders were given.",
     "d": [
-     "The supervised trial ride was held in rainy weather.",
-     "Road markings were easy to see in rain.",
-     "The route will not be reviewed again."
+     "To explain why rain hid the markings.",
+     "To show that the council repainted every junction.",
+     "To argue that helmets should be required at school."
     ],
-    "exp": "บทความระบุว่า “More students tried cycling after the trial” ส่วนฝนทำให้ “some road markings hard to see” (ไม่ใช่มองง่าย) และกลุ่ม “plans to review the route again at the start of the next school year”"
+    "exp": "บทอ่านระบุว่าผู้จัด “gave students route cards and reflective bands, then asked families to report any difficult sections” การยกแถบสะท้อนแสงจึงบอกสิ่งที่นักเรียนได้รับระหว่างการขี่ทดลอง ตัวเลือกแรกสลับเหตุกับผล เพราะฝนทำให้เครื่องหมายถนนมองเห็นยาก ตัวเลือกที่สองเกินข้อมูล เนื่องจากกลุ่มเพียง “asked for the markings to be repainted” และตัวเลือกที่สามไม่มีในบทอ่าน"
    }
   ]
  },
@@ -167,15 +167,15 @@
     "exp": "นักเรียนมาถึง “only to find that all spaces were occupied” = ห้องมีคนใช้อยู่ทั้งหมด บทความไม่ได้พูดถึงการปิดทำความสะอาดหรือเสียงดัง และระบบจองเป็นสิ่งที่เพิ่มเข้ามาภายหลัง"
    },
    {
-    "type": "true",
-    "prompt": "Which statement is TRUE according to the passage?",
-    "key": "Students often found all the rooms occupied.",
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "A visible booking system improved room sharing.",
     "d": [
-     "The schedule was shown only on the doors.",
-     "Reminders were sent after each booking.",
-     "The booking system was reviewed before it started."
+     "Students should arrive early to claim a study room.",
+     "Reminder signs on doors ended every late session.",
+     "The library will add more group study rooms next term."
     ],
-    "exp": "ประโยคแรกระบุว่านักเรียนไปถึงห้องสมุดแล้ว “only to find that all spaces were occupied” ส่วนตารางแสดง “on a shared screen” และป้ายเตือนติดที่ประตู การเตือนจะส่งก่อนหมดเวลา และการทบทวนจะทำปลายเทอม"
+    "exp": "บทอ่านเล่าว่าผู้ช่วยห้องสมุดนำปฏิทินการจองและกรอบเวลามาใช้ แสดงตารางบนจอร่วมกัน แล้วพบว่า “rooms were being used more fairly” แต่ยังมีการใช้เกินเวลา จึงวางแผนส่งการแจ้งเตือนและทบทวนบันทึกการจองตอนสิ้นภาค ใจความหลักคือการทำให้การใช้ห้องเป็นธรรมขึ้นด้วยระบบจองที่มองเห็นได้ ตัวเลือกแรกและสามไม่มีข้อมูลในบทอ่าน ส่วนตัวเลือกที่สองขัดกับข้อความ “some groups continued working after their reserved time had ended”"
    }
   ]
  },
@@ -276,15 +276,15 @@
     "exp": "ใจความคือผู้เรียนมั่นใจขึ้นกับปัญหาเล็กน้อย แต่กลุ่มย้ำว่างานซ่อมซับซ้อนควรให้ช่างมืออาชีพทำ ตัวเลือกแรกเกินจริง ตัวเลือกสองและสามตรงข้ามกับข้อความ"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the group view expert help for cyclists?",
-    "key": "As necessary for complicated repairs.",
+    "type": "purpose",
+    "prompt": "Why does the author mention trusted repair shops?",
+    "key": "To show the limit of what the lesson teaches.",
     "d": [
-     "As something that learners should avoid.",
-     "As useful only for loose brakes.",
-     "As too expensive for commuters."
+     "To explain how much a basic repair kit costs.",
+     "To prove that commuters missed work less often.",
+     "To describe who was invited to each free session."
     ],
-    "exp": "กลุ่มเน้นว่า “complex repairs should be taken to a professional” และยังจะเผยแพร่รายชื่อร้านซ่อมที่ไว้ใจได้ = เห็นว่าช่างจำเป็นสำหรับงานยาก ไม่ใช่สิ่งที่ควรเลี่ยง และบทความไม่ได้พูดถึงราคา"
+    "exp": "บทอ่านเน้นว่า “complex repairs should be taken to a professional” และกลุ่ม “plans to publish a list of trusted repair shops” การยกเรื่องร้านซ่อมที่ไว้ใจได้จึงชี้ขอบเขตว่าบทเรียนครอบคลุมเฉพาะการซ่อมเล็กน้อย ตัวเลือกอื่นพูดถึงราคาชุดซ่อม ผลการขาดงาน และผู้ได้รับเชิญ ซึ่งไม่มีข้อมูลในบทอ่าน"
    },
    {
     "type": "wic",

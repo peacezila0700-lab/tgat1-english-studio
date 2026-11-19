@@ -96,15 +96,15 @@
     "exp": "เธออธิบายว่า “personal memories show how people experienced change, while photographs show what a place looked like” คือสองแหล่งให้ข้อมูลคนละมิติ ความแตกต่างจึงไม่ใช่ความล้มเหลว ตัวเลือกคุณภาพรูป/ชาวบ้านปฏิเสธ/ไม่มีวันที่ ไม่มีข้อมูล"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the student view personal memories?",
-    "key": "As evidence of how people experienced change.",
+    "type": "inference",
+    "prompt": "What can be inferred about the student’s project?",
+    "key": "It treated memories and photos as different evidence.",
     "d": [
-     "As unreliable stories needing careful correction.",
-     "As less useful than old photographs.",
-     "As records of what a place looked like."
+     "It proved that residents remembered wrongly.",
+     "It relied only on photographs from the local archive.",
+     "It focused on new buildings rather than on hidden changes."
     ],
-    "exp": "เธอให้ค่าความทรงจำในฐานะหลักฐานของ ประสบการณ์ ต่อการเปลี่ยนแปลง และ “did not treat those differences as failures” ตัวเลือกสุดท้ายคือบทบาทของภาพถ่าย ไม่ใช่ความทรงจำ"
+    "exp": "ข้อความบอกว่า “she explained that personal memories show how people experienced change, while photographs show what a place looked like” และสรุปว่า “Her final project combined both kinds of evidence” จึงอนุมานได้ว่าโครงการใช้หลักฐานสองชนิดที่ต่างกัน ตัวเลือกแรกขัดกับประโยค “She did not treat those differences as failures” ตัวเลือกที่สองขัดกับคำว่า combined และตัวเลือกสุดท้ายตรงข้ามกับสิ่งที่เธอคาดไว้ตอนต้น"
    },
    {
     "type": "wic",
@@ -227,15 +227,15 @@
     "exp": "ปัญหาเดิมคือผู้ชม “difficult to see what was happening at the same time” ตารางแบบคอลัมน์ “makes conflicts between events easier to notice” = เห็นกิจกรรมที่จัดชนเวลากัน ตัวเลือกการทะเลาะของผู้จัดเป็นความหมายทั่วไปของ conflict แต่ไม่ใช่ในบริบทนี้ ส่วนราคา/กฎลงทะเบียนไม่เกี่ยว"
    },
    {
-    "type": "true",
-    "prompt": "Which option matches what the passage says?",
-    "key": "Visitors found information faster with the new version.",
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Redesigning the schedule as a timetable helped festival visitors.",
     "d": [
-     "The old schedule used columns for locations.",
-     "The committee removed the registration marks.",
-     "The new schedule listed many more activities than before."
+     "Visitors complained about the number of food events at the festival.",
+     "Advance registration should be required for every festival activity.",
+     "The festival committee shortened the list of performances."
     ],
-    "exp": "บทความระบุว่าด้วยเวอร์ชันใหม่ “visitors could find information more quickly” ส่วนของเดิมเป็น long list ไม่ใช่คอลัมน์ คณะกรรมการเพิ่มโน้ตอธิบาย ไม่ใช่ถอดเครื่องหมาย และเวอร์ชันใหม่สั้นกว่าเดิม"
+    "exp": "เรื่องหลักคือการออกแบบตารางกิจกรรมใหม่เป็น timetable แล้วช่วยให้ผู้เข้าชมหาข้อมูลได้เร็วขึ้น ตรงกับ “The new version was shorter than the old list, yet visitors could find information more quickly” รวมถึงปัญหาที่ตามมาซึ่งแก้ด้วยการเพิ่มคำอธิบาย ตัวเลือกแรกไม่ใช่เรื่องที่ผู้เข้าชมร้องเรียน เพราะเขาบ่นว่า “difficult to see what was happening at the same time” ตัวเลือกที่สองขัดกับข้อความ “only selected activities needed advance booking” และตัวเลือกสุดท้ายสับสนระหว่างจำนวนกิจกรรมกับความยาวของตาราง"
    }
   ]
  },
@@ -276,15 +276,15 @@
     "exp": "ประโยคสุดท้ายระบุว่าทำซ้ำ “so that students could apply the same method to other nutrients” ตัวเลือกทดสอบความจำ/ฉลากอ่านง่าย/โซเดียมแย่กว่า ไม่ใช่เหตุผลในบทความ"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the teacher view the large numbers on package fronts?",
-    "key": "As misleading without serving information.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A lesson in comparing food labels fairly.",
     "d": [
-     "As useful for quick comparisons.",
-     "As hard for students to find.",
-     "As more honest than labels."
+     "Which foods contain most sugar.",
+     "Why students guessed the wrong products at first.",
+     "How teachers design a health course for one term."
     ],
-    "exp": "ครูสอนว่า “numbers are meaningful only when the units and serving amounts are considered” แสดงว่าตัวเลขหน้าซองทำให้เข้าใจผิดได้ถ้าไม่ดูหน่วย/ปริมาณต่อหน่วยบริโภค ตัวเลือกว่ามีประโยชน์หาเร็วขัดกับจุดประสงค์ของบทเรียน"
+    "exp": "บทอ่านเล่าว่าครูออกแบบกิจกรรมให้นักเรียนทายแล้วตรวจฉลาก จน “most students could explain why a smaller number on a label was not always the better choice” เรื่องหลักจึงเป็นบทเรียนว่าด้วยการเปรียบเทียบฉลากอย่างถูกวิธี ตัวเลือกแรกเป็นหัวข้อที่ครู “planned to repeat the activity with sodium and fiber” ในอนาคต ตัวเลือกที่สองเป็นเพียงสาเหตุที่เกิดขึ้นระหว่างบทเรียน และตัวเลือกสุดท้ายกว้างเกินไปเพราะบทอ่านกล่าวถึงกิจกรรมเดียว"
    },
    {
     "type": "wic",

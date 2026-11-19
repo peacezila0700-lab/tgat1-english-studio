@@ -36,15 +36,15 @@
     "exp": "ผู้จัดสรุปว่า “the idea was practical but depended on enough terminals being available at busy times” = ใช้ได้จริงแต่มีเงื่อนไข ตัวเลือกถูก/ใหม่/ทดสอบหลายฤดูกาล ไม่ใช่ความหมายของ practical"
    },
    {
-    "type": "true",
-    "prompt": "Which option matches what the passage says?",
-    "key": "The shared system worked well during quiet periods.",
+    "type": "purpose",
+    "prompt": "Why does the author mention the holiday market?",
+    "key": "To indicate when the system will be tested again.",
     "d": [
-     "Vendors disliked the shared terminal.",
-     "Customers could pay at any stall directly.",
-     "The holiday test has already finished."
+     "To explain why vendors refused.",
+     "To show that queues are shorter during the holidays.",
+     "To argue that card payments should replace cash entirely."
     ],
-    "exp": "บทความระบุว่า “The system worked well during quiet periods” ส่วนผู้ขายบอกว่าระบบ “was useful” ลูกค้าต้องจ่ายที่บูธเดียวแล้วบอกพนักงานว่าเงินเป็นของร้านใด และการทดสอบช่วงเทศกาลยังเป็นแผนในอนาคต"
+    "exp": "ประโยคสุดท้ายบอกว่าผู้จัด “plan to test the system again during the holiday market, when visitor numbers are higher” การอ้างถึงตลาดช่วงวันหยุดจึงบอกช่วงเวลาที่จะทดสอบระบบครั้งถัดไป ตัวเลือกแรกขัดกับบทอ่านเพราะร้านค้าเห็นว่าระบบช่วย “reduced equipment costs” ตัวเลือกที่สองไม่มีข้อมูลเรื่องความยาวคิวช่วงวันหยุด และตัวเลือกสุดท้ายเป็นข้อเสนอที่บทอ่านไม่ได้กล่าวถึง"
    },
    {
     "type": "inference",
@@ -156,15 +156,15 @@
     "exp": "แกนเรื่องคือกลุ่มวัยรุ่นออกแบบเส้นทางเดินแล้วปรับจากผลเดินทดสอบจนได้คู่มือที่ตามง่ายขึ้น ตัวเลือกแนะนำตึกเก่า/แผนที่ดิจิทัลทำให้หลง/แผนซ่อมถนน ไม่ใช่ประเด็นหลัก"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the students seem to feel about the changes they made?",
-    "key": "They accept that testers’ comfort matters.",
+    "type": "purpose",
+    "prompt": "Why does the author mention the steep section?",
+    "key": "To explain why the group changed the route.",
     "d": [
-     "They regret shortening the very first guide.",
-     "They believe distances matter more.",
-     "They doubt the value of a trial walk."
+     "To show that digital maps miss hills.",
+     "To describe what testers liked about the town.",
+     "To prove that six buildings were too many stops."
     ],
-    "exp": "นักเรียนเปลี่ยนเส้นทาง เพิ่มคำอธิบาย และใส่เวลาเดินโดยสรุปว่า “a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably” = ยอมรับว่าความสะดวกของผู้ใช้สำคัญ ไม่มีสัญญาณว่าเสียใจหรือสงสัยคุณค่าของการเดินทดสอบ"
+    "exp": "บทอ่านเล่าว่า “a trial walk revealed that one street had a steep section that was uncomfortable for some visitors” แล้วตามด้วย “The group changed the route” การยกเรื่องทางชันจึงอธิบายสาเหตุที่กลุ่มเปลี่ยนเส้นทาง ตัวเลือกแรกพูดเกินข้อมูลเพราะบทอ่านไม่ได้บอกว่าแผนที่ดิจิทัลพลาดเสมอ ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลรองรับ"
    },
    {
     "type": "wic",
@@ -205,15 +205,15 @@
     "exp": "ข้อความระบุว่า “staff added photos beside the most commonly borrowed equipment” เพื่อลดปัญหากรอกเลขผิด ตัวเลือกเตือนซ้ำ/ติดรายการเลข/ฟอร์มปฏิเสธเลขที่ไม่รู้จัก ไม่มีในบทความ"
    },
    {
-    "type": "true",
-    "prompt": "Which statement is TRUE according to the passage?",
-    "key": "Fewer items came back overdue at first.",
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "A department improved its checkout system step by step.",
     "d": [
-     "The online form hid the return date.",
-     "Deadline reminders were sent a full week in advance.",
-     "Wrong item numbers stopped completely."
+     "Students should be reminded to return equipment on time.",
+     "Online forms cost less than paper sheets in most schools.",
+     "Photographs of equipment encouraged students to borrow more."
     ],
-    "exp": "บทความระบุว่า “Late returns decreased during the first month.” ส่วนฟอร์ม “showed the return date before a request could be submitted” (ไม่ซ่อน) การเตือนส่ง “one day before the deadline” ไม่ใช่หนึ่งสัปดาห์ และปัญหาเลขผิดแค่ลดลง ไม่ได้หายไปหมด"
+    "exp": "บทอ่านเรียงลำดับการปรับปรุง ตั้งแต่ใบยืมอุปกรณ์ แบบฟอร์มออนไลน์ที่ “showed the return date before a request could be submitted” การแจ้งเตือนล่วงหน้า ไปจนถึงการใส่รูปประกอบ แล้วสรุปว่า “a good system should make the correct action easy” ใจความหลักจึงเป็นการปรับระบบทีละขั้น ตัวเลือกแรกเป็นเพียงมาตรการหนึ่ง ตัวเลือกที่สองเป็นการเปรียบเทียบต้นทุนที่ไม่มีในบทอ่าน และตัวเลือกสุดท้ายผิดวัตถุประสงค์ เพราะรูปประกอบมีไว้ลดการกรอกเลขพัสดุผิด"
    },
    {
     "type": "inference",

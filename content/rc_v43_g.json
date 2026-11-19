@@ -36,15 +36,15 @@
     "exp": "แกนเรื่องคืออาสาสมัครสุขภาพตั้งเครือข่ายช่วยเหลือผู้สูงวัยในช่วงอากาศร้อน แล้วขยายผลและวางแผนให้ยั่งยืน ตัวเลือกศูนย์ทำความเย็นหายาก/แผนสร้างพื้นที่/วิธีรักษา ไม่ใช่สาระหลัก"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the organizers regard the network’s current limits?",
-    "key": "As problems to fix by working with others.",
+    "type": "purpose",
+    "prompt": "Why does the author mention the phone tree?",
+    "key": "To show how volunteers reached people living alone.",
     "d": [
-     "As proof the network should be closed.",
-     "As the fault of residents who joined the list late.",
-     "As reasons to stop visiting homes."
+     "To explain how residents learned to drink more water.",
+     "To prove that cooling centers were too far from homes.",
+     "To describe the training that all volunteers received."
     ],
-    "exp": "ผู้จัดยอมรับว่า “volunteers could not visit every home each day” แล้ววางแผน “coordinate with local health services and invite additional residents to join the phone list” = มองเป็นสิ่งที่แก้ได้ด้วยการร่วมมือ ไม่ใช่ล้มเลิกหรือโทษใคร"
+    "exp": "บทอ่านระบุว่า “A phone tree helped volunteers contact people who lived alone” การยกเรื่องเครือข่ายโทรบอกต่อจึงแสดงวิธีเข้าถึงผู้ที่อาศัยอยู่ลำพัง ตัวเลือกแรกเกี่ยวกับคำแนะนำอีกข้อหนึ่งในเรื่องน้ำดื่ม ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ"
    },
    {
     "type": "wic",
@@ -208,15 +208,15 @@
     "exp": "ข้อความระบุว่า “not every damaged item could be safely fixed, especially when seams or fastenings were badly worn” ส่วนรอยขาดเล็ก ๆ คือสิ่งที่อาสาสมัครสอนซ่อมได้"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the organizers respond to the event’s limitation?",
-    "key": "They plan clearer advice for participants.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A repair event and the changes it prompted.",
     "d": [
-     "They blame families for bringing old clothes.",
-     "They decide to stop holding the events.",
-     "They insist every item can be repaired."
+     "Which stitches are hardest to learn.",
+     "Why families threw away clothes with small tears.",
+     "How volunteers made needles and thread at the event."
     ],
-    "exp": "หลังพบข้อจำกัด ผู้จัดวางแผน “publish a short guide showing which repairs are suitable for beginners” และ “adjust the workshop to make the safety advice clearer” = ตอบด้วยการทำให้คำแนะนำชัดขึ้น ไม่ใช่เลิกจัดหรือยืนยันว่าซ่อมได้ทุกชิ้น"
+    "exp": "บทอ่านเล่าว่าอาสาสมัครสอนซ่อมเสื้อผ้าในงานสุดสัปดาห์ ผู้เข้าร่วมหลายคนกลับมาพร้อมเสื้อผ้าที่ซ่อมเอง ต่อมาพบข้อจำกัด และ “Organizers now plan to publish a short guide showing which repairs are suitable for beginners” เรื่องหลักจึงเป็นงานซ่อมและการปรับแผนที่ตามมา ตัวเลือกอื่นเป็นรายละเอียดเรื่องตะเข็บ เหตุผลที่ทิ้งเสื้อผ้า และอุปกรณ์ที่อาสาสมัครเตรียมไว้ให้"
    },
    {
     "type": "wic",
@@ -230,15 +230,15 @@
     "exp": "บริบทคืออาสาสมัครสอนครอบครัวซ่อมเสื้อผ้าที่มีรอยขาดเล็ก ๆ และตัดสินว่า “which garments were safe to repair” = เสื้อผ้าแต่ละชิ้น ไม่ใช่เศษผ้า รอยขาด หรืออุปกรณ์เย็บ"
    },
    {
-    "type": "true",
-    "prompt": "Which option matches what the passage says?",
-    "key": "Many people came back with clothes they had mended.",
+    "type": "inference",
+    "prompt": "What can be inferred about the next repair event?",
+    "key": "It will include clearer advice on safe repairs.",
     "d": [
-     "Volunteers repaired the items for the families.",
-     "The event was held once and never repeated.",
-     "Families had to bring their own thread."
+     "It will accept only garments without any tears.",
+     "It will be run by the families who attended before.",
+     "It will move to a larger hall for more families."
     ],
-    "exp": "บทความระบุว่า “Many people returned the following week with clothes they had repaired themselves” ส่วนอาสาสมัครให้เวลาผู้เข้าร่วมฝึกซ่อมเอง งานมีแผนจัดครั้งต่อไป และการจัดเตรียม “needles, thread, and spare fabric” ไว้ให้แล้ว"
+    "exp": "ประโยคสุดท้ายระบุว่าผู้จัด “will adjust the workshop to make the safety advice clearer before the next event” จึงอนุมานได้ว่าจะมีคำแนะนำด้านความปลอดภัยที่ชัดเจนขึ้น ตัวเลือกแรกขัดกับวัตถุประสงค์ของงานที่สอนซ่อมเสื้อผ้ามีรอยขาด ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ"
    }
   ]
  },

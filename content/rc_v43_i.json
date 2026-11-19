@@ -219,15 +219,15 @@
     "exp": "“Some students hesitated to ask questions in a large class, even when they did not understand” = ลังเล ไม่กล้าถามทันที ตัวเลือกกระตือรือร้นมีความหมายตรงข้าม ส่วนครูไม่อนุญาต/ยุ่งกับงานอื่นไม่มีในบท"
    },
    {
-    "type": "true",
-    "prompt": "Which of these statements is TRUE?",
-    "key": "More learners started to speak up.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A peer program that supports classroom learning.",
     "d": [
-     "Sessions were held during the large class.",
-     "Peer mentors gave formal lectures to the class.",
-     "The question box was removed later."
+     "Why teachers refuse to answer questions in class.",
+     "Which practice sheets worked best for the mentors.",
+     "How students were chosen to become peer mentors."
     ],
-    "exp": "บทความระบุว่า “more participants began asking questions and correcting their own mistakes” ส่วนเซสชันเป็นกลุ่มย่อยแยกจากชั้นเรียนใหญ่ ผู้เรียนอธิบายกันเอง (ไม่ใช่เมนเตอร์อธิบายให้ทุกอย่าง) และกล่องคำถามจะถูกใช้ปรับเซสชันต่อไป"
+    "exp": "บทอ่านเล่าว่าพี่เลี้ยงจัดกลุ่มย่อย ใช้ใบฝึกและกล่องคำถาม จนผู้เรียนกล้าถามและแก้ความผิดพลาดของตนเองมากขึ้น แล้วปิดท้ายว่า “The program is intended to support classroom learning, not replace formal instruction” เรื่องหลักจึงเป็นโครงการพี่เลี้ยงที่เสริมการเรียนในห้อง ตัวเลือกแรกขัดกับบทอ่าน เพราะครูไม่ได้ปฏิเสธการตอบคำถาม ส่วนตัวเลือกที่สองและสามเป็นรายละเอียดที่ไม่มีข้อมูลรองรับ"
    },
    {
     "type": "inference",

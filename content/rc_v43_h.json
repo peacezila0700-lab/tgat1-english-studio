@@ -96,15 +96,15 @@
     "exp": "อาสาสมัครใช้เครื่องวัดเสียบปลั๊กเพื่อแสดง “how much electricity some devices consumed when left on” = ไฟฟ้าที่เครื่องใช้กินขณะเปิดค้างไว้/สแตนด์บาย ไม่ใช่ไฟสำรองหรือไฟที่ผลิตเอง"
    },
    {
-    "type": "true",
-    "prompt": "Which statement is TRUE according to the passage?",
-    "key": "Energy savings differed between homes.",
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Volunteers helped households test small energy changes.",
     "d": [
-     "Every household reduced its bill.",
-     "Volunteers promised the same result to all.",
-     "The group stopped giving advice."
+     "Standby power is the largest cost in every home.",
+     "Families should buy plug-in meters before saving energy.",
+     "A single checklist works the same way in every apartment."
     ],
-    "exp": "บทความระบุว่า “energy savings varied because homes had different appliances and routines” ส่วนผู้ได้ผลคือ “a number of households” ไม่ใช่ทุกครัวเรือน และอาสาสมัครเลือกจะไม่สัญญาว่าจะได้ผลเดียวกัน (Rather than promise the same result) พร้อมวางแผนอัปเดตคำแนะนำ"
+    "exp": "บทอ่านเล่าว่ากลุ่มอาสาสมัครเสนอการตรวจการใช้พลังงานในบ้าน สาธิตการทำงานของไฟสแตนด์บาย ใช้เครื่องวัดแบบเสียบปลั๊ก และแจกใบเตือน จนหลายครัวเรือน “reported switching off unused devices and reducing their bills” ใจความหลักจึงเป็นการช่วยให้ครัวเรือนทดลองปรับเปลี่ยนเล็กๆ แล้ววัดผลเอง ตัวเลือกแรกและสามขัดกับข้อความ “energy savings varied because homes had different appliances and routines” ส่วนตัวเลือกที่สองเป็นการแนะนำให้ซื้ออุปกรณ์ซึ่งบทอ่านไม่ได้กล่าวถึง"
    },
    {
     "type": "inference",
@@ -227,15 +227,15 @@
     "exp": "“Before launch, staff asked a small group of readers to test the app” = ก่อนเปิดตัวแอปให้สมาชิกใช้ จึงให้กลุ่มเล็กทดสอบก่อน ไม่ใช่เวลาเปิดห้องสมุด การรีวิวเว็บไซต์ หรือการประชุมนักพัฒนา"
    },
    {
-    "type": "true",
-    "prompt": "According to the passage, which statement is TRUE?",
-    "key": "The same readers tested the app twice.",
+    "type": "purpose",
+    "prompt": "Why does the author mention the second review?",
+    "key": "To show that the changes reduced mistakes.",
     "d": [
-     "The first version of the app did not work.",
-     "Staff tested the app before readers did.",
-     "The second review found more mistakes."
+     "To explain why the library replaced its website.",
+     "To prove that readers preferred the first version.",
+     "To describe how developers learned to write code."
     ],
-    "exp": "บทความระบุว่าผู้พัฒนาแก้ไขแล้ว “invited the same readers to test again” ส่วนเวอร์ชันแรก “worked” แต่ผู้ใช้ต้องการปรับปรุง การทดสอบก่อนเปิดตัวทำโดยกลุ่มผู้อ่าน (ไม่ใช่พนักงาน) และรอบสองพบ “fewer mistakes”"
+    "exp": "บทอ่านเรียงว่าผู้ใช้ต้องการตัวอักษรใหญ่ขึ้นและปุ่มต่ออายุที่เรียบง่ายกว่า จากนั้น “Developers made those changes and invited the same readers to test again” แล้วตามด้วย “The second review found fewer mistakes during renewals” การอ้างถึงการทดสอบรอบสองจึงแสดงว่าการแก้ไขช่วยลดข้อผิดพลาด ตัวเลือกแรกผิดเพราะห้องสมุดเพิ่มแอปไม่ได้แทนที่เว็บไซต์ ตัวเลือกที่สองขัดกับผลทดสอบรอบสอง และตัวเลือกที่สามไม่มีข้อมูลในบทอ่าน"
    }
   ]
  },

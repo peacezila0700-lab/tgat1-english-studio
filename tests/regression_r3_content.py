@@ -83,7 +83,12 @@ for _f in _glob.glob(os.path.join(ROOT,'content','rc_v43_[a-k].json')):
         for _it in _p['items']: _rc_types[_it['type']]+=1
 check('RC v43: detail is the most frequent type (>=110)',_rc_types['detail']>=110 and _rc_types['detail']==max(_rc_types.values()),dict(_rc_types))
 check('RC v43: words-in-context >= 55 (target 3 per 15 items)',_rc_types['wic']>=55,_rc_types['wic'])
-check('RC v43: TRUE/paraphrase/attitude/reference each >= 12',all(_rc_types[t]>=12 for t in ('true','paraphrase','attitude','reference')),{t:_rc_types[t] for t in ('true','paraphrase','attitude','reference')})
+# 2568 paper: main idea + purpose 4/15 and inference 2/15; TRUE-statement and attitude items
+# appear in neither the 2567 nor the 2568 count, so Arena round 2 converted all 30 of them.
+check('RC v43: main + purpose >= 55 of 300 (2568 paper 4/15 = 80; v43 Claude 36)',_rc_types['main']+_rc_types['purpose']>=55,{'main':_rc_types['main'],'purpose':_rc_types['purpose']})
+check('RC v43: inference >= 20 (2568 paper 2/15 = 40; v43 Claude 18)',_rc_types['inference']>=20,_rc_types['inference'])
+check('RC v43: reference and paraphrase each >= 12 (kept from the 2567 paper)',all(_rc_types[t]>=12 for t in ('paraphrase','reference')),{t:_rc_types[t] for t in ('paraphrase','reference')})
+check('RC v43: no TRUE-statement or attitude item left (absent from both papers)',_rc_types['true']==0 and _rc_types['attitude']==0,{'true':_rc_types['true'],'attitude':_rc_types['attitude']})
 # G-B: RC context-overlap heuristic <= 0.35 (v43 Arena: 51.7%)
 _stop=set('the a an of to in for and or is are was were be been with that this it they as at on by from'.split())
 def _ov(q,o):

@@ -1085,17 +1085,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement is TRUE according to the passage?",
+  "prompt": "What is the main idea of the passage?",
   "context": "A group of students wanted to know whether clearer signs would help passengers find the correct platform at a busy station. For one week, they observed where people stopped to ask for directions. The following week, station staff placed large signs near the entrance, using arrows and platform numbers rather than long sentences. The students counted questions again and found that fewer passengers stopped to ask for help. They did not conclude that signs had solved every problem, however. Some travelers still needed assistance when a train was delayed or when two services used nearby platforms. The students recommended keeping the signs but adding a small digital board that could show temporary changes. Their report emphasized that good information should be easy to read and easy to update.",
   "options": [
-   "The whole experiment lasted about two months.",
-   "Fewer passengers asked for help after the signs appeared.",
-   "The students removed the signs after week two.",
-   "A digital board was installed during the trial."
+   "Station staff should replace every long sentence with arrows.",
+   "Simple signs helped passengers, but some problems remain.",
+   "Passengers stop asking questions when trains run on time.",
+   "The students observed the station for two months."
   ],
   "answer": 1,
-  "explanation": "บทความระบุตรง ๆ ว่า “found that fewer passengers stopped to ask for help” ส่วนการทดลองกินเวลาสองสัปดาห์ไม่ใช่สองเดือน นักเรียนเสนอ “keeping the signs” และจอดิจิทัลเป็นเพียงคำแนะนำยังไม่ถูกติดตั้ง",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ใจความหลักคือป้ายที่อ่านง่ายช่วยลดจำนวนคนที่จะต้องถามทาง แต่ยังแก้ปัญหาไม่ได้ทุกกรณี ตรงกับ “They did not conclude that signs had solved every problem” และข้อเสนอ “keeping the signs but adding a small digital board” ตัวเลือกแรกเป็นรายละเอียดเรื่องลูกศร ตัวเลือกที่สองอ้างเรื่องรถไฟตรงเวลาที่บทอ่านไม่ได้กล่าว และตัวเลือกสุดท้ายเป็นรายละเอียดระยะเวลา",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A train platform experiment",
   "diff": 3
  },
@@ -1165,17 +1165,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the passage present the museum’s final decision?",
+  "prompt": "What can be inferred about the museum’s visitors?",
   "context": "A local museum tested two versions of an audio guide during a weekend exhibition. Version A gave visitors short descriptions of each object, while Version B asked a question before providing the explanation. Staff members expected the second version to encourage visitors to look more closely. After the trial, exit interviews showed that many visitors remembered more details from Version B, although some older visitors preferred the simpler format of Version A. The museum decided not to choose one version for everyone. Instead, it will offer both formats and let visitors select the one they prefer. The trial also showed that audio guides should not be too long. Several visitors said they stopped listening when an explanation continued for several minutes without a pause.",
   "options": [
-   "As a mistake that wasted the whole trial.",
-   "As a sensible answer to mixed results.",
-   "As a temporary fix to be reversed.",
-   "As a choice that upset many older visitors."
+   "Most of them stopped listening before the end.",
+   "They do not all prefer the same kind of guide.",
+   "Older visitors remembered more details than younger ones.",
+   "They chose Version B more often than Version A."
   ],
   "answer": 1,
-  "explanation": "บทความเล่าด้วยน้ำเสียงกลางและแสดงว่าการให้บริการทั้งสองรูปแบบตอบสนองผลที่ผสมกันของผู้เยี่ยมชมแต่ละกลุ่ม ไม่มีถ้อยคำใดชี้ว่าเป็นความผิดพลาด ชั่วคราว หรือทำให้ผู้สูงอายุไม่พอใจ",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านระบุว่า “many visitors remembered more details from Version B, although some older visitors preferred the simpler format of Version A” และพิพิธภัณฑ์เลือกจะ “let visitors select the one they prefer” จึงอนุมานได้ว่าผู้ชมไม่ได้ชอบคู่มือรูปแบบเดียวกันทุกคน ตัวเลือกแรกพูดเกินข้อมูลเพราะมีเพียง “Several visitors” ที่เลิกฟัง ตัวเลือกที่สองสลับกลุ่มอายุ และตัวเลือกสุดท้ายไม่มีข้อมูลในบทอ่านรองรับ",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A museum audio guide trial",
   "diff": 2
  },
@@ -2365,17 +2365,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How is the final decision described at the end of the passage?",
+  "prompt": "Which option best summarises the passage?",
   "context": "A public library considered creating a permanent quiet zone on its second floor. Supporters argued that students and remote workers needed a place where conversations would be limited. Other visitors worried that a strict rule would make the library less welcoming to families. Before deciding, the library ran a four-week trial. Signs explained that short conversations were allowed in most areas but not in the quiet zone. At the end of the trial, the library received fewer complaints about noise, while family visits did not decrease as much as some staff had expected. The board therefore approved the quiet zone but added comfortable seats outside it for visitors who wanted to talk. The decision was presented as a compromise rather than a complete solution.",
   "options": [
-   "As a compromise, not a complete solution.",
-   "As a clear victory for the supporters.",
-   "As a temporary measure to be reviewed soon.",
-   "As a strict rule that upset local families."
+   "A four-week trial led the library to approve a quiet zone.",
+   "Families stopped visiting during the trial.",
+   "The board rejected the quiet zone because of the complaints.",
+   "Short conversations are now banned in every area of the library."
   ],
   "answer": 0,
-  "explanation": "ประโยคสุดท้ายระบุตรง ๆ ว่า “The decision was presented as a compromise rather than a complete solution.” ตัวเลือกชัยชนะ/ชั่วคราว/ทำให้ครอบครัวโกรธ ไม่ตรงกับถ้อยคำนี้",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "เรื่องหลักคือห้องสมุดทดลองก่อนตัดสินใจจริง ตามข้อความ “the library ran a four-week trial” แล้วจึง “The board therefore approved the quiet zone but added comfortable seats outside it” ตัวเลือกแรกขัดกับผลการทดลองที่ว่า “family visits did not decrease as much as some staff had expected” ตัวเลือกที่สองขัดกับการอนุมัติ และตัวเลือกสุดท้ายขัดกับกฎที่บอก่ว่า “short conversations were allowed in most areas”",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A library quiet-zone debate",
   "diff": 2
  },
@@ -3485,17 +3485,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement agrees with the information in the passage?",
+  "prompt": "Why does the author mention the construction work?",
   "context": "A science club began monitoring a small river that passed behind the school. At first, members collected water samples only after heavy rain because they wanted to see whether runoff changed the water’s appearance. Later, they added weekly samples taken on dry days. The larger set of observations showed that cloudy water was not always linked to rain; nearby construction work also affected the river. The students shared their findings with the local council, which asked the construction company to cover loose soil near the riverbank. The club did not claim that its observations proved every source of pollution, but the regular measurements gave officials a clearer picture of when changes occurred. The students now plan to compare their results with readings from another part of the river.",
   "options": [
-   "The school ended the project after the council acted.",
-   "The company moved its work away from the riverbank.",
-   "Samples are now collected mainly on dry days.",
-   "The club plans to compare results with another part of the river."
+   "To prove that the club measured the river incorrectly.",
+   "To explain why the council asked for weekly samples.",
+   "To describe where the school kept its water samples.",
+   "To show that cloudy water had more than one cause."
   ],
   "answer": 3,
-  "explanation": "ประโยคสุดท้ายระบุ “The students now plan to compare their results with readings from another part of the river.” ส่วนโครงการไม่ได้จบ บริษัทแค่ถูกขอให้คลุมดิน และสโมสร “added weekly samples taken on dry days” ควบคู่กับการเก็บหลังฝน ไม่ใช่แทนที่",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ผู้เขียนยกงานก่อสร้างขึ้นมาเพื่อยืนยันข้อความที่ว่า “cloudy water was not always linked to rain; nearby construction work also affected the river” คือ น้ำขุ่นมีสาเหตุมากกว่าหนึ่งอย่าง ตัวเลือกแรกขัดกับบทอ่านเพราะผลการวัดทำให้สภาขอให้บริษัท “cover loose soil near the riverbank” ตัวเลือกที่สองสลับว่าสภาขอตัวอย่างรายสัปดาห์ และตัวเลือกสุดท้ายไม่มีข้อมูลเรื่องสถานที่เก็บตัวอย่าง",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A river-monitoring project",
   "diff": 2
  },
@@ -3565,17 +3565,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the hosts feel about their new question format?",
+  "prompt": "What is the passage mainly about?",
   "context": "Three students started a short podcast in which they discuss one book each week. Their first episodes were simple summaries, but listeners said they wanted more discussion. The students changed the format by choosing one question for each episode and asking a different guest to respond. A librarian joined one episode to discuss how libraries decide which books to display, while a younger student talked about choosing a story for the first time. The hosts noticed that the new format produced more disagreement, but they considered that useful because it gave listeners several ways to think about the same book. They now spend less time summarizing the plot and more time preparing questions that can lead to different answers.",
   "options": [
-   "They prefer the old summary style.",
-   "They plan to change the episode format again soon.",
-   "They blame guests for disagreements.",
-   "They value it despite the extra preparation."
+   "Which books the guests preferred.",
+   "How a librarian decides what to display in a library.",
+   "Why summarizing a plot takes less time than questions.",
+   "Why the students changed their podcast format."
   ],
   "answer": 3,
-  "explanation": "โฮสต์ “considered that useful” และ “spend less time summarizing the plot and more time preparing questions” แสดงว่าให้ค่ารูปแบบใหม่แม้ต้องเตรียมมากขึ้น ไม่มีสัญญาณว่าจะกลับไปใช้แบบเก่า",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านเล่าว่าผู้ฟังต้องการมากกว่าเรื่องย่อ นักเรียนจึง “changed the format by choosing one question for each episode” และปิดท้ายใช้เวลา “more time preparing questions that can lead to different answers” เรื่องหลักจึงเป็นเหตุผลที่เปลี่ยนรูปแบบรายการ ตัวเลือกแรกและสองเป็นรายละเอียดของแขกรับเชิญบางตอน และตัวเลือกสุดท้ายเป็นการเปรียบเทียบที่บทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A student-run book podcast",
   "diff": 2
  },
@@ -4765,17 +4765,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the student view personal memories?",
+  "prompt": "What can be inferred about the student’s project?",
   "context": "A university student interviewed older residents about how the neighborhood had changed over the past thirty years. She expected most answers to focus on new buildings, but residents also talked about changes that were harder to see. One resident remembered when neighbors regularly left their doors open, while another described how a former empty lot became a place where children played. The student compared the interviews with old photographs from a local archive. Some memories matched the photographs closely; others differed in small details. She did not treat those differences as failures. Instead, she explained that personal memories show how people experienced change, while photographs show what a place looked like at a particular moment. Her final project combined both kinds of evidence.",
   "options": [
-   "As unreliable stories needing careful correction.",
-   "As less useful than old photographs.",
-   "As evidence of how people experienced change.",
-   "As records of what a place looked like."
+   "It proved that residents remembered wrongly.",
+   "It relied only on photographs from the local archive.",
+   "It treated memories and photos as different evidence.",
+   "It focused on new buildings rather than on hidden changes."
   ],
   "answer": 2,
-  "explanation": "เธอให้ค่าความทรงจำในฐานะหลักฐานของ ประสบการณ์ ต่อการเปลี่ยนแปลง และ “did not treat those differences as failures” ตัวเลือกสุดท้ายคือบทบาทของภาพถ่าย ไม่ใช่ความทรงจำ",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "ข้อความบอกว่า “she explained that personal memories show how people experienced change, while photographs show what a place looked like” และสรุปว่า “Her final project combined both kinds of evidence” จึงอนุมานได้ว่าโครงการใช้หลักฐานสองชนิดที่ต่างกัน ตัวเลือกแรกขัดกับประโยค “She did not treat those differences as failures” ตัวเลือกที่สองขัดกับคำว่า combined และตัวเลือกสุดท้ายตรงข้ามกับสิ่งที่เธอคาดไว้ตอนต้น",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A neighborhood walking interview",
   "diff": 1
  },
@@ -5885,17 +5885,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option matches what the passage says?",
+  "prompt": "What is the main idea of the passage?",
   "context": "A town festival used to publish its schedule as a long list of activities, including performances, workshops, and food events. Visitors complained that it was difficult to see what was happening at the same time. The organizers redesigned the schedule as a timetable with columns for different locations. They also marked activities that required advance registration. The new version was shorter than the old list, yet visitors could find information more quickly. Organizers discovered one unexpected problem: some visitors assumed that an unmarked event did not require registration. They therefore added a note explaining that only selected activities needed advance booking. The festival committee plans to keep the timetable next year because it makes conflicts between events easier to notice.",
   "options": [
-   "The old schedule used columns for locations.",
-   "Visitors found information faster with the new version.",
-   "The committee removed the registration marks.",
-   "The new schedule listed many more activities than before."
+   "Visitors complained about the number of food events at the festival.",
+   "Redesigning the schedule as a timetable helped festival visitors.",
+   "Advance registration should be required for every festival activity.",
+   "The festival committee shortened the list of performances."
   ],
   "answer": 1,
-  "explanation": "บทความระบุว่าด้วยเวอร์ชันใหม่ “visitors could find information more quickly” ส่วนของเดิมเป็น long list ไม่ใช่คอลัมน์ คณะกรรมการเพิ่มโน้ตอธิบาย ไม่ใช่ถอดเครื่องหมาย และเวอร์ชันใหม่สั้นกว่าเดิม",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "เรื่องหลักคือการออกแบบตารางกิจกรรมใหม่เป็น timetable แล้วช่วยให้ผู้เข้าชมหาข้อมูลได้เร็วขึ้น ตรงกับ “The new version was shorter than the old list, yet visitors could find information more quickly” รวมถึงปัญหาที่ตามมาซึ่งแก้ด้วยการเพิ่มคำอธิบาย ตัวเลือกแรกไม่ใช่เรื่องที่ผู้เข้าชมร้องเรียน เพราะเขาบ่นว่า “difficult to see what was happening at the same time” ตัวเลือกที่สองขัดกับข้อความ “only selected activities needed advance booking” และตัวเลือกสุดท้ายสับสนระหว่างจำนวนกิจกรรมกับความยาวของตาราง",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A local festival timetable",
   "diff": 1
  },
@@ -5965,17 +5965,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the teacher view the large numbers on package fronts?",
+  "prompt": "What is the passage mainly about?",
   "context": "A health teacher noticed that students often compared food products by looking only at the large number printed on the front of a package. She designed a lesson in which students first guessed which product contained more sugar and then checked the nutrition labels. Several guesses were wrong because the packages used different serving sizes. The teacher explained that numbers are meaningful only when the units and serving amounts are considered. Students then practiced comparing two products using the same serving size. By the end of the lesson, most students could explain why a smaller number on a label was not always the better choice. The teacher planned to repeat the activity with sodium and fiber so that students could apply the same method to other nutrients.",
   "options": [
-   "As useful for quick comparisons.",
-   "As misleading without serving information.",
-   "As hard for students to find.",
-   "As more honest than labels."
+   "Which foods contain most sugar.",
+   "A lesson in comparing food labels fairly.",
+   "Why students guessed the wrong products at first.",
+   "How teachers design a health course for one term."
   ],
   "answer": 1,
-  "explanation": "ครูสอนว่า “numbers are meaningful only when the units and serving amounts are considered” แสดงว่าตัวเลขหน้าซองทำให้เข้าใจผิดได้ถ้าไม่ดูหน่วย/ปริมาณต่อหน่วยบริโภค ตัวเลือกว่ามีประโยชน์หาเร็วขัดกับจุดประสงค์ของบทเรียน",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านเล่าว่าครูออกแบบกิจกรรมให้นักเรียนทายแล้วตรวจฉลาก จน “most students could explain why a smaller number on a label was not always the better choice” เรื่องหลักจึงเป็นบทเรียนว่าด้วยการเปรียบเทียบฉลากอย่างถูกวิธี ตัวเลือกแรกเป็นหัวข้อที่ครู “planned to repeat the activity with sodium and fiber” ในอนาคต ตัวเลือกที่สองเป็นเพียงสาเหตุที่เกิดขึ้นระหว่างบทเรียน และตัวเลือกสุดท้ายกว้างเกินไปเพราะบทอ่านกล่าวถึงกิจกรรมเดียว",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A food-label reading class",
   "diff": 2
  },
@@ -7165,17 +7165,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the passage present the survey’s role in the decision?",
+  "prompt": "What can be inferred from the passage about the survey?",
   "context": "A school surveyed students before deciding whether to turn part of its flat roof into a garden. The survey asked what students wanted to grow, how often they could help, and what they thought the garden should be used for. Flowers received many votes, but vegetables were also popular because the science department wanted to use them for lessons. Fewer students volunteered for daily watering than for occasional planting. Based on the results, the school designed a smaller garden with plants that could survive short periods without water. The project team also created a rotating schedule so that students would not need to visit every day. The survey did not determine the final design by itself, but it helped the school make choices that matched students’ interests and availability.",
   "options": [
-   "As helpful input, not the final answer.",
-   "As the only factor in the final garden design.",
-   "As a wasted effort by the school.",
-   "As a way to delay the garden."
+   "It shaped the design but did not decide it alone.",
+   "It showed students preferred flowers.",
+   "It proved that daily watering was impossible for students.",
+   "It was completed after the school built the smaller garden."
   ],
   "answer": 0,
-  "explanation": "ประโยคท้ายระบุว่า “The survey did not determine the final design by itself, but it helped the school make choices…” คือมีประโยชน์แต่ไม่ใช่คำตอบสุดท้าย ตัวเลือกหนึ่งจึงตรงข้าม และไม่มีท่าทีว่าสูญเปล่าหรือถ่วงเวลา",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "ประโยคสุดท้ายระบุว่า “The survey did not determine the final design by itself, but it helped the school make choices that matched students’ interests and availability” จึงอนุมานได้ตามตัวเลือกที่ถูก ตัวเลือกแรกขัดกับข้อความ “Flowers received many votes, but vegetables were also popular” ตัวเลือกที่สองพูดเกินข้อมูล เพราะบทอ่านบอกเพียงว่า “Fewer students volunteered for daily watering” และตัวเลือกสุดท้ายสลับลำดับเวลา เพราะโรงเรียนสำรวจก่อนตัดสินใจออกแบบ",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A rooftop garden survey",
   "diff": 1
  },
@@ -8185,17 +8185,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "According to the passage, which statement is TRUE?",
+  "prompt": "Why does the author mention umbrellas and clothing?",
   "context": "A college lost-and-found office noticed that many unclaimed items were kept for months. Staff reviewed one year of records and grouped items by type, location, and how quickly they were collected. They found that items with clear labels were returned much faster than similar items without labels. Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer. The office changed its notice system by adding a simple online form and a weekly photo board. Staff did not publish personal details; they used descriptions that owners could recognize. After the change, more items were claimed before the storage deadline. The review showed that a small improvement in how information was presented could affect how quickly people found what they had lost.",
   "options": [
-   "The lost-property office kept every unclaimed item forever.",
-   "Staff published owners’ names on the board.",
-   "Mobiles and purses were soon returned.",
-   "The records covered a single term."
+   "To explain why the office stopped storing items.",
+   "To prove that every umbrella carried a clear label.",
+   "To show that some items stayed longer than others.",
+   "To suggest that owners should photograph their wallets."
   ],
   "answer": 2,
-  "explanation": "บทความระบุ “Phones and wallets were often claimed within a week” ส่วนของที่ไม่ถูกรับคืน “were kept for months” ไม่ใช่ตลอดไป เจ้าหน้าที่ไม่เปิดเผยข้อมูลส่วนตัว และทบทวน “one year of records” ไม่ใช่หนึ่งเทอม",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ผู้เขียนยกตัวอย่างร่มและเสื้อผ้ามาเทียบกับโทรศัพท์และกระเป๋าสตางค์ ตามข้อความ “Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer” จึงเป็นการแสดงว่าของบางประเภทถูกเก็บไว้นานกว่า ตัวเลือกแรกไม่มีในบทอ่าน เพราะสำนักงานยังเก็บของจนถึง “the storage deadline” ส่วนตัวเลือกที่สองและสามเป็นการเติมข้อมูลที่บทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A lost-and-found data review",
   "diff": 3
  },
@@ -8265,17 +8265,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the tone of the passage’s final sentence?",
+  "prompt": "What is the main point of the passage?",
   "context": "A school considered changing its morning bell because some students said the current signal was difficult to hear in certain buildings. The administration surveyed students and teachers rather than assuming the problem was the same everywhere. Responses showed that the signal was clear in the main building but much quieter near the gym. The school tested a second speaker near the gym for two weeks. Complaints decreased, but several teachers said the new speaker was too loud during outdoor activities. The school then adjusted the volume and added a simple schedule so the outdoor speaker would not operate during sports practice. The project demonstrated that a small technical change can create a new problem if it is not tested in the setting where it will be used.",
   "options": [
-   "Proud of the school’s brand-new outdoor speaker.",
-   "Angry at the teachers’ complaints.",
-   "Cautious, warning that fixes need testing.",
-   "Doubtful that surveys are useful."
+   "Students disliked the bell everywhere.",
+   "The school replaced the gym speaker after two weeks.",
+   "A change must be tested where it will be used.",
+   "Surveys are the cheapest way to solve a school problem."
   ],
   "answer": 2,
-  "explanation": "ประโยคสรุปว่า “a small technical change can create a new problem if it is not tested in the setting where it will be used” เป็นน้ำเสียงเตือนอย่างระมัดระวัง ไม่ใช่ภูมิใจ โมโห หรือสงสัยคุณค่าของแบบสำรวจ",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "ประโยคสรุปของบทอ่านระบุว่า “a small technical change can create a new problem if it is not tested in the setting where it will be used” ซึ่งเป็นประเด็นหลักของทั้งเรื่อง ตัวเลือกแรกขัดกับผลสำรวจที่พบว่าสัญญาณ “clear in the main building but much quieter near the gym” ตัวเลือกที่สองสลับข้อเท็จจริง เพราะโรงเรียนปรับระดับเสียงและเพิ่มตารางเวลา ไม่ได้เปลี่ยนลำโพง และตัวเลือกสุดท้ายเป็นการสรุปที่บทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A school bell survey",
   "diff": 1
  },
@@ -9445,17 +9445,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the conductor view the seating chart?",
+  "prompt": "What is the passage mainly about?",
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
-   "As a tool that removes small interruptions.",
-   "As a way to control where members sit.",
-   "As something useful only for guests.",
-   "As much less important than the rehearsal time."
+   "Why a seating chart made rehearsals run more smoothly.",
+   "How the orchestra chose its guest musicians each year.",
+   "Which instruments needed more practice before a performance.",
+   "When the community orchestra moved to a larger hall."
   ],
   "answer": 0,
-  "explanation": "ผู้ควบคุมอธิบายว่าแผนที่ไม่ได้สำคัญเพราะตัวเก้าอี้ แต่ “it reduced small decisions that could otherwise interrupt the beginning of practice” = เป็นเครื่องมือตัดการตัดสินใจเล็ก ๆ ที่ขัดจังหวะต้นการซ้อม",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านอธิบายว่าแผนผังที่นั่งช่วยลดการตัดสินใจเล็กน้อยตอนเริ่มซ้อม ตามคำของวาทยกรที่ว่า “It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice” เรื่องหลักจึงเป็นเหตุผลที่แผนผังทำให้การซ้อมราบรื่นขึ้น ตัวเลือกอื่นพูดถึงการเลือกนักดนตรีรับเชิญ เครื่องดนตรี หรือหอประชุมใหม่ ซึ่งบทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A community music rehearsal",
   "diff": 2
  },
@@ -9485,17 +9485,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which of these statements is TRUE?",
+  "prompt": "Why does the author mention guest musicians?",
   "context": "A community orchestra had difficulty keeping rehearsals on schedule because musicians arrived at different times and often needed to find their seats. The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance. At first, several musicians ignored the chart because they already knew where they usually sat. After a few rehearsals, however, the orchestra changed the chart for smaller groups and special performances. Rehearsals became more predictable, especially when guest musicians joined. The conductor said the seating chart was not important because of the chairs themselves. It was useful because it reduced small decisions that could otherwise interrupt the beginning of practice.",
   "options": [
-   "All musicians used the chart from the first day.",
-   "Rehearsals became harder when guests joined.",
-   "The orchestra later changed the chart for special performances.",
-   "The chart was removed after a few rehearsals."
+   "To explain who chose the music.",
+   "To prove that guests arrived earlier than other members.",
+   "To show when the chart helped the most.",
+   "To describe how the orchestra recruited new players."
   ],
   "answer": 2,
-  "explanation": "บทความระบุว่า “the orchestra changed the chart for smaller groups and special performances” ส่วนช่วงแรกมีหลายคนเมินแผนผัง การซ้อมกลับคาดเดาได้ง่ายขึ้นโดยเฉพาะเมื่อมีแขกร่วม และแผนผังไม่ได้ถูกถอดออก",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านบอกว่า “Rehearsals became more predictable, especially when guest musicians joined” การยกตัวอย่างนักดนตรีรับเชิญจึงแสดงช่วงเวลาที่แผนผังที่นั่งช่วยได้มากที่สุด ตัวเลือกอื่นกล่าวถึงการเลือกเพลง การมาถึงของแขก และการรับสมัครผู้เล่นใหม่ ซึ่งไม่มีข้อมูลในบทอ่าน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A community music rehearsal",
   "diff": 2
  },
@@ -10665,17 +10665,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option matches what the passage says?",
+  "prompt": "Why does the author mention the holiday market?",
   "context": "A farmers market tested a shared payment terminal because some small vendors did not want to buy their own machines. Customers could pay at one booth and tell the cashier which vendor should receive the money. The system worked well during quiet periods, but long queues appeared when several customers arrived together. Organizers then added a second terminal and a simple number system. Vendors said the shared system was useful because it reduced equipment costs, while customers liked being able to use cards at more stalls. The organizers concluded that the idea was practical but depended on enough terminals being available at busy times. They plan to test the system again during the holiday market, when visitor numbers are higher.",
   "options": [
-   "The shared system worked well during quiet periods.",
-   "Vendors disliked the shared terminal.",
-   "Customers could pay at any stall directly.",
-   "The holiday test has already finished."
+   "To indicate when the system will be tested again.",
+   "To explain why vendors refused.",
+   "To show that queues are shorter during the holidays.",
+   "To argue that card payments should replace cash entirely."
   ],
   "answer": 0,
-  "explanation": "บทความระบุว่า “The system worked well during quiet periods” ส่วนผู้ขายบอกว่าระบบ “was useful” ลูกค้าต้องจ่ายที่บูธเดียวแล้วบอกพนักงานว่าเงินเป็นของร้านใด และการทดสอบช่วงเทศกาลยังเป็นแผนในอนาคต",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ประโยคสุดท้ายบอกว่าผู้จัด “plan to test the system again during the holiday market, when visitor numbers are higher” การอ้างถึงตลาดช่วงวันหยุดจึงบอกช่วงเวลาที่จะทดสอบระบบครั้งถัดไป ตัวเลือกแรกขัดกับบทอ่านเพราะร้านค้าเห็นว่าระบบช่วย “reduced equipment costs” ตัวเลือกที่สองไม่มีข้อมูลเรื่องความยาวคิวช่วงวันหยุด และตัวเลือกสุดท้ายเป็นข้อเสนอที่บทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A farmers market payment trial",
   "diff": 2
  },
@@ -11765,17 +11765,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the students seem to feel about the changes they made?",
+  "prompt": "Why does the author mention the steep section?",
   "context": "A group of teenagers designed a walking route that connected six historic buildings in their town. They first planned the route using a digital map, but a trial walk revealed that one street had a steep section that was uncomfortable for some visitors. The group changed the route and added a short explanation about why the original street had been important. They also placed estimated walking times between stops rather than giving only distances. The final guide was shorter than their first version, yet testers said it was easier to follow. The students learned that a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably from one place to another.",
   "options": [
-   "They regret shortening the very first guide.",
-   "They believe distances matter more.",
-   "They accept that testers’ comfort matters.",
-   "They doubt the value of a trial walk."
+   "To show that digital maps miss hills.",
+   "To describe what testers liked about the town.",
+   "To explain why the group changed the route.",
+   "To prove that six buildings were too many stops."
   ],
   "answer": 2,
-  "explanation": "นักเรียนเปลี่ยนเส้นทาง เพิ่มคำอธิบาย และใส่เวลาเดินโดยสรุปว่า “a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably” = ยอมรับว่าความสะดวกของผู้ใช้สำคัญ ไม่มีสัญญาณว่าเสียใจหรือสงสัยคุณค่าของการเดินทดสอบ",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านเล่าว่า “a trial walk revealed that one street had a steep section that was uncomfortable for some visitors” แล้วตามด้วย “The group changed the route” การยกเรื่องทางชันจึงอธิบายสาเหตุที่กลุ่มเปลี่ยนเส้นทาง ตัวเลือกแรกพูดเกินข้อมูลเพราะบทอ่านไม่ได้บอกว่าแผนที่ดิจิทัลพลาดเสมอ ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลรองรับ",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A local history walking route",
   "diff": 2
  },
@@ -11845,17 +11845,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement is TRUE according to the passage?",
+  "prompt": "What is the main idea of the passage?",
   "context": "A school science department had a growing problem with equipment that was returned late. Teachers created a checkout sheet, but students often forgot to write down when an item was due. The department replaced the sheet with a simple online form that showed the return date before a request could be submitted. Staff also added reminders one day before the deadline. Late returns decreased during the first month. However, the department noticed that students sometimes entered the wrong item number. To reduce this problem, staff added photos beside the most commonly borrowed equipment. The department concluded that a good system should make the correct action easy rather than simply reminding users to be careful.",
   "options": [
-   "The online form hid the return date.",
-   "Deadline reminders were sent a full week in advance.",
-   "Fewer items came back overdue at first.",
-   "Wrong item numbers stopped completely."
+   "Students should be reminded to return equipment on time.",
+   "Online forms cost less than paper sheets in most schools.",
+   "A department improved its checkout system step by step.",
+   "Photographs of equipment encouraged students to borrow more."
   ],
   "answer": 2,
-  "explanation": "บทความระบุว่า “Late returns decreased during the first month.” ส่วนฟอร์ม “showed the return date before a request could be submitted” (ไม่ซ่อน) การเตือนส่ง “one day before the deadline” ไม่ใช่หนึ่งสัปดาห์ และปัญหาเลขผิดแค่ลดลง ไม่ได้หายไปหมด",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านเรียงลำดับการปรับปรุง ตั้งแต่ใบยืมอุปกรณ์ แบบฟอร์มออนไลน์ที่ “showed the return date before a request could be submitted” การแจ้งเตือนล่วงหน้า ไปจนถึงการใส่รูปประกอบ แล้วสรุปว่า “a good system should make the correct action easy” ใจความหลักจึงเป็นการปรับระบบทีละขั้น ตัวเลือกแรกเป็นเพียงมาตรการหนึ่ง ตัวเลือกที่สองเป็นการเปรียบเทียบต้นทุนที่ไม่มีในบทอ่าน และตัวเลือกสุดท้ายผิดวัตถุประสงค์ เพราะรูปประกอบมีไว้ลดการกรอกเลขพัสดุผิด",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A school equipment checkout system",
   "diff": 2
  },
@@ -12945,17 +12945,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the teachers feel about the garden project so far?",
+  "prompt": "Why does the author mention rulers and simple journals?",
   "context": "Science teachers at one school wanted students to understand why plants grew differently under changing conditions. Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room. They began by asking groups of students to measure the height of young plants and record their observations each week. Rulers, plant labels, and simple journals were enough; no expensive equipment was needed. After six weeks, students could use their measurements to explain how plants responded to sunlight and water. The results were encouraging, although plants in shaded areas grew more slowly. The teachers now plan to move some pots regularly and compare the records. They hope the garden will have a lasting place in science lessons and show students how evidence can answer practical questions.",
   "options": [
-   "Positive, though they see room to improve.",
-   "Disappointed by the slow growth.",
-   "Unsure whether to keep the garden.",
-   "Proud that no expensive equipment was needed."
+   "To show that the project needed little equipment.",
+   "To list what students had to buy before the class.",
+   "To explain how teachers measured the garden beds.",
+   "To prove that journals were better than plant labels."
   ],
   "answer": 0,
-  "explanation": "ครูมองว่า “The results were encouraging” และยังวางแผนย้ายกระถางเพื่อเทียบบันทึก พร้อมหวังให้สวนอยู่ในการเรียนระยะยาว = พึงพอใจแต่ยังพัฒนาต่อ ตัวเลือกผิดหวัง/ลังเล ไม่มีสัญญาณในข้อความ",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed” การยกอุปกรณ์เหล่านี้จึงแสดงให้เห็นว่าโครงการไม่จำเป็นต้องใช้ของแพง ตัวเลือกแรกขัดกับข้อความนั้นโดยตรง ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่าน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A school garden science class",
   "diff": 3
  },
@@ -12985,17 +12985,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "According to the passage, which statement is TRUE?",
+  "prompt": "What can be inferred about the garden project?",
   "context": "Science teachers at one school wanted students to understand why plants grew differently under changing conditions. Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room. They began by asking groups of students to measure the height of young plants and record their observations each week. Rulers, plant labels, and simple journals were enough; no expensive equipment was needed. After six weeks, students could use their measurements to explain how plants responded to sunlight and water. The results were encouraging, although plants in shaded areas grew more slowly. The teachers now plan to move some pots regularly and compare the records. They hope the garden will have a lasting place in science lessons and show students how evidence can answer practical questions.",
   "options": [
-   "Plants in shaded areas grew the fastest.",
-   "The garden project lasted six days.",
-   "Students recorded their observations every week.",
-   "Teachers plan to stop using the garden."
+   "It replaced the textbook examples.",
+   "It produced the same results in shaded and sunny spots.",
+   "Teachers plan to keep using it in future lessons.",
+   "It required students to buy their own measuring tools."
   ],
   "answer": 2,
-  "explanation": "บทความระบุว่านักเรียนต้อง “record their observations each week” ส่วนพืชในที่ร่ม “grew more slowly” ไม่ใช่เร็วสุด โครงการกินเวลา “six weeks” ไม่ใช่หกวัน และครูหวังให้สวน “have a lasting place in science lessons”",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ตอนท้ายระบุว่าครู “now plan to move some pots regularly and compare the records” และ “hope the garden will have a lasting place in science lessons” จึงอนุมานได้ว่าครูจะใช้สวนนี้ในบทเรียนต่อไป ตัวเลือกแรกเกินข้อมูล เพราะบทอ่านบอกเพียงว่าตัวอย่างในหนังสือ “felt distant from daily life” ตัวเลือกที่สองขัดกับข้อความ “plants in shaded areas grew more slowly” และตัวเลือกที่สามขัดกับประโยคที่บอกว่าไม่จำเป็นต้องใช้อุปกรณ์ราคาแพง",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A school garden science class",
   "diff": 1
  },
@@ -14165,17 +14165,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement agrees with the information in the passage?",
+  "prompt": "Why does the author mention bright sunlight?",
   "context": "Visitors to the town's public art trail often admired the sculptures but walked on without learning who had made them or what they represented. Artists and local guides decided to add short descriptions at each stop. They chose weather-resistant signs and asked visitors to comment on the wording and placement. During the rainy season, they counted how many people paused to read the signs and spoke with several tour groups. The review showed that visitors spent longer looking at the artworks, although some signs were difficult to read in bright sunlight. The organizers will test larger lettering and different positions before replacing the signs. They do not intend to redesign the whole trail; they simply need to adjust a few details so that the information is easier to use.",
   "options": [
-   "Visitors spent longer looking at the artworks.",
-   "The organizers will redesign the whole art trail.",
-   "Visitors were asked to comment before the signs were made.",
-   "The signs were counted only on dry days."
+   "To identify a problem the organizers must fix.",
+   "To explain when most visitors walk.",
+   "To show why the signs were made weather-resistant.",
+   "To suggest that the trail should close in summer."
   ],
   "answer": 0,
-  "explanation": "บทความระบุว่า “visitors spent longer looking at the artworks” ส่วนผู้จัด “do not intend to redesign the whole trail” ผู้เยี่ยมชมถูกขอความเห็นเรื่องถ้อยคำและตำแหน่ง (คือหลังทำต้นแบบ) และการนับทำ “During the rainy season”",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านบอกผลทบทวนว่า “some signs were difficult to read in bright sunlight” แล้วตามด้วยการที่ผู้จัด “will test larger lettering and different positions” การอ้างถึงแสงแดดจึงเป็นการระบุปัญหาที่ต้องแก้ไข ตัวเลือกอื่นไม่ตรงกับบทอ่าน เพราะป้ายถูกเลือกให้ทนสภาพอากาศก่อนเริ่มทดสอบ และไม่มีข้อมูลเรื่องเวลาเดินชมหรือการปิดเส้นทางในฤดูร้อน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A public art trail",
   "diff": 3
  },
@@ -14365,17 +14365,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the organizers regard the network’s current limits?",
+  "prompt": "Why does the author mention the phone tree?",
   "context": "During a series of hot afternoons, some older residents found it difficult to stay cool or reach a public cooling center. Local health volunteers started a simple support network. They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion. A phone tree helped volunteers contact people who lived alone, while printed safety tips were left at community centers. After six weeks, more residents knew where to find cool indoor spaces and whom to call for help. The network still had limits: volunteers could not visit every home each day. To make the support more lasting, the organizers plan to coordinate with local health services and invite additional residents to join the phone list.",
   "options": [
-   "As proof the network should be closed.",
-   "As the fault of residents who joined the list late.",
-   "As problems to fix by working with others.",
-   "As reasons to stop visiting homes."
+   "To explain how residents learned to drink more water.",
+   "To prove that cooling centers were too far from homes.",
+   "To show how volunteers reached people living alone.",
+   "To describe the training that all volunteers received."
   ],
   "answer": 2,
-  "explanation": "ผู้จัดยอมรับว่า “volunteers could not visit every home each day” แล้ววางแผน “coordinate with local health services and invite additional residents to join the phone list” = มองเป็นสิ่งที่แก้ได้ด้วยการร่วมมือ ไม่ใช่ล้มเลิกหรือโทษใคร",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านระบุว่า “A phone tree helped volunteers contact people who lived alone” การยกเรื่องเครือข่ายโทรบอกต่อจึงแสดงวิธีเข้าถึงผู้ที่อาศัยอยู่ลำพัง ตัวเลือกแรกเกี่ยวกับคำแนะนำอีกข้อหนึ่งในเรื่องน้ำดื่ม ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A heatwave support network",
   "diff": 3
  },
@@ -15545,17 +15545,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the organizers respond to the event’s limitation?",
+  "prompt": "What is the passage mainly about?",
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
-   "They plan clearer advice for participants.",
-   "They blame families for bringing old clothes.",
-   "They decide to stop holding the events.",
-   "They insist every item can be repaired."
+   "A repair event and the changes it prompted.",
+   "Which stitches are hardest to learn.",
+   "Why families threw away clothes with small tears.",
+   "How volunteers made needles and thread at the event."
   ],
   "answer": 0,
-  "explanation": "หลังพบข้อจำกัด ผู้จัดวางแผน “publish a short guide showing which repairs are suitable for beginners” และ “adjust the workshop to make the safety advice clearer” = ตอบด้วยการทำให้คำแนะนำชัดขึ้น ไม่ใช่เลิกจัดหรือยืนยันว่าซ่อมได้ทุกชิ้น",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านเล่าว่าอาสาสมัครสอนซ่อมเสื้อผ้าในงานสุดสัปดาห์ ผู้เข้าร่วมหลายคนกลับมาพร้อมเสื้อผ้าที่ซ่อมเอง ต่อมาพบข้อจำกัด และ “Organizers now plan to publish a short guide showing which repairs are suitable for beginners” เรื่องหลักจึงเป็นงานซ่อมและการปรับแผนที่ตามมา ตัวเลือกอื่นเป็นรายละเอียดเรื่องตะเข็บ เหตุผลที่ทิ้งเสื้อผ้า และอุปกรณ์ที่อาสาสมัครเตรียมไว้ให้",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A repair-and-reuse event",
   "diff": 1
  },
@@ -15585,17 +15585,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option matches what the passage says?",
+  "prompt": "What can be inferred about the next repair event?",
   "context": "At a weekend repair event, sewing volunteers showed families how to mend clothes with small tears instead of throwing them away. The first session focused on basic stitches and on deciding which garments were safe to repair. Volunteers provided needles, thread, and spare fabric, then gave participants time to practice on their own items. Many people returned the following week with clothes they had repaired themselves, so several garments stayed in use longer. The event also revealed a limitation: not every damaged item could be safely fixed, especially when seams or fastenings were badly worn. Organizers now plan to publish a short guide showing which repairs are suitable for beginners. They will adjust the workshop to make the safety advice clearer before the next event.",
   "options": [
-   "Volunteers repaired the items for the families.",
-   "The event was held once and never repeated.",
-   "Many people came back with clothes they had mended.",
-   "Families had to bring their own thread."
+   "It will accept only garments without any tears.",
+   "It will be run by the families who attended before.",
+   "It will include clearer advice on safe repairs.",
+   "It will move to a larger hall for more families."
   ],
   "answer": 2,
-  "explanation": "บทความระบุว่า “Many people returned the following week with clothes they had repaired themselves” ส่วนอาสาสมัครให้เวลาผู้เข้าร่วมฝึกซ่อมเอง งานมีแผนจัดครั้งต่อไป และการจัดเตรียม “needles, thread, and spare fabric” ไว้ให้แล้ว",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "ประโยคสุดท้ายระบุว่าผู้จัด “will adjust the workshop to make the safety advice clearer before the next event” จึงอนุมานได้ว่าจะมีคำแนะนำด้านความปลอดภัยที่ชัดเจนขึ้น ตัวเลือกแรกขัดกับวัตถุประสงค์ของงานที่สอนซ่อมเสื้อผ้ามีรอยขาด ตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่านรองรับ",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A repair-and-reuse event",
   "diff": 2
  },
@@ -16765,17 +16765,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement is TRUE according to the passage?",
+  "prompt": "What is the main idea of the passage?",
   "context": "Residents in one apartment complex wanted to reduce electricity use but were unsure which daily habits made the biggest difference. A volunteer group offered a short home energy check. Its first step was to share a simple checklist and demonstrate how standby power works. Volunteers used plug-in meters to show how much electricity some devices consumed when left on, then handed out printed reminders. After several weeks, a number of households reported switching off unused devices and reducing their bills. The group also learned that energy savings varied because homes had different appliances and routines. Rather than promise the same result for everyone, the volunteers plan to compare more readings and update their advice. The approach was practical because families could try the changes immediately and measure whether they helped.",
   "options": [
-   "Energy savings differed between homes.",
-   "Every household reduced its bill.",
-   "Volunteers promised the same result to all.",
-   "The group stopped giving advice."
+   "Volunteers helped households test small energy changes.",
+   "Standby power is the largest cost in every home.",
+   "Families should buy plug-in meters before saving energy.",
+   "A single checklist works the same way in every apartment."
   ],
   "answer": 0,
-  "explanation": "บทความระบุว่า “energy savings varied because homes had different appliances and routines” ส่วนผู้ได้ผลคือ “a number of households” ไม่ใช่ทุกครัวเรือน และอาสาสมัครเลือกจะไม่สัญญาว่าจะได้ผลเดียวกัน (Rather than promise the same result) พร้อมวางแผนอัปเดตคำแนะนำ",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านเล่าว่ากลุ่มอาสาสมัครเสนอการตรวจการใช้พลังงานในบ้าน สาธิตการทำงานของไฟสแตนด์บาย ใช้เครื่องวัดแบบเสียบปลั๊ก และแจกใบเตือน จนหลายครัวเรือน “reported switching off unused devices and reducing their bills” ใจความหลักจึงเป็นการช่วยให้ครัวเรือนทดลองปรับเปลี่ยนเล็กๆ แล้ววัดผลเอง ตัวเลือกแรกและสามขัดกับข้อความ “energy savings varied because homes had different appliances and routines” ส่วนตัวเลือกที่สองเป็นการแนะนำให้ซื้ออุปกรณ์ซึ่งบทอ่านไม่ได้กล่าวถึง",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A community energy plan",
   "diff": 2
  },
@@ -17885,17 +17885,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "According to the passage, which statement is TRUE?",
+  "prompt": "Why does the author mention the second review?",
   "context": "Several library users said they had trouble renewing books because the website was difficult to use on a phone. The library introduced a mobile app that allowed members to search the catalog, reserve titles, and check due dates. Before launch, staff asked a small group of readers to test the app and report confusing screens. The first version worked, but users wanted larger text and a simpler renewal button. Developers made those changes and invited the same readers to test again. The second review found fewer mistakes during renewals. The library plans to adjust the app whenever new accessibility issues appear, rather than assuming that one design will suit every reader.",
   "options": [
-   "The first version of the app did not work.",
-   "Staff tested the app before readers did.",
-   "The second review found more mistakes.",
-   "The same readers tested the app twice."
+   "To explain why the library replaced its website.",
+   "To prove that readers preferred the first version.",
+   "To describe how developers learned to write code.",
+   "To show that the changes reduced mistakes."
   ],
   "answer": 3,
-  "explanation": "บทความระบุว่าผู้พัฒนาแก้ไขแล้ว “invited the same readers to test again” ส่วนเวอร์ชันแรก “worked” แต่ผู้ใช้ต้องการปรับปรุง การทดสอบก่อนเปิดตัวทำโดยกลุ่มผู้อ่าน (ไม่ใช่พนักงาน) และรอบสองพบ “fewer mistakes”",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านเรียงว่าผู้ใช้ต้องการตัวอักษรใหญ่ขึ้นและปุ่มต่ออายุที่เรียบง่ายกว่า จากนั้น “Developers made those changes and invited the same readers to test again” แล้วตามด้วย “The second review found fewer mistakes during renewals” การอ้างถึงการทดสอบรอบสองจึงแสดงว่าการแก้ไขช่วยลดข้อผิดพลาด ตัวเลือกแรกผิดเพราะห้องสมุดเพิ่มแอปไม่ได้แทนที่เว็บไซต์ ตัวเลือกที่สองขัดกับผลทดสอบรอบสอง และตัวเลือกที่สามไม่มีข้อมูลในบทอ่าน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A library app",
   "diff": 2
  },
@@ -20165,17 +20165,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which of these statements is TRUE?",
+  "prompt": "What is the passage mainly about?",
   "context": "Some students hesitated to ask questions in a large class, even when they did not understand a lesson. Peer mentors tried a different approach by organizing short sessions in which learners explained difficult steps to one another. They used practice sheets and a question box so students could raise concerns without speaking in front of everyone. After several weeks, more participants began asking questions and correcting their own mistakes. The mentors also found that complicated explanations sometimes needed a teacher's review. They now plan to invite a teacher to check difficult topics and adjust the sessions based on the questions students submit. The program is intended to support classroom learning, not replace formal instruction.",
   "options": [
-   "Sessions were held during the large class.",
-   "Peer mentors gave formal lectures to the class.",
-   "The question box was removed later.",
-   "More learners started to speak up."
+   "Why teachers refuse to answer questions in class.",
+   "Which practice sheets worked best for the mentors.",
+   "How students were chosen to become peer mentors.",
+   "A peer program that supports classroom learning."
   ],
   "answer": 3,
-  "explanation": "บทความระบุว่า “more participants began asking questions and correcting their own mistakes” ส่วนเซสชันเป็นกลุ่มย่อยแยกจากชั้นเรียนใหญ่ ผู้เรียนอธิบายกันเอง (ไม่ใช่เมนเตอร์อธิบายให้ทุกอย่าง) และกล่องคำถามจะถูกใช้ปรับเซสชันต่อไป",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านเล่าว่าพี่เลี้ยงจัดกลุ่มย่อย ใช้ใบฝึกและกล่องคำถาม จนผู้เรียนกล้าถามและแก้ความผิดพลาดของตนเองมากขึ้น แล้วปิดท้ายว่า “The program is intended to support classroom learning, not replace formal instruction” เรื่องหลักจึงเป็นโครงการพี่เลี้ยงที่เสริมการเรียนในห้อง ตัวเลือกแรกขัดกับบทอ่าน เพราะครูไม่ได้ปฏิเสธการตอบคำถาม ส่วนตัวเลือกที่สองและสามเป็นรายละเอียดที่ไม่มีข้อมูลรองรับ",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A homework peer group",
   "diff": 1
  },
@@ -20385,17 +20385,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option matches what the passage says?",
+  "prompt": "Why does the author mention reflective bands?",
   "context": "Some families avoided cycling to school because they felt the roads were unsafe, especially near busy junctions. School staff and parents mapped streets with less traffic and arranged a supervised trial ride. They gave students route cards and reflective bands, then asked families to report any difficult sections. More students tried cycling after the trial, although rain made some road markings hard to see. The group shared those locations with the local council and asked for the markings to be repainted. It plans to review the route again at the start of the next school year. The long-term goal is to create a lasting change in how students travel to school, with safety decisions based on regular feedback.",
   "options": [
-   "The supervised trial ride was held in rainy weather.",
-   "Road markings were easy to see in rain.",
-   "More pupils rode bikes after the test.",
-   "The route will not be reviewed again."
+   "To explain why rain hid the markings.",
+   "To show that the council repainted every junction.",
+   "To describe what the trial riders were given.",
+   "To argue that helmets should be required at school."
   ],
   "answer": 2,
-  "explanation": "บทความระบุว่า “More students tried cycling after the trial” ส่วนฝนทำให้ “some road markings hard to see” (ไม่ใช่มองง่าย) และกลุ่ม “plans to review the route again at the start of the next school year”",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านระบุว่าผู้จัด “gave students route cards and reflective bands, then asked families to report any difficult sections” การยกแถบสะท้อนแสงจึงบอกสิ่งที่นักเรียนได้รับระหว่างการขี่ทดลอง ตัวเลือกแรกสลับเหตุกับผล เพราะฝนทำให้เครื่องหมายถนนมองเห็นยาก ตัวเลือกที่สองเกินข้อมูล เนื่องจากกลุ่มเพียง “asked for the markings to be repainted” และตัวเลือกที่สามไม่มีในบทอ่าน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A safer cycling route",
   "diff": 2
  },
@@ -21485,17 +21485,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which statement is TRUE according to the passage?",
+  "prompt": "What is the main idea of the passage?",
   "context": "Students often arrived at the library hoping to use a group study room, only to find that all spaces were occupied. Library assistants introduced a visible booking calendar and time limits so everyone could see when rooms were free. They displayed the schedule on a shared screen and placed reminder signs on the doors. After a month, rooms were being used more fairly, although some groups continued working after their reserved time had ended. Staff now plan to send a reminder five minutes before each booking finishes. They will review the booking records at the end of term to see whether the system is reliable and whether the time limits need changing.",
   "options": [
-   "Students often found all the rooms occupied.",
-   "The schedule was shown only on the doors.",
-   "Reminders were sent after each booking.",
-   "The booking system was reviewed before it started."
+   "A visible booking system improved room sharing.",
+   "Students should arrive early to claim a study room.",
+   "Reminder signs on doors ended every late session.",
+   "The library will add more group study rooms next term."
   ],
   "answer": 0,
-  "explanation": "ประโยคแรกระบุว่านักเรียนไปถึงห้องสมุดแล้ว “only to find that all spaces were occupied” ส่วนตารางแสดง “on a shared screen” และป้ายเตือนติดที่ประตู การเตือนจะส่งก่อนหมดเวลา และการทบทวนจะทำปลายเทอม",
-  "tip": "โจทย์ถามข้อที่ถูกต้อง ให้ตรวจทีละตัวเลือกว่ามีหลักฐานรองรับในบทอ่านหรือไม่ ข้อที่ถูกมักใช้คำต่างไปแต่ความหมายตรง",
+  "explanation": "บทอ่านเล่าว่าผู้ช่วยห้องสมุดนำปฏิทินการจองและกรอบเวลามาใช้ แสดงตารางบนจอร่วมกัน แล้วพบว่า “rooms were being used more fairly” แต่ยังมีการใช้เกินเวลา จึงวางแผนส่งการแจ้งเตือนและทบทวนบันทึกการจองตอนสิ้นภาค ใจความหลักคือการทำให้การใช้ห้องเป็นธรรมขึ้นด้วยระบบจองที่มองเห็นได้ ตัวเลือกแรกและสามไม่มีข้อมูลในบทอ่าน ส่วนตัวเลือกที่สองขัดกับข้อความ “some groups continued working after their reserved time had ended”",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A study-room booking system",
   "diff": 2
  },
@@ -22565,17 +22565,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the group view expert help for cyclists?",
+  "prompt": "Why does the author mention trusted repair shops?",
   "context": "Commuters sometimes missed work because of minor bicycle problems, such as a loose brake or a flat tire. Experienced cyclists organized a free lesson to show people how to carry out basic safety checks. Participants first learned how to inspect tires and brakes, then practiced with simple repair kits and demonstration bikes. At the end of each session, the instructors asked learners to explain the steps in their own words. Most participants became more confident about handling minor problems, but the group emphasized that complex repairs should be taken to a professional. It plans to publish a list of trusted repair shops and offer another lesson later in the year. The sessions have improved commuters' confidence while helping them recognize when expert help is needed.",
   "options": [
-   "As something that learners should avoid.",
-   "As necessary for complicated repairs.",
-   "As useful only for loose brakes.",
-   "As too expensive for commuters."
+   "To explain how much a basic repair kit costs.",
+   "To show the limit of what the lesson teaches.",
+   "To prove that commuters missed work less often.",
+   "To describe who was invited to each free session."
   ],
   "answer": 1,
-  "explanation": "กลุ่มเน้นว่า “complex repairs should be taken to a professional” และยังจะเผยแพร่รายชื่อร้านซ่อมที่ไว้ใจได้ = เห็นว่าช่างจำเป็นสำหรับงานยาก ไม่ใช่สิ่งที่ควรเลี่ยง และบทความไม่ได้พูดถึงราคา",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านเน้นว่า “complex repairs should be taken to a professional” และกลุ่ม “plans to publish a list of trusted repair shops” การยกเรื่องร้านซ่อมที่ไว้ใจได้จึงชี้ขอบเขตว่าบทเรียนครอบคลุมเฉพาะการซ่อมเล็กน้อย ตัวเลือกอื่นพูดถึงราคาชุดซ่อม ผลการขาดงาน และผู้ได้รับเชิญ ซึ่งไม่มีข้อมูลในบทอ่าน",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
   "topic": "A bicycle repair lesson",
   "diff": 2
  },
@@ -23745,17 +23745,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How do the organizers regard the first film night?",
+  "prompt": "What can be inferred about the next film night?",
   "context": "Neighbors in one community rarely met outside their usual social circles, so organizers arranged a free film night followed by small-group discussions. They borrowed a projector and used a public room to keep costs low. After the screening, participants discussed the film in mixed groups and shared different experiences. The organizers asked for feedback over the following month and found that people had begun talking with neighbors they had not known before. The event was not flawless: sound quality varied across the large room, and some viewers had difficulty hearing quieter scenes. Before holding another event, the group plans to test the equipment and room layout. Careful checks will make the arrangements more reliable and help the organizers decide what to improve.",
   "options": [
-   "As a failure they will not repeat.",
-   "As perfect in every way.",
-   "As useful only for close friends.",
-   "As a success that still needs improvements."
+   "It will be held in a smaller room near the park.",
+   "It will no longer include group discussions.",
+   "It will charge visitors a small fee for the costs.",
+   "It will follow tests of the room and equipment."
   ],
   "answer": 3,
-  "explanation": "ผู้จัดพบผลดีว่า “people had begun talking with neighbors they had not known before” แต่ก็ยอมรับว่า “The event was not flawless” และวางแผนทดสอบอุปกรณ์ก่อนจัดอีกครั้ง = สำเร็จแต่ยังต้องปรับ ไม่ได้ล้มเลิก",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "ตอนท้ายระบุว่า “Before holding another event, the group plans to test the equipment and room layout” จึงอนุมานได้ว่างานครั้งถัดไปจะจัดหลังจากทดสอบอุปกรณ์และผังห้องแล้ว ตัวเลือกแรกและสองไม่มีข้อมูลรองรับ เพราะกลุ่มยังใช้ห้องสาธารณะและมีการอภิปรายกลุ่มต่อไป ส่วนตัวเลือกที่สามขัดกับเจตนาที่ผู้จัด “borrowed a projector and used a public room to keep costs low”",
+  "tip": "โจทย์ถามข้อสรุปแฝง ให้เลือกข้อที่อนุมานได้จากหลักฐานในบทอ่านเท่านั้น ตัดข้อที่พูดเกินข้อมูลหรือขัดกับข้อความที่ให้มา",
   "topic": "A community film night",
   "diff": 2
  },
@@ -23865,17 +23865,17 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "How does the writer present the cafés’ concerns?",
+  "prompt": "What is the passage mainly about?",
   "context": "The City History Museum will close to the public from 1 June for eight months while workers repair its leaking roof and replace the old electrical system. The museum’s director, Anong Sripan, said the decision was difficult because summer is usually the busiest season. “Delaying the work would only put the collection at greater risk,” she explained. During the closure, about two hundred objects will move to a temporary gallery in the central library, where entry will remain free. School groups that have already booked visits can choose a library tour or an online session with a museum educator. Some local cafés near the museum are worried about losing customers, and the city council has promised to review their situation in September. The museum expects to reopen in February with a new children’s room and longer weekend hours.",
   "options": [
-   "As a minor complaint that nobody needs to address.",
-   "As a real issue the council will look at later.",
-   "As the main reason the museum is closing.",
-   "As a problem the museum has already solved."
+   "Why the city council supports local café owners.",
+   "A museum closure and the arrangements made during it.",
+   "Which objects will stay in the museum’s storage rooms.",
+   "How the leaking roof damaged the museum’s collection."
   ],
   "answer": 1,
-  "explanation": "ข่าวเขียนว่า “Some local cafés near the museum are worried about losing customers, and the city council has promised to review their situation in September.” แสดงว่าเป็นปัญหาจริงที่สภาจะพิจารณาภายหลัง ไม่ใช่เรื่องเล็กที่ไม่ต้องสนใจ ไม่ใช่สาเหตุของการปิด และยังไม่ได้ถูกแก้",
-  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "explanation": "บทอ่านแจ้งว่าพิพิธภัณฑ์จะปิดแปดเดือนเพื่อซ่อมหลังคาที่รั่วและเปลี่ยนระบบไฟฟ้า แล้วบอกสิ่งที่จัดไว้ระหว่างปิด เช่น การย้ายวัตถุราวสองร้อยชิ้นไปยัง “a temporary gallery in the central library” ตัวเลือกให้โรงเรียนที่จองไว้ และกำหนดเปิดใหม่ในเดือนกุมภาพันธ์ เรื่องหลักจึงเป็นการปิดซ่อมและการจัดเตรียมระหว่างปิด ตัวเลือกแรกเป็นเพียงส่วนย่อยเรื่องร้านค้าใกล้เคียง ส่วนตัวเลือกที่สองและสามไม่มีข้อมูลในบทอ่าน",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
   "topic": "A museum closing for repairs",
   "diff": 3
  },

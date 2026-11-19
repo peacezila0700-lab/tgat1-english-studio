@@ -156,15 +156,15 @@
     "exp": "บทความระบุว่าตารางหมุนเวียนทำขึ้น “so that students would not need to visit every day” ตอบโจทย์ผลสำรวจที่มีคนอาสาปลูกเป็นครั้งคราวมากกว่ารดน้ำทุกวัน"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the passage present the survey’s role in the decision?",
-    "key": "As helpful input, not the final answer.",
+    "type": "inference",
+    "prompt": "What can be inferred from the passage about the survey?",
+    "key": "It shaped the design but did not decide it alone.",
     "d": [
-     "As the only factor in the final garden design.",
-     "As a wasted effort by the school.",
-     "As a way to delay the garden."
+     "It showed students preferred flowers.",
+     "It proved that daily watering was impossible for students.",
+     "It was completed after the school built the smaller garden."
     ],
-    "exp": "ประโยคท้ายระบุว่า “The survey did not determine the final design by itself, but it helped the school make choices…” คือมีประโยชน์แต่ไม่ใช่คำตอบสุดท้าย ตัวเลือกหนึ่งจึงตรงข้าม และไม่มีท่าทีว่าสูญเปล่าหรือถ่วงเวลา"
+    "exp": "ประโยคสุดท้ายระบุว่า “The survey did not determine the final design by itself, but it helped the school make choices that matched students’ interests and availability” จึงอนุมานได้ตามตัวเลือกที่ถูก ตัวเลือกแรกขัดกับข้อความ “Flowers received many votes, but vegetables were also popular” ตัวเลือกที่สองพูดเกินข้อมูล เพราะบทอ่านบอกเพียงว่า “Fewer students volunteered for daily watering” และตัวเลือกสุดท้ายสลับลำดับเวลา เพราะโรงเรียนสำรวจก่อนตัดสินใจออกแบบ"
    },
    {
     "type": "wic",
@@ -227,15 +227,15 @@
     "exp": "“many unclaimed items were kept for months” แล้วเป้าหมายของสำนักงานคือให้ของ “claimed before the storage deadline” = ของที่ยังไม่มีเจ้าของมารับ ตัวเลือกไม่มีป้ายชื่อเป็นสาเหตุที่ทำให้รับช้า ไม่ใช่ความหมายของคำ ส่วนเสียหาย/บันทึกในแบบฟอร์มไม่เกี่ยว"
    },
    {
-    "type": "true",
-    "prompt": "According to the passage, which statement is TRUE?",
-    "key": "Mobiles and purses were soon returned.",
+    "type": "purpose",
+    "prompt": "Why does the author mention umbrellas and clothing?",
+    "key": "To show that some items stayed longer than others.",
     "d": [
-     "The lost-property office kept every unclaimed item forever.",
-     "Staff published owners’ names on the board.",
-     "The records covered a single term."
+     "To explain why the office stopped storing items.",
+     "To prove that every umbrella carried a clear label.",
+     "To suggest that owners should photograph their wallets."
     ],
-    "exp": "บทความระบุ “Phones and wallets were often claimed within a week” ส่วนของที่ไม่ถูกรับคืน “were kept for months” ไม่ใช่ตลอดไป เจ้าหน้าที่ไม่เปิดเผยข้อมูลส่วนตัว และทบทวน “one year of records” ไม่ใช่หนึ่งเทอม"
+    "exp": "ผู้เขียนยกตัวอย่างร่มและเสื้อผ้ามาเทียบกับโทรศัพท์และกระเป๋าสตางค์ ตามข้อความ “Phones and wallets were often claimed within a week, while umbrellas and clothing remained longer” จึงเป็นการแสดงว่าของบางประเภทถูกเก็บไว้นานกว่า ตัวเลือกแรกไม่มีในบทอ่าน เพราะสำนักงานยังเก็บของจนถึง “the storage deadline” ส่วนตัวเลือกที่สองและสามเป็นการเติมข้อมูลที่บทอ่านไม่ได้กล่าวถึง"
    }
   ]
  },
@@ -276,15 +276,15 @@
     "exp": "หลังครูบ่นว่าลำโพงดังเกินระหว่างกิจกรรมกลางแจ้ง โรงเรียน “added a simple schedule so the outdoor speaker would not operate during sports practice” คือตั้งเวลาไม่ให้ดังตอนซ้อมกีฬา"
    },
    {
-    "type": "attitude",
-    "prompt": "What is the tone of the passage’s final sentence?",
-    "key": "Cautious, warning that fixes need testing.",
+    "type": "main",
+    "prompt": "What is the main point of the passage?",
+    "key": "A change must be tested where it will be used.",
     "d": [
-     "Proud of the school’s brand-new outdoor speaker.",
-     "Angry at the teachers’ complaints.",
-     "Doubtful that surveys are useful."
+     "Students disliked the bell everywhere.",
+     "The school replaced the gym speaker after two weeks.",
+     "Surveys are the cheapest way to solve a school problem."
     ],
-    "exp": "ประโยคสรุปว่า “a small technical change can create a new problem if it is not tested in the setting where it will be used” เป็นน้ำเสียงเตือนอย่างระมัดระวัง ไม่ใช่ภูมิใจ โมโห หรือสงสัยคุณค่าของแบบสำรวจ"
+    "exp": "ประโยคสรุปของบทอ่านระบุว่า “a small technical change can create a new problem if it is not tested in the setting where it will be used” ซึ่งเป็นประเด็นหลักของทั้งเรื่อง ตัวเลือกแรกขัดกับผลสำรวจที่พบว่าสัญญาณ “clear in the main building but much quieter near the gym” ตัวเลือกที่สองสลับข้อเท็จจริง เพราะโรงเรียนปรับระดับเสียงและเพิ่มตารางเวลา ไม่ได้เปลี่ยนลำโพง และตัวเลือกสุดท้ายเป็นการสรุปที่บทอ่านไม่ได้กล่าวถึง"
    },
    {
     "type": "wic",

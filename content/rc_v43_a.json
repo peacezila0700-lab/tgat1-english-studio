@@ -107,15 +107,15 @@
     "exp": "ประโยคนี้แปลว่าแม้คำถามลดลง แต่นักเรียนไม่สรุปว่าป้ายแก้ได้ทุกปัญหา = ยังมีปัญหาเหลืออยู่ ตัวเลือกแรกตรงข้าม ตัวเลือกสองขัดกับการที่พวกเขา “counted questions again” และตัวเลือกสามบิดว่าป้ายสร้างปัญหา"
    },
    {
-    "type": "true",
-    "prompt": "Which statement is TRUE according to the passage?",
-    "key": "Fewer passengers asked for help after the signs appeared.",
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Simple signs helped passengers, but some problems remain.",
     "d": [
-     "The whole experiment lasted about two months.",
-     "The students removed the signs after week two.",
-     "A digital board was installed during the trial."
+     "Station staff should replace every long sentence with arrows.",
+     "Passengers stop asking questions when trains run on time.",
+     "The students observed the station for two months."
     ],
-    "exp": "บทความระบุตรง ๆ ว่า “found that fewer passengers stopped to ask for help” ส่วนการทดลองกินเวลาสองสัปดาห์ไม่ใช่สองเดือน นักเรียนเสนอ “keeping the signs” และจอดิจิทัลเป็นเพียงคำแนะนำยังไม่ถูกติดตั้ง"
+    "exp": "ใจความหลักคือป้ายที่อ่านง่ายช่วยลดจำนวนคนที่จะต้องถามทาง แต่ยังแก้ปัญหาไม่ได้ทุกกรณี ตรงกับ “They did not conclude that signs had solved every problem” และข้อเสนอ “keeping the signs but adding a small digital board” ตัวเลือกแรกเป็นรายละเอียดเรื่องลูกศร ตัวเลือกที่สองอ้างเรื่องรถไฟตรงเวลาที่บทอ่านไม่ได้กล่าว และตัวเลือกสุดท้ายเป็นรายละเอียดระยะเวลา"
    }
   ]
  },
@@ -156,15 +156,15 @@
     "exp": "พิพิธภัณฑ์ “decided not to choose one version for everyone” และจะให้ “visitors select the one they prefer” เพราะผลทดลองแบ่งเป็นสองกลุ่ม (หลายคนจำ B ได้ดีกว่า บางคนอายุมากชอบ A) ตัวเลือกอื่นไม่มีข้อมูลรองรับ"
    },
    {
-    "type": "attitude",
-    "prompt": "How does the passage present the museum’s final decision?",
-    "key": "As a sensible answer to mixed results.",
+    "type": "inference",
+    "prompt": "What can be inferred about the museum’s visitors?",
+    "key": "They do not all prefer the same kind of guide.",
     "d": [
-     "As a mistake that wasted the whole trial.",
-     "As a temporary fix to be reversed.",
-     "As a choice that upset many older visitors."
+     "Most of them stopped listening before the end.",
+     "Older visitors remembered more details than younger ones.",
+     "They chose Version B more often than Version A."
     ],
-    "exp": "บทความเล่าด้วยน้ำเสียงกลางและแสดงว่าการให้บริการทั้งสองรูปแบบตอบสนองผลที่ผสมกันของผู้เยี่ยมชมแต่ละกลุ่ม ไม่มีถ้อยคำใดชี้ว่าเป็นความผิดพลาด ชั่วคราว หรือทำให้ผู้สูงอายุไม่พอใจ"
+    "exp": "บทอ่านระบุว่า “many visitors remembered more details from Version B, although some older visitors preferred the simpler format of Version A” และพิพิธภัณฑ์เลือกจะ “let visitors select the one they prefer” จึงอนุมานได้ว่าผู้ชมไม่ได้ชอบคู่มือรูปแบบเดียวกันทุกคน ตัวเลือกแรกพูดเกินข้อมูลเพราะมีเพียง “Several visitors” ที่เลิกฟัง ตัวเลือกที่สองสลับกลุ่มอายุ และตัวเลือกสุดท้ายไม่มีข้อมูลในบทอ่านรองรับ"
    },
    {
     "type": "wic",
@@ -336,15 +336,15 @@
     "exp": "บทความบอกว่า “Before deciding, the library ran a four-week trial” แล้วใช้ผล (ข้อร้องเรียนลดลง ครอบครัวไม่ได้ลดลงมาก) ประกอบการอนุมัติ แสดงว่าต้องการหลักฐานก่อนตัดสินใจ ตัวเลือกบอร์ดอนุมัติแล้วขัดกับลำดับเรื่อง"
    },
    {
-    "type": "attitude",
-    "prompt": "How is the final decision described at the end of the passage?",
-    "key": "As a compromise, not a complete solution.",
+    "type": "main",
+    "prompt": "Which option best summarises the passage?",
+    "key": "A four-week trial led the library to approve a quiet zone.",
     "d": [
-     "As a clear victory for the supporters.",
-     "As a temporary measure to be reviewed soon.",
-     "As a strict rule that upset local families."
+     "Families stopped visiting during the trial.",
+     "The board rejected the quiet zone because of the complaints.",
+     "Short conversations are now banned in every area of the library."
     ],
-    "exp": "ประโยคสุดท้ายระบุตรง ๆ ว่า “The decision was presented as a compromise rather than a complete solution.” ตัวเลือกชัยชนะ/ชั่วคราว/ทำให้ครอบครัวโกรธ ไม่ตรงกับถ้อยคำนี้"
+    "exp": "เรื่องหลักคือห้องสมุดทดลองก่อนตัดสินใจจริง ตามข้อความ “the library ran a four-week trial” แล้วจึง “The board therefore approved the quiet zone but added comfortable seats outside it” ตัวเลือกแรกขัดกับผลการทดลองที่ว่า “family visits did not decrease as much as some staff had expected” ตัวเลือกที่สองขัดกับการอนุมัติ และตัวเลือกสุดท้ายขัดกับกฎที่บอก่ว่า “short conversations were allowed in most areas”"
    },
    {
     "type": "wic",
@@ -467,15 +467,15 @@
     "exp": "ประโยคแปลว่าข้อมูลไม่ได้พิสูจน์ทุกแหล่งมลพิษ (จำกัด) แต่ยังช่วยให้เจ้าหน้าที่เห็นภาพชัดว่ามีอะไรเปลี่ยนเมื่อไร (มีประโยชน์) ตัวเลือกแรกตรงข้าม ตัวเลือกสองไม่มีข้อมูล และตัวเลือกสามบิดจาก when changes occurred"
    },
    {
-    "type": "true",
-    "prompt": "Which statement agrees with the information in the passage?",
-    "key": "The club plans to compare results with another part of the river.",
+    "type": "purpose",
+    "prompt": "Why does the author mention the construction work?",
+    "key": "To show that cloudy water had more than one cause.",
     "d": [
-     "The school ended the project after the council acted.",
-     "The company moved its work away from the riverbank.",
-     "Samples are now collected mainly on dry days."
+     "To prove that the club measured the river incorrectly.",
+     "To explain why the council asked for weekly samples.",
+     "To describe where the school kept its water samples."
     ],
-    "exp": "ประโยคสุดท้ายระบุ “The students now plan to compare their results with readings from another part of the river.” ส่วนโครงการไม่ได้จบ บริษัทแค่ถูกขอให้คลุมดิน และสโมสร “added weekly samples taken on dry days” ควบคู่กับการเก็บหลังฝน ไม่ใช่แทนที่"
+    "exp": "ผู้เขียนยกงานก่อสร้างขึ้นมาเพื่อยืนยันข้อความที่ว่า “cloudy water was not always linked to rain; nearby construction work also affected the river” คือ น้ำขุ่นมีสาเหตุมากกว่าหนึ่งอย่าง ตัวเลือกแรกขัดกับบทอ่านเพราะผลการวัดทำให้สภาขอให้บริษัท “cover loose soil near the riverbank” ตัวเลือกที่สองสลับว่าสภาขอตัวอย่างรายสัปดาห์ และตัวเลือกสุดท้ายไม่มีข้อมูลเรื่องสถานที่เก็บตัวอย่าง"
    }
   ]
  },
@@ -516,15 +516,15 @@
     "exp": "บทความบอกว่าพวกเขาเห็นว่าความขัดแย้งมีประโยชน์ “because it gave listeners several ways to think about the same book” ตัวเลือกดึงแขก/ลดเวลา/พิสูจน์ว่าสรุปเรื่องไม่มีประโยชน์ ไม่มีข้อมูลรองรับ"
    },
    {
-    "type": "attitude",
-    "prompt": "How do the hosts feel about their new question format?",
-    "key": "They value it despite the extra preparation.",
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "Why the students changed their podcast format.",
     "d": [
-     "They prefer the old summary style.",
-     "They plan to change the episode format again soon.",
-     "They blame guests for disagreements."
+     "Which books the guests preferred.",
+     "How a librarian decides what to display in a library.",
+     "Why summarizing a plot takes less time than questions."
     ],
-    "exp": "โฮสต์ “considered that useful” และ “spend less time summarizing the plot and more time preparing questions” แสดงว่าให้ค่ารูปแบบใหม่แม้ต้องเตรียมมากขึ้น ไม่มีสัญญาณว่าจะกลับไปใช้แบบเก่า"
+    "exp": "บทอ่านเล่าว่าผู้ฟังต้องการมากกว่าเรื่องย่อ นักเรียนจึง “changed the format by choosing one question for each episode” และปิดท้ายใช้เวลา “more time preparing questions that can lead to different answers” เรื่องหลักจึงเป็นเหตุผลที่เปลี่ยนรูปแบบรายการ ตัวเลือกแรกและสองเป็นรายละเอียดของแขกรับเชิญบางตอน และตัวเลือกสุดท้ายเป็นการเปรียบเทียบที่บทอ่านไม่ได้กล่าวถึง"
    },
    {
     "type": "wic",
