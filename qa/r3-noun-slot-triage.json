@@ -1,335 +1,5 @@
 [
  {
-  "i": 7,
-  "j": 0,
-  "w": "absence",
-  "pos": "n",
-  "old": "The community discussed absences after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 20,
-  "j": 0,
-  "w": "accessible route",
-  "pos": "n",
-  "old": "The policy addresses concerns about accessible routes.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 28,
-  "j": 0,
-  "w": "accumulation",
-  "pos": "n",
-  "old": "The report highlighted accumulations as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 35,
-  "j": 0,
-  "w": "acquisition",
-  "pos": "n",
-  "old": "The team collected information about acquisitions before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 40,
-  "j": 0,
-  "w": "adaptation",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with adaptations.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 41,
-  "j": 0,
-  "w": "addiction",
-  "pos": "n",
-  "old": "The survey measured changes related to addictions.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 50,
-  "j": 0,
-  "w": "admission",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with admissions.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 55,
-  "j": 0,
-  "w": "adversity",
-  "pos": "n",
-  "old": "The report highlighted adversity as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 57,
-  "j": 0,
-  "w": "advertisement",
-  "pos": "n",
-  "old": "The team collected information about advertisements before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 59,
-  "j": 0,
-  "w": "advice",
-  "pos": "n",
-  "old": "The community discussed advice after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 61,
-  "j": 0,
-  "w": "adviser",
-  "pos": "n",
-  "old": "The team collected information about advisers before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 62,
-  "j": 0,
-  "w": "advocacy",
-  "pos": "n",
-  "old": "The policy addresses concerns about advocacy.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 63,
-  "j": 0,
-  "w": "advocate",
-  "pos": "n",
-  "old": "The policy addresses concerns about advocates.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 66,
-  "j": 0,
-  "w": "affection",
-  "pos": "n",
-  "old": "The study compared the effects of affection across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 73,
-  "j": 0,
-  "w": "aftershock",
-  "pos": "n",
-  "old": "The community discussed aftershocks after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 76,
-  "j": 0,
-  "w": "aggression",
-  "pos": "n",
-  "old": "The study compared the effects of aggression across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 79,
-  "j": 0,
-  "w": "agreement",
-  "pos": "n",
-  "old": "The community discussed agreements after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 86,
-  "j": 0,
-  "w": "algorithm",
-  "pos": "n",
-  "old": "The algorithm affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 87,
-  "j": 0,
-  "w": "algorithmic bias",
-  "pos": "n",
-  "old": "The survey measured changes related to algorithmic biases.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 89,
-  "j": 0,
-  "w": "allergen",
-  "pos": "n",
-  "old": "The survey measured changes related to allergens.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 91,
-  "j": 0,
-  "w": "allergy",
-  "pos": "n",
-  "old": "The school provided guidance about allergies to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 94,
-  "j": 0,
-  "w": "allocation",
-  "pos": "n",
-  "old": "The report highlighted allocations as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 97,
-  "j": 0,
-  "w": "alternative",
-  "pos": "n",
-  "old": "The school provided guidance about alternatives to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 101,
-  "j": 0,
-  "w": "ambition",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with ambitions.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 104,
-  "j": 0,
-  "w": "amendment",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with amendments.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 105,
-  "j": 0,
-  "w": "amenity",
-  "pos": "n",
-  "old": "The team collected information about amenities before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 106,
-  "j": 0,
-  "w": "amphibian",
-  "pos": "n",
-  "old": "The study compared the effects of amphibians across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 109,
-  "j": 0,
-  "w": "analysis",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with analyses.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 113,
-  "j": 0,
-  "w": "anecdote",
-  "pos": "n",
-  "old": "The school provided guidance about anecdotes to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 118,
-  "j": 0,
-  "w": "anomaly",
-  "pos": "n",
-  "old": "The team collected information about anomalies before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 121,
-  "j": 0,
-  "w": "antibiotic",
-  "pos": "n",
-  "old": "The team collected information about antibiotics before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 122,
-  "j": 0,
-  "w": "antibody",
-  "pos": "n",
-  "old": "The community discussed antibodies after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 124,
-  "j": 0,
-  "w": "anticipation",
-  "pos": "n",
-  "old": "The community discussed anticipation after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 126,
   "j": 0,
   "w": "anxiety",
@@ -350,16 +20,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 137,
-  "j": 0,
-  "w": "applicant",
-  "pos": "n",
-  "old": "The school provided guidance about applicants to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 147,
   "j": 0,
   "w": "aptitude",
@@ -368,36 +28,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 158,
-  "j": 0,
-  "w": "artificial intelligence",
-  "pos": "n",
-  "old": "The report highlighted artificial intelligence as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 169,
-  "j": 0,
-  "w": "assertiveness",
-  "pos": "n",
-  "old": "The policy addresses concerns about assertiveness.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 174,
-  "j": 0,
-  "w": "asset",
-  "pos": "n",
-  "old": "The report highlighted assets as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 181,
@@ -420,76 +50,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 188,
-  "j": 0,
-  "w": "attendance",
-  "pos": "n",
-  "old": "The community discussed attendance after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 191,
-  "j": 0,
-  "w": "audience",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with audiences.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 193,
-  "j": 0,
-  "w": "authenticity",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with authenticity.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 198,
-  "j": 0,
-  "w": "automation",
-  "pos": "n",
-  "old": "The survey measured changes related to automation.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 206,
-  "j": 0,
-  "w": "backlash",
-  "pos": "n",
-  "old": "The report highlighted backlashes as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 207,
-  "j": 0,
-  "w": "bacteria",
-  "pos": "n",
-  "old": "The policy addresses concerns about bacteria.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 209,
-  "j": 0,
-  "w": "baggage claim",
-  "pos": "n",
-  "old": "The survey measured changes related to baggage claims.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 210,
   "j": 0,
   "w": "balanced diet",
@@ -498,116 +58,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 223,
-  "j": 0,
-  "w": "belonging",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with belongings.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 224,
-  "j": 0,
-  "w": "benchmark",
-  "pos": "n",
-  "old": "The community discussed benchmarks after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 228,
-  "j": 0,
-  "w": "benevolence",
-  "pos": "n",
-  "old": "The community discussed benevolence after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 232,
-  "j": 0,
-  "w": "bibliography",
-  "pos": "n",
-  "old": "The community discussed bibliographies after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 240,
-  "j": 0,
-  "w": "boarding pass",
-  "pos": "n",
-  "old": "The boarding pass affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 246,
-  "j": 0,
-  "w": "border",
-  "pos": "n",
-  "old": "The survey measured changes related to borders.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 250,
-  "j": 0,
-  "w": "brand loyalty",
-  "pos": "n",
-  "old": "The report highlighted brand loyalty as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 255,
-  "j": 0,
-  "w": "broadband",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with broadband.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 257,
-  "j": 0,
-  "w": "broadcasting",
-  "pos": "n",
-  "old": "The broadcasting affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 258,
-  "j": 0,
-  "w": "budget",
-  "pos": "n",
-  "old": "The team collected information about budgets before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 260,
-  "j": 0,
-  "w": "bureaucracy",
-  "pos": "n",
-  "old": "The school provided guidance about bureaucracies to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 261,
@@ -7270,26 +6720,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 2900,
-  "j": 0,
-  "w": "academic research",
-  "pos": "phrase",
-  "old": "The researchers discussed academic research before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2901,
-  "j": 0,
-  "w": "academic writing",
-  "pos": "phrase",
-  "old": "The researchers discussed academic writing before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2902,
   "j": 0,
   "w": "academic year",
@@ -7338,26 +6768,6 @@
   "new": "The researchers discussed academic standards before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“academic standard”)"
- },
- {
-  "i": 2907,
-  "j": 0,
-  "w": "academic success",
-  "pos": "phrase",
-  "old": "The researchers discussed academic success before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2908,
-  "j": 0,
-  "w": "academic support",
-  "pos": "phrase",
-  "old": "The researchers discussed academic support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2909,
@@ -7440,16 +6850,6 @@
   "why": "countable singular noun phrase without a determiner (“academic task”)"
  },
  {
-  "i": 2917,
-  "j": 0,
-  "w": "academic progress",
-  "pos": "phrase",
-  "old": "The researchers discussed academic progress before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2918,
   "j": 0,
   "w": "academic policy",
@@ -7478,16 +6878,6 @@
   "new": "The researchers discussed academic programs before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“academic program”)"
- },
- {
-  "i": 2921,
-  "j": 0,
-  "w": "academic quality",
-  "pos": "phrase",
-  "old": "The researchers discussed academic quality before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2922,
@@ -7540,16 +6930,6 @@
   "why": "countable singular noun phrase without a determiner (“academic source”)"
  },
  {
-  "i": 2927,
-  "j": 0,
-  "w": "public safety",
-  "pos": "phrase",
-  "old": "The researchers discussed public safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2928,
   "j": 0,
   "w": "public policy",
@@ -7558,26 +6938,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 2929,
-  "j": 0,
-  "w": "public awareness",
-  "pos": "phrase",
-  "old": "The researchers discussed public awareness before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2930,
-  "j": 0,
-  "w": "public education",
-  "pos": "phrase",
-  "old": "The researchers discussed public education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2931,
@@ -7610,36 +6970,6 @@
   "why": "countable singular noun phrase without a determiner (“public library”)"
  },
  {
-  "i": 2934,
-  "j": 0,
-  "w": "public access",
-  "pos": "phrase",
-  "old": "The researchers discussed public access before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2935,
-  "j": 0,
-  "w": "public funding",
-  "pos": "phrase",
-  "old": "The researchers discussed public funding before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2936,
-  "j": 0,
-  "w": "public housing",
-  "pos": "phrase",
-  "old": "The researchers discussed public housing before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2937,
   "j": 0,
   "w": "public budget",
@@ -7658,16 +6988,6 @@
   "new": "The researchers discussed public campaigns before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“public campaign”)"
- },
- {
-  "i": 2939,
-  "j": 0,
-  "w": "public information",
-  "pos": "phrase",
-  "old": "The researchers discussed public information before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2940,
@@ -7710,46 +7030,6 @@
   "why": "countable singular noun phrase without a determiner (“public project”)"
  },
  {
-  "i": 2944,
-  "j": 0,
-  "w": "public research",
-  "pos": "phrase",
-  "old": "The researchers discussed public research before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2945,
-  "j": 0,
-  "w": "public support",
-  "pos": "phrase",
-  "old": "The researchers discussed public support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2947,
-  "j": 0,
-  "w": "public security",
-  "pos": "phrase",
-  "old": "The researchers discussed public security before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2949,
-  "j": 0,
-  "w": "public planning",
-  "pos": "phrase",
-  "old": "The researchers discussed public planning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2950,
   "j": 0,
   "w": "public development",
@@ -7760,16 +7040,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 2951,
-  "j": 0,
-  "w": "public resources",
-  "pos": "phrase",
-  "old": "The researchers discussed public resources before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2952,
   "j": 0,
   "w": "public rights",
@@ -7778,16 +7048,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 2953,
-  "j": 0,
-  "w": "public welfare",
-  "pos": "phrase",
-  "old": "The researchers discussed public welfare before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2954,
@@ -7808,56 +7068,6 @@
   "new": "The researchers discussed digital platforms before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“digital platform”)"
- },
- {
-  "i": 2956,
-  "j": 0,
-  "w": "digital content",
-  "pos": "phrase",
-  "old": "The researchers discussed digital content before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2957,
-  "j": 0,
-  "w": "digital security",
-  "pos": "phrase",
-  "old": "The researchers discussed digital security before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2958,
-  "j": 0,
-  "w": "digital privacy",
-  "pos": "phrase",
-  "old": "The researchers discussed digital privacy before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2959,
-  "j": 0,
-  "w": "digital technology",
-  "pos": "phrase",
-  "old": "The researchers discussed digital technology before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2960,
-  "j": 0,
-  "w": "digital learning",
-  "pos": "phrase",
-  "old": "The researchers discussed digital learning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2961,
@@ -7890,26 +7100,6 @@
   "why": "countable singular noun phrase without a determiner (“digital resource”)"
  },
  {
-  "i": 2964,
-  "j": 0,
-  "w": "digital communication",
-  "pos": "phrase",
-  "old": "The researchers discussed digital communication before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2965,
-  "j": 0,
-  "w": "digital access",
-  "pos": "phrase",
-  "old": "The researchers discussed digital access before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2966,
   "j": 0,
   "w": "digital tool",
@@ -7918,16 +7108,6 @@
   "new": "The researchers discussed digital tools before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“digital tool”)"
- },
- {
-  "i": 2967,
-  "j": 0,
-  "w": "digital media",
-  "pos": "phrase",
-  "old": "The researchers discussed digital media before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2968,
@@ -7968,16 +7148,6 @@
   "new": "The researchers discussed digital identities before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“digital identity”)"
- },
- {
-  "i": 2972,
-  "j": 0,
-  "w": "digital safety",
-  "pos": "phrase",
-  "old": "The researchers discussed digital safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2973,
@@ -8060,16 +7230,6 @@
   "why": "countable singular noun phrase without a determiner (“digital community”)"
  },
  {
-  "i": 2981,
-  "j": 0,
-  "w": "digital education",
-  "pos": "phrase",
-  "old": "The researchers discussed digital education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2982,
   "j": 0,
   "w": "environmental impact",
@@ -8078,16 +7238,6 @@
   "new": "The researchers discussed environmental impacts before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“environmental impact”)"
- },
- {
-  "i": 2983,
-  "j": 0,
-  "w": "environmental protection",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental protection before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2984,
@@ -8110,26 +7260,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 2986,
-  "j": 0,
-  "w": "environmental education",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 2987,
-  "j": 0,
-  "w": "environmental awareness",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental awareness before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2988,
   "j": 0,
   "w": "environmental change",
@@ -8140,16 +7270,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 2989,
-  "j": 0,
-  "w": "environmental damage",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental damage before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 2990,
   "j": 0,
   "w": "environmental risk",
@@ -8158,16 +7278,6 @@
   "new": "The researchers discussed environmental risks before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“environmental risk”)"
- },
- {
-  "i": 2991,
-  "j": 0,
-  "w": "environmental quality",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental quality before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2992,
@@ -8188,16 +7298,6 @@
   "new": "The researchers discussed environmental projects before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“environmental project”)"
- },
- {
-  "i": 2994,
-  "j": 0,
-  "w": "environmental research",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental research before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 2995,
@@ -8320,16 +7420,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3007,
-  "j": 0,
-  "w": "environmental conservation",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental conservation before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3008,
   "j": 0,
   "w": "environmental safety",
@@ -8340,16 +7430,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3009,
-  "j": 0,
-  "w": "environmental health",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental health before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3010,
   "j": 0,
   "w": "environmental development",
@@ -8358,16 +7438,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3011,
-  "j": 0,
-  "w": "environmental planning",
-  "pos": "phrase",
-  "old": "The researchers discussed environmental planning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3012,
@@ -8388,36 +7458,6 @@
   "new": "The researchers discussed social responsibilities before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“social responsibility”)"
- },
- {
-  "i": 3014,
-  "j": 0,
-  "w": "social justice",
-  "pos": "phrase",
-  "old": "The researchers discussed social justice before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3015,
-  "j": 0,
-  "w": "social equality",
-  "pos": "phrase",
-  "old": "The researchers discussed social equality before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3016,
-  "j": 0,
-  "w": "social inclusion",
-  "pos": "phrase",
-  "old": "The researchers discussed social inclusion before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3017,
@@ -8450,16 +7490,6 @@
   "why": "countable singular noun phrase without a determiner (“social problem”)"
  },
  {
-  "i": 3020,
-  "j": 0,
-  "w": "social support",
-  "pos": "phrase",
-  "old": "The researchers discussed social support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3021,
   "j": 0,
   "w": "social network",
@@ -8488,16 +7518,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3024,
-  "j": 0,
-  "w": "social behavior",
-  "pos": "phrase",
-  "old": "The researchers discussed social behavior before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3025,
@@ -8540,26 +7560,6 @@
   "why": "countable singular noun phrase without a determiner (“social impact”)"
  },
  {
-  "i": 3029,
-  "j": 0,
-  "w": "social development",
-  "pos": "phrase",
-  "old": "The researchers discussed social development before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3030,
-  "j": 0,
-  "w": "social participation",
-  "pos": "phrase",
-  "old": "The researchers discussed social participation before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3032,
   "j": 0,
   "w": "social culture",
@@ -8580,16 +7580,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3034,
-  "j": 0,
-  "w": "social rights",
-  "pos": "phrase",
-  "old": "The researchers discussed social rights before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3035,
   "j": 0,
   "w": "social safety",
@@ -8600,36 +7590,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3036,
-  "j": 0,
-  "w": "social trust",
-  "pos": "phrase",
-  "old": "The researchers discussed social trust before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3037,
-  "j": 0,
-  "w": "social conflict",
-  "pos": "phrase",
-  "old": "The researchers discussed social conflict before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3038,
-  "j": 0,
-  "w": "social cooperation",
-  "pos": "phrase",
-  "old": "The researchers discussed social cooperation before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3039,
   "j": 0,
   "w": "social opportunity",
@@ -8638,36 +7598,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3040,
-  "j": 0,
-  "w": "social welfare",
-  "pos": "phrase",
-  "old": "The researchers discussed social welfare before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3041,
-  "j": 0,
-  "w": "financial support",
-  "pos": "phrase",
-  "old": "The researchers discussed financial support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3042,
-  "j": 0,
-  "w": "financial planning",
-  "pos": "phrase",
-  "old": "The researchers discussed financial planning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3043,
@@ -8698,16 +7628,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3046,
-  "j": 0,
-  "w": "financial security",
-  "pos": "phrase",
-  "old": "The researchers discussed financial security before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3047,
@@ -8790,16 +7710,6 @@
   "why": "countable singular noun phrase without a determiner (“financial report”)"
  },
  {
-  "i": 3055,
-  "j": 0,
-  "w": "financial data",
-  "pos": "phrase",
-  "old": "The researchers discussed financial data before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3056,
   "j": 0,
   "w": "financial resource",
@@ -8808,36 +7718,6 @@
   "new": "The researchers discussed financial resources before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“financial resource”)"
- },
- {
-  "i": 3057,
-  "j": 0,
-  "w": "financial management",
-  "pos": "phrase",
-  "old": "The researchers discussed financial management before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3058,
-  "j": 0,
-  "w": "financial education",
-  "pos": "phrase",
-  "old": "The researchers discussed financial education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3059,
-  "j": 0,
-  "w": "financial advice",
-  "pos": "phrase",
-  "old": "The researchers discussed financial advice before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3062,
@@ -8890,36 +7770,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3069,
-  "j": 0,
-  "w": "health care",
-  "pos": "phrase",
-  "old": "The researchers discussed health care before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3070,
-  "j": 0,
-  "w": "health awareness",
-  "pos": "phrase",
-  "old": "The researchers discussed health awareness before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3071,
-  "j": 0,
-  "w": "health education",
-  "pos": "phrase",
-  "old": "The researchers discussed health education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3072,
   "j": 0,
   "w": "health service",
@@ -8960,16 +7810,6 @@
   "why": "countable singular noun phrase without a determiner (“health benefit”)"
  },
  {
-  "i": 3076,
-  "j": 0,
-  "w": "health behavior",
-  "pos": "phrase",
-  "old": "The researchers discussed health behavior before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3077,
   "j": 0,
   "w": "health condition",
@@ -8988,26 +7828,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3079,
-  "j": 0,
-  "w": "health research",
-  "pos": "phrase",
-  "old": "The researchers discussed health research before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3080,
-  "j": 0,
-  "w": "health support",
-  "pos": "phrase",
-  "old": "The researchers discussed health support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3081,
@@ -9030,16 +7850,6 @@
   "why": "countable singular noun phrase without a determiner (“health outcome”)"
  },
  {
-  "i": 3083,
-  "j": 0,
-  "w": "health advice",
-  "pos": "phrase",
-  "old": "The researchers discussed health advice before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3084,
   "j": 0,
   "w": "health system",
@@ -9048,16 +7858,6 @@
   "new": "The researchers discussed health systems before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“health system”)"
- },
- {
-  "i": 3085,
-  "j": 0,
-  "w": "health screening",
-  "pos": "phrase",
-  "old": "The researchers discussed health screening before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3086,
@@ -9108,16 +7908,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3094,
-  "j": 0,
-  "w": "health safety",
-  "pos": "phrase",
-  "old": "The researchers discussed health safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3095,
@@ -9198,26 +7988,6 @@
   "new": "The researchers discussed learning goals before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“learning goal”)"
- },
- {
-  "i": 3104,
-  "j": 0,
-  "w": "learning progress",
-  "pos": "phrase",
-  "old": "The researchers discussed learning progress before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3105,
-  "j": 0,
-  "w": "learning support",
-  "pos": "phrase",
-  "old": "The researchers discussed learning support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3106,
@@ -9338,16 +8108,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3118,
-  "j": 0,
-  "w": "learning feedback",
-  "pos": "phrase",
-  "old": "The researchers discussed learning feedback before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3119,
@@ -9478,56 +8238,6 @@
   "new": "The researchers discussed community centers before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“community center”)"
- },
- {
-  "i": 3132,
-  "j": 0,
-  "w": "community support",
-  "pos": "phrase",
-  "old": "The researchers discussed community support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3133,
-  "j": 0,
-  "w": "community health",
-  "pos": "phrase",
-  "old": "The researchers discussed community health before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3134,
-  "j": 0,
-  "w": "community education",
-  "pos": "phrase",
-  "old": "The researchers discussed community education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3135,
-  "j": 0,
-  "w": "community development",
-  "pos": "phrase",
-  "old": "The researchers discussed community development before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3136,
-  "j": 0,
-  "w": "community safety",
-  "pos": "phrase",
-  "old": "The researchers discussed community safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3137,
@@ -9670,16 +8380,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3151,
-  "j": 0,
-  "w": "community housing",
-  "pos": "phrase",
-  "old": "The researchers discussed community housing before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3152,
   "j": 0,
   "w": "community transport",
@@ -9710,26 +8410,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3155,
-  "j": 0,
-  "w": "community access",
-  "pos": "phrase",
-  "old": "The researchers discussed community access before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3156,
-  "j": 0,
-  "w": "community participation",
-  "pos": "phrase",
-  "old": "The researchers discussed community participation before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3157,
   "j": 0,
   "w": "community welfare",
@@ -9738,26 +8418,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3158,
-  "j": 0,
-  "w": "workplace communication",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace communication before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3159,
-  "j": 0,
-  "w": "workplace safety",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3160,
@@ -9770,16 +8430,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 3161,
-  "j": 0,
-  "w": "workplace training",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace training before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3162,
   "j": 0,
   "w": "workplace policy",
@@ -9790,16 +8440,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 3163,
-  "j": 0,
-  "w": "workplace support",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3164,
   "j": 0,
   "w": "workplace skill",
@@ -9808,16 +8448,6 @@
   "new": "The researchers discussed workplace skills before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“workplace skill”)"
- },
- {
-  "i": 3165,
-  "j": 0,
-  "w": "workplace behavior",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace behavior before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3166,
@@ -9960,16 +8590,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3182,
-  "j": 0,
-  "w": "workplace productivity",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace productivity before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3183,
   "j": 0,
   "w": "workplace workload",
@@ -9978,26 +8598,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3184,
-  "j": 0,
-  "w": "workplace feedback",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace feedback before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3186,
-  "j": 0,
-  "w": "workplace management",
-  "pos": "phrase",
-  "old": "The researchers discussed workplace management before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3187,
@@ -10050,26 +8650,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 3192,
-  "j": 0,
-  "w": "research data",
-  "pos": "phrase",
-  "old": "The researchers discussed research data before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3193,
-  "j": 0,
-  "w": "research evidence",
-  "pos": "phrase",
-  "old": "The researchers discussed research evidence before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3194,
   "j": 0,
   "w": "research finding",
@@ -10108,16 +8688,6 @@
   "new": "The researchers discussed research purposes before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“research purpose”)"
- },
- {
-  "i": 3198,
-  "j": 0,
-  "w": "research process",
-  "pos": "phrase",
-  "old": "The researchers discussed research process before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3199,
@@ -10160,16 +8730,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3203,
-  "j": 0,
-  "w": "research quality",
-  "pos": "phrase",
-  "old": "The researchers discussed research quality before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3204,
   "j": 0,
   "w": "research source",
@@ -10178,16 +8738,6 @@
   "new": "The researchers discussed research sources before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“research source”)"
- },
- {
-  "i": 3205,
-  "j": 0,
-  "w": "research analysis",
-  "pos": "phrase",
-  "old": "The researchers discussed research analysis before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3206,
@@ -10290,16 +8840,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3216,
-  "j": 0,
-  "w": "research hypothesis",
-  "pos": "phrase",
-  "old": "The researchers discussed research hypothesis before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3217,
   "j": 0,
   "w": "research interpretation",
@@ -10310,46 +8850,6 @@
   "why": "countable singular noun phrase without a determiner (“research interpretation”)"
  },
  {
-  "i": 3218,
-  "j": 0,
-  "w": "urban development",
-  "pos": "phrase",
-  "old": "The researchers discussed urban development before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3219,
-  "j": 0,
-  "w": "urban transport",
-  "pos": "phrase",
-  "old": "The researchers discussed urban transport before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3220,
-  "j": 0,
-  "w": "urban housing",
-  "pos": "phrase",
-  "old": "The researchers discussed urban housing before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3221,
-  "j": 0,
-  "w": "urban growth",
-  "pos": "phrase",
-  "old": "The researchers discussed urban growth before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3222,
   "j": 0,
   "w": "urban design",
@@ -10358,16 +8858,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3223,
-  "j": 0,
-  "w": "urban safety",
-  "pos": "phrase",
-  "old": "The researchers discussed urban safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3224,
@@ -10500,16 +8990,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3237,
-  "j": 0,
-  "w": "urban traffic",
-  "pos": "phrase",
-  "old": "The researchers discussed urban traffic before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3238,
   "j": 0,
   "w": "urban road",
@@ -10538,16 +9018,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3242,
-  "j": 0,
-  "w": "urban infrastructure",
-  "pos": "phrase",
-  "old": "The researchers discussed urban infrastructure before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3243,
@@ -10590,16 +9060,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3247,
-  "j": 0,
-  "w": "online learning",
-  "pos": "phrase",
-  "old": "The researchers discussed online learning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3248,
   "j": 0,
   "w": "online course",
@@ -10630,26 +9090,6 @@
   "why": "countable singular noun phrase without a determiner (“online payment”)"
  },
  {
-  "i": 3251,
-  "j": 0,
-  "w": "online privacy",
-  "pos": "phrase",
-  "old": "The researchers discussed online privacy before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3252,
-  "j": 0,
-  "w": "online safety",
-  "pos": "phrase",
-  "old": "The researchers discussed online safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3253,
   "j": 0,
   "w": "online resource",
@@ -10678,16 +9118,6 @@
   "new": "The researchers discussed online discussions before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“online discussion”)"
- },
- {
-  "i": 3256,
-  "j": 0,
-  "w": "online content",
-  "pos": "phrase",
-  "old": "The researchers discussed online content before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3257,
@@ -10770,56 +9200,6 @@
   "why": "countable singular noun phrase without a determiner (“online tool”)"
  },
  {
-  "i": 3265,
-  "j": 0,
-  "w": "online access",
-  "pos": "phrase",
-  "old": "The researchers discussed online access before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3266,
-  "j": 0,
-  "w": "online education",
-  "pos": "phrase",
-  "old": "The researchers discussed online education before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3267,
-  "j": 0,
-  "w": "online shopping",
-  "pos": "phrase",
-  "old": "The researchers discussed online shopping before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3268,
-  "j": 0,
-  "w": "online banking",
-  "pos": "phrase",
-  "old": "The researchers discussed online banking before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3269,
-  "j": 0,
-  "w": "online communication",
-  "pos": "phrase",
-  "old": "The researchers discussed online communication before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3270,
   "j": 0,
   "w": "online information",
@@ -10828,16 +9208,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3271,
-  "j": 0,
-  "w": "online security",
-  "pos": "phrase",
-  "old": "The researchers discussed online security before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3272,
@@ -10860,16 +9230,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3274,
-  "j": 0,
-  "w": "online media",
-  "pos": "phrase",
-  "old": "The researchers discussed online media before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3275,
   "j": 0,
   "w": "consumer choice",
@@ -10890,16 +9250,6 @@
   "why": "countable singular noun phrase without a determiner (“consumer demand”)"
  },
  {
-  "i": 3277,
-  "j": 0,
-  "w": "consumer confidence",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer confidence before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3278,
   "j": 0,
   "w": "consumer service",
@@ -10910,16 +9260,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 3279,
-  "j": 0,
-  "w": "consumer satisfaction",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer satisfaction before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3280,
   "j": 0,
   "w": "consumer product",
@@ -10928,16 +9268,6 @@
   "new": "The researchers discussed consumer products before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“consumer product”)"
- },
- {
-  "i": 3281,
-  "j": 0,
-  "w": "consumer protection",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer protection before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3282,
@@ -10958,16 +9288,6 @@
   "new": "The researchers discussed consumer decisions before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“consumer decision”)"
- },
- {
-  "i": 3284,
-  "j": 0,
-  "w": "consumer information",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer information before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3285,
@@ -11040,16 +9360,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 3292,
-  "j": 0,
-  "w": "consumer feedback",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer feedback before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3293,
   "j": 0,
   "w": "consumer survey",
@@ -11058,16 +9368,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
- },
- {
-  "i": 3294,
-  "j": 0,
-  "w": "consumer safety",
-  "pos": "phrase",
-  "old": "The researchers discussed consumer safety before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3295,
@@ -11180,16 +9480,6 @@
   "why": "countable singular noun phrase without a determiner (“career goal”)"
  },
  {
-  "i": 3306,
-  "j": 0,
-  "w": "career planning",
-  "pos": "phrase",
-  "old": "The researchers discussed career planning before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3307,
   "j": 0,
   "w": "career choice",
@@ -11220,26 +9510,6 @@
   "why": "countable singular noun phrase without a determiner (“career skill”)"
  },
  {
-  "i": 3310,
-  "j": 0,
-  "w": "career training",
-  "pos": "phrase",
-  "old": "The researchers discussed career training before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3311,
-  "j": 0,
-  "w": "career development",
-  "pos": "phrase",
-  "old": "The researchers discussed career development before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3312,
   "j": 0,
   "w": "career experience",
@@ -11248,26 +9518,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 3313,
-  "j": 0,
-  "w": "career support",
-  "pos": "phrase",
-  "old": "The researchers discussed career support before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3314,
-  "j": 0,
-  "w": "career advice",
-  "pos": "phrase",
-  "old": "The researchers discussed career advice before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3315,
@@ -11288,26 +9538,6 @@
   "new": "The researchers discussed career decisions before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“career decision”)"
- },
- {
-  "i": 3317,
-  "j": 0,
-  "w": "career success",
-  "pos": "phrase",
-  "old": "The researchers discussed career success before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3318,
-  "j": 0,
-  "w": "career growth",
-  "pos": "phrase",
-  "old": "The researchers discussed career growth before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3325,
@@ -11350,16 +9580,6 @@
   "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
  },
  {
-  "i": 3333,
-  "j": 0,
-  "w": "data analysis",
-  "pos": "phrase",
-  "old": "The researchers discussed data analysis before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3334,
   "j": 0,
   "w": "data source",
@@ -11370,16 +9590,6 @@
   "why": "countable singular noun phrase without a determiner (“data source”)"
  },
  {
-  "i": 3335,
-  "j": 0,
-  "w": "data quality",
-  "pos": "phrase",
-  "old": "The researchers discussed data quality before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3336,
   "j": 0,
   "w": "data collection",
@@ -11388,26 +9598,6 @@
   "new": "The researchers discussed data collections before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“data collection”)"
- },
- {
-  "i": 3337,
-  "j": 0,
-  "w": "data security",
-  "pos": "phrase",
-  "old": "The researchers discussed data security before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 3338,
-  "j": 0,
-  "w": "data visualization",
-  "pos": "phrase",
-  "old": "The researchers discussed data visualization before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3339,
@@ -11480,16 +9670,6 @@
   "why": "countable singular noun phrase without a determiner (“data error”)"
  },
  {
-  "i": 3348,
-  "j": 0,
-  "w": "data accuracy",
-  "pos": "phrase",
-  "old": "The researchers discussed data accuracy before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 3349,
   "j": 0,
   "w": "data sample",
@@ -11538,16 +9718,6 @@
   "new": "The researchers discussed data tables before deciding how to proceed.",
   "cls": "definite",
   "why": "countable singular noun phrase without a determiner (“data table”)"
- },
- {
-  "i": 3361,
-  "j": 0,
-  "w": "reading comprehension",
-  "pos": "phrase",
-  "old": "The researchers discussed reading comprehension before deciding how to proceed.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 3362,

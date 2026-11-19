@@ -147,4 +147,52 @@ _sl=sum(len(q['options'][q['answer']])==max(map(len,q['options'])) for q in by['
 check('Short: key is the longest option <=10% (Arena round 2: 0.000)',_sl<=0.10,f'{_sl:.3f}')
 _ssh=sum(len(q['options'][q['answer']])==min(map(len,q['options'])) for q in by['short'])/len(by['short'])
 check('Short: key is the shortest option <=30% (v42.0.1 0.000, Arena round 2 first draft 0.888)',_ssh<=0.30,f'{_ssh:.3f}')
+# G-K..G-P: vocabulary V2 - generic noun-slot template examples replaced by authored ones (Arena round 2)
+# (qa/REVIEW-QUEUE.csv listed 1,217 phrase examples generated from 12 sentence templates: grammatical
+#  but showing no typical collocation. content/vocab_examples_v43_*.json + tools/apply_vocab_examples.py
+#  replace example+translation as a pair, BEFORE tools/vocab_triage.py, so the queue shrinks itself.)
+import glob
+_VS=json.load(open(f'{tmp}/senses.json',encoding='utf-8'))
+_VL={wi:k for k,wi in enumerate(D['lazySenses'])}
+_VW=D['studio']['words']
+_VEX=D['studio'].get('examples') or {}
+_NOUN=[r"^The researchers discussed (.+) before deciding how to proceed\.$", r"^The (.+) affected the team.s final decision\.$",
+ r"^The policy addresses concerns about (.+)\.$", r"^The school provided guidance about (.+) to students\.$",
+ r"^The community discussed (.+) after the announcement\.$", r"^The report highlighted (.+) as an important factor",
+ r"^The team collected information about (.+) before making a decision\.$", r"^The company reviewed the risks associated with (.+)\.$",
+ r"^The survey measured changes related to (.+)\.$", r"^The study compared the effects of (.+) across two groups\.$",
+ r"^The study examined (.+) and its effects on the community\.$", r"^The report discussed (.+) as an important part of the analysis\.$"]
+_spec=[]
+for _f in sorted(glob.glob(os.path.join(ROOT,'content','vocab_examples_v43_[a-z].json'))): _spec+=json.load(open(_f,encoding='utf-8'))
+_byw={}
+for _i,_w in enumerate(_VW): _byw.setdefault(_w['w'],_i)
+def _senses_of(_i,_w): return _VS[_VL[_i]] if _i in _VL else (_w.get('senses') or [])
+_miss=[];_tmpl=[];_lat=[];_nodet=[];_dup=[];_long=[]
+_seen=collections.Counter()
+for _e in _spec:
+    _i=_byw.get(_e['w'])
+    _sl=_senses_of(_i,_VW[_i]) if _i is not None else []
+    _j=int(_e.get('sense',0));_s=_sl[_j] if _j<len(_sl) else {}
+    if _s.get('example')!=_e['example'] or _s.get('translation')!=_e['translation']: _miss.append(_e['w'])
+    if any(re.match(p,_e['example']) for p in _NOUN): _tmpl.append(_e['w'])
+    if re.search(r'[A-Za-z]',_e['translation'] or ''): _lat.append(_e['w'])
+    if not re.search(r'[\u0E00-\u0E7F]',_e['translation'] or ''): _nodet.append(_e['w'])
+    if _e['example'].lower().count(_e['w'].lower())!=1: _dup.append(_e['w'])
+    if not 7<=len(_e['example'].split())<=24 or len(_e['example'])>150: _long.append(_e['w'])
+    _seen[_e['example']]+=1
+check('vocab V2: every authored example+translation is in the built web data (rebuild ran)',not _miss,f'{len(_miss)} stale: {_miss[:3]}')
+check('vocab V2: no authored example reuses one of the 12 noun-slot templates',not _tmpl,_tmpl[:3])
+check('vocab V2: authored Thai translations have zero Latin letters',not _lat,_lat[:3])
+check('vocab V2: every authored translation is Thai',not _nodet,_nodet[:3])
+check('vocab V2: headword appears exactly once in each authored example',not _dup,_dup[:3])
+check('vocab V2: authored examples are 7-24 words and <=150 chars',not _long,_long[:3])
+check('vocab V2: authored examples are unique',all(v==1 for v in _seen.values()),[k for k,v in _seen.items() if v>1][:2])
+_all=[(w,s) for i,w in enumerate(_VW) for s in _senses_of(i,w)]
+_gen=[w['w'] for w,s in _all if any(re.match(p,s.get('example') or '') for p in _NOUN)]
+check(f'vocab V2: generic noun-slot rows in the bank <=1033 (Arena round 2 left {len(_gen)})',len(_gen)<=1033,str(len(_gen)))
+_mir=[_e['w'] for _e in _spec if _e['example'] in (_VEX.get(_e['w']) or [])]
+check('vocab V2: no legacy-example mirror duplicates its authored sense example',not _mir,_mir[:3])
+_ex2=[_e['w'] for _e in _spec if _e.get('example2') and _e['example2'] not in (_VEX.get(_e['w']) or [])]
+check('vocab V2: every second authored example is in studio.examples',not _ex2,_ex2[:3])
+check('vocab V2: >=183 examples authored (all P1 + first P2 batch)',len(_spec)>=183,str(len(_spec)))
 f=[r for r in R if not r[1]];print(f'\nregression_r3_content: {len(R)-len(f)}/{len(R)} passed');sys.exit(1 if f else 0)

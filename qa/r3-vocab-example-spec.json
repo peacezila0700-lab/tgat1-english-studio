@@ -1,0 +1,2381 @@
+[
+ {
+  "w": "academic research",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic research before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิจัยทางวิชาการก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Her academic research focuses on how coastal towns adapt to rising sea levels.",
+   "translation": "งานวิจัยทางวิชาการของเธอเน้นว่าเมืองชายฝั่งปรับตัวต่อระดับน้ำทะเลที่สูงขึ้นอย่างไร"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "academic writing",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic writing before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเขียนเชิงวิชาการก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The course teaches academic writing, from citing sources to structuring an argument.",
+   "translation": "รายวิชานี้สอนการเขียนเชิงวิชาการ ตั้งแต่การอ้างแหล่งข้อมูลจนถึงการวางโครงข้อโต้แย้ง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "academic success",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic success before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความสำเร็จทางการเรียนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Regular feedback from teachers strongly predicts academic success in the first year.",
+   "translation": "การบอกผลย้อนกลับอย่างสม่ำเสมอจากครูช่วยทำนายความสำเร็จทางการเรียนในปีแรกได้เป็นอย่างดี"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "academic support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนด้านการเรียนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The university offers academic support such as writing clinics and peer tutoring.",
+   "translation": "มหาวิทยาลัยมีการสนับสนุนด้านการเรียน เช่น คลินิกการเขียนและการสอนเสริมโดยเพื่อนนักศึกษา"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "academic progress",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic progress before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความก้าวหน้าทางการเรียนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Parents receive a short report on their child’s academic progress every term.",
+   "translation": "ผู้ปกครองได้รับรายงานสั้น ๆ เกี่ยวกับความก้าวหน้าทางการเรียนของบุตรหลานทุกภาคเรียน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "academic quality",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed academic quality before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคุณภาพทางวิชาการก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The new accreditation criteria measure academic quality in teaching, assessment and supervision.",
+   "translation": "เกณฑ์การรับรองมาตรฐานชุดใหม่ประเมินคุณภาพทางวิชาการทั้งด้านการสอน การวัดผล และการนิเทศ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยสาธารณะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "City officials reviewed public safety after two accidents at the same junction.",
+   "translation": "เจ้าหน้าที่เทศบาลทบทวนเรื่องความปลอดภัยสาธารณะหลังเกิดอุบัติเหตุสองครั้งที่แยกเดียวกัน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public awareness",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public awareness before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความตระหนักรู้ของประชาชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The campaign raised public awareness about dengue breeding sites inside the home.",
+   "translation": "การรณรงค์ครั้งนี้เพิ่มความตระหนักรู้ของประชาชนเกี่ยวกับแหล่งเพาะพันธุ์ยุงลายภายในบ้าน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการศึกษาของรัฐก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Rural public education still lacks enough science teachers and laboratory equipment.",
+   "translation": "การศึกษาของรัฐในพื้นที่ชนบทยังขาดครูวิทยาศาสตร์และอุปกรณ์ห้องปฏิบัติการที่เพียงพอ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public access",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public access before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเข้าถึงของประชาชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The archive digitised old maps so public access no longer needs an appointment.",
+   "translation": "หอจดหมายเหตุแปลงแผนที่เก่าเป็นดิจิทัล ทำให้ประชาชนเข้าถึงได้โดยไม่ต้องนัดหมายล่วงหน้า"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public funding",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public funding before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับเงินทุนจากภาครัฐก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The clinic depends on public funding to keep its mobile health service running.",
+   "translation": "คลินิกแห่งนี้พึ่งพางบประมาณจากภาครัฐเพื่อให้บริการสุขภาพเคลื่อนที่ดำเนินการต่อไปได้"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public housing",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public housing before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับที่อยู่อาศัยของรัฐก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The waiting list for public housing in this district is now about three years.",
+   "translation": "รายชื่อผู้รอที่อยู่อาศัยของรัฐในเขตนี้ยาวถึงประมาณสามปีแล้ว"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public information",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public information before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อมูลสาธารณะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Officials published public information about water quality in three local canals.",
+   "translation": "เจ้าหน้าที่เผยแพร่ข้อมูลสาธารณะเกี่ยวกับคุณภาพน้ำในคลองสามสายของท้องถิ่น"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public research",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public research before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิจัยที่ได้รับทุนจากรัฐก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Most public research on rice varieties is shared with farmers free of charge.",
+   "translation": "งานวิจัยที่ได้รับทุนจากรัฐส่วนใหญ่เรื่องพันธุ์ข้าวถูกเผยแพร่ให้เกษตรกรโดยไม่คิดค่าใช้จ่าย"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนจากประชาชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The tram project lost public support when fares rose for the second year.",
+   "translation": "โครงการรถรางสูญเสียการสนับสนุนจากประชาชนเมื่อค่าโดยสารปรับขึ้นเป็นปีที่สอง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public security",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public security before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความมั่นคงสาธารณะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The ministry increased public security around markets during the festival week.",
+   "translation": "กระทรวงเพิ่มมาตรการความมั่นคงสาธารณะบริเวณตลาดในช่วงสัปดาห์เทศกาล"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public planning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public planning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวางแผนของภาครัฐก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Residents joined public planning meetings to discuss the riverside park layout.",
+   "translation": "ชาวบ้านเข้าร่วมการประชุมวางแผนของภาครัฐเพื่อหารือเรื่องผังสวนริมแม่น้ำ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public resources",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public resources before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับทรัพยากรสาธารณะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Auditors checked whether public resources were used for the intended projects.",
+   "translation": "ผู้ตรวจสอบบัญชีตรวจว่าทรัพยากรสาธารณะถูกใช้ในโครงการตามที่กำหนดไว้หรือไม่"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "public welfare",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed public welfare before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสวัสดิการสาธารณะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The foundation funds public welfare programmes for elderly people living alone.",
+   "translation": "มูลนิธิให้ทุนโครงการสวัสดิการสาธารณะสำหรับผู้สูงอายุที่อยู่ลำพัง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital content",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital content before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับเนื้อหาดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Teachers now create digital content as short videos instead of long handouts.",
+   "translation": "ปัจจุบันครูสร้างเนื้อหาดิจิทัลเป็นวิดีโอสั้นแทนใบความรู้ยาว ๆ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital security",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital security before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยทางดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The bank reminded customers that digital security starts with a unique password.",
+   "translation": "ธนาคารเตือนลูกค้าว่าความมั่นคงปลอดภัยทางดิจิทัลเริ่มจากรหัสผ่านที่ไม่ซ้ำกับที่อื่น"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital privacy",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital privacy before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความเป็นส่วนตัวบนโลกดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Students debated how much data schools may collect, raising digital privacy concerns.",
+   "translation": "นักเรียนถกเถียงว่าโรงเรียนเก็บข้อมูลได้มากเพียงใด ซึ่งก่อให้เกิดความกังวลเรื่องความเป็นส่วนตัวทางดิจิทัล"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital technology",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital technology before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับเทคโนโลยีดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Small farms use digital technology to control irrigation from a phone.",
+   "translation": "ฟาร์มขนาดเล็กใช้เทคโนโลยีดิจิทัลควบคุมการให้น้ำผ่านโทรศัพท์มือถือ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital learning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital learning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเรียนรู้ผ่านสื่อดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The pilot showed that digital learning works best when tasks stay under twenty minutes.",
+   "translation": "โครงการนำร่องแสดงให้เห็นว่าการเรียนรู้แบบดิจิทัลได้ผลดีที่สุดเมื่อกิจกรรมใช้เวลาไม่เกินยี่สิบนาที"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital communication",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital communication before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสื่อสารดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Clear digital communication reduced the number of missed appointments at the clinic.",
+   "translation": "การสื่อสารทางดิจิทัลที่ชัดเจนช่วยลดจำนวนการพลาดนัดที่คลินิก"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital access",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital access before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเข้าถึงเทคโนโลยีดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The library lends hotspots so digital access reaches families without broadband.",
+   "translation": "ห้องสมุดให้ยืมอุปกรณ์ปล่อยสัญญาณอินเทอร์เน็ต เพื่อให้ครอบครัวที่ไม่มีบรอดแบนด์เข้าถึงโลกดิจิทัลได้"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital media",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital media before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสื่อดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Villagers trust local radio more than digital media when a storm approaches.",
+   "translation": "ชาวบ้านเชื่อวิทยุท้องถิ่นมากกว่าสื่อดิจิทัลเมื่อพายุกำลังจะมาถึง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The school ran a digital safety week covering scams, sharing and screen time.",
+   "translation": "โรงเรียนจัดสัปดาห์ความปลอดภัยทางดิจิทัล ครอบคลุมเรื่องกลโกง การแชร์ข้อมูล และเวลาหน้าจอ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "digital education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed digital education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการศึกษาผ่านสื่อดิจิทัลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Rural digital education improved after the ministry supplied tablets and teacher training.",
+   "translation": "การศึกษาดิจิทัลในพื้นที่ชนบทดีขึ้นหลังกระทรวงจัดหาแท็บเล็ตพร้อมอบรมครู"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental protection",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental protection before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการคุ้มครองสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The new law ties environmental protection targets to each province’s budget.",
+   "translation": "กฎหมายใหม่ผูกเป้าหมายการคุ้มครองสิ่งแวดล้อมเข้ากับงบประมาณของแต่ละจังหวัด"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสิ่งแวดล้อมศึกษาก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Environmental education here begins with measuring waste in the school canteen.",
+   "translation": "การศึกษาด้านสิ่งแวดล้อมที่นี่เริ่มจากการชั่งวัดปริมาณขยะในโรงอาหารของโรงเรียน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental awareness",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental awareness before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความตระหนักด้านสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The photo exhibition raised environmental awareness about plastic in the river.",
+   "translation": "นิทรรศการภาพถ่ายเพิ่มความตระหนักรู้ด้านสิ่งแวดล้อมเรื่องพลาสติกในแม่น้ำ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental damage",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental damage before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความเสียหายด้านสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Inspectors assessed the environmental damage caused by the chemical spill downstream.",
+   "translation": "ผู้ตรวจประเมินความเสียหายต่อสิ่งแวดล้อมจากสารเคมีรั่วไหลบริเวณท้ายน้ำ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental quality",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental quality before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคุณภาพสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Residents compare environmental quality data before choosing where to buy a house.",
+   "translation": "ชาวบ้านเปรียบเทียบข้อมูลคุณภาพสิ่งแวดล้อมก่อนตัดสินใจซื้อบ้าน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental research",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental research before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิจัยด้านสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "His environmental research links mangrove loss to flood damage in the village.",
+   "translation": "งานวิจัยด้านสิ่งแวดล้อมของเขาเชื่อมโยงการหายไปของป่าชายเลนกับความเสียหายจากน้ำท่วมในหมู่บ้าน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental conservation",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental conservation before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการอนุรักษ์สิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Volunteers joined environmental conservation work by replanting the degraded hillside.",
+   "translation": "อาสาสมัครเข้าร่วมงานอนุรักษ์สิ่งแวดล้อมด้วยการปลูกป่าบนเนินเขาที่เสื่อมโทรม"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental health",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental health before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับอนามัยสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The clinic’s environmental health team tests drinking water every month.",
+   "translation": "ทีมอนามัยสิ่งแวดล้อมของคลินิกตรวจน้ำดื่มทุกเดือน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "environmental planning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed environmental planning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวางแผนด้านสิ่งแวดล้อมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Environmental planning for the new district keeps thirty per cent of the land as green space.",
+   "translation": "การวางแผนสิ่งแวดล้อมของย่านใหม่คงพื้นที่สามสิบเปอร์เซ็นต์ไว้เป็นพื้นที่สีเขียว"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social justice",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social justice before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความยุติธรรมในสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The course links social justice topics to cases students meet in their own districts.",
+   "translation": "รายวิชานี้เชื่อมโยงหัวข้อความยุติธรรมทางสังคมกับคดีที่นักศึกษาพบในอำเภอของตนเอง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social equality",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social equality before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความเท่าเทียมในสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Campaigners argue that social equality requires equal access to public transport.",
+   "translation": "นักกิจกรรมแย้งว่าความเท่าเทียมทางสังคมต้องมีระบบขนส่งสาธารณะที่เข้าถึงได้เท่าเทียมกัน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social inclusion",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social inclusion before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการมีส่วนร่วมอย่างทั่วถึงทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The festival promotes social inclusion by inviting performers with disabilities.",
+   "translation": "เทศกาลนี้ส่งเสริมการอยู่ร่วมกันในสังคมด้วยการเชิญนักแสดงที่มีความพิการ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "New mothers with strong social support reported less stress in the first months.",
+   "translation": "คุณแม่มือใหม่ที่มีเครือข่ายการสนับสนุนทางสังคมเข้มแข็งรายงานความเครียดน้อยลงในช่วงเดือนแรก ๆ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social behavior",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social behavior before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับพฤติกรรมทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The study observed the social behavior of commuters at two busy interchange stations.",
+   "translation": "งานวิจัยสังเกตพฤติกรรมทางสังคมของผู้โดยสารที่สถานีเปลี่ยนเส้นทางสองแห่งซึ่งมีคนพลุกพล่าน"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social development",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social development before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการพัฒนาทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The village fund supports social development projects chosen by residents themselves.",
+   "translation": "กองทุนหมู่บ้านสนับสนุนโครงการพัฒนาสังคมที่ชาวบ้านเลือกเอง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social participation",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social participation before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการมีส่วนร่วมทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Low social participation among first-time voters worried the local election office.",
+   "translation": "การมีส่วนร่วมทางสังคมที่ต่ำในหมู่ผู้มีสิทธิเลือกตั้งครั้งแรกทำให้สำนักงานเลือกตั้งท้องถิ่นกังวล"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social rights",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social rights before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสิทธิทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The workshop explained social rights such as healthcare and paid leave.",
+   "translation": "การอบรมอธิบายสิทธิทางสังคม เช่น การรักษาพยาบาลและการลาโดยได้รับค่าจ้าง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social trust",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social trust before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความไว้วางใจในสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Transparent budget reporting slowly rebuilt social trust in the district office.",
+   "translation": "การรายงานงบประมาณอย่างโปร่งใสค่อย ๆ ฟื้นความไว้วางใจทางสังคมต่อที่ทำการอำเภอ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social conflict",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social conflict before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความขัดแย้งในสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Mediators were trained to reduce social conflict over water use in the dry season.",
+   "translation": "ผู้ไกล่เกลี่ยได้รับการฝึกให้ลดความขัดแย้งทางสังคมเรื่องการใช้น้ำในฤดูแล้ง"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social cooperation",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social cooperation before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความร่วมมือทางสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The flood cleanup showed how social cooperation works across three villages.",
+   "translation": "การทำความสะอาดหลังน้ำท่วมแสดงให้เห็นว่าความร่วมมือทางสังคมทำงานข้ามสามหมู่บ้านอย่างไร"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "social welfare",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed social welfare before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสวัสดิการสังคมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The ministry expanded social welfare payments to cover informal workers.",
+   "translation": "กระทรวงขยายการจ่ายเงินสวัสดิการสังคมให้ครอบคลุมแรงงานนอกระบบ"
+  },
+  "spec": "content/vocab_examples_v43_a.json"
+ },
+ {
+  "w": "financial support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Graduate students rely on financial support from the university to cover lab fees.",
+   "translation": "นักศึกษาระดับบัณฑิตศึกษาพึ่งพาการสนับสนุนทางการเงินจากมหาวิทยาลัยเพื่อจ่ายค่าห้องปฏิบัติการ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial planning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial planning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวางแผนทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Before opening the shop, she attended a short course in financial planning.",
+   "translation": "ก่อนเปิดร้านค้า เธอเข้าเรียนหลักสูตรสั้น ๆ ด้านการวางแผนทางการเงิน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial security",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial security before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความมั่นคงทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Saving a fixed amount each month gave the family real financial security.",
+   "translation": "การเก็บเงินจำนวนคงที่ทุกเดือนทำให้ครอบครัวมีความมั่นคงทางการเงินอย่างแท้จริง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial data",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial data before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อมูลทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Auditors compared two years of financial data before signing the report.",
+   "translation": "ผู้ตรวจสอบบัญชีเปรียบเทียบข้อมูลทางการเงินย้อนหลังสองปีก่อนลงนามในรายงาน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial management",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial management before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการบริหารการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The cooperative improved its financial management by recording every transaction.",
+   "translation": "สหกรณ์ปรับปรุงการบริหารการเงินโดยบันทึกทุกรายการธุรกรรม"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความรู้ทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Schools added financial education so teenagers understand interest and debt.",
+   "translation": "โรงเรียนเพิ่มเนื้อหาความรู้ทางการเงินเพื่อให้วัยรุ่นเข้าใจเรื่องดอกเบี้ยและหนี้สิน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "financial advice",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed financial advice before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคำแนะนำทางการเงินก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "He ignored the financial advice to spread his savings across three banks.",
+   "translation": "เขาไม่ฟังคำแนะนำทางการเงินที่ให้กระจายเงินออมไปยังธนาคารสามแห่ง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health care",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health care before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการดูแลสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Rural health care improved once mobile clinics visited each district monthly.",
+   "translation": "การดูแลสุขภาพในพื้นที่ชนบทดีขึ้นเมื่อคลินิกเคลื่อนที่ออกเยี่ยมแต่ละอำเภอทุกเดือน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health awareness",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health awareness before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความตระหนักด้านสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The market stall campaign raised health awareness about salt in street food.",
+   "translation": "กิจกรรมรณรงค์ตามแผงตลาดเพิ่มความตระหนักด้านสุขภาพเรื่องเกลือในอาหารริมทาง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสุขศึกษาก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Nurses deliver health education to new parents during the first home visit.",
+   "translation": "พยาบาลให้สุขศึกษาแก่คุณพ่อคุณแม่มือใหม่ระหว่างการเยี่ยมบ้านครั้งแรก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health behavior",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health behavior before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับพฤติกรรมสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Sleep and screen time shape the health behavior of teenagers more than advice does.",
+   "translation": "การนอนและเวลาหน้าจอส่งผลต่อพฤติกรรมสุขภาพของวัยรุ่นมากกว่าคำแนะนำ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health research",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health research before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิจัยด้านสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Her health research links air pollution to childhood asthma in the city.",
+   "translation": "งานวิจัยด้านสุขภาพของเธอเชื่อมโยงมลพิษทางอากาศกับโรคหืดในเด็กในเมือง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนด้านสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Older workers need health support that covers physiotherapy, not only medicine.",
+   "translation": "แรงงานสูงวัยต้องการการสนับสนุนด้านสุขภาพที่ครอบคลุมกายภาพบำบัด ไม่ใช่แค่ยา"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health advice",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health advice before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคำแนะนำด้านสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Contradictory health advice online confuses patients with diabetes.",
+   "translation": "คำแนะนำด้านสุขภาพที่ขัดแย้งกันบนอินเทอร์เน็ตทำให้ผู้ป่วยเบาหวานสับสน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health screening",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health screening before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการตรวจคัดกรองสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Annual health screening at the factory found high blood pressure in twelve workers.",
+   "translation": "การตรวจคัดกรองสุขภาพประจำปีในโรงงานพบความดันโลหิตสูงในคนงานสิบสองคน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "health safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed health safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยด้านสุขภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Inspectors checked health safety in the canteen after several food poisoning cases.",
+   "translation": "ผู้ตรวจประเมินความปลอดภัยด้านสุขภาพในโรงอาหารหลังมีผู้ป่วยอาหารเป็นพิษหลายราย"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "learning progress",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed learning progress before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความก้าวหน้าในการเรียนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Teachers track learning progress with a short written note each week.",
+   "translation": "ครูติดตามความก้าวหน้าในการเรียนด้วยบันทึกสั้น ๆ เป็นลายลักษณ์อักษรทุกสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "learning support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed learning support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนการเรียนรู้ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The school hires two assistants to provide learning support in mathematics classes.",
+   "translation": "โรงเรียนจ้างผู้ช่วยสองคนเพื่อให้การสนับสนุนการเรียนรู้ในวิชาคณิตศาสตร์"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "learning feedback",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed learning feedback before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อเสนอแนะต่อการเรียนรู้ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Detailed learning feedback within two days helps students revise before the next test.",
+   "translation": "ข้อเสนอแนะต่อการเรียนรู้ที่ให้ภายในสองวันช่วยให้นักเรียนทบทวนก่อนสอบครั้งถัดไป"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนจากชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "After the fire, community support provided food and temporary shelter for six families.",
+   "translation": "หลังเกิดเพลิงไหม้ การสนับสนุนจากชุมชนจัดหาอาหารและที่พักชั่วคราวให้หกครอบครัว"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community health",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community health before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสุขภาพของคนในชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Volunteers map community health needs before the clinic plans its next outreach.",
+   "translation": "อาสาสมัครสำรวจความต้องการด้านสุขภาพของคนในชุมชนก่อนที่คลินิกจะวางแผนออกหน่วยครั้งถัดไป"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการศึกษาในชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The temple hall hosts community education classes in basic accounting.",
+   "translation": "ศาลาวัดใช้เป็นสถานที่จัดการศึกษาในชุมชนสำหรับวิชาบัญชีเบื้องต้น"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community development",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community development before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการพัฒนาชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Young leaders joined a community development project to repair the village bridge.",
+   "translation": "ผู้นำรุ่นใหม่เข้าร่วมโครงการพัฒนาชุมชนเพื่อซ่อมสะพานของหมู่บ้าน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยในชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Street lighting and evening patrols together improved community safety near the school.",
+   "translation": "ไฟฟ้าส่องสว่างริมทางและการลาดตระเวนยามเย็นร่วมกันช่วยเพิ่มความปลอดภัยในชุมชนใกล้โรงเรียน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community housing",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community housing before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับที่อยู่อาศัยในชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The council built community housing for thirty low-income households.",
+   "translation": "สภาท้องถิ่นสร้างที่อยู่อาศัยในชุมชนให้สามสิบครัวเรือนรายได้น้อย"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community access",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community access before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเข้าถึงบริการในชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A free shuttle bus widened community access to the district hospital.",
+   "translation": "รถรับส่งฟรีช่วยขยายการเข้าถึงบริการในชุมชนไปยังโรงพยาบาลอำเภอ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "community participation",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed community participation before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการมีส่วนร่วมของชุมชนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Budget hearings showed that community participation doubles when meetings move to weekends.",
+   "translation": "การรับฟังเรื่องงบประมาณชี้ว่าการมีส่วนร่วมของชุมชนเพิ่มขึ้นเท่าตัวเมื่อเลื่อนประชุมไปช่วงสุดสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace communication",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace communication before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสื่อสารในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Clear workplace communication reduced repeated errors on the assembly line.",
+   "translation": "การสื่อสารในที่ทำงานที่ชัดเจนช่วยลดข้อผิดพลาดซ้ำ ๆ ในสายการผลิต"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยในการทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The factory updated workplace safety rules after a forklift accident.",
+   "translation": "โรงงานปรับปรุงกฎความปลอดภัยในการทำงานหลังอุบัติเหตุรถยก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace training",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace training before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการฝึกอบรมในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "New staff receive workplace training in customer service during their first week.",
+   "translation": "พนักงานใหม่ได้รับการฝึกอบรมในที่ทำงานด้านการบริการลูกค้าในสัปดาห์แรก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Mentoring and flexible hours form the workplace support most young nurses ask for.",
+   "translation": "การมีพี่เลี้ยงและเวลาทำงานยืดหยุ่นคือการสนับสนุนในที่ทำงานที่พยาบาลรุ่นใหม่ต้องการมากที่สุด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace behavior",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace behavior before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับพฤติกรรมในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Managers were trained to notice workplace behavior that signals burnout.",
+   "translation": "ผู้จัดการได้รับการฝึกให้สังเกตพฤติกรรมในที่ทำงานที่เป็นสัญญาณของภาวะหมดไฟ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace productivity",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace productivity before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับผลิตภาพในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Removing two approval steps raised workplace productivity without adding staff.",
+   "translation": "การตัดขั้นตอนอนุมัติออกสองขั้นช่วยเพิ่มผลิตภาพในที่ทำงานโดยไม่ต้องเพิ่มบุคลากร"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace feedback",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace feedback before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อเสนอแนะในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Anonymous workplace feedback revealed that meeting overload was the main complaint.",
+   "translation": "ข้อเสนอแนะในที่ทำงานแบบไม่ระบุชื่อเผยว่าภาระการประชุมมากเกินไปคือข้อร้องเรียนหลัก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "workplace management",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed workplace management before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการบริหารจัดการในที่ทำงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Good workplace management starts with clear roles for every team member.",
+   "translation": "การบริหารจัดการในที่ทำงานที่ดีเริ่มจากการกำหนดบทบาทที่ชัดเจนให้สมาชิกทุกคนในทีม"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research data",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research data before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อมูลการวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The team stored all research data on an encrypted drive.",
+   "translation": "ทีมวิจัยจัดเก็บข้อมูลการวิจัยทั้งหมดไว้ในหน่วยความจำที่เข้ารหัส"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research evidence",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research evidence before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับหลักฐานจากการวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Doctors changed the guideline once research evidence from three trials agreed.",
+   "translation": "แพทย์เปลี่ยนแนวทางเวชปฏิบัติเมื่อหลักฐานจากการวิจัยในการทดลองสามครั้งให้ผลตรงกัน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research process",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research process before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับกระบวนการวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Students learn each stage of the research process, from question to peer review.",
+   "translation": "นักศึกษาเรียนรู้ทุกขั้นตอนของกระบวนการวิจัย ตั้งแต่การตั้งคำถามจนถึงการประเมินโดยผู้เชี่ยวชาญ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research quality",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research quality before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคุณภาพของงานวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "External reviewers judged research quality by method, sampling and reporting.",
+   "translation": "ผู้ทรงคุณวุฒิภายนอกประเมินคุณภาพของงานวิจัยจากวิธีวิทยา การเลือกกลุ่มตัวอย่าง และการรายงานผล"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research analysis",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research analysis before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิเคราะห์ผลการวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Her research analysis compared exam results before and after the reform.",
+   "translation": "การวิเคราะห์ผลการวิจัยของเธอเปรียบเทียบผลสอบก่อนและหลังการปฏิรูป"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "research hypothesis",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed research hypothesis before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสมมติฐานการวิจัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The experiment failed to support the research hypothesis about sleep and memory.",
+   "translation": "การทดลองไม่สนับสนุนสมมติฐานการวิจัยเรื่องการนอนกับความจำ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban development",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban development before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการพัฒนาเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Rapid urban development pushed farmland prices up along the new ring road.",
+   "translation": "การพัฒนาเมืองที่รวดเร็วดันราคาที่ดินเกษตรสูงขึ้นตามแนวถนนวงแหวนสายใหม่"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban transport",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban transport before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการคมนาคมในเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Better urban transport means fewer motorcycles on the inner-city roads.",
+   "translation": "ระบบคมนาคมในเมืองที่ดีขึ้นหมายถึงรถจักรยานยนต์ที่น้อยลงบนถนนย่านใจกลางเมือง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban housing",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban housing before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับที่อยู่อาศัยในเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The study counted how many urban housing units stay empty during the week.",
+   "translation": "งานวิจัยนับว่ามีที่อยู่อาศัยในเมืองกี่หน่วยที่ไม่มีผู้อยู่อาศัยในช่วงวันธรรมดา"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban growth",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban growth before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเติบโตของเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Planners model urban growth to decide where to build the next water plant.",
+   "translation": "นักวางผังเมืองสร้างแบบจำลองการเติบโตของเมืองเพื่อตัดสินใจว่าจะสร้างโรงผลิตน้ำแห่งถัดไปที่ใด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยในเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Wide pavements and slower speed limits together raise urban safety for children.",
+   "translation": "ทางเท้าที่กว้างขึ้นและการจำกัดความเร็วที่ต่ำลงร่วมกันเพิ่มความปลอดภัยในเมืองสำหรับเด็ก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban traffic",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban traffic before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการจราจรในเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Morning urban traffic slows sharply whenever the railway crossing closes.",
+   "translation": "การจราจรในเมืองช่วงเช้าชะลอตัวลงอย่างมากทุกครั้งที่เครื่องกั้นทางรถไฟปิด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "urban infrastructure",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed urban infrastructure before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับโครงสร้างพื้นฐานของเมืองก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Flooded drains showed how old urban infrastructure struggles with heavy rain.",
+   "translation": "ท่อระบายน้ำที่ท่วมขังแสดงให้เห็นว่าโครงสร้างพื้นฐานของเมืองที่เก่าแก่รับมือกับฝนหนักได้ยาก"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online learning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online learning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเรียนออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Many adults finish online learning courses late at night after work.",
+   "translation": "ผู้ใหญ่จำนวนมากเรียนหลักสูตรการเรียนออนไลน์จนจบในเวลากลางคืนหลังเลิกงาน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online privacy",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online privacy before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความเป็นส่วนตัวออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Reading the terms once changed her view of online privacy completely.",
+   "translation": "การอ่านเงื่อนไขเพียงครั้งเดียวเปลี่ยนมุมมองของเธอต่อความเป็นส่วนตัวออนไลน์ไปโดยสิ้นเชิง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Parents and teachers ran an online safety evening about scams and passwords.",
+   "translation": "ผู้ปกครองและครูจัดกิจกรรมยามเย็นเรื่องความปลอดภัยออนไลน์เกี่ยวกับกลโกงและรหัสผ่าน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online content",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online content before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับเนื้อหาออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Librarians now select online content in Thai as well as in English.",
+   "translation": "บรรณารักษ์ปัจจุบันคัดเลือกเนื้อหาออนไลน์ทั้งภาษาไทยและภาษาอังกฤษ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online access",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online access before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการเข้าถึงออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A free wireless network at the market gave farmers online access to price information.",
+   "translation": "เครือข่ายไร้สายฟรีที่ตลาดทำให้เกษตรกรเข้าถึงข้อมูลราคาทางออนไลน์ได้"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online education",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online education before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการศึกษาออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Rural online education depends on a stable mobile signal more than on devices.",
+   "translation": "การศึกษาออนไลน์ในพื้นที่ชนบทพึ่งสัญญาณโทรศัพท์มือถือที่เสถียรมากกว่าตัวเครื่อง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online shopping",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online shopping before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการซื้อสินค้าออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Peak online shopping in December overwhelms small parcel depots.",
+   "translation": "การซื้อสินค้าออนไลน์ช่วงสูงสุดในเดือนธันวาคมทำให้ศูนย์คัดแยกพัสดุขนาดเล็กทำงานไม่ทัน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online banking",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online banking before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการทำธุรกรรมธนาคารออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "He set a daily transfer limit in his online banking to reduce fraud losses.",
+   "translation": "เขากำหนดวงเงินโอนต่อวันในการทำธุรกรรมธนาคารออนไลน์เพื่อลดความเสียหายจากมิจฉาชีพ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online communication",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online communication before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสื่อสารออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Short messages suit online communication better than long formal letters.",
+   "translation": "ข้อความสั้น ๆ เหมาะกับการสื่อสารออนไลน์มากกว่าจดหมายทางการยาว ๆ"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online security",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online security before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The bank’s online security team now tests every update before release.",
+   "translation": "ทีมความปลอดภัยออนไลน์ของธนาคารทดสอบทุกการอัปเดตก่อนเผยแพร่"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "online media",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed online media before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับสื่อออนไลน์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Fact-checkers monitor online media during elections for misleading claims.",
+   "translation": "ผู้ตรวจสอบข้อเท็จจริงเฝ้าติดตามสื่อออนไลน์ช่วงเลือกตั้งเพื่อหาข้อความที่สร้างความเข้าใจผิด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer confidence",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer confidence before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความมั่นใจของผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Falling fuel prices lifted consumer confidence for the first time this year.",
+   "translation": "ราคาน้ำมันเชื้อเพลิงที่ลดลงช่วยเพิ่มความมั่นใจของผู้บริโภคเป็นครั้งแรกของปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer satisfaction",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer satisfaction before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความพึงพอใจของผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The airline tracks consumer satisfaction after every flight with a two-question survey.",
+   "translation": "สายการบินติดตามความพึงพอใจของผู้บริโภคหลังทุกเที่ยวบินด้วยแบบสอบถามสองคำถาม"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer protection",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer protection before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการคุ้มครองผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "New consumer protection rules require sellers to accept returns within seven days.",
+   "translation": "กฎการคุ้มครองผู้บริโภคฉบับใหม่กำหนดให้ผู้ขายรับคืนสินค้าภายในเจ็ดวัน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer information",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer information before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อมูลสำหรับผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Clear labels are the cheapest form of consumer information available to shoppers.",
+   "translation": "ฉลากที่ชัดเจนคือข้อมูลสำหรับผู้บริโภคที่ต้นทุนต่ำที่สุดซึ่งผู้ซื้อหาได้"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer feedback",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer feedback before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับข้อเสนอแนะของผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Designers read consumer feedback before changing the bottle shape.",
+   "translation": "นักออกแบบอ่านข้อเสนอแนะของผู้บริโภคก่อนเปลี่ยนรูปทรงขวด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "consumer safety",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed consumer safety before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยของผู้บริโภคก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The agency recalled the toy under consumer safety regulations.",
+   "translation": "หน่วยงานเรียกคืนของเล่นดังกล่าวตามกฎระเบียบด้านความปลอดภัยของผู้บริโภค"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career planning",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career planning before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวางแผนอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Undergraduates start career planning by naming three jobs they could actually do.",
+   "translation": "นักศึกษาปริญญาตรีเริ่มการวางแผนอาชีพด้วยการระบุชื่องานสามอย่างที่ตนเองทำได้จริง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career training",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career training before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการฝึกอบรมด้านอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Technicians receive career training in robotics maintenance every summer.",
+   "translation": "ช่างเทคนิคได้รับการฝึกอบรมด้านอาชีพเรื่องการบำรุงรักษาระบบหุ่นยนต์ทุกฤดูร้อน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career development",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career development before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการพัฒนาอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Her career development plan includes one conference and two certificates a year.",
+   "translation": "แผนพัฒนาอาชีพของเธอประกอบด้วยงานประชุมวิชาการหนึ่งครั้งและประกาศนียบัตรสองใบต่อปี"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career support",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career support before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการสนับสนุนด้านอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Alumni provide career support through mock interviews each February.",
+   "translation": "ศิษย์เก่าให้การสนับสนุนด้านอาชีพด้วยการสัมภาษณ์จำลองทุกเดือนกุมภาพันธ์"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career advice",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career advice before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคำแนะนำด้านอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Useful career advice names the skills employers actually check.",
+   "translation": "คำแนะนำด้านอาชีพที่ใช้ได้จริงจะระบุทักษะที่นายจ้างตรวจสอบจริง"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career success",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career success before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความสำเร็จด้านอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "He credits his steady career success to refusing unsuitable offers.",
+   "translation": "เขาเชื่อว่าความสำเร็จด้านอาชีพที่มั่นคงของเขามาจากการปฏิเสธข้อเสนอที่ไม่เหมาะสม"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "career growth",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed career growth before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความก้าวหน้าในอาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Nurses often leave for career growth that the small hospital cannot offer.",
+   "translation": "พยาบาลมักลาออกเพื่อความก้าวหน้าในอาชีพที่โรงพยาบาลขนาดเล็กมอบให้ไม่ได้"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "data analysis",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed data analysis before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการวิเคราะห์ข้อมูลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Their data analysis revealed that most complaints arrive on Monday mornings.",
+   "translation": "การวิเคราะห์ข้อมูลของพวกเขาเผยว่าเรื่องร้องเรียนส่วนใหญ่มาถึงในเช้าวันจันทร์"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "data quality",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed data quality before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับคุณภาพข้อมูลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Missing dates ruined the data quality of the whole hospital survey.",
+   "translation": "วันที่ที่ขาดหายไปทำลายคุณภาพข้อมูลของแบบสำรวจโรงพยาบาลทั้งหมด"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "data security",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed data security before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความปลอดภัยของข้อมูลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Encryption and staff training together form the bank’s data security policy.",
+   "translation": "การเข้ารหัสและการอบรมพนักงานร่วมกันประกอบเป็นนโยบายความปลอดภัยของข้อมูลของธนาคาร"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "data visualization",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed data visualization before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการนำเสนอข้อมูลเป็นภาพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A simple map was the clearest data visualization for the flood report.",
+   "translation": "แผนที่เรียบง่ายคือการนำเสนอข้อมูลเป็นภาพที่ชัดเจนที่สุดสำหรับรายงานน้ำท่วม"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "data accuracy",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed data accuracy before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับความแม่นยำของข้อมูลก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Two officers re-checked data accuracy before the census figures were published.",
+   "translation": "เจ้าหน้าที่สองคนตรวจสอบความแม่นยำของข้อมูลซ้ำก่อนเผยแพร่ตัวเลขสำมะโนประชากร"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "reading comprehension",
+  "sense": 0,
+  "old": {
+   "example": "The researchers discussed reading comprehension before deciding how to proceed.",
+   "translation": "นักวิจัยได้หารือเกี่ยวกับการอ่านจับใจความก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Daily reading comprehension practice raised the class average by eight points.",
+   "translation": "การฝึกอ่านจับใจความทุกวันทำให้คะแนนเฉลี่ยของชั้นเรียนสูงขึ้นแปดคะแนน"
+  },
+  "spec": "content/vocab_examples_v43_b.json"
+ },
+ {
+  "w": "absence",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed absences after the announcement.",
+   "translation": "ชุมชนพูดถึงการขาดเรียนหลังการประกาศ"
+  },
+  "new": {
+   "example": "Repeated absence from morning classes lowered his final grade.",
+   "translation": "การขาดเรียนคาบเช้าบ่อยครั้งทำให้คะแนนปลายภาคของเขาลดลง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "accessible route",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about accessible routes.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับเส้นทางที่เข้าถึงได้"
+  },
+  "new": {
+   "example": "The map marks an accessible route from the station to the clinic.",
+   "translation": "แผนที่ระบุเส้นทางที่เข้าถึงได้จากสถานีไปยังคลินิก"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "accumulation",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted accumulations as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการสะสมเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The accumulation of silt behind the dam reduced its storage capacity.",
+   "translation": "การสะสมของตะกอนดินหลังเขื่อนทำให้ความจุเก็บกักน้ำลดลง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "acquisition",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about acquisitions before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการได้มาก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Second-language acquisition speeds up when learners speak every day.",
+   "translation": "การได้มาซึ่งภาษาที่สองรวดเร็วขึ้นเมื่อผู้เรียนได้พูดทุกวัน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "adaptation",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with adaptations.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการปรับตัว"
+  },
+  "new": {
+   "example": "Crop adaptation to salty soil takes many growing seasons.",
+   "translation": "การปรับตัวของพืชต่อดินเค็มต้องใช้เวลาหลายฤดูเพาะปลูก"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "addiction",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to addictions.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการเสพติด"
+  },
+  "new": {
+   "example": "Doctors warn that smartphone addiction disrupts sleep in teenagers.",
+   "translation": "แพทย์เตือนว่าการเสพติดสมาร์ตโฟนรบกวนการนอนของวัยรุ่น"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "admission",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with admissions.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการรับเข้า"
+  },
+  "new": {
+   "example": "Admission to the programme requires two reference letters.",
+   "translation": "การรับเข้าเรียนในหลักสูตรนี้ต้องใช้จดหมายรับรองสองฉบับ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "adversity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted adversity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความยากลำบากเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "She stayed cheerful in the face of adversity all winter.",
+   "translation": "เธอยังคงร่าเริงแม้ต้องเผชิญความยากลำบากตลอดฤดูหนาว"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "advertisement",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about advertisements before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับโฆษณาก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The advertisement promised free delivery but charged a handling fee.",
+   "translation": "โฆษณาสัญญาว่าส่งฟรีแต่กลับคิดค่าบริการจัดการสินค้า"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "advice",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed advice after the announcement.",
+   "translation": "ชุมชนพูดถึงคำแนะนำหลังการประกาศ"
+  },
+  "new": {
+   "example": "His advice about saving early changed how she spends.",
+   "translation": "คำแนะนำของเขาเรื่องการออมตั้งแต่อายุยังน้อยเปลี่ยนวิธีใช้เงินของเธอ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "adviser",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about advisers before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับที่ปรึกษาก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A careers adviser helped him compare two job offers.",
+   "translation": "ที่ปรึกษาด้านอาชีพช่วยเขาเปรียบเทียบข้อเสนองานสองฉบับ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "advocacy",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about advocacy.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการสนับสนุนแนวคิด/สิทธิ"
+  },
+  "new": {
+   "example": "Her advocacy for clean water reached the provincial assembly.",
+   "translation": "การสนับสนุนแนวคิดเรื่องน้ำสะอาดของเธอไปถึงสภาจังหวัด"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "advocate",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about advocates.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับผู้สนับสนุน"
+  },
+  "new": {
+   "example": "He is a leading advocate of free school meals.",
+   "translation": "เขาเป็นผู้สนับสนุนชั้นนำเรื่องอาหารกลางวันฟรีในโรงเรียน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "affection",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of affection across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความรักใคร่ระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The dog shows affection by leaning against her leg.",
+   "translation": "สุนัขแสดงความรักใคร่ด้วยการพิงขาของเธอ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "aftershock",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed aftershocks after the announcement.",
+   "translation": "ชุมชนพูดถึงอาฟเตอร์ช็อกหลังการประกาศ"
+  },
+  "new": {
+   "example": "Residents slept outside after the strongest aftershock.",
+   "translation": "ชาวบ้านนอนนอกบ้านหลังเกิดอาฟเตอร์ช็อกรุนแรงที่สุด"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "aggression",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of aggression across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความก้าวร้าวระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Coaching reduced verbal aggression on the youth football pitch.",
+   "translation": "การอบรมผู้ฝึกช่วยลดความก้าวร้าวทางคำพูดในสนามฟุตบอลเยาวชน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "agreement",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed agreements after the announcement.",
+   "translation": "ชุมชนพูดถึงข้อตกลงหลังการประกาศ"
+  },
+  "new": {
+   "example": "Both sides signed the agreement after nine months of talks.",
+   "translation": "ทั้งสองฝ่ายลงนามในข้อตกลงหลังการเจรจานานเก้าเดือน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "algorithm",
+  "sense": 0,
+  "old": {
+   "example": "The algorithm affected the team’s final decision.",
+   "translation": "ขั้นตอนวิธีมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The recommendation algorithm keeps suggesting the same three videos.",
+   "translation": "อัลกอริทึมแนะนำเนื้อหายังคงเสนอวิดีโอสามรายการเดิมซ้ำ ๆ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "algorithmic bias",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to algorithmic biases.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับอคติของอัลกอริทึม"
+  },
+  "new": {
+   "example": "Auditors tested the hiring tool for algorithmic bias against older applicants.",
+   "translation": "ผู้ตรวจสอบทดสอบเครื่องมือคัดสรรบุคลากรเพื่อดูอคติของอัลกอริทึมต่อผู้สมัครสูงวัย"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "allergen",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to allergens.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับสารก่อภูมิแพ้"
+  },
+  "new": {
+   "example": "Every packet must list each allergen in bold type.",
+   "translation": "ทุกซองต้องระบุสารก่อภูมิแพ้แต่ละชนิดด้วยตัวพิมพ์หนา"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "allergy",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about allergies to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับอาการแพ้แก่นักเรียน"
+  },
+  "new": {
+   "example": "A peanut allergy can make the whole canteen menu risky.",
+   "translation": "อาการแพ้ถั่วลิสงทำให้เมนูทั้งโรงอาหารมีความเสี่ยง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "allocation",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted allocations as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการจัดสรรเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The allocation of canal water between farms caused a long dispute.",
+   "translation": "การจัดสรรน้ำจากคลองระหว่างพื้นที่เพาะปลูกก่อให้เกิดข้อพิพาทยาวนาน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "alternative",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about alternatives to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับทางเลือกแก่นักเรียน"
+  },
+  "new": {
+   "example": "Buses are the only realistic alternative to a car here.",
+   "translation": "รถประจำทางคือทางเลือกที่สมจริงเพียงอย่างเดียวแทนรถยนต์ที่นี่"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "ambition",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with ambitions.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับความทะเยอทะยาน"
+  },
+  "new": {
+   "example": "Her ambition to run a clinic kept her studying at night.",
+   "translation": "ความทะเยอทะยานที่จะเปิดคลินิกทำให้เธอเรียนต่อในเวลากลางคืน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "amendment",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with amendments.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการแก้ไขเพิ่มเติม"
+  },
+  "new": {
+   "example": "Parliament passed the amendment with a two-thirds majority.",
+   "translation": "รัฐสภาผ่านการแก้ไขเพิ่มเติมด้วยเสียงข้างมากสองในสาม"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "amenity",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about amenities before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับสิ่งอำนวยความสะดวกก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The listing mentions every amenity, from the pool to the laundry.",
+   "translation": "ประกาศขายระบุสิ่งอำนวยความสะดวกทุกจุด ตั้งแต่สระว่ายน้ำถึงห้องซักผ้า"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "amphibian",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of amphibians across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของสัตว์สะเทินน้ำสะเทินบกระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Each amphibian in the survey was weighed and released.",
+   "translation": "สัตว์สะเทินน้ำสะเทินบกแต่ละตัวในการสำรวจถูกชั่งน้ำหนักแล้วปล่อยคืนสู่ธรรมชาติ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "analysis",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with analyses.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการวิเคราะห์"
+  },
+  "new": {
+   "example": "Her analysis of the survey explained why sales fell in March.",
+   "translation": "การวิเคราะห์แบบสำรวจของเธออธิบายได้ว่าทำไมยอดขายลดลงในเดือนมีนาคม"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "anecdote",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about anecdotes to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับเรื่องเล่าจากประสบการณ์แก่นักเรียน"
+  },
+  "new": {
+   "example": "He opened the lecture with an anecdote about a broken pump.",
+   "translation": "เขาเปิดการบรรยายด้วยเรื่องเล่าจากประสบการณ์เกี่ยวกับเครื่องสูบน้ำที่เสีย"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "anomaly",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about anomalies before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับสิ่งผิดปกติก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The accountant flagged an anomaly in the March invoices.",
+   "translation": "นักบัญชีพบสิ่งผิดปกติในใบแจ้งหนี้เดือนมีนาคม"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "antibiotic",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about antibiotics before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับยาปฏิชีวนะก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Doctors prescribe an antibiotic only when bacteria are the cause.",
+   "translation": "แพทย์สั่งยาปฏิชีวนะเฉพาะเมื่อมีแบคทีเรียเป็นสาเหตุ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "antibody",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed antibodies after the announcement.",
+   "translation": "ชุมชนพูดถึงแอนติบอดีหลังการประกาศ"
+  },
+  "new": {
+   "example": "The test measures antibody levels six weeks after infection.",
+   "translation": "การตรวจวัดระดับแอนติบอดีหลังการติดเชื้อหกสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "anticipation",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed anticipation after the announcement.",
+   "translation": "ชุมชนพูดถึงการคาดการณ์หลังการประกาศ"
+  },
+  "new": {
+   "example": "Anticipation of heavy rain pushed up sales of sandbags.",
+   "translation": "การคาดการณ์ว่าจะมีฝนหนักดันยอดขายกระสอบทรายสูงขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "applicant",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about applicants to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับผู้สมัครแก่นักเรียน"
+  },
+  "new": {
+   "example": "Every applicant receives a decision within three weeks.",
+   "translation": "ผู้สมัครทุกคนได้รับผลการพิจารณาภายในสามสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "artificial intelligence",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted artificial intelligence as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าปัญญาประดิษฐ์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Farmers use artificial intelligence to spot diseased leaves early.",
+   "translation": "เกษตรกรใช้ปัญญาประดิษฐ์ตรวจหาใบพืชที่เป็นโรคตั้งแต่ระยะแรก"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "assertiveness",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about assertiveness.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการแสดงออกอย่างมั่นใจ"
+  },
+  "new": {
+   "example": "The workshop practised assertiveness in refusing extra shifts.",
+   "translation": "การอบรมฝึกการแสดงออกอย่างมั่นใจในการปฏิเสธกะงานที่เพิ่มขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "asset",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted assets as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าสินทรัพย์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The warehouse is the company’s largest asset after the land.",
+   "translation": "คลังสินค้าคือสินทรัพย์ที่ใหญ่ที่สุดของบริษัทรองจากที่ดิน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "attendance",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed attendance after the announcement.",
+   "translation": "ชุมชนพูดถึงการเข้าเรียนหลังการประกาศ"
+  },
+  "new": {
+   "example": "Attendance at the evening class fell during the rainy season.",
+   "translation": "การเข้าเรียนชั้นเรียนภาคค่ำลดลงในช่วงฤดูฝน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "audience",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with audiences.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับผู้ชม"
+  },
+  "new": {
+   "example": "The speaker adjusted her examples for a younger audience.",
+   "translation": "วิทยากรปรับตัวอย่างให้เหมาะกับผู้ชมที่อายุน้อยลง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "authenticity",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with authenticity.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับความแท้จริง"
+  },
+  "new": {
+   "example": "Buyers pay more for certificates that prove authenticity.",
+   "translation": "ผู้ซื้อยอมจ่ายแพงขึ้นเพื่อใบรับรองที่ยืนยันความแท้จริง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "automation",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to automation.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับระบบอัตโนมัติ"
+  },
+  "new": {
+   "example": "Automation in the packing plant cut the night shift by half.",
+   "translation": "ระบบอัตโนมัติในโรงงานบรรจุภัณฑ์ลดกะกลางคืนลงครึ่งหนึ่ง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "backlash",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted backlashes as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่ากระแสต่อต้านอย่างรุนแรงเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The price rise triggered a backlash from long-time subscribers.",
+   "translation": "การขึ้นราคาจุดกระแสต่อต้านอย่างรุนแรงจากสมาชิกที่ใช้บริการมานาน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "bacteria",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about bacteria.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับแบคทีเรีย"
+  },
+  "new": {
+   "example": "Heat kills the bacteria that spoil coconut milk.",
+   "translation": "ความร้อนทำลายแบคทีเรียที่ทำให้น้ำกะทิเสีย"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "baggage claim",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to baggage claims.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับจุดรับกระเป๋า"
+  },
+  "new": {
+   "example": "We met at baggage claim after the flight from Chiang Mai.",
+   "translation": "พวกเรานัดพบกันที่จุดรับกระเป๋าหลังเที่ยวบินจากเชียงใหม่"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "belonging",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with belongings.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับความรู้สึกเป็นส่วนหนึ่ง"
+  },
+  "new": {
+   "example": "Team lunches gave new staff a sense of belonging.",
+   "translation": "มื้อกลางวันร่วมกันในทีมทำให้พนักงานใหม่มีความรู้สึกเป็นส่วนหนึ่ง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "benchmark",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed benchmarks after the announcement.",
+   "translation": "ชุมชนพูดถึงเกณฑ์มาตรฐานหลังการประกาศ"
+  },
+  "new": {
+   "example": "The hospital uses national waiting times as its benchmark.",
+   "translation": "โรงพยาบาลใช้เวลารอคอยระดับชาติเป็นเกณฑ์มาตรฐาน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "benevolence",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed benevolence after the announcement.",
+   "translation": "ชุมชนพูดถึงความเมตตากรุณาหลังการประกาศ"
+  },
+  "new": {
+   "example": "Strangers showed benevolence by paying for her medicine.",
+   "translation": "คนแปลกหน้าแสดงความเมตตากรุณาด้วยการจ่ายค่ายาให้เธอ"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "bibliography",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed bibliographies after the announcement.",
+   "translation": "ชุมชนพูดถึงบรรณานุกรมหลังการประกาศ"
+  },
+  "new": {
+   "example": "Check every bibliography entry against the library catalogue.",
+   "translation": "ตรวจสอบรายการบรรณานุกรมทุกรายการกับฐานข้อมูลห้องสมุด"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "boarding pass",
+  "sense": 0,
+  "old": {
+   "example": "The boarding pass affected the team’s final decision.",
+   "translation": "บัตรขึ้นเครื่องมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Keep the boarding pass on your phone until you leave the gate.",
+   "translation": "เก็บบัตรขึ้นเครื่องไว้ในโทรศัพท์จนกว่าจะออกจากประตูขึ้นเครื่อง"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "border",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to borders.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับพรมแดน"
+  },
+  "new": {
+   "example": "Trucks queue for hours at the border before the market opens.",
+   "translation": "รถบรรทุกรอคิวหลายชั่วโมงที่พรมแดนก่อนตลาดเปิด"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "brand loyalty",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted brand loyalty as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความภักดีต่อแบรนด์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Free refills built strong brand loyalty among students.",
+   "translation": "การเติมเครื่องดื่มฟรีสร้างความภักดีต่อแบรนด์อย่างเข้มแข็งในหมู่นักศึกษา"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "broadband",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with broadband.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับบรอดแบนด์"
+  },
+  "new": {
+   "example": "Village broadband failed during every heavy storm last year.",
+   "translation": "บรอดแบนด์ของหมู่บ้านใช้งานไม่ได้ทุกครั้งที่พายุฝนรุนแรงในปีที่ผ่านมา"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "broadcasting",
+  "sense": 0,
+  "old": {
+   "example": "The broadcasting affected the team’s final decision.",
+   "translation": "การกระจายเสียง/ภาพมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "State broadcasting still reaches listeners without smartphones.",
+   "translation": "การกระจายเสียงและภาพของรัฐยังเข้าถึงผู้ฟังที่ไม่มีสมาร์ตโฟน"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "budget",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about budgets before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับงบประมาณก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The committee cut the travel budget before approving new equipment.",
+   "translation": "คณะกรรมการปรับลดงบประมาณการเดินทางก่อนอนุมัติอุปกรณ์ใหม่"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "bureaucracy",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about bureaucracies to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับระบบราชการแก่นักเรียน"
+  },
+  "new": {
+   "example": "Farmers blamed bureaucracy for the delay in subsidy payments.",
+   "translation": "เกษตรกรโทษระบบราชการที่ทำให้การจ่ายเงินอุดหนุนล่าช้า"
+  },
+  "spec": "content/vocab_examples_v43_c.json"
+ }
+]

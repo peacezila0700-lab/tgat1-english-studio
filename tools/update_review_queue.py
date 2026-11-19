@@ -4,10 +4,22 @@ SRC='qa/v42.0.1-inherited/REVIEW-QUEUE.csv'
 R=list(csv.DictReader(open(SRC,encoding='utf-8-sig')));F=list(R[0].keys())
 T=json.load(open('qa/r3-noun-slot-triage.json'))
 tri={(t['w'],t['old']):t for t in T}
+# Arena round 2 (vocab V2): examples replaced by authored sentences in content/vocab_examples_v43_*.json
+import os
+auth={}
+if os.path.exists('qa/r3-vocab-example-spec.json'):
+    for a in json.load(open('qa/r3-vocab-example-spec.json')):
+        auth.setdefault((a['w'],a['old']['example']),a)
 H=json.load(open('content/headword_triage_r3.json'));pl,un=set(H['plausible']),set(H['uncertain'])
 cnt=collections.Counter()
 for r in R:
     if r['category']=='example-quality':
+        a=auth.get((r['headword'],r['current value']))
+        if a:
+            r['current value']=a['new']['example']
+            r['suggested action']='proofread the authored example + Thai translation'
+            r['status']='round 3 (Arena): example rewritten by hand — authored sentence showing a typical collocation · needs human proofreading'
+            cnt['ex-authored']+=1;continue
         t=tri.get((r['headword'],r['current value']))
         if not t: cnt['ex-unmatched']+=1;continue
         if t['cls']=='definite':

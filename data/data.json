@@ -1445,8 +1445,8 @@
      {
       "pos": "n",
       "meaning": "ผู้สมัคร",
-      "example": "The school provided guidance about applicants to students.",
-      "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับผู้สมัครแก่นักเรียน"
+      "example": "Every applicant receives a decision within three weeks.",
+      "translation": "ผู้สมัครทุกคนได้รับผลการพิจารณาภายในสามสัปดาห์"
      }
     ]
    },
@@ -47445,7 +47445,7 @@
     "The meeting ended abruptly when the alarm rang."
    ],
    "absence": [
-    "The community discussed absences after the announcement."
+    "The register shows his absence on three Mondays in a row."
    ],
    "absent": [
     "Three students were absent from class yesterday."
@@ -47484,7 +47484,7 @@
     "The website is accessible to users with visual impairments."
    ],
    "accessible route": [
-    "The policy addresses concerns about accessible routes."
+    "Wheelchair users asked the council for an accessible route to the library."
    ],
    "accident": [
     "The driver reported the accident to the police."
@@ -47509,7 +47509,7 @@
     "Dust accumulates quickly on shelves that nobody cleans."
    ],
    "accumulation": [
-    "The report highlighted accumulations as an important factor in the discussion."
+    "Snow accumulation on the roof forced the market to close for a day."
    ],
    "accuracy": [
     "The researchers checked the accuracy of the data before publishing the results."
@@ -47530,7 +47530,7 @@
     "Students acquire new vocabulary through regular reading."
    ],
    "acquisition": [
-    "The team collected information about acquisitions before making a decision."
+    "Language acquisition research suggests short daily practice beats one long session."
    ],
    "actually": [
     "The task is actually easier than it looks."
@@ -47545,10 +47545,10 @@
     "An adaptable employee can respond well to changing priorities."
    ],
    "adaptation": [
-    "The company reviewed the risks associated with adaptations."
+    "Adaptation to shift work takes most nurses about three weeks."
    ],
    "addiction": [
-    "The survey measured changes related to addictions."
+    "Family counselling helps people recovering from gambling addiction."
    ],
    "addictive": [
     "Some mobile games are designed to be addictive."
@@ -47575,7 +47575,7 @@
     "I admire people who stay calm in an emergency."
    ],
    "admission": [
-    "The company reviewed the risks associated with admissions."
+    "He gained admission to the nursing school on his second attempt."
    ],
    "admit": [
     "He admitted that he had forgotten to lock the door."
@@ -47596,25 +47596,25 @@
     "The café advertises its weekend discounts on social media."
    ],
    "advertisement": [
-    "The team collected information about advertisements before making a decision."
+    "She recognised the advertisement from a bus shelter near her office."
    ],
    "advertising": [
     "The company spent more money on digital advertising."
    ],
    "advice": [
-    "The community discussed advice after the announcement."
+    "Follow the doctor’s advice about resting for ten days."
    ],
    "advise": [
     "The doctor advised her to drink more water."
    ],
    "adviser": [
-    "The team collected information about advisers before making a decision."
+    "The adviser suggested reviewing the contract before signing it."
    ],
    "advocacy": [
     "The policy addresses concerns about advocacies."
    ],
    "advocate": [
-    "The policy addresses concerns about advocates."
+    "As an advocate for tenants, she attended every council meeting."
    ],
    "aesthetic": [
     "The building's aesthetic design attracts visitors from across the city."
@@ -47644,7 +47644,7 @@
     "In the aftermath of the storm, volunteers helped residents repair their homes."
    ],
    "aftershock": [
-    "The community discussed aftershocks after the announcement."
+    "Engineers inspected the cracked walls after each aftershock."
    ],
    "aggravate": [
     "Loud construction noise can aggravate stress for nearby residents."
@@ -47664,7 +47664,7 @@
     "The report explained how agree when conditions changed."
    ],
    "agreement": [
-    "The community discussed agreements after the announcement."
+    "The two villages reached an agreement about sharing the well."
    ],
    "agricultural": [
     "Rice is the country's most important agricultural product."
@@ -47685,22 +47685,22 @@
     "The plan worked, albeit more slowly than expected."
    ],
    "algorithm": [
-    "The algorithm affected the team’s final decision."
+    "Students traced the sorting algorithm by hand before coding it."
    ],
    "algorithmic bias": [
-    "The survey measured changes related to algorithmic biases."
+    "A public audit found algorithmic bias in the loan approval system."
    ],
    "alike": [
     "The two proposals are alike in their main objectives."
    ],
    "allergen": [
-    "The survey measured changes related to allergens."
+    "The label warns that the sauce contains a common allergen."
    ],
    "allergic": [
     "The patient was allergic to peanuts."
    ],
    "allergy": [
-    "The school provided guidance about allergies to students."
+    "She always carries medicine for her allergy to shellfish."
    ],
    "alleviate": [
     "The extra bus route helped alleviate traffic congestion near the school."
@@ -47709,7 +47709,7 @@
     "The school allocated more money to the library this year."
    ],
    "allocation": [
-    "The report highlighted allocations as an important factor in the discussion."
+    "Managers disputed the allocation of overtime between two teams."
    ],
    "allow": [
     "The updated platform allows students to review their answers immediately."
@@ -47718,7 +47718,7 @@
     "A small change in wording can alter the meaning of a sentence."
    ],
    "alternative": [
-    "The school provided guidance about alternatives to students."
+    "If the train is full, the ferry is a cheaper alternative."
    ],
    "although": [
     "Although the task was difficult, the students completed it on time."
@@ -47730,7 +47730,7 @@
     "The contract contains an ambiguous clause that needs clarification."
    ],
    "ambition": [
-    "The company reviewed the risks associated with ambitions."
+    "His ambition surprised colleagues who thought he preferred fieldwork."
    ],
    "ambitious": [
     "The project has an ambitious goal to reduce waste by half."
@@ -47739,13 +47739,13 @@
     "The committee voted to amend the policy after receiving public feedback."
    ],
    "amendment": [
-    "The company reviewed the risks associated with amendments."
+    "Lawyers drafted the amendment to close a loophole in the rules."
    ],
    "amenity": [
-    "The team collected information about amenities before making a decision."
+    "Residents protested when the pool, the last amenity in the estate, closed."
    ],
    "amphibian": [
-    "The study compared the effects of amphibians across two groups."
+    "The pond supports every amphibian species recorded in the province."
    ],
    "analogous": [
     "The structure of the heart is analogous to a pump."
@@ -47754,7 +47754,7 @@
     "The teacher used an analogy to explain how the system stores information."
    ],
    "analysis": [
-    "The company reviewed the risks associated with analyses."
+    "Their cost analysis showed the repair was cheaper than replacement."
    ],
    "analyst": [
     "The analyst compared the latest figures with last year's results."
@@ -47766,7 +47766,7 @@
     "Scientists analyzed the water samples in the lab."
    ],
    "anecdote": [
-    "The school provided guidance about anecdotes to students."
+    "The trainer’s anecdote about the failed pump made the point memorable."
    ],
    "angry": [
     "Residents were angry about the sudden increase in bus fares."
@@ -47781,7 +47781,7 @@
     "The university holds an annual science fair."
    ],
    "anomaly": [
-    "The team collected information about anomalies before making a decision."
+    "Two readings in the log looked like an anomaly in the sensor."
    ],
    "anonymity": [
     "Online anonymity can protect users, but it may also make abuse harder to trace."
@@ -47790,10 +47790,10 @@
     "The survey is anonymous, so you do not need to write your name."
    ],
    "antibiotic": [
-    "The team collected information about antibiotics before making a decision."
+    "Overuse of every antibiotic in the clinic worried the pharmacist."
    ],
    "antibody": [
-    "The community discussed antibodies after the announcement."
+    "Vaccination trains the body to produce the right antibody quickly."
    ],
    "anticipate": [
     "We did not anticipate so many visitors on the first day."
@@ -47838,7 +47838,7 @@
     "The soup looked appetizing after the chef added fresh herbs."
    ],
    "applicant": [
-    "The school provided guidance about applicants to students."
+    "Recruiters shortlisted the applicant who had worked in a similar clinic."
    ],
    "application": [
     "Her university application was accepted.",
@@ -47911,7 +47911,7 @@
     "Passengers should check the information board after their arrival."
    ],
    "artificial intelligence": [
-    "The report highlighted artificial intelligence as an important factor in the discussion."
+    "The course explains how artificial intelligence handles uncertain data."
    ],
    "as": [
     "The report discussed how as can be used in practice."
@@ -47959,7 +47959,7 @@
     "The assessment criteria explain how each assignment will be marked."
    ],
    "asset": [
-    "The report highlighted assets as an important factor in the discussion."
+    "Selling the old van released cash from a depreciating asset."
    ],
    "assignment": [
     "The teacher gave us a reading assignment for Friday."
@@ -48012,7 +48012,7 @@
     "The study examined why organizations need to attribute the result."
    ],
    "audience": [
-    "The company reviewed the risks associated with audiences."
+    "The playwright thanked the audience for staying through the storm."
    ],
    "augmented reality": [
     "The museum uses augmented reality to show how the old city once looked."
@@ -48062,7 +48062,7 @@
     "The weather was awful, so we stayed at home."
    ],
    "backlash": [
-    "The report highlighted backlashes as an important factor in the discussion."
+    "Online backlash forced the company to withdraw the campaign within hours."
    ],
    "bacteria": [
     "The policy addresses concerns about bacterias."
@@ -48071,7 +48071,7 @@
     "The laboratory confirmed a bacterial infection in the sample."
    ],
    "baggage claim": [
-    "The survey measured changes related to baggage claims."
+    "Signs pointing to baggage claim were missing after the terminal renovation."
    ],
    "balanced diet": [
     "The company reviewed the risks associated with balanced diets."
@@ -48115,10 +48115,10 @@
     "Most scientists believe that the climate is getting warmer."
    ],
    "belonging": [
-    "The company reviewed the risks associated with belongings."
+    "Clubs and study groups strengthen students’ sense of belonging."
    ],
    "benchmark": [
-    "The community discussed benchmarks after the announcement."
+    "Their prices set the benchmark for every shop in the district."
    ],
    "benefactor": [
     "An anonymous benefactor paid for the new school library."
@@ -48144,7 +48144,7 @@
     "The survey was biased because it only asked people in one city."
    ],
    "bibliography": [
-    "The community discussed bibliographies after the announcement."
+    "The examiner checked whether the bibliography matched the citations."
    ],
    "big": [
     "Moving to a new country is a big decision."
@@ -48168,7 +48168,7 @@
     "The soup was bland, so I added some salt."
    ],
    "boarding pass": [
-    "The boarding pass affected the team’s final decision."
+    "Staff reprint a lost boarding pass at the check-in desk."
    ],
    "body image": [
     "The report discussed how body image can be used in practice."
@@ -48187,7 +48187,7 @@
     "Regular practice can boost students' confidence before an examination."
    ],
    "border": [
-    "The survey measured changes related to borders."
+    "Customs officers scan every truck crossing the border at night."
    ],
    "borrower": [
     "The bank checks every borrower's income before approving a loan."
@@ -48216,22 +48216,22 @@
     "The bright student quickly understood the difficult concept."
    ],
    "broadband": [
-    "The company reviewed the risks associated with broadband."
+    "Broadband outages delayed the online submission of exam results."
    ],
    "broadcast": [
     "The final match will be broadcast live on television."
    ],
    "broadcasting": [
-    "The broadcasting affected the team’s final decision."
+    "Commercial broadcasting pays for itself through advertising slots."
    ],
    "budget": [
-    "The team collected information about budgets before making a decision."
+    "The school spent its whole budget on laboratory equipment this year."
    ],
    "burdened": [
     "Many graduates are burdened with student loans."
    ],
    "bureaucracy": [
-    "The school provided guidance about bureaucracies to students."
+    "Small exporters complain that bureaucracy doubles their paperwork."
    ],
    "burnout": [
     "The survey measured changes related to burnouts."

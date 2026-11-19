@@ -87,8 +87,16 @@ def content_checks():
     bad_research = [w for w,s in researchers if (s.get('translation') or '').startswith('ทีมได้หารือเกี่ยวกับ')]
     # v43: was 492; the 56 grid 'domain×noun' pseudo-collocation headwords renamed in v43 had their
     # generic "The researchers discussed X before deciding how to proceed." template examples replaced
-    # with natural collocation sentences, so exactly 56 fewer of these template rows remain (492-56=436).
-    check('Round 2: all 436 researchers translations name researcher(s), not team', len(researchers)==436 and not bad_research, f'{len(researchers)} rows; {len(bad_research)} still wrong')
+    # with natural collocation sentences (492-56=436). v43 Arena round 2 (vocab V2) keeps replacing these
+    # templates with authored examples, so the expected count is derived from qa/r3-vocab-example-spec.json.
+    _spec = APP.parent / 'qa' / 'r3-vocab-example-spec.json'
+    _authored = 0
+    if _spec.exists():
+        _authored = sum(1 for a in json.loads(_spec.read_text(encoding='utf-8'))
+                        if re.match(r'The researchers discussed .+ before deciding how to proceed\.',
+                                    ((a.get('old') or {}).get('example') or ''), re.I))
+    _expect = 436 - _authored
+    check(f'Round 2: all {_expect} remaining researchers translations name researcher(s), not team', len(researchers)==_expect and not bad_research, f'{len(researchers)} rows (expected {_expect}); {len(bad_research)} still wrong')
     glued = [w['w'] for w,s in rows if re.search(r'[ก-๙](?:the plan|the first option|the customer|the request)',s.get('translation') or '')]
     check('Round 2: no four confirmed glued Thai-English translations remain', not glued, ', '.join(glued[:5]))
     meta_round2 = [w['w'] for w,s in rows if re.search(r'“(?:additionally|inspect|unfortunately|online|data|likely|crowded)” (?:adds information|describes a feature)',s.get('example') or '')]

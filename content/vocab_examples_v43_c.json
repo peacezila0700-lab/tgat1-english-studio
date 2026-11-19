@@ -1,0 +1,375 @@
+[
+ {
+  "w": "absence",
+  "sense": 0,
+  "example": "Repeated absence from morning classes lowered his final grade.",
+  "translation": "การขาดเรียนคาบเช้าบ่อยครั้งทำให้คะแนนปลายภาคของเขาลดลง",
+  "example2": "The register shows his absence on three Mondays in a row."
+ },
+ {
+  "w": "accessible route",
+  "sense": 0,
+  "example": "The map marks an accessible route from the station to the clinic.",
+  "translation": "แผนที่ระบุเส้นทางที่เข้าถึงได้จากสถานีไปยังคลินิก",
+  "example2": "Wheelchair users asked the council for an accessible route to the library."
+ },
+ {
+  "w": "accumulation",
+  "sense": 0,
+  "example": "The accumulation of silt behind the dam reduced its storage capacity.",
+  "translation": "การสะสมของตะกอนดินหลังเขื่อนทำให้ความจุเก็บกักน้ำลดลง",
+  "example2": "Snow accumulation on the roof forced the market to close for a day."
+ },
+ {
+  "w": "acquisition",
+  "sense": 0,
+  "example": "Second-language acquisition speeds up when learners speak every day.",
+  "translation": "การได้มาซึ่งภาษาที่สองรวดเร็วขึ้นเมื่อผู้เรียนได้พูดทุกวัน",
+  "example2": "Language acquisition research suggests short daily practice beats one long session."
+ },
+ {
+  "w": "adaptation",
+  "sense": 0,
+  "example": "Crop adaptation to salty soil takes many growing seasons.",
+  "translation": "การปรับตัวของพืชต่อดินเค็มต้องใช้เวลาหลายฤดูเพาะปลูก",
+  "example2": "Adaptation to shift work takes most nurses about three weeks."
+ },
+ {
+  "w": "addiction",
+  "sense": 0,
+  "example": "Doctors warn that smartphone addiction disrupts sleep in teenagers.",
+  "translation": "แพทย์เตือนว่าการเสพติดสมาร์ตโฟนรบกวนการนอนของวัยรุ่น",
+  "example2": "Family counselling helps people recovering from gambling addiction."
+ },
+ {
+  "w": "admission",
+  "sense": 0,
+  "example": "Admission to the programme requires two reference letters.",
+  "translation": "การรับเข้าเรียนในหลักสูตรนี้ต้องใช้จดหมายรับรองสองฉบับ",
+  "example2": "He gained admission to the nursing school on his second attempt."
+ },
+ {
+  "w": "adversity",
+  "sense": 0,
+  "example": "She stayed cheerful in the face of adversity all winter.",
+  "translation": "เธอยังคงร่าเริงแม้ต้องเผชิญความยากลำบากตลอดฤดูหนาว"
+ },
+ {
+  "w": "advertisement",
+  "sense": 0,
+  "example": "The advertisement promised free delivery but charged a handling fee.",
+  "translation": "โฆษณาสัญญาว่าส่งฟรีแต่กลับคิดค่าบริการจัดการสินค้า",
+  "example2": "She recognised the advertisement from a bus shelter near her office."
+ },
+ {
+  "w": "advice",
+  "sense": 0,
+  "example": "His advice about saving early changed how she spends.",
+  "translation": "คำแนะนำของเขาเรื่องการออมตั้งแต่อายุยังน้อยเปลี่ยนวิธีใช้เงินของเธอ",
+  "example2": "Follow the doctor’s advice about resting for ten days."
+ },
+ {
+  "w": "adviser",
+  "sense": 0,
+  "example": "A careers adviser helped him compare two job offers.",
+  "translation": "ที่ปรึกษาด้านอาชีพช่วยเขาเปรียบเทียบข้อเสนองานสองฉบับ",
+  "example2": "The adviser suggested reviewing the contract before signing it."
+ },
+ {
+  "w": "advocacy",
+  "sense": 0,
+  "example": "Her advocacy for clean water reached the provincial assembly.",
+  "translation": "การสนับสนุนแนวคิดเรื่องน้ำสะอาดของเธอไปถึงสภาจังหวัด"
+ },
+ {
+  "w": "advocate",
+  "sense": 0,
+  "example": "He is a leading advocate of free school meals.",
+  "translation": "เขาเป็นผู้สนับสนุนชั้นนำเรื่องอาหารกลางวันฟรีในโรงเรียน",
+  "example2": "As an advocate for tenants, she attended every council meeting."
+ },
+ {
+  "w": "affection",
+  "sense": 0,
+  "example": "The dog shows affection by leaning against her leg.",
+  "translation": "สุนัขแสดงความรักใคร่ด้วยการพิงขาของเธอ"
+ },
+ {
+  "w": "aftershock",
+  "sense": 0,
+  "example": "Residents slept outside after the strongest aftershock.",
+  "translation": "ชาวบ้านนอนนอกบ้านหลังเกิดอาฟเตอร์ช็อกรุนแรงที่สุด",
+  "example2": "Engineers inspected the cracked walls after each aftershock."
+ },
+ {
+  "w": "aggression",
+  "sense": 0,
+  "example": "Coaching reduced verbal aggression on the youth football pitch.",
+  "translation": "การอบรมผู้ฝึกช่วยลดความก้าวร้าวทางคำพูดในสนามฟุตบอลเยาวชน"
+ },
+ {
+  "w": "agreement",
+  "sense": 0,
+  "example": "Both sides signed the agreement after nine months of talks.",
+  "translation": "ทั้งสองฝ่ายลงนามในข้อตกลงหลังการเจรจานานเก้าเดือน",
+  "example2": "The two villages reached an agreement about sharing the well."
+ },
+ {
+  "w": "algorithm",
+  "sense": 0,
+  "example": "The recommendation algorithm keeps suggesting the same three videos.",
+  "translation": "อัลกอริทึมแนะนำเนื้อหายังคงเสนอวิดีโอสามรายการเดิมซ้ำ ๆ",
+  "example2": "Students traced the sorting algorithm by hand before coding it."
+ },
+ {
+  "w": "algorithmic bias",
+  "sense": 0,
+  "example": "Auditors tested the hiring tool for algorithmic bias against older applicants.",
+  "translation": "ผู้ตรวจสอบทดสอบเครื่องมือคัดสรรบุคลากรเพื่อดูอคติของอัลกอริทึมต่อผู้สมัครสูงวัย",
+  "example2": "A public audit found algorithmic bias in the loan approval system."
+ },
+ {
+  "w": "allergen",
+  "sense": 0,
+  "example": "Every packet must list each allergen in bold type.",
+  "translation": "ทุกซองต้องระบุสารก่อภูมิแพ้แต่ละชนิดด้วยตัวพิมพ์หนา",
+  "example2": "The label warns that the sauce contains a common allergen."
+ },
+ {
+  "w": "allergy",
+  "sense": 0,
+  "example": "A peanut allergy can make the whole canteen menu risky.",
+  "translation": "อาการแพ้ถั่วลิสงทำให้เมนูทั้งโรงอาหารมีความเสี่ยง",
+  "example2": "She always carries medicine for her allergy to shellfish."
+ },
+ {
+  "w": "allocation",
+  "sense": 0,
+  "example": "The allocation of canal water between farms caused a long dispute.",
+  "translation": "การจัดสรรน้ำจากคลองระหว่างพื้นที่เพาะปลูกก่อให้เกิดข้อพิพาทยาวนาน",
+  "example2": "Managers disputed the allocation of overtime between two teams."
+ },
+ {
+  "w": "alternative",
+  "sense": 0,
+  "example": "Buses are the only realistic alternative to a car here.",
+  "translation": "รถประจำทางคือทางเลือกที่สมจริงเพียงอย่างเดียวแทนรถยนต์ที่นี่",
+  "example2": "If the train is full, the ferry is a cheaper alternative."
+ },
+ {
+  "w": "ambition",
+  "sense": 0,
+  "example": "Her ambition to run a clinic kept her studying at night.",
+  "translation": "ความทะเยอทะยานที่จะเปิดคลินิกทำให้เธอเรียนต่อในเวลากลางคืน",
+  "example2": "His ambition surprised colleagues who thought he preferred fieldwork."
+ },
+ {
+  "w": "amendment",
+  "sense": 0,
+  "example": "Parliament passed the amendment with a two-thirds majority.",
+  "translation": "รัฐสภาผ่านการแก้ไขเพิ่มเติมด้วยเสียงข้างมากสองในสาม",
+  "example2": "Lawyers drafted the amendment to close a loophole in the rules."
+ },
+ {
+  "w": "amenity",
+  "sense": 0,
+  "example": "The listing mentions every amenity, from the pool to the laundry.",
+  "translation": "ประกาศขายระบุสิ่งอำนวยความสะดวกทุกจุด ตั้งแต่สระว่ายน้ำถึงห้องซักผ้า",
+  "example2": "Residents protested when the pool, the last amenity in the estate, closed."
+ },
+ {
+  "w": "amphibian",
+  "sense": 0,
+  "example": "Each amphibian in the survey was weighed and released.",
+  "translation": "สัตว์สะเทินน้ำสะเทินบกแต่ละตัวในการสำรวจถูกชั่งน้ำหนักแล้วปล่อยคืนสู่ธรรมชาติ",
+  "example2": "The pond supports every amphibian species recorded in the province."
+ },
+ {
+  "w": "analysis",
+  "sense": 0,
+  "example": "Her analysis of the survey explained why sales fell in March.",
+  "translation": "การวิเคราะห์แบบสำรวจของเธออธิบายได้ว่าทำไมยอดขายลดลงในเดือนมีนาคม",
+  "example2": "Their cost analysis showed the repair was cheaper than replacement."
+ },
+ {
+  "w": "anecdote",
+  "sense": 0,
+  "example": "He opened the lecture with an anecdote about a broken pump.",
+  "translation": "เขาเปิดการบรรยายด้วยเรื่องเล่าจากประสบการณ์เกี่ยวกับเครื่องสูบน้ำที่เสีย",
+  "example2": "The trainer’s anecdote about the failed pump made the point memorable."
+ },
+ {
+  "w": "anomaly",
+  "sense": 0,
+  "example": "The accountant flagged an anomaly in the March invoices.",
+  "translation": "นักบัญชีพบสิ่งผิดปกติในใบแจ้งหนี้เดือนมีนาคม",
+  "example2": "Two readings in the log looked like an anomaly in the sensor."
+ },
+ {
+  "w": "antibiotic",
+  "sense": 0,
+  "example": "Doctors prescribe an antibiotic only when bacteria are the cause.",
+  "translation": "แพทย์สั่งยาปฏิชีวนะเฉพาะเมื่อมีแบคทีเรียเป็นสาเหตุ",
+  "example2": "Overuse of every antibiotic in the clinic worried the pharmacist."
+ },
+ {
+  "w": "antibody",
+  "sense": 0,
+  "example": "The test measures antibody levels six weeks after infection.",
+  "translation": "การตรวจวัดระดับแอนติบอดีหลังการติดเชื้อหกสัปดาห์",
+  "example2": "Vaccination trains the body to produce the right antibody quickly."
+ },
+ {
+  "w": "anticipation",
+  "sense": 0,
+  "example": "Anticipation of heavy rain pushed up sales of sandbags.",
+  "translation": "การคาดการณ์ว่าจะมีฝนหนักดันยอดขายกระสอบทรายสูงขึ้น"
+ },
+ {
+  "w": "applicant",
+  "sense": 0,
+  "example": "Every applicant receives a decision within three weeks.",
+  "translation": "ผู้สมัครทุกคนได้รับผลการพิจารณาภายในสามสัปดาห์",
+  "example2": "Recruiters shortlisted the applicant who had worked in a similar clinic."
+ },
+ {
+  "w": "artificial intelligence",
+  "sense": 0,
+  "example": "Farmers use artificial intelligence to spot diseased leaves early.",
+  "translation": "เกษตรกรใช้ปัญญาประดิษฐ์ตรวจหาใบพืชที่เป็นโรคตั้งแต่ระยะแรก",
+  "example2": "The course explains how artificial intelligence handles uncertain data."
+ },
+ {
+  "w": "assertiveness",
+  "sense": 0,
+  "example": "The workshop practised assertiveness in refusing extra shifts.",
+  "translation": "การอบรมฝึกการแสดงออกอย่างมั่นใจในการปฏิเสธกะงานที่เพิ่มขึ้น"
+ },
+ {
+  "w": "asset",
+  "sense": 0,
+  "example": "The warehouse is the company’s largest asset after the land.",
+  "translation": "คลังสินค้าคือสินทรัพย์ที่ใหญ่ที่สุดของบริษัทรองจากที่ดิน",
+  "example2": "Selling the old van released cash from a depreciating asset."
+ },
+ {
+  "w": "attendance",
+  "sense": 0,
+  "example": "Attendance at the evening class fell during the rainy season.",
+  "translation": "การเข้าเรียนชั้นเรียนภาคค่ำลดลงในช่วงฤดูฝน"
+ },
+ {
+  "w": "audience",
+  "sense": 0,
+  "example": "The speaker adjusted her examples for a younger audience.",
+  "translation": "วิทยากรปรับตัวอย่างให้เหมาะกับผู้ชมที่อายุน้อยลง",
+  "example2": "The playwright thanked the audience for staying through the storm."
+ },
+ {
+  "w": "authenticity",
+  "sense": 0,
+  "example": "Buyers pay more for certificates that prove authenticity.",
+  "translation": "ผู้ซื้อยอมจ่ายแพงขึ้นเพื่อใบรับรองที่ยืนยันความแท้จริง"
+ },
+ {
+  "w": "automation",
+  "sense": 0,
+  "example": "Automation in the packing plant cut the night shift by half.",
+  "translation": "ระบบอัตโนมัติในโรงงานบรรจุภัณฑ์ลดกะกลางคืนลงครึ่งหนึ่ง"
+ },
+ {
+  "w": "backlash",
+  "sense": 0,
+  "example": "The price rise triggered a backlash from long-time subscribers.",
+  "translation": "การขึ้นราคาจุดกระแสต่อต้านอย่างรุนแรงจากสมาชิกที่ใช้บริการมานาน",
+  "example2": "Online backlash forced the company to withdraw the campaign within hours."
+ },
+ {
+  "w": "bacteria",
+  "sense": 0,
+  "example": "Heat kills the bacteria that spoil coconut milk.",
+  "translation": "ความร้อนทำลายแบคทีเรียที่ทำให้น้ำกะทิเสีย"
+ },
+ {
+  "w": "baggage claim",
+  "sense": 0,
+  "example": "We met at baggage claim after the flight from Chiang Mai.",
+  "translation": "พวกเรานัดพบกันที่จุดรับกระเป๋าหลังเที่ยวบินจากเชียงใหม่",
+  "example2": "Signs pointing to baggage claim were missing after the terminal renovation."
+ },
+ {
+  "w": "belonging",
+  "sense": 0,
+  "example": "Team lunches gave new staff a sense of belonging.",
+  "translation": "มื้อกลางวันร่วมกันในทีมทำให้พนักงานใหม่มีความรู้สึกเป็นส่วนหนึ่ง",
+  "example2": "Clubs and study groups strengthen students’ sense of belonging."
+ },
+ {
+  "w": "benchmark",
+  "sense": 0,
+  "example": "The hospital uses national waiting times as its benchmark.",
+  "translation": "โรงพยาบาลใช้เวลารอคอยระดับชาติเป็นเกณฑ์มาตรฐาน",
+  "example2": "Their prices set the benchmark for every shop in the district."
+ },
+ {
+  "w": "benevolence",
+  "sense": 0,
+  "example": "Strangers showed benevolence by paying for her medicine.",
+  "translation": "คนแปลกหน้าแสดงความเมตตากรุณาด้วยการจ่ายค่ายาให้เธอ"
+ },
+ {
+  "w": "bibliography",
+  "sense": 0,
+  "example": "Check every bibliography entry against the library catalogue.",
+  "translation": "ตรวจสอบรายการบรรณานุกรมทุกรายการกับฐานข้อมูลห้องสมุด",
+  "example2": "The examiner checked whether the bibliography matched the citations."
+ },
+ {
+  "w": "boarding pass",
+  "sense": 0,
+  "example": "Keep the boarding pass on your phone until you leave the gate.",
+  "translation": "เก็บบัตรขึ้นเครื่องไว้ในโทรศัพท์จนกว่าจะออกจากประตูขึ้นเครื่อง",
+  "example2": "Staff reprint a lost boarding pass at the check-in desk."
+ },
+ {
+  "w": "border",
+  "sense": 0,
+  "example": "Trucks queue for hours at the border before the market opens.",
+  "translation": "รถบรรทุกรอคิวหลายชั่วโมงที่พรมแดนก่อนตลาดเปิด",
+  "example2": "Customs officers scan every truck crossing the border at night."
+ },
+ {
+  "w": "brand loyalty",
+  "sense": 0,
+  "example": "Free refills built strong brand loyalty among students.",
+  "translation": "การเติมเครื่องดื่มฟรีสร้างความภักดีต่อแบรนด์อย่างเข้มแข็งในหมู่นักศึกษา"
+ },
+ {
+  "w": "broadband",
+  "sense": 0,
+  "example": "Village broadband failed during every heavy storm last year.",
+  "translation": "บรอดแบนด์ของหมู่บ้านใช้งานไม่ได้ทุกครั้งที่พายุฝนรุนแรงในปีที่ผ่านมา",
+  "example2": "Broadband outages delayed the online submission of exam results."
+ },
+ {
+  "w": "broadcasting",
+  "sense": 0,
+  "example": "State broadcasting still reaches listeners without smartphones.",
+  "translation": "การกระจายเสียงและภาพของรัฐยังเข้าถึงผู้ฟังที่ไม่มีสมาร์ตโฟน",
+  "example2": "Commercial broadcasting pays for itself through advertising slots."
+ },
+ {
+  "w": "budget",
+  "sense": 0,
+  "example": "The committee cut the travel budget before approving new equipment.",
+  "translation": "คณะกรรมการปรับลดงบประมาณการเดินทางก่อนอนุมัติอุปกรณ์ใหม่",
+  "example2": "The school spent its whole budget on laboratory equipment this year."
+ },
+ {
+  "w": "bureaucracy",
+  "sense": 0,
+  "example": "Farmers blamed bureaucracy for the delay in subsidy payments.",
+  "translation": "เกษตรกรโทษระบบราชการที่ทำให้การจ่ายเงินอุดหนุนล่าช้า",
+  "example2": "Small exporters complain that bureaucracy doubles their paperwork."
+ }
+]
