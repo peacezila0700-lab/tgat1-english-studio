@@ -8097,5 +8097,720 @@
    "translation": "ระเบียบวิธีวิจัยของการศึกษาถูกทบทวนก่อนเก็บข้อมูลใดๆ"
   },
   "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "peer review",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted peer reviews as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการประเมินโดยผู้เชี่ยวชาญ/เพื่อนร่วมงานเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The paper passed peer review before the journal published it.",
+   "translation": "บทความผ่านการประเมินโดยผู้เชี่ยวชาญ/เพื่อนร่วมงานก่อนที่วารสารจะตีพิมพ์"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "periphery",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with peripheries.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับบริเวณรอบนอก"
+  },
+  "new": {
+   "example": "The market on the periphery of the city sells local fruit.",
+   "translation": "ตลาดบริเวณรอบนอกของเมืองขายผลไม้ท้องถิ่น"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "persistence",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted persistence as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความพากเพียรเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Her persistence turned a lost bid into a winning project.",
+   "translation": "ความพากเพียรของเธอเปลี่ยนการเสนอราคาที่พ่ายแพ้ให้กลายเป็นโครงการที่ชนะ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "persuasiveness",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to persuasiveness.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับพลังในการโน้มน้าว"
+  },
+  "new": {
+   "example": "The persuasiveness of his speech won over the doubtful voters.",
+   "translation": "พลังในการโน้มน้าวของคำพูดของเขาชนะผู้มีสิทธิ์เลือกตั้งที่ลังเล"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "pessimism",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about pessimism to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการมองโลกในแง่ร้ายแก่นักเรียน"
+  },
+  "new": {
+   "example": "Pessimism about the market faded after the steady growth.",
+   "translation": "การมองโลกในแง่ร้ายเกี่ยวกับตลาดจางหายไปหลังจากการเติบโตที่มั่นคง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "pharmacist",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about pharmacists to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับเภสัชกรแก่นักเรียน"
+  },
+  "new": {
+   "example": "The pharmacist checked the prescription before handing over the drug.",
+   "translation": "เภสัชกรตรวจสอบใบสั่งยาก่อนมอบยา"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "pharmacy",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted pharmacies as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าร้านขายยาเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The pharmacy at the corner opens early for the shift workers.",
+   "translation": "ร้านขายยาที่มุมถนนเปิดเช้าสำหรับคนทำงานเป็นกะ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "phenomena",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about phenomena to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับปรากฏการณ์ (พหูพจน์)แก่นักเรียน"
+  },
+  "new": {
+   "example": "The weather phenomena of this season were unusual across the coast.",
+   "translation": "ปรากฏการณ์ทางสภาพอากาศของฤดูกาลนี้ผิดปกติตลอดแนวชายฝั่ง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "phenomenon",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to phenomena.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับปรากฏการณ์"
+  },
+  "new": {
+   "example": "The glow in the bay is a natural phenomenon of summer nights.",
+   "translation": "แสงสว่างในอ่าวเป็นปรากฏการณ์ธรรมชาติของคืนฤดูร้อน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "physician",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted physicians as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าแพทย์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The physician on duty examined the patient within ten minutes.",
+   "translation": "แพทย์ประจำเวรตรวจผู้ป่วยภายในสิบนาที"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "placebo",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about placebos to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับยาหลอกแก่นักเรียน"
+  },
+  "new": {
+   "example": "The trial used a placebo so no one knew the real treatment.",
+   "translation": "การทดลองใช้ยาหลอกเพื่อให้ไม่มีใครรู้การรักษาจริง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "platform",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about platforms.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับชานชาลา"
+  },
+  "new": {
+   "example": "The wooden platform by the river gives a clear view of the boats.",
+   "translation": "ชานชาลาไม้ติดแม่น้ำให้มุมมองเรือที่ชัดเจน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "policyholder",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of policyholders across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของผู้ถือกรมธรรม์ระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The policyholder received the claim within a week of filing.",
+   "translation": "ผู้ถือกรมธรรม์ได้รับเงินสินไหมภายในหนึ่งสัปดาห์หลังจากยื่นเรื่อง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "pollutant",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to pollutants.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับสารมลพิษ"
+  },
+  "new": {
+   "example": "The factory pledged to cut every pollutant from its stacks.",
+   "translation": "โรงงานให้คำมั่นว่าจะลดสารมลพิษทุกชนิดจากปล่อง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "portion",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted portions as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าปริมาณอาหารต่อหนึ่งคนเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The portion of rice on the plate satisfied every hungry guest.",
+   "translation": "ปริมาณอาหารต่อหนึ่งคนบนจานทำให้แขกที่หิวทุกคนพอใจ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "postgraduate",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about postgraduates.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับนักศึกษาบัณฑิตศึกษา"
+  },
+  "new": {
+   "example": "The postgraduate student published two papers in her first year.",
+   "translation": "นักศึกษาบัณฑิตศึกษาตีพิมพ์บทความสองชิ้นในปีแรก"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "poverty rate",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about poverty rates before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับอัตราความยากจนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The poverty rate in the district fell for the third year.",
+   "translation": "อัตราความยากจนในเขตลดลงเป็นปีที่สาม"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "precaution",
+  "sense": 0,
+  "old": {
+   "example": "The precaution affected the team’s final decision.",
+   "translation": "มาตรการป้องกันมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The climbers took the usual precaution before the dawn ascent.",
+   "translation": "นักปีนเขาใช้มาตรการป้องกันตามปกติก่อนการปีนขึ้นตอนรุ่งอรุณ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "predator",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed predators after the announcement.",
+   "translation": "ชุมชนพูดถึงสัตว์นักล่าหลังการประกาศ"
+  },
+  "new": {
+   "example": "The eagle is a predator that hunts over the open fields.",
+   "translation": "นกอินทรีเป็นสัตว์นักล่าที่ล่าเหนือทุ่งโล่ง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prediction",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about predictions to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการคาดการณ์แก่นักเรียน"
+  },
+  "new": {
+   "example": "The prediction of the storm was right within a single day.",
+   "translation": "การคาดการณ์พายุถูกต้องภายในหนึ่งวัน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "preference",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted preferences as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความชอบเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Her preference for tea over coffee shaped the office pantry.",
+   "translation": "ความชอบของเธอระหว่างชากับกาแฟกำหนดห้องน้ำชาของออฟฟิศ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "preparedness",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted preparedness as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการเตรียมพร้อมเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The drill raised the preparedness of the whole coastal town.",
+   "translation": "การฝึกซ้อมเพิ่มการเตรียมพร้อมของเมืองชายฝั่งทั้งหมด"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prescription",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed prescriptions after the announcement.",
+   "translation": "ชุมชนพูดถึงใบสั่งยาหลังการประกาศ"
+  },
+  "new": {
+   "example": "The prescription from the clinic covered a full week of medicine.",
+   "translation": "ใบสั่งยาจากคลินิกครอบคลุมยาเต็มหนึ่งสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "preservation",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about preservation.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการถนอมรักษา"
+  },
+  "new": {
+   "example": "The preservation of the old market cost the council a large sum.",
+   "translation": "การถนอมรักษาตลาดเก่าใช้เงินจำนวนมากของสภา"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "preservative",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about preservatives to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับสารกันเสียแก่นักเรียน"
+  },
+  "new": {
+   "example": "The label lists every preservative used in the sauce.",
+   "translation": "ฉลากระบุสารกันเสียทุกชนิดที่ใช้ในซอส"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "press",
+  "sense": 0,
+  "old": {
+   "example": "The press affected the team’s final decision.",
+   "translation": "สื่อมวลชนมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The press covered the flood relief effort every morning.",
+   "translation": "สื่อมวลชนรายงานการช่วยเหลือผู้ประสบภัยน้ำท่วมทุกเช้า"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prevalence",
+  "sense": 0,
+  "old": {
+   "example": "The prevalence affected the team’s final decision.",
+   "translation": "ความแพร่หลายมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The prevalence of the disease fell after the vaccination drive.",
+   "translation": "ความแพร่หลายของโรคลดลงหลังจากการฉีดวัคซีน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prevention",
+  "sense": 0,
+  "old": {
+   "example": "The prevention affected the team’s final decision.",
+   "translation": "การป้องกันมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Prevention of the disease costs far less than its treatment.",
+   "translation": "การป้องกันโรคมีค่าใช้จ่ายน้อยกว่าการรักษาอย่างมาก"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "principle",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about principles to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับหลักการแก่นักเรียน"
+  },
+  "new": {
+   "example": "The principle of fair play shapes every rule of the game.",
+   "translation": "หลักการของความเป็นนักกีฬาที่ดีกำหนดกฎทุกข้อของเกม"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "privacy",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about privacy to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับความเป็นส่วนตัวแก่นักเรียน"
+  },
+  "new": {
+   "example": "Privacy in the dorm matters to every student in the room.",
+   "translation": "ความเป็นส่วนตัวในหอพักสำคัญต่อนักเรียนทุกคนในห้อง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "privacy policy",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about privacy policies.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับนโยบายความเป็นส่วนตัว"
+  },
+  "new": {
+   "example": "The privacy policy of the app explains every use of data.",
+   "translation": "นโยบายความเป็นส่วนตัวของแอปอธิบายการใช้ข้อมูลทุกประเภท"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "processed food",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about processed food.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับอาหารแปรรูป"
+  },
+  "new": {
+   "example": "The label on the processed food lists every added ingredient.",
+   "translation": "ฉลากบนอาหารแปรรูประบุส่วนผสมที่เติมทุกชนิด"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "productivity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted productivity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าผลิตภาพเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Short breaks and good light raised the team's productivity.",
+   "translation": "การพักสั้นๆ และแสงสว่างที่ดีเพิ่มผลิตภาพของทีม"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "profession",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about professions before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับวิชาชีพก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Teaching is a profession that demands patience and care.",
+   "translation": "การสอนเป็นวิชาชีพที่ต้องการความอดทนและความเอาใจใส่"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "professional",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about professionals.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับมืออาชีพ"
+  },
+  "new": {
+   "example": "The professional on the job wore full safety gear at all times.",
+   "translation": "มืออาชีพในงานสวมอุปกรณ์ความปลอดภัยเต็มรูปแบบตลอดเวลา"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "profit",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of profits across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของกำไรระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "A fair price and low costs raised the shop's profit.",
+   "translation": "ราคาที่เป็นธรรมและต้นทุนต่ำเพิ่มกำไรของร้าน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prognosis",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about prognoses.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการพยากรณ์โรค"
+  },
+  "new": {
+   "example": "The prognosis from the physician was careful but hopeful.",
+   "translation": "การพยากรณ์โรคจากแพทย์รอบคอบแต่มีความหวัง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prohibition",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about prohibitions to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการห้ามแก่นักเรียน"
+  },
+  "new": {
+   "example": "The prohibition of the old rule cleared a thicket of paperwork.",
+   "translation": "การห้ามกฎเก่าช่วยให้เอกสารที่ซับซ้อนหมดไป"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prominence",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of prominence across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความโดดเด่นระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The playwright gained prominence with one bold new work.",
+   "translation": "นักเขียนบทละครได้ความโดดเด่นด้วยผลงานใหม่ที่กล้าหาญหนึ่งชิ้น"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "proponent",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed proponents after the announcement.",
+   "translation": "ชุมชนพูดถึงผู้สนับสนุนแนวคิด/ข้อเสนอหลังการประกาศ"
+  },
+  "new": {
+   "example": "The proponent of the plan answered every question in the meeting.",
+   "translation": "ผู้สนับสนุนแนวคิด/ข้อเสนอตอบคำถามทุกข้อในที่ประชุม"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "prosperity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted prosperity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความมั่งคั่งเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The prosperity of the town grew from trade and good harvests.",
+   "translation": "ความมั่งคั่งของเมืองเติบโตจากการค้าและการเก็บเกี่ยวที่ดี"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "protocol",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with protocols.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับระเบียบพิธี"
+  },
+  "new": {
+   "example": "The lab protocol lists every step of the test in detail.",
+   "translation": "ระเบียบพิธีของห้องปฏิบัติการระบุขั้นตอนการทดลองทุกข้ออย่างละเอียด"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "public health",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of public health across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของสาธารณสุขระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Public health measures in the camp kept the disease away.",
+   "translation": "มาตรการสาธารณสุขในค่ายป้องกันโรค"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "public service",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted public services as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าบริการสาธารณะเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "She dedicated her life to public service in the small town.",
+   "translation": "เธออุทิศชีวิตให้กับบริการสาธารณะในเมืองเล็ก"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "punishment",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about punishments.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการลงโทษ"
+  },
+  "new": {
+   "example": "The punishment for the rule break was fair and quick.",
+   "translation": "การลงโทษสำหรับการละเมิดกฎเป็นธรรมและรวดเร็ว"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "pursuit",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about pursuits to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการแสวงหาแก่นักเรียน"
+  },
+  "new": {
+   "example": "The pursuit of knowledge kept the retired teacher busy daily.",
+   "translation": "การแสวงหาความรู้ทำให้ครูเกษียณยุ่งทุกวัน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "qualification",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with qualifications.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับคุณสมบัติ"
+  },
+  "new": {
+   "example": "The qualification for the course includes a basic language test.",
+   "translation": "คุณสมบัติสำหรับหลักสูตรประกอบด้วยการทดสอบภาษาพื้นฐาน"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "quantitative research",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of quantitative research across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการวิจัยเชิงปริมาณระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Quantitative research on the survey produced a table of results.",
+   "translation": "การวิจัยเชิงปริมาณจากการสำรวจผลิตตารางผลลัพธ์"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "quantity",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to quantities.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับปริมาณ"
+  },
+  "new": {
+   "example": "The quantity of rain this month broke every record in the book.",
+   "translation": "ปริมาณฝนในเดือนนี้ทำลายสถิติทุกข้อในหนังสือ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "questionnaire",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of questionnaires across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของแบบสอบถามระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The questionnaire in the survey took ten minutes to complete.",
+   "translation": "แบบสอบถามในการสำรวจใช้เวลาสิบนาทีในการตอบ"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "random sample",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of random samples across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของกลุ่มตัวอย่างสุ่มระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "A random sample of the town gave an honest picture of habits.",
+   "translation": "กลุ่มตัวอย่างสุ่มของเมืองให้ภาพที่ตรงไปตรงมาเกี่ยวกับนิสัย"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "reason",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of reasons across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของเหตุผลระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The reason for the delay was a broken signal on the line.",
+   "translation": "เหตุผลของความล่าช้าคือสัญญาณที่ชำรุดบนสาย"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "rebuttal",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of rebuttals across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการโต้แย้งกลับระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Her rebuttal in the debate settled every doubt in the room.",
+   "translation": "การโต้แย้งกลับของเธอในการอภิปรายคลี่คลายข้อสงสัยทุกข้อในห้อง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "recession",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed recessions after the announcement.",
+   "translation": "ชุมชนพูดถึงภาวะเศรษฐกิจถดถอยหลังการประกาศ"
+  },
+  "new": {
+   "example": "The recession cut the shop's income and forced a cut in hours.",
+   "translation": "ภาวะเศรษฐกิจถดถอยลดรายได้ของร้านและบังคับให้ลดชั่วโมงเปิด"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
+ },
+ {
+  "w": "recipe",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed recipes after the announcement.",
+   "translation": "ชุมชนพูดถึงสูตรอาหารหลังการประกาศ"
+  },
+  "new": {
+   "example": "The recipe for the soup uses six ingredients and one hour.",
+   "translation": "สูตรอาหารสำหรับซุปใช้ส่วนผสมหกอย่างและเวลาหนึ่งชั่วโมง"
+  },
+  "spec": "content/vocab_examples_v43_l.json"
  }
 ]
