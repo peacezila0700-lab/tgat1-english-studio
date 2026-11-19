@@ -9527,5 +9527,512 @@
    "translation": "แนวโน้ม/เส้นทางการเปลี่ยนแปลงของจรวดเปลี่ยนไปหลังจากช่วงที่สองทำงาน"
   },
   "spec": "content/vocab_examples_v43_m.json"
+ },
+ {
+  "w": "similarity",
+  "sense": 0,
+  "old": {
+   "example": "The study examined similarity and its effects on the community.",
+   "translation": "งานวิจัยให้ข้อมูลที่เป็นประโยชน์เกี่ยวกับความคล้ายคลึง"
+  },
+  "new": {
+   "example": "The similarity between the two stories is clear from the first page.",
+   "translation": "ความคล้ายคลึงระหว่างสองเรื่องชัดเจนตั้งแต่หน้าแรก"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "action",
+  "sense": 0,
+  "old": {
+   "example": "The action affected the team’s final decision.",
+   "translation": "การกระทำมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Every action in the plan needs a clear owner and a date.",
+   "translation": "การกระทำทุกข้อในแผนต้องการผู้รับผิดชอบและวันที่ชัดเจน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "activity",
+  "sense": 0,
+  "old": {
+   "example": "The activity affected the team’s final decision.",
+   "translation": "กิจกรรมมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Outdoor activity in the fresh air lifted the mood of the class.",
+   "translation": "กิจกรรมกลางแจ้งในอากาศสดชื่นทำให้อารมณ์ของชั้นเรียนดีขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "beneficiary",
+  "sense": 0,
+  "old": {
+   "example": "The beneficiary affected the team’s final decision.",
+   "translation": "ผู้ได้รับประโยชน์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Every beneficiary of the fund received a letter this month.",
+   "translation": "ผู้ได้รับประโยชน์ทุกรายของกองทุนได้รับจดหมายในเดือนนี้"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "communication",
+  "sense": 0,
+  "old": {
+   "example": "The communication affected the team’s final decision.",
+   "translation": "การสื่อสารมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Clear communication between the teams cut the waiting time.",
+   "translation": "การสื่อสารที่ชัดเจนระหว่างทีมลดเวลารอ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "communicator",
+  "sense": 0,
+  "old": {
+   "example": "The communicator affected the team’s final decision.",
+   "translation": "ผู้สื่อสารมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A good communicator listens before answering every question.",
+   "translation": "ผู้สื่อสารที่ดีฟังก่อนตอบคำถามทุกข้อ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "creation",
+  "sense": 0,
+  "old": {
+   "example": "The creation affected the team’s final decision.",
+   "translation": "การสร้าง/สิ่งสร้างมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The creation of the new park took the town two full years.",
+   "translation": "การสร้างสวนสาธารณะแห่งใหม่ใช้เวลาของเมืองสองปีเต็ม"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "creator",
+  "sense": 0,
+  "old": {
+   "example": "The creator affected the team’s final decision.",
+   "translation": "ผู้สร้างมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The creator of the app tested every screen with real users.",
+   "translation": "ผู้สร้างแอปทดสอบทุกหน้ากับผู้ใช้จริง"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "decision",
+  "sense": 0,
+  "old": {
+   "example": "The decision affected the team’s final decision.",
+   "translation": "การตัดสินใจมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The decision on the new rule came after a long debate.",
+   "translation": "การตัดสินใจเรื่องกฎใหม่เกิดขึ้นหลังจากอภิปรายอย่างยาวนาน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "dependence",
+  "sense": 0,
+  "old": {
+   "example": "The dependence affected the team’s final decision.",
+   "translation": "การพึ่งพามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The dependence of the town on one factory worried the council.",
+   "translation": "การพึ่งพาของเมืองต่อโรงงานแห่งเดียวทำให้สภากังวล"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "independence",
+  "sense": 0,
+  "old": {
+   "example": "The independence affected the team’s final decision.",
+   "translation": "อิสรภาพมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Financial independence gave her the freedom to choose her work.",
+   "translation": "อิสรภาพทางการเงินให้อิสระแก่เธอในการเลือกงาน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "developer",
+  "sense": 0,
+  "old": {
+   "example": "The developer affected the team’s final decision.",
+   "translation": "ผู้พัฒนามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The developer of the software fixed the crash within a day.",
+   "translation": "ผู้พัฒนาซอฟต์แวร์แก้ไขการล่มภายในหนึ่งวัน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "economics",
+  "sense": 0,
+  "old": {
+   "example": "The economics affected the team’s final decision.",
+   "translation": "เศรษฐศาสตร์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The class on economics explains supply, demand and prices.",
+   "translation": "ชั้นเรียนเศรษฐศาสตร์อธิบายอุปทาน อุปสงค์ และราคา"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "economist",
+  "sense": 0,
+  "old": {
+   "example": "The economist affected the team’s final decision.",
+   "translation": "นักเศรษฐศาสตร์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The economist on the panel explained the slow growth clearly.",
+   "translation": "นักเศรษฐศาสตร์ในคณะผู้เสวนอธิบายการเติบโตที่ช้าอย่างชัดเจน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "education",
+  "sense": 0,
+  "old": {
+   "example": "The education affected the team’s final decision.",
+   "translation": "การศึกษามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A good education opens the door to every kind of career.",
+   "translation": "การศึกษาที่ดีเปิดประตูสู่อาชีพทุกประเภท"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "evaluator",
+  "sense": 0,
+  "old": {
+   "example": "The evaluator affected the team’s final decision.",
+   "translation": "ผู้ประเมินมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The evaluator of the programme checked every result against the goals.",
+   "translation": "ผู้ประเมินโครงการตรวจสอบผลลัพธ์ทุกข้อเทียบกับเป้าหมาย"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "expansion",
+  "sense": 0,
+  "old": {
+   "example": "The expansion affected the team’s final decision.",
+   "translation": "การขยายตัวมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The expansion of the port brought jobs to the whole district.",
+   "translation": "การขยายตัวของท่าเรือนำมาซึ่งงานให้ทั้งเขต"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "financier",
+  "sense": 0,
+  "old": {
+   "example": "The financier affected the team’s final decision.",
+   "translation": "นักการเงินมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The financier behind the film backed three projects this year.",
+   "translation": "นักการเงินเบื้องหลังภาพยนตร์สนับสนุนโครงการสามโครงการในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "government",
+  "sense": 0,
+  "old": {
+   "example": "The government affected the team’s final decision.",
+   "translation": "รัฐบาลมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The government of the region funded the new road this year.",
+   "translation": "รัฐบาลของภูมิภาคเป็นทุนสร้างถนนใหม่ในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "governor",
+  "sense": 0,
+  "old": {
+   "example": "The governor affected the team’s final decision.",
+   "translation": "ผู้ว่าการมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The governor of the province opened the new hospital with pride.",
+   "translation": "ผู้ว่าการจังหวัดเปิดโรงพยาบาลแห่งใหม่ด้วยความภาคภูมิใจ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "governance",
+  "sense": 0,
+  "old": {
+   "example": "The governance affected the team’s final decision.",
+   "translation": "ธรรมาภิบาล/การกำกับดูแลมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Good governance keeps every decision fair and open.",
+   "translation": "ธรรมาภิบาล/การกำกับดูแลที่ดีทำให้การตัดสินใจทุกข้อเป็นธรรมและเปิดเผย"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "imagination",
+  "sense": 0,
+  "old": {
+   "example": "The imagination affected the team’s final decision.",
+   "translation": "จินตนาการมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Imagination in the stories kept the children reading all night.",
+   "translation": "จินตนาการในเรื่องราวทำให้เด็กๆ อ่านหนังสือทั้งคืน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "information",
+  "sense": 0,
+  "old": {
+   "example": "The information affected the team’s final decision.",
+   "translation": "ข้อมูลมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Clear information on the label helps every shopper make a choice.",
+   "translation": "ข้อมูลที่ชัดเจนบนฉลากช่วยให้ผู้ซื้อทุกคนตัดสินใจได้"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "observer",
+  "sense": 0,
+  "old": {
+   "example": "The observer affected the team’s final decision.",
+   "translation": "ผู้สังเกตมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The observer of the experiment noted every change in the log.",
+   "translation": "ผู้สังเกตการทดลองบันทึกการเปลี่ยนแปลงทุกข้อในสมุดบันทึก"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "participant",
+  "sense": 0,
+  "old": {
+   "example": "The participant affected the team’s final decision.",
+   "translation": "ผู้เข้าร่วมมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Every participant in the workshop received a certificate at the end.",
+   "translation": "ผู้เข้าร่วมทุกคนในการอบรมได้รับใบรับรองในวันสุดท้าย"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "performer",
+  "sense": 0,
+  "old": {
+   "example": "The performer affected the team’s final decision.",
+   "translation": "ผู้แสดงมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The performer on the stage held the whole audience spellbound.",
+   "translation": "ผู้แสดงบนเวทีทำให้ผู้ชมทั้งหมดหลงใหล"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "predictor",
+  "sense": 0,
+  "old": {
+   "example": "The predictor affected the team’s final decision.",
+   "translation": "ตัวทำนายมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The predictor of the weather was right about the morning rain.",
+   "translation": "ตัวทำนายสภาพอากาศถูกต้องเกี่ยวกับฝนยามเช้า"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "product",
+  "sense": 0,
+  "old": {
+   "example": "The product affected the team’s final decision.",
+   "translation": "ผลิตภัณฑ์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Every product in the shop carries a label with the price.",
+   "translation": "ผลิตภัณฑ์ทุกชิ้นในร้านมีฉลากระบุราคา"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "production",
+  "sense": 0,
+  "old": {
+   "example": "The production affected the team’s final decision.",
+   "translation": "การผลิตมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The production of the play took the team four full weeks.",
+   "translation": "การผลิตละครเวทีใช้เวลาของทีมสี่สัปดาห์เต็ม"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "producer",
+  "sense": 0,
+  "old": {
+   "example": "The producer affected the team’s final decision.",
+   "translation": "ผู้ผลิตมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The producer of the film found a small studio for the shoot.",
+   "translation": "ผู้ผลิตภาพยนตร์พบสตูดิโอเล็กสำหรับการถ่ายทำ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "protection",
+  "sense": 0,
+  "old": {
+   "example": "The protection affected the team’s final decision.",
+   "translation": "การปกป้องมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The protection of the old trees matters to every resident.",
+   "translation": "การปกป้องต้นไม้เก่าสำคัญต่อผู้อยู่อาศัยทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "protector",
+  "sense": 0,
+  "old": {
+   "example": "The protector affected the team’s final decision.",
+   "translation": "ผู้ปกป้องมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The protector of the reserve patrols the boundary every dawn.",
+   "translation": "ผู้ปกป้องเขตอนุรักษ์ลาดตระเวนแนวเขตทุกรุ่งอรุณ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "solver",
+  "sense": 0,
+  "old": {
+   "example": "The solver affected the team’s final decision.",
+   "translation": "ผู้แก้ปัญหามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A good solver of problems breaks each one into small steps.",
+   "translation": "ผู้แก้ปัญหาที่ดีแยกแต่ละปัญหาออกเป็นขั้นตอนเล็กๆ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "success",
+  "sense": 0,
+  "old": {
+   "example": "The success affected the team’s final decision.",
+   "translation": "ความสำเร็จมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Small daily habits built her success over the long years.",
+   "translation": "นิสัยเล็กๆ ทุกวันสร้างความสำเร็จของเธอตลอดหลายปี"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "variation",
+  "sense": 0,
+  "old": {
+   "example": "The variation affected the team’s final decision.",
+   "translation": "ความผันแปรมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A small variation in the recipe changes the taste of the bread.",
+   "translation": "ความผันแปรเล็กน้อยในสูตรเปลี่ยนรสชาติของขนมปัง"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "initiative",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with initiatives.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับโครงการริเริ่ม; ความคิดริเริ่ม"
+  },
+  "new": {
+   "example": "The initiative of the students cleaned the whole riverbank.",
+   "translation": "โครงการริเริ่ม; ความคิดริเริ่มของนักเรียนทำความสะอาดตลอดแนวแม่น้ำ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "hydration",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted hydration as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการได้รับน้ำเพียงพอเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Drinking enough water through the day supports every athlete's hydration.",
+   "translation": "การดื่มน้ำตลอดวันทำให้นักกีฬาทุกคนได้รับน้ำเพียงพอ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "justice",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about justice before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับความยุติธรรมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A fair trial is the heart of justice in any court.",
+   "translation": "การพิจารณาคดีที่ยุติธรรมคือหัวใจของความยุติธรรมในศาลใดๆ"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
+ },
+ {
+  "w": "option",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted options as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าตัวเลือกเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The menu offers three options for the main course tonight.",
+   "translation": "เมนูเสนอตัวเลือกสามอย่างสำหรับอาหารจานหลักวันนี้"
+  },
+  "spec": "content/vocab_examples_v43_n.json"
  }
 ]
