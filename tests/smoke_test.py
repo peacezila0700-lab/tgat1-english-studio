@@ -155,13 +155,16 @@ async def main():
 
         # 6) Learning Hub (v40.8.0)
         ctx, page, errors = await new_page(browser, url)
+        await page.evaluate("TGAT1_loadHub()")
+        await page.wait_for_function("typeof TGAT1_HUB_CURRICULUM!=='undefined' && typeof TGAT1Hub==='object'",timeout=8000)
         cur = await page.evaluate("""(()=>{const c=TGAT1_HUB_CURRICULUM,ids=new Set(c.items.map(x=>x[0]));
           const bad=c.units.filter(u=>!u.concepts.length||!u.learn||!(u.guided||(u.act||[]).some(a=>a.type==='mock'))||!u.assess);
           const missing=c.units.flatMap(u=>(u.guided&&u.guided.ids)||[]).filter(i=>!ids.has(i));
           return {n:c.units.length,seq:c.units.every((u,i)=>u.n===i+1),bad:bad.length,missing:missing.length,withAppActivities:c.units.filter(u=>(u.act||[]).length).length}})()""")
         check('hub: exactly 70 sequential units, each with concepts, lesson, practice (guided or full mock) and an assessment',
               cur['n'] == 70 and cur['seq'] and not cur['bad'] and not cur['missing'], str(cur))
-        await page.evaluate("studioNav('hub')"); await page.wait_for_timeout(600)
+        await page.evaluate("studioNav('hub')")
+        await page.wait_for_function("typeof TGAT1Hub==='object'",timeout=8000)
         await page.evaluate("TGAT1Hub.continue()"); await page.wait_for_timeout(600)
         text = await page.evaluate("document.querySelector('#app').innerText")
         check('hub: Continue Learning on a fresh launch opens Unit 1', 'หน่วยที่ 1' in text, text[:80].replace('\n', ' '))

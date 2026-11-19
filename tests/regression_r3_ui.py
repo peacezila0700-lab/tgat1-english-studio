@@ -33,8 +33,12 @@ with server(sys.argv[1]) as base, browser() as b:
         viol={}
         for name,js in [('flashcards',"studioNav('vocab');studioStartFlashcards()"),('mock',"VLT_startMock(1)"),('mock-answered',"VLT_startMock(1);VLT_answer(0)"),
                         ('tc-answered',"VLT_startCategory('tc');VLT_answer(0)"),('word-detail',"studioNav('vocab');studioWordDetail(5)"),('confirm',"studioNav('settings');studioResetProgress()"),
-                        ('vocab-translation',"studioNav('vocab');studioStartVocabTranslation('en-th')"),('hub-unit',"studioNav('hub');TGAT1Hub.openUnit(1)")]:
-            pg.goto(base+'/index.html');pg.wait_for_function("typeof studioNav==='function'");pg.evaluate(f"studioTheme('{theme}')");pg.evaluate(js);pg.wait_for_timeout(900)
+                        ('vocab-translation',"studioNav('vocab');studioStartVocabTranslation('en-th')"),('hub-unit',"studioNav('hub')")]:
+            pg.goto(base+'/index.html');pg.wait_for_function("typeof studioNav==='function'");pg.evaluate(f"studioTheme('{theme}')");pg.evaluate(js)
+            if 'hub' in js:
+                pg.wait_for_function("typeof TGAT1Hub==='object'",timeout=8000)
+                if name=='hub-unit': pg.evaluate("TGAT1Hub.openUnit(1)")
+            pg.wait_for_timeout(900)
             r=run_axe(pg);v=[x['id'] for x in r['violations'] if x['impact'] in('serious','critical') or x['id']=='label-content-name-mismatch']
             if v: viol[name]=v
         check(f'axe-core: no serious/critical violations (incl. contrast) in 8 deep states [{theme}]',not viol,viol)

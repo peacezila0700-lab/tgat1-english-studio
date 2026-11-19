@@ -219,7 +219,8 @@ async def main():
 
         # 5) Hub shortcut + unit vocabulary does not complete the unit
         ctx, page, errs = await page_for(browser, url)
-        await page.evaluate("studioNav('hub')"); await page.wait_for_timeout(600)
+        await page.evaluate("studioNav('hub')")
+        await page.wait_for_function("typeof TGAT1Hub==='object'",timeout=8000)
         hub0 = await page.evaluate("JSON.stringify((TGAT1Hub.state().units||TGAT1Hub.state().done||{}))")
         await page.evaluate("TGAT1VocabularyLab.start('unit',1)"); await page.wait_for_timeout(1500)
         snap = await page.evaluate("TGAT1VocabularyLab.snapshot()")
@@ -302,7 +303,7 @@ async def main():
         vis = [x for x in vis if x is not None]
         check('keyboard: focused controls show a visible focus indicator', vis and all(vis), f'{sum(1 for x in vis if x)}/{len(vis)}')
         await page.evaluate("TGAT1VocabularyLab.start('mixed')"); await page.wait_for_timeout(1500)
-        await page.focus('#app [onclick^="TGAT1VocabularyLab.answer"]'); await page.keyboard.press('Enter'); await page.wait_for_timeout(200)
+        await page.focus('#app [data-action="TGAT1VocabularyLab.answer"]'); await page.keyboard.press('Enter'); await page.wait_for_timeout(200)
         check('keyboard: a Vocabulary Lab option can be answered with Enter', await page.evaluate("!!document.querySelector('#app .st-alert')"))
         await ctx.close()
 

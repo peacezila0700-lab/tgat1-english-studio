@@ -730,12 +730,29 @@ function studioUpdateChrome(page){const map={home:['HOME','สวัสดี �
 function studioNav(page){/* v40.8.0: a finished vocabulary session keeps Q only to show its result; leaving it must not warn about unsaved progress. */if(Q&&typeof STUDIO_SESSION_FINISHED!=='undefined'&&STUDIO_SESSION_FINISHED&&page!==STUDIO_PAGE)Q=null;if((VLT_RUN||Q)&&page!==STUDIO_PAGE){TGConfirm('กำลังทำแบบฝึกอยู่ หากออกจากหน้านี้ความคืบหน้ารอบปัจจุบันอาจไม่ถูกบันทึก ต้องการออกหรือไม่?').then(ok=>{if(!ok)return;if(VLT_RUN){VLT_stopTimer();VLT_RUN=null;}if(Q){studioClearSession();stopExamClock();Q=null;}studioNavNow(page)});return}studioNavNow(page)}
 /* T1 merge: single studioNavNow with v8 page-flash, v18 a11y announcer and
    v382 legacy-reading reset folded in (v7 sweep was dead code and is dropped). */
+/* T4: lazy-load Learning Hub scripts (curriculum then engine). Idempotent; resolves when ready. */
+window.TGAT1_loadHub=function(){
+  return new Promise(function(res,rej){
+    if(window.TGAT1Hub){res();return}
+    const s1=document.createElement('script');s1.src='./learning-hub-curriculum.js';
+    s1.onload=function(){
+      const s2=document.createElement('script');s2.src='./learning-hub.js';
+      s2.onload=function(){res()};
+      s2.onerror=function(){rej(new Error('learning-hub.js failed'))};
+      document.head.appendChild(s2);
+    };
+    s1.onerror=function(){rej(new Error('learning-hub-curriculum.js failed'))};
+    document.head.appendChild(s1);
+  });
+};
 function studioNavNow(page){
   const before=STUDIO_PAGE;
   /* v382: leaving the reading page clears the legacy-bank mode. */
   if(page!=='reading'&&window.TGAT1_setLegacyReading)window.TGAT1_setLegacyReading(false);
   if(page!==STUDIO_PAGE){STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false}
-  STUDIO_PAGE=page;STUDIO_VPAGE=0;studioUpdateChrome(page);studioRender();
+  STUDIO_PAGE=page;STUDIO_VPAGE=0;studioUpdateChrome(page);
+  if(page==='hub'&&!window.TGAT1Hub){window.TGAT1_loadHub().then(function(){studioRender()}).catch(function(){studioRender()});return}
+  studioRender();
   /* v18: announce the new page title in the live region. */
   const live=document.getElementById('tgat-v18-live');const title=document.getElementById('studioTitle');
   if(live&&title)live.textContent='หน้า '+title.textContent;
@@ -753,6 +770,7 @@ function home(){try{stopExamClock();Q=null}catch(e){}if(typeof VLT_stopTimer==='
 function VLT_home(){if(typeof VLT_stopTimer==='function')VLT_stopTimer();if(typeof VLT_RUN!=='undefined')VLT_RUN=null;STUDIO_PAGE='exam';studioUpdateChrome('exam');studioExam();/* T1 merge: v12 random-mock entry folded in. */const view=document.querySelector('#app .vault-view');if(view&&!view.querySelector('.v12-random-mock')){const first=view.querySelector('.vault-hero');if(first)first.insertAdjacentHTML('beforeend',`<div class="v12-random-mock"><button class="vault-btn" data-action="VLT_startRandomMock">🎲 สุ่มข้อสอบเต็มชุดจากคลังทั้งหมด</button><small>60 ข้อ · 60 นาที · ไม่ซ้ำในรอบเดียว · รักษากลุ่มบทสนทนาและบทอ่าน</small></div>`)}/* T1 merge: v17 resume banner folded in. */window.TGAT1_v17RenderResume();}
 function VLT_open(){VLT_stopTimer();VLT_RUN=null;STUDIO_PAGE='exam';studioUpdateChrome('exam');studioExam()}
 function studioHome(){/* T1 merge: v9 personal home renderer folded in. */if(window.TGAT1_renderHome){window.TGAT1_renderHome();return}
+ if(!window.TGAT1Hub){try{window.TGAT1_loadHub().catch(function(){})}catch(_){}}
  const app=document.getElementById('app'),acc=studioAccuracy(),mocks=studioMockHistory(),latest=mocks[0],weak=studioWeakPart(),due=studioDueWords().length,miss=Object.keys(VLT_STATE.missed||{}).length,learned=studioWordLearned(),done=studioCompleted();
  const first=STUDIO_PROFILE.name?`กลับมาแล้ว ${studioEsc(STUDIO_PROFILE.name)}`:'เริ่มสร้างเส้นทางภาษาอังกฤษของคุณ';
  let coachTitle='เริ่มจากการวัดระดับจริง';let coachText='ตอนนี้ยังไม่มีผลจำลองสอบ TGAT1 มากพอให้วิเคราะห์จุดอ่อนหรือความพร้อม เริ่มจากทำชุดจำลอง 60 ข้อ แล้วระบบจะวิเคราะห์จากคำตอบจริง';let coachAction=`<button class="st-btn" data-action="studioNav" data-arg="exam">เริ่มทำชุดวัดระดับ <span>→</span></button>`;

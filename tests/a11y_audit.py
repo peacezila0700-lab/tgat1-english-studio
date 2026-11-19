@@ -16,7 +16,7 @@ STATES=[(p,f"studioNav('{p}')") for p in PAGES]+[
  ('sets-list',"studioNav('exam');studioShowSets()"),
  ('reading-plus',"studioNav('reading');TGAT1ReadingPlus.start('R382-TC-01')"),
  ('reading-legacy',"studioNav('reading');TGAT1ReadingPlus.openLegacy()"),
- ('hub-unit',"studioNav('hub');TGAT1Hub.openUnit(1)"),
+ ('hub-unit',"studioNav('hub')"),
  ('match-game',"studioNav('game');studioRunVocabGame('match')"),
  ('sentence-game',"studioNav('game');studioStartSentenceGame('tr')"),
  ('sprint',"VLT_startSprint()"),
@@ -39,7 +39,12 @@ def main(webdir,out):
                 for name,js in STATES:
                     pg.goto(base+'/index.html');pg.wait_for_function("typeof studioNav==='function' && !document.querySelector('.boot-splash')")
                     pg.evaluate(f"studioTheme('{theme}')")
-                    try: pg.evaluate(js); pg.wait_for_timeout(1200)
+                    try:
+                        pg.evaluate(js)
+                        if 'hub' in js:
+                            pg.wait_for_function("typeof TGAT1Hub==='object'",timeout=8000)
+                            if name=='hub-unit': pg.evaluate("TGAT1Hub.openUnit(1)")
+                        pg.wait_for_timeout(1200)
                     except Exception as e: res.append({'state':name,'vp':vpname,'theme':theme,'error':str(e)[:200]});continue
                     r=run_axe(pg); res.append({'state':name,'vp':vpname,'theme':theme,**r})
                     if name in('mock-exam','category-tc','category-rc','vocab-lab','adaptive'):

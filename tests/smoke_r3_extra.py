@@ -83,7 +83,7 @@ def main(webdir):
         t()
         @check('learning hub: open unit 1')
         def t():
-            fresh(pg,base);nav(pg,'hub');pg.evaluate("TGAT1Hub.openUnit(1)");pg.wait_for_timeout(500);ok('ประธาน' in pg.inner_text('body'))
+            fresh(pg,base);nav(pg,'hub');pg.wait_for_function("typeof TGAT1Hub==='object'",timeout=8000);pg.evaluate("TGAT1Hub.openUnit(1)");pg.wait_for_timeout(500);ok('ประธาน' in pg.inner_text('body'))
         t()
         @check('reading plus: start passage')
         def t():
