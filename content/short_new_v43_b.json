@@ -1,0 +1,169 @@
+[
+ {
+  "first": "S08-Q014",
+  "context": "Pete: Aom, our group presentation is on Monday, and we only have four minutes each.\nAom: (1) ____\nPete: Cut the second slide down to one photo, and move the survey numbers to the end.\nAom: Fine. I’ll rehearse with a timer tonight. (2) ____\nPete: Hand over to me after the survey numbers, and I’ll close with the recommendation.\nAom: (3) ____\nPete: Yes, bring the clicker and a spare battery in case the one in the hall dies.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How can we shorten my four minutes?",
+    "d": [
+     "Our group presentation is on Monday morning, not afternoon.",
+     "Why does the survey have only forty answers?",
+     "The second slide has one photo."
+    ],
+    "exp": "หลังช่อง (1) Pete แนะวิธีตัดเนื้อหา (Cut the second slide down to one photo, and move the survey numbers to the end) ช่อง (1) จึงต้องถามวิธีทำให้สั้นลง คือ “How can we shorten my four minutes?” ตัวเลือกแรกเถียงเรื่องวันเวลา ตัวเลือกที่สองถามจำนวนคำตอบแบบสำรวจที่ไม่มีใครพูดถึง และตัวเลือกที่สามบอกว่าสไลด์มีรูปเดียวอยู่แล้วซึ่งขัดกับคำแนะนำของ Pete",
+    "tip": "ถ้าคำตอบถัดไปเป็นการตัดหรือย้ายเนื้อหา แสดงว่าช่องว่างถามว่าจะย่นส่วนของตัวเองยังไง"
+   },
+   {
+    "blank": 2,
+    "key": "When should I pass it over to you?",
+    "d": [
+     "I rehearsed with a timer twice.",
+     "The recommendation closes every presentation.",
+     "Who will speak for the first four minutes?"
+    ],
+    "exp": "หลังช่อง (2) Pete บอกจังหวะส่งต่อ (Hand over to me after the survey numbers, and I’ll close with the recommendation) ช่อง (2) จึงต้องถามว่าจะส่งต่อตอนไหน คือ “When should I pass it over to you?” ตัวเลือกแรกเล่าว่าซ้อมไปแล้ว ตัวเลือกที่สองเป็นข้อความทั่วไป และตัวเลือกที่สามถามว่าใครพูดก่อนซึ่ง Pete ตอบไปแล้วว่าแบ่งกันคนละสี่นาที",
+    "tip": "คำตอบที่ระบุจุดส่งต่อ (after…) คือคำตอบของคำถามเรื่องจังหวะในการส่งงานให้เพื่อน"
+   },
+   {
+    "blank": 3,
+    "key": "Do you want me to bring the clicker?",
+    "d": [
+     "The clicker battery died in the hall last term.",
+     "I’ll bring the spare slides.",
+     "Does the hall have only one clicker?"
+    ],
+    "exp": "Pete ตอบว่า “Yes, bring the clicker and a spare battery in case the one in the hall dies.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (3) เป็นคำถาม yes/no เรื่องการพกรีโมตสไลด์ คือ “Do you want me to bring the clicker?” ตัวเลือกอื่นเล่าเรื่องแบตเตอรี่ที่หมดในหอประชุมเมื่อเทอมก่อน อาสานำสไลด์สำรองไปแทน และถามว่าหอประชุมมีคลิกเกอร์อันเดียวหรือไม่ ซึ่ง Pete ไม่ได้ตอบ ส่วนคำถาม Do you want me to… เท่านั้นที่ได้คำตอบ Yes",
+    "tip": "ช่องท้ายบทที่ตามด้วย Yes, … ต้องเป็นคำถาม yes/no หรือข้อเสนอให้อีกฝ่ายตัดสินใจ"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q011",
+  "context": "Kate: Nu, the class wants our group presentation to include a question round at the end.\nNu: (1) ____\nKate: Three questions each, and if nobody asks one, we read the two we prepared ourselves.\nNu: I can take the first half of the slides. (2) ____\nKate: You handle the method and the photos, and I’ll take the results and the budget table.\nNu: (3) ____\nKate: On Friday, in the library room, with the printed notes so we can check the numbers.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will the question round work?",
+    "d": [
+     "Our class never asks questions after a presentation.",
+     "Why did we prepare two questions ourselves?",
+     "Three each is too many."
+    ],
+    "exp": "หลังช่อง (1) Kate อธิบายกติการอบคำถาม (Three questions each, and if nobody asks one, we read the two we prepared ourselves) ช่อง (1) จึงต้องถามว่ารอบคำถามจะดำเนินยังไง คือ “How will the question round work?” ตัวเลือกแรกค้านว่าห้องไม่เคยถาม ตัวเลือกที่สองถามเรื่องที่ Kate เพิ่งจะอธิบายในประโยคถัดไป และตัวเลือกที่สามวิจารณ์จำนวนคำถาม",
+    "tip": "คำตอบที่บอกจำนวนและเงื่อนไข (if…) คือคำตอบของคำถามเรื่องกติกา"
+   },
+   {
+    "blank": 2,
+    "key": "Which part should each of us take?",
+    "d": [
+     "I took the first half of the slides last time.",
+     "The budget table has the numbers.",
+     "Who printed the notes for the method?"
+    ],
+    "exp": "หลังช่อง (2) Kate แบ่งส่วนที่แต่ละคนรับผิดชอบ (You handle the method and the photos, and I’ll take the results and the budget table) ช่อง (2) จึงต้องถามว่าจะแบ่งส่วนกันยังไง คือ “Which part should each of us take?” ตัวเลือกแรกเล่าเรื่องการนำเสนอครั้งก่อน ตัวเลือกที่สองพูดถึงตารางงบอย่างเดียว และตัวเลือกที่สามถามเรื่องคนพิมพ์โน้ต",
+    "tip": "คำตอบที่แจกงานให้สองคน คือคำตอบของคำถามเรื่องการแบ่งส่วนนำเสนอ"
+   },
+   {
+    "blank": 3,
+    "key": "When and where should we practise?",
+    "d": [
+     "The library room is free on Friday afternoon.",
+     "Did we practise with the printed notes yesterday?",
+     "I’ll check the budget numbers."
+    ],
+    "exp": "หลังช่อง (3) Kate นัดทั้งวัน สถานที่ และของที่ให้พก (On Friday, in the library room, with the printed notes…) ช่อง (3) จึงต้องถามว่าจะซ้อมเมื่อไหร่และที่ไหน คือ “When and where should we practise?” ตัวเลือกอื่นบอกข้อมูลห้องสมุด ถามว่าเราซ้อมกับโน้ตที่พิมพ์เมื่อวานหรือไม่ หรืออาสาตรวจตัวเลขในตารางงบ ซึ่งไม่ทำให้ Kate ต้องนัดวันและสถานที่",
+    "tip": "คำตอบที่บอกวันและสถานที่ติดกัน แสดงว่าช่องว่างถามทั้งสองอย่าง"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q017",
+  "context": "Jo: Mint, the museum trip leaves at eight, and the tickets were booked under the school name.\nMint: (1) ____\nJo: Twenty-six students and two teachers, so the museum will split us into two guided groups.\nMint: I’ll bring the list of names. (2) ____\nJo: The audio guides cost thirty baht each, but the planetarium show is included in the ticket.\nMint: Good, because our class wanted the show. (3) ____\nJo: Eat before we arrive, since the café only opens at eleven and the bus leaves at one.\nMint: (4) ____\nJo: Yes, meet by the flagpole, and I’ll count everyone before the bus moves.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How many people are going with us?",
+    "d": [
+     "The museum split our class into two groups last year.",
+     "Why were the tickets booked under the school name?",
+     "Two teachers are enough."
+    ],
+    "exp": "หลังช่อง (1) Jo บอกจำนวนคน (Twenty-six students and two teachers…) ช่อง (1) จึงต้องถามจำนวนผู้ไป คือ “How many people are going with us?” ตัวเลือกแรกเล่าเรื่องปีก่อน ตัวเลือกที่สองถามเรื่องชื่อที่ใช้จองซึ่ง Jo บอกไปแล้ว และตัวเลือกที่สามให้ความเห็นว่าครูสองคนพอ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยจำนวนคน คือคำตอบของคำถามว่ามีใครไปกี่คน"
+   },
+   {
+    "blank": 2,
+    "key": "Which part of the visit costs extra?",
+    "d": [
+     "I brought the name list.",
+     "The planetarium show always starts at nine.",
+     "Who paid thirty baht for the audio guides?"
+    ],
+    "exp": "หลังช่อง (2) Jo แยกว่าอะไรต้องจ่ายเพิ่มและอะไรรวมในตั๋วแล้ว (The audio guides cost thirty baht each, but the planetarium show is included) ช่อง (2) จึงต้องถามว่าส่วนไหนจ่ายเพิ่ม คือ “Which part of the visit costs extra?” ตัวเลือกแรกเล่าเรื่องที่ตัวเองทำ ตัวเลือกที่สองบอกเวลาโชว์ และตัวเลือกที่สามถามว่าใครจ่ายค่าหูฟังไปแล้ว",
+    "tip": "คำตอบที่เทียบว่าอะไรเสียเงินและอะไรรวมในตั๋ว คือคำตอบของคำถามเรื่องค่าใช้จ่ายเพิ่ม"
+   },
+   {
+    "blank": 3,
+    "key": "What should we do about lunch?",
+    "d": [
+     "The café opens at eleven and closes at one.",
+     "Did our class want the show more than the café?",
+     "I ate before we arrived."
+    ],
+    "exp": "หลังช่อง (3) Jo แนะเรื่องมื้อกลางวัน (Eat before we arrive, since the café only opens at eleven and the bus leaves at one) ช่อง (3) จึงต้องถามว่าจะจัดการมื้อกลางวันยังไง คือ “What should we do about lunch?” ตัวเลือกอื่นให้ข้อมูลเวลาเปิดคาเฟ่ ถามว่าห้องเราอยากดูโชว์มากกว่าคาเฟ่หรือไม่ หรือเล่าเรื่องที่กินมาก่อนครั้งก่อน ซึ่งไม่มีข้อไหนทำให้ Jo ต้องแนะนำเรื่องมื้อกลางวัน",
+    "tip": "คำตอบที่บอกเวลาร้านและเวลาขึ้นรถ คือคำแนะนำเรื่องมื้ออาหาร"
+   },
+   {
+    "blank": 4,
+    "key": "Should we meet by the flagpole?",
+    "d": [
+     "Is the flagpole the bus stop?",
+     "I counted everyone before the bus moved.",
+     "Only two students were late at the flagpole."
+    ],
+    "exp": "Jo ตอบว่า “Yes, meet by the flagpole, and I’ll count everyone before the bus moves.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no เรื่องจุดนัดพบ คือ “Should we meet by the flagpole?” ตัวเลือกอื่นถามว่าเสาธงคือจุดที่รถจอดเสมอหรือไม่ เล่าว่านับคนก่อนรถออกแล้ว และบอกว่ามีนักเรียนมาสายสองคน ซึ่งไม่ใช่คำถามที่ Jo จะตอบด้วย Yes",
+    "tip": "ถ้าคำตอบถัดไปขึ้นต้นด้วย Yes แล้วตามด้วยคำสั่ง/การนัดหมาย ช่องว่างต้องเป็นคำถาม yes/no เรื่องการนัด"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q014",
+  "context": "Ice: Ploy, the river exhibition closes at four, and our worksheet has to be handed in tomorrow.\nPloy: (1) ____\nIce: Start with the map room, because the worksheet asks which provinces the river passes through.\nPloy: I’ll take photos of the map. (2) ____\nIce: Two of them, one about the floods and one about the boats; the third case is being repaired.\nPloy: (3) ____\nIce: At the information desk, and they stamp it before we leave the building.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Where should we start looking?",
+    "d": [
+     "The river exhibition closes at four in the afternoon.",
+     "Why does the worksheet ask about the provinces?",
+     "The map room is crowded."
+    ],
+    "exp": "หลังช่อง (1) Ice บอกห้องที่ควรเริ่มและเหตุผล (Start with the map room, because the worksheet asks which provinces the river passes through) ช่อง (1) จึงต้องถามว่าจะเริ่มดูที่ไหน คือ “Where should we start looking?” ตัวเลือกแรกทวนเวลาปิดที่ Ice บอกแล้ว ตัวเลือกที่สองถามเหตุผลของใบงาน และตัวเลือกที่สามบ่นว่าห้องแผนที่คนเยอะ",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Start with… คือคำตอบของคำถามว่าจะเริ่มตรงไหน"
+   },
+   {
+    "blank": 2,
+    "key": "How many cases do we need to see?",
+    "d": [
+     "I photographed the map and the boats last time.",
+     "The third case is being repaired this month.",
+     "Who chooses the first case?"
+    ],
+    "exp": "หลังช่อง (2) Ice บอกจำนวนตู้ที่ต้องดูและหัวข้อของแต่ละตู้ (Two of them, one about the floods and one about the boats…) ช่อง (2) จึงต้องถามจำนวนตู้ คือ “How many cases do we need to see?” ตัวเลือกอื่นเล่าเรื่องการถ่ายรูป ให้ข้อมูลตู้ที่สาม หรือถามว่าใครเลือก",
+    "tip": "คำตอบที่ขึ้นต้นด้วยจำนวน (Two of them…) คือคำตอบของคำถามว่าต้องดูกี่จุด"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we get the sheet stamped?",
+    "d": [
+     "The information desk stamps worksheets every day.",
+     "Did we hand the worksheet in before we left?",
+     "I’ll wait at the desk for you."
+    ],
+    "exp": "หลังช่อง (3) Ice บอกสถานที่และขั้นตอนประทับตรา (At the information desk, and they stamp it before we leave the building) ช่อง (3) จึงต้องถามว่าจะประทับตราใบงานที่ไหน คือ “Where do we get the sheet stamped?” ตัวเลือกอื่นบอกว่าเคาน์เตอร์บริการประทับตราใบงานทุกวัน ถามว่าเราส่งใบงานก่อนออกจากอาคารแล้วหรือไม่ หรืออาสาไปรอที่เคาน์เตอร์ ซึ่งไม่มีข้อไหนตอบว่าต้องไปประทับตราที่ไหน",
+    "tip": "คำตอบที่ขึ้นต้นด้วยสถานที่ (At the…) คือคำตอบของคำถามว่าที่ไหน"
+   }
+  ]
+ }
+]

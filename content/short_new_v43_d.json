@@ -1,0 +1,336 @@
+[
+ {
+  "first": "S10-Q014",
+  "context": "Tle: Nun, the club meeting starts with the treasurer’s report, then we vote on next term’s plan.\nNun: (1) ____\nTle: The report takes ten minutes, and members can ask about the camera fund afterwards.\nNun: I’ll bring the photos from our last walk. (2) ____\nTle: Put them on the table by the door so new members can see what the club does.\nNun: (3) ____\nTle: Fifty baht for students and eighty for adults, and we collect it at the end of the meeting.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What happens after the report?",
+    "d": [
+     "The treasurer’s report takes ten minutes.",
+     "Why do members ask about the camera fund?",
+     "We voted on next term’s plan last meeting."
+    ],
+    "exp": "หลังช่อง (1) Tle บอกลำดับและเวลาของรายงาน พร้อมเรื่องที่สมาชิกถามได้ (The report takes ten minutes, and members can ask about the camera fund afterwards) ช่อง (1) จึงถามว่าจะเกิดอะไรต่อจากรายงาน คือ “What happens after the report?” ตัวเลือกอื่นทวนระยะเวลา ถามสาเหตุที่สมาชิกถาม หรืออ้างว่าโหวตไปแล้ว",
+    "tip": "คำตอบที่มีคำว่า afterwards บอกว่าช่องว่างถามถึงขั้นตอนถัดไป"
+   },
+   {
+    "blank": 2,
+    "key": "Where should I put the photos?",
+    "d": [
+     "I brought photos from our last walk too.",
+     "Is the table always full?",
+     "New members rarely look at the photos."
+    ],
+    "exp": "หลังช่อง (2) Tle บอกที่วางรูปและเหตุผล (Put them on the table by the door so new members can see what the club does) ช่อง (2) จึงถามว่าจะวางรูปที่ไหน คือ “Where should I put the photos?” ตัวเลือกอื่นเล่าว่าตัวเองเอารูปมาด้วย ถามว่าโต๊ะข้างประตูเต็มอยู่เสมอหรือไม่ และอ้างว่าสมาชิกใหม่ไม่ค่อยดูรูป ซึ่งไม่มีข้อไหนทำให้ Tle ต้องบอกที่วาง",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Put them on… คือคำตอบของคำถามว่าจะวางของไว้ที่ไหน"
+   },
+   {
+    "blank": 3,
+    "key": "How much is the membership fee?",
+    "d": [
+     "The club collected the fee at the last meeting.",
+     "About eighty adults joined.",
+     "Who keeps the money for the camera fund?"
+    ],
+    "exp": "หลังช่อง (3) Tle บอกราคาค่าสมาชิกและเวลาเก็บเงิน (Fifty baht for students and eighty for adults, and we collect it at the end of the meeting) ช่อง (3) จึงถามค่าสมาชิก คือ “How much is the membership fee?” ตัวเลือกอื่นเล่าว่าเก็บเงินครั้งก่อน อ้างจำนวนสมาชิกผู้ใหญ่ หรือถามว่าใครถือเงินกองกล้อง",
+    "tip": "คำตอบที่แยกราคาตามกลุ่มผู้จ่าย คือคำตอบของคำถามเรื่องค่าธรรมเนียม"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q011",
+  "context": "Pun: Jane, our club meeting has to choose one motion for the regional round tonight.\nJane: (1) ____\nPun: Members suggest two each, then we read them aloud and vote by a show of hands.\nJane: I’ll suggest the motion about school uniforms. (2) ____\nPun: The first speaker gets four minutes, and the closing speaker gets three.\nJane: (3) ____\nPun: After the vote, and the secretary emails the result to the regional office by Friday.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will we choose the motion?",
+    "d": [
+     "Each member suggests two motions for the round.",
+     "Why is the regional round held tonight?",
+     "Hands decide very little."
+    ],
+    "exp": "หลังช่อง (1) Pun อธิบายวิธีเลือกญัตติ (Members suggest two each, then we read them aloud and vote by a show of hands) ช่อง (1) จึงถามวิธีเลือก คือ “How will we choose the motion?” ตัวเลือกแรกทวนกติกาที่ Pun กำลังจะบอก ตัวเลือกที่สองสับสนระหว่างประชุมชมรมกับรอบภูมิภาค และตัวเลือกที่สามปฏิเสธการยกมือโหวต",
+    "tip": "คำตอบที่เรียงขั้นตอนแล้วจบด้วยการโหวต คือคำตอบของคำถามเรื่องวิธีตัดสินใจ"
+   },
+   {
+    "blank": 2,
+    "key": "How long does each speaker get?",
+    "d": [
+     "I spoke for four minutes at the last round.",
+     "The first speaker is usually from our club.",
+     "Who counts the minutes?"
+    ],
+    "exp": "หลังช่อง (2) Pun บอกเวลาพูดของแต่ละตำแหน่ง (The first speaker gets four minutes, and the closing speaker gets three) ช่อง (2) จึงถามเวลาพูด คือ “How long does each speaker get?” ตัวเลือกอื่นเล่าเรื่องตัวเอง พูดถึงที่มาของผู้พูดคนแรก หรือถามว่าใครจับเวลา",
+    "tip": "คำตอบที่บอกจำนวนนาทีต่อตำแหน่ง คือคำตอบของคำถามเรื่องเวลาพูด"
+   },
+   {
+    "blank": 3,
+    "key": "When will the result be sent?",
+    "d": [
+     "The secretary emailed the result last Friday.",
+     "Does the regional office close after the vote?",
+     "I’ll send the result myself."
+    ],
+    "exp": "หลังช่อง (3) Pun บอกจังหวะและส่งผล (After the vote, and the secretary emails the result to the regional office by Friday) ช่อง (3) จึงถามว่าผลจะถูกส่งเมื่อไหร่ คือ “When will the result be sent?” ตัวเลือกอื่นเล่าว่าเลขาส่งผลเมื่อวันศุกร์ก่อน ถามว่าสำนักงานภูมิภาคปิดหลังการโหวตหรือไม่ และอาสาส่งผลไปสำนักงานเอง",
+    "tip": "คำตอบที่บอกเวลาและคนส่ง คือคำตอบของคำถามว่าผลจะไปถึงเมื่อไหร่"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q017",
+  "context": "Ope: Lek, the community garden splits the beds again this month, and the compost is ready.\nLek: (1) ____\nOpe: Beds one to four go to the herb group, and the rest stay with the vegetable team.\nLek: I’m on the vegetable team. (2) ____\nOpe: Water before eight in the morning, and write your name on the rota by the tap.\nLek: The compost smells strong. (3) ____\nOpe: Mix it with dry leaves, then leave it for two weeks before we put it on the beds.\nLek: (4) ____\nOpe: Yes, the key hangs in the shed, but please return it before the gate closes at six.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How are all the beds divided this month?",
+    "d": [
+     "The community garden has eight beds this month.",
+     "Why does the herb group want four beds?",
+     "The vegetable team took beds one to four."
+    ],
+    "exp": "หลังช่อง (1) Ope บอกการแบ่งแปลง (Beds one to four go to the herb group, and the rest stay with the vegetable team) ช่อง (1) จึงถามวิธีแบ่งแปลง คือ “How are all the beds divided this month?” ตัวเลือกแรกอ้างจำนวนแปลงที่ไม่มีในบท ตัวเลือกที่สองถามเหตุผลของกลุ่มสมุนไพร และตัวเลือกที่สามสลับว่าทีมผักได้แปลงหนึ่งถึงสี่",
+    "tip": "คำตอบที่ระบุว่าแปลงไหนเป็นของกลุ่มใด คือคำตอบของคำถามเรื่องการแบ่งพื้นที่"
+   },
+   {
+    "blank": 2,
+    "key": "When should we water the beds?",
+    "d": [
+     "I watered the beds before eight yesterday.",
+     "The rota by the tap has everyone’s names.",
+     "Who is on the vegetable team?"
+    ],
+    "exp": "หลังช่อง (2) Ope บอกเวลารดน้ำและให้ลงชื่อ (Water before eight in the morning, and write your name on the rota by the tap) ช่อง (2) จึงถามเวลารดน้ำ คือ “When should we water the beds?” ตัวเลือกอื่นเล่าว่ารดไปแล้ว พูดถึงรายชื่อในตารางเวร หรือถามว่าใครอยู่ทีมผัก",
+    "tip": "คำตอบที่บอกเวลาก่อนกี่โมง คือคำตอบของคำถามว่าควรรดน้ำเมื่อไหร่"
+   },
+   {
+    "blank": 3,
+    "key": "How do we use the compost?",
+    "d": [
+     "The compost is ready.",
+     "Do dry leaves always smell strong in the shed?",
+     "We put the compost on the beds last month."
+    ],
+    "exp": "หลังช่อง (3) Ope บอกวิธีใช้ปุ๋ยหมัก (Mix it with dry leaves, then leave it for two weeks before we put it on the beds) ช่อง (3) จึงถามวิธีใช้ คือ “How do we use the compost?” ตัวเลือกอื่นอ้างว่าปุ๋ยหมักพร้อมใช้มาสองสัปดาห์แล้ว ถามว่าใบไม้แห้งมีกลิ่นแรงในห้องเก็บของเสมอหรือไม่ และเล่าว่าใส่ปุ๋ยลงแปลงไปเมื่อเดือนก่อน",
+    "tip": "คำตอบที่บอกขั้นตอนผสมและพักไว้ คือคำตอบของคำถามเรื่องวิธีใช้วัสดุ"
+   },
+   {
+    "blank": 4,
+    "key": "Must I return the key before six?",
+    "d": [
+     "The gate closes at six.",
+     "Did I return the key before the gate closed?",
+     "Only one key hangs in the garden shed."
+    ],
+    "exp": "Ope ตอบว่า “Yes, the key hangs in the shed, but please return it before the gate closes at six.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามขออนุญาตหยิบกุญแจ คือ “Must I return the key before six?” ตัวเลือกอื่นบอกว่าประตูปิดหกโมงเย็น ถามว่าฉันคืนกุญแจก่อนประตูปิดหรือไม่ และอ้างว่ามีกุญแจดอกเดียวในห้องเก็บของ ซึ่ง Ope ไม่ได้ตอบ แต่ตอบ Yes กับคำถามว่าต้องคืนก่อนหกโมงไหม",
+    "tip": "คำตอบที่มี Yes ตามด้วยเงื่อนไข (but…) แปลว่าช่องว่างเป็นคำถามขออนุญาต"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q014",
+  "context": "Aim: Keng, our class garden lesson starts with measuring the beans, then we look for pests.\nKeng: (1) ____\nAim: Each group measures three plants and writes the height on the board in centimetres.\nKeng: My group found small holes in the leaves. (2) ____\nAim: Take a photo and tell the gardener, but do not pull the leaves off the plant.\nKeng: (3) ____\nAim: On Friday, and we bring the seedlings back to the shelf near the water tank.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How do we measure the plants?",
+    "d": [
+     "Each group has three plants.",
+     "Why are the heights written in centimetres?",
+     "The board is where the gardener writes."
+    ],
+    "exp": "หลังช่อง (1) Aim บอกวิธีวัดและหน่วยที่ใช้ (Each group measures three plants and writes the height on the board in centimetres) ช่อง (1) จึงถามวิธีวัด คือ “How do we measure the plants?” ตัวเลือกแรกทวนจำนวนต้น ตัวเลือกที่สองถามเรื่องหน่วยที่ยังไม่ถูกพูดถึง และตัวเลือกที่สามอ้างว่ากระดานเป็นของคนสวน",
+    "tip": "คำตอบที่บอกจำนวนต่อกลุ่มและที่จดผล คือคำตอบของคำถามเรื่องวิธีการวัด"
+   },
+   {
+    "blank": 2,
+    "key": "What must we do about the holes?",
+    "d": [
+     "Do small holes mean growth?",
+     "I pulled two leaves off the plant already.",
+     "The gardener took a photo of the leaves."
+    ],
+    "exp": "หลังช่อง (2) Aim บอกสิ่งที่ต้องทำและข้อห้าม (Take a photo and tell the gardener, but do not pull the leaves off the plant) ช่อง (2) จึงถามว่าจะทำยังไงกับรูที่ใบ คือ “What must we do about the holes?” ตัวเลือกอื่นถามว่ารูเล็กๆ ที่ใบแปลว่าต้นถั่วโตขึ้นหรือไม่ เล่าว่าเด็ดใบออกจากต้นไปสองใบแล้ว และบอกว่าคนสวนถ่ายรูปใบไว้แล้ว",
+    "tip": "คำตอบที่มีทั้งคำสั่งและข้อห้าม (but do not…) คือคำตอบของคำถามว่าจะจัดการปัญหาที่พบอย่างไร"
+   },
+   {
+    "blank": 3,
+    "key": "When do we bring them back?",
+    "d": [
+     "We brought the seedlings back on Friday.",
+     "Is the shelf full?",
+     "I’ll carry the seedlings to the shelf."
+    ],
+    "exp": "หลังช่อง (3) Aim บอกวันและที่ให้เอาต้นกล้ากลับ (On Friday, and we bring the seedlings back to the shelf near the water tank) ช่อง (3) จึงถามเวลา คือ “When do we bring them back?” ตัวเลือกอื่นเล่าว่าเอาต้นกล้ากลับเมื่อวันศุกร์ ถามว่าชั้นข้างถังน้ำเต็มหรือไม่ และอาสาถือต้นกล้าไปชั้นวางเอง",
+    "tip": "คำตอบที่ขึ้นต้นด้วยวัน (On Friday) คือคำตอบของคำถามว่าเมื่อไหร่"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q011",
+  "context": "Boss: Ink, the digital safety workshop needs everyone to bring a phone and a notebook.\nInk: (1) ____\nBoss: The trainer shows how to build a password, then we test two phishing emails together.\nInk: I saved the two emails already. (2) ____\nBoss: Do not open the links, because the workshop laptop records what happens when you click.\nInk: (3) ____\nBoss: In room 302, and the trainer starts at one, so please arrive by twelve forty-five.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What will the workshop cover?",
+    "d": [
+     "The trainer builds a password on the laptop.",
+     "Why test phishing emails?",
+     "Two phishing emails are enough for everyone."
+    ],
+    "exp": "หลังช่อง (1) Boss เล่าเนื้อหาของเวิร์กชอป (The trainer shows how to build a password, then we test two phishing emails together) ช่อง (1) จึงถามว่าเวิร์กชอปสอนอะไร คือ “What will the workshop cover?” ตัวเลือกอื่นอ้างว่าผู้สอนตั้งรหัสบนแล็ปท็อป ถามเหตุผลที่ต้องทดสอบพร้อมกัน หรือให้ความเห็นว่าสองฉบับพอ",
+    "tip": "คำตอบที่เรียงหัวข้อการสอนสองอย่าง คือคำตอบของคำถามเรื่องเนื้อหาของกิจกรรม"
+   },
+   {
+    "blank": 2,
+    "key": "Should I open the links in them?",
+    "d": [
+     "I opened the links before saving the emails.",
+     "The workshop laptop records every click.",
+     "Who records the clicks?"
+    ],
+    "exp": "หลังช่อง (2) Boss ห้ามและให้เหตุผล (Do not open the links, because the workshop laptop records what happens when you click) ช่อง (2) จึงถามว่าควรเปิดลิงก์ไหม คือ “Should I open the links in them?” ตัวเลือกอื่นเล่าว่าเปิดไปแล้ว บอกสิ่งที่แล็ปท็อปบันทึก หรือถามว่าใครบันทึก",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Do not… คือคำตอบของคำถามที่ขอความมั่นใจว่าควรทำสิ่งนั้นหรือไม่"
+   },
+   {
+    "blank": 3,
+    "key": "Which room, and what time?",
+    "d": [
+     "Is room 302 free until twelve forty-five?",
+     "The trainer starts at one in the afternoon.",
+     "I’ll arrive before one."
+    ],
+    "exp": "หลังช่อง (3) Boss บอกห้อง เวลาเริ่ม และเวลาที่ให้มาถึง (In room 302, and the trainer starts at one, so please arrive by twelve forty-five) ช่อง (3) จึงถามห้องและเวลา คือ “Which room, and what time?” ตัวเลือกอื่นถามว่าห้อง 302 ว่างถึงสิบสองนาฬิกาสี่สิบห้าหรือไม่ บอกว่าผู้สอนเริ่มบ่ายโมง และอาสาไปถึงห้องก่อนบ่ายโมง ซึ่ง Boss ไม่ได้ตอบ เพราะเขากลับบอกห้องและเวลาที่ให้มาถึง",
+    "tip": "คำตอบที่บอกห้องตามด้วยเวลาเริ่ม คือคำตอบของคำถามที่ถามทั้งสองอย่าง"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q017",
+  "context": "Nan: Pop, the workshop for parents is on Saturday, and the hall seats only sixty people.\nPop: (1) ____\nNan: Parents register online, and we print the list at the desk before the doors open.\nPop: My mother wants to come. (2) ____\nNan: Two seats per family, and she should bring the phone she is worried about.\nPop: Some parents cannot read the slides from the back. (3) ____\nNan: Then we move the screen lower and print the last slide as a handout for them.\nPop: (4) ____\nNan: Yes, tell them to report it to the school page, and we forward it to the trainer.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How do parents register for it?",
+    "d": [
+     "The hall seats only sixty.",
+     "Why is the list printed before the doors open?",
+     "Parents registered online for the last workshop."
+    ],
+    "exp": "หลังช่อง (1) Nan บอกช่องทางลงทะเบียนและขั้นตอนที่โต๊ะ (Parents register online, and we print the list at the desk before the doors open) ช่อง (1) จึงถามวิธีลงทะเบียน คือ “How do parents register for it?” ตัวเลือกอื่นทวนความจุห้อง ถามเหตุผลเรื่องการพิมพ์รายชื่อ หรือเล่าเรื่องการลงทะเบียนครั้งก่อน",
+    "tip": "คำตอบที่บอกช่องทาง (online) และขั้นตอนหน้างาน คือคำตอบของคำถามเรื่องวิธีลงทะเบียน"
+   },
+   {
+    "blank": 2,
+    "key": "How many seats can a family take?",
+    "d": [
+     "My mother brought her phone.",
+     "Two seats per family is enough for us.",
+     "Who worries about the phone she brings?"
+    ],
+    "exp": "หลังช่อง (2) Nan จำกัดที่นั่งและบอกของที่ให้พามา (Two seats per family, and she should bring the phone she is worried about) ช่อง (2) จึงถามจำนวนที่นั่งต่อครอบครัว คือ “How many seats can a family take?” ตัวเลือกอื่นเล่าเรื่องแม่ของตัวเอง ให้ความเห็นว่าสองที่พอ หรือถามว่าใครกังวลเรื่องโทรศัพท์",
+    "tip": "คำตอบที่ขึ้นต้นด้วยจำนวนต่อหน่วย (Two seats per family) คือคำตอบของคำถามเรื่องโควตา"
+   },
+   {
+    "blank": 3,
+    "key": "What can we do about the back seats?",
+    "d": [
+     "Some parents cannot read the slides at all.",
+     "Is the screen lower?",
+     "We printed the handout for the back seats."
+    ],
+    "exp": "หลังช่อง (3) Nan เสนอทางแก้ (Then we move the screen lower and print the last slide as a handout for them) ช่อง (3) จึงถามว่าจะทำอะไรกับที่นั่งแถวหลัง คือ “What can we do about the back seats?” ตัวเลือกอื่นย้ำว่าผู้ปกครองบางกลุ่มอ่านสไลด์ไม่ออกเลย ถามว่าจออยู่ต่ำกว่าสไลด์หน้าสุดท้ายหรือไม่ และเล่าว่าพิมพ์เอกสารแจกแถวหลังไปแล้ว",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Then we… คือทางแก้ของปัญหาที่พูดไว้ก่อนหน้า"
+   },
+   {
+    "blank": 4,
+    "key": "Should they report it to the school page?",
+    "d": [
+     "The school page forwards reports to trainers.",
+     "I told them to report it last Saturday.",
+     "Does the trainer keep the school page open?"
+    ],
+    "exp": "Nan ตอบว่า “Yes, tell them to report it to the school page, and we forward it to the trainer.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no เรื่องการแจ้งเรื่อง คือ “Should they report it to the school page?” ตัวเลือกอื่นบอกว่าเพจของโรงเรียนส่งรายงานต่อให้ผู้สอน เล่าว่าบอกให้พวกเขารายงานเมื่อวันเสาร์ก่อน และถามว่าผู้สอนเปิดเพจโรงเรียนไว้หรือไม่",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Yes แล้วตามด้วยสิ่งที่ต้องบอกต่อ แสดงว่าช่องว่างถามว่าควรให้เขาทำสิ่งนั้นหรือไม่"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q014",
+  "context": "Peak: Mind, our class fundraiser sells cold drinks on Friday, and we need a shift table.\nMind: (1) ____\nPeak: Four students per shift, and each shift is one hour between eleven and two.\nMind: I can take the first shift. (2) ____\nPeak: Twenty baht a cup, and the money goes into the box that the teacher keeps.\nMind: (3) ____\nPeak: Two boxes of cups and one bag of ice, and the shop delivers them at ten.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will the shifts be arranged?",
+    "d": [
+     "Four students took the first shift last year.",
+     "Why does the fundraiser sell cold drinks?",
+     "One hour is hardly enough."
+    ],
+    "exp": "หลังช่อง (1) Peak บอกจำนวนคนและช่วงเวลาต่อกะ (Four students per shift, and each shift is one hour between eleven and two) ช่อง (1) จึงถามการจัดกะ คือ “How will the shifts be arranged?” ตัวเลือกอื่นเล่าเรื่องปีก่อน ถามเหตุผลที่ขายน้ำเย็น หรือวิจารณ์ว่าหนึ่งชั่วโมงไม่พอ",
+    "tip": "คำตอบที่บอกจำนวนคนต่อกะและช่วงเวลา คือคำตอบของคำถามเรื่องตารางเวร"
+   },
+   {
+    "blank": 2,
+    "key": "How much is a cup, and where’s the money?",
+    "d": [
+     "The teacher keeps the box under the table.",
+     "I took the first shift and sold twenty cups.",
+     "Who counts the money after two o’clock?"
+    ],
+    "exp": "หลังช่อง (2) Peak บอกราคาและที่เก็บเงิน (Twenty baht a cup, and the money goes into the box that the teacher keeps) ช่อง (2) จึงถามราคาและปลายทางของเงิน คือ “How much is a cup, and where’s the money?” ตัวเลือกอื่นบอกตำแหน่งกล่อง เล่าว่าตัวเองขายได้กี่แก้ว หรือถามว่าใครนับเงิน",
+    "tip": "คำตอบที่มีทั้งราคาต่อหน่วยและที่เก็บเงิน คือคำตอบของคำถามสองส่วน"
+   },
+   {
+    "blank": 3,
+    "key": "What must we still order?",
+    "d": [
+     "The shop delivered the cups at ten last time.",
+     "Does the ice melt fast?",
+     "We need a table for the drinks, too."
+    ],
+    "exp": "หลังช่อง (3) Peak บอกของที่ต้องสั่งและเวลาส่ง (Two boxes of cups and one bag of ice, and the shop delivers them at ten) ช่อง (3) จึงถามว่ายังขาดอะไร คือ “What must we still order?” ตัวเลือกอื่นเล่าว่าร้านส่งถ้วยมาตอนสิบโมงครั้งก่อน ถามว่าน้ำแข็งหนึ่งถุงละลายก่อนบ่ายสองหรือไม่ และบอกว่ายังต้องใช้โต๊ะวางเครื่องดื่มด้วย",
+    "tip": "คำตอบที่นับจำนวนของที่ต้องสั่ง คือคำตอบของคำถามว่ายังขาดอุปกรณ์อะไร"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q011",
+  "context": "Win: Nook, the class fundraiser stall runs beside the library, and we sell books and small plants.\nNook: (1) ____\nWin: Books on the left table, plants on the right, and the price list stands in the middle.\nNook: I have thirty books and six plants to sell. (2) ____\nWin: Bring small change, because most buyers pay with a hundred-baht note.\nNook: (3) ____\nWin: We give the plants back to the garden club, and the books go to the donation box.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How should we set out the stall?",
+    "d": [
+     "The stall runs beside the library all day.",
+     "Why are the plants smaller than the books?",
+     "Thirty books fit on the table."
+    ],
+    "exp": "หลังช่อง (1) Win บอกการจัดโต๊ะ (Books on the left table, plants on the right, and the price list stands in the middle) ช่อง (1) จึงถามวิธีจัดร้าน คือ “How should we set out the stall?” ตัวเลือกอื่นอ้างว่าร้านเปิดทั้งวัน ถามขนาดของต้นไม้ หรือบอกว่าหนังสือสามสิบเล่มวางได้พอดี",
+    "tip": "คำตอบที่บอกซ้าย/ขวา/กลาง คือคำตอบของคำถามเรื่องการจัดวาง"
+   },
+   {
+    "blank": 2,
+    "key": "Must we bring small change?",
+    "d": [
+     "I brought six plants and thirty books.",
+     "Small change is heavy to carry around.",
+     "Who keeps the book money?"
+    ],
+    "exp": "หลังช่อง (2) Win บอกให้เตรียมเงินทอนพร้อมเหตุผล (Bring small change, because most buyers pay with a hundred-baht note) ช่อง (2) จึงถามว่าต้องเตรียมเงินทอนไหม คือ “Must we bring small change?” ตัวเลือกอื่นทวนจำนวนของที่จะขาย บ่นว่าเงินทอนหนัก หรือถามว่าใครถือเงินค่าหนังสือ",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Bring… พร้อมเหตุผลเรื่องธนบัตร คือคำตอบของคำถามเรื่องการเตรียมเงินทอน"
+   },
+   {
+    "blank": 3,
+    "key": "What happens to all that is left?",
+    "d": [
+     "The garden club took the plants back once.",
+     "Is the donation box nearby?",
+     "I’ll carry the leftover books to the box."
+    ],
+    "exp": "หลังช่อง (3) Win บอกทางออกของของที่เหลือ (We give the plants back to the garden club, and the books go to the donation box) ช่อง (3) จึงถามว่าจะทำยังไงกับของที่ขายไม่หมด คือ “What happens to all that is left?” ตัวเลือกอื่นเล่าว่าชมรมสวนเคยรับต้นไม้คืนครั้งหนึ่ง ถามว่ากล่องรับบริจาคอยู่ข้างห้องสมุดหรือไม่ และอาสาถือหนังสือที่เหลือไปใส่กล่องเอง",
+    "tip": "คำตอบที่บอกว่าของที่เหลือไปอยู่ที่ไหน คือคำตอบของคำถามเรื่องการจัดการของเหลือ"
+   }
+  ]
+ }
+]

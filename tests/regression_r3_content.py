@@ -129,4 +129,17 @@ _ql=sum(len(q['options'][q['answer']])==max(map(len,q['options'])) for q in by['
 _qsh=sum(len(q['options'][q['answer']])==min(map(len,q['options'])) for q in by['qr'])/len(by['qr'])
 check('Q-R: key is the longest option <=25% (v43 Claude 0.275, Arena round 2 0.205)',_ql<=0.25,f'{_ql:.3f}')
 check('Q-R: key is the shortest option <=30% (v43 Claude 0.270)',_qsh<=0.30,f'{_qsh:.3f}')
+# G-J: Short conversation dialogues must not be near-duplicates of each other
+# (Arena round 2 found only 20 situations behind 200 items: each was copied three times
+#  with different speaker names, word-overlap Jaccard up to 0.94, so reading one dialogue
+#  answered the other two. 40 dialogues replaced -> 60 distinct, worst pair 0.192.)
+_sc=collections.Counter(q['context'] for q in by['short'])
+check('Short: 60 distinct dialogues for 200 items (Arena round 2: 20)',len(_sc)==60,len(_sc))
+_SW={c:{w for w in re.findall(r"[a-z]+",c.lower()) if w not in _st and len(w)>2} for c in _sc}
+_smx=max((len(_SW[a]&_SW[b])/len(_SW[a]|_SW[b]),a[:24],b[:24]) for a,b in _it.combinations(_SW,2))
+check('Short: no dialogue pair with word overlap >0.30 (Arena round 2: 0.939)',_smx[0]<=0.30,f'{_smx[0]:.3f}')
+_sl=sum(len(q['options'][q['answer']])==max(map(len,q['options'])) for q in by['short'])/len(by['short'])
+check('Short: key is the longest option <=10% (Arena round 2: 0.000)',_sl<=0.10,f'{_sl:.3f}')
+_ssh=sum(len(q['options'][q['answer']])==min(map(len,q['options'])) for q in by['short'])/len(by['short'])
+check('Short: key is the shortest option <=30% (v42.0.1 0.000, Arena round 2 first draft 0.888)',_ssh<=0.30,f'{_ssh:.3f}')
 f=[r for r in R if not r[1]];print(f'\nregression_r3_content: {len(R)-len(f)}/{len(R)} passed');sys.exit(1 if f else 0)

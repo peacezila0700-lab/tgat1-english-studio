@@ -1,0 +1,347 @@
+[
+ {
+  "first": "S11-Q017",
+  "context": "Guy: Fern, our home-economics group has to finish the spring rolls before the open house starts at nine.\nFern: (1) ____\nGuy: We roll forty pieces, fry them in two batches, and put the sauce in small cups.\nFern: I can roll the pieces. (2) ____\nGuy: Fry each batch for four minutes, then drain them on the paper by the sink.\nFern: The oil looks old. (3) ____\nGuy: Ask the teacher for a fresh bottle, because we do not reuse oil in this room.\nFern: (4) ____\nGuy: Yes, put the cups on the tray first, but keep them away from the hot pan.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What are our tasks this morning?",
+    "d": [
+     "Forty pieces are already fried and drained.",
+     "Why does it start at nine?",
+     "We cooked spring rolls for the last open house."
+    ],
+    "exp": "หลังช่อง (1) Guy เล่างานทั้งหมดของกลุ่ม (We roll forty pieces, fry them in two batches, and put the sauce in small cups) ช่อง (1) จึงถามว่าเช้านี้มีงานอะไร คือ “What are our tasks this morning?” ตัวเลือกอื่นอ้างว่าทอดเสร็จแล้ว ถามเวลาเปิดงาน หรือเล่าเรื่องการเปิดบ้านครั้งก่อน",
+    "tip": "คำตอบที่เรียงงานสามอย่าง คือคำตอบของคำถามว่าต้องทำอะไรบ้าง"
+   },
+   {
+    "blank": 2,
+    "key": "How long does each batch take?",
+    "d": [
+     "I fried the first batch for four minutes.",
+     "Two batches are enough.",
+     "Who drains the spring rolls by the sink?"
+    ],
+    "exp": "หลังช่อง (2) Guy บอกเวลาทอดและขั้นตอนสะเด็ดน้ำมัน (Fry each batch for four minutes, then drain them on the paper by the sink) ช่อง (2) จึงถามเวลาต่อรอบ คือ “How long does each batch take?” ตัวเลือกอื่นเล่าว่าตัวเองทอดไปแล้ว ให้ความเห็นว่าสองรอบพอ หรือถามว่าใครสะเด็ดน้ำมัน",
+    "tip": "คำตอบที่มีตัวเลขเวลาแล้วตามด้วยขั้นตอนถัดไป คือคำตอบของคำถามว่าใช้เวลานานแค่ไหน"
+   },
+   {
+    "blank": 3,
+    "key": "Should we use the old oil?",
+    "d": [
+     "I asked the teacher.",
+     "The oil in this room has been used twice.",
+     "Does old oil make the rolls taste better?"
+    ],
+    "exp": "หลังช่อง (3) Guy บอกให้ขอขวดใหม่พร้อมเหตุผล (Ask the teacher for a fresh bottle, because we do not reuse oil in this room) ช่อง (3) จึงถามว่าควรใช้น้ำมันเก่าไหม คือ “Should we use the old oil?” ตัวเลือกอื่นเล่าว่าขอขวดใหม่จากครูแล้ว บอกว่าน้ำมันในห้องนี้ถูกใช้สองครั้ง และถามว่าน้ำมันเก่าทำให้ปอเปี๊ยะอร่อยขึ้นหรือไม่ ซึ่ง Guy ไม่ได้ตอบ",
+    "tip": "คำตอบที่เป็นคำสั่งพร้อมเหตุผล (because…) มักตอบคำถามที่ขอความมั่นใจว่าควรทำหรือไม่"
+   },
+   {
+    "blank": 4,
+    "key": "Can I put the sauce cups on the tray?",
+    "d": [
+     "The sauce cups go on the tray beside the sink.",
+     "Did I put the cups on the tray before you fried?",
+     "Only the teacher may touch it."
+    ],
+    "exp": "Guy ตอบว่า “Yes, put the cups on the tray first, but keep them away from the hot pan.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามขออนุญาตวางถ้วยน้ำจิ้ม คือ “Can I put the sauce cups on the tray?” ตัวเลือกอื่นบอกว่าถ้วยน้ำจิ้มวางบนถาดข้างอ่างล้างจาน ถามว่าฉันวางถ้วยบนถาดก่อนที่คุณจะทอดหรือไม่ และอ้างว่ามีแต่ครูที่จับถาดน้ำจิ้มได้",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Yes แล้วตามด้วยเงื่อนไข but… แสดงว่าช่องว่างเป็นคำถามขออนุญาต"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q014",
+  "context": "Ton: Meen, the charity lunch needs our soup station ready in the school hall by eleven.\nMeen: (1) ____\nTon: Two of us heat the soup, one ladles it, and the last one hands out the bread.\nMeen: I’ll ladle the soup. (2) ____\nTon: Fill each bowl to the line, and wipe the ladle on the cloth after every ten bowls.\nMeen: (3) ____\nTon: Behind the hall door, and we take the trolley back to the kitchen at two.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will we share the station work?",
+    "d": [
+     "Two of us heated the soup last year.",
+     "Why is the charity lunch in the hall?",
+     "The bread goes out first."
+    ],
+    "exp": "หลังช่อง (1) Ton บอกการแบ่งหน้าที่สี่คน (Two of us heat the soup, one ladles it, and the last one hands out the bread) ช่อง (1) จึงถามวิธีแบ่งงานที่สถานี คือ “How will we share the station work?” ตัวเลือกอื่นเล่าเรื่องปีที่แล้ว ถามเหตุผลเรื่องสถานที่ หรือบอกว่าขนมปังออกก่อนซุป",
+    "tip": "คำตอบที่บอกว่าใครทำอะไร คือคำตอบของคำถามเรื่องการแบ่งหน้าที่"
+   },
+   {
+    "blank": 2,
+    "key": "How full should each bowl be?",
+    "d": [
+     "I filled each bowl to the line already.",
+     "Wipe the ladle on the cloth.",
+     "Who counts the bowls we hand out?"
+    ],
+    "exp": "หลังช่อง (2) Ton บอกระดับการตักและการดูแลทัพพี (Fill each bowl to the line, and wipe the ladle on the cloth after every ten bowls) ช่อง (2) จึงถามว่าตักแค่ไหน คือ “How full should each bowl be?” ตัวเลือกอื่นเล่าว่าตักไปแล้ว บอกว่าทัพพีถูกเช็ด หรือถามว่าใครนับชาม",
+    "tip": "คำตอบที่บอกระดับ (to the line) คือคำตอบของคำถามว่าควรตักเท่าใด"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we leave the trolley?",
+    "d": [
+     "We left the trolley behind the hall door.",
+     "The trolley goes back to the kitchen at two.",
+     "Who locks the hall door?"
+    ],
+    "exp": "หลังช่อง (3) Ton บอกที่จอดและเวลาเก็บรถเข็น (Behind the hall door, and we take the trolley back to the kitchen at two) ช่อง (3) จึงถามว่าจะจอดรถเข็นไว้ที่ไหน คือ “Where do we leave the trolley?” ตัวเลือกอื่นเล่าว่าเราจอดรถเข็นไว้หลังประตูหอประชุม บอกว่ารถเข็นกลับครัวตอนบ่ายสอง และถามว่าใครล็อกประตูหอประชุมตอนบ่ายสอง ซึ่ง Ton ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยสถานที่ (Behind…) คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q011",
+  "context": "Pim: Nok, the alumni career talk is on Friday, and our guest is an engineer who builds bridges.\nNok: (1) ____\nPim: She talks for twenty minutes, then Grade 11 students ask her three questions each.\nNok: I’ll stand at the door with the sign-in sheet. (2) ____\nPim: Count the names on the sheet, and give the total to the counsellor after the talk.\nNok: (3) ____\nPim: In the small hall, and we set out forty chairs before she arrives at half past eight.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What will the talk be like?",
+    "d": [
+     "Our guest builds bridges for a living.",
+     "Why three questions each?",
+     "The engineer talked to Grade 11 last year."
+    ],
+    "exp": "หลังช่อง (1) Pim เล่ารูปแบบการบรรยาย (She talks for twenty minutes, then Grade 11 students ask her three questions each) ช่อง (1) จึงถามว่าการเสวนาจะเป็นแบบไหน คือ “What will the talk be like?” ตัวเลือกอื่นทวนอาชีพของวิทยากร ถามเหตุผลเรื่องจำนวนคำถาม หรือเล่าว่าวิศวกรเคยมาพูดปีที่แล้ว",
+    "tip": "คำตอบที่บอกเวลาพูดแล้วตามด้วยการถามตอบ คือคำตอบของคำถามเรื่องรูปแบบกิจกรรม"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do with the sheet?",
+    "d": [
+     "I already counted the names on the sign-in sheet.",
+     "The counsellor keeps every sign-in sheet.",
+     "Who gives her the total?"
+    ],
+    "exp": "หลังช่อง (2) Pim บอกสิ่งที่ต้องทำกับใบลงชื่อ (Count the names on the sheet, and give the total to the counsellor after the talk) ช่อง (2) จึงถามว่าจะทำอะไรกับใบนั้น คือ “What should I do with the sheet?” ตัวเลือกอื่นเล่าว่านับแล้ว บอกว่าอาจารย์เก็บใบลงชื่อทุกใบ หรือถามว่าใครส่งยอดรวม",
+    "tip": "คำตอบที่ขึ้นต้นด้วยกริยาสั่ง (Count…) คือคำตอบของคำถามว่าจะต้องทำอะไรกับสิ่งของนั้น"
+   },
+   {
+    "blank": 3,
+    "key": "Which hall, and how many chairs?",
+    "d": [
+     "Does it hold forty chairs?",
+     "We set out the chairs before half past eight.",
+     "I’ll carry the chairs to the small hall."
+    ],
+    "exp": "หลังช่อง (3) Pim บอกห้องและจำนวนเก้าอี้พร้อมเวลาเตรียม (In the small hall, and we set out forty chairs before she arrives at half past eight) ช่อง (3) จึงถามห้องและจำนวนเก้าอี้ คือ “Which hall, and how many chairs?” ตัวเลือกอื่นถามว่าหอประชุมเล็กจุเก้าอี้สี่สิบตัวหรือไม่ บอกว่าจัดเก้าอี้ก่อนแปดโมงครึ่ง และอาสาขนเก้าอี้ไปหอประชุมเล็ก ซึ่ง Pim ไม่ได้ตอบ เพราะเธอบอกห้องและจำนวนเก้าอี้ที่ต้องจัด",
+    "tip": "คำตอบที่บอกสถานที่แล้วตามด้วยจำนวน คือคำตอบของคำถามสองส่วน"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q017",
+  "context": "Tee: Ploy, our career talk this time is a video call with a nurse, and the library closes at four.\nPloy: (1) ____\nTee: She answers questions for thirty minutes, and we record the call so other classes can watch it.\nPloy: I’ll test the screen and the microphone. (2) ____\nTee: Test both at one, then leave the laptop on the front desk where the teacher can see it.\nPloy: Some students cannot hear the call from the back. (3) ____\nTee: Then move the laptop to the middle table and ask them to sit in two rows.\nPloy: (4) ____\nTee: Yes, send the recording to the class page tonight, but check the sound before you post it.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will the talk work this time?",
+    "d": [
+     "The nurse answered our questions last term.",
+     "Why does the library close?",
+     "A video call is shorter than thirty minutes."
+    ],
+    "exp": "หลังช่อง (1) Tee อธิบายรูปแบบการเสวนาครั้งนี้ (She answers questions for thirty minutes, and we record the call so other classes can watch it) ช่อง (1) จึงถามว่าการเสวนาครั้งนี้จะทำอย่างไร คือ “How will the talk work this time?” ตัวเลือกอื่นเล่าเรื่องเทอมก่อน ถามเวลาปิดห้องสมุด หรืออ้างว่าวิดีโอคอลสั้นกว่าสามสิบนาที",
+    "tip": "คำตอบที่บอกระยะเวลาแล้วตามด้วยสิ่งที่บันทึกไว้ คือคำตอบของคำถามเรื่องวิธีดำเนินการ"
+   },
+   {
+    "blank": 2,
+    "key": "When should I test the equipment?",
+    "d": [
+     "I tested the screen and the microphone.",
+     "The laptop stays on the desk.",
+     "Who watches the laptop on the front desk?"
+    ],
+    "exp": "หลังช่อง (2) Tee บอกเวลาทดสอบและที่ให้วางคอมพิวเตอร์ (Test both at one, then leave the laptop on the front desk where the teacher can see it) ช่อง (2) จึงถามเวลาทดสอบอุปกรณ์ คือ “When should I test the equipment?” ตัวเลือกอื่นเล่าว่าทดสอบแล้ว บอกว่าแล็ปท็อปอยู่โต๊ะหน้า หรือถามว่าใครดูแลเครื่อง",
+    "tip": "คำตอบที่ขึ้นต้นด้วยเวลา (at one) คือคำตอบของคำถาม When"
+   },
+   {
+    "blank": 3,
+    "key": "What can we do about the sound?",
+    "d": [
+     "Students in two rows cannot hear the call.",
+     "Is the middle table closer?",
+     "I’ll move the laptop to the middle table."
+    ],
+    "exp": "หลังช่อง (3) Tee เสนอทางแก้ปัญหาเสียง (Then move the laptop to the middle table and ask them to sit in two rows) ช่อง (3) จึงถามว่าจะจัดการเรื่องเสียงอย่างไร คือ “What can we do about the sound?” ตัวเลือกอื่นย้ำว่านักเรียนสองแถวหลังไม่ได้ยินเสียง ถามว่าโต๊ะกลางอยู่ใกล้จอกว่าหรือไม่ และอาสาเลื่อนแล็ปท็อปไปโต๊ะกลางเอง",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Then… คือทางแก้ของปัญหาที่ผู้พูดคนก่อนเพิ่งยกมา"
+   },
+   {
+    "blank": 4,
+    "key": "Must I post the recording tonight?",
+    "d": [
+     "The class page posts nightly.",
+     "Did I post the recording before checking it?",
+     "Only the teacher may post to the class page."
+    ],
+    "exp": "Tee ตอบว่า “Yes, send the recording to the class page tonight, but check the sound before you post it.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามว่าต้องโพสต์คืนนี้หรือไม่ คือ “Must I post the recording tonight?” ตัวเลือกอื่นบอกว่าเพจห้องเรียนลงบันทึกเสียงทุกคืน ถามว่าฉันโพสต์บันทึกเสียงก่อนตรวจเสียงหรือไม่ และอ้างว่ามีแต่ครูที่โพสต์ลงเพจห้องเรียนได้",
+    "tip": "คำตอบที่มี Yes ตามด้วยคำสั่งและเงื่อนไข แสดงว่าช่องว่างถามถึงความจำเป็น"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q014",
+  "context": "Pete: Aom, the reading challenge starts on Monday, and each student picks one book a fortnight.\nAom: (1) ____\nPete: They choose from the three shelves by the window, and the librarian stamps the card.\nAom: I’ll write the review cards. (2) ____\nPete: Five lines on the card, and the name of one character they would like to meet.\nAom: (3) ____\nPete: On the board outside the library, and we change the cards every second Friday.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Where do the students choose books?",
+    "d": [
+     "The three shelves by the window hold new books.",
+     "Why stamp the card?",
+     "Students chose one book a fortnight last term."
+    ],
+    "exp": "หลังช่อง (1) Pete บอกชั้นหนังสือและขั้นตอนปั๊มบัตร (They choose from the three shelves by the window, and the librarian stamps the card) ช่อง (1) จึงถามว่านักเรียนเลือกหนังสือจากที่ไหน คือ “Where do the students choose books?” ตัวเลือกอื่นบอกว่าชั้นนั้นเป็นหนังสือใหม่ ถามเหตุผลเรื่องการปั๊มบัตร หรือเล่าเรื่องเทอมก่อน",
+    "tip": "คำตอบที่บอกตำแหน่งชั้นวาง คือคำตอบของคำถาม Where"
+   },
+   {
+    "blank": 2,
+    "key": "What goes on each review card?",
+    "d": [
+     "I wrote five lines on my own review card.",
+     "The card asks for a character’s name.",
+     "Who stamps the review cards?"
+    ],
+    "exp": "บรรทัดถัดมาระบุสิ่งที่ต้องเขียนบนบัตร (Five lines on the card, and the name of one character they would like to meet) ช่อง (2) จึงถามว่าบัตรรีวิวต้องเขียนอะไร คือ “What goes on each review card?” ตัวเลือกอื่นเล่าว่าตัวเองเขียนไปแล้ว ทวนว่าบัตรขอชื่อตัวละคร หรือถามว่าใครปั๊มบัตร",
+    "tip": "คำตอบที่บอกว่าต้องเขียนกี่บรรทัดและเขียนอะไร คือคำตอบของคำถามเรื่องเนื้อหาของแบบฟอร์ม"
+   },
+   {
+    "blank": 3,
+    "key": "Where will the cards be shown?",
+    "d": [
+     "The board outside the library holds the cards.",
+     "Did we change the cards last second Friday?",
+     "I’ll pin the cards up."
+    ],
+    "exp": "หลังช่อง (3) Pete บอกที่ติดบัตรและความถี่ในการเปลี่ยน (On the board outside the library, and we change the cards every second Friday) ช่อง (3) จึงถามว่าบัตรจะถูกโชว์ที่ไหน คือ “Where will the cards be shown?” ตัวเลือกอื่นบอกว่ากระดานนอกห้องสมุดเป็นที่ติดบัตร ถามว่าเราเปลี่ยนบัตรเมื่อวันศุกร์ที่สองครั้งก่อนหรือไม่ และอาสาติดบัตรที่กระดานเอง",
+    "tip": "คำตอบที่ขึ้นต้นด้วยตำแหน่ง (On the board…) คือคำตอบของคำถามว่าจะแสดงงานไว้ที่ไหน"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q011",
+  "context": "Pond: Praew, our class enters the reading contest, and points come from the reading log.\nPraew: (1) ____\nPond: One point per finished book, and two more if the student writes a summary in the log.\nPraew: My log has four books and two summaries. (2) ____\nPond: Then you have eight points, but bring the log to the desk before Friday so we can check it.\nPraew: (3) ____\nPond: The teacher keeps the logs in the cupboard, and she returns them after the results come out.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How are the points counted?",
+    "d": [
+     "One point per book is not enough to win.",
+     "Why use a reading log?",
+     "Four books and two summaries make six points."
+    ],
+    "exp": "หลังช่อง (1) Pond บอกกติกาการให้คะแนน (One point per finished book, and two more if the student writes a summary in the log) ช่อง (1) จึงถามวิธีนับคะแนน คือ “How are the points counted?” ตัวเลือกอื่นวิจารณ์ว่าคะแนนน้อยไป ถามเหตุผลเรื่องการจดบันทึก หรือคิดคะแนนผิดเป็นหกแต้ม",
+    "tip": "คำตอบที่บอกแต้มต่อเงื่อนไข คือคำตอบของคำถามเรื่องการคิดคะแนน"
+   },
+   {
+    "blank": 2,
+    "key": "How many points do I have?",
+    "d": [
+     "I counted eight points in my log.",
+     "Two summaries are worth four points.",
+     "Who checks the logs?"
+    ],
+    "exp": "หลังช่อง (2) Pond คำนวณให้และบอกกำหนดส่ง (Then you have eight points, but bring the log to the desk before Friday so we can check it) ช่อง (2) จึงถามว่าตัวเองได้กี่แต้ม คือ “How many points do I have?” ตัวเลือกอื่นเล่าว่านับได้แปดแต้มเองแล้ว อ้างว่าสองสรุปได้สี่แต้ม หรือถามว่าใครตรวจบันทึก",
+    "tip": "คำตอบที่ขึ้นต้นด้วยการคำนวณผล (Then you have…) คือคำตอบของคำถามว่าฉันได้เท่าไหร่"
+   },
+   {
+    "blank": 3,
+    "key": "Where are the logs kept?",
+    "d": [
+     "The teacher keeps the logs in the cupboard.",
+     "The logs come back after the results.",
+     "Who counts the points?"
+    ],
+    "exp": "หลังช่อง (3) Pond บอกที่เก็บและเวลาคืนสมุดบันทึก (The teacher keeps the logs in the cupboard, and she returns them after the results come out) ช่อง (3) จึงถามว่าสมุดบันทึกเก็บไว้ที่ไหน คือ “Where are the logs kept?” ตัวเลือกอื่นบอกว่าครูเก็บสมุดบันทึกไว้ในตู้ เล่าว่าสมุดจะถูกคืนหลังประกาศผล และถามว่าใครนับคะแนนในสมุดแต่ละเล่ม ซึ่ง Pond ไม่ได้ตอบ",
+    "tip": "คำตอบที่บอกว่าใครเก็บและเก็บที่ไหน คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q017",
+  "context": "Krit: Bell, the club ride goes to the river path on Saturday, and we meet at the north gate.\nBell: (1) ____\nKrit: We ride ten kilometres to the bridge, stop at the repair shop, then come back the same way.\nBell: My tyre was flat last time. (2) ____\nKrit: Pump it up before seven, and carry a spare tube in your small bag.\nBell: Some riders go faster than the group. (3) ____\nKrit: Then the two slowest riders lead, and everyone else stays behind them until the bridge.\nBell: (4) ____\nKrit: Yes, wear the helmet on the whole ride, because the shop will not open the gate without one.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What is the route for Saturday?",
+    "d": [
+     "The club meets at the north gate at seven.",
+     "Why stop at a repair shop?",
+     "Ten kilometres to the bridge took us an hour."
+    ],
+    "exp": "หลังช่อง (1) Krit เล่าเส้นทางทั้งหมด (We ride ten kilometres to the bridge, stop at the repair shop, then come back the same way) ช่อง (1) จึงถามเส้นทางวันเสาร์ คือ “What is the route for Saturday?” ตัวเลือกอื่นทวนจุดนัดพบ ถามเหตุผลที่แวะร้านซ่อม หรือเล่าว่าสิบกิโลใช้เวลาหนึ่งชั่วโมง",
+    "tip": "คำตอบที่บอกระยะทาง จุดแวะ และทางกลับ คือคำตอบของคำถามเรื่องเส้นทาง"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do about my tyre?",
+    "d": [
+     "My tyre was flat on the last club ride.",
+     "A spare tube is heavy.",
+     "Who pumps the tyres at the north gate?"
+    ],
+    "exp": "หลังช่อง (2) Krit บอกให้สูบลมและพกยางในสำรอง (Pump it up before seven, and carry a spare tube in your small bag) ช่อง (2) จึงถามว่าจะจัดการยางของตัวเองอย่างไร คือ “What should I do about my tyre?” ตัวเลือกอื่นทวนปัญหายางแบน บ่นว่ายางสำรองหนัก หรือถามว่าใครสูบลมที่ประตูเหนือ",
+    "tip": "คำตอบที่เป็นคำสั่งสองอย่าง คือคำตอบของคำถามว่าจะต้องทำอะไรกับปัญหาที่เล่าไว้"
+   },
+   {
+    "blank": 3,
+    "key": "How do we keep the group together?",
+    "d": [
+     "The two slowest riders went first last time.",
+     "Do faster riders reach the bridge earlier?",
+     "I’ll ride behind them."
+    ],
+    "exp": "หลังช่อง (3) Krit วางกติกาการขี่เป็นกลุ่ม (Then the two slowest riders lead, and everyone else stays behind them until the bridge) ช่อง (3) จึงถามวิธีทำให้กลุ่มอยู่ด้วยกัน คือ “How do we keep the group together?” ตัวเลือกอื่นเล่าว่าสองคนที่ขี่ช้าที่สุดนำหน้าเมื่อครั้งก่อน ถามว่าคนขี่เร็วถึงสะพานเร็วกว่ามากหรือไม่ และอาสาขี่ตามหลังสองคนนั้น",
+    "tip": "คำตอบที่บอกว่าใครนำและคนอื่นอยู่ตรงไหน คือคำตอบของคำถามเรื่องการจัดการกลุ่ม"
+   },
+   {
+    "blank": 4,
+    "key": "Must I wear a helmet the whole way?",
+    "d": [
+     "The shop opens the gate only with a helmet.",
+     "I wore a helmet on the ride to the bridge.",
+     "Are helmets kept in the small bag?"
+    ],
+    "exp": "Krit ตอบว่า “Yes, wear the helmet on the whole ride, because the shop will not open the gate without one.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามว่าต้องใส่หมวกตลอดทางหรือไม่ คือ “Must I wear a helmet the whole way?” ตัวเลือกอื่นบอกว่าร้านเปิดประตูให้เฉพาะคนที่ใส่หมวก เล่าว่าตัวเองใส่หมวกตอนขี่ไปสะพาน และถามว่าหมวกเก็บไว้ในกระเป๋าใบเล็กหรือไม่",
+    "tip": "คำตอบที่มี Yes ตามด้วยเหตุผล because… แสดงว่าช่องว่างถามถึงข้อบังคับ"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q014",
+  "context": "Som: Pete, our class ride to the mangrove starts at the bike shed, and we eat lunch on the boardwalk.\nPete: (1) ____\nSom: We leave at eight, ride for an hour, and lock the bikes at the post near the boardwalk.\nPete: I’ll bring the lunch boxes. (2) ____\nSom: Count them at the shed, and write each name on the box before we ride out.\nPete: (3) ____\nSom: Under the shade at the end of the boardwalk, and we take the rubbish back with us.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What is the plan for the morning?",
+    "d": [
+     "We left at eight and rode for an hour.",
+     "The bikes are locked up.",
+     "Who locks the bikes near the boardwalk?"
+    ],
+    "exp": "หลังช่อง (1) Som เล่าแผนช่วงเช้าทั้งหมด (We leave at eight, ride for an hour, and lock the bikes at the post near the boardwalk) ช่อง (1) จึงถามแผนของช่วงเช้า คือ “What is the plan for the morning?” ตัวเลือกอื่นเล่าว่าออกเดินทางไปแล้ว ทวนว่าจักรยานถูกล็อก หรือถามว่าใครล็อกจักรยาน",
+    "tip": "คำตอบที่เรียงเวลา ระยะทาง และที่จอด คือคำตอบของคำถามเรื่องแผนการ"
+   },
+   {
+    "blank": 2,
+    "key": "What must I do with the boxes?",
+    "d": [
+     "I counted the lunch boxes at the shed.",
+     "Names are written on every lunch box.",
+     "Who eats lunch on the boardwalk?"
+    ],
+    "exp": "หลังช่อง (2) Som บอกสิ่งที่ต้องทำกับกล่องข้าว (Count them at the shed, and write each name on the box before we ride out) ช่อง (2) จึงถามว่าต้องทำอะไรกับกล่อง คือ “What must I do with the boxes?” ตัวเลือกอื่นเล่าว่านับแล้ว ทวนว่าทุกกล่องมีชื่อ หรือถามว่าใครกินข้าวบนทางเดินไม้",
+    "tip": "คำตอบที่ขึ้นต้นด้วยกริยาสั่งสองคำสั่ง คือคำตอบของคำถามว่าจะต้องทำอะไรกับของที่ได้รับมอบ"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we eat the lunch?",
+    "d": [
+     "We eat lunch under the shade at the end.",
+     "How long is the boardwalk?",
+     "I’ll carry the rubbish back from the boardwalk."
+    ],
+    "exp": "หลังช่อง (3) Som บอกที่กินข้าวและการเก็บขยะ (Under the shade at the end of the boardwalk, and we take the rubbish back with us) ช่อง (3) จึงถามว่าจะกินข้าวที่ไหน คือ “Where do we eat the lunch?” ตัวเลือกอื่นบอกว่าเรากินข้าวใต้ร่มเงาที่ปลายทางเดิน ถามว่าทางเดินไม้ยาวเท่าไร และอาสาถือขยะกลับจากทางเดินเอง ซึ่ง Som ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยตำแหน่ง (Under the shade…) คือคำตอบของคำถาม Where"
+   }
+  ]
+ }
+]

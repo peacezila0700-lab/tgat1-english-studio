@@ -9,5 +9,6 @@ python3 tools/apply_tc_v43.py >/dev/null
 python3 tools/apply_rc_v43.py >/dev/null
 python3 tools/apply_short_v43.py >/dev/null
 python3 tools/apply_qr_idiom.py >/dev/null
+python3 tools/apply_short_new_v43.py >/dev/null
 python3 tools/apply_qr_v43.py >/dev/null
 echo rebuilt

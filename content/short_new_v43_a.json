@@ -1,0 +1,180 @@
+[
+ {
+  "first": "S07-Q017",
+  "context": "Ton: Hi, May. The science fair form closes on Thursday, so we should pick our experiment today.\nMay: (1) ____\nTon: I compared the two ideas: the water filter needs lab time, but the plant-light box only needs supplies from home.\nMay: Then let’s take the plant-light box. (2) ____\nTon: I can build the frame this weekend if you handle the seedlings and the measuring tape.\nMay: Deal. I already grew twelve seedlings on my balcony, so we have spares. (3) ____\nTon: Measure the height every second day and photograph the leaves, then we graph it together.\nMay: Perfect. (4) ____\nTon: Yes — bring the notebook and I’ll download our photos before the judges arrive.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Which of our two ideas should we enter this year?",
+    "d": [
+     "The science fair form closed last Thursday, so we cannot enter the water filter.",
+     "Why did the plant-light box need all those supplies last year?",
+     "Who will photograph the leaves for our graph?"
+    ],
+    "exp": "หลังช่อง (1) Ton เทียบสองไอเดียว่าอันไหนใช้อะไรบ้าง (the water filter needs lab time / the plant-light box only needs supplies from home) แสดงว่าช่อง (1) ต้องถามว่าจะเลือกไอเดียไหนเข้าประกวด คือ “Which of our two ideas should we enter this year?” ตัวเลือกแรกบอกว่าปิดรับสมัครแล้วซึ่งขัดกับประโยคแรกของบท ตัวเลือกที่สองถามเรื่องที่ Ton ยังไม่ได้พูด และตัวเลือกที่สามเป็นคำถามเรื่องการเก็บข้อมูลซึ่งยังไม่ถึงขั้นนั้น",
+    "tip": "ถ้าประโยคถัดไปเปรียบเทียบข้อดีของสองทางเลือก แสดงว่าช่องว่างก่อนหน้าถามว่าจะเลือกทางไหน"
+   },
+   {
+    "blank": 2,
+    "key": "How do you want to split the building work?",
+    "d": [
+     "The water filter needs lab time, so let’s enter that one instead.",
+     "My brother built a frame for his own project last term.",
+     "Should we ask the judges about supplies?"
+    ],
+    "exp": "หลังช่อง (2) Ton แบ่งงานชัดเจนว่าตัวเองจะทำอะไรและ May จะทำอะไร (I can build the frame this weekend if you handle the seedlings and the measuring tape) ช่อง (2) จึงต้องถามเรื่องการแบ่งงาน คือ “How do you want to split the building work?” ตัวเลือกแรกย้อนกลับไปเลือกไอเดียอีกอันทั้งที่ May ตกลงแล้ว ตัวเลือกที่สองเล่าเรื่องพี่ชายที่ไม่เกี่ยวกับงานนี้ และตัวเลือกที่สามถามกรรมการซึ่งไม่มีใครในบทพูดถึง",
+    "tip": "ประโยคถัดไปที่แบ่งหน้าที่ให้สองคน คือคำตอบของคำถามเรื่องการแบ่งงาน"
+   },
+   {
+    "blank": 3,
+    "key": "What should we record over the three weeks?",
+    "d": [
+     "The twelve seedlings on my balcony are already taller than the frame.",
+     "Who bought the measuring tape?",
+     "Let’s skip the graph and only describe the plant-light box."
+    ],
+    "exp": "หลังช่อง (3) Ton บอกลำดับการเก็บข้อมูล (Measure the height every second day and photograph the leaves, then we graph it together) ช่อง (3) จึงต้องถามว่าต้องบันทึกอะไรในช่วงที่ทดลอง คือ “What should we record over the three weeks?” ตัวเลือกแรกเป็นแค่การบรรยายต้นกล้า ตัวเลือกที่สองถามเรื่องคนซื้ออุปกรณ์ และตัวเลือกที่สามเสนอให้ข้ามกราฟซึ่ง Ton ไม่เห็นด้วยและยังคงบอกลำดับการเก็บข้อมูล",
+    "tip": "ถ้าประโยคถัดไปขึ้นต้นด้วยขั้นตอนการวัดหรือการบันทึก แสดงว่าช่องว่างถามว่าต้องเก็บข้อมูลอะไรบ้าง"
+   },
+   {
+    "blank": 4,
+    "key": "Should I bring the notebook and the camera?",
+    "d": [
+     "The judges arrive before the science fair closes on Thursday.",
+     "I downloaded the photographs of the seedlings last weekend.",
+     "Is our plant-light box graph finished?"
+    ],
+    "exp": "Ton ตอบว่า “Yes — bring the notebook and I’ll download our photos before the judges arrive.” ซึ่งเป็นการตอบรับคำถามแบบ yes/no ที่ขอคำแนะนำเรื่องการพกของ ช่อง (4) จึงต้องเป็น “Should I bring the notebook and the camera?” ตัวเลือกอื่นเล่าเรื่องเวลาที่กรรมการจะมาถึงกับรูปที่ดาวน์โหลดไปแล้ว และถามว่ากราฟกล่องไฟปลูกต้นไม้เสร็จหรือยัง ซึ่ง Ton ไม่ได้ตอบ ส่วนคำตอบ Yes เข้ากับคำถามขออนุญาตเท่านั้น",
+    "tip": "ถ้าคำตอบถัดไปขึ้นต้นด้วย Yes หรือ No แสดงว่าช่องว่างต้องเป็นคำถาม yes/no"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q014",
+  "context": "Pim: Nop, our science fair poster has to go up before the judges walk round at nine.\nNop: (1) ____\nPim: The results paragraph goes under the graph, and the photos of the seedlings go on the right.\nNop: Got it. I printed the graph twice because the first copy came out too pale. (2) ____\nPim: Use the darker copy in the middle, and keep the pale one as a spare in the folder.\nNop: (3) ____\nPim: Sure, I’ll read the summary aloud while you check the labels against our notebook.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Where should each part of the poster go?",
+    "d": [
+     "The judges walk round the science fair before nine in the morning.",
+     "Why did the first graph copy come out too pale?",
+     "Seedlings grew taller than the poster."
+    ],
+    "exp": "หลังช่อง (1) Pim บอกตำแหน่งของแต่ละส่วนบนแผ่นป้าย (The results paragraph goes under the graph, and the photos of the seedlings go on the right) ช่อง (1) จึงต้องถามเรื่องการจัดวาง คือ “Where should each part of the poster go?” ตัวเลือกแรกทวนเวลาที่กรรมการเดินดูซึ่ง Pim บอกไปแล้ว ตัวเลือกที่สองถามเรื่องสำเนากราฟที่ยังไม่ถูกพูดถึง และตัวเลือกที่สามไม่เกี่ยวกับการจัดแผ่นป้าย",
+    "tip": "คำตอบที่บอกตำแหน่ง (under / on the right) แสดงว่าช่องว่างถามว่าจะจัดวางอะไรไว้ตรงไหน"
+   },
+   {
+    "blank": 2,
+    "key": "Which copy should we use in the middle?",
+    "d": [
+     "The pale copy is already in the folder with the notebook.",
+     "I printed the labels twice.",
+     "Who always reads the summary to the judges?"
+    ],
+    "exp": "ก่อนช่อง (2) Nop เล่าว่าพิมพ์กราฟมาสองฉบับเพราะฉบับแรกจางเกินไป และหลังช่อง (2) Pim เลือกให้ว่า “Use the darker copy in the middle, and keep the pale one as a spare” ช่อง (2) จึงต้องถามว่าจะใช้ฉบับไหนตรงกลาง คือ “Which copy should we use in the middle?” ตัวเลือกอื่นไม่ได้ขอให้เลือกระหว่างสองฉบับ จึงทำให้คำตอบของ Pim ไม่ต่อกัน",
+    "tip": "ถ้าคำตอบถัดไปเลือกให้ระหว่างของสองชิ้น แสดงว่าช่องว่างถามว่าจะเอาอันไหน"
+   },
+   {
+    "blank": 3,
+    "key": "Can we practise the summary once more?",
+    "d": [
+     "Are the labels checked against the notebook every morning?",
+     "I’ll print another graph.",
+     "Our summary is too short for the judges."
+    ],
+    "exp": "Pim ตอบว่า “Sure, I’ll read the summary aloud while you check the labels against our notebook.” ซึ่งเป็นคำตอบรับคำขอ ช่อง (3) จึงต้องขอลองซ้อมอ่านสรุปอีกครั้ง คือ “Can we practise the summary once more?” ตัวเลือกอื่นถามว่ามีการตรวจป้ายกับสมุดบันทึกทุกเช้าหรือไม่ อาสาพิมพ์กราฟเพิ่มระหว่างที่อีกฝ่ายอ่าน และวิจารณ์ว่าบทสรุปสั้นเกินไปสำหรับกรรมการ",
+    "tip": "คำว่า Sure นำหน้าการแบ่งหน้าที่ บ่งบอกว่าช่องว่างเป็นคำขอ (Can we…?)"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q011",
+  "context": "Fah: Win, the shelter asked our volunteer group to read stories to the younger children on Saturday.\nWin: (1) ____\nFah: Six of us will read in pairs, and each pair gets fifteen minutes with a small group.\nWin: I can bring the picture books we collected last month. (2) ____\nFah: Yes, the shelter has a mat area, so please leave the shoes by the door and sit with the children.\nWin: (3) ____\nFah: We meet at the front gate at eight, then walk over together.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How will the reading be organised on Saturday?",
+    "d": [
+     "The shelter asked our volunteer group for picture books last month.",
+     "Why do the younger children like stories about animals?",
+     "Six pairs is too many for fifteen minutes."
+    ],
+    "exp": "หลังช่อง (1) Fah อธิบายรูปแบบงาน (Six of us will read in pairs, and each pair gets fifteen minutes with a small group) ช่อง (1) จึงต้องถามว่าการอ่านจะถูกจัดยังไง คือ “How will the reading be organised on Saturday?” ตัวเลือกแรกสลับว่าศูนย์รับหนังสือจากอาสาสมัครซึ่งขัดกับบท ตัวเลือกที่สองถามรสนิยมของเด็กที่ไม่มีใครตอบ และตัวเลือกที่สามนับจำนวนคู่ผิด (หกคน = สามคู่ ไม่ใช่หกคู่)",
+    "tip": "คำตอบที่บอกจำนวนคนและเวลาต่อรอบ คือคำตอบของคำถามเรื่องรูปแบบการจัดงาน"
+   },
+   {
+    "blank": 2,
+    "key": "Is there a place where we can sit with them?",
+    "d": [
+     "I collected the picture books with two other volunteers.",
+     "The mat area is where the shoes are kept.",
+     "Who will read the longest story to them?"
+    ],
+    "exp": "Fah ตอบว่า “Yes, the shelter has a mat area, so please leave the shoes by the door and sit with the children.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (2) เป็นคำถาม yes/no เรื่องที่นั่ง คือ “Is there a place where we can sit with them?” ตัวเลือกอื่นเป็นข้อความบอกเล่าหรือถามว่าใครจะอ่านเรื่องยาวที่สุด จึงทำให้คำตอบ Yes ต่อไม่ติด",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Yes/No บังคับว่าช่องว่างต้องเป็นคำถาม yes/no"
+   },
+   {
+    "blank": 3,
+    "key": "Where and when should our group meet?",
+    "d": [
+     "We never walked over before eight last time.",
+     "Is the front gate near the mat area?",
+     "I’ll bring the picture books to the front gate."
+    ],
+    "exp": "หลังช่อง (3) Fah นัดทั้งที่และเวลา (We meet at the front gate at eight, then walk over together) ช่อง (3) จึงต้องถามที่นัดและเวลานัด คือ “Where and when should our group meet?” ตัวเลือกอื่นเล่าเรื่องการเดินครั้งก่อน ถามว่าประตูหน้าอยู่ใกล้พื้นที่เสื่อหรือไม่ หรืออาสาถือหนังสือนิทานไป ซึ่งไม่มีใครตอบด้วยการนัดเวลาและสถานที่",
+    "tip": "คำตอบที่บอกทั้งสถานที่และเวลา แสดงว่าช่องว่างถามว่านัดกันที่ไหนและกี่โมง"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q017",
+  "context": "Beam: Nan, our volunteer shift at the community lunch starts with packing rice boxes at seven.\nNan: (1) ____\nBeam: Twenty boxes go to the families on the north side, and the rest stay for the lunch hall.\nNan: I’ll count the boxes while you seal them. (2) ____\nBeam: The trolley is behind the kitchen door, and the driver arrives at half past nine.\nNan: Good. One of the hall tables has a loose leg, so people keep spilling soup. (3) ____\nBeam: Bring the tool box from the storeroom and we’ll fix the leg before the guests sit down.\nNan: (4) ____\nBeam: Yes, please write the count on the board so the next shift knows what is left.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Where do the packed rice boxes go?",
+    "d": [
+     "Twenty families live on the north side of the community.",
+     "Why does the lunch hall keep the leftover rice?",
+     "Rice boxes were packed at seven."
+    ],
+    "exp": "หลังช่อง (1) Beam บอกปลายทางของกล่องข้าว (Twenty boxes go to the families on the north side, and the rest stay for the lunch hall) ช่อง (1) จึงต้องถามว่ากล่องที่ถูกแพ็กแล้วจะไปไหน คือ “Where do the packed rice boxes go?” ตัวเลือกแรกบอกจำนวนครอบครัวซึ่งไม่ใช่คำตอบเรื่องปลายทาง ตัวเลือกสองถามเรื่องข้าวเหลือที่ยังไม่ถูกพูดถึง และตัวเลือกสามพูดถึงสัปดาห์ก่อน",
+    "tip": "คำตอบที่บอกว่าของกี่ชิ้นไปที่ไหน คือคำตอบของคำถามเรื่องปลายทาง"
+   },
+   {
+    "blank": 2,
+    "key": "What should we move them with?",
+    "d": [
+     "The driver arrives at half past nine behind the kitchen.",
+     "I sealed twenty boxes before you arrived.",
+     "Who counts the boxes?"
+    ],
+    "exp": "หลังช่อง (2) Beam บอกตำแหน่งรถเข็นและเวลาคนขับมา (The trolley is behind the kitchen door, and the driver arrives at half past nine) ช่อง (2) จึงต้องถามว่าจะขนกล่องด้วยอะไร คือ “What should we move them with?” ตัวเลือกอื่นบอกเวลาคนขับอย่างเดียว เล่าว่าตัวเองปิดกล่องไปแล้ว หรือถามว่าใครนับกล่อง ซึ่งไม่ทำให้ Beam ต้องบอกตำแหน่งรถเข็น",
+    "tip": "ถ้าคำตอบบอกตำแหน่งของอุปกรณ์ขนของ แสดงว่าช่องว่างถามว่าจะใช้อะไรขน"
+   },
+   {
+    "blank": 3,
+    "key": "What can we do about that table leg?",
+    "d": [
+     "Did people spill soup on the hall floor yesterday?",
+     "The tool box is by the trolley.",
+     "Let’s move the table into the storeroom instead."
+    ],
+    "exp": "หลังช่อง (3) Beam เสนอวิธีซ่อม (Bring the tool box from the storeroom and we’ll fix the leg before the guests sit down) ช่อง (3) จึงต้องถามว่าจะทำอะไรกับขาโต๊ะที่หลวม คือ “What can we do about that table leg?” ตัวเลือกอื่นถามว่าเมื่อวานมีใครทำซุปหกในหอประชุมไหม บอกตำแหน่งกล่องเครื่องมือ และเสนอเก็บโต๊ะเข้าห้องเก็บของซึ่งขัดกับแผนซ่อมก่อนแขกนั่ง",
+    "tip": "คำตอบที่บอกขั้นตอนการซ่อม แสดงว่าช่องว่างถามว่าจะแก้ปัญหาที่พูดไว้ก่อนหน้าอย่างไร"
+   },
+   {
+    "blank": 4,
+    "key": "Should I write the count on the board?",
+    "d": [
+     "The next shift wrote the count on the board already.",
+     "I’ll tell the driver what is left in the hall.",
+     "Is the board only for the next shift?"
+    ],
+    "exp": "Beam ตอบว่า “Yes, please write the count on the board so the next shift knows what is left.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no ขออนุญาตเขียนจำนวน คือ “Should I write the count on the board?” ตัวเลือกอื่นเล่าว่ากะถัดไปเขียนยอดบนกระดานแล้ว อาสาไปบอกคนขับว่ามีของเหลือเท่าไหร่ และถามว่ากระดานใช้สำหรับกะถัดไปเท่านั้นหรือ ซึ่ง Beam ไม่ได้ตอบ แต่ตอบ Yes ให้กับการขออนุญาตเขียนยอด",
+    "tip": "ช่องว่างท้ายบทที่ตามด้วย Yes, please… ต้องเป็นคำถามขออนุญาตหรือข้อเสนอแบบ yes/no"
+   }
+  ]
+ }
+]

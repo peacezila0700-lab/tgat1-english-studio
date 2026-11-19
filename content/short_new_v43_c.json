@@ -1,0 +1,347 @@
+[
+ {
+  "first": "S09-Q011",
+  "context": "Nin: Guy, the history test covers six chapters, so let’s book a study session before Thursday.\nGuy: (1) ____\nNin: The quiet room on the second floor is free from four, and it holds six people.\nGuy: I’ll make flashcards for the first three chapters. (2) ____\nNin: Bring your own notes, because the teacher will not lend the class set again this term.\nGuy: (3) ____\nNin: Two hours, with a break after the first hour, then we test each other.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Which room can we book, and when?",
+    "d": [
+     "The history test covers all six chapters again.",
+     "Why did the teacher lend the class set last term?",
+     "Six people is enough."
+    ],
+    "exp": "หลังช่อง (1) Nin บอกห้องที่ว่างและเวลาที่จองได้ (The quiet room on the second floor is free from four, and it holds six people) ช่อง (1) จึงต้องถามเรื่องห้องและเวลา คือ “Which room can we book, and when?” ตัวเลือกแรกทวนจำนวนบทที่สอบ ตัวเลือกที่สองถามเรื่องการยืมชุดหนังสือที่ยังไม่ถูกพูดถึง และตัวเลือกที่สามให้ความเห็นว่าหกคนพอ",
+    "tip": "คำตอบที่บอกชื่อห้องและเวลาที่ว่าง คือคำตอบของคำถามว่าจะจองที่ไหนเมื่อไหร่"
+   },
+   {
+    "blank": 2,
+    "key": "What else should we bring along?",
+    "d": [
+     "The second floor is quiet in the afternoon.",
+     "Who keeps the class set of notes?",
+     "My notes are already in my bag."
+    ],
+    "exp": "หลังช่อง (2) Nin บอกของที่ให้เตรียมและเหตุผล (Bring your own notes, because the teacher will not lend the class set again this term) ช่อง (2) จึงต้องถามว่าต้องเอาอะไรมาเพิ่ม คือ “What else should we bring along?” ตัวเลือกแรกชมว่าชั้นสองเงียบ ตัวเลือกที่สองถามว่าใครเก็บชุดหนังสือของห้อง และตัวเลือกที่สามบอกว่าโน้ตอยู่ในกระเป๋าแล้วซึ่งทำให้คำตอบของ Nin ไม่ต้องสั่งให้เตรียม",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Bring… คือคำตอบของคำถามว่าต้องนำอะไรมาเอง"
+   },
+   {
+    "blank": 3,
+    "key": "How long should the session be?",
+    "d": [
+     "We tested each other for two hours last time.",
+     "Is a break after the first hour too long?",
+     "I can only stay until five."
+    ],
+    "exp": "หลังช่อง (3) Nin กำหนดความยาวและจังหวะพัก (Two hours, with a break after the first hour, then we test each other) ช่อง (3) จึงต้องถามว่าควรอ่านนานเท่าไหร่ คือ “How long should the session be?” ตัวเลือกอื่นเล่าเรื่องการทดสอบรอบก่อน ถามว่าการพักหลังชั่วโมงแรกนานเกินไปไหม หรือบอกข้อจำกัดเวลาของตัวเอง ซึ่งไม่ทำให้ Nin ต้องกำหนดความยาวของรอบ",
+    "tip": "คำตอบที่บอกจำนวนชั่วโมงและเวลาพัก คือคำตอบของคำถามเรื่องความยาวของการอ่านหนังสือ"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q017",
+  "context": "Praew: Sun, our study session is online tonight, and the practice paper has forty questions.\nSun: (1) ____\nPraew: Twenty each, and we compare answers on the shared document at the end.\nSun: My camera is broken, so I’ll join with audio only. (2) ____\nPraew: Use the chat box, and I’ll read out anything you cannot see on the screen.\nSun: Thanks. I finished the first twenty in about an hour. (3) ____\nPraew: Send them to the shared folder before eight, so I can mark them while we talk.\nSun: (4) ____\nPraew: Yes, keep the last ten questions until tomorrow, because the answers are not released yet.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How should we split the questions?",
+    "d": [
+     "The practice paper has forty questions online.",
+     "Why is the shared document only for teachers?",
+     "Twenty questions took me an hour."
+    ],
+    "exp": "หลังช่อง (1) Praew แบ่งจำนวนข้อและบอกวิธีตรวจ (Twenty each, and we compare answers on the shared document at the end) ช่อง (1) จึงต้องถามว่าจะแบ่งข้อกันยังไง คือ “How should we split the questions?” ตัวเลือกแรกทวนจำนวนข้อที่ Praew บอกแล้ว ตัวเลือกที่สองอ้างเรื่องเอกสารที่ใช้ได้เฉพาะครู และตัวเลือกที่สามเล่าว่าทำยี่สิบข้อเมื่อคืน",
+    "tip": "คำตอบที่บอกจำนวนต่อคน (Twenty each) คือคำตอบของคำถามเรื่องการแบ่งงาน"
+   },
+   {
+    "blank": 2,
+    "key": "What can I use instead of the video?",
+    "d": [
+     "My camera broke during the last study session.",
+     "The chat box is always slower.",
+     "Who will read the questions aloud tonight?"
+    ],
+    "exp": "หลังช่อง (2) Praew บอกทางเลือกเมื่อกล้องเสีย (Use the chat box, and I’ll read out anything you cannot see on the screen) ช่อง (2) จึงต้องถามว่าจะใช้อะไรแทนภาพ คือ “What can I use instead of the video?” ตัวเลือกแรกเล่าว่ากล้องเคยเสีย ตัวเลือกที่สองวิจารณ์ความเร็วของช่องแชต และตัวเลือกที่สามถามว่าใครจะอ่านโจทย์ ซึ่งไม่ใช่การขอทางเลือกแทนกล้อง",
+    "tip": "ถ้าก่อนหน้าช่องว่างบอกว่าอุปกรณ์มีปัญหา คำถามถัดไปมักถามว่าจะใช้อะไรแทน"
+   },
+   {
+    "blank": 3,
+    "key": "Where should I send my answers?",
+    "d": [
+     "I sent the answers to the shared folder yesterday.",
+     "Does marking forty questions take an hour?",
+     "The folder closes at eight."
+    ],
+    "exp": "หลังช่อง (3) Praew บอกที่ส่งและกำหนดเวลา (Send them to the shared folder before eight…) ช่อง (3) จึงต้องถามว่าจะส่งคำตอบที่ไหน คือ “Where should I send my answers?” ตัวเลือกอื่นเล่าว่าส่งคำตอบเข้าโฟลเดอร์กลางเมื่อวาน ถามว่าการตรวจสี่สิบข้อใช้เวลาประมาณหนึ่งชั่วโมงไหม และอ้างว่าโฟลเดอร์เปิดก่อนแปดโมงเท่านั้น",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Send them to… คือคำตอบของคำถามว่าจะส่งงานไปที่ไหน"
+   },
+   {
+    "blank": 4,
+    "key": "Should I leave the last ten for tomorrow?",
+    "d": [
+     "The answers for the last ten are not out.",
+     "I finished the last ten before eight.",
+     "Will we compare all forty answers tomorrow?"
+    ],
+    "exp": "Praew ตอบว่า “Yes, keep the last ten questions until tomorrow, because the answers are not released yet.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no ว่าจะเก็บสิบข้อสุดท้ายไว้พรุ่งนี้ไหม คือ “Should I leave the last ten for tomorrow?” ตัวเลือกอื่นบอกว่าเฉลยสิบข้อสุดท้ายยังไม่ออก เล่าว่าทำสิบข้อสุดท้ายเสร็จก่อนแปดโมง และถามว่าพรุ่งนี้จะเทียบเฉลยทั้งสี่สิบข้อไหม ซึ่งไม่ใช่สิ่งที่ Praew ตอบรับด้วย Yes",
+    "tip": "ช่องท้ายบทที่ตามด้วย Yes, keep… ต้องเป็นคำถามขออนุญาตหรือขอความเห็นแบบ yes/no"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q014",
+  "context": "Bank: Tae, our class plays the semi-final at three, and the other class has two tall defenders.\nTae: (1) ____\nBank: Warm up at half past two on the side pitch, because the main field is used until then.\nTae: I can play as striker if you prefer the wing. (2) ____\nBank: Only two substitutions are allowed, so we keep one for the second half.\nTae: (3) ____\nBank: Bring water and your own shin guards; the club will not lend them this time.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "When and where should we warm up?",
+    "d": [
+     "The main field is busy.",
+     "Why does the other class have tall defenders?",
+     "Our semi-final starts at three in the afternoon."
+    ],
+    "exp": "หลังช่อง (1) Bank นัดเวลาและสนามวอร์ม (Warm up at half past two on the side pitch, because the main field is used until then) ช่อง (1) จึงต้องถามเรื่องวอร์มเมื่อไหร่ที่ไหน คือ “When and where should we warm up?” ตัวเลือกอื่นให้ข้อมูลสนามหลัก ถามเรื่องกองหลังฝ่ายตรงข้าม หรือทวนเวลาแข่งที่ Bank บอกแล้ว",
+    "tip": "คำตอบที่บอกเวลาและสถานที่ซ้อม คือคำตอบของคำถามเรื่องการวอร์ม"
+   },
+   {
+    "blank": 2,
+    "key": "How many substitutions can we use?",
+    "d": [
+     "I prefer the wing to striker.",
+     "Two substitutions are never enough for us.",
+     "Who keeps the substitutions for the second half?"
+    ],
+    "exp": "หลังช่อง (2) Bank บอกกติกาการเปลี่ยนตัว (Only two substitutions are allowed, so we keep one for the second half) ช่อง (2) จึงต้องถามจำนวนครั้งที่เปลี่ยนตัวได้ คือ “How many substitutions can we use?” ตัวเลือกแรกตอบเรื่องตำแหน่งที่ตัวเองชอบ ตัวเลือกที่สองบ่นว่าสองครั้งไม่พอ และตัวเลือกที่สามถามว่าใครเก็บโควตาไว้ ซึ่งไม่ใช่การถามจำนวน",
+    "tip": "คำตอบที่ขึ้นต้นด้วยจำนวนและกติกา (Only two…) คือคำตอบของคำถามว่าทำได้กี่ครั้ง"
+   },
+   {
+    "blank": 3,
+    "key": "What do we need to bring with us?",
+    "d": [
+     "Did the club lend us shin guards last season?",
+     "I bought water for the whole class already.",
+     "Two players forgot their guards."
+    ],
+    "exp": "หลังช่อง (3) Bank บอกของที่ต้องเตรียมและเหตุผล (Bring water and your own shin guards; the club will not lend them this time) ช่อง (3) จึงต้องถามว่าต้องเอาอะไรมา คือ “What do we need to bring with us?” ตัวเลือกอื่นถามว่าชมรมเคยให้ยืมสนับแข้งเมื่อฤดูก่อนไหม เล่าว่าซื้อน้ำมาให้ทั้งห้องแล้ว หรือบอกว่ามีผู้เล่นลืมสนับแข้งสองคน ซึ่งไม่ทำให้ Bank ต้องสั่งให้เตรียมของ",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Bring… และบอกว่าไม่สามารถยืมได้ คือคำตอบของคำถามเรื่องอุปกรณ์ที่ต้องนำมาเอง"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q011",
+  "context": "Mint: Oat, the relay starts at ten, and our class still needs a fourth runner for the last leg.\nOat: (1) ____\nMint: Put the fastest runner last, and let the two newcomers take the first two legs.\nOat: I’ll ask Ploy, since she ran the last leg last year. (2) ____\nMint: If it rains, the relay moves to the covered court and starts fifteen minutes later.\nOat: (3) ____\nMint: Meet behind the scoreboard at nine, and bring your number tags to the desk.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What order should the runners go in?",
+    "d": [
+     "Our class needs a fourth runner for the relay.",
+     "Why did the newcomers run?",
+     "The fastest runner always takes the first leg."
+    ],
+    "exp": "หลังช่อง (1) Mint จัดลำดับนักวิ่ง (Put the fastest runner last, and let the two newcomers take the first two legs) ช่อง (1) จึงต้องถามเรื่องลำดับการวิ่ง คือ “What order should the runners go in?” ตัวเลือกแรกทวนปัญหาที่ Mint พูดแล้ว ตัวเลือกที่สองอ้างว่าเด็กใหม่เคยวิ่งทั้งที่บทบอกว่าเพิ่งมา และตัวเลือกที่สามขัดกับแผนของ Mint",
+    "tip": "คำตอบที่บอกว่าใครวิ่งไม้ไหน คือคำตอบของคำถามเรื่องลำดับ"
+   },
+   {
+    "blank": 2,
+    "key": "What happens if it starts raining?",
+    "d": [
+     "Ploy ran the last leg for our class last year.",
+     "Is the covered court behind the scoreboard?",
+     "Fifteen minutes is not enough."
+    ],
+    "exp": "หลังช่อง (2) Mint บอกแผนสำรองกรณีฝนตก (If it rains, the relay moves to the covered court and starts fifteen minutes later) ช่อง (2) จึงต้องถามว่าจะเกิดอะไรขึ้นถ้าฝนตก คือ “What happens if it starts raining?” ตัวเลือกอื่นเล่าเรื่องพลอยที่วิ่งไม้สุดท้ายให้ห้องเมื่อปีก่อน ถามว่าสนามในร่มอยู่หลังป้ายคะแนนหรือไม่ หรือวิจารณ์ว่าสิบห้านาทีไม่พออบอุ่นร่างกาย",
+    "tip": "คำตอบที่ขึ้นต้นด้วย If it rains… คือคำตอบของคำถามเรื่องแผนสำรอง"
+   },
+   {
+    "blank": 3,
+    "key": "Where should we meet, and when?",
+    "d": [
+     "We met behind the scoreboard at nine last time.",
+     "Are the tags kept at the desk?",
+     "I’ll bring the number tags for everyone."
+    ],
+    "exp": "หลังช่อง (3) Mint นัดทั้งที่และเวลา (Meet behind the scoreboard at nine, and bring your number tags to the desk) ช่อง (3) จึงต้องถามว่าจะนัดที่ไหนกี่โมง คือ “Where should we meet, and when?” ตัวเลือกอื่นเล่าเรื่องการนัดครั้งก่อน ถามว่าป้ายหมายเลขเก็บไว้ที่โต๊ะหรือไม่ หรืออาสาถือป้ายหมายเลขมาให้ทุกคน ซึ่งไม่ทำให้ Mint ต้องบอกจุดนัดและเวลา",
+    "tip": "คำตอบที่บอกสถานที่ตามด้วยเวลา คือคำตอบของคำถามนัดหมายทั้งสองส่วน"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q017",
+  "context": "Fame: Dear, the book exchange opens on Wednesday, and each table gets two boxes of books.\nDear: (1) ____\nFame: Only books without torn covers, and we put a sticker inside showing who gave it.\nDear: I have eleven books at home, but three are old paperbacks. (2) ____\nFame: Bring the paperbacks anyway; the librarian repairs them and puts them in the reading corner.\nDear: That’s kind. (3) ____\nFame: Two stickers per person, so nobody takes everything from one table at the start.\nDear: (4) ____\nFame: Yes, write your name on the list by the door before you choose any books.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Which books can our table accept?",
+    "d": [
+     "The book exchange opens on Wednesday morning.",
+     "Why two boxes per table?",
+     "A sticker inside the cover shows the price."
+    ],
+    "exp": "หลังช่อง (1) Fame บอกเกณฑ์รับหนังสือ (Only books without torn covers, and we put a sticker inside showing who gave it) ช่อง (1) จึงต้องถามว่ารับหนังสือแบบไหนได้ คือ “Which books can our table accept?” ตัวเลือกแรกทวนวันเปิดงาน ตัวเลือกที่สองถามเรื่องจำนวนกล่อง และตัวเลือกที่สามอ้างว่าสติกเกอร์บอกราคาซึ่งผิดจากที่ Fame บอก",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Only… และบอกเงื่อนไข คือคำตอบของคำถามว่ารับอะไรได้บ้าง"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do with the old paperbacks?",
+    "d": [
+     "I have eleven books in a box at home.",
+     "The reading corner never takes paperbacks.",
+     "Who repairs the books for the librarian?"
+    ],
+    "exp": "หลังช่อง (2) Fame บอกทางออกสำหรับหนังสือเก่า (Bring the paperbacks anyway; the librarian repairs them and puts them in the reading corner) ช่อง (2) จึงต้องถามว่าจะทำยังไงกับหนังสือปกอ่อนเก่า คือ “What should I do with the old paperbacks?” ตัวเลือกแรกทวนจำนวนหนังสือของตัวเอง ตัวเลือกที่สองขัดกับสิ่งที่ Fame กำลังจะบอก และตัวเลือกที่สามถามว่าใครซ่อมหนังสือ",
+    "tip": "ถ้าก่อนหน้าช่องว่างบอกว่ามีของที่ไม่เข้าเกณฑ์ คำถามถัดไปมักถามว่าจะเอาของนั้นไปทำอะไร"
+   },
+   {
+    "blank": 3,
+    "key": "How many books can each person take?",
+    "d": [
+     "Two stickers per person is more than enough.",
+     "Somebody took everything from one table last year.",
+     "Are the stickers in the box?"
+    ],
+    "exp": "หลังช่อง (3) Fame จำกัดจำนวนด้วยสติกเกอร์ (Two stickers per person, so nobody takes everything from one table at the start) ช่อง (3) จึงต้องถามว่าแต่ละคนหยิบได้กี่เล่ม คือ “How many books can each person take?” ตัวเลือกอื่นให้ความเห็นว่าสติกเกอร์สองแผ่นเพียงพอ เล่าเรื่องปีที่แล้วที่มีคนเหมาโต๊ะ และถามว่าสติกเกอร์อยู่ในกล่องข้างประตูหรือไม่ ซึ่งไม่มีใครตอบด้วยจำนวนต่อคน",
+    "tip": "คำตอบที่บอกจำนวนต่อคนพร้อมเหตุผล คือคำตอบของคำถามเรื่องขีดจำกัดการหยิบ"
+   },
+   {
+    "blank": 4,
+    "key": "Should I write my name on the list first?",
+    "d": [
+     "Does the list by the door have everyone’s names?",
+     "I wrote my name before choosing a book.",
+     "Only two people signed the list so far."
+    ],
+    "exp": "Fame ตอบว่า “Yes, write your name on the list by the door before you choose any books.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no เรื่องการลงชื่อ คือ “Should I write my name on the list first?” ตัวเลือกอื่นถามว่ารายชื่อข้างประตูมีชื่อทุกคนแล้วหรือยัง เล่าว่าเขียนชื่อก่อนเลือกหนังสือแล้ว และบอกว่ามีผู้ลงชื่อสองคน ซึ่งไม่ใช่คำถามที่ Fame จะตอบว่า Yes",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Yes แล้วตามด้วยขั้นตอน แสดงว่าช่องว่างถามว่าต้องทำขั้นนั้นก่อนหรือไม่"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q014",
+  "context": "Pond: May, the online book swap needs a photo and a condition note for every title we post.\nMay: (1) ____\nPond: Take the photo of the cover and the spine, and mention any pencil marks inside.\nMay: I can post four titles tonight. (2) ____\nPond: Leave them at the guard room, and the other student collects within two days.\nMay: (3) ____\nPond: Two weeks, and if nobody replies we can post the title again with a lower condition note.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What should the photo and note show?",
+    "d": [
+     "Every title needs a photo.",
+     "Why do pencil marks lower the condition note?",
+     "The cover and the spine look the same."
+    ],
+    "exp": "หลังช่อง (1) Pond บอกรายละเอียดที่ต้องถ่ายและเขียน (Take the photo of the cover and the spine, and mention any pencil marks inside) ช่อง (1) จึงต้องถามว่ารูปและหมายเหตุต้องแสดงอะไร คือ “What should the photo and note show?” ตัวเลือกแรกทวนกติกาที่ Pond บอกแล้ว ตัวเลือกที่สองถามผลของรอยดินสอที่ยังไม่ถูกพูดถึง และตัวเลือกที่สามให้ความเห็นว่าปกกับสันหนังสือเหมือนกัน",
+    "tip": "คำตอบที่ระบุส่วนที่ต้องถ่ายและสิ่งที่ต้องเขียน คือคำตอบของคำถามเรื่องรายละเอียดที่ต้องส่ง"
+   },
+   {
+    "blank": 2,
+    "key": "How do we hand the books over?",
+    "d": [
+     "I posted four titles on the swap last night.",
+     "The guard room is open for two days only.",
+     "Who collects the books from the guard room?"
+    ],
+    "exp": "หลังช่อง (2) Pond บอกวิธีส่งหนังสือและเวลารับ (Leave them at the guard room, and the other student collects within two days) ช่อง (2) จึงต้องถามว่าจะส่งหนังสือกันยังไง คือ “How do we hand the books over?” ตัวเลือกแรกเล่าว่าโพสต์ไปแล้ว ตัวเลือกที่สองอ้างว่าห้องยามเปิดแค่สองวัน และตัวเลือกที่สามถามว่าใครมารับ",
+    "tip": "คำตอบที่บอกจุดวางของและผู้รับ คือคำตอบของคำถามเรื่องการส่งต่อ"
+   },
+   {
+    "blank": 3,
+    "key": "How long should we wait for a reply?",
+    "d": [
+     "Nobody replied to my title within two days.",
+     "Does a lower condition note always get replies?",
+     "Two weeks is a long time."
+    ],
+    "exp": "หลังช่อง (3) Pond กำหนดเวลารอและทางออก (Two weeks, and if nobody replies we can post the title again with a lower condition note) ช่อง (3) จึงต้องถามว่าควรรอคำตอบนานแค่ไหน คือ “How long should we wait for a reply?” ตัวเลือกอื่นเล่าว่าไม่มีใครตอบประกาศของตัวเองภายในสองวัน ถามว่าหมายเหตุสภาพที่ต่ำลงทำให้ได้คำตอบเสมอหรือไม่ หรือบ่นว่าสองสัปดาห์นานเกินไปสำหรับการแลกหนังสือ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยระยะเวลา คือคำตอบของคำถามว่าควรรอนานเท่าไหร่"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q011",
+  "context": "Nam: Ping, our train leaves at six in the morning, and the night market closes at ten.\nPing: (1) ____\nNam: The return ticket costs three hundred baht, and the market is a ten-minute walk from the station.\nPing: I’ll carry the camera and the power bank. (2) ____\nNam: One small bag each, because the train has no space for large suitcases.\nPing: (3) ____\nNam: At the station gate at five thirty, and we buy breakfast on the platform.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How much does the return ticket cost?",
+    "d": [
+     "The night market closes at ten in the evening.",
+     "Why does the train leave at six in the morning?",
+     "The station is ten minutes away."
+    ],
+    "exp": "หลังช่อง (1) Nam บอกราคาตั๋วและระยะทางจากสถานี (The return ticket costs three hundred baht, and the market is a ten-minute walk from the station) ช่อง (1) จึงต้องถามราคาตั๋ว คือ “How much does the return ticket cost?” ตัวเลือกแรกทวนเวลาปิดตลาด ตัวเลือกที่สองถามเหตุผลที่รถออกเช้า และตัวเลือกที่สามสลับว่าสถานีอยู่ห่างจากบ้านสิบนาที",
+    "tip": "คำตอบที่ขึ้นต้นด้วยราคา คือคำตอบของคำถามว่าเท่าไหร่"
+   },
+   {
+    "blank": 2,
+    "key": "How much luggage can we take?",
+    "d": [
+     "I carried the camera and the power bank last time.",
+     "Large suitcases never fit on that train.",
+     "Who buys breakfast there?"
+    ],
+    "exp": "หลังช่อง (2) Nam จำกัดกระเป๋าและให้เหตุผล (One small bag each, because the train has no space for large suitcases) ช่อง (2) จึงต้องถามว่าเอากระเป๋าไปได้แค่ไหน คือ “How much luggage can we take?” ตัวเลือกแรกเล่าเรื่องครั้งก่อน ตัวเลือกที่สองให้เหตุผลแบบเดียวกับที่ Nam จะบอก และตัวเลือกที่สามถามเรื่องอาหารเช้า",
+    "tip": "คำตอบที่บอกจำนวนกระเป๋าต่อคน คือคำตอบของคำถามเรื่องสัมภาระที่นำไปได้"
+   },
+   {
+    "blank": 3,
+    "key": "Where and when should we meet?",
+    "d": [
+     "We met at the station gate at five thirty.",
+     "Does the platform have only two breakfast stalls?",
+     "I’ll wait at the gate."
+    ],
+    "exp": "หลังช่อง (3) Nam นัดที่และเวลา พร้อมแผนอาหารเช้า (At the station gate at five thirty, and we buy breakfast on the platform) ช่อง (3) จึงต้องถามว่าจะเจอกันที่ไหนกี่โมง คือ “Where and when should we meet?” ตัวเลือกอื่นเล่าเรื่องการนัดครั้งก่อน ถามว่าบนชานชาลามีร้านขายอาหารเช้าสองร้านหรือไม่ หรืออาสาไปรอที่ประตูพร้อมตั๋ว ซึ่งไม่ทำให้ Nam ต้องบอกเวลานัด",
+    "tip": "คำตอบที่ขึ้นต้นด้วยสถานที่ตามด้วยเวลา คือคำตอบของคำถามนัดหมาย"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q017",
+  "context": "Gun: Yim, the minibus to the coast leaves at seven, and the hostel needs our names today.\nYim: (1) ____\nGun: Four beds in one room, and the hostel keeps the booking until six in the evening.\nYim: I can pay for both of us at the counter. (2) ____\nGun: Six hundred baht each for the bed, plus the minibus fare, which we split at the station.\nYim: That works. The forecast says rain in the afternoon. (3) ____\nGun: Then we visit the aquarium instead, because it is inside and closes at eight.\nYim: (4) ____\nGun: Yes, bring a light jacket, and we’ll buy the minibus tickets before we board.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How many beds did you book?",
+    "d": [
+     "The hostel keeps our booking until six.",
+     "Why leave at seven?",
+     "Four beds in one room is never enough."
+    ],
+    "exp": "หลังช่อง (1) Gun บอกจำนวนเตียงและเงื่อนไขการจอง (Four beds in one room, and the hostel keeps the booking until six in the evening) ช่อง (1) จึงต้องถามว่าจองกี่เตียง คือ “How many beds did you book?” ตัวเลือกแรกทวนเงื่อนไขที่ Gun จะบอก ตัวเลือกที่สองถามเวลาออกของรถ และตัวเลือกที่สามให้ความเห็นว่ามีสี่เตียงไม่พอ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยจำนวนเตียงหรือที่นั่ง คือคำตอบของคำถามว่าจองไว้เท่าไหร่"
+   },
+   {
+    "blank": 2,
+    "key": "How should we split the cost?",
+    "d": [
+     "I paid for both of us at the counter last trip.",
+     "The minibus fare is split at the station.",
+     "Who keeps the money for the aquarium?"
+    ],
+    "exp": "หลังช่อง (2) Gun แยกรายจ่ายและบอกวิธีหาร (Six hundred baht each for the bed, plus the minibus fare, which we split at the station) ช่อง (2) จึงต้องถามว่าจะหารค่าใช้จ่ายยังไง คือ “How should we split the cost?” ตัวเลือกแรกเล่าว่าเคยจ่ายให้ทั้งสองคน ตัวเลือกที่สองบอกวิธีหารค่ารถซึ่ง Gun กำลังจะอธิบาย และตัวเลือกที่สามถามเรื่องเงินค่าพิพิธภัณฑ์สัตว์น้ำ",
+    "tip": "คำตอบที่บอกราคาต่อคนและวิธีหาร คือคำตอบของคำถามเรื่องการแบ่งค่าใช้จ่าย"
+   },
+   {
+    "blank": 3,
+    "key": "What should we do if it rains?",
+    "d": [
+     "Did the forecast say rain yesterday afternoon?",
+     "The aquarium closes at eight every evening.",
+     "We visited the aquarium because of the rain."
+    ],
+    "exp": "หลังช่อง (3) Gun เปลี่ยนแผนเพราะฝน (Then we visit the aquarium instead, because it is inside and closes at eight) ช่อง (3) จึงต้องถามว่าจะทำยังไงถ้าฝนตก คือ “What should we do if it rains?” ตัวเลือกอื่นถามว่าพยากรณ์บอกว่าจะมีฝนเมื่อวานบ่ายหรือไม่ บอกเวลาปิดพิพิธภัณฑ์สัตว์น้ำ และเล่าว่าเคยไปที่นั่นเพราะฝนตก",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Then we… instead คือแผนสำรองของคำถามถ้าฝนตก"
+   },
+   {
+    "blank": 4,
+    "key": "Should we bring a light jacket?",
+    "d": [
+     "A light jacket is only useful in the evening.",
+     "I bought the minibus tickets before boarding.",
+     "Are the tickets in my jacket pocket?"
+    ],
+    "exp": "Gun ตอบว่า “Yes, bring a light jacket, and we’ll buy the minibus tickets before we board.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถาม yes/no เรื่องการพกเสื้อกันหนาว คือ “Should we bring a light jacket?” ตัวเลือกอื่นบอกว่าเสื้อแจ็กเก็ตบางมีประโยชน์แค่ตอนเย็น เล่าว่าซื้อตั๋วรถมินิบัสก่อนขึ้นรถแล้ว และถามว่าตั๋วอยู่ในกระเป๋าเสื้อแจ็กเก็ตหรือไม่ ซึ่ง Gun ไม่ได้ตอบ",
+    "tip": "ช่องท้ายบทที่ตามด้วย Yes, bring… ต้องเป็นคำถามว่าควรนำของนั้นไปด้วยไหม"
+   }
+  ]
+ }
+]

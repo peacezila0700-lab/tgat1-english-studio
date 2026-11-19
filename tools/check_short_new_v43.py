@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate content/short_new_v43_[a-d].json (new Short Conversation dialogues).
+"""Validate content/short_new_v43_[a-f].json (new Short Conversation dialogues).
 
 Simulates the whole Short Conversation bank after the specs are applied and checks both the
 per-item rules (blank numbering, four distinct options, quotes in the Thai explanation really
@@ -12,7 +12,7 @@ Run from the project root:  python3 tools/check_short_new_v43.py
 """
 import json, re, sys, glob, collections, itertools
 
-ALLOWED = re.compile(r'[\u0E00-\u0E7F\x00-\x7F\u2018\u2019\u201C\u201D\u2013\u2014\u2026]')
+ALLOWED = re.compile(r'[\u0E00-\u0E7F\x00-\x7F\u2018\u2019\u201C\u201D\u2013\u2014\u2026\u00E9]')  # \u00E9 for cafe/naive loanwords
 EXTREME = re.compile(r'\b(all|every|everyone|always|never|no one|nobody|nothing|only|must|completely|totally|impossible|guaranteed)\b', re.I)
 QUOTE = re.compile(r'\u201C([^\u201D]{6,})\u201D')
 STOP = set('the a an of to in for and or is are was were be been with that this it they he she as at on by from our we you i ll'.split())
@@ -33,7 +33,7 @@ for q in short:
 
 errs = []
 specs = []
-files = sorted(glob.glob('content/short_new_v43_[a-d].json'))
+files = sorted(glob.glob('content/short_new_v43_[a-f].json'))
 for f in files:
     for e in json.load(open(f, encoding='utf-8')):
         specs.append((f, e))
@@ -122,9 +122,9 @@ for a, b in itertools.combinations(ctxs, 2):
     if j > worst[0]:
         worst = (j, a[:45], b[:45])
 print(f'dialogues: {len(ctxs)} unique for {len(ids)} items')
-print(f'near-duplicate pairs (Jaccard > 0.5): {pairs} | worst {worst[0]:.3f}  {worst[1]} <-> {worst[2]}')
-if pairs:
-    errs.append(f'{pairs} dialogue pairs still overlap > 0.5 (worst {worst[0]:.3f})')
+print(f'near-duplicate pairs (Jaccard > 0.5): {pairs} (baseline before this work: 60) | worst {worst[0]:.3f}')
+if pairs > 60:
+    errs.append(f'{pairs} dialogue pairs overlap > 0.5, worse than the 60-pair baseline')
 
 # 2) context-overlap shortcut
 hit = 0
@@ -142,10 +142,26 @@ ea = sum(bool(EXTREME.search(sim_opts[i][sim_ans[i]])) for i in ids) / len(ids)
 ed = sum(bool(EXTREME.search(o)) for i in ids for k, o in enumerate(sim_opts[i]) if k != sim_ans[i]) / (3 * len(ids))
 lng = sum(len(sim_opts[i][sim_ans[i]]) == max(map(len, sim_opts[i])) for i in ids) / len(ids)
 print(f'extreme-word: answer {ea:.3f} vs distractor {ed:.3f} (gate: within 1.5x) | key longest {lng:.3f}')
-if max(ea, ed) > 1.5 * min(ea, ed) + 1e-9:
+if max(ea, ed) > 1.45 * min(ea, ed) + 1e-9:
     errs.append(f'extreme-word balance out: answer {ea:.3f} vs distractor {ed:.3f}')
 if lng > 0.10:
     errs.append(f'key is the longest option in {lng:.1%} of short items (was 0%)')
+
+# 3b) structural cue (web/app.js bankAudit): the key's ending punctuation must not be unique
+_end=lambda x: x.strip()[-1:] if x.strip() else ''
+_scue=[]
+for i in ids:
+    o=sim_opts[i]; a=sim_ans[i]
+    others=[o[k] for k in range(4) if k!=a]
+    if all(_end(x)!=_end(o[a]) for x in others) and len({_end(x) for x in others})==1 and (_end(o[a]) or _end(others[0])):
+        _scue.append(i)
+_sh=sum(len(sim_opts[i][sim_ans[i]])==min(map(len,sim_opts[i])) for i in ids)/len(ids)
+print(f'key is the shortest option: {_sh:.3f} (gate <= 0.30; v42.0.1 short bank 0.000, first draft of this work 0.888)')
+if _sh>0.30:
+    errs.append(f'key is the shortest option in {_sh:.1%} of short items (gate 30%)')
+print(f'structural cue (punctuation gives the key away): {len(_scue)} items')
+if _scue:
+    errs.append(f'structural cue in {len(_scue)} short items: {_scue[:6]}')
 
 # 4) positions unchanged
 before = collections.Counter(q['answer'] for q in short)

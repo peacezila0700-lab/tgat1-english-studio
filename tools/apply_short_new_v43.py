@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""v43 (Arena round 2): brand-new Short Conversation dialogues from content/short_new_v43_[a-d].json.
+"""v43 (Arena round 2): brand-new Short Conversation dialogues from content/short_new_v43_[a-f].json.
 
 Why: the 200 Short Conversation items were built on only 20 situations. Each situation had
 three dialogues that were identical except for the speakers' names (word-overlap Jaccard up
@@ -35,7 +35,7 @@ for q in V:
 byid = {q['id']: q for q in V}
 
 done = skipped = 0
-for f in sorted(glob.glob('content/short_new_v43_[a-d].json')):
+for f in sorted(glob.glob('content/short_new_v43_[a-f].json')):
     for e in json.load(open(f, encoding='utf-8')):
         anchor = byid[e['first']]
         assert anchor['kind'] == 'short', e['first']

@@ -1,0 +1,347 @@
+[
+ {
+  "first": "S13-Q011",
+  "context": "Nara: Oon, the Grade 7 garden lesson is on Tuesday, and each group plants lettuce in its own row.\nOon: (1) ____\nNara: Dig ten holes in a row, put one seedling in each hole, then press the soil around it.\nOon: My group finished its row early. (2) ____\nNara: Help the next group label their row, and do not water the lettuce until the teacher says so.\nOon: (3) ____\nNara: With the wooden sticks in the box, and each label carries the group number and the date.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What do the groups do in the row?",
+    "d": [
+     "Each group has one row of lettuce.",
+     "Why does the lesson happen on Tuesday?",
+     "Ten holes are already dug in my row."
+    ],
+    "exp": "หลังช่อง (1) Nara บอกขั้นตอนการปลูกในแปลง (Dig ten holes in a row, put one seedling in each hole, then press the soil around it) ช่อง (1) จึงถามว่าแต่ละกลุ่มทำอะไรในแปลง คือ “What do the groups do in the row?” ตัวเลือกอื่นทวนว่ากลุ่มละหนึ่งแปลง ถามเหตุผลเรื่องวัน หรือเล่าว่าขุดหลุมไปแล้ว",
+    "tip": "คำตอบที่เรียงขั้นตอนสามขั้น คือคำตอบของคำถามว่าจะต้องทำอะไร"
+   },
+   {
+    "blank": 2,
+    "key": "What must we do next?",
+    "d": [
+     "We labelled the next group’s row.",
+     "The teacher waters the lettuce herself.",
+     "Who presses the soil around the seedlings?"
+    ],
+    "exp": "หลังช่อง (2) Nara บอกงานถัดไปและข้อห้าม (Help the next group label their row, and do not water the lettuce until the teacher says so) ช่อง (2) จึงถามว่าจะทำอะไรต่อ คือ “What must we do next?” ตัวเลือกอื่นเล่าว่าทำไปแล้ว อ้างว่าครูรดน้ำเอง หรือถามว่าใครกลบดิน",
+    "tip": "คำตอบที่มีทั้งงานถัดไปและข้อห้าม (do not…) คือคำตอบของคำถามว่าจะทำอะไรต่อ"
+   },
+   {
+    "blank": 3,
+    "key": "What do we write the labels on?",
+    "d": [
+     "The labels carry the group number and date.",
+     "Are the wooden sticks kept in the tool box?",
+     "I’ll write the date on every label."
+    ],
+    "exp": "หลังช่อง (3) Nara บอกวัสดุและข้อมูลบนป้าย (With the wooden sticks in the box, and each label carries the group number and the date) ช่อง (3) จึงถามว่าเขียนป้ายบนอะไร คือ “What do we write the labels on?” ตัวเลือกอื่นบอกว่าป้ายมีเลขกลุ่มและวันที่ ถามว่าไม้เสียบป้ายเก็บไว้ในกล่องเครื่องมือหรือไม่ และอาสาเขียนวันที่บนป้ายทุกอัน ซึ่ง Nara ไม่ได้ตอบ เพราะเธอระบุว่าเขียนป้ายบนไม้ในกล่อง",
+    "tip": "คำตอบที่ขึ้นต้นด้วยวัสดุ (With the wooden sticks…) คือคำตอบของคำถามว่าเขียนลงบนอะไร"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q017",
+  "context": "Fah: Tan, the Grade 9 lesson tests the soil in three beds, and everyone writes the result in the garden journal.\nTan: (1) ____\nFah: Take a handful of soil from each bed, add water in the jar, and shake it for one minute.\nTan: My jar looks cloudy. (2) ____\nFah: Leave it on the shelf for ten minutes, then read the layers from the bottom up.\nTan: (3) ____\nFah: Sand at the bottom, silt in the middle, and clay on top, so write all three in the journal.\nTan: (4) ____\nFah: Yes, add the compost from the bin, but only after the teacher checks your journal entry.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How do we test the soil?",
+    "d": [
+     "Three beds are tested in this lesson.",
+     "Why does the jar need water?",
+     "I shook my jar for one minute already."
+    ],
+    "exp": "หลังช่อง (1) Fah บอกวิธีทดสอบดิน (Take a handful of soil from each bed, add water in the jar, and shake it for one minute) ช่อง (1) จึงถามวิธีทดสอบดิน คือ “How do we test the soil?” ตัวเลือกอื่นทวนจำนวนแปลง ถามเหตุผลที่ใส่น้ำ หรือเล่าว่าเขย่าขวดไปแล้ว",
+    "tip": "คำตอบที่บอกปริมาณ น้ำ และเวลา คือคำตอบของคำถามเรื่องวิธีทดลอง"
+   },
+   {
+    "blank": 2,
+    "key": "What do we do with the cloudy jar?",
+    "d": [
+     "My jar turned cloudy after one minute of shaking.",
+     "Does the shelf hold six jars at a time?",
+     "Leave the layers on the shelf to dry."
+    ],
+    "exp": "หลังช่อง (2) Fah บอกให้วางขวดรอแล้วอ่านชั้นดิน (Leave it on the shelf for ten minutes, then read the layers from the bottom up) ช่อง (2) จึงถามว่าจะทำอย่างไรกับขวดที่ขุ่น คือ “What do we do with the cloudy jar?” ตัวเลือกอื่นเล่าว่าขวดของตัวเองขุ่นหลังเขย่าหนึ่งนาที ถามว่าชั้นวางใส่ขวดได้หกใบต่อครั้งหรือไม่ และบอกให้วางชั้นดินไว้ให้แห้งซึ่งไม่ตรงกับคำตอบ",
+    "tip": "คำตอบที่บอกระยะเวลารอแล้วตามด้วยสิ่งที่ต้องอ่าน คือคำตอบของคำถามว่าจะจัดการตัวอย่างอย่างไร"
+   },
+   {
+    "blank": 3,
+    "key": "What will the layers show?",
+    "d": [
+     "Sand settles at the bottom of the jar.",
+     "The journal needs all three layers.",
+     "Who reads the layers from the bottom?"
+    ],
+    "exp": "หลังช่อง (3) Fah บอกผลการแยกชั้นและสิ่งที่ต้องจด (Sand at the bottom, silt in the middle, and clay on top, so write all three in the journal) ช่อง (3) จึงถามว่าชั้นดินจะแสดงอะไร คือ “What will the layers show?” ตัวเลือกอื่นพูดถึงทรายอย่างเดียว ทวนว่าสมุดบันทึกต้องจดสามชั้น หรือถามว่าใครอ่านชั้นดิน",
+    "tip": "คำตอบที่เรียงชั้นจากล่างขึ้นบน คือคำตอบของคำถามเรื่องผลการทดลอง"
+   },
+   {
+    "blank": 4,
+    "key": "Must we wait to add the compost?",
+    "d": [
+     "Does the compost bin stand beside the shelf?",
+     "I added the compost before the check.",
+     "The teacher checks every journal entry."
+    ],
+    "exp": "Fah ตอบว่า “Yes, add the compost from the bin, but only after the teacher checks your journal entry.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามขออนุญาตใส่ปุ๋ยหมักตอนนี้ คือ “Must we wait to add the compost?” ตัวเลือกอื่นถามว่าถังปุ๋ยหมักตั้งอยู่ข้างชั้นวางหรือไม่ เล่าว่าใส่ปุ๋ยก่อนครูตรวจ และบอกว่าครูตรวจสมุดบันทึกทุกเล่ม",
+    "tip": "คำตอบที่มี Yes ตามด้วยเงื่อนไข only after… แสดงว่าช่องว่างเป็นคำถามขออนุญาตทำตอนนี้หรือไม่"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q014",
+  "context": "Jay: Mink, the lost-property shelf is full again, and the council posts a notice for each item.\nMink: (1) ____\nJay: Write the colour and the size, but leave out the name inside the collar so the owner can prove it.\nMink: I found a blue jacket with a ticket in the pocket. (2) ____\nJay: Hand the ticket to the office, and mention it in the notice so the owner can ask for it there.\nMink: (3) ____\nJay: On the board by the canteen, and we take the notice down after two weeks.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "What must go into the notice?",
+    "d": [
+     "The shelf is full of lost jackets again.",
+     "Why does the council post a notice?",
+     "Names inside collars are always useful."
+    ],
+    "exp": "หลังช่อง (1) Jay บอกสิ่งที่ต้องเขียนและสิ่งที่ต้องเว้น (Write the colour and the size, but leave out the name inside the collar so the owner can prove it) ช่อง (1) จึงถามว่าประกาศต้องใส่อะไร คือ “What must go into the notice?” ตัวเลือกอื่นทวนว่าชั้นวางเต็ม ถามเหตุผลที่ต้องติดประกาศ หรืออ้างว่าชื่อในปกเสื้อมีประโยชน์เสมอ",
+    "tip": "คำตอบที่มีทั้งสิ่งที่ต้องเขียนและสิ่งที่ต้องเว้น (but leave out…) คือคำตอบของคำถามเรื่องเนื้อหาประกาศ"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do with the ticket?",
+    "d": [
+     "I handed the ticket to the office.",
+     "The ticket belongs to the jacket’s owner.",
+     "Who writes the notice for the ticket?"
+    ],
+    "exp": "หลังช่อง (2) Jay บอกให้ส่งตั๋วและระบุในประกาศ (Hand the ticket to the office, and mention it in the notice so the owner can ask for it there) ช่อง (2) จึงถามว่าจะทำอะไรกับตั๋ว คือ “What should I do with the ticket?” ตัวเลือกอื่นเล่าว่าส่งแล้ว อ้างว่าตั๋วเป็นของเจ้าของเสื้อ หรือถามว่าใครเขียนประกาศ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยกริยาสั่ง (Hand…) คือคำตอบของคำถามว่าจะทำอย่างไรกับของที่พบ"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we post the notice?",
+    "d": [
+     "The notice goes on the board by the canteen.",
+     "We took the notice down after two weeks.",
+     "Should I pin the notice to the canteen board?"
+    ],
+    "exp": "หลังช่อง (3) Jay บอกที่ติดและเวลาเก็บประกาศ (On the board by the canteen, and we take the notice down after two weeks) ช่อง (3) จึงถามว่าจะติดประกาศที่ไหน คือ “Where do we post the notice?” ตัวเลือกอื่นบอกว่าประกาศติดที่กระดานข้างโรงอาหาร เล่าว่าเก็บประกาศลงหลังสองสัปดาห์ และถามว่าฉันควรติดประกาศที่กระดานโรงอาหารเองไหม ซึ่ง Jay ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยตำแหน่ง (On the board…) คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q011",
+  "context": "Maya: Ice, someone left a water bottle and an umbrella at the bus stop, and we post a photo online.\nIce: (1) ____\nMaya: Photograph both items on the desk, then upload the photo to the school page with the date.\nIce: The bottle has a name on it. (2) ____\nMaya: Cover the name with your finger in the photo, because the owner must describe it to claim it.\nIce: (3) ____\nMaya: At the office window, and they keep both items there until the end of the month.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How do we post the notice online?",
+    "d": [
+     "The photo shows both items on the desk.",
+     "Why is the date needed on the page?",
+     "I uploaded the photo to the school page."
+    ],
+    "exp": "หลังช่อง (1) Maya บอกวิธีถ่ายภาพและลงประกาศ (Photograph both items on the desk, then upload the photo to the school page with the date) ช่อง (1) จึงถามวิธีลงประกาศออนไลน์ คือ “How do we post the notice online?” ตัวเลือกอื่นพูดถึงสิ่งที่ปรากฏในรูป ถามเหตุผลเรื่องวันที่ หรือเล่าว่าอัปโหลดรูปไปแล้ว",
+    "tip": "คำตอบที่เรียงขั้นตอนถ่ายแล้วอัปโหลด คือคำตอบของคำถามเรื่องวิธีลงประกาศ"
+   },
+   {
+    "blank": 2,
+    "key": "Must the name show in the photo?",
+    "d": [
+     "Does a name on the bottle help the owner?",
+     "I covered the name with my finger.",
+     "The owner must describe the bottle."
+    ],
+    "exp": "หลังช่อง (2) Maya บอกให้ปิดชื่อพร้อมเหตุผล (Cover the name with your finger in the photo, because the owner must describe it to claim it) ช่อง (2) จึงถามว่าชื่อควรปรากฏในรูปไหม คือ “Must the name show in the photo?” ตัวเลือกอื่นถามว่าชื่อบนขวดช่วยเจ้าของหรือไม่ เล่าว่าตัวเองใช้นิ้วปิดชื่อในรูปแล้ว และทวนว่าเจ้าของต้องบอกรายละเอียดเพื่อขอรับของ",
+    "tip": "คำตอบที่เป็นคำสั่งปิดบังข้อมูล คือคำตอบของคำถามว่าควรเปิดเผยข้อมูลนั้นหรือไม่"
+   },
+   {
+    "blank": 3,
+    "key": "Where can the owner collect them?",
+    "d": [
+     "The office window keeps items for a month.",
+     "Both items stay at the office window.",
+     "Who found the bottle and the umbrella?"
+    ],
+    "exp": "หลังช่อง (3) Maya บอกที่รับของและระยะเวลาเก็บ (At the office window, and they keep both items there until the end of the month) ช่อง (3) จึงถามว่าเจ้าของรับของได้ที่ไหน คือ “Where can the owner collect them?” ตัวเลือกอื่นบอกว่าช่องสำนักงานเก็บของไว้หนึ่งเดือน บอกว่าของทั้งสองชิ้นอยู่ที่ช่องสำนักงาน และถามว่าใครพบขวดกับร่ม ซึ่ง Maya ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยสถานที่ (At the office window) คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q017",
+  "context": "Namo: Beam, we hang the student paintings along the corridor before Thursday’s exhibition opens.\nBeam: (1) ____\nNamo: Big canvases go at eye level on the left wall, and the small ones sit on the tables below.\nBeam: Two hooks came loose. (2) ____\nNamo: Tell the caretaker, and do not hang anything on that wall until he fixes the hooks.\nBeam: Some paintings have no title cards. (3) ____\nNamo: Then print the cards from the list and tape them at the lower right corner of each frame.\nBeam: (4) ____\nNamo: Yes, the visitors may photograph the work, but no flash and nothing may be touched.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "Where does each painting go?",
+    "d": [
+     "The corridor opens before Thursday.",
+     "Why are the small paintings on tables?",
+     "Big canvases hung at eye level last year."
+    ],
+    "exp": "หลังช่อง (1) Namo บอกตำแหน่งแขวนภาพ (Big canvases go at eye level on the left wall, and the small ones sit on the tables below) ช่อง (1) จึงถามว่าภาพแต่ละใบแขวนที่ไหน คือ “Where does each painting go?” ตัวเลือกอื่นพูดถึงเวลาเปิดทางเดิน ถามเหตุผลเรื่องภาพเล็ก หรือเล่าว่าปีก่อนแขวนระดับสายตา",
+    "tip": "คำตอบที่แยกระดับตามขนาดภาพ คือคำตอบของคำถามเรื่องการจัดวางงานแสดง"
+   },
+   {
+    "blank": 2,
+    "key": "What do we do about the hooks?",
+    "d": [
+     "Two hooks are loose on the left wall.",
+     "The caretaker fixed the hooks once.",
+     "Who hangs the paintings on that wall?"
+    ],
+    "exp": "หลังช่อง (2) Namo บอกให้แจ้งช่างและห้ามแขวนเพิ่ม (Tell the caretaker, and do not hang anything on that wall until he fixes the hooks) ช่อง (2) จึงถามว่าจะจัดการเรื่องตะขออย่างไร คือ “What do we do about the hooks?” ตัวเลือกอื่นทวนปัญหาตะขอหลวม เล่าว่าช่างเคยซ่อม หรือถามว่าใครแขวนภาพที่ผนังนั้น",
+    "tip": "คำตอบที่มีทั้งคนต้องแจ้งและข้อห้าม คือคำตอบของคำถามว่าจะแก้ปัญหาอุปกรณ์อย่างไร"
+   },
+   {
+    "blank": 3,
+    "key": "What about the missing title cards?",
+    "d": [
+     "The title cards come from the print list.",
+     "Who taped the cards at the last exhibition?",
+     "I’ll print the cards from the list."
+    ],
+    "exp": "หลังช่อง (3) Namo บอกวิธีแก้เรื่องป้ายชื่อภาพ (Then print the cards from the list and tape them at the lower right corner of each frame) ช่อง (3) จึงถามเรื่องป้ายที่หายไป คือ “What about the missing title cards?” ตัวเลือกอื่นบอกว่าป้ายชื่อภาพมาจากบัญชีรายการพิมพ์ ถามว่าใครติดป้ายในงานครั้งก่อน และอาสาพิมพ์ป้ายจากบัญชีรายการ ซึ่ง Namo ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Then… คือทางแก้ของปัญหาที่ผู้พูดคนก่อนเพิ่งยกมา"
+   },
+   {
+    "blank": 4,
+    "key": "Can visitors photograph the work?",
+    "d": [
+     "Photographs of the work sell at the desk.",
+     "Did I photograph the paintings yesterday?",
+     "Only the artists may photograph their work."
+    ],
+    "exp": "Namo ตอบว่า “Yes, the visitors may photograph the work, but no flash and nothing may be touched.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามว่าผู้ชมถ่ายรูปได้ไหม คือ “Can visitors photograph the work?” ตัวเลือกอื่นบอกว่าภาพถ่ายของงานขายที่โต๊ะหน้างาน ถามว่าฉันถ่ายภาพวาดไปเมื่อวานหรือไม่ และอ้างว่ามีแต่ศิลปินที่ถ่ายงานตัวเองได้",
+    "tip": "คำตอบที่มี Yes ตามด้วยเงื่อนไขห้ามแฟลชและห้ามสัมผัส แสดงว่าช่องว่างเป็นคำถามขออนุญาต"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q014",
+  "context": "Nora: Sun, our photo exhibition opens on Monday, and a guest judge picks the best three pictures.\nSun: (1) ____\nNora: He walks the room with the head of the club, then writes his three choices on the card.\nSun: Visitors want to choose a favourite too. (2) ____\nNora: Give each visitor one paper star, and let them stick it beside the picture they like.\nSun: (3) ____\nNora: Beside the door, and we count the stars after the room closes at five.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "How does the judge choose?",
+    "d": [
+     "The judge picks three pictures himself.",
+     "Why does the head of the club walk with him?",
+     "The best three pictures hang on Monday."
+    ],
+    "exp": "หลังช่อง (1) Nora เล่าวิธีตัดสิน (He walks the room with the head of the club, then writes his three choices on the card) ช่อง (1) จึงถามว่ากรรมการเลือกอย่างไร คือ “How does the judge choose?” ตัวเลือกอื่นทวนว่ากรรมการเลือกสามภาพ ถามเหตุผลเรื่องหัวหน้าชมรม หรืออ้างว่าภาพชนะเลิศแขวนวันจันทร์",
+    "tip": "คำตอบที่เล่าลำดับการเดินดูแล้วจดผล คือคำตอบของคำถามเรื่องวิธีตัดสิน"
+   },
+   {
+    "blank": 2,
+    "key": "What may every visitor do?",
+    "d": [
+     "Visitors stick paper stars beside pictures.",
+     "Each visitor wants one paper star.",
+     "Who counts the stars after five?"
+    ],
+    "exp": "หลังช่อง (2) Nora บอกกติกาสำหรับผู้ชม (Give each visitor one paper star, and let them stick it beside the picture they like) ช่อง (2) จึงถามว่าผู้ชมทำอะไรได้ คือ “What may every visitor do?” ตัวเลือกอื่นทวนการติดดาว พูดถึงความอยากได้ดาว หรือถามว่าใครนับดาว",
+    "tip": "คำตอบที่บอกว่าให้ผู้ชมทำอะไรกับดาวกระดาษ คือคำตอบของคำถามเรื่องกิจกรรมของผู้ชม"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we keep the star box?",
+    "d": [
+     "The star box stands beside the door.",
+     "We counted the stars after the room closed.",
+     "Should I carry the star box to the door?"
+    ],
+    "exp": "หลังช่อง (3) Nora บอกที่วางกล่องดาวและเวลานับ (Beside the door, and we count the stars after the room closes at five) ช่อง (3) จึงถามว่าจะวางกล่องดาวไว้ที่ไหน คือ “Where do we keep the star box?” ตัวเลือกอื่นบอกว่ากล่องดาวตั้งอยู่ข้างประตู เล่าว่าเรานับดาวหลังห้องปิด และถามว่าฉันควรถือกล่องดาวไปที่ประตูไหม ซึ่ง Nora ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยตำแหน่ง (Beside the door) คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q011",
+  "context": "Tom: Nin, our group project lives in the shared folder, and every part needs a deadline.\nNin: (1) ____\nTom: The research goes in on Wednesday, the slides on Friday, and the script on Sunday night.\nNin: I finished my slides but the folder shows an old file. (2) ____\nTom: Name each file with your name and the date, because the folder keeps only the newest upload.\nNin: (3) ____\nTom: In the group chat, and everyone replies with a tick when they have read it.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "When is each part due?",
+    "d": [
+     "The research went in on Wednesday.",
+     "Why does the script come last?",
+     "Three deadlines are enough for one week."
+    ],
+    "exp": "หลังช่อง (1) Tom บอกกำหนดส่งแต่ละส่วน (The research goes in on Wednesday, the slides on Friday, and the script on Sunday night) ช่อง (1) จึงถามกำหนดส่งของแต่ละส่วน คือ “When is each part due?” ตัวเลือกอื่นเล่าว่างานวิจัยส่งไปแล้ว ถามเหตุผลเรื่องลำดับสคริปต์ หรือให้ความเห็นว่าสามกำหนดพอ",
+    "tip": "คำตอบที่จับคู่ชิ้นงานกับวันส่ง คือคำตอบของคำถามเรื่องกำหนดเวลา"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do about my file?",
+    "d": [
+     "The folder keeps only the newest upload.",
+     "I named my file with my name and date.",
+     "Who uploads the slides to the folder?"
+    ],
+    "exp": "หลังช่อง (2) Tom บอกวิธีตั้งชื่อไฟล์และเหตุผล (Name each file with your name and the date, because the folder keeps only the newest upload) ช่อง (2) จึงถามว่าจะทำอย่างไรกับไฟล์ของตัวเอง คือ “What should I do about my file?” ตัวเลือกอื่นให้เหตุผลว่าโฟลเดอร์เก็บไฟล์ล่าสุดเท่านั้น เล่าว่าตั้งชื่อไฟล์แล้ว หรือถามว่าใครอัปโหลดสไลด์",
+    "tip": "คำตอบที่เป็นคำสั่งตั้งชื่อไฟล์ คือคำตอบของคำถามว่าจะแก้ปัญหาไฟล์ซ้ำอย่างไร"
+   },
+   {
+    "blank": 3,
+    "key": "Where do we post the deadlines?",
+    "d": [
+     "The deadlines are posted in the group chat.",
+     "Everyone replies with a tick in the chat.",
+     "Who writes the deadlines for the group?"
+    ],
+    "exp": "หลังช่อง (3) Tom บอกช่องทางและกติกายืนยัน (In the group chat, and everyone replies with a tick when they have read it) ช่อง (3) จึงถามว่าจะโพสต์กำหนดส่งที่ไหน คือ “Where do we post the deadlines?” ตัวเลือกอื่นบอกว่ากำหนดส่งโพสต์ไว้ในแชตกลุ่ม บอกว่าทุกคนตอบด้วยเครื่องหมายถูกเมื่ออ่านแล้ว และถามว่าใครเป็นผู้เขียนกำหนดส่งให้กลุ่ม ซึ่ง Tom ไม่ได้ตอบ",
+    "tip": "คำตอบที่ขึ้นต้นด้วยช่องทาง (In the group chat) คือคำตอบของคำถาม Where"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q017",
+  "context": "Ken: Fang, our group has to hand in the video on the tenth, and we record in two sessions.\nFang: (1) ____\nKen: The first session is on Saturday at ten, and the second one is on Wednesday after school.\nFang: I can edit, but my laptop is slow. (2) ____\nKen: Then upload the raw clips to the shared drive, and Nont will cut them on his machine.\nFang: Some members miss the calls. (3) ____\nKen: Send the notes to the chat within an hour, and mark the tasks with the name of the person who owns them.\nFang: (4) ____\nKen: Yes, add the music at the end, but keep it under ten seconds so the judges can hear the voices.",
+  "items": [
+   {
+    "blank": 1,
+    "key": "When are the two sessions?",
+    "d": [
+     "The video is due on the tenth.",
+     "Why do we record in two sessions?",
+     "I recorded the first session on Saturday."
+    ],
+    "exp": "หลังช่อง (1) Ken บอกเวลาถ่ายทำทั้งสองรอบ (The first session is on Saturday at ten, and the second one is on Wednesday after school) ช่อง (1) จึงถามว่าสองรอบถ่ายเมื่อไหร่ คือ “When are the two sessions?” ตัวเลือกอื่นทวนกำหนดส่งวิดีโอ ถามเหตุผลที่ถ่ายสองรอบ หรือเล่าว่าตัวเองถ่ายรอบแรกแล้ว",
+    "tip": "คำตอบที่ระบุวันและเวลาของแต่ละรอบ คือคำตอบของคำถาม When"
+   },
+   {
+    "blank": 2,
+    "key": "What should I do with the clips?",
+    "d": [
+     "My laptop is slow at cutting clips.",
+     "Nont cuts the clips on his machine.",
+     "Who uploads the raw clips to the drive?"
+    ],
+    "exp": "หลังช่อง (2) Ken เสนอทางออกให้ (Then upload the raw clips to the shared drive, and Nont will cut them on his machine) ช่อง (2) จึงถามว่าจะทำอะไรกับคลิป คือ “What should I do with the clips?” ตัวเลือกอื่นทวนว่าเครื่องช้า บอกว่านนท์ตัดคลิปให้ หรือถามว่าใครอัปโหลดคลิป",
+    "tip": "คำตอบที่ขึ้นต้นด้วย Then… คือทางแก้เมื่อผู้พูดคนก่อนบอกข้อจำกัดของตัวเอง"
+   },
+   {
+    "blank": 3,
+    "key": "How do we keep everyone informed?",
+    "d": [
+     "The notes went to the chat within an hour.",
+     "Each task has the owner’s name on it.",
+     "Is missing a call never a real problem?"
+    ],
+    "exp": "หลังช่อง (3) Ken วางกติกาการตามงาน (Send the notes to the chat within an hour, and mark the tasks with the name of the person who owns them) ช่อง (3) จึงถามวิธีให้ทุกคนรับรู้ข้อมูล คือ “How do we keep everyone informed?” ตัวเลือกอื่นเล่าว่าบันทึกถูกส่งเข้าแชตภายในหนึ่งชั่วโมงแล้ว บอกว่างานแต่ละชิ้นมีชื่อผู้รับผิดชอบ และถามว่าการพลาดสายไม่ใช่ปัญหาจริงหรือไม่",
+    "tip": "คำตอบที่บอกระยะเวลาส่งบันทึกและการระบุผู้รับผิดชอบ คือคำตอบของคำถามเรื่องการสื่อสารในกลุ่ม"
+   },
+   {
+    "blank": 4,
+    "key": "Can I add music to the video?",
+    "d": [
+     "The music goes under the judges’ comments.",
+     "Did I add ten seconds of music already?",
+     "Only the voices may stay in the video."
+    ],
+    "exp": "Ken ตอบว่า “Yes, add the music at the end, but keep it under ten seconds so the judges can hear the voices.” ซึ่งขึ้นต้นด้วย Yes แสดงว่าช่อง (4) เป็นคำถามขออนุญาตใส่เพลง คือ “Can I add music to the video?” ตัวเลือกอื่นบอกว่าเพลงอยู่ใต้ความเห็นของกรรมการ ถามว่าฉันใส่เพลงสิบวินาทีไปแล้วหรือไม่ และอ้างว่ามีแต่เสียงพูดเท่านั้นที่อยู่ในวิดีโอได้",
+    "tip": "คำตอบที่มี Yes ตามด้วยข้อจำกัดความยาว แสดงว่าช่องว่างเป็นคำถามขออนุญาต"
+   }
+  ]
+ }
+]
