@@ -704,6 +704,8 @@ function studioWeakPart(){const stats=studioPartStats().filter(x=>x.total>0).sor
 function studioUpdateChrome(page){const map={home:['HOME','สวัสดี ยินดีต้อนรับกลับ'],profile:['MY PROFILE','โปรไฟล์ของฉัน'],vocab:['VOCABULARY','Vocabulary Center'],exam:['EXAM CENTER','ศูนย์สอบ TGAT1'],game:['GAME CENTER','Game Center'],analytics:['ANALYTICS','สถิติพัฒนาการ'],settings:['SETTINGS','ตั้งค่าและสำรองข้อมูล']};const x=map[page]||map.home;document.getElementById('studioCrumb').textContent=x[0];document.getElementById('studioTitle').textContent=(page==='home'?'ภาพรวมการเตรียมสอบ':x[1]);document.getElementById('studioXP').textContent=studioXP().toLocaleString()+' XP';document.getElementById('studioAvatar').textContent=(STUDIO_PROFILE.name||'S').trim().slice(0,1).toUpperCase();document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('active',b.dataset.page===page));}
 function studioNav(page){/* v40.8.0: a finished vocabulary session keeps Q only to show its result; leaving it must not warn about unsaved progress. */if(Q&&typeof STUDIO_SESSION_FINISHED!=='undefined'&&STUDIO_SESSION_FINISHED&&page!==STUDIO_PAGE)Q=null;if((VLT_RUN||Q)&&page!==STUDIO_PAGE){TGConfirm('กำลังทำแบบฝึกอยู่ หากออกจากหน้านี้ความคืบหน้ารอบปัจจุบันอาจไม่ถูกบันทึก ต้องการออกหรือไม่?').then(ok=>{if(!ok)return;if(VLT_RUN){VLT_stopTimer();VLT_RUN=null;}if(Q){studioClearSession();stopExamClock();Q=null;}studioNavNow(page)});return}studioNavNow(page)}function studioNavNow(page){if(page!==STUDIO_PAGE){STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false}STUDIO_PAGE=page;STUDIO_VPAGE=0;studioUpdateChrome(page);studioRender()}
 function studioRender(){const app=document.getElementById('app');if(!app)return;const page=STUDIO_PAGE;if((page==='exam'||page==='analytics')&&!VLT_BANK.length){const status=document.createElement('div');status.className='st-card';status.setAttribute('role','status');status.textContent='กำลังโหลดคลังข้อสอบ…';app.replaceChildren(status);VLT_ensureBank().then(()=>{if(STUDIO_PAGE===page)studioRender()}).catch(e=>{console.error(e);studioToast(e.message||'โหลดคลังข้อสอบไม่สำเร็จ')});return;}switch(page){case'home':studioHome();break;case'profile':studioProfile();break;case'vocab':studioVocabulary();break;case'exam':studioExam();break;case'game':studioGame();break;case'analytics':studioAnalytics();break;case'settings':studioSettings();break;default:studioHome()}}
+/* T1 merge: captured before the merged dispatcher below reassigns studioRender. */
+const studioRenderBase=studioRender;
 function home(){try{stopExamClock();Q=null}catch(e){}if(typeof VLT_stopTimer==='function')VLT_stopTimer();if(typeof VLT_RUN!=='undefined')VLT_RUN=null;STUDIO_PAGE='home';studioUpdateChrome('home');studioHome()}
 function VLT_home(){if(typeof VLT_stopTimer==='function')VLT_stopTimer();if(typeof VLT_RUN!=='undefined')VLT_RUN=null;STUDIO_PAGE='exam';studioUpdateChrome('exam');studioExam()}
 function VLT_open(){VLT_stopTimer();VLT_RUN=null;STUDIO_PAGE='exam';studioUpdateChrome('exam');studioExam()}
@@ -1077,8 +1079,8 @@ function studioRenderTools(){
 }
 const studioOriginalFinishV6=finish;
 finish=function(){try{studioCaptureErrors(Q)}catch(e){}return studioOriginalFinishV6.apply(this,arguments)};
-const studioOriginalRenderV6=studioRender;
-studioRender=function(){if(['errors','review','advanced'].includes(STUDIO_PAGE)){studioRenderTools();return}return studioOriginalRenderV6.apply(this,arguments)};
+/* T1 merge: errors/review/advanced pages route to studioRenderTools; all other pages
+   fall through to the merged studioRender dispatcher (grammar/reading/core). */
 const studioOriginalChromeV6=studioUpdateChrome;
 studioUpdateChrome=function(page){const r=studioOriginalChromeV6.apply(this,arguments);if(['errors','review','advanced'].includes(page)){const c=document.getElementById('studioCrumb'),t=document.getElementById('studioTitle');if(c)c.textContent=page.toUpperCase();if(t)t.textContent=page==='errors'?'Error Notebook':page==='review'?'Smart Review':'บทเรียนขั้นสูง'}return r};
 
@@ -1320,8 +1322,7 @@ studioUpdateChrome=function(page){const r=studioOriginalChromeV6.apply(this,argu
  window.__TGAT1_HOME_HOOKS__=[];
  window.TGAT1_addHomeHook=function(fn){if(typeof fn==='function')window.__TGAT1_HOME_HOOKS__.push(fn);return fn};
  window.TGAT1_addHomeHook(function(){const app=document.getElementById('app');if(!app||document.getElementById('studioV6QuickTools'))return;const box=document.createElement('div');box.id='studioV6QuickTools';box.className='st-card';box.style.marginTop='14px';box.innerHTML='<div class="st-section-head"><div><h2>เครื่องมือพัฒนาจุดอ่อน</h2><p>ทบทวนข้อผิดและฝึกระดับสูงต่อจากข้อมูลจริง</p></div></div><div class="st-inline"><button class="st-btn secondary" onclick="studioOpenErrors()">📓 Error Notebook</button><button class="st-btn secondary" onclick="studioOpenReview()">🧠 Smart Review</button><button class="st-btn secondary" onclick="studioOpenAdvanced()">⚡ บทเรียนขั้นสูง</button></div>';app.appendChild(box)});
- const originalRender=studioRender;
- studioRender=function(){if(STUDIO_PAGE==='grammar'){studioV9Grammar();return}return originalRender.apply(this,arguments)};
+ /* T1 merge: grammar/reading dispatch folded into the merged studioRender below. */
  const originalUpdate=studioUpdateChrome;
  studioUpdateChrome=function(page){const r=originalUpdate.apply(this,arguments);if(page==='grammar'){const c=document.getElementById('studioCrumb'),t=document.getElementById('studioTitle');if(c)c.textContent='GRAMMAR';if(t)t.textContent='Grammar Cheat Sheet'}return r};
 
@@ -2680,7 +2681,8 @@ window.STR_answer=j=>{if(!rRun||rRun.locked)return;const q=rRun.qs[rRun.index],o
 window.STR_review=id=>{const x=(rState.questions||{})[id];if(!x)return;const canonical=(VLT_BANK||[]).find(q=>q.id===id);if(canonical&&typeof VLT_learningExplanation==='function')x.explanation=VLT_learningExplanation(canonical);const app=document.getElementById('app');app.innerHTML=`<div class="st-section-head"><div><div class="st-eyebrow">READING ERROR REVIEW</div><h1 class="st-title">ทบทวนข้อที่เคยผิด</h1></div><button class="st-btn ghost" onclick="renderReadingBack()">กลับ</button></div><div class="st-card"><h2>${esc(x.topic||x.id)}</h2><p style="white-space:pre-wrap;line-height:1.8">${esc(x.context)}</p><h3>${esc(x.prompt)}</h3>${(x.options||[]).map((o,i)=>`<div class="st-row"><span>${String.fromCharCode(65+i)}. ${esc(o)}</span>${i===x.answer?'<span class="st-tag green">เฉลย</span>':''}${i===x.lastAnswer&&i!==x.answer?'<span class="st-tag">คำตอบล่าสุด</span>':''}</div>`).join('')}<div class="st-alert" style="margin-top:12px"><b>คำอธิบายเฉพาะข้อ</b><br>${esc(x.explanation||'ไม่มีคำอธิบายในข้อมูลต้นทาง')}</div>${typeof VLT_explainPanel==='function'?VLT_explainPanel({...x,category:'rc'}):''}<p class="st-subtitle">ทำทั้งหมด ${x.attempts||0} ครั้ง · ตอบถูก ${x.correctCount||0} · ตอบผิด ${x.wrongCount||0}</p></div>`};
 window.STR_next=()=>{if(rRun.index<rRun.qs.length-1){rRun.index++;rRun.locked=false;STR_renderQ()}else{const score=rRun.qs.reduce((n,q,i)=>n+(rRun.answers[i]===q.answer?1:0),0);rState.practiced=rState.practiced||{};rState.practiced[rRun.i]=true;rState.history=rState.history||[];rState.history.push({at:Date.now(),passage:rRun.i,score,total:rRun.qs.length});save(RKEY,rState);document.getElementById('app').innerHTML=`${TG_summary({kicker:'ผลการอ่าน',score:score,total:rRun.qs.length,pct:Math.round(score/rRun.qs.length*100),msg:'เปิดดูคำอธิบายได้จากการย้อนทำชุดนี้',actions:'<button class="st-btn" onclick="renderReadingBack()">กลับ Reading Trainer</button>'})}`;rRun=null}};
 window.renderReadingBack=()=>{rRun=null;renderReading()};
-const oldRender=studioRender;studioRender=function(){if(STUDIO_PAGE==='grammar'){renderGrammar();return}if(STUDIO_PAGE==='reading'){renderReading();return}return oldRender.apply(this,arguments)};
+/* T1 merge: renderGrammar/renderReading exposed for the merged studioRender dispatcher. */
+window.TGAT1_renderGrammar=renderGrammar;window.TGAT1_renderReading=renderReading;
 window.TGAT1_addGameHook(function(){const head=[...document.querySelectorAll('.st-section-head h2')].find(x=>x.textContent.includes('เกมฝึกข้อสอบ'));if(head){const next=head.parentElement.parentElement.nextElementSibling;const grid=next?.matches?.('.st-grid')?next:next?.querySelector?.('.st-grid');if(grid&&!grid.querySelector('[data-v30="grammar"]'))grid.insertAdjacentHTML('beforeend',`<button class="st-action-card" data-v30="grammar" onclick="studioNav('grammar')"><span class="st-icon-box">📘</span><span><b>Grammar Clinic</b><small>8 หัวข้อหลัก · 40 ข้อ พร้อมเฉลย</small></span></button><button class="st-action-card" data-v30="reading" onclick="studioNav('reading')"><span class="st-icon-box">📚</span><span><b>Reading Trainer</b><small>กลยุทธ์อ่าน + passage + คำถามจากคลัง</small></span></button>`);}});
 // Add routes to chrome breadcrumbs and direct access; no external data is fabricated.
 })();
@@ -4869,8 +4871,15 @@ const previousChrome=studioUpdateChrome;
 studioUpdateChrome=function(page){const out=previousChrome.apply(this,arguments);if(page==='reading'){const c=document.getElementById('studioCrumb'),t=document.getElementById('studioTitle');if(c)c.textContent=legacyReading?'READING BANK':'READING LAB';if(t)t.textContent=legacyReading?'Reading · Original Question Bank':'Reading Lab';}return out;};
 const previousNav=studioNav;
 studioNav=function(page){if(page!=='reading')legacyReading=false;return previousNav.apply(this,arguments);};
-const previousRender=studioRender;
-studioRender=function(){if(STUDIO_PAGE==='reading'){if(legacyReading){previousRender.apply(this,arguments);decorateLegacy();}else renderReadingPlus();return;}previousRender.apply(this,arguments);};
+/* T1 merge: single studioRender dispatcher folding the v6/v9/v30/v382 wrapper chain.
+   reading -> legacy bank (renderReading + decorate) or Reading Lab; grammar -> Grammar Clinic;
+   errors/review/advanced -> studioRenderTools; everything else -> studioRenderCore. */
+studioRender=function(){
+  if(STUDIO_PAGE==='reading'){if(legacyReading){window.TGAT1_renderReading();decorateLegacy();}else renderReadingPlus();return}
+  if(STUDIO_PAGE==='grammar'){window.TGAT1_renderGrammar();return}
+  if(['errors','review','advanced'].includes(STUDIO_PAGE)){studioRenderTools();return}
+  studioRenderBase.apply(this,arguments)
+};
 const originalReadingBack=window.renderReadingBack;
 if(typeof originalReadingBack==='function')window.renderReadingBack=function(){const out=originalReadingBack.apply(this,arguments);if(legacyReading)decorateLegacy();return out;};
 // Put the two new learning paths directly on the home dashboard for easy discovery.
