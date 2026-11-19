@@ -1,0 +1,312 @@
+[
+ {
+  "first": "S06-Q046",
+  "topic": "workshop confirmation email",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
+  "items": [
+   {
+    "type": "main",
+    "prompt": "What is the main purpose of this message?",
+    "key": "Confirming a participant's place at a gardening event and giving practical details.",
+    "d": [
+     "Cancelling a previously scheduled gardening event at the riverside hall.",
+     "Inviting readers to join a new gardening workshop at the original venue.",
+     "Explaining why the gardening workshop had to be postponed to a later date."
+    ],
+    "exp": "อีเมลนี้มีวัตถุประสงค์เพื่อยืนยันการสมัครเข้าร่วมเวิร์กชอปทำสวน พร้อมแจ้งรายละเอียดสถานที่และคำแนะนำแก่ผู้เข้าร่วม"
+   },
+   {
+    "type": "detail",
+    "prompt": "Where will the workshop now take place?",
+    "key": "At the Riverside Community Hall.",
+    "d": [
+     "At the Wat Sri Suphan hall.",
+     "At the city transport office.",
+     "At the central market square."
+    ],
+    "exp": "อีเมลระบุว่าเวิร์กชอปจะจัดที่ Riverside Community Hall แทนสถานที่เดิมคือ Wat Sri Suphan"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why is the sender asking for a reply by Thursday evening?",
+    "key": "To update the participant list if someone cannot attend.",
+    "d": [
+     "To collect feedback about the workshop activities.",
+     "To charge an additional fee for late registration.",
+     "To send a reminder about the parking arrangements."
+    ],
+    "exp": "อีเมลขอให้ผู้รับตอบกลับภายในวันพฤหัสบดีเย็นเพื่อปรับปรุงรายชื่อผู้เข้าร่วมหากต้องยกเลิก"
+   },
+   {
+    "type": "wic",
+    "prompt": "What does \"supplied\" most nearly mean in this context?",
+    "key": "Provided or made available.",
+    "d": [
+     "Purchased by each participant separately.",
+     "Delivered to the venue after the workshop.",
+     "Returned to the organizer at the end."
+    ],
+    "exp": "คำว่า supplied ในอีเมลนี้หมายถึงการจัดเตรียมหรือทำให้พร้อมใช้งานสำหรับผู้เข้าร่วม"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the overall tone of this message?",
+    "key": "Encouraging and organized.",
+    "d": [
+     "Apologetic and uncertain about the arrangements.",
+     "Formal and distant toward the participants.",
+     "Critical of the participants' registration choices."
+    ],
+    "exp": "โทนของอีเมลเป็นไปในเชิงให้กำลังใจและมีการเตรียมการอย่างเป็นระบบ ไม่ใช่โทนขอโทษหรือวิพากษ์วิจารณ์"
+   }
+  ]
+ },
+ {
+  "first": "S07-Q046",
+  "topic": "summer language camp advertisement",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
+  "items": [
+   {
+    "type": "main",
+    "prompt": "What is the main purpose of this advertisement?",
+    "key": "Promoting a two-week language camp for teenagers with a full activity schedule.",
+    "d": [
+     "Reporting on the results of a previous language camp.",
+     "Explaining why language camps have become more expensive.",
+     "Recruiting instructors for a summer language program."
+    ],
+    "exp": "โฆษณานี้มีวัตถุประสงค์หลักเพื่อโปรโมตกภัยภาษาระยะเวลาสองสัปดาห์สำหรับวัยรุ่น โดยเน้นกิจกรรมที่ครบครัน"
+   },
+   {
+    "type": "detail",
+    "prompt": "What does the tuition fee cover?",
+    "key": "All materials, meals, and field-trip transport.",
+    "d": [
+     "Only the outdoor activities and sports sessions.",
+     "Instruction, accommodation, and travel abroad.",
+     "Materials and meals but not the field trips."
+    ],
+    "exp": "โฆษณาระบุว่าค่าเรียนครอบคลุมสื่อการสอน อาหาร และการเดินทางสำหรับกิจกรรมนอกสถานที่"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the advertisement stress that spaces are limited?",
+    "key": "To encourage early registration before places fill up.",
+    "d": [
+     "To explain why the camp is held in small groups.",
+     "To justify the limited number of activity leaders.",
+     "To show that the camp has been running for six years."
+    ],
+    "exp": "การระบุว่าที่นั่งมีจำกัดมีจุดประสงค์เพื่อกระตุ้นให้ผู้สนใจสมัครล่วงหน้าก่อนที่จำนวนจะเต็ม"
+   },
+   {
+    "type": "wic",
+    "prompt": "What does \"tuition\" most nearly mean in this context?",
+    "key": "The fee charged for the camp.",
+    "d": [
+     "The teaching method used by the instructors.",
+     "The age range of the participants.",
+     "The schedule of afternoon activities."
+    ],
+    "exp": "คำว่า tuition ในโฆษณานี้หมายถึงค่าเรียนหรือค่าบริการที่เรียกเก็บจากผู้เข้าร่วม camp"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the tone of this advertisement?",
+    "key": "Energetic and persuasive.",
+    "d": [
+     "Neutral and strictly factual.",
+     "Apologetic about the limited spaces.",
+     "Critical of other summer programs."
+    ],
+    "exp": "โทนของโฆษณาเป็นไปในเชิงกระตือรือร้นและชักจูงใจ ใช้ภาษากระตุ้นให้ผู้อ่านสนใจสมัครเข้าร่วม"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q046",
+  "topic": "bike-sharing city program news",
+  "context": "The city transport department has launched a new bike-sharing program that places two hundred bicycles at thirty docking stations across the downtown area. Users can unlock a bike through a mobile app and pay a small fee per ride, with the first thirty minutes free to encourage short trips. Early data from the first month shows that the most popular routes connect the main transit hub to office districts and university campuses. The department plans to expand the program to residential neighborhoods later this year, provided that station installations do not block sidewalks or access routes. Officials also noted that theft and vandalism remain concerns, and the program includes a reporting feature that lets riders flag damaged bikes or missing docks. The city will review usage patterns every three months and adjust station placement based on demand.",
+  "items": [
+   {
+    "type": "main",
+    "prompt": "What is the main focus of this news report?",
+    "key": "The launch and early results of a city bike-sharing program.",
+    "d": [
+     "A debate over bicycle theft in the downtown area.",
+     "A comparison of bike-sharing programs in different cities.",
+     "A plan to replace public buses with shared bicycles."
+    ],
+    "exp": "ข่าวนี้มุ่งเน้นที่การเปิดตัวและผลการดำเนินงานในช่วงแรกของโครงการรถจักรยานสาธารณะ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What incentive does the program offer to new users?",
+    "key": "The first thirty minutes of each ride are free.",
+    "d": [
+     "A free mobile app for all registered riders.",
+     "A discount on annual membership fees.",
+     "A free helmet with every registration."
+    ],
+    "exp": "โครงการให้สิทธิประโยชน์โดยการใช้จักรยานในช่วง Thirty นาทีแรกของแต่ละครั้งฟรี"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the department plan to review usage patterns every three months?",
+    "key": "To adjust station placement based on actual demand.",
+    "d": [
+     "To reduce the number of docking stations downtown.",
+     "To justify the free first thirty minutes.",
+     "To address concerns about theft and vandalism."
+    ],
+    "exp": "การทบทวนรูปแบบการใช้งานทุกสามเดือนมีจุดประสงค์เพื่อปรับปรุงตำแหน่งสถานีตามความต้องการจริง"
+   },
+   {
+    "type": "wic",
+    "prompt": "What does \"expand\" most nearly mean in this context?",
+    "key": "To extend the program to additional areas.",
+    "d": [
+     "To reduce the number of bicycles available.",
+     "To close down the current docking stations.",
+     "To increase the fee for each ride."
+    ],
+    "exp": "คำว่า expand ในข่าวนี้หมายถึงการขยายโครงการไปยังพื้นที่เพิ่มเติม ไม่ใช่การลดหรือปิดโครงการ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the report characterize the program's early stage?",
+    "key": "Promising, with room for further planning and adjustment.",
+    "d": [
+     "A complete success that needs no further review.",
+     "A costly failure that should be discontinued.",
+     "A controversial project opposed by all residents."
+    ],
+    "exp": "รายงานกล่าวถึงช่วงแรกของโครงการในแง่ที่มีแนวโน้มดี แต่ยังต้องมีการวางแผนและปรับปรุงต่อไป"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q046",
+  "topic": "sleep and memory knowledge article",
+  "context": "Sleep plays a critical role in how the brain processes and stores information from the day. During deep sleep, the brain consolidates memories, moving short-term experiences into long-term storage so they can be recalled later. Researchers have found that a night of fewer than six hours of sleep can weaken the consolidation process, making it harder to remember new facts and skills. The timing of sleep also matters: learning something just before bed tends to improve recall compared with learning during the day and staying awake for many hours afterward. Experts recommend maintaining a consistent sleep schedule, keeping the bedroom cool and dark, and avoiding screens for at least an hour before bed. While sleep alone cannot turn someone into an expert, it is a powerful tool for supporting learning and memory.",
+  "items": [
+   {
+    "type": "main",
+    "prompt": "What is the central idea of this article?",
+    "key": "Sleep is essential for consolidating and retaining learned information.",
+    "d": [
+     "Memory improves only when a person sleeps more than eight hours.",
+     "Screens have no effect on memory consolidation during sleep.",
+     "Learning during the day is more effective than learning before bed."
+    ],
+    "exp": "บทความนี้มีใจความสำคัญว่าการนอนหลับมีความจำเป็นต่อการหลอมรวมและจดจำข้อมูลที่ได้เรียนรู้"
+   },
+   {
+    "type": "detail",
+    "prompt": "What is the recommended minimum sleep duration for effective memory consolidation?",
+    "key": "At least six hours.",
+    "d": [
+     "Exactly four hours.",
+     "No more than eight hours.",
+     "Exactly ten hours."
+    ],
+    "exp": "บทความระบุว่าการนอนน้อยกว่า Six ชั่วโมงจะ weaken การหลอมรวมความทรงจำ จึงควรนอนอย่างน้อย Six ชั่วโมง"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the article mention learning before bed?",
+    "key": "To show that timing of sleep affects recall.",
+    "d": [
+     "To argue that all learning should happen at night.",
+     "To criticize daytime study habits.",
+     "To prove that screens improve memory."
+    ],
+    "exp": "การกล่าวถึงการเรียนรู้ก่อนนอนมีจุดประสงค์เพื่อแสดงว่าช่วงเวลาของการนอนส่งผลต่อการจดจำ"
+   },
+   {
+    "type": "wic",
+    "prompt": "What does \"consolidates\" most nearly mean in this context?",
+    "key": "Strengthens and organizes memories for long-term storage.",
+    "d": [
+     "Erases memories that are no longer needed.",
+     "Translates memories into another language.",
+     "Shares memories with other people."
+    ],
+    "exp": "คำว่า consolidates ในบทความนี้หมายถึงการทำให้ความทรงจำแข็งแรงและจัดระเบียบเพื่อเก็บไว้ใช้ในระยะยาว"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the article's overall stance on sleep and learning?",
+    "key": "Sleep is a valuable but not sufficient factor in learning.",
+    "d": [
+     "Sleep is the only factor that determines learning success.",
+     "Sleep has no meaningful effect on learning.",
+     "Sleep is less important than nutrition for memory."
+    ],
+    "exp": "บทความมองว่าการนอนเป็นปัจจัยที่มีคุณค่าแต่เพียงอย่างเดียวไม่เพียงพอต่อการเรียนรู้ ต้องประกอบกับวิธีอื่นๆ"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q046",
+  "topic": "library hours announcement",
+  "context": "Please note a change to our opening hours during the upcoming maintenance period. From Monday, November tenth through Sunday, November sixteenth, the central library will open at ten o'clock instead of eight, and will close at six in the evening instead of nine. The reading rooms on the second floor will remain available throughout the day, but the borrowing desk will operate with reduced staff between eleven and four. Returns can be placed in the drop box outside the main entrance at any time, and items due during this period will be automatically renewed for an additional week. We apologize for any inconvenience and appreciate your patience as we carry out essential repairs to the lighting and climate-control systems. Normal hours will resume on Monday, November seventeenth.",
+  "items": [
+   {
+    "type": "main",
+    "prompt": "What is the main purpose of this announcement?",
+    "key": "Informing patrons about temporary changes to library hours and services.",
+    "d": [
+     "Announcing a permanent reduction in library opening hours.",
+     "Inviting readers to participate in a maintenance survey.",
+     "Explaining why the library will be closed entirely for one week."
+    ],
+    "exp": "ประกาศนี้มีวัตถุประสงค์หลักเพื่อแจ้งผู้มาใช้บริการเกี่ยวกับการเปลี่ยนแปลงชั่วคราวของเวลาเปิดปิดและบริการ"
+   },
+   {
+    "type": "detail",
+    "prompt": "During the maintenance period, what time will the library open?",
+    "key": "At ten o'clock.",
+    "d": [
+     "At eight o'clock.",
+     "At nine o'clock.",
+     "At eleven o'clock."
+    ],
+    "exp": "ประกาศระบุว่าในช่วงซ่อมบำรุงห้องสมุดจะเปิดเวลา Ten นาฬิกา แทนเวลา Eight นาฬิกาเดิม"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why will items due during this period be automatically renewed?",
+    "key": "To reduce inconvenience caused by the reduced borrowing-desk hours.",
+    "d": [
+     "To encourage patrons to borrow more items.",
+     "To collect data on borrowing patterns.",
+     "To extend the maintenance period."
+    ],
+    "exp": "การต่ออายุอัตโนมัติสำหรับหนังสือที่ถึงกำหนดในช่วงนี้มีจุดประสงค์เพื่อลดความไม่สะดวกจากเวลาบริการที่ลดลง"
+   },
+   {
+    "type": "wic",
+    "prompt": "What does \"inconvenience\" most nearly mean in this context?",
+    "key": "Disruption or trouble caused by the changes.",
+    "d": [
+     "An improvement in service quality.",
+     "A reduction in the number of books.",
+     "A delay in the repair schedule."
+    ],
+    "exp": "คำว่า inconvenience ในประกาศนี้หมายถึงความไม่สะดวกหรือความรบกวนที่เกิดขึ้นจากการเปลี่ยนแปลง"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the tone of this announcement?",
+    "key": "Informative and apologetic.",
+    "d": [
+     "Critical of patrons' borrowing habits.",
+     "Enthusiastic about the maintenance work.",
+     "Indifferent to the impact on patrons."
+    ],
+    "exp": "โทนของประกาศเป็นแบบให้ข้อมูลและขออภัยในความไม่สะดวก ไม่ใช่โทนวิพากษ์หรือแสดงความไม่ใส่ใจ"
+   }
+  ]
+ }
+]

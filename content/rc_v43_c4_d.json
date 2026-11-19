@@ -40,7 +40,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The project was funded by a mix of city funds and a local environmental foundation.”?",
-    "key": "The project received money from both the city and a foundation.",
+    "key": "The scheme received money from both the city and a foundation.",
     "d": [
      "The foundation funded the project alone.",
      "The project was funded by local businesses.",
@@ -51,7 +51,7 @@
    {
     "type": "attitude",
     "prompt": "What is the officials' view of the wetland's maintenance?",
-    "key": "They expect it to be low because the plants are native.",
+    "key": "They expect it to be low because the flora are native.",
     "d": [
      "They worry it will be expensive to maintain.",
      "They think it will need daily watering.",
@@ -69,7 +69,7 @@
    {
     "type": "detail",
     "prompt": "What is the purpose of the event?",
-    "key": "To launch a new line of plant-based snacks.",
+    "key": "To introduce a new range of plant-based snacks.",
     "d": [
      "To thank customers for past orders.",
      "To introduce a new chef.",
@@ -153,7 +153,7 @@
    {
     "type": "main",
     "prompt": "What is the main idea of the article?",
-    "key": "Street markets remain popular because they offer community value beyond shopping.",
+    "key": "Street markets remain popular because they proposal community value beyond shopping.",
     "d": [
      "Markets are popular only because of low prices.",
      "Online shopping is more popular than markets.",
@@ -215,7 +215,7 @@
    {
     "type": "reference",
     "prompt": "In the passage, what does “the new system” refer to?",
-    "key": "The new bus network arrangement.",
+    "key": "The new vehicle network arrangement.",
     "d": [
      "The railway timetable.",
      "The concession card scheme.",
@@ -266,7 +266,7 @@
    {
     "type": "detail",
     "prompt": "What have shop owners reported since the clean-ups?",
-    "key": "Cleaner streets have attracted more customers.",
+    "key": "Cleaner streets have attracted more shoppers.",
     "d": [
      "Fewer customers during clean-up days.",
      "A need for more staff.",

@@ -192,16 +192,20 @@
   "exp": "“numbers are meaningful only when the units and serving amounts are considered” = ตัวเลขจะมีความหมาย/ตีความได้ต่อเมื่อรู้หน่วยและปริมาณเสิร์ฟ ไม่ใช่เรื่องขนาดตัวพิมพ์หรือการตรวจความถูกต้อง ตัวเลือก “printed in a very large font size.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “easy for children to read.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “checked twice for accuracy.” ไม่มีข้อมูลใดในบทความรองรับ"
  },
  {
-  "id": "S06-Q047",
-  "exp": "อีเมลระบุ “Please bring your own gloves and a small container if you would like to take home some compost” จึงตอบถุงมือและภาชนะรับปุ๋ยหมัก ตัวเลือกเมล็ดพันธุ์/กล่องข้าว/บัวรดน้ำ/รายการคำถาม ไม่ได้กล่าวไว้ ตัวเลือก “A lunch box for the break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A personal watering can.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A written list of questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "id": "S06-Q046",
+  "exp": "อีเมลนี้มีวัตถุประสงค์เพื่อยืนยันการสมัครเข้าร่วมเวิร์กชอปทำสวน พร้อมแจ้งรายละเอียดสถานที่และคำแนะนำแก่ผู้เข้าร่วม ตัวเลือก “Cancelling a previously scheduled gardening event at the riverside hall.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Inviting readers to join a new gardening workshop at the original venue.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Explaining why the gardening workshop had to be postponed to a later date.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+ },
+ {
+  "id": "S06-Q048",
+  "exp": "อีเมลขอให้ผู้รับตอบกลับภายในวันพฤหัสบดีเย็นเพื่อปรับปรุงรายชื่อผู้เข้าร่วมหากต้องยกเลิก ตัวเลือก “To collect feedback about the workshop activities.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “To charge an additional fee for late registration.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To send a reminder about the parking arrangements.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
   "id": "S06-Q049",
-  "exp": "ใจความคือผู้จัดจะจัดเครื่องดื่มและของว่างให้ ตัวเลือกต้อง自带/เก็บเงิน/มีแค่น้ำ/เฉพาะเด็ก ขัดกับอีเมล ตัวเลือก “The organizers will charge for snacks.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Only water will be provided.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Snacks are available only for children.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "exp": "คำว่า supplied ในอีเมลนี้หมายถึงการจัดเตรียมหรือทำให้พร้อมใช้งานสำหรับผู้เข้าร่วม ตัวเลือก “Purchased by each participant separately.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Delivered to the venue after the workshop.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Returned to the organizer at the end.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
   "id": "S06-Q050",
-  "exp": "อีเมลใช้คำว่า “We apologize for the inconvenience and thank you for your understanding” แสดงน้ำเสียงสุภาพและขอโทษ ตัวเลือกโกรธ/ไม่ใส่ใจ/ห่างเหิน/พูดเล่น ขัดกับอีเมล ตัวเลือก “Indifferent to participants' needs.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Joking about the move.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "exp": "โทนของอีเมลเป็นไปในเชิงให้กำลังใจและมีการเตรียมการอย่างเป็นระบบ ไม่ใช่โทนขอโทษหรือวิพากษ์วิจารณ์ ตัวเลือก “Apologetic and uncertain about the arrangements.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant toward the participants.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Critical of the participants' registration choices.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
   "id": "S06-Q054",
@@ -217,11 +221,23 @@
  },
  {
   "id": "S07-Q046",
-  "exp": "โฆษณาระบุว่าช่วงเช้า “are dedicated to small-group lessons focused on speaking and listening” จึงตอบพูดและฟังในกลุ่มเล็ก ตัวเลือกไวยากรณ์/อ่านสอบ/กีฬา/ทดลองวิทยาศาสตร์ ไม่ใช่ช่วงเช้า ตัวเลือก “Reading and vocabulary tests.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sports and outdoor games.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Science experiments and projects.” ขัดกับข้อมูลที่บทความให้ไว้"
+  "exp": "โฆษณานี้มีวัตถุประสงค์หลักเพื่อโปรโมตกภัยภาษาระยะเวลาสองสัปดาห์สำหรับวัยรุ่น โดยเน้นกิจกรรมที่ครบครัน ตัวเลือก “Reporting on the results of a previous language camp.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Explaining why language camps have become more expensive.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Recruiting instructors for a summer language program.” ขัดกับข้อมูลที่บทความให้ไว้"
+ },
+ {
+  "id": "S07-Q047",
+  "exp": "โฆษณาระบุว่าค่าเรียนครอบคลุมสื่อการสอน อาหาร และการเดินทางสำหรับกิจกรรมนอกสถานที่ ตัวเลือก “Only the outdoor activities and sports sessions.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Instruction, accommodation, and travel abroad.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Materials and meals but not the field trips.” ขัดกับข้อมูลที่บทความให้ไว้"
+ },
+ {
+  "id": "S07-Q048",
+  "exp": "การระบุว่าที่นั่งมีจำกัดมีจุดประสงค์เพื่อกระตุ้นให้ผู้สนใจสมัครล่วงหน้าก่อนที่จำนวนจะเต็ม ตัวเลือก “To explain why the camp is held in small groups.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To justify the limited number of activity leaders.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To show that the camp has been running for six years.” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
   "id": "S07-Q049",
-  "exp": "ใจความคือครอบครัวที่ลงทะเบียนลูกสองคนขึ้นไปได้ส่วนลด 10% ตัวเลือกคิดเต็มเฉพาะลูกคนแรก/ทุกครอบครัวได้ส่วนลด/ลูกคนเดียวได้ 20%/ส่วนลดขึ้นกับอายุ ขัดกับโฆษณา ตัวเลือก “A 10 percent discount is given to every family.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Families with one child get a 20 percent discount.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The discount depends on the children's ages.” ขัดกับข้อมูลที่บทความให้ไว้"
+  "exp": "คำว่า tuition ในโฆษณานี้หมายถึงค่าเรียนหรือค่าบริการที่เรียกเก็บจากผู้เข้าร่วม camp ตัวเลือก “The teaching method used by the instructors.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The age range of the participants.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The schedule of afternoon activities.” ขัดกับข้อมูลที่บทความให้ไว้"
+ },
+ {
+  "id": "S07-Q050",
+  "exp": "โทนของโฆษณาเป็นไปในเชิงกระตือรือร้นและชักจูงใจ ใช้ภาษากระตุ้นให้ผู้อ่านสนใจสมัครเข้าร่วม ตัวเลือก “Neutral and strictly factual.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Apologetic about the limited spaces.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Critical of other summer programs.” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
   "id": "S07-Q053",

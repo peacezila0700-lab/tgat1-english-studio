@@ -7,7 +7,7 @@
    {
     "type": "detail",
     "prompt": "Why is the hotel asking for feedback?",
-    "key": "To improve the service for future guests.",
+    "key": "To improve the transport for future guests.",
     "d": [
      "To meet a requirement from management.",
      "To fill in an annual survey requirement.",
@@ -40,7 +40,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “As a thank-you, every completed survey will receive a voucher for fifteen percent off your next booking.”?",
-    "key": "Guests who complete the survey get a 15 percent discount voucher.",
+    "key": "Guests who complete the poll get a 15 percent discount voucher.",
     "d": [
      "Only some surveys receive a voucher.",
      "The voucher gives a free night's stay.",
@@ -91,7 +91,7 @@
    {
     "type": "main",
     "prompt": "What is the main idea of the passage?",
-    "key": "Farmers are switching to organic methods with encouraging results.",
+    "key": "Farmers are switching to organic approaches with encouraging results.",
     "d": [
      "Chemical farming is becoming more popular.",
      "Farmers are abandoning their land.",
@@ -164,7 +164,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The authority has also promised to add twenty more buses on the busiest routes during peak hours.”?",
-    "key": "Twenty extra buses will run on busy routes at peak times.",
+    "key": "Twenty extra coaches will run on busy routes at peak times.",
     "d": [
      "Buses will run only at off-peak times.",
      "The busiest routes will have fewer buses.",
@@ -175,7 +175,7 @@
    {
     "type": "attitude",
     "prompt": "What is the authority's attitude toward the fare adjustment?",
-    "key": "Necessary and justified, with service improvements to match.",
+    "key": "Necessary and justified, with transport improvements to match.",
     "d": [
      "Indifferent to passenger concerns.",
      "Unwilling to improve service.",
@@ -204,7 +204,7 @@
    {
     "type": "detail",
     "prompt": "What do library managers say the change is not about?",
-    "key": "Replacing print with digital formats.",
+    "key": "Replacing print with online formats.",
     "d": [
      "Meeting readers' needs.",
      "Managing computer demand.",
@@ -215,7 +215,7 @@
    {
     "type": "main",
     "prompt": "What is the main idea of the article?",
-    "key": "Libraries are adapting to digital readers while keeping physical spaces.",
+    "key": "Libraries are adapting to online readers while keeping physical spaces.",
     "d": [
      "Libraries are closing due to digital reading.",
      "Digital reading has made libraries unnecessary.",
@@ -226,7 +226,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The challenge, staff say, is keeping the physical spaces welcoming while managing the growing demand for digital access.”?",
-    "key": "Staff say the challenge is balancing welcoming spaces and digital demand.",
+    "key": "Staff say the challenge is balancing welcoming spaces and online demand.",
     "d": [
      "Digital access is no longer a challenge.",
      "Staff want to remove physical spaces.",
@@ -237,7 +237,7 @@
    {
     "type": "attitude",
     "prompt": "What is the article's attitude toward the future of libraries?",
-    "key": "Optimistic that libraries will offer both physical and digital services.",
+    "key": "Optimistic that libraries will proposal both physical and online services.",
     "d": [
      "Doubtful that libraries will survive.",
      "Certain that print will disappear.",
@@ -266,7 +266,7 @@
    {
     "type": "detail",
     "prompt": "What is provided for participants?",
-    "key": "All equipment, plus lunch and a printed guide.",
+    "key": "All gear, plus lunch and a printed guide.",
     "d": [
      "Only camera equipment.",
      "Accommodation for the weekend.",

@@ -908,7 +908,7 @@
   "prompt": "What was the main reason the rail link took so long to build?",
   "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "Disputes over land and shortages of materials.",
+   "Litigation and supply constraints during the build.",
    "The city refused to approve the route.",
    "Construction crews were hard to find.",
    "The design had to be changed repeatedly."
@@ -929,7 +929,7 @@
   "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
    "A long-delayed rail link is now open to passengers.",
-   "A new rail service has opened and may ease highway congestion.",
+   "A new train service has opened and may ease highway congestion.",
    "Fares for airport transport have been lowered.",
    "The transport minister plans to retire soon."
   ],
@@ -950,7 +950,7 @@
   "options": [
    "People who travel in groups of four.",
    "Anyone who buys a ticket online.",
-   "Students and senior citizens.",
+   "Pupils and older travelers.",
    "Passengers who use the service before dawn."
   ],
   "answer": 2,
@@ -971,7 +971,7 @@
    "Transport groups will run the service themselves.",
    "The schedule will not be reviewed at all.",
    "One month of data will be used to judge the schedule.",
-   "Transport groups want the schedule to be checked after one month."
+   "Transport groups want the timetable to be checked after one month."
   ],
   "answer": 3,
   "explanation": "ใจความคือกลุ่มขนส่งอยากให้ผู้ประกอบการทบทวนตารางเวลาหลังจากเปิดให้บริการครบหนึ่งเดือน ตัวเลือกเปลี่ยนตารางแล้วสองครั้ง/กลุ่มจะวิ่งบริการเอง/ไม่ทบทวน ไม่มีข้อมูลรองรับ ตัวเลือก “Transport groups will run the service themselves.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The schedule will not be reviewed at all.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “One month of data will be used to judge the schedule.” ไม่มีข้อมูลใดในบทความรองรับ",
@@ -1030,7 +1030,7 @@
   "options": [
    "Residents asked for lower taxes.",
    "Residents complained about traffic.",
-   "Residents threw away items that could be fixed.",
+   "Residents threw away objects that could be fixed.",
    "Residents requested more parks."
   ],
   "answer": 2,
@@ -1051,7 +1051,7 @@
    "The swap table.",
    "The repair demonstrations.",
    "The central park location.",
-   "The repair-and-reuse fair."
+   "The repair-and-reuse market."
   ],
   "answer": 3,
   "explanation": "ข้อความ “Organizers expect the event to reduce waste” อ้างถึงงานซ่อมและนำกลับมาใช้ใหม่ ตัวเลือกการสำรวจ/โต๊ะแลกเปลี่ยน/การสาธิต/สวนสาธารณะ ไม่ใช่สิ่งถูกอ้างถึง ตัวเลือก “The swap table.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The repair demonstrations.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The central park location.” ไม่มีข้อมูลใดในบทความรองรับ",
@@ -1068,7 +1068,7 @@
   "prompt": "Which option best restates: “The fair will also include a swap table where people can exchange goods they no longer need.”?",
   "context": "The city will host its first repair-and-reuse fair next month, bringing together local repair workers, crafters, and residents who want to give old items a second life. The fair will feature stalls where visitors can have small appliances, clothing, and bicycles repaired on the spot for a small fee, as well as demonstrations of how to mend, paint, and upcycle household goods. Organizer Aree Saetang said the event grew out of a community survey in which residents said they threw away items that could easily be fixed. The fair will also include a swap table where people can exchange goods they no longer need. Organizers expect the event to reduce waste, support local repair skills, and help residents save money. The fair will take place at the central park on a Saturday from ten in the morning to five in the afternoon, with free entry.",
   "options": [
-   "People can exchange unwanted goods at a swap table.",
+   "People can exchange unwanted goods at a swap counter.",
    "People must pay to use the swap table.",
    "The swap table sells goods at low prices.",
    "People can only swap clothes at the table."
@@ -2128,7 +2128,7 @@
   "prompt": "What will happen to buses that normally use the closed road?",
   "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "They will use the alternate route and stop near the temple gate.",
+   "They will use the alternate journey and station near the shrine gate.",
    "They will stop running during the closure.",
    "They will use the closed road at night.",
    "They will not stop anywhere near the area."
@@ -2170,7 +2170,7 @@
   "options": [
    "To invite residents to a public meeting.",
    "To announce a change in municipal office hours.",
-   "To inform people about a temporary road closure and changes to traffic.",
+   "To inform people about a short-term street shutdown and changes to traffic.",
    "To collect feedback on traffic problems."
   ],
   "answer": 2,
@@ -2208,7 +2208,7 @@
   "prompt": "What position is being offered?",
   "context": "Dear Ms. Lin, thank you once again for taking the time to meet with us last week to discuss the marketing assistant position. It was a pleasure to learn more about your experience and the ideas you shared for our upcoming campaign. The team has completed its deliberation, and we would like to offer you the role, subject to the usual reference checks. The position is a twelve-month contract with a starting salary of 22,000 baht per month, and you would begin on the first of next month if you accept. Please review the attached terms and let us know your decision by the end of this week. If you have any questions about the role, the team, or the terms, please feel free to call me directly. We are delighted to extend this offer and look forward to welcoming you to the company.",
   "options": [
-   "A marketing assistant position.",
+   "A junior marketing vacancy.",
    "A graphic design position.",
    "A finance assistant position.",
    "An administrative secretary position."
@@ -2288,7 +2288,7 @@
   "prompt": "What is the sender's attitude toward the candidate?",
   "context": "Dear Ms. Lin, thank you once again for taking the time to meet with us last week to discuss the marketing assistant position. It was a pleasure to learn more about your experience and the ideas you shared for our upcoming campaign. The team has completed its deliberation, and we would like to offer you the role, subject to the usual reference checks. The position is a twelve-month contract with a starting salary of 22,000 baht per month, and you would begin on the first of next month if you accept. Please review the attached terms and let us know your decision by the end of this week. If you have any questions about the role, the team, or the terms, please feel free to call me directly. We are delighted to extend this offer and look forward to welcoming you to the company.",
   "options": [
-   "Positive and delighted to make the offer.",
+   "Positive and delighted to make the proposal.",
    "Indifferent to the candidate's decision",
    "Reluctant to offer the role",
    "Critical of the candidate's interview"
@@ -3310,7 +3310,7 @@
   "options": [
    "Years of experience as a manager.",
    "The ability to speak three languages.",
-   "Enthusiasm for coffee and comfort with a fast pace.",
+   "Enthusiasm for beverage and comfort with a fast pace.",
    "A personal coffee machine at home."
   ],
   "answer": 2,
@@ -3331,7 +3331,7 @@
    "Training in accounting for new staff.",
    "No training is offered at all.",
    "Training only for senior baristas.",
-   "Full training on the coffee machine and recipes."
+   "Full training on the beverage machine and recipes."
   ],
   "answer": 3,
   "explanation": "ประกาศบอกว่า “we provide full training on our coffee machine and recipes during the first two weeks” จึงตอบฝึกเครื่องชงและสูตรเต็ม ตัวเลือกฝึกการตลาด/บัญชี/ไม่มีฝึก/ฝึกเฉพาะรุ่นพี่ ขัดกับประกาศ",
@@ -3348,7 +3348,7 @@
   "prompt": "Which option best restates: “We will contact shortlisted candidates for a trial shift within one week.”?",
   "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "Shortlisted candidates will be offered a trial shift within a week.",
+   "Shortlisted candidates will be offered a test shift within a week.",
    "Trial shifts will last for one week.",
    "Only experienced candidates will be contacted.",
    "Shortlisted candidates must wait several weeks."
@@ -3369,7 +3369,7 @@
   "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
    "Applicants without experience will not be considered.",
-   "Experience is welcome but not required.",
+   "Experience is greet but not required.",
    "Experience matters more than personality.",
    "Experience is the only quality that matters."
   ],
@@ -3390,7 +3390,7 @@
   "options": [
    "Free meals at every shift.",
    "A bonus for every new customer.",
-   "A weekly day off and a free coffee allowance.",
+   "A weekly day off and a free beverage allowance.",
    "Transport allowance to the café."
   ],
   "answer": 2,
@@ -3449,7 +3449,7 @@
   "context": "The riverside jogging path will have new safety rules from next week, following a rise in accidents during the early-morning hours. The rules require all joggers and walkers to wear reflective bands between five and seven in the morning, when visibility is lowest. Cyclists are no longer permitted on the path during these hours and must use the parallel cycle lane. The path will also be closed for one hour each evening for maintenance, with signs posted two days in advance at both entrances. Volunteers will be present on the path during the morning hours to remind users of the rules and assist anyone who needs help. The city emphasizes that these measures are intended to protect everyone who uses the path, and asks for cooperation from all visitors.",
   "options": [
    "The volunteer program.",
-   "The new safety rules for the jogging path.",
+   "The new security rules for the running trail.",
    "The parallel cycle lane.",
    "The river ferry service."
   ],
@@ -3470,7 +3470,7 @@
   "options": [
    "Maintenance happens only on weekends.",
    "The path is closed for one hour each morning.",
-   "The path closes for maintenance for one hour every evening.",
+   "The trail closes for maintenance for one hour every evening.",
    "Maintenance is done without closing the path."
   ],
   "answer": 2,
@@ -4509,7 +4509,7 @@
   "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
    "Within two weeks of the order.",
-   "Within five working days of receiving the order.",
+   "Within five working days of receiving the purchase.",
    "Only after the damaged items are reported.",
    "On the day the tracking number is sent."
   ],
@@ -4530,7 +4530,7 @@
   "options": [
    "The invoice for payment.",
    "The damaged item photographs.",
-   "The three hundred ceramic dinner sets ordered.",
+   "The three hundred pottery meal collections ordered.",
    "The courier's delivery schedule."
   ],
   "answer": 2,
@@ -4589,7 +4589,7 @@
   "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
    "Reluctant to work with new clients.",
-   "Hopeful and eager for a long partnership.",
+   "Optimistic and keen for an enduring collaboration.",
    "Disappointed by the large order.",
    "Unwilling to accept further orders."
   ],
@@ -4648,7 +4648,7 @@
   "prompt": "What is the main idea of the article?",
   "context": "Walking meetings are becoming a popular alternative to the traditional conference room, and managers say the change brings unexpected benefits. Instead of sitting around a table, participants take a walk outdoors while discussing the topic, which many report makes the conversation more focused and creative. The change also encourages shorter meetings, since walking at a steady pace naturally limits how long a discussion can run. Health experts add that even light walking improves energy, mood, and concentration, making the practice a healthy habit rather than just a novelty. Companies that have adopted walking meetings report that teams feel more relaxed and that decisions are often reached faster. The practice works best for small groups and topics that do not require detailed notes, but organizers say it is easy to combine with a short written summary afterwards.",
   "options": [
-   "Walking meetings offer benefits beyond the traditional meeting room.",
+   "Walking gatherings offer benefits beyond the traditional meeting room.",
    "Walking meetings take much longer.",
    "Walking is only for exercise, not work.",
    "Companies are banning walking meetings."
@@ -4669,7 +4669,7 @@
   "context": "Walking meetings are becoming a popular alternative to the traditional conference room, and managers say the change brings unexpected benefits. Instead of sitting around a table, participants take a walk outdoors while discussing the topic, which many report makes the conversation more focused and creative. The change also encourages shorter meetings, since walking at a steady pace naturally limits how long a discussion can run. Health experts add that even light walking improves energy, mood, and concentration, making the practice a healthy habit rather than just a novelty. Companies that have adopted walking meetings report that teams feel more relaxed and that decisions are often reached faster. The practice works best for small groups and topics that do not require detailed notes, but organizers say it is easy to combine with a short written summary afterwards.",
   "options": [
    "Walking has no effect on meeting length.",
-   "Walking naturally keeps meetings shorter.",
+   "Walking naturally keeps gatherings shorter.",
    "Meetings are shorter only in the afternoon.",
    "Only fast walking shortens meetings."
   ],
@@ -5809,7 +5809,7 @@
   "context": "Discover the old town through your camera on our weekend photography tour, designed for amateur photographers who want to capture the area's history and street life. The tour begins at the riverside pier at eight in the morning, where you will learn to photograph the early-morning light on the temples and the busy market scene. A local guide who is also a professional photographer will lead the group along the narrow lanes, pointing out the best angles and explaining the stories behind the old buildings. The tour includes a stop at a rooftop café for a break and a review of the morning's photos. The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch. Participants should bring their own camera or phone and comfortable shoes for two hours of walking.",
   "options": [
    "At the old temple entrance.",
-   "At the riverside pier.",
+   "At the waterfront dock.",
    "At the central market.",
    "At the guide's studio."
   ],
@@ -5851,7 +5851,7 @@
    "Photos from previous tours.",
    "Old photographs of the buildings.",
    "Photos in the printed map.",
-   "The photos participants take during the tour."
+   "The photos attendees take during the trip."
   ],
   "answer": 3,
   "explanation": "ข้อความ “a review of the morning's photos” อ้างถึงภาพที่ผู้ร่วมทริปถ่ายในช่วงเช้า ตัวเลือกผลงานไกด์/ภาพทริปก่อน/ภาพเก่า/ภาพในแผนที่ ไม่ใช่สิ่งถูกอ้างถึง",
@@ -5868,7 +5868,7 @@
   "prompt": "Which option best restates: “The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch.”?",
   "context": "Discover the old town through your camera on our weekend photography tour, designed for amateur photographers who want to capture the area's history and street life. The tour begins at the riverside pier at eight in the morning, where you will learn to photograph the early-morning light on the temples and the busy market scene. A local guide who is also a professional photographer will lead the group along the narrow lanes, pointing out the best angles and explaining the stories behind the old buildings. The tour includes a stop at a rooftop café for a break and a review of the morning's photos. The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch. Participants should bring their own camera or phone and comfortable shoes for two hours of walking.",
   "options": [
-   "The 1,800 baht fee includes the guide, map, and lunch.",
+   "The 1,800 baht charge includes the guide, map, and lunch.",
    "The map is charged separately.",
    "Lunch is not included in the fee.",
    "The fee includes a camera rental."
@@ -5889,7 +5889,7 @@
   "context": "Discover the old town through your camera on our weekend photography tour, designed for amateur photographers who want to capture the area's history and street life. The tour begins at the riverside pier at eight in the morning, where you will learn to photograph the early-morning light on the temples and the busy market scene. A local guide who is also a professional photographer will lead the group along the narrow lanes, pointing out the best angles and explaining the stories behind the old buildings. The tour includes a stop at a rooftop café for a break and a review of the morning's photos. The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch. Participants should bring their own camera or phone and comfortable shoes for two hours of walking.",
   "options": [
    "To compare photography cameras",
-   "To attract amateur photographers to join the tour.",
+   "To draw hobbyist photographers into signing up for the outing.",
    "To teach professional photography",
    "To sell photographic equipment"
   ],
@@ -6905,18 +6905,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Why is the workshop being moved?",
-  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
+  "prompt": "What is the main purpose of this message?",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
   "options": [
-   "The workshop has been cancelled.",
-   "A larger group has booked the hall.",
-   "The weather forecast is poor.",
-   "The temple hall is having roof repairs."
+   "Cancelling a previously scheduled gardening event at the riverside hall.",
+   "Inviting readers to join a new gardening workshop at the original venue.",
+   "Explaining why the gardening workshop had to be postponed to a later date.",
+   "Confirming a participant's place at a gardening event and giving practical details."
   ],
   "answer": 3,
-  "explanation": "อีเมลระบุว่าต้องย้ายเพราะ “the temple hall has a roof repair scheduled for this weekend” ตัวเลือกผู้สอนไม่ว่าง/ยกเลิกงาน/มีกลุ่มใหญ่จอง hall/พยากรณ์อากาศไม่ดี ไม่มีข้อมูล",
-  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "Email: change of venue for a community workshop",
+  "explanation": "อีเมลนี้มีวัตถุประสงค์เพื่อยืนยันการสมัครเข้าร่วมเวิร์กชอปทำสวน พร้อมแจ้งรายละเอียดสถานที่และคำแนะนำแก่ผู้เข้าร่วม ตัวเลือก “Cancelling a previously scheduled gardening event at the riverside hall.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Inviting readers to join a new gardening workshop at the original venue.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Explaining why the gardening workshop had to be postponed to a later date.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
+  "topic": "workshop confirmation email",
   "diff": 2
  },
  {
@@ -6925,18 +6925,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What should participants bring to the workshop?",
-  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
+  "prompt": "Where will the workshop now take place?",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
   "options": [
-   "Gloves and a small container for compost.",
-   "A lunch box for the break.",
-   "A personal watering can.",
-   "A written list of questions."
+   "At the Riverside Community Hall.",
+   "At the Wat Sri Suphan hall.",
+   "At the city transport office.",
+   "At the central market square."
   ],
   "answer": 0,
-  "explanation": "อีเมลระบุ “Please bring your own gloves and a small container if you would like to take home some compost” จึงตอบถุงมือและภาชนะรับปุ๋ยหมัก ตัวเลือกเมล็ดพันธุ์/กล่องข้าว/บัวรดน้ำ/รายการคำถาม ไม่ได้กล่าวไว้ ตัวเลือก “A lunch box for the break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A personal watering can.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A written list of questions.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "explanation": "อีเมลระบุว่าเวิร์กชอปจะจัดที่ Riverside Community Hall แทนสถานที่เดิมคือ Wat Sri Suphan",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "Email: change of venue for a community workshop",
+  "topic": "workshop confirmation email",
   "diff": 2
  },
  {
@@ -6945,18 +6945,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, what does “the new venue” refer to?",
-  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
+  "prompt": "Why is the sender asking for a reply by Thursday evening?",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
   "options": [
-   "The usual temple hall.",
-   "The Riverside Community Hall.",
-   "The organizer's office.",
-   "The parking area behind the hall."
+   "To collect feedback about the workshop activities.",
+   "To update the participant list if someone cannot attend.",
+   "To charge an additional fee for late registration.",
+   "To send a reminder about the parking arrangements."
   ],
   "answer": 1,
-  "explanation": "ข้อความ “If you cannot find the new venue on the day” อ้างถึง Riverside Community Hall ซึ่งเป็นสถานที่ใหม่ ตัวเลือกตลาด/วัดเดิม/สำนักงาน/ที่จอดรถ ไม่ใช่สิ่งถูกอ้างถึง",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "Email: change of venue for a community workshop",
+  "explanation": "อีเมลขอให้ผู้รับตอบกลับภายในวันพฤหัสบดีเย็นเพื่อปรับปรุงรายชื่อผู้เข้าร่วมหากต้องยกเลิก ตัวเลือก “To collect feedback about the workshop activities.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “To charge an additional fee for late registration.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To send a reminder about the parking arrangements.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
+  "topic": "workshop confirmation email",
   "diff": 2
  },
  {
@@ -6965,18 +6965,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option best restates: “Drinks and light snacks will be provided by the organizers.”?",
-  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
+  "prompt": "What does \"supplied\" most nearly mean in this context?",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
   "options": [
-   "The organizers will charge for snacks.",
-   "Only water will be provided.",
-   "The organizers will provide drinks and snacks.",
-   "Snacks are available only for children."
+   "Purchased by each participant separately.",
+   "Delivered to the venue after the workshop.",
+   "Provided or made available.",
+   "Returned to the organizer at the end."
   ],
   "answer": 2,
-  "explanation": "ใจความคือผู้จัดจะจัดเครื่องดื่มและของว่างให้ ตัวเลือกต้อง自带/เก็บเงิน/มีแค่น้ำ/เฉพาะเด็ก ขัดกับอีเมล ตัวเลือก “The organizers will charge for snacks.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Only water will be provided.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Snacks are available only for children.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
-  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
-  "topic": "Email: change of venue for a community workshop",
+  "explanation": "คำว่า supplied ในอีเมลนี้หมายถึงการจัดเตรียมหรือทำให้พร้อมใช้งานสำหรับผู้เข้าร่วม ตัวเลือก “Purchased by each participant separately.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Delivered to the venue after the workshop.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Returned to the organizer at the end.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
+  "topic": "workshop confirmation email",
   "diff": 2
  },
  {
@@ -6985,18 +6985,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the tone of the email?",
-  "context": "Dear participants, we are writing to inform you that Saturday's community gardening workshop will now take place at the Riverside Community Hall instead of the usual Wat Sri Suphan hall. The change is needed because the temple hall has a roof repair scheduled for this weekend, and the upper floor will not be safe for a group of forty. The workshop will still begin at nine o'clock and will finish at noon, with the same activities: seed sorting, soil preparation, and a demonstration of composting methods. Please bring your own gloves and a small container if you would like to take home some compost. Drinks and light snacks will be provided by the organizers. Parking is available behind the community hall, and the site is a ten-minute walk from the central market. If you cannot find the new venue on the day, please call Kob on 089-123-4567. We apologize for the inconvenience and thank you for your understanding.",
+  "prompt": "What is the overall tone of this message?",
+  "context": "Dear Ms. Chen, thank you for registering for the community gardening workshop this Saturday. We are pleased to confirm your place at the Riverside Community Hall, which will replace the originally planned Wat Sri Suphan venue. The new location offers a large outdoor plot, a shaded seating area, and ample parking for participants arriving by car. Please arrive by eight thirty so we can begin with a short introduction to the workshop's goals and the tools that will be provided. Bring a hat and a water bottle; gloves and seeds will be supplied on site. If you need to cancel or adjust your attendance, simply reply to this message by Thursday evening so we can update the participant list. We look forward to seeing you there and to a productive morning of planting together.",
   "options": [
-   "Indifferent to participants' needs.",
-   "Formal and distant.",
-   "Joking about the move.",
-   "Polite and apologetic about the change."
+   "Apologetic and uncertain about the arrangements.",
+   "Formal and distant toward the participants.",
+   "Critical of the participants' registration choices.",
+   "Encouraging and organized."
   ],
   "answer": 3,
-  "explanation": "อีเมลใช้คำว่า “We apologize for the inconvenience and thank you for your understanding” แสดงน้ำเสียงสุภาพและขอโทษ ตัวเลือกโกรธ/ไม่ใส่ใจ/ห่างเหิน/พูดเล่น ขัดกับอีเมล ตัวเลือก “Indifferent to participants' needs.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Joking about the move.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "explanation": "โทนของอีเมลเป็นไปในเชิงให้กำลังใจและมีการเตรียมการอย่างเป็นระบบ ไม่ใช่โทนขอโทษหรือวิพากษ์วิจารณ์ ตัวเลือก “Apologetic and uncertain about the arrangements.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Formal and distant toward the participants.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Critical of the participants' registration choices.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
-  "topic": "Email: change of venue for a community workshop",
+  "topic": "workshop confirmation email",
   "diff": 2
  },
  {
@@ -8105,18 +8105,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What do the morning sessions focus on?",
-  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
+  "prompt": "What is the main purpose of this advertisement?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
   "options": [
-   "Reading and vocabulary tests.",
-   "Sports and outdoor games.",
-   "Speaking and listening in small groups.",
-   "Science experiments and projects."
+   "Reporting on the results of a previous language camp.",
+   "Explaining why language camps have become more expensive.",
+   "Promoting a two-week language camp for teenagers with a full activity schedule.",
+   "Recruiting instructors for a summer language program."
   ],
   "answer": 2,
-  "explanation": "โฆษณาระบุว่าช่วงเช้า “are dedicated to small-group lessons focused on speaking and listening” จึงตอบพูดและฟังในกลุ่มเล็ก ตัวเลือกไวยากรณ์/อ่านสอบ/กีฬา/ทดลองวิทยาศาสตร์ ไม่ใช่ช่วงเช้า ตัวเลือก “Reading and vocabulary tests.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Sports and outdoor games.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Science experiments and projects.” ขัดกับข้อมูลที่บทความให้ไว้",
-  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "Advertisement: summer language camp for teenagers",
+  "explanation": "โฆษณานี้มีวัตถุประสงค์หลักเพื่อโปรโมตกภัยภาษาระยะเวลาสองสัปดาห์สำหรับวัยรุ่น โดยเน้นกิจกรรมที่ครบครัน ตัวเลือก “Reporting on the results of a previous language camp.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Explaining why language camps have become more expensive.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Recruiting instructors for a summer language program.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
+  "topic": "summer language camp advertisement",
   "diff": 1
  },
  {
@@ -8125,18 +8125,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is included in the camp fee?",
-  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
+  "prompt": "What does the tuition fee cover?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
   "options": [
-   "Only lessons and materials.",
-   "Meals and transport only.",
-   "Lessons and a certificate.",
-   "Lessons, materials, meals, and a T-shirt."
+   "Only the outdoor activities and sports sessions.",
+   "Instruction, accommodation, and travel abroad.",
+   "Materials and meals but not the field trips.",
+   "All materials, meals, and field-trip transport."
   ],
   "answer": 3,
-  "explanation": "โฆษณาระบุ “The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt” จึงตอบเรียน อุปกรณ์ อาหาร เสื้อ ตัวเลือกที่พัก/เฉพาะเรียน/เฉพาะอาหาร/เรียนและ证书 ไม่ได้กล่าว",
+  "explanation": "โฆษณาระบุว่าค่าเรียนครอบคลุมสื่อการสอน อาหาร และการเดินทางสำหรับกิจกรรมนอกสถานที่ ตัวเลือก “Only the outdoor activities and sports sessions.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Instruction, accommodation, and travel abroad.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Materials and meals but not the field trips.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "Advertisement: summer language camp for teenagers",
+  "topic": "summer language camp advertisement",
   "diff": 1
  },
  {
@@ -8145,18 +8145,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Who can join the camp?",
-  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
+  "prompt": "Why does the advertisement stress that spaces are limited?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
   "options": [
-   "Students aged thirteen to fifteen.",
-   "University students.",
-   "Students aged sixteen to eighteen.",
-   "Any age from ten to eighteen."
+   "To encourage early registration before places fill up.",
+   "To explain why the camp is held in small groups.",
+   "To justify the limited number of activity leaders.",
+   "To show that the camp has been running for six years."
   ],
   "answer": 0,
-  "explanation": "โฆษณาระบุ “is open to students aged thirteen to fifteen” จึงตอบนักเรียนอายุ 13–15 ปี ตัวเลือกต่ำกว่า 12/นักศึกษา/16–18/10–18 ขัดกับโฆษณา",
-  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "Advertisement: summer language camp for teenagers",
+  "explanation": "การระบุว่าที่นั่งมีจำกัดมีจุดประสงค์เพื่อกระตุ้นให้ผู้สนใจสมัครล่วงหน้าก่อนที่จำนวนจะเต็ม ตัวเลือก “To explain why the camp is held in small groups.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To justify the limited number of activity leaders.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “To show that the camp has been running for six years.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "tip": "โจทย์ถามเหตุผลหรือเป้าหมาย ให้มองหาเพราะอะไร จึงทำอะไร มักตามหลัง because, so that, in order to หรือ plan to",
+  "topic": "summer language camp advertisement",
   "diff": 1
  },
  {
@@ -8165,18 +8165,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option best restates: “A 10 percent discount is offered for families enrolling two or more children.”?",
-  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
+  "prompt": "What does \"tuition\" most nearly mean in this context?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
   "options": [
-   "A 10 percent discount is given to every family.",
-   "Families with two or more children get a 10 percent discount.",
-   "Families with one child get a 20 percent discount.",
-   "The discount depends on the children's ages."
+   "The teaching method used by the instructors.",
+   "The fee charged for the camp.",
+   "The age range of the participants.",
+   "The schedule of afternoon activities."
   ],
   "answer": 1,
-  "explanation": "ใจความคือครอบครัวที่ลงทะเบียนลูกสองคนขึ้นไปได้ส่วนลด 10% ตัวเลือกคิดเต็มเฉพาะลูกคนแรก/ทุกครอบครัวได้ส่วนลด/ลูกคนเดียวได้ 20%/ส่วนลดขึ้นกับอายุ ขัดกับโฆษณา ตัวเลือก “A 10 percent discount is given to every family.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Families with one child get a 20 percent discount.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The discount depends on the children's ages.” ขัดกับข้อมูลที่บทความให้ไว้",
-  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
-  "topic": "Advertisement: summer language camp for teenagers",
+  "explanation": "คำว่า tuition ในโฆษณานี้หมายถึงค่าเรียนหรือค่าบริการที่เรียกเก็บจากผู้เข้าร่วม camp ตัวเลือก “The teaching method used by the instructors.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The age range of the participants.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The schedule of afternoon activities.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
+  "topic": "summer language camp advertisement",
   "diff": 2
  },
  {
@@ -8185,18 +8185,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the advertisement's purpose?",
-  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are dedicated to small-group lessons focused on speaking and listening, while afternoons feature sports, drama, and a science club led by friendly instructors. The camp runs from 9 July to 20 July, Monday to Friday, from 9 a.m. to 4 p.m., and is open to students aged thirteen to fifteen. The fee of 8,500 baht includes all lessons, materials, meals, and a camp T-shirt. A 10 percent discount is offered for families enrolling two or more children, and early-bird bookings made before 31 May receive a free dictionary. Spaces are limited to sixty campers, so secure your place today. For registration and a full schedule, visit our website or call our office during weekday hours. Don't let this summer slip away — book now and watch your child grow in confidence.",
+  "prompt": "What is the tone of this advertisement?",
+  "context": "Give your teenager a summer they will remember! Our two-week summer language camp, now in its sixth year, combines English lessons with outdoor activities, team projects, and cultural workshops. Mornings are devoted to small-group instruction in grammar, conversation, and reading, while afternoons feature sports, drama, and guided visits to local museums and historical sites. Our experienced instructors hold teaching qualifications and are supported by trained activity leaders who supervise every session. The camp runs from July tenth to July twenty-second, with day sessions only and an optional extended care hour until five thirty. Tuition covers all materials, meals, and field-trip transport, so there are no hidden costs. Spaces are limited to forty participants per group, so early registration is strongly encouraged to secure a place.",
   "options": [
-   "To compare camps in different cities.",
-   "To teach language teaching methods.",
-   "To persuade parents to enroll their children in the camp.",
-   "To criticize expensive summer programs."
+   "Neutral and strictly factual.",
+   "Apologetic about the limited spaces.",
+   "Energetic and persuasive.",
+   "Critical of other summer programs."
   ],
   "answer": 2,
-  "explanation": "โฆษณาสรุปด้วย “Don't let this summer slip away — book now” มีจุดประสงค์ชักชวนผู้ปกครองลงทะเบียน ตัวเลือกรายงานผล/เปรียบเทียบ/สอนวิธีสอน/วิจารณ์โปรแกรมแพง ไม่ใช่จุดประสงค์",
+  "explanation": "โทนของโฆษณาเป็นไปในเชิงกระตือรือร้นและชักจูงใจ ใช้ภาษากระตุ้นให้ผู้อ่านสนใจสมัครเข้าร่วม ตัวเลือก “Neutral and strictly factual.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Apologetic about the limited spaces.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Critical of other summer programs.” ขัดกับข้อมูลที่บทความให้ไว้",
   "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
-  "topic": "Advertisement: summer language camp for teenagers",
+  "topic": "summer language camp advertisement",
   "diff": 3
  },
  {

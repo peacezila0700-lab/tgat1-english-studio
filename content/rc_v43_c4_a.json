@@ -7,7 +7,7 @@
    {
     "type": "detail",
     "prompt": "What was the main reason the rail link took so long to build?",
-    "key": "Disputes over land and shortages of materials.",
+    "key": "Litigation and supply constraints during the build.",
     "d": [
      "The city refused to approve the route.",
      "Construction crews were hard to find.",
@@ -18,7 +18,7 @@
    {
     "type": "main",
     "prompt": "What is the main idea of the passage?",
-    "key": "A new rail service has opened and may ease highway congestion.",
+    "key": "A new train service has opened and may ease highway congestion.",
     "d": [
      "A long-delayed rail link is now open to passengers.",
      "Fares for airport transport have been lowered.",
@@ -29,7 +29,7 @@
    {
     "type": "detail",
     "prompt": "According to the passage, who can get a discounted fare?",
-    "key": "Students and senior citizens.",
+    "key": "Pupils and older travelers.",
     "d": [
      "People who travel in groups of four.",
      "Anyone who buys a ticket online.",
@@ -40,7 +40,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “Transport groups have asked the operator to review the schedule after the first month of operation.”?",
-    "key": "Transport groups want the schedule to be checked after one month.",
+    "key": "Transport groups want the timetable to be checked after one month.",
     "d": [
      "Transport groups will run the service themselves.",
      "The schedule will not be reviewed at all.",
@@ -80,7 +80,7 @@
    {
     "type": "detail",
     "prompt": "What will happen to buses that normally use the closed road?",
-    "key": "They will use the alternate route and stop near the temple gate.",
+    "key": "They will use the alternate journey and station near the shrine gate.",
     "d": [
      "They will stop running during the closure.",
      "They will use the closed road at night.",
@@ -102,7 +102,7 @@
    {
     "type": "main",
     "prompt": "What is the main purpose of this notice?",
-    "key": "To inform people about a temporary road closure and changes to traffic.",
+    "key": "To inform people about a short-term street shutdown and changes to traffic.",
     "d": [
      "To invite residents to a public meeting.",
      "To announce a change in municipal office hours.",
@@ -131,7 +131,7 @@
    {
     "type": "detail",
     "prompt": "What is required of the ideal candidate?",
-    "key": "Enthusiasm for coffee and comfort with a fast pace.",
+    "key": "Enthusiasm for beverage and comfort with a fast pace.",
     "d": [
      "Years of experience as a manager.",
      "The ability to speak three languages.",
@@ -142,7 +142,7 @@
    {
     "type": "detail",
     "prompt": "What training will the café provide?",
-    "key": "Full training on the coffee machine and recipes.",
+    "key": "Full training on the beverage machine and recipes.",
     "d": [
      "Training in accounting for new staff.",
      "No training is offered at all.",
@@ -153,7 +153,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “We will contact shortlisted candidates for a trial shift within one week.”?",
-    "key": "Shortlisted candidates will be offered a trial shift within a week.",
+    "key": "Shortlisted candidates will be offered a test shift within a week.",
     "d": [
      "Trial shifts will last for one week.",
      "Only experienced candidates will be contacted.",
@@ -164,7 +164,7 @@
    {
     "type": "attitude",
     "prompt": "What is the café's attitude toward applicants without experience?",
-    "key": "Experience is welcome but not required.",
+    "key": "Experience is greet but not required.",
     "d": [
      "Applicants without experience will not be considered.",
      "Experience matters more than personality.",
@@ -175,7 +175,7 @@
    {
     "type": "detail",
     "prompt": "What benefit is offered besides the monthly salary?",
-    "key": "A weekly day off and a free coffee allowance.",
+    "key": "A weekly day off and a free beverage allowance.",
     "d": [
      "Free meals at every shift.",
      "A bonus for every new customer.",
@@ -193,7 +193,7 @@
    {
     "type": "detail",
     "prompt": "When will the dinner sets be prepared for shipment?",
-    "key": "Within five working days of receiving the order.",
+    "key": "Within five working days of receiving the purchase.",
     "d": [
      "Within two weeks of the order.",
      "Only after the damaged items are reported.",
@@ -204,7 +204,7 @@
    {
     "type": "reference",
     "prompt": "In the passage, what does “the goods” refer to?",
-    "key": "The three hundred ceramic dinner sets ordered.",
+    "key": "The three hundred pottery meal collections ordered.",
     "d": [
      "The invoice for payment.",
      "The damaged item photographs.",
@@ -237,7 +237,7 @@
    {
     "type": "attitude",
     "prompt": "What is the sender's attitude toward the business relationship?",
-    "key": "Hopeful and eager for a long partnership.",
+    "key": "Optimistic and keen for an enduring collaboration.",
     "d": [
      "Reluctant to work with new clients.",
      "Disappointed by the large order.",

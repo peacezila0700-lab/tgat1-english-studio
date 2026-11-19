@@ -18,7 +18,7 @@
    {
     "type": "detail",
     "prompt": "What was the community survey result that led to the fair?",
-    "key": "Residents threw away items that could be fixed.",
+    "key": "Residents threw away objects that could be fixed.",
     "d": [
      "Residents asked for lower taxes.",
      "Residents complained about traffic.",
@@ -29,7 +29,7 @@
    {
     "type": "reference",
     "prompt": "In the passage, what does “the event” refer to?",
-    "key": "The repair-and-reuse fair.",
+    "key": "The repair-and-reuse market.",
     "d": [
      "The swap table.",
      "The repair demonstrations.",
@@ -40,7 +40,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The fair will also include a swap table where people can exchange goods they no longer need.”?",
-    "key": "People can exchange unwanted goods at a swap table.",
+    "key": "People can exchange unwanted goods at a swap counter.",
     "d": [
      "People must pay to use the swap table.",
      "The swap table sells goods at low prices.",
@@ -69,7 +69,7 @@
    {
     "type": "detail",
     "prompt": "What position is being offered?",
-    "key": "A marketing assistant position.",
+    "key": "A junior marketing vacancy.",
     "d": [
      "A graphic design position.",
      "A finance assistant position.",
@@ -113,7 +113,7 @@
    {
     "type": "attitude",
     "prompt": "What is the sender's attitude toward the candidate?",
-    "key": "Positive and delighted to make the offer.",
+    "key": "Positive and delighted to make the proposal.",
     "d": [
      "Indifferent to the candidate's decision",
      "Reluctant to offer the role",
@@ -153,7 +153,7 @@
    {
     "type": "reference",
     "prompt": "In the passage, what does “these measures” refer to?",
-    "key": "The new safety rules for the jogging path.",
+    "key": "The new security rules for the running trail.",
     "d": [
      "The volunteer program.",
      "The parallel cycle lane.",
@@ -164,7 +164,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The path will also be closed for one hour each evening for maintenance.”?",
-    "key": "The path closes for maintenance for one hour every evening.",
+    "key": "The trail closes for maintenance for one hour every evening.",
     "d": [
      "Maintenance happens only on weekends.",
      "The path is closed for one hour each morning.",
@@ -215,7 +215,7 @@
    {
     "type": "main",
     "prompt": "What is the main idea of the article?",
-    "key": "Walking meetings offer benefits beyond the traditional meeting room.",
+    "key": "Walking gatherings offer benefits beyond the traditional meeting room.",
     "d": [
      "Walking meetings take much longer.",
      "Walking is only for exercise, not work.",
@@ -226,7 +226,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The change also encourages shorter meetings, since walking at a steady pace naturally limits how long a discussion can run.”?",
-    "key": "Walking naturally keeps meetings shorter.",
+    "key": "Walking naturally keeps gatherings shorter.",
     "d": [
      "Walking has no effect on meeting length.",
      "Meetings are shorter only in the afternoon.",
@@ -255,7 +255,7 @@
    {
     "type": "detail",
     "prompt": "Where does the tour begin?",
-    "key": "At the riverside pier.",
+    "key": "At the waterfront dock.",
     "d": [
      "At the old temple entrance.",
      "At the central market.",
@@ -277,7 +277,7 @@
    {
     "type": "reference",
     "prompt": "In the passage, what does “the morning's photos” refer to?",
-    "key": "The photos participants take during the tour.",
+    "key": "The photos attendees take during the trip.",
     "d": [
      "Photos from previous tours.",
      "Old photographs of the buildings.",
@@ -288,7 +288,7 @@
    {
     "type": "paraphrase",
     "prompt": "Which option best restates: “The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch.”?",
-    "key": "The 1,800 baht fee includes the guide, map, and lunch.",
+    "key": "The 1,800 baht charge includes the guide, map, and lunch.",
     "d": [
      "The map is charged separately.",
      "Lunch is not included in the fee.",
@@ -299,7 +299,7 @@
    {
     "type": "attitude",
     "prompt": "What is the advertisement's purpose?",
-    "key": "To attract amateur photographers to join the tour.",
+    "key": "To draw hobbyist photographers into signing up for the outing.",
     "d": [
      "To compare photography cameras",
      "To teach professional photography",
