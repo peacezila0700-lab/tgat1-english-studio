@@ -1,0 +1,368 @@
+[
+ {
+  "id": "S17-Q007",
+  "slot": 0,
+  "old": "Every Monday.",
+  "new": "The article is on page five."
+ },
+ {
+  "id": "S17-Q007",
+  "slot": 3,
+  "old": "Near the main entrance.",
+  "new": "I read it last night."
+ },
+ {
+  "id": "S17-Q008",
+  "slot": 0,
+  "old": "No, it was at noon.",
+  "new": "The bell rang at noon."
+ },
+ {
+  "id": "S17-Q008",
+  "slot": 2,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone asked me to wait outside."
+ },
+ {
+  "id": "S17-Q008",
+  "slot": 3,
+  "old": "It is on the third floor.",
+  "new": "The office is upstairs."
+ },
+ {
+  "id": "S17-Q009",
+  "slot": 0,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I noted it at eight."
+ },
+ {
+  "id": "S17-Q009",
+  "slot": 1,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We discussed the feedback form with them yesterday."
+ },
+ {
+  "id": "S17-Q009",
+  "slot": 3,
+  "old": "It belongs to my brother.",
+  "new": "The form belongs to my team."
+ },
+ {
+  "id": "S17-Q010",
+  "slot": 0,
+  "old": "I heard about that problem yesterday.",
+  "new": "I noticed that yesterday."
+ },
+ {
+  "id": "S17-Q010",
+  "slot": 1,
+  "old": "At the far end of the hall.",
+  "new": "The library is at the end."
+ },
+ {
+  "id": "S17-Q010",
+  "slot": 2,
+  "old": "I did it three days ago.",
+  "new": "I helped him with the same task three days ago."
+ },
+ {
+  "id": "S18-Q001",
+  "slot": 0,
+  "old": "Since last Tuesday.",
+  "new": "We met last Tuesday."
+ },
+ {
+  "id": "S18-Q001",
+  "slot": 1,
+  "old": "For about two hours.",
+  "new": "The meeting takes an hour."
+ },
+ {
+  "id": "S18-Q004",
+  "slot": 3,
+  "old": "Three times a week.",
+  "new": "All ten players are practising."
+ },
+ {
+  "id": "S18-Q006",
+  "slot": 0,
+  "old": "It takes about ten minutes.",
+  "new": "It takes ten minutes to send."
+ },
+ {
+  "id": "S18-Q006",
+  "slot": 2,
+  "old": "I have not checked the details yet.",
+  "new": "I have not read the details."
+ },
+ {
+  "id": "S18-Q007",
+  "slot": 2,
+  "old": "Near the main entrance.",
+  "new": "The room is near the entrance."
+ },
+ {
+  "id": "S18-Q007",
+  "slot": 3,
+  "old": "Every Monday.",
+  "new": "We meet in the main hall."
+ },
+ {
+  "id": "S18-Q008",
+  "slot": 1,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone already confirmed it yesterday evening."
+ },
+ {
+  "id": "S18-Q008",
+  "slot": 2,
+  "old": "It is on the third floor.",
+  "new": "The room is on the third floor."
+ },
+ {
+  "id": "S18-Q008",
+  "slot": 3,
+  "old": "No, it was at noon.",
+  "new": "It was changed at noon."
+ },
+ {
+  "id": "S18-Q009",
+  "slot": 1,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I checked the clock at eight."
+ },
+ {
+  "id": "S18-Q009",
+  "slot": 2,
+  "old": "It belongs to my brother.",
+  "new": "The room belongs to my team."
+ },
+ {
+  "id": "S18-Q009",
+  "slot": 3,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We talked about the schedule with them yesterday."
+ },
+ {
+  "id": "S18-Q010",
+  "slot": 0,
+  "old": "I did it three days ago.",
+  "new": "I saw one three days ago."
+ },
+ {
+  "id": "S18-Q010",
+  "slot": 2,
+  "old": "I heard about that problem yesterday.",
+  "new": "Someone reported it to the office yesterday."
+ },
+ {
+  "id": "S18-Q010",
+  "slot": 3,
+  "old": "At the far end of the hall.",
+  "new": "The sign is near the far exit."
+ },
+ {
+  "id": "S19-Q001",
+  "slot": 1,
+  "old": "Since last Tuesday.",
+  "new": "I stretch at my desk."
+ },
+ {
+  "id": "S19-Q001",
+  "slot": 3,
+  "old": "For about two hours.",
+  "new": "A break lasts ten minutes."
+ },
+ {
+  "id": "S19-Q004",
+  "slot": 2,
+  "old": "Three times a week.",
+  "new": "All six students are in the group."
+ },
+ {
+  "id": "S19-Q006",
+  "slot": 1,
+  "old": "I sent the information to the group.",
+  "new": "I sent the photos to the group."
+ },
+ {
+  "id": "S19-Q006",
+  "slot": 2,
+  "old": "It takes about ten minutes.",
+  "new": "It takes about ten minutes to dry."
+ },
+ {
+  "id": "S19-Q006",
+  "slot": 3,
+  "old": "I have not checked the details yet.",
+  "new": "I have not seen the details."
+ },
+ {
+  "id": "S19-Q007",
+  "slot": 1,
+  "old": "Near the main entrance.",
+  "new": "The survey has only twelve questions."
+ },
+ {
+  "id": "S19-Q007",
+  "slot": 3,
+  "old": "Every Monday.",
+  "new": "We finished one last term."
+ },
+ {
+  "id": "S19-Q008",
+  "slot": 0,
+  "old": "It is on the third floor.",
+  "new": "The poster is on the wall."
+ },
+ {
+  "id": "S19-Q008",
+  "slot": 1,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone photographed it yesterday."
+ },
+ {
+  "id": "S19-Q008",
+  "slot": 2,
+  "old": "No, it was at noon.",
+  "new": "It was printed at noon."
+ },
+ {
+  "id": "S19-Q009",
+  "slot": 1,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We discussed the idea with the class yesterday."
+ },
+ {
+  "id": "S19-Q009",
+  "slot": 2,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I looked at the list at eight."
+ },
+ {
+  "id": "S19-Q009",
+  "slot": 3,
+  "old": "It belongs to my brother.",
+  "new": "The shelf belongs to my sister."
+ },
+ {
+  "id": "S19-Q010",
+  "slot": 0,
+  "old": "I did it three days ago.",
+  "new": "I charged it three days ago."
+ },
+ {
+  "id": "S19-Q010",
+  "slot": 1,
+  "old": "I heard about that problem yesterday.",
+  "new": "Someone mentioned that same problem to me yesterday evening."
+ },
+ {
+  "id": "S19-Q010",
+  "slot": 2,
+  "old": "At the far end of the hall.",
+  "new": "The plug is at the far end."
+ },
+ {
+  "id": "S20-Q001",
+  "slot": 2,
+  "old": "For about two hours.",
+  "new": "I plan with my friends."
+ },
+ {
+  "id": "S20-Q001",
+  "slot": 3,
+  "old": "Since last Tuesday.",
+  "new": "We made plans last month."
+ },
+ {
+  "id": "S20-Q004",
+  "slot": 3,
+  "old": "Three times a week.",
+  "new": "The clinic has only two rooms."
+ },
+ {
+  "id": "S20-Q006",
+  "slot": 0,
+  "old": "I sent the information to the group.",
+  "new": "I sent my answers to the group before the lunch break."
+ },
+ {
+  "id": "S20-Q006",
+  "slot": 2,
+  "old": "It takes about ten minutes.",
+  "new": "It takes ten minutes to review."
+ },
+ {
+  "id": "S20-Q006",
+  "slot": 3,
+  "old": "I have not checked the details yet.",
+  "new": "I have not checked the details of that question."
+ },
+ {
+  "id": "S20-Q007",
+  "slot": 1,
+  "old": "Every Monday.",
+  "new": "The bus always leaves on weekdays."
+ },
+ {
+  "id": "S20-Q007",
+  "slot": 3,
+  "old": "Near the main entrance.",
+  "new": "The museum is two stops away."
+ },
+ {
+  "id": "S20-Q008",
+  "slot": 0,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone asked me to help with them yesterday."
+ },
+ {
+  "id": "S20-Q008",
+  "slot": 1,
+  "old": "It is on the third floor.",
+  "new": "They are on the third floor."
+ },
+ {
+  "id": "S20-Q008",
+  "slot": 3,
+  "old": "No, it was at noon.",
+  "new": "We started at noon."
+ },
+ {
+  "id": "S20-Q009",
+  "slot": 0,
+  "old": "It belongs to my brother.",
+  "new": "The idea belongs to my team."
+ },
+ {
+  "id": "S20-Q009",
+  "slot": 1,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We discussed the trial plan with the team yesterday."
+ },
+ {
+  "id": "S20-Q009",
+  "slot": 2,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I thought about it at eight."
+ },
+ {
+  "id": "S20-Q010",
+  "slot": 0,
+  "old": "At the far end of the hall.",
+  "new": "The office is at the far end."
+ },
+ {
+  "id": "S20-Q010",
+  "slot": 1,
+  "old": "I heard about that problem yesterday.",
+  "new": "I heard about it yesterday."
+ },
+ {
+  "id": "S20-Q010",
+  "slot": 3,
+  "old": "I did it three days ago.",
+  "new": "I changed my own appointment three days ago."
+ }
+]

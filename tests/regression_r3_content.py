@@ -118,4 +118,15 @@ _mx=max((len(_P[a]&_P[b])/len(_P[a]|_P[b]),a,b) for a,b in _it.combinations(_P,2
 check('RC: no passage pair with word overlap >0.25 (v43 Arena: 0.309)',_mx[0]<=0.25,f'{_mx[0]:.3f} {_mx[1]}/{_mx[2]}')
 _gen=collections.Counter(_p.get('genre','project report') for _f in _glob.glob(os.path.join(ROOT,'content','rc_v43_[a-k].json')) for _p in json.load(open(_f,encoding='utf-8')))
 check('RC: at least 5 passage genres (C4)',len(_gen)>=5,dict(_gen))
+# G-H: Q-R distractors must not be canned sentences reused across items
+# (Arena round 2 found 17 sentences covering 230 of 600 slots in 101 items -
+#  recognising a recycled sentence removed an option without reading the question)
+_qd=collections.Counter(o for q in by['qr'] for i,o in enumerate(q['options']) if i!=q['answer'])
+_re=sorted([(n,s) for s,n in _qd.items() if n>=3],reverse=True)
+check('Q-R: no distractor sentence reused in >=3 items (v43 Claude: 17 sentences x10-17)',not _re,_re[:3])
+# G-I: Q-R length cues (v43 Claude: longest 0.275 / shortest 0.270)
+_ql=sum(len(q['options'][q['answer']])==max(map(len,q['options'])) for q in by['qr'])/len(by['qr'])
+_qsh=sum(len(q['options'][q['answer']])==min(map(len,q['options'])) for q in by['qr'])/len(by['qr'])
+check('Q-R: key is the longest option <=25% (v43 Claude 0.275, Arena round 2 0.205)',_ql<=0.25,f'{_ql:.3f}')
+check('Q-R: key is the shortest option <=30% (v43 Claude 0.270)',_qsh<=0.30,f'{_qsh:.3f}')
 f=[r for r in R if not r[1]];print(f'\nregression_r3_content: {len(R)-len(f)}/{len(R)} passed');sys.exit(1 if f else 0)

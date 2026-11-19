@@ -1,0 +1,362 @@
+[
+ {
+  "id": "S13-Q008",
+  "slot": 1,
+  "old": "It is on the third floor.",
+  "new": "The desk is on the third floor."
+ },
+ {
+  "id": "S13-Q008",
+  "slot": 3,
+  "old": "No, it was at noon.",
+  "new": "They closed at noon."
+ },
+ {
+  "id": "S13-Q010",
+  "slot": 0,
+  "old": "At the far end of the hall.",
+  "new": "The office is at the far end."
+ },
+ {
+  "id": "S13-Q010",
+  "slot": 2,
+  "old": "I heard about that problem yesterday.",
+  "new": "I noticed that problem yesterday."
+ },
+ {
+  "id": "S13-Q010",
+  "slot": 3,
+  "old": "I did it three days ago.",
+  "new": "I corrected my own booking three days ago."
+ },
+ {
+  "id": "S14-Q001",
+  "slot": 0,
+  "old": "For about two hours.",
+  "new": "I check it on my phone."
+ },
+ {
+  "id": "S14-Q001",
+  "slot": 3,
+  "old": "Since last Tuesday.",
+  "new": "The app changed last month."
+ },
+ {
+  "id": "S14-Q004",
+  "slot": 0,
+  "old": "Three times a week.",
+  "new": "The session always has two parts."
+ },
+ {
+  "id": "S14-Q006",
+  "slot": 0,
+  "old": "It takes about ten minutes.",
+  "new": "The talk takes ten minutes."
+ },
+ {
+  "id": "S14-Q006",
+  "slot": 1,
+  "old": "I sent the information to the group.",
+  "new": "I sent the notes to the group."
+ },
+ {
+  "id": "S14-Q006",
+  "slot": 3,
+  "old": "I have not checked the details yet.",
+  "new": "I have not read the summary yet."
+ },
+ {
+  "id": "S14-Q007",
+  "slot": 1,
+  "old": "Every Monday.",
+  "new": "The tables are near the entrance."
+ },
+ {
+  "id": "S14-Q007",
+  "slot": 3,
+  "old": "Near the main entrance.",
+  "new": "I set them up last week."
+ },
+ {
+  "id": "S14-Q008",
+  "slot": 0,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone checked that list yesterday afternoon."
+ },
+ {
+  "id": "S14-Q008",
+  "slot": 1,
+  "old": "No, it was at noon.",
+  "new": "It was printed at noon."
+ },
+ {
+  "id": "S14-Q009",
+  "slot": 1,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We discussed goals yesterday."
+ },
+ {
+  "id": "S14-Q009",
+  "slot": 2,
+  "old": "It belongs to my brother.",
+  "new": "The tracker belongs to the office team."
+ },
+ {
+  "id": "S14-Q009",
+  "slot": 3,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I checked my notes at eight."
+ },
+ {
+  "id": "S14-Q010",
+  "slot": 0,
+  "old": "At the far end of the hall.",
+  "new": "The bank is at the far end."
+ },
+ {
+  "id": "S14-Q010",
+  "slot": 2,
+  "old": "I heard about that problem yesterday.",
+  "new": "I saw that charge yesterday."
+ },
+ {
+  "id": "S14-Q010",
+  "slot": 3,
+  "old": "I did it three days ago.",
+  "new": "I disputed a similar charge with the bank three days ago."
+ },
+ {
+  "id": "S15-Q001",
+  "slot": 2,
+  "old": "For about two hours.",
+  "new": "I write at night."
+ },
+ {
+  "id": "S15-Q001",
+  "slot": 3,
+  "old": "Since last Tuesday.",
+  "new": "My journal is nearly full."
+ },
+ {
+  "id": "S15-Q004",
+  "slot": 0,
+  "old": "Three times a week.",
+  "new": "Only two speakers were invited."
+ },
+ {
+  "id": "S15-Q006",
+  "slot": 0,
+  "old": "I sent the information to the group.",
+  "new": "I sent the receipt to the group."
+ },
+ {
+  "id": "S15-Q006",
+  "slot": 1,
+  "old": "I have not checked the details yet.",
+  "new": "I have not checked the details."
+ },
+ {
+  "id": "S15-Q006",
+  "slot": 3,
+  "old": "It takes about ten minutes.",
+  "new": "The shop keeps copies for several months."
+ },
+ {
+  "id": "S15-Q007",
+  "slot": 0,
+  "old": "Every Monday.",
+  "new": "The kitchen is downstairs."
+ },
+ {
+  "id": "S15-Q007",
+  "slot": 3,
+  "old": "Near the main entrance.",
+  "new": "I cooked it last weekend."
+ },
+ {
+  "id": "S15-Q008",
+  "slot": 0,
+  "old": "It is on the third floor.",
+  "new": "The pens are on that shelf."
+ },
+ {
+  "id": "S15-Q008",
+  "slot": 2,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone borrowed one yesterday morning."
+ },
+ {
+  "id": "S15-Q008",
+  "slot": 3,
+  "old": "No, it was at noon.",
+  "new": "I bought these at noon."
+ },
+ {
+  "id": "S15-Q009",
+  "slot": 0,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I checked the opening hours at eight this morning."
+ },
+ {
+  "id": "S15-Q009",
+  "slot": 2,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We talked about it yesterday."
+ },
+ {
+  "id": "S15-Q009",
+  "slot": 3,
+  "old": "It belongs to my brother.",
+  "new": "The tickets belong to my sister."
+ },
+ {
+  "id": "S15-Q010",
+  "slot": 0,
+  "old": "At the far end of the hall.",
+  "new": "The corridor ends at the stairs."
+ },
+ {
+  "id": "S15-Q010",
+  "slot": 1,
+  "old": "I did it three days ago.",
+  "new": "I asked him three days ago."
+ },
+ {
+  "id": "S16-Q001",
+  "slot": 1,
+  "old": "Since last Tuesday.",
+  "new": "I use flashcards at home."
+ },
+ {
+  "id": "S16-Q001",
+  "slot": 2,
+  "old": "For about two hours.",
+  "new": "The list has only fifty words."
+ },
+ {
+  "id": "S16-Q004",
+  "slot": 3,
+  "old": "Three times a week.",
+  "new": "All nine schools are taking part."
+ },
+ {
+  "id": "S16-Q006",
+  "slot": 0,
+  "old": "I sent the information to the group.",
+  "new": "I sent the booking details to the group before the meeting."
+ },
+ {
+  "id": "S16-Q006",
+  "slot": 1,
+  "old": "I have not checked the details yet.",
+  "new": "I have not checked the booking."
+ },
+ {
+  "id": "S16-Q006",
+  "slot": 3,
+  "old": "It takes about ten minutes.",
+  "new": "The room holds ten people."
+ },
+ {
+  "id": "S16-Q007",
+  "slot": 0,
+  "old": "Every Monday.",
+  "new": "The bus always leaves on weekdays."
+ },
+ {
+  "id": "S16-Q007",
+  "slot": 1,
+  "old": "Near the main entrance.",
+  "new": "The stop is near the entrance."
+ },
+ {
+  "id": "S16-Q008",
+  "slot": 0,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone complained about it yesterday."
+ },
+ {
+  "id": "S16-Q008",
+  "slot": 1,
+  "old": "No, it was at noon.",
+  "new": "It started at noon."
+ },
+ {
+  "id": "S16-Q008",
+  "slot": 3,
+  "old": "It is on the third floor.",
+  "new": "The speakers are on the shelf."
+ },
+ {
+  "id": "S16-Q009",
+  "slot": 0,
+  "old": "I thought about it at eight o’clock.",
+  "new": "I noted it down at eight."
+ },
+ {
+  "id": "S16-Q009",
+  "slot": 1,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "We discussed lists yesterday."
+ },
+ {
+  "id": "S16-Q009",
+  "slot": 2,
+  "old": "It belongs to my brother.",
+  "new": "The folder belongs to my teammate in the other group."
+ },
+ {
+  "id": "S16-Q010",
+  "slot": 1,
+  "old": "I did it three days ago.",
+  "new": "I forgot mine three days ago."
+ },
+ {
+  "id": "S16-Q010",
+  "slot": 2,
+  "old": "At the far end of the hall.",
+  "new": "The help desk is upstairs."
+ },
+ {
+  "id": "S16-Q010",
+  "slot": 3,
+  "old": "I heard about that problem yesterday.",
+  "new": "Someone reset it for me last month."
+ },
+ {
+  "id": "S17-Q001",
+  "slot": 0,
+  "old": "Since last Tuesday.",
+  "new": "The bin is by the stairs."
+ },
+ {
+  "id": "S17-Q001",
+  "slot": 1,
+  "old": "For about two hours.",
+  "new": "I recycle paper and cardboard."
+ },
+ {
+  "id": "S17-Q004",
+  "slot": 3,
+  "old": "Three times a week.",
+  "new": "The tour covers all three floors."
+ },
+ {
+  "id": "S17-Q006",
+  "slot": 1,
+  "old": "I sent the information to the group.",
+  "new": "I emailed the group before lunch."
+ },
+ {
+  "id": "S17-Q006",
+  "slot": 2,
+  "old": "It takes about ten minutes.",
+  "new": "The office keeps a spare key."
+ },
+ {
+  "id": "S17-Q006",
+  "slot": 3,
+  "old": "I have not checked the details yet.",
+  "new": "I have not checked the details on the booking form."
+ }
+]

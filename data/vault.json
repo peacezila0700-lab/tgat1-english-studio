@@ -8,8 +8,8 @@
   "prompt": "Q: How often do you practice speaking English?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
-   "For about two hours.",
+   "I joined last term.",
+   "It helps my speaking.",
    "Once a week.",
    "In the science lab."
   ],
@@ -68,7 +68,7 @@
   "prompt": "Q: What time does the club meeting begin?",
   "context": "",
   "options": [
-   "Three times a week.",
+   "The club has only twenty members.",
    "8:15 a.m.",
    "For about ten minutes.",
    "In the science lab."
@@ -128,9 +128,9 @@
   "prompt": "Q: How long will it take to walk to the science lab?",
   "context": "",
   "options": [
-   "Every Monday.",
+   "I carry my notebook.",
    "At 8:15 a.m.",
-   "Near the main entrance.",
+   "It is upstairs.",
    "Ten minutes."
   ],
   "answer": 3,
@@ -148,10 +148,10 @@
   "prompt": "Q: Could you possibly move these chairs?",
   "context": "",
   "options": [
-   "No, it was at noon.",
-   "I asked someone about it yesterday.",
+   "They arrived last month.",
+   "Someone already asked me about those chairs.",
    "Sure. I can move them now.",
-   "It is on the third floor."
+   "They are by the door."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Sure. I can move them now.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -168,10 +168,10 @@
   "prompt": "Q: What do you think of starting the meeting earlier?",
   "context": "",
   "options": [
-   "I thought about it at eight o’clock.",
+   "The room is upstairs.",
    "An earlier start would help us.",
-   "I shared my thoughts with the team yesterday.",
-   "It belongs to my brother."
+   "I sent the agenda to the team last night.",
+   "Meetings last an hour."
   ],
   "answer": 1,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “An earlier start would help us.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -189,9 +189,9 @@
   "context": "",
   "options": [
    "Ask staff about the next departure.",
-   "I heard about that problem yesterday.",
-   "At the far end of the hall.",
-   "I did it three days ago."
+   "I missed one last winter.",
+   "The bus stop is at the corner of the street.",
+   "Late buses are crowded."
   ],
   "answer": 0,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Ask staff about the next departure.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -1208,8 +1208,8 @@
   "prompt": "Q: How often do you review the notes?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
-   "For about two hours.",
+   "I reviewed them before.",
+   "My notes are thirty pages.",
    "Twice a week.",
    "At the library."
   ],
@@ -1270,7 +1270,7 @@
   "options": [
    "At the library.",
    "For about half an hour.",
-   "Three times a week.",
+   "The workshop has only fifteen places.",
    "9:30 a.m."
   ],
   "answer": 3,
@@ -1330,8 +1330,8 @@
   "options": [
    "At 9:30 a.m.",
    "Half an hour.",
-   "Every Monday.",
-   "Near the main entrance."
+   "It asks for your address.",
+   "I filled one last week."
   ],
   "answer": 1,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Half an hour.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -1368,10 +1368,10 @@
   "prompt": "Q: What do you think of using a shared calendar?",
   "context": "",
   "options": [
-   "It belongs to my brother.",
+   "It belongs to the office.",
    "That would help us track deadlines.",
-   "I thought about it at eight o’clock.",
-   "I shared my thoughts with the team yesterday."
+   "We bought one last year.",
+   "Sharing files needs a stable internet connection."
   ],
   "answer": 1,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That would help us track deadlines.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -1388,10 +1388,10 @@
   "prompt": "Q: What should you do if your online payment fails?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
+   "The payment page is on the second browser tab.",
    "Check the payment status first.",
-   "I did it three days ago.",
-   "I heard about that problem yesterday."
+   "I paid my bill on Tuesday.",
+   "Banks send a message."
   ],
   "answer": 1,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Check the payment status first.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -2408,10 +2408,10 @@
   "prompt": "Q: How often do you water the plants?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
+   "I watered them yesterday.",
    "At the main gate.",
    "Three times a month.",
-   "For about two hours."
+   "They need morning sunlight."
   ],
   "answer": 2,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Three times a month.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -2470,7 +2470,7 @@
   "options": [
    "10:45 a.m.",
    "At the main gate.",
-   "Three times a week.",
+   "This train never stops at the market.",
    "The journey takes less than an hour."
   ],
   "answer": 0,
@@ -2529,8 +2529,8 @@
   "context": "",
   "options": [
    "Less than an hour.",
-   "Every Monday.",
-   "Near the main entrance.",
+   "It goes near the entrance.",
+   "We made one last term.",
    "At 10:45 a.m."
   ],
   "answer": 0,
@@ -2548,9 +2548,9 @@
   "prompt": "Q: Could you possibly repeat the last instruction?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday.",
-   "It is on the third floor.",
-   "No, it was at noon.",
+   "Someone repeated it already.",
+   "All the instructions are on page twelve.",
+   "The room was noisy.",
    "Sure. I’ll repeat it slowly."
   ],
   "answer": 3,
@@ -2569,9 +2569,9 @@
   "context": "",
   "options": [
    "That sounds convenient and cheaper.",
-   "I shared my thoughts with the team yesterday.",
-   "I thought about it at eight o’clock.",
-   "It belongs to my brother."
+   "The bus fare changed at the start of last month.",
+   "My sister takes it.",
+   "That bus is the school’s."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That sounds convenient and cheaper.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -2589,9 +2589,9 @@
   "context": "",
   "options": [
    "Ask reception for directions.",
-   "I did it three days ago.",
-   "At the far end of the hall.",
-   "I heard about that problem yesterday."
+   "I searched an hour ago.",
+   "It is at the end.",
+   "People often confuse the two buildings."
   ],
   "answer": 0,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Ask reception for directions.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -3608,10 +3608,10 @@
   "prompt": "Q: How often do you visit the museum?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
+   "I went there last summer.",
    "Once a month.",
    "At the cafeteria.",
-   "For about two hours."
+   "It closes on holidays."
   ],
   "answer": 1,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Once a month.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -3670,7 +3670,7 @@
   "options": [
    "12:20 p.m.",
    "For about twenty minutes.",
-   "Three times a week.",
+   "The lecture always covers two chapters.",
    "At the cafeteria."
   ],
   "answer": 0,
@@ -3729,9 +3729,9 @@
   "context": "",
   "options": [
    "Twenty minutes.",
-   "Near the main entrance.",
+   "It faces the market.",
    "At 12:20 p.m.",
-   "Every Monday."
+   "I go there before work."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Twenty minutes.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -3749,9 +3749,9 @@
   "context": "",
   "options": [
    "Certainly. I’ll check it now.",
-   "It is on the third floor.",
-   "No, it was at noon.",
-   "I asked someone about it yesterday."
+   "That room is upstairs.",
+   "It was made at noon.",
+   "Someone already checked it yesterday morning."
   ],
   "answer": 0,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Certainly. I’ll check it now.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -3768,10 +3768,10 @@
   "prompt": "Q: What do you think of holding the event outdoors?",
   "context": "",
   "options": [
-   "It belongs to my brother.",
-   "I shared my thoughts with the team yesterday.",
+   "The tent is my brother’s.",
+   "We discussed it yesterday.",
    "That could be fun in good weather.",
-   "I thought about it at eight o’clock."
+   "I checked the schedule at eight o’clock this morning."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That could be fun in good weather.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -3789,9 +3789,9 @@
   "context": "",
   "options": [
    "Check the paper and call support.",
-   "I did it three days ago.",
-   "I heard about that problem yesterday.",
-   "At the far end of the hall."
+   "It jammed twice last week.",
+   "I read about that fault.",
+   "Support sits near the back office, past the lab."
   ],
   "answer": 0,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Check the paper and call support.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -4809,9 +4809,9 @@
   "context": "",
   "options": [
    "Most weekends.",
-   "For about two hours.",
+   "It lasts two hours.",
    "In the music room.",
-   "Since last Tuesday."
+   "I joined last spring."
   ],
   "answer": 0,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Most weekends.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -4868,10 +4868,10 @@
   "prompt": "Q: What time does the film screening begin?",
   "context": "",
   "options": [
-   "Three times a week.",
+   "The film always runs ninety minutes.",
    "In the music room.",
    "1:15 p.m.",
-   "For about two hours."
+   "We watched it twice."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “1:15 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -4930,8 +4930,8 @@
   "options": [
    "Two hours.",
    "At 1:15 p.m.",
-   "Near the main entrance.",
-   "Every Monday."
+   "They are near the entrance.",
+   "I review them before exams."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Two hours.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -4948,9 +4948,9 @@
   "prompt": "Q: Could you possibly help me carry this box?",
   "context": "",
   "options": [
-   "No, it was at noon.",
+   "The box arrived at noon.",
    "Of course. Let me take one side of the box.",
-   "It is on the third floor.",
+   "The box is on the third floor.",
    "I asked someone about it yesterday, as planned."
   ],
   "answer": 1,
@@ -4968,9 +4968,9 @@
   "prompt": "Q: What do you think of splitting the work into smaller tasks?",
   "context": "",
   "options": [
-   "I thought about it at eight o’clock.",
-   "It belongs to my brother.",
-   "I shared my thoughts with the team yesterday.",
+   "The tasks are listed online.",
+   "Our team split up last term.",
+   "I discussed the whole plan with them yesterday.",
    "That would make the tasks easier."
   ],
   "answer": 3,
@@ -4988,10 +4988,10 @@
   "prompt": "Q: What should you do if you feel unwell before class?",
   "context": "",
   "options": [
-   "I heard about that problem yesterday.",
-   "I did it three days ago.",
+   "I felt unwell last week.",
+   "The class starts at nine.",
    "Tell a teacher or staff member.",
-   "At the far end of the hall."
+   "The clinic is at the far end of the block."
   ],
   "answer": 2,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Tell a teacher or staff member.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -9670,7 +9670,7 @@
   "options": [
    "At the art studio.",
    "5:25 p.m.",
-   "Three times a week.",
+   "Only twenty students signed up.",
    "For about a few minutes."
   ],
   "answer": 1,
@@ -9728,8 +9728,8 @@
   "prompt": "Q: How long will it take to clean the room?",
   "context": "",
   "options": [
-   "Near the main entrance.",
-   "Every Monday.",
+   "The room is near the entrance.",
+   "We cleaned it last Friday.",
    "At 5:25 p.m.",
    "About twenty minutes."
   ],
@@ -9788,9 +9788,9 @@
   "prompt": "Q: What should you do if you arrive after the meeting starts?",
   "context": "",
   "options": [
-   "I did it three days ago.",
-   "At the far end of the hall.",
-   "I heard about that problem yesterday, as planned.",
+   "I arrived late three days ago.",
+   "The hall is at the far end.",
+   "The meeting room was already full when I arrived.",
    "Apologize briefly and explain what happened."
   ],
   "answer": 3,
@@ -10809,8 +10809,8 @@
   "context": "",
   "options": [
    "Several times a week.",
-   "For about two hours.",
-   "Since last Tuesday.",
+   "I cycle along the canal.",
+   "I got a new bike last month.",
    "At the sports hall."
   ],
   "answer": 0,
@@ -10869,7 +10869,7 @@
   "context": "",
   "options": [
    "For about three hours.",
-   "Three times a week.",
+   "Thirty volunteers joined us.",
    "At the sports hall.",
    "6:00 p.m."
   ],
@@ -10928,10 +10928,10 @@
   "prompt": "Q: How long will it take to print the report?",
   "context": "",
   "options": [
-   "Near the main entrance.",
+   "The printer is near the door.",
    "About ten minutes.",
    "At 6:00 p.m.",
-   "Every Monday."
+   "I printed it last week."
   ],
   "answer": 1,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “About ten minutes.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -10948,10 +10948,10 @@
   "prompt": "Q: Could you possibly explain the first step?",
   "context": "",
   "options": [
-   "It is on the third floor.",
-   "I asked someone about it yesterday.",
+   "All the steps are on page three.",
+   "Someone explained that step to me yesterday morning.",
    "Of course. I’ll walk you through the first step.",
-   "No, it was at noon."
+   "We started at noon."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. I’ll walk you through the first step.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -10988,9 +10988,9 @@
   "prompt": "Q: What should you do if you notice a safety problem?",
   "context": "",
   "options": [
-   "I did it three days ago.",
-   "I heard about that problem yesterday, as planned.",
-   "At the far end of the hall.",
+   "I noticed one three days ago.",
+   "The last safety inspection was in March last year.",
+   "The exit is at the far end.",
    "Alert the responsible staff member immediately."
   ],
   "answer": 3,
@@ -12010,8 +12010,8 @@
   "options": [
    "In the meeting room.",
    "Every weekday.",
-   "For about two hours.",
-   "Since last Tuesday."
+   "I borrowed two novels.",
+   "My card expired last month."
   ],
   "answer": 1,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Every weekday.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -12069,7 +12069,7 @@
   "context": "",
   "options": [
    "In the meeting room.",
-   "Three times a week.",
+   "The market has forty stalls.",
    "For about twenty-five minutes.",
    "7:15 a.m."
   ],
@@ -12128,9 +12128,9 @@
   "prompt": "Q: How long will it take to water the plants?",
   "context": "",
   "options": [
-   "Every Monday.",
+   "I water them in the morning.",
    "At 7:15 a.m.",
-   "Near the main entrance.",
+   "They are near the entrance.",
    "Twenty-five minutes."
   ],
   "answer": 3,
@@ -12148,9 +12148,9 @@
   "prompt": "Q: Could you possibly close the door?",
   "context": "",
   "options": [
-   "It is on the third floor.",
-   "I asked someone about it yesterday.",
-   "No, it was at noon.",
+   "The door is at the end.",
+   "Someone already closed it after lunch.",
+   "It stayed open this morning.",
    "Certainly. I’ll close the door now."
   ],
   "answer": 3,
@@ -12188,10 +12188,10 @@
   "prompt": "Q: What should you do if your group misses a deadline?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
+   "The hall is at the far end.",
    "Tell the team and agree on a realistic new deadline.",
-   "I heard about that problem yesterday.",
-   "I did it three days ago."
+   "We missed one last month.",
+   "I finished my part three days ago and told the others."
   ],
   "answer": 1,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Tell the team and agree on a realistic new deadline.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -13208,8 +13208,8 @@
   "prompt": "Q: How often do you exercise after class?",
   "context": "",
   "options": [
-   "For about two hours.",
-   "Since last Tuesday.",
+   "I go with my cousin.",
+   "The gym is new.",
    "At the student center.",
    "Two evenings a week."
   ],
@@ -13271,7 +13271,7 @@
    "For about ninety minutes.",
    "At the student center.",
    "7:45 p.m.",
-   "Three times a week."
+   "Only twelve people are presenting."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “7:45 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -13330,8 +13330,8 @@
   "options": [
    "About ten minutes.",
    "At 7:45 p.m.",
-   "Near the main entrance.",
-   "Every Monday."
+   "It is pinned near the door.",
+   "I checked it last week."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “About ten minutes.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -13348,9 +13348,9 @@
   "prompt": "Q: Could you possibly save this document?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday.",
-   "No, it was at noon.",
-   "It is on the third floor.",
+   "Someone saved it yesterday.",
+   "It was edited at noon.",
+   "The file is on the third shared drive.",
    "Sure. I’ll save the document now."
   ],
   "answer": 3,
@@ -13388,10 +13388,10 @@
   "prompt": "Q: What should you do if you cannot access the website?",
   "context": "",
   "options": [
-   "I heard about that problem yesterday.",
-   "At the far end of the hall.",
+   "I could not open that website yesterday evening.",
+   "The link is at the bottom.",
    "Check your connection and use the official help page.",
-   "I did it three days ago."
+   "I reset my password three days ago and it still failed."
   ],
   "answer": 2,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Check your connection and use the official help page.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -14408,9 +14408,9 @@
   "prompt": "Q: How often do you help with the event?",
   "context": "",
   "options": [
-   "For about two hours.",
+   "I helped with the setup.",
    "Each Sunday.",
-   "Since last Tuesday.",
+   "The event runs two hours.",
    "At the clinic."
   ],
   "answer": 1,
@@ -14470,7 +14470,7 @@
   "options": [
    "8:50 a.m.",
    "For about one week.",
-   "Three times a week.",
+   "Our team never lost last season.",
    "At the clinic."
   ],
   "answer": 0,
@@ -14529,8 +14529,8 @@
   "context": "",
   "options": [
    "At 8:50 a.m.",
-   "Near the main entrance.",
-   "Every Monday.",
+   "The summary goes near the title.",
+   "I wrote one last week.",
    "About thirty minutes."
   ],
   "answer": 3,
@@ -14549,9 +14549,9 @@
   "context": "",
   "options": [
    "I asked someone about it yesterday, as planned.",
-   "It is on the third floor.",
+   "The desk is on the third floor.",
    "Of course. I’ll call the front desk now.",
-   "No, it was at noon."
+   "They closed at noon."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. I’ll call the front desk now.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -14588,10 +14588,10 @@
   "prompt": "Q: What should you do if your booking details are wrong?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
+   "The office is at the far end.",
    "Contact the booking office promptly.",
-   "I heard about that problem yesterday.",
-   "I did it three days ago."
+   "I noticed that problem yesterday.",
+   "I corrected my own booking three days ago."
   ],
   "answer": 1,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Contact the booking office promptly.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -15608,10 +15608,10 @@
   "prompt": "Q: How often do you check the weather?",
   "context": "",
   "options": [
-   "For about two hours.",
+   "I check it on my phone.",
    "At the bookshop.",
    "Every few days.",
-   "Since last Tuesday."
+   "The app changed last month."
   ],
   "answer": 2,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Every few days.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -15668,7 +15668,7 @@
   "prompt": "Q: What time does the library session begin?",
   "context": "",
   "options": [
-   "Three times a week.",
+   "The session always has two parts.",
    "For about a couple of days.",
    "At the bookshop.",
    "11:10 a.m."
@@ -15708,10 +15708,10 @@
   "prompt": "Q: I’m sorry I interrupted the speaker.",
   "context": "",
   "options": [
-   "It takes about ten minutes.",
-   "I sent the information to the group.",
+   "The talk takes ten minutes.",
+   "I sent the notes to the group.",
    "No problem. Let’s hear them out.",
-   "I have not checked the details yet."
+   "I have not read the summary yet."
   ],
   "answer": 2,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “No problem. Let’s hear them out.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -15729,9 +15729,9 @@
   "context": "",
   "options": [
    "About half an hour.",
-   "Every Monday.",
+   "The tables are near the entrance.",
    "At 11:10 a.m.",
-   "Near the main entrance."
+   "I set them up last week."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “About half an hour.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -15748,8 +15748,8 @@
   "prompt": "Q: Could you possibly check the list again?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday.",
-   "No, it was at noon.",
+   "Someone checked that list yesterday afternoon.",
+   "It was printed at noon.",
    "Certainly. I’ll review the list again.",
    "It is on the third floor, as planned."
   ],
@@ -15769,9 +15769,9 @@
   "context": "",
   "options": [
    "A weekly goal would track progress.",
-   "I shared my thoughts with the team yesterday.",
-   "It belongs to my brother.",
-   "I thought about it at eight o’clock."
+   "We discussed goals yesterday.",
+   "The tracker belongs to the office team.",
+   "I checked my notes at eight."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “A weekly goal would track progress.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -15788,10 +15788,10 @@
   "prompt": "Q: What should you do if you find an unknown charge?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
+   "The bank is at the far end.",
    "Review the receipt and contact the provider if needed.",
-   "I heard about that problem yesterday.",
-   "I did it three days ago."
+   "I saw that charge yesterday.",
+   "I disputed a similar charge with the bank three days ago."
   ],
   "answer": 1,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Review the receipt and contact the provider if needed.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16810,8 +16810,8 @@
   "options": [
    "At the park entrance.",
    "Once every two weeks.",
-   "For about two hours.",
-   "Since last Tuesday."
+   "I write at night.",
+   "My journal is nearly full."
   ],
   "answer": 1,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Once every two weeks.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16868,7 +16868,7 @@
   "prompt": "Q: What time does the career talk begin?",
   "context": "",
   "options": [
-   "Three times a week.",
+   "Only two speakers were invited.",
    "12:35 p.m.",
    "At the park entrance.",
    "For about just under an hour."
@@ -16908,10 +16908,10 @@
   "prompt": "Q: I’m sorry I lost the receipt.",
   "context": "",
   "options": [
-   "I sent the information to the group.",
-   "I have not checked the details yet.",
+   "I sent the receipt to the group.",
+   "I have not checked the details.",
    "That’s okay. Ask for another copy.",
-   "It takes about ten minutes."
+   "The shop keeps copies for several months."
   ],
   "answer": 2,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “That’s okay. Ask for another copy.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16928,10 +16928,10 @@
   "prompt": "Q: How long will it take to cook the meal?",
   "context": "",
   "options": [
-   "Every Monday.",
+   "The kitchen is downstairs.",
    "At 12:35 p.m.",
    "Just under an hour.",
-   "Near the main entrance."
+   "I cooked it last weekend."
   ],
   "answer": 2,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Just under an hour.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16948,10 +16948,10 @@
   "prompt": "Q: Could you possibly lend me a pen?",
   "context": "",
   "options": [
-   "It is on the third floor.",
+   "The pens are on that shelf.",
    "Of course. You can use this pen.",
-   "I asked someone about it yesterday.",
-   "No, it was at noon."
+   "Someone borrowed one yesterday morning.",
+   "I bought these at noon."
   ],
   "answer": 1,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. You can use this pen.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16968,10 +16968,10 @@
   "prompt": "Q: What do you think of visiting the local exhibition?",
   "context": "",
   "options": [
-   "I thought about it at eight o’clock.",
+   "I checked the opening hours at eight this morning.",
    "That sounds interesting. I’d like to go.",
-   "I shared my thoughts with the team yesterday.",
-   "It belongs to my brother."
+   "We talked about it yesterday.",
+   "The tickets belong to my sister."
   ],
   "answer": 1,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That sounds interesting. I’d like to go.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -16988,9 +16988,9 @@
   "prompt": "Q: What should you do if you are unsure about the instructions?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
-   "I did it three days ago.",
-   "I heard about that problem yesterday, as planned.",
+   "The corridor ends at the stairs.",
+   "I asked him three days ago.",
+   "The speaker moved on to the next slide quickly.",
    "Ask the speaker to clarify the instructions."
   ],
   "answer": 3,
@@ -18009,8 +18009,8 @@
   "context": "",
   "options": [
    "Almost every day.",
-   "Since last Tuesday.",
-   "For about two hours.",
+   "I use flashcards at home.",
+   "The list has only fifty words.",
    "In the language lab."
   ],
   "answer": 0,
@@ -18071,7 +18071,7 @@
    "In the language lab.",
    "2:05 p.m.",
    "For about five minutes.",
-   "Three times a week."
+   "All nine schools are taking part."
   ],
   "answer": 1,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “2:05 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -18108,10 +18108,10 @@
   "prompt": "Q: I’m sorry I booked the wrong room.",
   "context": "",
   "options": [
-   "I sent the information to the group.",
-   "I have not checked the details yet.",
+   "I sent the booking details to the group before the meeting.",
+   "I have not checked the booking.",
    "No worries. Let’s contact the office to change the booking.",
-   "It takes about ten minutes."
+   "The room holds ten people."
   ],
   "answer": 2,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “No worries. Let’s contact the office to change the booking.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -18128,8 +18128,8 @@
   "prompt": "Q: How long is the bus journey?",
   "context": "",
   "options": [
-   "Every Monday.",
-   "Near the main entrance.",
+   "The bus always leaves on weekdays.",
+   "The stop is near the entrance.",
    "At 2:05 p.m.",
    "Twenty-five minutes."
   ],
@@ -18148,10 +18148,10 @@
   "prompt": "Q: Could you possibly turn down the music?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday.",
-   "No, it was at noon.",
+   "Someone complained about it yesterday.",
+   "It started at noon.",
    "Sure. I’ll turn the music down.",
-   "It is on the third floor."
+   "The speakers are on the shelf."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Sure. I’ll turn the music down.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -18168,9 +18168,9 @@
   "prompt": "Q: What do you think of making a checklist?",
   "context": "",
   "options": [
-   "I thought about it at eight o’clock.",
-   "I shared my thoughts with the team yesterday.",
-   "It belongs to my brother.",
+   "I noted it down at eight.",
+   "We discussed lists yesterday.",
+   "The folder belongs to my teammate in the other group.",
    "That would help us keep track of the tasks."
   ],
   "answer": 3,
@@ -18189,9 +18189,9 @@
   "context": "",
   "options": [
    "Use the official reset process.",
-   "I did it three days ago.",
-   "At the far end of the hall.",
-   "I heard about that problem yesterday."
+   "I forgot mine three days ago.",
+   "The help desk is upstairs.",
+   "Someone reset it for me last month."
   ],
   "answer": 0,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Use the official reset process.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19208,8 +19208,8 @@
   "prompt": "Q: How often do you recycle old paper?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
-   "For about two hours.",
+   "The bin is by the stairs.",
+   "I recycle paper and cardboard.",
    "At the auditorium.",
    "Three mornings a week."
   ],
@@ -19271,7 +19271,7 @@
    "At the auditorium.",
    "For about three weeks.",
    "3:55 p.m.",
-   "Three times a week."
+   "The tour covers all three floors."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “3:55 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19309,9 +19309,9 @@
   "context": "",
   "options": [
    "That’s all right. Please bring the key back today.",
-   "I sent the information to the group.",
-   "It takes about ten minutes.",
-   "I have not checked the details yet."
+   "I emailed the group before lunch.",
+   "The office keeps a spare key.",
+   "I have not checked the details on the booking form."
   ],
   "answer": 0,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “That’s all right. Please bring the key back today.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19328,10 +19328,10 @@
   "prompt": "Q: How long will it take to read the article?",
   "context": "",
   "options": [
-   "Every Monday.",
+   "The article is on page five.",
    "At 3:55 p.m.",
    "About twenty minutes.",
-   "Near the main entrance."
+   "I read it last night."
   ],
   "answer": 2,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “About twenty minutes.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19348,10 +19348,10 @@
   "prompt": "Q: Could you possibly wait a moment?",
   "context": "",
   "options": [
-   "No, it was at noon.",
+   "The bell rang at noon.",
    "Certainly. I’ll wait here.",
-   "I asked someone about it yesterday.",
-   "It is on the third floor."
+   "Someone asked me to wait outside.",
+   "The office is upstairs."
   ],
   "answer": 1,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Certainly. I’ll wait here.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19368,10 +19368,10 @@
   "prompt": "Q: What do you think of collecting feedback first?",
   "context": "",
   "options": [
-   "I thought about it at eight o’clock.",
-   "I shared my thoughts with the team yesterday.",
+   "I noted it at eight.",
+   "We discussed the feedback form with them yesterday.",
    "That would help us address issues early.",
-   "It belongs to my brother."
+   "The form belongs to my team."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That would help us address issues early.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -19388,9 +19388,9 @@
   "prompt": "Q: What should you do if a classmate needs help?",
   "context": "",
   "options": [
-   "I heard about that problem yesterday.",
-   "At the far end of the hall.",
-   "I did it three days ago.",
+   "I noticed that yesterday.",
+   "The library is at the end.",
+   "I helped him with the same task three days ago.",
    "Ask your classmate what kind of help is needed."
   ],
   "answer": 3,
@@ -20408,8 +20408,8 @@
   "prompt": "Q: How often do you meet the project team?",
   "context": "",
   "options": [
-   "Since last Tuesday.",
-   "For about two hours.",
+   "We met last Tuesday.",
+   "The meeting takes an hour.",
    "At the train station.",
    "At month-end."
   ],
@@ -20471,7 +20471,7 @@
    "At the train station.",
    "For about one month.",
    "4:45 p.m.",
-   "Three times a week."
+   "All ten players are practising."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “4:45 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -20508,9 +20508,9 @@
   "prompt": "Q: I’m sorry I sent the message to the wrong group.",
   "context": "",
   "options": [
-   "It takes about ten minutes.",
+   "It takes ten minutes to send.",
    "I sent the information to the group, as planned.",
-   "I have not checked the details yet.",
+   "I have not read the details.",
    "It happens. Let’s correct the group message."
   ],
   "answer": 3,
@@ -20530,8 +20530,8 @@
   "options": [
    "About an hour.",
    "At 4:45 p.m.",
-   "Near the main entrance.",
-   "Every Monday."
+   "The room is near the entrance.",
+   "We meet in the main hall."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “About an hour.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -20549,9 +20549,9 @@
   "context": "",
   "options": [
    "Of course. I’ll confirm the time.",
-   "I asked someone about it yesterday.",
-   "It is on the third floor.",
-   "No, it was at noon."
+   "Someone already confirmed it yesterday evening.",
+   "The room is on the third floor.",
+   "It was changed at noon."
   ],
   "answer": 0,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. I’ll confirm the time.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -20569,9 +20569,9 @@
   "context": "",
   "options": [
    "A short break would help everyone refocus.",
-   "I thought about it at eight o’clock.",
-   "It belongs to my brother.",
-   "I shared my thoughts with the team yesterday."
+   "I checked the clock at eight.",
+   "The room belongs to my team.",
+   "We talked about the schedule with them yesterday."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “A short break would help everyone refocus.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -20588,10 +20588,10 @@
   "prompt": "Q: What should you do if you see a damaged sign?",
   "context": "",
   "options": [
-   "I did it three days ago.",
+   "I saw one three days ago.",
    "Report the damaged sign to maintenance.",
-   "I heard about that problem yesterday.",
-   "At the far end of the hall."
+   "Someone reported it to the office yesterday.",
+   "The sign is near the far exit."
   ],
   "answer": 1,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Report the damaged sign to maintenance.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -21609,9 +21609,9 @@
   "context": "",
   "options": [
    "In the garden.",
-   "Since last Tuesday.",
+   "I stretch at my desk.",
    "Every few hours.",
-   "For about two hours."
+   "A break lasts ten minutes."
   ],
   "answer": 2,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Every few hours.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -21670,7 +21670,7 @@
   "options": [
    "For about two school days.",
    "In the garden.",
-   "Three times a week.",
+   "All six students are in the group.",
    "6:20 p.m."
   ],
   "answer": 3,
@@ -21709,9 +21709,9 @@
   "context": "",
   "options": [
    "It’s all right. Let’s repair it.",
-   "I sent the information to the group.",
-   "It takes about ten minutes.",
-   "I have not checked the details yet."
+   "I sent the photos to the group.",
+   "It takes about ten minutes to dry.",
+   "I have not seen the details."
   ],
   "answer": 0,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “It’s all right. Let’s repair it.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -21729,9 +21729,9 @@
   "context": "",
   "options": [
    "Two school days.",
-   "Near the main entrance.",
+   "The survey has only twelve questions.",
    "At 6:20 p.m.",
-   "Every Monday."
+   "We finished one last term."
   ],
   "answer": 0,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Two school days.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -21748,9 +21748,9 @@
   "prompt": "Q: Could you possibly take a photo of the poster?",
   "context": "",
   "options": [
-   "It is on the third floor.",
-   "I asked someone about it yesterday.",
-   "No, it was at noon.",
+   "The poster is on the wall.",
+   "Someone photographed it yesterday.",
+   "It was printed at noon.",
    "Sure. I’ll take a photo now."
   ],
   "answer": 3,
@@ -21769,9 +21769,9 @@
   "context": "",
   "options": [
    "That would help us share unwanted books.",
-   "I shared my thoughts with the team yesterday.",
-   "I thought about it at eight o’clock.",
-   "It belongs to my brother."
+   "We discussed the idea with the class yesterday.",
+   "I looked at the list at eight.",
+   "The shelf belongs to my sister."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ขอความคิดเห็นต่อข้อเสนอ จึงควรแสดงความเห็นหรือประเมินข้อเสนอนั้นโดยตรง คำตอบที่ถูกคือ “That would help us share unwanted books.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -21788,9 +21788,9 @@
   "prompt": "Q: What should you do if your phone battery is low?",
   "context": "",
   "options": [
-   "I did it three days ago.",
-   "I heard about that problem yesterday.",
-   "At the far end of the hall.",
+   "I charged it three days ago.",
+   "Someone mentioned that same problem to me yesterday evening.",
+   "The plug is at the far end.",
    "Turn on battery saver and find a safe charging point."
   ],
   "answer": 3,
@@ -22810,8 +22810,8 @@
   "options": [
    "Every Friday.",
    "At the information desk.",
-   "For about two hours.",
-   "Since last Tuesday."
+   "I plan with my friends.",
+   "We made plans last month."
   ],
   "answer": 0,
   "explanation": "How often ถามความถี่ จึงต้องตอบเป็นความถี่หรือความถี่ที่ทำกิจกรรมนั้น คำตอบที่ถูกคือ “Every Friday.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22871,7 +22871,7 @@
    "For about forty-five minutes.",
    "At the information desk.",
    "7:05 p.m.",
-   "Three times a week."
+   "The clinic has only two rooms."
   ],
   "answer": 2,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “7:05 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22908,10 +22908,10 @@
   "prompt": "Q: I’m sorry I changed my answer too soon.",
   "context": "",
   "options": [
-   "I sent the information to the group.",
+   "I sent my answers to the group before the lunch break.",
    "No worries. You can still explain your reasoning.",
-   "It takes about ten minutes.",
-   "I have not checked the details yet."
+   "It takes ten minutes to review.",
+   "I have not checked the details of that question."
   ],
   "answer": 1,
   "explanation": "ผู้พูดกำลังกล่าวขอโทษ คำตอบที่เป็นธรรมชาติควรรับทราบหรือแสดงการให้อภัย ไม่ใช่เปลี่ยนไปตอบเรื่องอื่น คำตอบที่ถูกคือ “No worries. You can still explain your reasoning.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22929,9 +22929,9 @@
   "context": "",
   "options": [
    "At 7:05 p.m.",
-   "Every Monday.",
+   "The bus always leaves on weekdays.",
    "Forty-five minutes.",
-   "Near the main entrance."
+   "The museum is two stops away."
   ],
   "answer": 2,
   "explanation": "How long ถามระยะเวลา จึงต้องตอบเป็นเวลาที่ใช้หรือความยาวของช่วงเวลา คำตอบที่ถูกคือ “Forty-five minutes.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22948,10 +22948,10 @@
   "prompt": "Q: Could you possibly help arrange the tables?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday.",
-   "It is on the third floor.",
+   "Someone asked me to help with them yesterday.",
+   "They are on the third floor.",
    "Of course. I’ll help you arrange the tables.",
-   "No, it was at noon."
+   "We started at noon."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. I’ll help you arrange the tables.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22968,9 +22968,9 @@
   "prompt": "Q: What do you think of testing the idea for one week?",
   "context": "",
   "options": [
-   "It belongs to my brother.",
-   "I shared my thoughts with the team yesterday.",
-   "I thought about it at eight o’clock.",
+   "The idea belongs to my team.",
+   "We discussed the trial plan with the team yesterday.",
+   "I thought about it at eight.",
    "A one-week trial would help us see whether it works."
   ],
   "answer": 3,
@@ -22988,10 +22988,10 @@
   "prompt": "Q: What should you do if you need to change an appointment?",
   "context": "",
   "options": [
-   "At the far end of the hall.",
-   "I heard about that problem yesterday.",
+   "The office is at the far end.",
+   "I heard about it yesterday.",
    "Contact the office to reschedule.",
-   "I did it three days ago."
+   "I changed my own appointment three days ago."
   ],
   "answer": 2,
   "explanation": "What should you do if ถามคำแนะนำเมื่อเกิดสถานการณ์หนึ่ง จึงควรตอบด้วยการกระทำที่เหมาะสมและทำได้จริง คำตอบที่ถูกคือ “Contact the office to reschedule.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",

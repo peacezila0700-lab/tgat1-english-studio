@@ -1,0 +1,314 @@
+[
+ {
+  "id": "S05-Q007",
+  "slot": 2,
+  "old": "Near the main entrance.",
+  "new": "They are near the entrance."
+ },
+ {
+  "id": "S05-Q007",
+  "slot": 3,
+  "old": "Every Monday.",
+  "new": "I review them before exams."
+ },
+ {
+  "id": "S05-Q008",
+  "slot": 0,
+  "old": "No, it was at noon.",
+  "new": "The box arrived at noon."
+ },
+ {
+  "id": "S05-Q008",
+  "slot": 2,
+  "old": "It is on the third floor.",
+  "new": "The box is on the third floor."
+ },
+ {
+  "id": "S05-Q009",
+  "slot": 0,
+  "old": "I thought about it at eight o’clock.",
+  "new": "The tasks are listed online."
+ },
+ {
+  "id": "S05-Q009",
+  "slot": 1,
+  "old": "It belongs to my brother.",
+  "new": "Our team split up last term."
+ },
+ {
+  "id": "S05-Q009",
+  "slot": 2,
+  "old": "I shared my thoughts with the team yesterday.",
+  "new": "I discussed the whole plan with them yesterday."
+ },
+ {
+  "id": "S05-Q010",
+  "slot": 0,
+  "old": "I heard about that problem yesterday.",
+  "new": "I felt unwell last week."
+ },
+ {
+  "id": "S05-Q010",
+  "slot": 1,
+  "old": "I did it three days ago.",
+  "new": "The class starts at nine."
+ },
+ {
+  "id": "S05-Q010",
+  "slot": 3,
+  "old": "At the far end of the hall.",
+  "new": "The clinic is at the far end of the block."
+ },
+ {
+  "id": "S09-Q004",
+  "slot": 2,
+  "old": "Three times a week.",
+  "new": "Only twenty students signed up."
+ },
+ {
+  "id": "S09-Q007",
+  "slot": 0,
+  "old": "Near the main entrance.",
+  "new": "The room is near the entrance."
+ },
+ {
+  "id": "S09-Q007",
+  "slot": 1,
+  "old": "Every Monday.",
+  "new": "We cleaned it last Friday."
+ },
+ {
+  "id": "S09-Q010",
+  "slot": 0,
+  "old": "I did it three days ago.",
+  "new": "I arrived late three days ago."
+ },
+ {
+  "id": "S09-Q010",
+  "slot": 1,
+  "old": "At the far end of the hall.",
+  "new": "The hall is at the far end."
+ },
+ {
+  "id": "S10-Q001",
+  "slot": 1,
+  "old": "For about two hours.",
+  "new": "I cycle along the canal."
+ },
+ {
+  "id": "S10-Q001",
+  "slot": 2,
+  "old": "Since last Tuesday.",
+  "new": "I got a new bike last month."
+ },
+ {
+  "id": "S10-Q004",
+  "slot": 1,
+  "old": "Three times a week.",
+  "new": "Thirty volunteers joined us."
+ },
+ {
+  "id": "S10-Q007",
+  "slot": 0,
+  "old": "Near the main entrance.",
+  "new": "The printer is near the door."
+ },
+ {
+  "id": "S10-Q007",
+  "slot": 3,
+  "old": "Every Monday.",
+  "new": "I printed it last week."
+ },
+ {
+  "id": "S10-Q008",
+  "slot": 0,
+  "old": "It is on the third floor.",
+  "new": "All the steps are on page three."
+ },
+ {
+  "id": "S10-Q008",
+  "slot": 1,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone explained that step to me yesterday morning."
+ },
+ {
+  "id": "S10-Q008",
+  "slot": 3,
+  "old": "No, it was at noon.",
+  "new": "We started at noon."
+ },
+ {
+  "id": "S10-Q010",
+  "slot": 0,
+  "old": "I did it three days ago.",
+  "new": "I noticed one three days ago."
+ },
+ {
+  "id": "S10-Q010",
+  "slot": 2,
+  "old": "At the far end of the hall.",
+  "new": "The exit is at the far end."
+ },
+ {
+  "id": "S11-Q001",
+  "slot": 2,
+  "old": "For about two hours.",
+  "new": "I borrowed two novels."
+ },
+ {
+  "id": "S11-Q001",
+  "slot": 3,
+  "old": "Since last Tuesday.",
+  "new": "My card expired last month."
+ },
+ {
+  "id": "S11-Q004",
+  "slot": 1,
+  "old": "Three times a week.",
+  "new": "The market has forty stalls."
+ },
+ {
+  "id": "S11-Q007",
+  "slot": 0,
+  "old": "Every Monday.",
+  "new": "I water them in the morning."
+ },
+ {
+  "id": "S11-Q007",
+  "slot": 2,
+  "old": "Near the main entrance.",
+  "new": "They are near the entrance."
+ },
+ {
+  "id": "S11-Q008",
+  "slot": 0,
+  "old": "It is on the third floor.",
+  "new": "The door is at the end."
+ },
+ {
+  "id": "S11-Q008",
+  "slot": 1,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone already closed it after lunch."
+ },
+ {
+  "id": "S11-Q008",
+  "slot": 2,
+  "old": "No, it was at noon.",
+  "new": "It stayed open this morning."
+ },
+ {
+  "id": "S11-Q010",
+  "slot": 0,
+  "old": "At the far end of the hall.",
+  "new": "The hall is at the far end."
+ },
+ {
+  "id": "S11-Q010",
+  "slot": 2,
+  "old": "I heard about that problem yesterday.",
+  "new": "We missed one last month."
+ },
+ {
+  "id": "S11-Q010",
+  "slot": 3,
+  "old": "I did it three days ago.",
+  "new": "I finished my part three days ago and told the others."
+ },
+ {
+  "id": "S12-Q001",
+  "slot": 0,
+  "old": "For about two hours.",
+  "new": "I go with my cousin."
+ },
+ {
+  "id": "S12-Q001",
+  "slot": 1,
+  "old": "Since last Tuesday.",
+  "new": "The gym is new."
+ },
+ {
+  "id": "S12-Q004",
+  "slot": 3,
+  "old": "Three times a week.",
+  "new": "Only twelve people are presenting."
+ },
+ {
+  "id": "S12-Q007",
+  "slot": 2,
+  "old": "Near the main entrance.",
+  "new": "It is pinned near the door."
+ },
+ {
+  "id": "S12-Q007",
+  "slot": 3,
+  "old": "Every Monday.",
+  "new": "I checked it last week."
+ },
+ {
+  "id": "S12-Q008",
+  "slot": 0,
+  "old": "I asked someone about it yesterday.",
+  "new": "Someone saved it yesterday."
+ },
+ {
+  "id": "S12-Q008",
+  "slot": 1,
+  "old": "No, it was at noon.",
+  "new": "It was edited at noon."
+ },
+ {
+  "id": "S12-Q008",
+  "slot": 2,
+  "old": "It is on the third floor.",
+  "new": "The file is on the third shared drive."
+ },
+ {
+  "id": "S12-Q010",
+  "slot": 0,
+  "old": "I heard about that problem yesterday.",
+  "new": "I could not open that website yesterday evening."
+ },
+ {
+  "id": "S12-Q010",
+  "slot": 1,
+  "old": "At the far end of the hall.",
+  "new": "The link is at the bottom."
+ },
+ {
+  "id": "S12-Q010",
+  "slot": 3,
+  "old": "I did it three days ago.",
+  "new": "I reset my password three days ago and it still failed."
+ },
+ {
+  "id": "S13-Q001",
+  "slot": 0,
+  "old": "For about two hours.",
+  "new": "I helped with the setup."
+ },
+ {
+  "id": "S13-Q001",
+  "slot": 2,
+  "old": "Since last Tuesday.",
+  "new": "The event runs two hours."
+ },
+ {
+  "id": "S13-Q004",
+  "slot": 2,
+  "old": "Three times a week.",
+  "new": "Our team never lost last season."
+ },
+ {
+  "id": "S13-Q007",
+  "slot": 1,
+  "old": "Near the main entrance.",
+  "new": "The summary goes near the title."
+ },
+ {
+  "id": "S13-Q007",
+  "slot": 2,
+  "old": "Every Monday.",
+  "new": "I wrote one last week."
+ }
+]
