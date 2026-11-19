@@ -3092,5 +3092,720 @@
    "translation": "ทุกห้องเรียนมีอุปกรณ์ดิจิทัลที่เชื่อมกับหน้าจอการสอน"
   },
   "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "forgery",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed forgeries after the announcement.",
+   "translation": "ชุมชนพูดถึงการปลอมแปลงหลังการประกาศ"
+  },
+  "new": {
+   "example": "The museum discovered the forgery only after a careful pigment analysis.",
+   "translation": "พิพิธภัณฑ์ตรวจพบการปลอมแปลงหลังจากวิเคราะห์เม็ดสีอย่างละเอียด"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "fossil",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of fossils across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของซากดึกดำบรรพ์ระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "A rare fossil of a sea creature was dug from the cliff face.",
+   "translation": "ซากดึกดำบรรพ์ของสัตว์ทะเลที่หายากถูกขุดขึ้นมาจากหน้าผา"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "framework",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with frameworks.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับกรอบแนวคิด"
+  },
+  "new": {
+   "example": "The new framework for safety rules was tested across three factories.",
+   "translation": "กรอบแนวคิดใหม่สำหรับกฎความปลอดภัยถูกทดสอบในโรงงานสามแห่ง"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "fraud",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted fraud as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการฉ้อโกงเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The bank reported the fraud within minutes of spotting the pattern.",
+   "translation": "ธนาคารแจ้งเรื่องการฉ้อโกงภายในไม่กี่นาทีหลังพบรูปแบบที่ผิดปกติ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "functionality",
+  "sense": 0,
+  "old": {
+   "example": "The functionality affected the team’s final decision.",
+   "translation": "การทำงาน/คุณสมบัติการใช้งานมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Users praised the functionality of the new app more than its design.",
+   "translation": "ผู้ใช้ชื่นชมการทำงานและคุณสมบัติการใช้งานของแอปใหม่มากกว่าตัวออกแบบ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "future research",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about future research.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการวิจัยในอนาคต"
+  },
+  "new": {
+   "example": "The report ends by suggesting future research on long-term outcomes.",
+   "translation": "รายงานปิดท้ายด้วยการเสนอแนะการวิจัยในอนาคตเกี่ยวกับผลลัพธ์ระยะยาว"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "gene",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of genes across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของยีนระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Scientists traced the gene responsible for the rare condition.",
+   "translation": "นักวิทยาศาสตร์ติดตามยีนที่เป็นสาเหตุของโรคที่พบได้น้อยชนิดนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "generalizability",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of generalizability across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความสามารถในการนำผลไปใช้ทั่วไประหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "A small sample limits the generalizability of every survey result.",
+   "translation": "กลุ่มตัวอย่างขนาดเล็กจำกัดความสามารถในการนำผลไปใช้ทั่วไป"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "generalization",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed generalizations after the announcement.",
+   "translation": "ชุมชนพูดถึงการสรุปเป็นกฎทั่วไปหลังการประกาศ"
+  },
+  "new": {
+   "example": "The teacher warned that a single case is not a safe generalization.",
+   "translation": "ครูเตือนว่ากรณีเดียวไม่อาจนำมาสรุปเป็นกฎทั่วไปได้อย่างปลอดภัย"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "globalization",
+  "sense": 0,
+  "old": {
+   "example": "The globalization affected the team’s final decision.",
+   "translation": "โลกาภิวัตน์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Globalization links the price of coffee here to farms far away.",
+   "translation": "โลกาภิวัตน์เชื่อมโยงราคากาแฟที่นี่กับไร่กาแฟที่อยู่ห่างไกล"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "gossip",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to gossip.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับนินทา"
+  },
+  "new": {
+   "example": "Spreading gossip at work costs trust more than any mistake.",
+   "translation": "การนินทาในที่ทำงานทำลายความไว้วางใจมากกว่าข้อผิดพลาดใดๆ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "graduation",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about graduations to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการสำเร็จการศึกษาแก่นักเรียน"
+  },
+  "new": {
+   "example": "Her graduation ceremony brought relatives from three provinces.",
+   "translation": "พิธีสำเร็จการศึกษาของเธอดึงดูดญาติจากสามจังหวัดมาร่วมงาน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "greenhouse effect",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of the greenhouse effect across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของปรากฏการณ์เรือนกระจกระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The greenhouse effect traps warmth and raises the planet's temperature.",
+   "translation": "ปรากฏการณ์เรือนกระจกกักเก็บความร้อนและทำให้อุณหภูมิของโลกสูงขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "grief",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to grief.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับความโศกเศร้า"
+  },
+  "new": {
+   "example": "Family rituals helped everyone share the grief after the loss.",
+   "translation": "พิธีกรรมในครอบครัวช่วยให้ทุกคนได้แบ่งปันความโศกเศร้าหลังการสูญเสีย"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "guest",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to guests.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับแขก"
+  },
+  "new": {
+   "example": "The guest on the programme answered questions from the studio audience.",
+   "translation": "แขกรับเชิญในรายการตอบคำถามจากผู้ชมในห้องส่ง"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "guideline",
+  "sense": 0,
+  "old": {
+   "example": "The guideline affected the team’s final decision.",
+   "translation": "แนวทางมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Every guideline in the manual was checked against current practice.",
+   "translation": "แนวทางทุกข้อในคู่มือถูกตรวจสอบเทียบกับแนวปฏิบัติปัจจุบัน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "habitat",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about habitats before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับถิ่นที่อยู่อาศัยก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The reserve protects the last wild habitat of the shy deer.",
+   "translation": "เขตอนุรักษ์ปกป้องถิ่นที่อยู่อาศัยสุดท้ายของเกือกม้าป่าที่ขี้อาย"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "habitat loss",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of habitat loss across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการสูญเสียถิ่นที่อยู่อาศัยระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Habitat loss, not hunting, is the real threat to the species.",
+   "translation": "การสูญเสียถิ่นที่อยู่อาศัย ไม่ใช่การล่า คือภัยคุกคามจริงต่อสัตว์ชนิดนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "harvest",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to harvests.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการเก็บเกี่ยว"
+  },
+  "new": {
+   "example": "A good harvest filled every barn in the valley this autumn.",
+   "translation": "การเก็บเกี่ยวที่ดีทำให้โรงนาทุกแห่งในหุบเขาเต็มในฤดูใบไม้ร่วงนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "headline",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with headlines.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับพาดหัวข่าว"
+  },
+  "new": {
+   "example": "The editor changed the headline before the evening edition went out.",
+   "translation": "บรรณาธิการเปลี่ยนพาดหัวข่าวก่อนหนังสือพิมพ์ฉบับเย็นส่งตีพิมพ์"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "heatwave",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of heatwaves across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของคลื่นความร้อนระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The heatwave cut power as families ran fans all night.",
+   "translation": "คลื่นความร้อนทำให้ไฟฟ้าดับขณะที่หลายบ้านเปิดพัดลมทั้งคืน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "hierarchy",
+  "sense": 0,
+  "old": {
+   "example": "The hierarchy affected the team’s final decision.",
+   "translation": "ลำดับชั้นมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The company rebuilt its hierarchy to flatten the decision process.",
+   "translation": "บริษัทปรับโครงสร้างลำดับชั้นใหม่เพื่อให้การตัดสินใจรวดเร็วขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "humility",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed humility after the announcement.",
+   "translation": "ชุมชนพูดถึงความถ่อมตนหลังการประกาศ"
+  },
+  "new": {
+   "example": "Humility in a leader builds trust faster than any speech.",
+   "translation": "ความถ่อมตนของผู้นำสร้างความไว้วางใจได้เร็วกว่าคำกล่าวใดๆ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "hydropower",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed hydropower after the announcement.",
+   "translation": "ชุมชนพูดถึงพลังงานน้ำหลังการประกาศ"
+  },
+  "new": {
+   "example": "Hydropower supplies most of the electricity to the mountain towns.",
+   "translation": "พลังงานน้ำส่งไฟฟ้าส่วนใหญ่ให้เมืองบนภูเขา"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "hygiene",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with hygiene.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับสุขอนามัย"
+  },
+  "new": {
+   "example": "Simple hygiene at the market reduced illness last season.",
+   "translation": "สุขอนามัยอย่างง่ายในตลาดช่วยลดความเจ็บป่วยในฤดูกาลที่แล้ว"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "identity",
+  "sense": 0,
+  "old": {
+   "example": "The identity affected the team’s final decision.",
+   "translation": "อัตลักษณ์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Language is a strong part of cultural identity for the community.",
+   "translation": "ภาษาเป็นส่วนสำคัญของอัตลักษณ์ทางวัฒนธรรมของชุมชน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "illness",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted illnesses as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความเจ็บป่วยเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Early treatment prevents a minor illness from becoming serious.",
+   "translation": "การรักษาตั้งแต่เนิ่นๆ ป้องกันความเจ็บป่วยเล็กน้อยไม่ให้ลุกลาม"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "illustration",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of illustrations across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของภาพประกอบระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "One illustration in the chapter explains the whole process clearly.",
+   "translation": "ภาพประกอบหนึ่งภาพในบทอธิบายกระบวนการทั้งหมดไว้อย่างชัดเจน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "imbalance",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed imbalances after the announcement.",
+   "translation": "ชุมชนพูดถึงความไม่สมดุลหลังการประกาศ"
+  },
+  "new": {
+   "example": "An imbalance between work and rest drains energy over time.",
+   "translation": "ความไม่สมดุลระหว่างงานกับการพักผ่อนบั่นทอนพลังงานในระยะยาว"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "immigrant",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted immigrants as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าผู้อพยพเข้าเมืองเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The immigrant started a bakery that became a local favourite.",
+   "translation": "ผู้อพยพเข้าเมืองเริ่มทำร้านขนมปังที่กลายเป็นของโปรดของคนในท้องถิ่น"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "immigration",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about immigration to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการตรวจคนเข้าเมืองแก่นักเรียน"
+  },
+  "new": {
+   "example": "New rules on immigration changed the flow of workers this year.",
+   "translation": "กฎใหม่ว่าด้วยการตรวจคนเข้าเมืองเปลี่ยนการไหลเข้าของแรงงานในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "immunity",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about immunity to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับภูมิคุ้มกันแก่นักเรียน"
+  },
+  "new": {
+   "example": "Sleep and nutrition both shape a child's immunity over time.",
+   "translation": "การนอนและโภชนาการต่างส่งผลต่อภูมิคุ้มกันของเด็กในระยะยาว"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "immunization",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with immunizations.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการสร้างภูมิคุ้มกัน"
+  },
+  "new": {
+   "example": "Free immunization clinics opened in every district last month.",
+   "translation": "คลินิกสร้างภูมิคุ้มกันฟรีเปิดในทุกเขตเมื่อเดือนที่แล้ว"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "impartiality",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed impartiality after the announcement.",
+   "translation": "ชุมชนพูดถึงความเป็นกลางหลังการประกาศ"
+  },
+  "new": {
+   "example": "The judge's impartiality reassured both sides of the dispute.",
+   "translation": "ความเป็นกลางของผู้พิพากษาทำให้ทั้งสองฝ่ายในข้อพิพาทมั่นใจ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "impatience",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of impatience across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความใจร้อนระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "His impatience cost him a second attempt at the test.",
+   "translation": "ความใจร้อนของเขาทำให้เขาต้องสอบใหม่อีกครั้ง"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "implication",
+  "sense": 0,
+  "old": {
+   "example": "The implication affected the team’s final decision.",
+   "translation": "นัยมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The implication of the new rule hits every small business owner.",
+   "translation": "นัยของกฎใหม่กระทบเจ้าของธุรกิจขนาดเล็กทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "impulse buying",
+  "sense": 0,
+  "old": {
+   "example": "The impulse buying affected the team’s final decision.",
+   "translation": "การซื้อโดยไม่ไตร่ตรองมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A shopping list cuts impulse buying at the supermarket.",
+   "translation": "รายการสิ่งที่จะซื้อช่วยลดการซื้อโดยไม่ไตร่ตรองในซูเปอร์มาร์เก็ต"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "impulsiveness",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed impulsiveness after the announcement.",
+   "translation": "ชุมชนพูดถึงความหุนหันพลันแล่นหลังการประกาศ"
+  },
+  "new": {
+   "example": "Training reduced the impulsiveness of the young drivers.",
+   "translation": "การฝึกอบรมลดความหุนหันพลันแล่นของนักขับรถรุ่นใหม่"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "incidence",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about incidence.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับอุบัติการณ์"
+  },
+  "new": {
+   "example": "The report tracks the incidence of disease across the province.",
+   "translation": "รายงานติดตามอุบัติการณ์ของโรคในทั่วทั้งจังหวัด"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inclination",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of inclinations across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความโน้มเอียงระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Her inclination toward science grew after the summer camp.",
+   "translation": "ความโน้มเอียงไปทางวิทยาศาสตร์ของเธอเพิ่มขึ้นหลังจากค่ายฤดูร้อน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inclusion",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about inclusion.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการไม่กีดกัน"
+  },
+  "new": {
+   "example": "True inclusion means every student joins in every activity.",
+   "translation": "การไม่กีดกันอย่างแท้จริงหมายความว่านักเรียนทุกคนได้ร่วมในทุกกิจกรรม"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inclusiveness",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about inclusiveness.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการเปิดโอกาสให้ทุกกลุ่มมีส่วนร่วม"
+  },
+  "new": {
+   "example": "The school's inclusiveness won praise from every parent group.",
+   "translation": "การเปิดโอกาสให้ทุกกลุ่มมีส่วนร่วมของโรงเรียนได้รับคำชื่นชมจากกลุ่มผู้ปกครองทุกกลุ่ม"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "income",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to incomes.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับรายได้"
+  },
+  "new": {
+   "example": "Household income rose steadily after the new factory opened.",
+   "translation": "รายได้ครัวเรือนเพิ่มขึ้นอย่างต่อเนื่องหลังโรงงานแห่งใหม่เปิด"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inconsistency",
+  "sense": 0,
+  "old": {
+   "example": "The inconsistency affected the team’s final decision.",
+   "translation": "ความไม่สอดคล้องมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The inconsistency in his story made the editor suspicious.",
+   "translation": "ความไม่สอดคล้องในเรื่องเล่าของเขาทำให้บรรณาธิการสงสัย"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "independent variable",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about independent variables before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับตัวแปรอิสระก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "In the trial the independent variable was the amount of light.",
+   "translation": "ในการทดลอง ตัวแปรอิสระคือปริมาณแสง"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "indication",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about indications.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับข้อบ่งชี้"
+  },
+  "new": {
+   "example": "A rise in the river gave the first clear indication of flood.",
+   "translation": "ระดับน้ำในแม่น้ำที่สูงขึ้นให้ข้อบ่งชี้แรกที่ชัดเจนของน้ำท่วม"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "indifference",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of indifference across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความไม่ใส่ใจระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Public indifference delayed the clean-up for nearly a year.",
+   "translation": "ความไม่ใส่ใจของสาธารณชนทำให้การทำความสะอาดล่าช้าเกือบปี"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "individuality",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with individuality.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับเอกลักษณ์เฉพาะบุคคล"
+  },
+  "new": {
+   "example": "The school encourages individuality instead of uniform thinking.",
+   "translation": "โรงเรียนส่งเสริมเอกลักษณ์เฉพาะบุคคลแทนการคิดแบบเดียวกันหมด"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "infection",
+  "sense": 0,
+  "old": {
+   "example": "The infection affected the team’s final decision.",
+   "translation": "การติดเชื้อมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Wash hands often to slow the spread of any infection.",
+   "translation": "ล้างมือบ่อยๆ เพื่อชะลอการแพร่กระจายของการติดเชื้อ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inference",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of inferences across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการอนุมานระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "From the tracks the guide made a careful inference about the animal.",
+   "translation": "จากรอยเท้า ผู้นำทางได้ข้อสรุปอย่างรอบคอบเกี่ยวกับสัตว์ตัวนั้น"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inflation",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted inflation as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าเงินเฟ้อเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Inflation raised the price of bread and fuel this year.",
+   "translation": "เงินเฟ้อทำให้ราคาขนมปังและเชื้อเพลิงสูงขึ้นในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "influencer",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about influencers.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับผู้มีอิทธิพลบนสื่อออนไลน์"
+  },
+  "new": {
+   "example": "The influencer recommended the book to her million followers.",
+   "translation": "ผู้มีอิทธิพลบนสื่อออนไลน์แนะนำหนังสือเล่มนี้ให้ผู้ติดตามนับล้านคน"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "innovation",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about innovations before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับนวัตกรรมก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The team's innovation cut production time by a third.",
+   "translation": "นวัตกรรมของทีมลดเวลาการผลิตลงหนึ่งในสาม"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "inquiry",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about inquiries before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการสอบถามก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The official inquiry into the fire report will finish this month.",
+   "translation": "การสอบถามอย่างเป็นทางการเกี่ยวกับรายงานเหตุไฟไหม้จะแล้วเสร็จเดือนนี้"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
+ },
+ {
+  "w": "insomnia",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of insomnia across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการนอนไม่หลับระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Caffeine late in the day often causes insomnia for students.",
+   "translation": "กาเฟอินในช่วงปลายวันมักเป็นสาเหตุให้นักเรียนนอนไม่หลับ"
+  },
+  "spec": "content/vocab_examples_v43_e.json"
  }
 ]

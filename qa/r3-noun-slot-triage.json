@@ -1400,16 +1400,6 @@
   "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
-  "i": 875,
-  "j": 0,
-  "w": "forgery",
-  "pos": "n",
-  "old": "The community discussed forgeries after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 877,
   "j": 0,
   "w": "forgiveness",
@@ -1430,36 +1420,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 883,
-  "j": 0,
-  "w": "fossil",
-  "pos": "n",
-  "old": "The study compared the effects of fossils across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 886,
-  "j": 0,
-  "w": "framework",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with frameworks.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 889,
-  "j": 0,
-  "w": "fraud",
-  "pos": "n",
-  "old": "The report highlighted fraud as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 897,
   "j": 0,
   "w": "frustration",
@@ -1468,26 +1428,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 899,
-  "j": 0,
-  "w": "functionality",
-  "pos": "n",
-  "old": "The functionality affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 905,
-  "j": 0,
-  "w": "future research",
-  "pos": "n",
-  "old": "The policy addresses concerns about future research.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 906,
@@ -1500,36 +1440,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 907,
-  "j": 0,
-  "w": "gene",
-  "pos": "n",
-  "old": "The study compared the effects of genes across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 908,
-  "j": 0,
-  "w": "generalizability",
-  "pos": "n",
-  "old": "The study compared the effects of generalizability across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 909,
-  "j": 0,
-  "w": "generalization",
-  "pos": "n",
-  "old": "The community discussed generalizations after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 921,
   "j": 0,
   "w": "global warming",
@@ -1538,46 +1448,6 @@
   "new": "The team collected information about global warming before making a decision.",
   "cls": "definite",
   "why": "uncountable/fixed noun wrongly pluralised (“global warmings”)"
- },
- {
-  "i": 922,
-  "j": 0,
-  "w": "globalization",
-  "pos": "n",
-  "old": "The globalization affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 923,
-  "j": 0,
-  "w": "gossip",
-  "pos": "n",
-  "old": "The survey measured changes related to gossip.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 927,
-  "j": 0,
-  "w": "graduation",
-  "pos": "n",
-  "old": "The school provided guidance about graduations to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 931,
-  "j": 0,
-  "w": "greenhouse effect",
-  "pos": "n",
-  "old": "The study compared the effects of the greenhouse effect across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 932,
@@ -1590,126 +1460,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 933,
-  "j": 0,
-  "w": "grief",
-  "pos": "n",
-  "old": "The survey measured changes related to grief.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 938,
-  "j": 0,
-  "w": "guest",
-  "pos": "n",
-  "old": "The survey measured changes related to guests.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 939,
-  "j": 0,
-  "w": "guideline",
-  "pos": "n",
-  "old": "The guideline affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 941,
-  "j": 0,
-  "w": "habitat",
-  "pos": "n",
-  "old": "The team collected information about habitats before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 942,
-  "j": 0,
-  "w": "habitat loss",
-  "pos": "n",
-  "old": "The study compared the effects of habitat loss across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 952,
-  "j": 0,
-  "w": "harvest",
-  "pos": "n",
-  "old": "The survey measured changes related to harvests.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 955,
-  "j": 0,
-  "w": "headline",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with headlines.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 957,
-  "j": 0,
-  "w": "heatwave",
-  "pos": "n",
-  "old": "The study compared the effects of heatwaves across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 964,
-  "j": 0,
-  "w": "hierarchy",
-  "pos": "n",
-  "old": "The hierarchy affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 973,
-  "j": 0,
-  "w": "humility",
-  "pos": "n",
-  "old": "The community discussed humility after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 975,
-  "j": 0,
-  "w": "hydropower",
-  "pos": "n",
-  "old": "The community discussed hydropower after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 976,
-  "j": 0,
-  "w": "hygiene",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with hygiene.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 977,
   "j": 0,
   "w": "hypothesis",
@@ -1718,46 +1468,6 @@
   "new": "The team collected information about hypotheses before making a decision.",
   "cls": "definite",
   "why": "uncountable/fixed noun wrongly pluralised (“hypothesises”)"
- },
- {
-  "i": 984,
-  "j": 0,
-  "w": "identity",
-  "pos": "n",
-  "old": "The identity affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 988,
-  "j": 0,
-  "w": "illness",
-  "pos": "n",
-  "old": "The report highlighted illnesses as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 990,
-  "j": 0,
-  "w": "illustration",
-  "pos": "n",
-  "old": "The study compared the effects of illustrations across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 992,
-  "j": 0,
-  "w": "imbalance",
-  "pos": "n",
-  "old": "The community discussed imbalances after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 995,
@@ -1770,66 +1480,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 996,
-  "j": 0,
-  "w": "immigrant",
-  "pos": "n",
-  "old": "The report highlighted immigrants as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 997,
-  "j": 0,
-  "w": "immigration",
-  "pos": "n",
-  "old": "The school provided guidance about immigration to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1000,
-  "j": 0,
-  "w": "immunity",
-  "pos": "n",
-  "old": "The school provided guidance about immunity to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1001,
-  "j": 0,
-  "w": "immunization",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with immunizations.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1004,
-  "j": 0,
-  "w": "impartiality",
-  "pos": "n",
-  "old": "The community discussed impartiality after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1005,
-  "j": 0,
-  "w": "impatience",
-  "pos": "n",
-  "old": "The study compared the effects of impatience across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 1010,
   "j": 0,
   "w": "implementation",
@@ -1838,136 +1488,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 1011,
-  "j": 0,
-  "w": "implication",
-  "pos": "n",
-  "old": "The implication affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1019,
-  "j": 0,
-  "w": "impulse buying",
-  "pos": "n",
-  "old": "The impulse buying affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1021,
-  "j": 0,
-  "w": "impulsiveness",
-  "pos": "n",
-  "old": "The community discussed impulsiveness after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1045,
-  "j": 0,
-  "w": "incidence",
-  "pos": "n",
-  "old": "The policy addresses concerns about incidence.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1046,
-  "j": 0,
-  "w": "inclination",
-  "pos": "n",
-  "old": "The study compared the effects of inclinations across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1048,
-  "j": 0,
-  "w": "inclusion",
-  "pos": "n",
-  "old": "The policy addresses concerns about inclusion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1051,
-  "j": 0,
-  "w": "inclusiveness",
-  "pos": "n",
-  "old": "The policy addresses concerns about inclusiveness.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1052,
-  "j": 0,
-  "w": "income",
-  "pos": "n",
-  "old": "The survey measured changes related to incomes.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1053,
-  "j": 0,
-  "w": "inconsistency",
-  "pos": "n",
-  "old": "The inconsistency affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1061,
-  "j": 0,
-  "w": "independent variable",
-  "pos": "n",
-  "old": "The team collected information about independent variables before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1063,
-  "j": 0,
-  "w": "indication",
-  "pos": "n",
-  "old": "The policy addresses concerns about indications.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1064,
-  "j": 0,
-  "w": "indifference",
-  "pos": "n",
-  "old": "The study compared the effects of indifference across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1069,
-  "j": 0,
-  "w": "individuality",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with individuality.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 1073,
@@ -1990,46 +1510,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 1079,
-  "j": 0,
-  "w": "infection",
-  "pos": "n",
-  "old": "The infection affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1082,
-  "j": 0,
-  "w": "inference",
-  "pos": "n",
-  "old": "The study compared the effects of inferences across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1084,
-  "j": 0,
-  "w": "inflation",
-  "pos": "n",
-  "old": "The report highlighted inflation as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1086,
-  "j": 0,
-  "w": "influencer",
-  "pos": "n",
-  "old": "The policy addresses concerns about influencers.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 1095,
   "j": 0,
   "w": "inhibition",
@@ -2038,36 +1518,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 1100,
-  "j": 0,
-  "w": "innovation",
-  "pos": "n",
-  "old": "The team collected information about innovations before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1103,
-  "j": 0,
-  "w": "inquiry",
-  "pos": "n",
-  "old": "The team collected information about inquiries before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 1107,
-  "j": 0,
-  "w": "insomnia",
-  "pos": "n",
-  "old": "The study compared the effects of insomnia across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 1110,
