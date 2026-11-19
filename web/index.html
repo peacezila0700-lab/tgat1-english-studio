@@ -3,8 +3,8 @@
 <html lang="th">
 <head>
 <meta charset="utf-8"/>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"/>
-<!-- v42.0.2: transitional CSP. 'unsafe-inline' is still required because ~320 inline event handlers remain (see qa/R3-ENGINEERING-ASSESSMENT.md); it already blocks third-party scripts, plugins, base-tag hijacking and off-site form posts. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'"/>
+<!-- v43.0.0: CSP hardened. Inline event handlers and inline <script> were removed (T2: delegated data-action dispatcher in app.js); script-src is now 'self'-only. style-src keeps 'unsafe-inline' for inline style attributes. -->
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5" name="viewport"/>
 <meta content="yes" name="apple-mobile-web-app-capable"/>
 <meta content="yes" name="mobile-web-app-capable"/>
@@ -32,37 +32,37 @@
 <aside aria-label="เมนูหลัก" class="studio-sidebar">
 <div class="brand-lockup"><div class="brand-mark"><img src="./icon-192.png" alt="TGAT1 English Studio"/></div><div><b>ENGLISH STUDIO</b><small>TGAT1 · PERSONAL COACH</small></div></div>
 <div class="sidebar-section">WORKSPACE</div>
-<button type="button" class="nav-item active" data-page="home" onclick="studioNav('home')"><span>⌂</span><b>หน้าหลัก</b><small>Home</small></button>
-<button type="button" class="nav-item" data-page="hub" onclick="studioNav('hub')"><span>◈</span><b>Learning Hub</b><small>เส้นทาง 70 หน่วย</small></button>
-<button type="button" class="nav-item" data-page="profile" onclick="studioNav('profile')"><span>◎</span><b>โปรไฟล์</b><small>My profile</small></button>
-<button type="button" class="nav-item" data-page="vocab" onclick="studioNav('vocab')"><span>▤</span><b>คลังคำศัพท์</b><small>Vocabulary</small></button>
-<button type="button" class="nav-item" data-page="exam" onclick="studioNav('exam')"><span>✎</span><b>ศูนย์สอบ</b><small>Exam center</small></button>
-<button type="button" class="nav-item" data-page="reading" onclick="studioNav('reading')"><span>文</span><b>Reading Trainer</b><small>Reading lab</small></button>
-<button type="button" class="nav-item" data-page="game" onclick="studioNav('game')"><span>✦</span><b>เกมฝึกทักษะ</b><small>Game center</small></button>
-<button type="button" class="nav-item" data-page="analytics" onclick="studioNav('analytics')"><span>◷</span><b>สถิติพัฒนาการ</b><small>Analytics</small></button>
+<button type="button" class="nav-item active" data-page="home" data-action="studioNav" data-arg="home"><span>⌂</span><b>หน้าหลัก</b><small>Home</small></button>
+<button type="button" class="nav-item" data-page="hub" data-action="studioNav" data-arg="hub"><span>◈</span><b>Learning Hub</b><small>เส้นทาง 70 หน่วย</small></button>
+<button type="button" class="nav-item" data-page="profile" data-action="studioNav" data-arg="profile"><span>◎</span><b>โปรไฟล์</b><small>My profile</small></button>
+<button type="button" class="nav-item" data-page="vocab" data-action="studioNav" data-arg="vocab"><span>▤</span><b>คลังคำศัพท์</b><small>Vocabulary</small></button>
+<button type="button" class="nav-item" data-page="exam" data-action="studioNav" data-arg="exam"><span>✎</span><b>ศูนย์สอบ</b><small>Exam center</small></button>
+<button type="button" class="nav-item" data-page="reading" data-action="studioNav" data-arg="reading"><span>文</span><b>Reading Trainer</b><small>Reading lab</small></button>
+<button type="button" class="nav-item" data-page="game" data-action="studioNav" data-arg="game"><span>✦</span><b>เกมฝึกทักษะ</b><small>Game center</small></button>
+<button type="button" class="nav-item" data-page="analytics" data-action="studioNav" data-arg="analytics"><span>◷</span><b>สถิติพัฒนาการ</b><small>Analytics</small></button>
 <div class="sidebar-spacer"></div>
-<button type="button" class="nav-item" data-page="settings" onclick="studioNav('settings')"><span>⚙</span><b>ตั้งค่าและสำรองข้อมูล</b><small>Settings</small></button>
+<button type="button" class="nav-item" data-page="settings" data-action="studioNav" data-arg="settings"><span>⚙</span><b>ตั้งค่าและสำรองข้อมูล</b><small>Settings</small></button>
 <div class="sidebar-note"><span class="status-dot"></span> บันทึกในอุปกรณ์นี้<br/><small>Local progress · ไม่ต้องสมัครสมาชิก</small></div>
 </aside>
 <main class="studio-main" id="main-content" aria-label="เนื้อหาหลักของ TGAT1 English Studio">
-<header class="studio-topbar"><div><div class="crumb">ENGLISH STUDIO <span>/</span> <b id="studioCrumb">HOME</b></div><div class="topbar-title" id="studioTitle" role="heading" aria-level="1">สวัสดี ยินดีต้อนรับกลับ</div></div><div class="topbar-actions"><div class="top-metric"><span>⭐</span><b id="studioXP">0 XP</b></div><button class="avatar-button" id="studioAvatar" aria-label="ไปหน้าโปรไฟล์" type="button" onclick="studioNav('profile')">S</button></div></header>
+<header class="studio-topbar"><div><div class="crumb">ENGLISH STUDIO <span>/</span> <b id="studioCrumb">HOME</b></div><div class="topbar-title" id="studioTitle" role="heading" aria-level="1">สวัสดี ยินดีต้อนรับกลับ</div></div><div class="topbar-actions"><div class="top-metric"><span>⭐</span><b id="studioXP">0 XP</b></div><button class="avatar-button" id="studioAvatar" aria-label="ไปหน้าโปรไฟล์" type="button" data-action="studioNav" data-arg="profile">S</button></div></header>
 <div class="studio-content" id="app" tabindex="-1"><div class="boot-splash" role="status"><i aria-hidden="true"></i><span>กำลังเตรียมแอป…</span><small>ครั้งแรกอาจใช้เวลาสักครู่ หลังจากนั้นใช้ออฟไลน์ได้</small></div></div>
 <footer class="studio-footer">TGAT1 English Studio · ชุดข้อสอบเป็นโจทย์ฝึกที่จัดทำขึ้น ไม่ใช่ข้อสอบทางการหรือข้อสอบย้อนหลัง · ข้อมูลความคืบหน้าเก็บในเบราว์เซอร์นี้</footer>
 </main>
 </div>
 <nav aria-label="เมนูมือถือ" class="studio-mobile-nav">
-<button type="button" class="active" data-page="home" onclick="studioNav('home')"><span aria-hidden="true">⌂</span>หน้าหลัก</button>
-<button type="button" data-page="hub" onclick="studioNav('hub')"><span aria-hidden="true">◈</span>เรียน</button>
-<button type="button" data-page="vocab" onclick="studioNav('vocab')"><span aria-hidden="true">▤</span>ศัพท์</button>
-<button type="button" data-page="exam" onclick="studioNav('exam')"><span aria-hidden="true">✎</span>สอบ</button>
-<button type="button" data-page="game" onclick="studioNav('game')"><span aria-hidden="true">✦</span>เกม</button>
-<button type="button" data-page="more" aria-haspopup="true" aria-expanded="false" onclick="studioMobileMore(this)"><span aria-hidden="true">•••</span>เพิ่มเติม</button>
+<button type="button" class="active" data-page="home" data-action="studioNav" data-arg="home"><span aria-hidden="true">⌂</span>หน้าหลัก</button>
+<button type="button" data-page="hub" data-action="studioNav" data-arg="hub"><span aria-hidden="true">◈</span>เรียน</button>
+<button type="button" data-page="vocab" data-action="studioNav" data-arg="vocab"><span aria-hidden="true">▤</span>ศัพท์</button>
+<button type="button" data-page="exam" data-action="studioNav" data-arg="exam"><span aria-hidden="true">✎</span>สอบ</button>
+<button type="button" data-page="game" data-action="studioNav" data-arg="game"><span aria-hidden="true">✦</span>เกม</button>
+<button type="button" data-page="more" aria-haspopup="true" aria-expanded="false" data-action="studioMobileMore" data-pass="el"><span aria-hidden="true">•••</span>เพิ่มเติม</button>
 </nav>
 <div class="mobile-more-menu" id="studioMobileMore" hidden>
-<button type="button" onclick="studioNav('reading');studioMobileMoreClose()">Reading Trainer</button>
-<button type="button" onclick="studioNav('analytics');studioMobileMoreClose()">สถิติพัฒนาการ</button>
-<button type="button" onclick="studioNav('profile');studioMobileMoreClose()">โปรไฟล์</button>
-<button type="button" onclick="studioNav('settings');studioMobileMoreClose()">ตั้งค่า</button>
+<button type="button" data-action="studioNav" data-arg="reading" data-then="studioMobileMoreClose">Reading Trainer</button>
+<button type="button" data-action="studioNav" data-arg="analytics" data-then="studioMobileMoreClose">สถิติพัฒนาการ</button>
+<button type="button" data-action="studioNav" data-arg="profile" data-then="studioMobileMoreClose">โปรไฟล์</button>
+<button type="button" data-action="studioNav" data-arg="settings" data-then="studioMobileMoreClose">ตั้งค่า</button>
 </div>
 
 <!-- TGAT1 v14: Question Quality + Weakness Review layer. Keeps original bank and scoring untouched. -->
@@ -70,19 +70,6 @@
 <div aria-live="polite" class="tgat-v18-update" id="tgat-v18-update" role="status"><span>มีแอปเวอร์ชันใหม่พร้อมใช้งาน</span><button id="tgat-v18-reload" type="button">อัปเดตแอป</button><button aria-label="ปิดการแจ้งเตือน" id="tgat-v18-later" type="button">ไว้ก่อน</button></div>
 
 <!-- Offline cache is managed by sw.js; do not unregister it during startup. -->
-<script>
-(function(){
-  function syncThemeColor(){
-    var dark=document.documentElement.getAttribute('data-theme')==='dark';
-    document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){m.setAttribute('content',dark?'#101a2b':'#f7f8fc')});
-  }
-  new MutationObserver(syncThemeColor).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
-  syncThemeColor();
-  window.studioMobileMore=function(btn){var m=document.getElementById('studioMobileMore');if(!m)return;var show=m.hidden;m.hidden=!show;btn.setAttribute('aria-expanded',String(show));};
-  window.studioMobileMoreClose=function(){var m=document.getElementById('studioMobileMore');if(m)m.hidden=true;var b=document.querySelector('.studio-mobile-nav [data-page="more"]');if(b)b.setAttribute('aria-expanded','false');};
-  document.addEventListener('click',function(e){if(!e.target.closest('.mobile-more-menu')&&!e.target.closest('[data-page="more"]'))window.studioMobileMoreClose();});
-})();
-</script>
 <script src="./data.js"></script><!-- data-vault.js and data-senses.js load on demand. --><script src="./app.js"></script><script src="./learning-hub-curriculum.js"></script><script src="./learning-hub.js"></script>
 </body>
 </html>

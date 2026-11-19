@@ -515,7 +515,7 @@ function renderHub(){
   const errByC={};errs.forEach(e=>{errByC[e.c]=(errByC[e.c]||0)+e.wrong});
   const topErr=Object.entries(errByC).sort((a,b)=>b[1]-a[1]).slice(0,5);
   const sk=skillSummary();
-  const actBtn=a.k==='finished'?`<button type="button" class="st-btn lh-cta" onclick="TGAT1Hub.review()">ทบทวนจุดอ่อน</button>`:`<button type="button" class="st-btn lh-cta" onclick="TGAT1Hub.continue()" ${READONLY?'disabled':''}><span>เรียนต่อ</span><small>Continue Learning</small></button>`;
+  const actBtn=a.k==='finished'?`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.review">ทบทวนจุดอ่อน</button>`:`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.continue" ${READONLY?'disabled':''}><span>เรียนต่อ</span><small>Continue Learning</small></button>`;
   el.innerHTML=`
   ${NOTICE?`<div class="st-card lh-notice" role="status">${esc(NOTICE)}</div>`:''}
   <section class="st-card lh-main" aria-labelledby="lhHeroTitle">
@@ -523,20 +523,20 @@ function renderHub(){
     <h1 class="st-title" id="lhHeroTitle">หน่วยที่ ${n} · ${esc(u?u.title:'')}</h1>
     <p class="st-subtitle">${esc(ph?('ช่วงที่ '+ph.id+' · '+ph.title):'')}${u&&u.en?' · '+esc(u.en):''}</p>
     <div class="lh-progress-row"><span>ผ่านแล้ว <b>${doneUnits}</b> / ${UNITS} หน่วย</span>${bar(doneUnits/UNITS*100)}</div>
-    <section class="lh-vocab-shortcut"><div><div class="st-eyebrow">TGAT1 EXAM VOCABULARY</div><b>ศัพท์จากบริบทข้อสอบ + ระบบทบทวนแบบเว้นระยะ</b><p class="lh-mini">ฝึกคำที่พบในโจทย์ฝึกและวลีเป้าหมาย · ไม่เปลี่ยนคะแนนหรือเงื่อนไขผ่านหน่วย</p></div><button type="button" class="st-btn small" onclick="TGAT1VocabularyLab.start('hub')">ฝึกศัพท์ 10 ข้อ →</button></section>
+    <section class="lh-vocab-shortcut"><div><div class="st-eyebrow">TGAT1 EXAM VOCABULARY</div><b>ศัพท์จากบริบทข้อสอบ + ระบบทบทวนแบบเว้นระยะ</b><p class="lh-mini">ฝึกคำที่พบในโจทย์ฝึกและวลีเป้าหมาย · ไม่เปลี่ยนคะแนนหรือเงื่อนไขผ่านหน่วย</p></div><button type="button" class="st-btn small" data-action="TGAT1VocabularyLab.start" data-arg="hub">ฝึกศัพท์ 10 ข้อ →</button></section>
     <ol class="lh-steps" aria-label="ขั้นตอนของหน่วยที่ ${n}">${sp.map(x=>`<li class="${us.done[x.k]?'done':''}${a.k==='step'&&a.step.k===x.k?' now':''}"><span aria-hidden="true">${us.done[x.k]?'✓':'•'}</span>${esc(x.label)}</li>`).join('')}</ol>
     <div class="lh-next"><div><small>ขั้นต่อไป</small><b>${esc(describe(a))}</b></div>${actBtn}</div>
-    ${a.k==='external'?`<p class="lh-mini">กิจกรรมนี้อยู่ในระบบเดิมของแอป ระบบจะนับว่าเสร็จเมื่อทำครบในระบบนั้น · <button type="button" class="lh-link" onclick="TGAT1Hub.cancelPending()">ยกเลิกกิจกรรมนี้ไว้ก่อน</button></p>`:''}
+    ${a.k==='external'?`<p class="lh-mini">กิจกรรมนี้อยู่ในระบบเดิมของแอป ระบบจะนับว่าเสร็จเมื่อทำครบในระบบนั้น · <button type="button" class="lh-link" data-action="TGAT1Hub.cancelPending">ยกเลิกกิจกรรมนี้ไว้ก่อน</button></p>`:''}
     <p class="lh-mini">Learning Hub เป็นเส้นทางแนะนำ ทุกหน้าอื่นในแอปยังเปิดใช้ได้ตามปกติ</p>
   </section>
   <div class="lh-grid">
     <section class="st-card lh-card" aria-labelledby="lhM"><h2 id="lhM">แนวคิด</h2>
       <div class="lh-kpis"><div><b>${mastered.length}</b><small>เชี่ยวชาญแล้ว</small></div><div><b>${con.length-mastered.length}</b><small>กำลังเรียน/รอทบทวน</small></div><div><b>${due.length}</b><small>ถึงรอบทบทวน</small></div></div>
-      ${due.length?`<p class="lh-mini">ถึงรอบทบทวน: ${due.slice(0,4).map(c=>esc(conceptDef(c).t)).join(' · ')}</p><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.review()">ทบทวนตอนนี้</button>`:'<p class="lh-mini">ยังไม่มีแนวคิดที่ถึงรอบทบทวน</p>'}
+      ${due.length?`<p class="lh-mini">ถึงรอบทบทวน: ${due.slice(0,4).map(c=>esc(conceptDef(c).t)).join(' · ')}</p><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.review">ทบทวนตอนนี้</button>`:'<p class="lh-mini">ยังไม่มีแนวคิดที่ถึงรอบทบทวน</p>'}
     </section>
     <section class="st-card lh-card" aria-labelledby="lhE"><h2 id="lhE">ความจำข้อผิดพลาด</h2>
       <p class="lh-mini">${errs.length} ข้อที่เคยผิด จาก ${new Set(errs.map(e=>e.c)).size} แนวคิด</p>
-      ${topErr.length?`<ul class="lh-list">${topErr.map(([c,k])=>{const r=s.concepts[c]||{};return `<li><span>${esc(conceptDef(c).t)}</span><small>ผิด ${k} ครั้ง · ${esc(ST_TH[r.st]||'')}</small></li>`}).join('')}</ul><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.showErrors()">ดูทั้งหมด</button>`:'<p class="lh-mini">ยังไม่มีข้อผิดที่บันทึกไว้</p>'}
+      ${topErr.length?`<ul class="lh-list">${topErr.map(([c,k])=>{const r=s.concepts[c]||{};return `<li><span>${esc(conceptDef(c).t)}</span><small>ผิด ${k} ครั้ง · ${esc(ST_TH[r.st]||'')}</small></li>`}).join('')}</ul><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.showErrors">ดูทั้งหมด</button>`:'<p class="lh-mini">ยังไม่มีข้อผิดที่บันทึกไว้</p>'}
     </section>
     <section class="st-card lh-card" aria-labelledby="lhS"><h2 id="lhS">ผลรายทักษะ</h2>
       ${Object.keys(sk).length?`<ul class="lh-list">${Object.entries(sk).map(([k,v])=>`<li><span>${esc(SKILL_TH[k]||k)}</span><small>${Math.round(v.k/v.a*100)}% · ${v.a} ข้อ</small></li>`).join('')}</ul>`:'<p class="lh-mini">จะแสดงหลังเริ่มทำโจทย์</p>'}
@@ -552,7 +552,7 @@ function renderHub(){
     <p class="lh-mini">เรียนตามลำดับ หน่วยถัดไปจะเปิดเมื่อผ่านแบบทดสอบท้ายหน่วยก่อนหน้า หน่วยที่ผ่านแล้วเปิดทบทวนได้เสมอ</p>
     ${(cur().phases||[]).map(p=>`<details class="lh-phase" ${n>=p.from&&n<=p.to?'open':''}><summary>ช่วงที่ ${p.id} · ${esc(p.title)} <small>หน่วย ${p.from}–${p.to}</small></summary><div class="lh-units">${
       Array.from({length:p.to-p.from+1},(_,i)=>p.from+i).map(k=>{const uu=unitDef(k),ust=s.units[k],dn=ust&&ust.st==='done',lk=locked(k);
-        return `<button type="button" class="lh-unit ${dn?'done':lk?'locked':'current'}" onclick="TGAT1Hub.openUnit(${k})" ${lk?'aria-disabled="true"':''} ><span class="lh-unit-n" aria-hidden="true">${dn?'✓':lk?'🔒':k}</span><span class="lh-unit-t">${k}. ${esc(uu?uu.title:'')}</span><span class="lh-sr"> · ${dn?'ผ่านแล้ว':lk?'ยังล็อก':'กำลังเรียน'}</span></button>`}).join('')}</div></details>`).join('')}
+        return `<button type="button" class="lh-unit ${dn?'done':lk?'locked':'current'}" data-action="TGAT1Hub.openUnit" data-arg="${k}" ${lk?'aria-disabled="true"':''} ><span class="lh-unit-n" aria-hidden="true">${dn?'✓':lk?'🔒':k}</span><span class="lh-unit-t">${k}. ${esc(uu?uu.title:'')}</span><span class="lh-sr"> · ${dn?'ผ่านแล้ว':lk?'ยังล็อก':'กำลังเรียน'}</span></button>`}).join('')}</div></details>`).join('')}
   </section>`;
 }
 function histText(h){switch(h.k){case'unit':return 'ผ่านหน่วยที่ '+h.u;case'assess':return 'แบบทดสอบหน่วยที่ '+h.u+' · '+h.pct+'% '+(h.pass?'ผ่าน':'ยังไม่ผ่าน');case'guided':return 'ฝึกพร้อมคำใบ้ หน่วยที่ '+h.u+' · '+h.score+'/'+h.total;
@@ -560,19 +560,19 @@ function histText(h){switch(h.k){case'unit':return 'ผ่านหน่วย�
 function vocabBlock(n){
   const rows=window.TGAT1VocabularyLab&&typeof window.TGAT1VocabularyLab.unitWords==='function'?window.TGAT1VocabularyLab.unitWords(n):[];
   if(!rows||!rows.length)return '';
-  return `<section class="lh-vocab-block"><div><div class="st-eyebrow">OPTIONAL · TGAT1 VOCABULARY</div><h2 class="lh-h">ศัพท์เป้าหมายของหน่วยนี้</h2><p class="lh-mini">ฝึกจากบริบทและบันทึกลงคลังทบทวนศัพท์แยกจากคะแนนข้อสอบ</p></div><div class="lh-vocab-words">${rows.map(x=>`<button type="button" class="lh-vocab-word" onclick="TGAT1VocabularyLab.openTerm(${esc(JSON.stringify(x.w))})"><b>${esc(x.w)}</b><small>${esc(x.th)}</small></button>`).join('')}</div><button type="button" class="st-btn secondary small" onclick="TGAT1VocabularyLab.start('unit',${n})">ฝึกศัพท์หน่วยที่ ${n} →</button></section>`;
+  return `<section class="lh-vocab-block"><div><div class="st-eyebrow">OPTIONAL · TGAT1 VOCABULARY</div><h2 class="lh-h">ศัพท์เป้าหมายของหน่วยนี้</h2><p class="lh-mini">ฝึกจากบริบทและบันทึกลงคลังทบทวนศัพท์แยกจากคะแนนข้อสอบ</p></div><div class="lh-vocab-words">${rows.map(x=>`<button type="button" class="lh-vocab-word" data-action="TGAT1VocabularyLab.openTerm" data-arg="${esc(JSON.stringify(x.w))}"><b>${esc(x.w)}</b><small>${esc(x.th)}</small></button>`).join('')}</div><button type="button" class="st-btn secondary small" data-action="TGAT1VocabularyLab.start" data-arg="unit" data-arg="${n}">ฝึกศัพท์หน่วยที่ ${n} →</button></section>`;
 }
 function openUnit(n){
   if(locked(n)){toast('หน่วยที่ '+n+' ยังล็อกอยู่ · ต้องผ่านหน่วยที่ '+st().unit+' ก่อน');return}
   const el=app(),u=unitDef(n),us=unitState(n);if(!el||!u)return;chrome('หน่วยที่ '+n);
   const sp=steps(u),firstOpen=us.st==='done'?null:sp.find(x=>!us.done[x.k]);
-  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.open()">← Learning Hub</button></div>
+  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.open">← Learning Hub</button></div>
   <section class="st-card lh-card"><div class="st-eyebrow">หน่วยที่ ${n} · ${esc((phaseOf(n)||{}).title||'')}</div><h1 class="st-title">${esc(u.title)}</h1><p class="st-subtitle">${esc(u.en||'')}</p>
    <h2 class="lh-h">เป้าหมายของหน่วย</h2><ul class="lh-obj">${(u.obj||[]).map(o=>`<li>${esc(o)}</li>`).join('')}</ul>
    ${vocabBlock(n)}
    <h2 class="lh-h">ขั้นตอน</h2><ol class="lh-steplist">${sp.map(x=>{const r=us.res[x.k];const can=us.st==='done'||x===firstOpen||us.done[x.k];
-     return `<li class="${us.done[x.k]?'done':''}"><div><b>${esc(x.label)}</b>${x.act&&x.act.note?`<small>${esc(x.act.note)}</small>`:''}${r?`<small>ผล: ${r.score}/${r.total} (${r.pct}%)</small>`:''}</div>${can?`<button type="button" class="st-btn small ${us.done[x.k]?'ghost':''}" onclick="TGAT1Hub.step(${n},'${x.k}')">${us.done[x.k]?(x.k==='learn'?'อ่านอีกครั้ง':x.k==='assess'?'ดูผล':'ทำซ้ำ'):'เริ่ม'}</button>`:'<small>ทำขั้นก่อนหน้าก่อน</small>'}</li>`}).join('')}</ol>
-   ${us.st==='done'?`<button type="button" class="st-btn ghost" onclick="TGAT1Hub.extra(${n})">ฝึกเพิ่ม 6 ข้อ (ไม่กระทบความคืบหน้า)</button>`:''}
+     return `<li class="${us.done[x.k]?'done':''}"><div><b>${esc(x.label)}</b>${x.act&&x.act.note?`<small>${esc(x.act.note)}</small>`:''}${r?`<small>ผล: ${r.score}/${r.total} (${r.pct}%)</small>`:''}</div>${can?`<button type="button" class="st-btn small ${us.done[x.k]?'ghost':''}" data-action="TGAT1Hub.step" data-arg="${n}" data-arg="${x.k}">${us.done[x.k]?(x.k==='learn'?'อ่านอีกครั้ง':x.k==='assess'?'ดูผล':'ทำซ้ำ'):'เริ่ม'}</button>`:'<small>ทำขั้นก่อนหน้าก่อน</small>'}</li>`}).join('')}</ol>
+   ${us.st==='done'?`<button type="button" class="st-btn ghost" data-action="TGAT1Hub.extra" data-arg="${n}">ฝึกเพิ่ม 6 ข้อ (ไม่กระทบความคืบหน้า)</button>`:''}
    ${us.att&&us.att.length?`<h2 class="lh-h">ประวัติแบบทดสอบ</h2><ul class="lh-list">${us.att.slice(-5).reverse().map(x=>`<li><span>${fmtDate(x.t)}</span><small>${x.k}/${x.n} · ${x.pct}% · ${x.pass?'ผ่าน':'ยังไม่ผ่าน'}</small></li>`).join('')}</ul>`:''}
   </section>`;scrollTop();
 }
@@ -584,7 +584,7 @@ function stepEntry(n,key){
 }
 function showLearn(n){
   const el=app(),u=unitDef(n),L=u.learn||{};chrome('หน่วยที่ '+n+' · เรียนแนวคิด');
-  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.openUnit(${n})">← หน่วยที่ ${n}</button></div>
+  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.openUnit" data-arg="${n}">← หน่วยที่ ${n}</button></div>
   <article class="st-card lh-card lh-learn"><div class="st-eyebrow">หน่วยที่ ${n} · เรียนแนวคิด</div><h1 class="st-title">${esc(u.title)}</h1>
    <h2 class="lh-h">เป้าหมาย</h2><ul class="lh-obj">${(u.obj||[]).map(o=>`<li>${esc(o)}</li>`).join('')}</ul>
    ${vocabBlock(n)}
@@ -593,7 +593,7 @@ function showLearn(n){
    ${L.rules&&L.rules.length?`<h2 class="lh-h">หลักที่ต้องจำให้แม่น</h2><ul class="lh-rules">${L.rules.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
    ${L.ex&&L.ex.length?`<h2 class="lh-h">ตัวอย่างวิเคราะห์ทีละขั้น</h2>${L.ex.map((x,i)=>`<div class="lh-example"><p class="lh-en" lang="en">${esc(x.en)}</p>${x.th?`<p class="lh-th">${esc(x.th)}</p>`:''}<ol>${(x.a||[]).map(s=>`<li>${esc(s)}</li>`).join('')}</ol></div>`).join('')}`:''}
    ${L.traps&&L.traps.length?`<h2 class="lh-h">กับดักที่พบบ่อย</h2><ul class="lh-traps">${L.traps.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}
-   <div class="lh-actions"><button type="button" class="st-btn" onclick="TGAT1Hub.learnDone(${n})">เข้าใจแล้ว ไปขั้นถัดไป →</button></div>
+   <div class="lh-actions"><button type="button" class="st-btn" data-action="TGAT1Hub.learnDone" data-arg="${n}">เข้าใจแล้ว ไปขั้นถัดไป →</button></div>
   </article>`;scrollTop();
 }
 function learnDone(n){const us=unitState(n);if(!us.done.learn){us.done.learn=true;log({k:'learn',u:n});save()}if(us.st==='done')return openUnit(n);cont()}
@@ -607,7 +607,7 @@ function optionLabel(item,origIdx){
 }
 function renderFast(){
   const el=app();el.innerHTML=`<section class="st-card lh-card" role="status"><div class="st-eyebrow">ทำได้ดีมาก</div><h1 class="st-title">ตอบถูกตั้งแต่ครั้งแรก 3 ข้อติด</h1><p class="lh-p">ถ้ามั่นใจแล้ว ข้ามข้อที่เหลือของขั้นนี้ไปขั้นถัดไปได้ (ยังต้องทำแบบทดสอบท้ายหน่วยตามปกติ ไม่ข้ามหน่วย)</p>
-  <div class="lh-actions"><button type="button" class="st-btn" onclick="TGAT1Hub.fast(true)">ไปขั้นถัดไป</button><button type="button" class="st-btn ghost" onclick="TGAT1Hub.fast(false)">ฝึกต่อให้ครบ</button></div></section>`;
+  <div class="lh-actions"><button type="button" class="st-btn" data-action="TGAT1Hub.fast" data-arg="true">ไปขั้นถัดไป</button><button type="button" class="st-btn ghost" data-action="TGAT1Hub.fast" data-arg="false">ฝึกต่อให้ครบ</button></div></section>`;
 }
 function showRun(){const r=st().active;if(!r)return renderHub();if(r.items.some(x=>x.src==='bank')&&!bankReady())return withBank(showRun);renderRun();scrollTop()}
 function renderRun(focusFeedback){
@@ -623,8 +623,8 @@ function renderRun(focusFeedback){
     else if(ph==='hint'){if(orig===a.s1){cls='bad crossed';dis=true;mark='ตัดออก'}}
     else if(ph==='conf'){dis=true;if(orig===a.s1)cls='sel'}
     const lab=ph==='fb'?optionLabel(item,orig):'';
-    return `<button type="button" class="lh-opt ${cls}" ${dis?'disabled':''} aria-pressed="${(isA&&a.s1===orig)||(ph==='conf'&&a.s1===orig)?'true':'false'}" onclick="TGAT1Hub.pick(${k})"><span class="lh-L">${L}</span><span class="lh-o" lang="en">${esc(item.opts[orig])}</span>${mark?`<span class="lh-mark">${mark}</span>`:''}${lab?`<small class="lh-form">${esc(lab)}</small>`:''}</button>`}).join('');
-  const confHtml=(needConf(r)&&(ph==='conf'||(isA&&Number.isInteger(a.s1))))?`<div class="lh-conf" role="group" aria-label="ความมั่นใจในคำตอบนี้"><span>มั่นใจแค่ไหน?</span>${[['sure','มั่นใจ'],['some','ค่อนข้างมั่นใจ'],['not','ไม่มั่นใจ']].map(([v,t])=>`<button type="button" class="lh-chip ${a.cf===v?'on':''}" aria-pressed="${a.cf===v}" onclick="TGAT1Hub.conf('${v}')">${t}</button>`).join('')}</div>`:'';
+    return `<button type="button" class="lh-opt ${cls}" ${dis?'disabled':''} aria-pressed="${(isA&&a.s1===orig)||(ph==='conf'&&a.s1===orig)?'true':'false'}" data-action="TGAT1Hub.pick" data-arg="${k}"><span class="lh-L">${L}</span><span class="lh-o" lang="en">${esc(item.opts[orig])}</span>${mark?`<span class="lh-mark">${mark}</span>`:''}${lab?`<small class="lh-form">${esc(lab)}</small>`:''}</button>`}).join('');
+  const confHtml=(needConf(r)&&(ph==='conf'||(isA&&Number.isInteger(a.s1))))?`<div class="lh-conf" role="group" aria-label="ความมั่นใจในคำตอบนี้"><span>มั่นใจแค่ไหน?</span>${[['sure','มั่นใจ'],['some','ค่อนข้างมั่นใจ'],['not','ไม่มั่นใจ']].map(([v,t])=>`<button type="button" class="lh-chip ${a.cf===v?'on':''}" aria-pressed="${a.cf===v}" data-action="TGAT1Hub.conf" data-arg="${v}">${t}</button>`).join('')}</div>`:'';
   let fb='';
   if(!isA&&ph==='hint'){fb=`<div class="lh-hint" role="status"><b>ยังไม่ใช่ ลองคิดอีกครั้ง</b><p>${esc(item.hint||'ย้อนกลับไปดูโครงสร้างและคำสำคัญรอบช่องว่าง')}</p></div>`}
   if(!isA&&ph==='fb'){const ok=a.ok1||a.ok2;const wr=Array.isArray(item.wrong)?item.wrong:[];
@@ -635,14 +635,14 @@ function renderRun(focusFeedback){
       ${a.cf&&!a.ok1&&a.cf==='sure'?'<p class="lh-mini">ตอบผิดทั้งที่มั่นใจ อาจเป็นความเข้าใจคลาดเคลื่อน ระบบจะนำแนวคิดนี้กลับมาทบทวนเร็วขึ้น</p>':''}
       ${a.cf&&a.ok1&&a.cf==='not'?'<p class="lh-mini">ถูกแต่ไม่มั่นใจ ระบบจะนำแนวคิดนี้กลับมาทบทวนอีกครั้ง</p>':''}</div>`}
   const canNext=isA?(Number.isInteger(a.s1)&&(!needConf(r)||a.cf)):ph==='fb';
-  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.pause()">พักไว้ก่อน (บันทึกแล้ว)</button><span class="lh-count">ข้อ ${r.i+1} / ${r.items.length}</span></div>
+  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.pause">พักไว้ก่อน (บันทึกแล้ว)</button><span class="lh-count">ข้อ ${r.i+1} / ${r.items.length}</span></div>
   <section class="st-card lh-q" aria-labelledby="lhQ">
     <div class="st-eyebrow">${esc(runTitle(r))} · ${esc(def.t||'')}</div>${bar((r.i)/r.items.length*100)}
     ${isA?'<p class="lh-mini">แบบทดสอบ: ไม่มีคำใบ้และจะเฉลยเมื่อทำครบทุกข้อ</p>':''}
     ${item.ctx?`<div class="lh-ctx" lang="en" tabindex="0" aria-label="บทอ่าน">${esc(item.ctx)}</div>`:''}
     <h2 id="lhQ" class="lh-stem" lang="en" tabindex="-1">${esc(item.stem)}</h2>
     <div class="lh-opts">${optsHtml}</div>${confHtml}${fb}
-    <div class="lh-actions">${canNext?`<button type="button" class="st-btn" id="lhNext" onclick="TGAT1Hub.next()">${r.i<r.items.length-1?'ข้อถัดไป →':(isA?'ส่งคำตอบและดูผล':'จบขั้นนี้')}</button>`:''}</div>
+    <div class="lh-actions">${canNext?`<button type="button" class="st-btn" id="lhNext" data-action="TGAT1Hub.next">${r.i<r.items.length-1?'ข้อถัดไป →':(isA?'ส่งคำตอบและดูผล':'จบขั้นนี้')}</button>`:''}</div>
   </section>`;
   if(focusFeedback){const f=D.getElementById('lhFb')||D.getElementById('lhNext');if(f)try{f.scrollIntoView({block:'nearest'});if(f.id==='lhFb')f.focus({preventScroll:true})}catch(_){}}
 }
@@ -651,7 +651,7 @@ function renderRunDone(mode,n,score,total){
   el.innerHTML=`<section class="st-card lh-card" role="status"><div class="st-eyebrow">${esc({guided:'ฝึกพร้อมคำใบ้',practice:'ฝึกด้วยตนเอง',remed:'ซ่อมจุดอ่อน',review:'ทบทวนสะสม',extra:'ฝึกเพิ่ม'}[mode]||'')} เสร็จแล้ว</div>
    <h1 class="st-title">ตอบถูกตั้งแต่ครั้งแรก ${score}/${total}</h1>
    ${mode==='remed'?'<p class="lh-p">พร้อมทำแบบทดสอบท้ายหน่วยรอบใหม่แล้ว ระบบจะเลือกโจทย์ที่ยังไม่เคยใช้เท่าที่มี</p>':''}
-   <div class="lh-actions"><button type="button" class="st-btn" onclick="TGAT1Hub.continue()">เรียนต่อ: ${esc(describe(a))}</button><button type="button" class="st-btn ghost" onclick="TGAT1Hub.open()">กลับ Learning Hub</button></div></section>`;scrollTop();
+   <div class="lh-actions"><button type="button" class="st-btn" data-action="TGAT1Hub.continue">เรียนต่อ: ${esc(describe(a))}</button><button type="button" class="st-btn ghost" data-action="TGAT1Hub.open">กลับ Learning Hub</button></div></section>`;scrollTop();
 }
 function renderAssessResult(rec,readonly){
   const el=app(),n=rec.u,us=unitState(n);chrome('ผลแบบทดสอบหน่วยที่ '+n);
@@ -661,12 +661,12 @@ function renderAssessResult(rec,readonly){
    <p class="lh-p">${rec.pass?(n<UNITS?'ปลดล็อกหน่วยที่ '+(n+1)+' แล้ว':'ผ่านครบทั้ง 70 หน่วย'):'เกณฑ์ผ่าน: ได้อย่างน้อย '+PASS_PCT+'% และทุกแนวคิดในหน่วยต้องถูกอย่างน้อยครึ่งหนึ่ง ระบบจะให้ซ่อมจุดอ่อนก่อนสอบรอบใหม่ด้วยโจทย์ชุดใหม่'}</p>
    <h2 class="lh-h">ผลรายแนวคิด</h2><ul class="lh-list">${Object.entries(rec.c||{}).map(([c,v])=>`<li><span>${esc(conceptDef(c).t)}</span><small>${v.k}/${v.t}${v.low?' · มีข้อที่ถูกแต่ไม่มั่นใจ (จะทบทวนเพิ่ม)':''}${(rec.weak||[]).includes(c)?' · ต้องซ่อม':''}</small></li>`).join('')}</ul>
    ${wrongRows.length?`<h2 class="lh-h">ทบทวนข้อที่ผิด</h2>${wrongRows.map(x=>`<div class="lh-example"><p lang="en">${esc(x.stem)}</p><p lang="en"><b>คุณตอบ:</b> ${esc(x.sel||'-')} · <b>คำตอบที่ถูก:</b> ${esc(x.ans)}</p><p>${esc(x.why)}</p></div>`).join('')}`:''}
-   <div class="lh-actions">${readonly?'':`<button type="button" class="st-btn" onclick="TGAT1Hub.continue()">${rec.pass?'เรียนต่อ':'เริ่มซ่อมจุดอ่อน'}</button>`}<button type="button" class="st-btn ghost" onclick="TGAT1Hub.open()">กลับ Learning Hub</button></div></section>`;scrollTop();
+   <div class="lh-actions">${readonly?'':`<button type="button" class="st-btn" data-action="TGAT1Hub.continue">${rec.pass?'เรียนต่อ':'เริ่มซ่อมจุดอ่อน'}</button>`}<button type="button" class="st-btn ghost" data-action="TGAT1Hub.open">กลับ Learning Hub</button></div></section>`;scrollTop();
 }
 function showErrors(){
   const el=app(),s=st();chrome('ความจำข้อผิดพลาด');
   const rows=Object.values(s.errors).filter(e=>e&&(e.wrong>0||e.type==='guess')).sort((a,b)=>(b.p||0)-(a.p||0)||(b.last||0)-(a.last||0)).slice(0,60);
-  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.open()">← Learning Hub</button></div>
+  el.innerHTML=`<div class="lh-top"><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.open">← Learning Hub</button></div>
   <section class="st-card lh-card"><div class="st-eyebrow">ERROR MEMORY</div><h1 class="st-title">ความจำข้อผิดพลาด</h1><p class="lh-p">ระบบจะไม่ถามข้อเดิมซ้ำ แต่จะนำแนวคิดเดียวกันกลับมาด้วยโจทย์ใหม่ตามรอบทบทวน</p>
   ${rows.length?`<ul class="lh-err">${rows.map(e=>{const r=s.concepts[e.c]||{};return `<li><div><b>${esc(conceptDef(e.c).t)}</b><small>${esc(TYPE_TH[e.type]||'')} · ผิด ${e.wrong}/${e.att} ครั้ง · ${esc(ST_TH[r.st]||'')} · ทบทวนครั้งถัดไป ${r.due?fmtDate(r.due):'-'}</small></div><p lang="en"><b>ตอบ:</b> ${esc(e.sel)} · <b>ที่ถูก:</b> ${esc(e.ans)}</p><p>${esc(e.why)}</p></li>`}).join('')}</ul>`:'<p class="lh-mini">ยังไม่มีข้อผิด</p>'}</section>`;scrollTop();
 }
@@ -676,19 +676,19 @@ function updateBanner(){
   let el=D.getElementById('lhReturn');const s=HS;const show=!!(s&&(s.pending||s.returnTo))&&page()!=='hub';
   if(!show){if(el&&!el.hidden){el.hidden=true;D.body.classList.remove('lh-has-return')}return}
   if(!el){el=D.createElement('div');el.id='lhReturn';el.className='lh-return';el.setAttribute('role','region');el.setAttribute('aria-label','กลับไป Learning Hub');D.body.appendChild(el)}
-  const html=`<span>${s.pending?'กิจกรรมจาก Learning Hub · หน่วยที่ '+s.pending.u:'บันทึกผลใน Learning Hub แล้ว'}</span><button type="button" onclick="TGAT1Hub.open()">กลับ Learning Hub</button>`;
+  const html=`<span>${s.pending?'กิจกรรมจาก Learning Hub · หน่วยที่ '+s.pending.u:'บันทึกผลใน Learning Hub แล้ว'}</span><button type="button" data-action="TGAT1Hub.open">กลับ Learning Hub</button>`;
   if(el.dataset.h!==html){el.innerHTML=html;el.dataset.h=html}
   if(el.hidden!==false)el.hidden=false;D.body.classList.add('lh-has-return');
 }
 function homeCard(){
   const el=app();if(!el||page()!=='home'||!cur())return;const hero=el.querySelector('.dash-hero');if(!hero||el.querySelector('#lhHomeCard'))return;
   const s=st(),u=unitDef(s.unit),done=Object.values(s.units).filter(x=>x.st==='done').length,a=nextAction();
-  hero.insertAdjacentHTML('afterend',`<section class="st-card lh-homecard" id="lhHomeCard" aria-labelledby="lhHomeT"><div><div class="st-eyebrow">LEARNING HUB · ${done}/${UNITS} หน่วย</div><h2 id="lhHomeT">หน่วยที่ ${s.unit} · ${esc(u?u.title:'')}</h2><p class="lh-mini">${esc(describe(a))}</p>${bar(done/UNITS*100)}</div><div class="lh-homecard-actions"><button type="button" class="st-btn" onclick="TGAT1Hub.continue()">เรียนต่อ</button><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.open()">ดูเส้นทาง</button></div></section>`);
+  hero.insertAdjacentHTML('afterend',`<section class="st-card lh-homecard" id="lhHomeCard" aria-labelledby="lhHomeT"><div><div class="st-eyebrow">LEARNING HUB · ${done}/${UNITS} หน่วย</div><h2 id="lhHomeT">หน่วยที่ ${s.unit} · ${esc(u?u.title:'')}</h2><p class="lh-mini">${esc(describe(a))}</p>${bar(done/UNITS*100)}</div><div class="lh-homecard-actions"><button type="button" class="st-btn" data-action="TGAT1Hub.continue">เรียนต่อ</button><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.open">ดูเส้นทาง</button></div></section>`);
 }
 function analyticsCard(){
   const el=app();if(!el||page()!=='analytics'||!cur()||el.querySelector('#lhAnalytics'))return;
   const s=st(),done=Object.values(s.units).filter(x=>x.st==='done').length,con=Object.values(s.concepts).filter(r=>isObj(r)&&r.a>0),ms=con.filter(r=>r.st==='mastered').length,acc=s.stats.answered?Math.round(s.stats.correct/s.stats.answered*100):0;
-  const head=el.firstElementChild;const html=`<section class="st-card lh-card" id="lhAnalytics" aria-labelledby="lhAnT"><div class="st-eyebrow">LEARNING HUB</div><h2 id="lhAnT">ความคืบหน้าในเส้นทาง 70 หน่วย</h2><div class="lh-kpis"><div><b>${done}/${UNITS}</b><small>หน่วยที่ผ่าน</small></div><div><b>${ms}</b><small>แนวคิดที่เชี่ยวชาญ</small></div><div><b>${s.stats.answered?acc+'%':'—'}</b><small>ความแม่นยำใน Hub (${s.stats.answered} ข้อ)</small></div><div><b>${dueConcepts().length}</b><small>ถึงรอบทบทวน</small></div></div><button type="button" class="st-btn ghost small" onclick="TGAT1Hub.open()">เปิด Learning Hub</button></section>`;
+  const head=el.firstElementChild;const html=`<section class="st-card lh-card" id="lhAnalytics" aria-labelledby="lhAnT"><div class="st-eyebrow">LEARNING HUB</div><h2 id="lhAnT">ความคืบหน้าในเส้นทาง 70 หน่วย</h2><div class="lh-kpis"><div><b>${done}/${UNITS}</b><small>หน่วยที่ผ่าน</small></div><div><b>${ms}</b><small>แนวคิดที่เชี่ยวชาญ</small></div><div><b>${s.stats.answered?acc+'%':'—'}</b><small>ความแม่นยำใน Hub (${s.stats.answered} ข้อ)</small></div><div><b>${dueConcepts().length}</b><small>ถึงรอบทบทวน</small></div></div><button type="button" class="st-btn ghost small" data-action="TGAT1Hub.open">เปิด Learning Hub</button></section>`;
   if(head)head.insertAdjacentHTML('afterend',html);else el.insertAdjacentHTML('afterbegin',html);
 }
 let wantContinue=false;

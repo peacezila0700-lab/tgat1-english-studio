@@ -44,7 +44,10 @@ def nav(pg,page):
     pg.evaluate(f"studioNav('{page}')");pg.wait_for_timeout(350)
 
 def run_axe(pg,include='body'):
-    pg.add_script_tag(path=AXE) if not pg.evaluate("!!window.axe") else None
+    if not pg.evaluate("!!window.axe"):
+        axe_src=open(AXE).read()
+        pg.route('**/axe.min.js',lambda route:route.fulfill(status=200,content_type='application/javascript',body=axe_src))
+        pg.add_script_tag(url='/axe.min.js')
     return pg.evaluate("""async (inc)=>{const r=await axe.run(document.querySelector(inc)||document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']},resultTypes:['violations','incomplete']});
       const m=v=>({id:v.id,impact:v.impact,help:v.help,nodes:v.nodes.slice(0,8).map(n=>({t:n.target.join(' '),s:(n.failureSummary||'').slice(0,240),h:n.html.slice(0,160)})),n:v.nodes.length});
       return {violations:r.violations.map(m),incomplete:r.incomplete.filter(v=>v.id==='color-contrast').map(m)}}""",include)

@@ -59,7 +59,7 @@ def main(webdir):
             @check(f'category practice {kind}: renders options and explanation after answer')
             def t():
                 fresh(pg,base);pg.evaluate(f"VLT_startCategory('{kind}')");pg.wait_for_timeout(300)
-                ok(pg.evaluate("document.querySelectorAll('#app [onclick^=\"VLT_answer(\"]').length")==4,'not 4 options')
+                ok(pg.evaluate("document.querySelectorAll('#app [data-action=\"VLT_answer\"][data-arg]').length")==4,'not 4 options')
                 pg.evaluate("VLT_answer(0)");pg.wait_for_timeout(250)
                 ok(len(pg.inner_text('#app'))>200,'no feedback')
             t()
