@@ -2377,5 +2377,720 @@
    "translation": "เกษตรกรโทษระบบราชการที่ทำให้การจ่ายเงินอุดหนุนล่าช้า"
   },
   "spec": "content/vocab_examples_v43_c.json"
+ },
+ {
+  "w": "contradiction",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with contradictions.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับความขัดแย้ง"
+  },
+  "new": {
+   "example": "His account of the events contains a clear contradiction about the time of arrival.",
+   "translation": "คำบอกเล่าเหตุการณ์ของเขามีความขัดแย้งกันอย่างชัดเจนเกี่ยวกับเวลาที่มาถึง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "control group",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to control groups.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับกลุ่มควบคุม"
+  },
+  "new": {
+   "example": "Researchers kept a control group on the usual diet throughout the eight weeks.",
+   "translation": "นักวิจัยให้กลุ่มควบคุมทานอาหารแบบเดิมตลอดแปดสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "controversy",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about controversies.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับข้อถกเถียง"
+  },
+  "new": {
+   "example": "The new examination policy sparked a controversy among parents and teachers alike.",
+   "translation": "นโยบายการสอบฉบับใหม่ก่อให้เกิดข้อถกเถียงทั้งในกลุ่มผู้ปกครองและครู"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "convergence",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed convergence after the announcement.",
+   "translation": "ชุมชนพูดถึงการบรรจบกันหลังการประกาศ"
+  },
+  "new": {
+   "example": "The convergence of transport and housing plans finally shaped a cleaner city.",
+   "translation": "การบรรจบกันของแผนคมนาคมและที่อยู่อาศัยได้ก่อร่างเมืองที่สะอาดขึ้นในที่สุด"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "conversion",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about conversions before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการเปลี่ยนก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The conversion of the old warehouse into flats began with a structural survey.",
+   "translation": "การเปลี่ยนแปลงโกดังเก่าเป็นห้องชุดเริ่มต้นด้วยการสำรวจโครงสร้าง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "copyright",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed copyrights after the announcement.",
+   "translation": "ชุมชนพูดถึงลิขสิทธิ์หลังการประกาศ"
+  },
+  "new": {
+   "example": "Every published chart in the textbook is protected by copyright law.",
+   "translation": "ภาพประกอบทุกภาพในหนังสือเรียนได้รับการคุ้มครองตามกฎหมายลิขสิทธิ์"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "coral reef",
+  "sense": 0,
+  "old": {
+   "example": "The coral reef affected the team’s final decision.",
+   "translation": "แนวปะการังมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Divers recorded the brightest coral reef near the southern tip of the bay.",
+   "translation": "นักดำน้ำบันทึกแนวปะการังที่สว่างสดใสที่สุดใกล้ปลายอ่าวทางตอนใต้"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "correlation",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed correlations after the announcement.",
+   "translation": "ชุมชนพูดถึงความสัมพันธ์หลังการประกาศ"
+  },
+  "new": {
+   "example": "The study found no correlation between screen time and sleep quality.",
+   "translation": "งานวิจัยไม่พบความสัมพันธ์ระหว่างเวลาใช้หน้าจอกับคุณภาพการนอน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "coursework",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about coursework.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับงานและการประเมินระหว่างเรียน"
+  },
+  "new": {
+   "example": "Her coursework in science included three laboratory reports each month.",
+   "translation": "งานและการประเมินระหว่างเรียนด้านวิทยาศาสตร์ของเธอมีรายงานปฏิบัติการสามชิ้นต่อเดือน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "coverage",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about coverage to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการรายงานข่าวแก่นักเรียน"
+  },
+  "new": {
+   "example": "The broadcast gave wide coverage of the flood relief efforts in the north.",
+   "translation": "การรายงานข่าวได้ครอบคลุมการช่วยเหลือผู้ประสบภัยน้ำท่วมทางภาคเหนืออย่างกว้างขวาง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "coworker",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about coworkers before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับเพื่อนร่วมงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "A friendly coworker shared her notes from the training session yesterday.",
+   "translation": "เพื่อนร่วมงานที่ใจดีแบ่งปันบันทึกของเธอจากอบรมเมื่อวานนี้"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "credibility",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted credibility as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความน่าเชื่อถือเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Repeated errors damaged the credibility of the forecasting team.",
+   "translation": "ความผิดพลาดซ้ำๆ ทำให้ความน่าเชื่อถือของทีมพยากรณ์ลดลง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "credible source",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about credible sources.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับแหล่งข้อมูลที่น่าเชื่อถือ"
+  },
+  "new": {
+   "example": "Always check a credible source before repeating a surprising claim.",
+   "translation": "ควรตรวจสอบแหล่งข้อมูลที่น่าเชื่อถือเสมอก่อนนำข้ออ้างอิงที่น่าประหลาดใจไปบอกต่อ"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "criminal",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to criminals.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับอาชญากร"
+  },
+  "new": {
+   "example": "The criminal confessed after the officers found the hidden goods.",
+   "translation": "อาชญากรรับสารภาพหลังจากเจ้าหน้าที่พบสิ่งของที่ซ่อนไว้"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "crisis",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted crises as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าวิกฤตเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The flood turned a quiet town into a crisis zone within hours.",
+   "translation": "น้ำท่วมเปลี่ยนเมืองที่เงียบสงบให้กลายเป็นพื้นที่วิกฤตภายในไม่กี่ชั่วโมง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "criterion",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about criteria.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับเกณฑ์ (เอกพจน์)"
+  },
+  "new": {
+   "example": "Clear marking criterion helped both the examiner and the students.",
+   "translation": "เกณฑ์การให้คะแนนที่ชัดเจนช่วยทั้งผู้ตรวจและนักเรียน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "critical thinking",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with critical thinking.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการคิดเชิงวิพากษ์"
+  },
+  "new": {
+   "example": "The course on critical thinking asks students to question every assumption.",
+   "translation": "หลักสูตรการคิดเชิงวิพากษ์ให้นักเรียนตั้งคำถามกับทุกข้อสันนิษฐาน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "criticism",
+  "sense": 0,
+  "old": {
+   "example": "The criticism affected the team’s final decision.",
+   "translation": "คำวิจารณ์มีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "He answered every criticism with evidence from the field report.",
+   "translation": "เขาตอบโต้คำวิจารณ์ทุกข้อด้วยหลักฐานจากรายงานภาคสนาม"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "crop",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed crops after the announcement.",
+   "translation": "ชุมชนพูดถึงพืชผลหลังการประกาศ"
+  },
+  "new": {
+   "example": "Farmers rotate each crop to keep the soil rich and productive.",
+   "translation": "เกษตรกรปลูกพืชผลหมุนเวียนเพื่อให้ดินอุดมและให้ผลผลิตอยู่เสมอ"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "cultural diversity",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about cultural diversity.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับความหลากหลายทางวัฒนธรรม"
+  },
+  "new": {
+   "example": "The festival celebrates cultural diversity with music from eight regions.",
+   "translation": "เทศกาลเฉลิมฉลองความหลากหลายทางวัฒนธรรมด้วยดนตรีจากแปดภูมิภาค"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "culture shock",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about culture shock.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับภาวะช็อกทางวัฒนธรรม"
+  },
+  "new": {
+   "example": "Many students feel a mild culture shock during their first month abroad.",
+   "translation": "นักเรียนหลายคนรู้สึกถึงภาวะช็อกทางวัฒนธรรมในช่วงเดือนแรกในต่างแดน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "cumulative effect",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of cumulative effects across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของผลสะสมระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The cumulative effect of small habits shapes a person over years.",
+   "translation": "ผลสะสมของนิสัยเล็กๆ น้อยๆ หล่อหลอมคนคนหนึ่งขึ้นตลอดหลายปี"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "cure",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about cures before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการรักษาให้หายก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Doctors found no sure cure for the rare blood disorder.",
+   "translation": "แพทย์ยังไม่พบการรักษาที่แน่นอนสำหรับโรคเลือดที่พบได้น้อยชนิดนี้"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "curiosity",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about curiosity to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับความอยากรู้อยากเห็นแก่นักเรียน"
+  },
+  "new": {
+   "example": "A child's curiosity often leads to the best questions in class.",
+   "translation": "ความอยากรู้อยากเห็นของเด็กมักนำไปสู่คำถามที่ดีที่สุดในชั้นเรียน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "custom",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with customs.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับธรรมเนียม"
+  },
+  "new": {
+   "example": "The local custom of morning greetings welcomes every visitor warmly.",
+   "translation": "ธรรมเนียมการทักทายยามเช้าของคนในท้องถิ่นต้อนรับผู้มาเยือนทุกคนอย่างอบอุ่น"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "customer",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about customers to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับลูกค้าแก่นักเรียน"
+  },
+  "new": {
+   "example": "The manager personally thanked the customer who reported the fault.",
+   "translation": "ผู้จัดการขอบคุณลูกค้าที่แจ้งข้อบกพร่องด้วยตัวเอง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "customs declaration",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed customs declarations after the announcement.",
+   "translation": "ชุมชนพูดถึงใบสำแดงศุลกากรหลังการประกาศ"
+  },
+  "new": {
+   "example": "Travelers must fill a customs declaration before entering the duty area.",
+   "translation": "ผู้เดินทางต้องกรอกใบสำแดงศุลกากรก่อนเข้าเขตสินค้าพร้อมจ่ายภาษี"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "customs officer",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about customs officers before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับเจ้าหน้าที่ศุลกากรก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The customs officer checked the cargo list against the manifest.",
+   "translation": "เจ้าหน้าที่ศุลกากรตรวจสอบรายการสินค้าเทียบกับใบแสดงรายการ"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "cybercrime",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with cybercrime.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับอาชญากรรมไซเบอร์"
+  },
+  "new": {
+   "example": "Police created a new unit to fight cybercrime across the region.",
+   "translation": "ตำรวจตั้งหน่วยใหม่เพื่อปราบปรามอาชญากรรมไซเบอร์ทั่วภูมิภาค"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "cybersecurity",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed cybersecurity after the announcement.",
+   "translation": "ชุมชนพูดถึงความมั่นคงปลอดภัยทางไซเบอร์หลังการประกาศ"
+  },
+  "new": {
+   "example": "Every firm now invests in cybersecurity to protect customer records.",
+   "translation": "ทุกบริษัทต่างลงทุนด้านความมั่นคงปลอดภัยทางไซเบอร์เพื่อปกป้องข้อมูลลูกค้า"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "damage",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about damage.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับความเสียหาย"
+  },
+  "new": {
+   "example": "The storm left minor damage on the roof of the old school.",
+   "translation": "พายุทำให้หลังคาโรงเรียนเก่าได้รับความเสียหายเล็กน้อย"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "data breach",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with data breaches.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการรั่วไหล/ละเมิดข้อมูล"
+  },
+  "new": {
+   "example": "The data breach exposed thousands of customer records online.",
+   "translation": "การรั่วไหลของข้อมูลทำให้ข้อมูลลูกค้านับพันรายการถูกเปิดเผยบนออนไลน์"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "data privacy",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed data privacy after the announcement.",
+   "translation": "ชุมชนพูดถึงความเป็นส่วนตัวของข้อมูลหลังการประกาศ"
+  },
+  "new": {
+   "example": "New rules strengthen data privacy for everyone using the app.",
+   "translation": "กฎใหม่เพิ่มความเข้มแข็งให้ความเป็นส่วนตัวของข้อมูลของผู้ใช้แอปทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "data protection",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to data protection.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการคุ้มครองข้อมูล"
+  },
+  "new": {
+   "example": "The policy on data protection lists every safeguard in detail.",
+   "translation": "นโยบายการคุ้มครองข้อมูลระบุมาตรการป้องกันทุกข้ออย่างละเอียด"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "database",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with databases.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับฐานข้อมูล"
+  },
+  "new": {
+   "example": "The librarian searched the database for rare local journals.",
+   "translation": "บรรณารักษ์ค้นหาฐานข้อมูลเพื่อหาวารสารท้องถิ่นที่หายาก"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "dataset",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with datasets.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับชุดข้อมูล"
+  },
+  "new": {
+   "example": "The open dataset lets students practice statistics on real numbers.",
+   "translation": "ชุดข้อมูลแบบเปิดให้นักเรียนฝึกสถิติกับตัวเลขจริง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "dawn",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted the dawn of the digital age as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่ารุ่งอรุณเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Fishers set out at dawn to reach the deep waters early.",
+   "translation": "ชาวประมงออกเรือตั้งแต่รุ่งอรุณเพื่อไปถึงน้ำลึกโดยเร็ว"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "debt",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to debts.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับหนี้"
+  },
+  "new": {
+   "example": "The family paid off its debt after three years of strict saving.",
+   "translation": "ครอบครัวนี้ใช้หนี้หมดภายในสามปีด้วยการออมอย่างเคร่งครัด"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "decline",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with declines.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการลดลง"
+  },
+  "new": {
+   "example": "Sales show a steady decline since the spring campaign ended.",
+   "translation": "ยอดขายแสดงการลดลงอย่างต่อเนื่องตั้งแต่แคมเปญฤดูใบไม้ผลิจบลง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "deduction",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to deductions.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการอนุมาน"
+  },
+  "new": {
+   "example": "The lawyer drew a careful deduction from the witness testimony.",
+   "translation": "ทนายความได้ข้อสรุปอย่างรอบคอบจากการให้การของพยาน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "defendant",
+  "sense": 0,
+  "old": {
+   "example": "The defendant affected the team’s final decision.",
+   "translation": "จำเลยมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The defendant remained silent while the judge read the charge.",
+   "translation": "จำเลยยังคงเงียบขณะที่ผู้พิพากษาอ่านคำฟ้อง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "demand",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about demands before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับความต้องการก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Farm workers demanded fairer pay at the morning assembly.",
+   "translation": "คนงานฟาร์มเรียกร้องค่าแรงที่เป็นธรรมยิ่งขึ้นในการประชุมยามเช้า"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "demographics",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to demographics.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับข้อมูลลักษณะประชากร"
+  },
+  "new": {
+   "example": "The city uses demographics to plan new schools and clinics.",
+   "translation": "เมืองใช้ข้อมูลลักษณะประชากรเพื่อวางแผนโรงเรียนและคลินิกแห่งใหม่"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "departure",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about departures to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการออกเดินทางแก่นักเรียน"
+  },
+  "new": {
+   "example": "Our departure was delayed by heavy fog over the runway.",
+   "translation": "การเดินทางของเราล่าช้าเพราะหมอกหนาเหนือรันเวย์"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "dependent variable",
+  "sense": 0,
+  "old": {
+   "example": "The dependent variable affected the team’s final decision.",
+   "translation": "ตัวแปรตามมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "In the trial the dependent variable measured the pain score after each session.",
+   "translation": "ในการทดลอง ตัวแปรตามวัดคะแนนความเจ็บปวดหลังแต่ละครั้ง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "depression",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to depression.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับภาวะซึมเศร้า"
+  },
+  "new": {
+   "example": "Talking with a counsellor helps many people managing depression.",
+   "translation": "การพูดคุยกับผู้ให้คำปรึกษาช่วยผู้คนจำนวนมากที่กำลังรับมือกับภาวะซึมเศร้า"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "deprivation",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to deprivation.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการขาดแคลนสิ่งจำเป็น"
+  },
+  "new": {
+   "example": "Long winters caused a painful deprivation of sunlight for the crew.",
+   "translation": "ฤดูหนาวที่ยาวนานทำให้ลูกเรือขาดแคลนแสงแดดอย่างเจ็บปวด"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "derivative",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about derivatives before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับอนุพันธ์ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The calculus course explains every derivative with real motion examples.",
+   "translation": "วิชาแคลคูลัสอธิบายอนุพันธ์ทุกข้อด้วยตัวอย่างการเคลื่อนที่จริง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "destination",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about destinations to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับจุดหมายปลายทางแก่นักเรียน"
+  },
+  "new": {
+   "example": "Every traveller picks a destination that fits their budget and time.",
+   "translation": "ผู้เดินทางทุกคนเลือกจุดหมายปลายทางที่เหมาะกับงบและเวลาของตน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "determination",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about determination to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับความมุ่งมั่นแก่นักเรียน"
+  },
+  "new": {
+   "example": "Her determination carried the team through a losing season.",
+   "translation": "ความมุ่งมั่นของเธอช่วยให้ทีมผ่านพ้นฤดูกาลที่แพ้ต่อเนื่องมาได้"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "detonation",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed detonations after the announcement.",
+   "translation": "ชุมชนพูดถึงการระเบิดหลังการประกาศ"
+  },
+  "new": {
+   "example": "The engineers controlled the detonation from a safe distance.",
+   "translation": "วิศวกรควบคุมการระเบิดจากระยะที่ปลอดภัย"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "development",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of developments across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการพัฒนาระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "City planners balanced development with the needs of local residents.",
+   "translation": "นักวางแผนเมืองสร้างสมระหว่างการพัฒนากับความต้องการของชาวบ้าน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "diagnosis",
+  "sense": 0,
+  "old": {
+   "example": "The diagnosis affected the team’s final decision.",
+   "translation": "การวินิจฉัยโรคมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The diagnosis came after a series of blood tests and scans.",
+   "translation": "การวินิจฉัยโรคเกิดขึ้นหลังจากตรวจเลือดและตรวจด้วยภาพหลายครั้ง"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "difficulty",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with difficulties.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับความยากลำบาก"
+  },
+  "new": {
+   "example": "The team faced one difficulty after another during the rainy build.",
+   "translation": "ทีมต้องเผชิญความยากลำบากครั้งแล้วครั้งเล่าในช่วงก่อสร้างที่มีฝน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
+ },
+ {
+  "w": "digital device",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed digital devices after the announcement.",
+   "translation": "ชุมชนพูดถึงอุปกรณ์ดิจิทัลหลังการประกาศ"
+  },
+  "new": {
+   "example": "Each classroom now has a digital device linked to the lesson screen.",
+   "translation": "ทุกห้องเรียนมีอุปกรณ์ดิจิทัลที่เชื่อมกับหน้าจอการสอน"
+  },
+  "spec": "content/vocab_examples_v43_d.json"
  }
 ]

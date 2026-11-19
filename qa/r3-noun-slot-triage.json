@@ -670,86 +670,6 @@
   "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
-  "i": 456,
-  "j": 0,
-  "w": "contradiction",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with contradictions.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 459,
-  "j": 0,
-  "w": "control group",
-  "pos": "n",
-  "old": "The survey measured changes related to control groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 461,
-  "j": 0,
-  "w": "controversy",
-  "pos": "n",
-  "old": "The policy addresses concerns about controversies.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 465,
-  "j": 0,
-  "w": "convergence",
-  "pos": "n",
-  "old": "The community discussed convergence after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 467,
-  "j": 0,
-  "w": "conversion",
-  "pos": "n",
-  "old": "The team collected information about conversions before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 475,
-  "j": 0,
-  "w": "copyright",
-  "pos": "n",
-  "old": "The community discussed copyrights after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 476,
-  "j": 0,
-  "w": "coral reef",
-  "pos": "n",
-  "old": "The coral reef affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 479,
-  "j": 0,
-  "w": "correlation",
-  "pos": "n",
-  "old": "The community discussed correlations after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 482,
   "j": 0,
   "w": "cost of living",
@@ -758,16 +678,6 @@
   "new": "The team collected information about the cost of living before making a decision.",
   "cls": "definite",
   "why": "uncountable/fixed noun wrongly pluralised (“cost of livings”)"
- },
- {
-  "i": 487,
-  "j": 0,
-  "w": "coursework",
-  "pos": "n",
-  "old": "The policy addresses concerns about coursework.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 489,
@@ -780,106 +690,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 491,
-  "j": 0,
-  "w": "coverage",
-  "pos": "n",
-  "old": "The school provided guidance about coverage to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 492,
-  "j": 0,
-  "w": "coworker",
-  "pos": "n",
-  "old": "The team collected information about coworkers before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 496,
-  "j": 0,
-  "w": "credibility",
-  "pos": "n",
-  "old": "The report highlighted credibility as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 498,
-  "j": 0,
-  "w": "credible source",
-  "pos": "n",
-  "old": "The policy addresses concerns about credible sources.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 501,
-  "j": 0,
-  "w": "criminal",
-  "pos": "n",
-  "old": "The survey measured changes related to criminals.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 502,
-  "j": 0,
-  "w": "crisis",
-  "pos": "n",
-  "old": "The report highlighted crises as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 505,
-  "j": 0,
-  "w": "criterion",
-  "pos": "n",
-  "old": "The policy addresses concerns about criteria.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 507,
-  "j": 0,
-  "w": "critical thinking",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with critical thinking.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 508,
-  "j": 0,
-  "w": "criticism",
-  "pos": "n",
-  "old": "The criticism affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 510,
-  "j": 0,
-  "w": "crop",
-  "pos": "n",
-  "old": "The community discussed crops after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 512,
   "j": 0,
   "w": "cuisine",
@@ -888,56 +698,6 @@
   "new": null,
   "cls": "uncertain",
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
- },
- {
-  "i": 516,
-  "j": 0,
-  "w": "cultural diversity",
-  "pos": "n",
-  "old": "The policy addresses concerns about cultural diversity.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 517,
-  "j": 0,
-  "w": "culture shock",
-  "pos": "n",
-  "old": "The policy addresses concerns about culture shock.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 519,
-  "j": 0,
-  "w": "cumulative effect",
-  "pos": "phrase",
-  "old": "The study compared the effects of cumulative effects across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 520,
-  "j": 0,
-  "w": "cure",
-  "pos": "n",
-  "old": "The team collected information about cures before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 521,
-  "j": 0,
-  "w": "curiosity",
-  "pos": "n",
-  "old": "The school provided guidance about curiosity to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 525,
@@ -950,66 +710,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 527,
-  "j": 0,
-  "w": "custom",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with customs.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 528,
-  "j": 0,
-  "w": "customer",
-  "pos": "n",
-  "old": "The school provided guidance about customers to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 530,
-  "j": 0,
-  "w": "customs declaration",
-  "pos": "n",
-  "old": "The community discussed customs declarations after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 531,
-  "j": 0,
-  "w": "customs officer",
-  "pos": "n",
-  "old": "The team collected information about customs officers before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 533,
-  "j": 0,
-  "w": "cybercrime",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with cybercrime.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 534,
-  "j": 0,
-  "w": "cybersecurity",
-  "pos": "n",
-  "old": "The community discussed cybersecurity after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 536,
   "j": 0,
   "w": "cynicism",
@@ -1018,116 +718,6 @@
   "new": "The team collected information about cynicism before making a decision.",
   "cls": "definite",
   "why": "uncountable/fixed noun wrongly pluralised (“cynicisms”)"
- },
- {
-  "i": 537,
-  "j": 0,
-  "w": "damage",
-  "pos": "n",
-  "old": "The policy addresses concerns about damage.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 540,
-  "j": 0,
-  "w": "data breach",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with data breaches.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 541,
-  "j": 0,
-  "w": "data privacy",
-  "pos": "n",
-  "old": "The community discussed data privacy after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 542,
-  "j": 0,
-  "w": "data protection",
-  "pos": "n",
-  "old": "The survey measured changes related to data protection.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 543,
-  "j": 0,
-  "w": "database",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with databases.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 544,
-  "j": 0,
-  "w": "dataset",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with datasets.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 545,
-  "j": 0,
-  "w": "dawn",
-  "pos": "n",
-  "old": "The report highlighted the dawn of the digital age as an important factor in the discussion.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 547,
-  "j": 0,
-  "w": "debt",
-  "pos": "n",
-  "old": "The survey measured changes related to debts.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 553,
-  "j": 0,
-  "w": "decline",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with declines.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 557,
-  "j": 0,
-  "w": "deduction",
-  "pos": "n",
-  "old": "The survey measured changes related to deductions.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 559,
-  "j": 0,
-  "w": "defendant",
-  "pos": "n",
-  "old": "The defendant affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 560,
@@ -1160,66 +750,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 574,
-  "j": 0,
-  "w": "demand",
-  "pos": "n",
-  "old": "The team collected information about demands before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 577,
-  "j": 0,
-  "w": "demographics",
-  "pos": "n",
-  "old": "The survey measured changes related to demographics.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 580,
-  "j": 0,
-  "w": "departure",
-  "pos": "n",
-  "old": "The school provided guidance about departures to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 582,
-  "j": 0,
-  "w": "dependent variable",
-  "pos": "n",
-  "old": "The dependent variable affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 585,
-  "j": 0,
-  "w": "depression",
-  "pos": "n",
-  "old": "The survey measured changes related to depression.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 586,
-  "j": 0,
-  "w": "deprivation",
-  "pos": "n",
-  "old": "The survey measured changes related to deprivation.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 587,
   "j": 0,
   "w": "derivation",
@@ -1230,26 +760,6 @@
   "why": "plural/countability is acceptable only in some senses; needs a human judgement"
  },
  {
-  "i": 588,
-  "j": 0,
-  "w": "derivative",
-  "pos": "n",
-  "old": "The team collected information about derivatives before making a decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 594,
-  "j": 0,
-  "w": "destination",
-  "pos": "n",
-  "old": "The school provided guidance about destinations to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
   "i": 599,
   "j": 0,
   "w": "deterioration",
@@ -1258,66 +768,6 @@
   "new": "The team collected information about deterioration before making a decision.",
   "cls": "definite",
   "why": "uncountable/fixed noun wrongly pluralised (“deteriorations”)"
- },
- {
-  "i": 600,
-  "j": 0,
-  "w": "determination",
-  "pos": "n",
-  "old": "The school provided guidance about determination to students.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 603,
-  "j": 0,
-  "w": "detonation",
-  "pos": "n",
-  "old": "The community discussed detonations after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 607,
-  "j": 0,
-  "w": "development",
-  "pos": "n",
-  "old": "The study compared the effects of developments across two groups.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 613,
-  "j": 0,
-  "w": "diagnosis",
-  "pos": "n",
-  "old": "The diagnosis affected the team’s final decision.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 618,
-  "j": 0,
-  "w": "difficulty",
-  "pos": "n",
-  "old": "The company reviewed the risks associated with difficulties.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
- },
- {
-  "i": 620,
-  "j": 0,
-  "w": "digital device",
-  "pos": "n",
-  "old": "The community discussed digital devices after the announcement.",
-  "new": null,
-  "cls": "human",
-  "why": "grammatical but generic template sentence; does not show typical collocation"
  },
  {
   "i": 621,
