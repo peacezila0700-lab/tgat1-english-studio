@@ -7382,5 +7382,720 @@
    "translation": "การตรวจสอบความปลอดภัยด้านอาหารในตลาดเกิดขึ้นทุกเช้า"
   },
   "spec": "content/vocab_examples_v43_j.json"
+ },
+ {
+  "w": "installation",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about installations.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการติดตั้ง"
+  },
+  "new": {
+   "example": "The installation of the new pipeline took the crew a full week.",
+   "translation": "การติดตั้งท่อส่งใหม่ใช้เวลาของทีมงานหนึ่งสัปดาห์เต็ม"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "installment",
+  "sense": 0,
+  "old": {
+   "example": "The installment affected the team’s final decision.",
+   "translation": "การผ่อนชำระมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Each installment of the loan is due on the first of the month.",
+   "translation": "การผ่อนชำระเงินกู้แต่ละงวดต้องชำระในวันที่หนึ่งของเดือน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "instructor",
+  "sense": 0,
+  "old": {
+   "example": "The instructor affected the team’s final decision.",
+   "translation": "ผู้สอนมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The instructor demonstrated each move before the students tried it.",
+   "translation": "ผู้สอนแสดงท่าแต่ละท่าก่อนให้นักเรียนลองทำ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "integration",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about integration to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการผสมผสานแก่นักเรียน"
+  },
+  "new": {
+   "example": "The integration of the two systems cut the waiting time in half.",
+   "translation": "การผสมผสานของสองระบบลดเวลารอลงครึ่งหนึ่ง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "integrity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted integrity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความซื่อสัตย์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Honest reporting depends on the integrity of every journalist.",
+   "translation": "การรายงานอย่างซื่อตรงอาศัยความซื่อสัตย์ของนักข่าวทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "intention",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about intentions before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับความตั้งใจก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Her intention to help was clear in every action she took.",
+   "translation": "ความตั้งใจของเธอที่จะช่วยเหลือชัดเจนในทุกการกระทำของเธอ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "interdependence",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted interdependence as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการพึ่งพาอาศัยกันเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Interdependence of the two markets keeps every price linked.",
+   "translation": "การพึ่งพาอาศัยกันของสองตลาดทำให้ราคาทุกอย่างเชื่อมโยงกัน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "interest rate",
+  "sense": 0,
+  "old": {
+   "example": "The interest rate affected the team’s final decision.",
+   "translation": "อัตราดอกเบี้ยมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A low interest rate makes borrowing cheaper for small firms.",
+   "translation": "อัตราดอกเบี้ยต่ำทำให้การกู้เงินถูกลงสำหรับบริษัทขนาดเล็ก"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "interface",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about interfaces before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับส่วนติดต่อผู้ใช้ก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The interface of the app is simple enough for every age group.",
+   "translation": "ส่วนติดต่อผู้ใช้ของแอปเรียบง่ายพอสำหรับทุกวัย"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "intermediary",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about intermediaries.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับตัวกลาง"
+  },
+  "new": {
+   "example": "The intermediary between the two firms handled every contract.",
+   "translation": "ตัวกลางระหว่างสองบริษัทจัดการสัญญาทุกฉบับ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "intern",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about interns before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับนักศึกษาฝึกงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "The intern learned the filing routine in the first week.",
+   "translation": "นักศึกษาฝึกงานเรียนรู้งานจัดเก็บเอกสารในสัปดาห์แรก"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "internet access",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about internet access before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการเข้าถึงอินเทอร์เน็ตก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Free internet access at the library helps every student.",
+   "translation": "การเข้าถึงอินเทอร์เน็ตฟรีที่ห้องสมุดช่วยนักเรียนทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "interpretation",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about interpretations before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับการตีความก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "His interpretation of the poem moved the whole audience.",
+   "translation": "การตีความบทกวีของเขาทำให้ผู้ชมทั้งหมดประทับใจ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "intervention",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted interventions as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการแทรกแซงเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Early intervention prevented the small leak from becoming a flood.",
+   "translation": "การแทรกแซงตั้งแต่เนิ่นๆ ป้องกันรอยรั่วเล็กไม่ให้กลายเป็นน้ำท่วม"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "interview",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted interviews as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการสัมภาษณ์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The job interview lasted forty minutes and covered every skill.",
+   "translation": "การสัมภาษณ์งานยาวสี่สิบนาทีและครอบคลุมทักษะทุกด้าน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "introvert",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted introverts as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าคนเก็บตัวเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The introvert in the corner preferred a quiet desk by the wall.",
+   "translation": "คนเก็บตัวในมุมชอบโต๊ะทำงานเงียบๆ ติดผนัง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "investigation",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to investigations.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการสืบสวน"
+  },
+  "new": {
+   "example": "The investigation into the fire found one faulty wire.",
+   "translation": "การสืบสวนเหตุไฟไหม้พบสายไฟที่ชำรุดหนึ่งเส้น"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "investigator",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about investigators to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับผู้สืบสวนแก่นักเรียน"
+  },
+  "new": {
+   "example": "The investigator checked every statement against the records.",
+   "translation": "ผู้สืบสวนตรวจสอบคำให้การทุกข้อเทียบกับบันทึก"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "investment adviser",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed investment advisers after the announcement.",
+   "translation": "ชุมชนพูดถึงที่ปรึกษาการลงทุนหลังการประกาศ"
+  },
+  "new": {
+   "example": "The investment adviser suggested a mix of shares and bonds.",
+   "translation": "ที่ปรึกษาการลงทุนแนะนำการผสมหุ้นและพันธบัตร"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "investor",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about investors to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับนักลงทุนแก่นักเรียน"
+  },
+  "new": {
+   "example": "The investor put money into the market after the steady growth.",
+   "translation": "นักลงทุนนำเงินเข้าสู่ตลาดหลังจากการเติบโตที่มั่นคง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "invitation",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about invitations.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับคำเชิญ"
+  },
+  "new": {
+   "example": "The invitation to the wedding arrived a month before the date.",
+   "translation": "คำเชิญไปงานแต่งงานมาถึงก่อนวันงานหนึ่งเดือน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "itinerary",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted itineraries as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่ากำหนดการเดินทางเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The itinerary for the trip lists four cities in three days.",
+   "translation": "กำหนดการเดินทางของทริประบุเมืองสี่เมืองในสามวัน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "jealousy",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about jealousy.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับความอิจฉา"
+  },
+  "new": {
+   "example": "Jealousy over the promotion strained the two old friends.",
+   "translation": "ความอิจฉาเกี่ยวกับตำแหน่งงานทำให้เพื่อนเก่าสองคนความสัมพันธ์ตึงเครียด"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "job security",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about job security before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับความมั่นคงในงานก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Job security matters more to workers than a higher wage.",
+   "translation": "ความมั่นคงในงานสำคัญต่อคนงานมากกว่าค่าแรงที่สูงขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "job vacancy",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to job vacancies.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับตำแหน่งงานว่าง"
+  },
+  "new": {
+   "example": "The job vacancy in the lab attracted fifty applicants.",
+   "translation": "ตำแหน่งงานว่างในห้องปฏิบัติการดึงดูดผู้สมัครห้าสิบคน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "journalism",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to journalism.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับวารสารศาสตร์"
+  },
+  "new": {
+   "example": "Good journalism rests on facts checked by more than one person.",
+   "translation": "วารสารศาสตร์ที่ดีตั้งอยู่บนข้อเท็จจริงที่ตรวจสอบโดยมากกว่าหนึ่งคน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "journalist",
+  "sense": 0,
+  "old": {
+   "example": "The journalist affected the team’s final decision.",
+   "translation": "นักข่าวมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The journalist on the scene reported the flood minute by minute.",
+   "translation": "นักข่าวในที่เกิดเหตุรายงานน้ำท่วมนาทีต่อนาที"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "journey",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about journeys to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการเดินทางแก่นักเรียน"
+  },
+  "new": {
+   "example": "The train journey across the mountains took the whole night.",
+   "translation": "การเดินทางด้วยรถไฟข้ามภูเขาใช้เวลาทั้งคืน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "judge",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to judges.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับผู้พิพากษา"
+  },
+  "new": {
+   "example": "The judge read the verdict to the crowded courtroom.",
+   "translation": "ผู้พิพากษาอ่านคำตัดสินให้ห้องพิจารณาคดีที่แออัดฟัง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "jury",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to juries.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับคณะลูกขุน"
+  },
+  "new": {
+   "example": "The jury of twelve listened to every witness in turn.",
+   "translation": "คณะลูกขุนสิบสองคนฟังพยานทุกคนทีละคน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "justification",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about justifications to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับเหตุผลสนับสนุนแก่นักเรียน"
+  },
+  "new": {
+   "example": "He gave a clear justification for every choice in the plan.",
+   "translation": "เขาให้เหตุผลสนับสนุนที่ชัดเจนสำหรับทุกการเลือกในแผน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "laboratory",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with laboratories.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับห้องปฏิบัติการ"
+  },
+  "new": {
+   "example": "The laboratory on the third floor runs tests for the clinic.",
+   "translation": "ห้องปฏิบัติการบนชั้นสามทำการทดสอบให้คลินิก"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "lack",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about a lack of resources.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับการขาดแคลน"
+  },
+  "new": {
+   "example": "A lack of clean water forced the camp to move to the valley.",
+   "translation": "การขาดแคลนน้ำสะอาดบังคับให้ค่ายย้ายไปยังหุบเขา"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "landslide",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of landslides across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของดินถล่มระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The landslide closed the road for three full days.",
+   "translation": "ดินถล่มทำให้ถนนปิดสามวันเต็ม"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "lecturer",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to lecturers.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับอาจารย์ผู้บรรยาย"
+  },
+  "new": {
+   "example": "The lecturer on the tour explained every carving in the temple.",
+   "translation": "อาจารย์ผู้บรรยายในการท่องเที่ยวอธิบายงานแกะสลักทุกชิ้นในวัด"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "legitimacy",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed legitimacy after the announcement.",
+   "translation": "ชุมชนพูดถึงความชอบธรรมหลังการประกาศ"
+  },
+  "new": {
+   "example": "The council's legitimacy grew from open meetings and clear votes.",
+   "translation": "ความชอบธรรมของสภาเติบโตจากการประชุมที่เปิดเผยและการลงคะแนนที่ชัดเจน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "lender",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted lenders as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าผู้ให้กู้เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The lender reviewed every loan application before approval.",
+   "translation": "ผู้ให้กู้ทบทวนคำขอกู้ทุกฉบับก่อนอนุมัติ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "life expectancy",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with life expectancy.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับอายุขัยเฉลี่ย"
+  },
+  "new": {
+   "example": "Life expectancy in the region rose for the fifth year running.",
+   "translation": "อายุขัยเฉลี่ยในภูมิภาคเพิ่มขึ้นเป็นปีที่ห้าติดต่อกัน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "literacy",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to literacy.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับความรู้ความสามารถในการอ่านเขียน"
+  },
+  "new": {
+   "example": "The literacy programme helped two hundred adults read this year.",
+   "translation": "โครงการความรู้ความสามารถในการอ่านเขียนช่วยผู้ใหญ่สองร้อยคนให้อ่านออกในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "literature review",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with literature reviews.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการทบทวนวรรณกรรม"
+  },
+  "new": {
+   "example": "The literature review in the thesis covers fifty earlier studies.",
+   "translation": "การทบทวนวรรณกรรมในวิทยานิพนธ์ครอบคลุมงานวิจัยก่อนหน้าห้าสิบชิ้น"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "livelihood",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with livelihoods.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับการทำมาหากิน"
+  },
+  "new": {
+   "example": "The flood washed away the livelihood of every fishing family.",
+   "translation": "น้ำท่วมพัดพาการทำมาหากินของทุกครอบครัวชาวประมงไป"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "loan",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed loans after the announcement.",
+   "translation": "ชุมชนพูดถึงเงินกู้หลังการประกาศ"
+  },
+  "new": {
+   "example": "The small loan helped the shop restock before the festival.",
+   "translation": "เงินกู้ก้อนเล็กช่วยให้ร้านเติมสินค้าก่อนเทศกาล"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "loneliness",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about loneliness to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับความโดดเดี่ยวแก่นักเรียน"
+  },
+  "new": {
+   "example": "Loneliness in the big city hits some people hardest.",
+   "translation": "ความโดดเดี่ยวในเมืองใหญ่กระทบบางคนรุนแรงที่สุด"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "lost property",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about lost property.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับของหาย"
+  },
+  "new": {
+   "example": "The lost property office holds every umbrella for a month.",
+   "translation": "ห้องรับของหายเก็บร่มทุกคันไว้หนึ่งเดือน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "luggage",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about luggage to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับสัมภาระแก่นักเรียน"
+  },
+  "new": {
+   "example": "Keep every piece of luggage tagged with a clear address.",
+   "translation": "ติดป้ายที่ชัดเจนบนสัมภาระทุกชิ้น"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "mammal",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of mammals across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของสัตว์เลี้ยงลูกด้วยนมระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The whale is the largest mammal that ever lived on Earth.",
+   "translation": "วาฬเป็นสัตว์เลี้ยงลูกด้วยนมที่ใหญ่ที่สุดที่เคยมีชีวิตอยู่บนโลก"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "management",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about management to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการจัดการแก่นักเรียน"
+  },
+  "new": {
+   "example": "Good management of the fund kept every expense in line.",
+   "translation": "การจัดการกองทุนที่ดีทำให้ค่าใช้จ่ายทุกอย่างอยู่ในเกณฑ์"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "manager",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about managers.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับผู้จัดการ"
+  },
+  "new": {
+   "example": "The manager of the shop greets every customer at the door.",
+   "translation": "ผู้จัดการร้านทักทายลูกค้าทุกคนที่ประตู"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "marginalization",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted marginalization as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการทำให้เป็นชายขอบเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The programme fights the marginalization of poor rural families.",
+   "translation": "โครงการต่อสู้กับการทำให้เป็นชายขอบของครอบครัวชนบทที่ยากจน"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "market",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about markets.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับตลาด"
+  },
+  "new": {
+   "example": "The market in the square fills with fresh fruit every dawn.",
+   "translation": "ตลาดในจัตุรัสเต็มไปด้วยผลไม้สดทุกรุ่ง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "medication",
+  "sense": 0,
+  "old": {
+   "example": "The medication affected the team’s final decision.",
+   "translation": "ยามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The doctor adjusted the medication after the second blood test.",
+   "translation": "แพทย์ปรับยาหลังจากตรวจเลือดครั้งที่สอง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "mental health",
+  "sense": 0,
+  "old": {
+   "example": "The mental health affected the team’s final decision.",
+   "translation": "สุขภาพจิตมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Regular exercise does wonders for a person's mental health.",
+   "translation": "การออกกำลังกายประจำส่งผลดีอย่างยิ่งต่อสุขภาพจิตของคนคนหนึ่ง"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "mental illness",
+  "sense": 0,
+  "old": {
+   "example": "The mental illness affected the team’s final decision.",
+   "translation": "ความเจ็บป่วยทางจิตมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Treatment for mental illness works best when it starts early.",
+   "translation": "การรักษาความเจ็บป่วยทางจิตได้ผลดีที่สุดเมื่อเริ่มต้นแต่เนิ่นๆ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "method",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed methods after the announcement.",
+   "translation": "ชุมชนพูดถึงวิธีการหลังการประกาศ"
+  },
+  "new": {
+   "example": "The method of teaching by projects keeps students busy and happy.",
+   "translation": "วิธีการสอนแบบโครงงานทำให้นักเรียนยุ่งและมีความสุข"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
+ },
+ {
+  "w": "methodology",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to methodologies.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับระเบียบวิธีวิจัย"
+  },
+  "new": {
+   "example": "The methodology of the study was reviewed before any data was taken.",
+   "translation": "ระเบียบวิธีวิจัยของการศึกษาถูกทบทวนก่อนเก็บข้อมูลใดๆ"
+  },
+  "spec": "content/vocab_examples_v43_k.json"
  }
 ]
