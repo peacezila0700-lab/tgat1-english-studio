@@ -1,0 +1,110 @@
+[
+ {
+  "id": "S01-Q036",
+  "ctx": "City transport officials have (1) ____ a late-night bus route along the river road, where shift workers previously struggled to get home. The idea (2) ____ from a petition signed by two thousand residents. Buses now run hourly (3) ____ midnight and four in the morning, and fares stay the same as daytime services. The council promised (4) ____ passenger numbers for six months before making a final decision. Riders must (5) ____ their tickets at the machine before boarding because there is no conductor on night services. Only time will tell (6) ____ route the council finally chooses. (7) ____ the first weekend alone, more than six hundred people rode the new buses.",
+  "ans": 2,
+  "exp": "ช่อง (6) ต้องการ whichever เนื่องจากแสดงถึงการเลือกได้ทุกเส้นทาง (whichever route the council finally chooses = ไม่ว่าเส้นทางใดที่สภาจะเลือกในที่สุด) ส่วน what ต้องมีบริบทที่เป็นคำถาม, which ใช้เมื่อมีขอบเขตที่เจาะจงกว่า และ whether ใช้แสดงใช่/ไม่ใช่ ซึ่งไม่ใช่ความหมายที่ต้องการ",
+  "opts": [
+   "what",
+   "which",
+   "whichever",
+   "whether"
+  ]
+ },
+ {
+  "id": "S06-Q033",
+  "ctx": "Review: SkyWatch, the free weather app. I (1) ____ SkyWatch for three months, and it has changed how I plan my weekends. The hourly rain radar is the feature I love most, because it shows storms moving in (2) ____ time. Setup took two minutes: the app asked (3) ____ notification type I preferred, and added a widget to my home screen. Unlike the paid apps I have tried, SkyWatch does not (4) ____ users with advertisements between forecasts. One small problem: the wind speeds sometimes (5) ____ from the official figures. SkyWatch has no hidden (6) ____, which is rare among free apps. If you cycle or run outdoors, the app is worth (7) ____ a try.",
+  "ans": 0,
+  "exp": "ช่อง (3) ต้องการ whichever เนื่องจากแสดงถึงการเลือกได้ทุกประเภท (whichever notification type I preferred = ไม่ว่าประเภทการแจ้งเตือนใดที่ฉันชอบ) ส่วน whether ใช้กับคำถามใช่/ไม่ใช่, what ต้องใช้กับสิ่งที่ไม่จำกัดขอบเขตแบบนี้ไม่ได้ และ which ใช้เมื่อมีรายการที่เจาะจง",
+  "opts": [
+   "whichever",
+   "whether",
+   "what",
+   "which"
+  ]
+ },
+ {
+  "id": "S07-Q036",
+  "ctx": "Attention passengers: the 18:40 service to Lamphun (1) ____ been delayed by about twenty-five minutes because of a signal problem north of the city. Passengers who need to (2) ____ a connection at Lamphun should speak to staff on platform three. We apologise for the (3) ____ and thank you for your patience. Announcements will explain (4) ____ the repair work is taking longer than expected. A spare part is on its (5) ____ from the depot in Chiang Mai. (6) ____, the last train of the night still leaves at 23:15 as scheduled. Information screens will show updated times (7) ____ further notice.",
+  "ans": 0,
+  "exp": "ช่อง (6) ต้องใช้ However ขึ้นต้นประโยคใหม่พร้อมจุลภาคเพื่อแสดงการขัดแย้ง (However, the last train... still leaves = อย่างไรก็ตาม รถไฟเที่ยวสุดท้ายยังคงออกตามเวลา) ส่วน Despite ต้องตามด้วยคำนาม (Despite the delay), Although ต้องตามด้วยประโยคสมบูรณ์ และ Because ใช้แสดงเหตุไม่ใช่การขัดแย้ง",
+  "opts": [
+   "However",
+   "Despite",
+   "Although",
+   "Because"
+  ]
+ },
+ {
+  "id": "S08-Q039",
+  "ctx": "Coach Wut led the school football team to its first provincial title last Sunday. “We trained in the rain for two months, (1) ____?” he laughed, when a reporter mentioned the team's perfect record in wet conditions. The final, (2) ____ the score, drew three thousand spectators and ended one–nil after extra time. Wut credits his players: “They never stopped (3) ____, even when we were losing at half-time.” The club captain said the title match was the hardest game he (4) ____. Next season the team will (5) ____ to the older age group, where matches are longer and faster. The school has promised (6) ____ a small training pitch behind the gym. “A new pitch won't win games on its own, (7) ____ every bit helps,” Wut said. Supporters can buy season tickets at the school office; under-twelves go (8) ____.",
+  "ans": 1,
+  "exp": "ช่อง (2) ต้องใช้ whatever แสดงความไม่สำคัญของคะแนน (whatever the score = ไม่ว่าคะแนนจะเป็นอย่างไร) ส่วน it ทำให้เกิด comma splice, which ต้องมีกรรมหรือประธานที่ชัดเจนใน clause นี้ และ where ใช้กับสถานที่ ไม่ใช่ความหมายของคะแนน",
+  "opts": [
+   "it",
+   "whatever",
+   "which",
+   "where"
+  ]
+ },
+ {
+  "id": "S13-Q037",
+  "ctx": "Book review: “The Salt Road” by Pimchanok Rattanaporn. Rattanaporn's second novel follows a truck driver who hauls salt between the coast and the mountains. The story, (1) ____ spans thirty years, never once feels slow. Rattanaporn's great gift is (2) ____: she can make two pages about a roadside meal feel like a feast. Readers who enjoyed her first book will (3) ____ the same dry humour here. Some critics have (4) ____ that the middle chapters drag, but even they praise the ending. The novel was (5) ____ for the national book prize last month, its first major honour. If you buy only one Thai novel this year, this reviewer suggests you (6) ____ it “The Salt Road”. The book is nearly six hundred pages long. (7) ____, it reads in a weekend.",
+  "ans": 1,
+  "exp": "ช่อง (7) ต้องใช้ However ขึ้นต้นประโยคใหม่พร้อมจุลภาคเพื่อแสดงการขัดแย้ง (However, it reads in a weekend = อย่างไรก็ตาม หนังสือเล่มนี้อ่านจบได้ในหนึ่งสุดสัปดาห์ ทั้งที่ยาวเกือบหกร้อยหน้า) ส่วน Despite ต้องตามด้วยคำนามโดยตรง, Although ต้องตามด้วยประโยคสมบูรณ์ และ Because ใช้แสดงเหตุไม่ใช่การขัดแย้ง",
+  "opts": [
+   "Although",
+   "However",
+   "Despite",
+   "Because"
+  ]
+ },
+ {
+  "id": "S17-Q040",
+  "ctx": "Thai silk: from village loom to world stage. For centuries, silk was woven only for special occasions; a fine sarong could (1) ____ as much as a month's wages. Not until the twentieth century (2) ____ Thai silk reach buyers abroad. The turning point came when (3) ____ arrived in the city and set up workshops that paid weavers directly. His name is now famous here. His shop in Bangkok still sells cloth from the same villages. Real mudmee silk can (4) ____ hours of skilled tying before a single thread is dyed; no printed fabric can copy that depth of colour. Buyers learn to tell real from fake: genuine silk (5) ____ cool to the touch and warms quickly in the hand. Last year alone, exports of Thai silk (6) ____ by eight percent. Few souvenirs (7) ____ so much history in so little space, and a single sarong can (8) ____ the story of a whole village.",
+  "ans": 3,
+  "exp": "ช่อง (3) ต้องการ whoever เนื่องจากเป็น noun clause ที่เป็นประธานของ arrived (whoever arrived in the city = ใครก็ตามที่มาถึงเมือง) ส่วน who ต้องมี antecedent ที่ชัดเจนกว่า, which ใช้กับสิ่งของ และ whose แสดงความเป็นเจ้าของซึ่งไม่ใช่ความหมายที่ต้องการ",
+  "opts": [
+   "who",
+   "which",
+   "whose",
+   "whoever"
+  ]
+ },
+ {
+  "id": "S02-Q032",
+  "ctx": "The century-old clock tower in the old town will chime again next spring, (1) ____ months of careful repair work. The mechanism, (2) ____ by a team of specialists all winter, was finally reassembled; many gears had not been serviced since 1975. The original bronze hands were badly worn, so the city decided (3) ____ exact copies of them rather than install modern parts. Repairs had to (4) ____ place without closing the market below, which doubled the cost. A historian issued a (5) ____ of caution: the clock may still lose about a minute each month. Nobody knows exactly (6) ____ the first tower stood on the site; records mention a wooden structure as early as 1820. When the scaffolding comes down, visitors will be able to (7) ____ the staircase to the top and see the new mechanism.",
+  "ans": 2,
+  "exp": "ช่อง (2) ต้องใช้ being cleaned เนื่องจากเป็น participial phrase แบบ passive ขยาย the mechanism (the mechanism, being cleaned by a team... = กลไกซึ่งกำลังถูกทีมผู้เชี่ยวชาญทำความสะอาด) ส่วน to clean, cleaning เป็นรูป active ทำให้ประธานต้องเป็นผู้ทำความสะอาด และ clean ไม่ใช่รูปที่ถูกต้องในโครงสร้างนี้",
+  "opts": [
+   "to clean",
+   "cleaning",
+   "being cleaned",
+   "clean"
+  ]
+ },
+ {
+  "id": "S11-Q043",
+  "ctx": "City bees are making a comeback, and Bangkok is no exception. Only in the last five years (1) ____ rooftop hives appeared on hotels, malls and even a hospital. A hive can house sixty thousand bees, (2) ____ pollinate plants within three kilometres. Beekeeper Lek Chaiyan has kept hives downtown (3) ____ 2019; his honey sells out within a day of harvest. Urban honey, Lek explains, (4) ____ its flavour from hundreds of different flowers, which gives each batch a distinct taste. No visitor (5) ____ ever been stung at his sites, he says, because city bees are surprisingly gentle. The biggest threat is not people but pesticides: hives, (6) ____ near sprayed gardens, may absorb chemicals. Lek now trains new beekeepers each month, and demand for his course (7) ____ every term. His advice to beginners is simple: (8) ____ calm, move slowly and let the bees come to you.",
+  "ans": 2,
+  "exp": "ช่อง (6) ต้องใช้ being placed เนื่องจากเป็น participial phrase แบบ passive ขยาย hives (hives, being placed near sprayed gardens = รังผึ้งซึ่งถูกนำไปวาง) ส่วน placed เป็น past tense/participle ขาด being, be placed ต้องใช้หลัง modal อย่างเดียวในโครงสร้างหลัก และ to place เป็น active",
+  "opts": [
+   "placed",
+   "be placed",
+   "being placed",
+   "to place"
+  ]
+ },
+ {
+  "id": "S14-Q031",
+  "ctx": "Moving notice: Brightview Condominiums is relocating its sales gallery — and you are invited. From 1 March, all viewings, (1) ____ at our new show suite near the river park, are open to every buyer. The move lets us display three fully (2) ____ rooms, including a family unit with two balconies. Buyers who (3) ____ a unit this month keep the current price list, which will rise in April. The new gallery, (4) ____ replaces the old car-park office, is a ten-minute walk from the station. Visitors can (5) ____ an appointment online or simply walk in between 10 a.m. and 6 p.m. Our agents will answer questions about loans, and the bank desk next door can (6) ____ your borrowing power in twenty minutes. (7) ____ than 40 units remain, so early visitors have the widest choice.",
+  "ans": 1,
+  "exp": "ช่อง (1) ต้องใช้ being held เนื่องจากเป็น participial phrase แบบ passive ขยาย viewings (viewings, being held at our new show suite = การแสดงซึ่งถูกจัดขึ้น) ส่วน hold เป็น active ที่ประธานต้องเป็นผู้จัด, be held ต้องใช้หลัง will อย่างเดียวในโครงสร้างหลัก และ held ไม่ใช่รูปที่ถูกต้องในโครงสร้างนี้",
+  "opts": [
+   "hold",
+   "being held",
+   "be held",
+   "held"
+  ]
+ }
+]
