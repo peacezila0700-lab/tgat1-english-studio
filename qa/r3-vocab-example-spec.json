@@ -5952,5 +5952,720 @@
    "translation": "ลำดับขั้นตอนที่ถูกต้องทำให้สูตรอาหารทำตามได้ง่าย"
   },
   "spec": "content/vocab_examples_v43_h.json"
+ },
+ {
+  "w": "burnout",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to burnout.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับภาวะหมดไฟ"
+  },
+  "new": {
+   "example": "Long hours without rest led the nurses to burnout within a year.",
+   "translation": "การทำงานยาวนานโดยไม่พักผ่อนทำให้พยาบาลถึงภาวะหมดไฟภายในหนึ่งปี"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "calorie",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about calories to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับแคลอรีแก่นักเรียน"
+  },
+  "new": {
+   "example": "The label lists the calorie count for one serving of the soup.",
+   "translation": "ฉลากระบุจำนวนแคลอรีหนึ่งหน่วยบริโภคของซุป"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "capability",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about capabilities to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับขีดความสามารถแก่นักเรียน"
+  },
+  "new": {
+   "example": "The new software raised the capability of the analysis team.",
+   "translation": "ซอฟต์แวร์ใหม่เพิ่มขีดความสามารถของทีมวิเคราะห์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "carbon dioxide",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about carbon dioxide.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับก๊าซคาร์บอนไดออกไซด์"
+  },
+  "new": {
+   "example": "Plants absorb carbon dioxide and release oxygen in daylight.",
+   "translation": "พืชดูดซับก๊าซคาร์บอนไดออกไซด์และปล่อยออกซิเจนในเวลากลางวัน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "carbon footprint",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about carbon footprints to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับปริมาณการปล่อยคาร์บอนที่เกิดจากกิจกรรมแก่นักเรียน"
+  },
+  "new": {
+   "example": "Bicycles shrink a city's carbon footprint far more than cars.",
+   "translation": "จักรยานช่วยลดปริมาณการปล่อยคาร์บอนที่เกิดจากกิจกรรมของเมืองได้มากกว่ารถยนต์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "carnivore",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted carnivores as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าสัตว์กินเนื้อเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The lion is a carnivore that hunts mainly at dusk.",
+   "translation": "สิงโตเป็นสัตว์กินเนื้อที่ล่าเหยื่อเป็นหลักในช่วงพลบค่ำ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "case study",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to case studies.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับกรณีศึกษา"
+  },
+  "new": {
+   "example": "The chapter opens with a case study of a real flood recovery.",
+   "translation": "บทนี้เปิดด้วยกรณีศึกษาของการฟื้นฟูหลังน้ำท่วมจริง"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "casualty",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted casualties as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าผู้เสียชีวิตหรือบาดเจ็บจากเหตุการณ์เป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The firefighters counted every casualty before the roll call.",
+   "translation": "นักดับเพลิงนับผู้เสียชีวิตหรือบาดเจ็บจากเหตุการณ์ทุกคนก่อนการตรวจนับ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "causal relationship",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted causal relationships as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความสัมพันธ์เชิงเหตุและผลเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The study tested the causal relationship between sleep and memory.",
+   "translation": "งานวิจัยทดสอบความสัมพันธ์เชิงเหตุและผลระหว่างการนอนกับความจำ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "causality",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to causality.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับความสัมพันธ์เชิงเหตุและผล"
+  },
+  "new": {
+   "example": "Mixing up correlation and causality misleads every reader.",
+   "translation": "การผสมผสานความสัมพันธ์กับความสัมพันธ์เชิงเหตุและผลทำให้ผู้อ่านทุกคนเข้าใจผิด"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "census",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of censuses across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการสำมะโนประชากรระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The national census collected data from every household last year.",
+   "translation": "การสำมะโนประชากรระดับชาติเก็บข้อมูลจากทุกครัวเรือนเมื่อปีที่แล้ว"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "chance",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed chances after the announcement.",
+   "translation": "ชุมชนพูดถึงโอกาสหลังการประกาศ"
+  },
+  "new": {
+   "example": "He took a chance and applied for the scholarship abroad.",
+   "translation": "เขาลองเสี่ยงและสมัครขอทุนไปเรียนต่างประเทศ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "charity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted charities as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าการกุศลเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The charity raised money for flood victims in three days.",
+   "translation": "การกุศลระดมเงินสำหรับผู้ประสบภัยน้ำท่วมภายในสามวัน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "citation",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed citations after the announcement.",
+   "translation": "ชุมชนพูดถึงการอ้างอิงหลังการประกาศ"
+  },
+  "new": {
+   "example": "Every citation in the essay must match the reference list.",
+   "translation": "การอ้างอิงทุกรายการในเรียงความต้องตรงกับรายชื่อเอกสารอ้างอิง"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "citizenship",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of citizenship across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของความเป็นพลเมืองระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "The course on citizenship explores rights and duties together.",
+   "translation": "หลักสูตรความเป็นพลเมืองสำรวจสิทธิและหน้าที่ควบคู่กัน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "civilization",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about civilizations.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับอารยธรรม"
+  },
+  "new": {
+   "example": "The museum displays the artifacts of an ancient civilization.",
+   "translation": "พิพิธภัณฑ์จัดแสดงโบราณวัตถุของอารยธรรมโบราณ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "client",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with clients.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับลูกค้า"
+  },
+  "new": {
+   "example": "The shop keeps a file of every client and their orders.",
+   "translation": "ร้านค้าเก็บแฟ้มข้อมูลของลูกค้าทุกคนและคำสั่งซื้อทั้งหมด"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "climate crisis",
+  "sense": 0,
+  "old": {
+   "example": "The climate crisis affected the team’s final decision.",
+   "translation": "วิกฤตสภาพภูมิอากาศมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "The climate crisis demands quick action from every government.",
+   "translation": "วิกฤตสภาพภูมิอากาศเรียกร้องการดำเนินการที่รวดเร็วจากทุกรัฐบาล"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "clinic",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about clinics.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับคลินิก"
+  },
+  "new": {
+   "example": "The clinic near the station opens early for shift workers.",
+   "translation": "คลินิกใกล้สถานีเปิดเช้าสำหรับคนทำงานเป็นกะ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "cloud computing",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of cloud computing across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการประมวลผลแบบคลาวด์ระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Cloud computing lets small shops store data without a server.",
+   "translation": "การประมวลผลแบบคลาวด์ให้ร้านค้าขนาดเล็กเก็บข้อมูลได้โดยไม่ต้องมีเซิร์ฟเวอร์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "cohesion",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed cohesion after the announcement.",
+   "translation": "ชุมชนพูดถึงความเป็นอันหนึ่งอันเดียวกันหลังการประกาศ"
+  },
+  "new": {
+   "example": "Team games build cohesion among the new classmates.",
+   "translation": "เกมทีมสร้างความเป็นอันหนึ่งอันเดียวกันในหมู่เพื่อนร่วมชั้นใหม่"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "coincidence",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed coincidences after the announcement.",
+   "translation": "ชุมชนพูดถึงความบังเอิญหลังการประกาศ"
+  },
+  "new": {
+   "example": "Meeting her again was pure coincidence, not a plan.",
+   "translation": "การพบเธออีกครั้งเป็นเรื่องบังเอิญล้วนๆ ไม่ใช่การวางแผน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "colleague",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of colleagues across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของเพื่อนร่วมงานระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Her colleague shared the workload during the busy week.",
+   "translation": "เพื่อนร่วมงานของเธอแบ่งเบาภาระงานในช่วงสัปดาห์ที่ยุ่ง"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "commercial district",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed commercial districts after the announcement.",
+   "translation": "ชุมชนพูดถึงย่านธุรกิจหลังการประกาศ"
+  },
+  "new": {
+   "example": "The commercial district fills with shoppers every weekend.",
+   "translation": "ย่านธุรกิจเต็มไปด้วยผู้ซื้อของทุกสุดสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "commitment",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed commitments after the announcement.",
+   "translation": "ชุมชนพูดถึงความมุ่งมั่นหลังการประกาศ"
+  },
+  "new": {
+   "example": "His commitment to the project earned the trust of the team.",
+   "translation": "ความมุ่งมั่นของเขาต่อโครงการทำให้ได้รับความไว้วางใจจากทีม"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "commodity",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed commodities after the announcement.",
+   "translation": "ชุมชนพูดถึงสินค้าโภคภัณฑ์หลังการประกาศ"
+  },
+  "new": {
+   "example": "Farmers sell the commodity at the weekly market price.",
+   "translation": "เกษตรกรขายสินค้าโภคภัณฑ์ตามราคาตลาดรายสัปดาห์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "community",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about communities to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับชุมชนแก่นักเรียน"
+  },
+  "new": {
+   "example": "The community built a library with donations from local firms.",
+   "translation": "ชุมชนสร้างห้องสมุดด้วยเงินบริจาคจากบริษัทในท้องถิ่น"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "commute",
+  "sense": 0,
+  "old": {
+   "example": "The commute affected the team’s final decision.",
+   "translation": "การเดินทางไปกลับที่ทำงาน/เรียนมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Her commute by bus takes forty minutes each way.",
+   "translation": "การเดินทางไปกลับที่ทำงาน/เรียนของเธอโดยรถประจำทางใช้เวลาสี่สิบนาทีต่อเที่ยว"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "commuter",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about commuters before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับผู้เดินทางไปกลับก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "Every commuter on the train reads or rests silently.",
+   "translation": "ผู้เดินทางไปกลับทุกคนบนรถไฟอ่านหนังสือหรือพักผ่อนอย่างเงียบๆ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "compassion",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed compassion after the announcement.",
+   "translation": "ชุมชนพูดถึงความเมตตาสงสารหลังการประกาศ"
+  },
+  "new": {
+   "example": "Compassion from the staff helped patients through the long stay.",
+   "translation": "ความเมตตาสงสารจากเจ้าหน้าที่ช่วยให้ผู้ป่วยผ่านช่วงพักรักษาที่ยาวนาน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "compensation",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about compensation.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับค่าตอบแทน"
+  },
+  "new": {
+   "example": "The firm offered compensation to every worker affected by the move.",
+   "translation": "บริษัทเสนอค่าตอบแทนให้คนงานทุกคนที่ได้รับผลกระทบจากการย้าย"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "competitor",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted competitors as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าคู่แข่งเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The new competitor cut prices and took many regular customers.",
+   "translation": "คู่แข่งรายใหม่ลดราคาและแย่งลูกค้าประจำไปมากมาย"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "compliance",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of compliance across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการปฏิบัติตามกฎ/ข้อกำหนดระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Full compliance with the rules avoided every fine this year.",
+   "translation": "การปฏิบัติตามกฎ/ข้อกำหนดอย่างเต็มที่หลีกเลี่ยงค่าปรับทุกรายการในปีนี้"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "compliment",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed compliments after the announcement.",
+   "translation": "ชุมชนพูดถึงคำชมหลังการประกาศ"
+  },
+  "new": {
+   "example": "A sincere compliment on her work brightened the whole day.",
+   "translation": "คำชมอย่างจริงใจเกี่ยวกับงานของเธอทำให้ทั้งวันสดใสขึ้น"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "compost",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about compost.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับปุ๋ยหมัก"
+  },
+  "new": {
+   "example": "The garden compost turns kitchen waste into rich soil.",
+   "translation": "ปุ๋ยหมักของสวนแปลงขยะในครัวให้ดินที่อุดมสมบูรณ์"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "comprehension",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted comprehension as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความเข้าใจเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Reading aloud improved the children's comprehension of the story.",
+   "translation": "การอ่านออกเสียงช่วยเพิ่มความเข้าใจของเด็กๆ ต่อเรื่องราว"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "comrade",
+  "sense": 0,
+  "old": {
+   "example": "The team collected information about comrades before making a decision.",
+   "translation": "ทีมงานรวบรวมข้อมูลเกี่ยวกับสหายก่อนตัดสินใจ"
+  },
+  "new": {
+   "example": "His comrade in the corps stayed by his side through the storm.",
+   "translation": "สหายของเขาในหน่วยอยู่เคียงข้างเขาตลอดพายุ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "concession",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed concessions after the announcement.",
+   "translation": "ชุมชนพูดถึงการยอมให้หลังการประกาศ"
+  },
+  "new": {
+   "example": "The union's concession on hours ended the strike the next day.",
+   "translation": "การยอมให้ของสหภาพเรื่องชั่วโมงการทำงานทำให้การนัดหยุดงานสิ้นสุดในวันถัดไป"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "confidence",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about confidence to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับความมั่นใจแก่นักเรียน"
+  },
+  "new": {
+   "example": "Small wins built her confidence for the final competition.",
+   "translation": "ชัยชนะเล็กๆ สร้างความมั่นใจให้เธอสำหรับการแข่งสุดท้าย"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "confidentiality",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to confidentiality.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับการรักษาความลับ"
+  },
+  "new": {
+   "example": "The clinic stresses confidentiality of every patient record.",
+   "translation": "คลินิกเน้นย้ำการรักษาความลับของบันทึกผู้ป่วยทุกราย"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "conformity",
+  "sense": 0,
+  "old": {
+   "example": "The conformity affected the team’s final decision.",
+   "translation": "การทำตามแบบแผนมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Conformity to the dress code is checked at the gate.",
+   "translation": "การทำตามแบบแผนของระเบียบการแต่งกายถูกตรวจสอบที่ประตู"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "confrontation",
+  "sense": 0,
+  "old": {
+   "example": "The confrontation affected the team’s final decision.",
+   "translation": "การเผชิญหน้ามีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "A calm talk avoided a confrontation between the two families.",
+   "translation": "การพูดคุยอย่างใจเย็นหลีกเลี่ยงการเผชิญหน้าระหว่างสองครอบครัว"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "connectivity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted connectivity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความสามารถในการเชื่อมต่อเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Better connectivity lets the village school join remote classes.",
+   "translation": "ความสามารถในการเชื่อมต่อที่ดีขึ้นให้โรงเรียนในหมู่บ้านเข้าร่วมชั้นเรียนทางไกล"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consensus-building",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to consensus-building.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับกระบวนการสร้างฉันทามติ"
+  },
+  "new": {
+   "example": "Consensus-building takes time but makes every decision stick.",
+   "translation": "กระบวนการสร้างฉันทามติต้องใช้เวลาแต่ทำให้การตัดสินใจทุกข้อมั่นคง"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consequence",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted consequences as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าผลที่ตามมาเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Every action has a consequence that the team must accept.",
+   "translation": "ทุกการกระทำมีผลที่ตามมาที่ทีมต้องยอมรับ"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "conservationist",
+  "sense": 0,
+  "old": {
+   "example": "The survey measured changes related to conservationists.",
+   "translation": "แบบสำรวจวัดการเปลี่ยนแปลงที่เกี่ยวข้องกับนักอนุรักษ์"
+  },
+  "new": {
+   "example": "The conservationist mapped the nesting sites of the sea turtles.",
+   "translation": "นักอนุรักษ์วาดแผนที่จุดวางไข่ของเต่าทะเล"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consistency",
+  "sense": 0,
+  "old": {
+   "example": "The consistency affected the team’s final decision.",
+   "translation": "ความสม่ำเสมอมีผลต่อการตัดสินใจขั้นสุดท้ายของทีม"
+  },
+  "new": {
+   "example": "Consistency in marking keeps the results fair for all students.",
+   "translation": "ความสม่ำเสมอในการให้คะแนนทำให้ผลลัพธ์เป็นธรรมกับนักเรียนทุกคน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consultation",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about consultations to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับการปรึกษาแก่นักเรียน"
+  },
+  "new": {
+   "example": "The policy grew from a long consultation with every department.",
+   "translation": "นโยบายนี้เติบโตจากการปรึกษาหารืออย่างยาวนานกับทุกหน่วยงาน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consumerism",
+  "sense": 0,
+  "old": {
+   "example": "The company reviewed the risks associated with consumerism.",
+   "translation": "บริษัททบทวนความเสี่ยงที่เกี่ยวข้องกับบริโภคนิยม"
+  },
+  "new": {
+   "example": "The course critiques consumerism and its effect on the planet.",
+   "translation": "หลักสูตรวิจารณ์บริโภคนิยมและผลกระทบต่อโลก"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "consumption",
+  "sense": 0,
+  "old": {
+   "example": "The community discussed consumption after the announcement.",
+   "translation": "ชุมชนพูดถึงการบริโภคหลังการประกาศ"
+  },
+  "new": {
+   "example": "Household consumption of power fell after the insulation work.",
+   "translation": "การบริโภคไฟฟ้าในครัวเรือนลดลงหลังจากงานฉนวน"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "contaminant",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted contaminants as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าสารปนเปื้อนเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "The test found a harmful contaminant in the well water.",
+   "translation": "การตรวจพบสารปนเปื้อนที่เป็นอันตรายในน้ำบาดาล"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "contamination",
+  "sense": 0,
+  "old": {
+   "example": "The study compared the effects of contamination across two groups.",
+   "translation": "การศึกษานี้เปรียบเทียบผลของการปนเปื้อนระหว่างสองกลุ่ม"
+  },
+  "new": {
+   "example": "Careful handling prevented contamination of the whole batch.",
+   "translation": "การจัดการอย่างระมัดระวังป้องกันการปนเปื้อนของสินค้าทั้งล็อต"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "context",
+  "sense": 0,
+  "old": {
+   "example": "The policy addresses concerns about contexts.",
+   "translation": "นโยบายนี้จัดการกับข้อกังวลเกี่ยวกับบริบท"
+  },
+  "new": {
+   "example": "The word changes its meaning with the context of the sentence.",
+   "translation": "คำนี้เปลี่ยนความหมายไปตามบริบทของประโยค"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "contingency",
+  "sense": 0,
+  "old": {
+   "example": "The school provided guidance about contingencies to students.",
+   "translation": "โรงเรียนให้คำแนะนำเกี่ยวกับเหตุการณ์ที่อาจเกิดขึ้นแก่นักเรียน"
+  },
+  "new": {
+   "example": "The team planned a contingency for the delayed shipment.",
+   "translation": "ทีมวางแผนเหตุการณ์ที่อาจเกิดขึ้นสำหรับสินค้าที่จัดส่งล่าช้า"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
+ },
+ {
+  "w": "continuity",
+  "sense": 0,
+  "old": {
+   "example": "The report highlighted continuity as an important factor in the discussion.",
+   "translation": "รายงานชี้ให้เห็นว่าความต่อเนื่องเป็นปัจจัยสำคัญในการอภิปราย"
+  },
+  "new": {
+   "example": "Continuity of care matters more than any single treatment.",
+   "translation": "ความต่อเนื่องของการดูแลสำคัญกว่าการรักษาครั้งเดียว"
+  },
+  "spec": "content/vocab_examples_v43_i.json"
  }
 ]

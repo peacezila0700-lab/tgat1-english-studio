@@ -1,0 +1,367 @@
+[
+ {
+  "w": "burnout",
+  "sense": 0,
+  "example": "Long hours without rest led the nurses to burnout within a year.",
+  "translation": "การทำงานยาวนานโดยไม่พักผ่อนทำให้พยาบาลถึงภาวะหมดไฟภายในหนึ่งปี"
+ },
+ {
+  "w": "calorie",
+  "sense": 0,
+  "example": "The label lists the calorie count for one serving of the soup.",
+  "translation": "ฉลากระบุจำนวนแคลอรีหนึ่งหน่วยบริโภคของซุป",
+  "example2": "Walking burns more calories than sitting at the desk."
+ },
+ {
+  "w": "capability",
+  "sense": 0,
+  "example": "The new software raised the capability of the analysis team.",
+  "translation": "ซอฟต์แวร์ใหม่เพิ่มขีดความสามารถของทีมวิเคราะห์",
+  "example2": "Her capability in languages impressed every interviewer."
+ },
+ {
+  "w": "carbon dioxide",
+  "sense": 0,
+  "example": "Plants absorb carbon dioxide and release oxygen in daylight.",
+  "translation": "พืชดูดซับก๊าซคาร์บอนไดออกไซด์และปล่อยออกซิเจนในเวลากลางวัน"
+ },
+ {
+  "w": "carbon footprint",
+  "sense": 0,
+  "example": "Bicycles shrink a city's carbon footprint far more than cars.",
+  "translation": "จักรยานช่วยลดปริมาณการปล่อยคาร์บอนที่เกิดจากกิจกรรมของเมืองได้มากกว่ารถยนต์"
+ },
+ {
+  "w": "carnivore",
+  "sense": 0,
+  "example": "The lion is a carnivore that hunts mainly at dusk.",
+  "translation": "สิงโตเป็นสัตว์กินเนื้อที่ล่าเหยื่อเป็นหลักในช่วงพลบค่ำ",
+  "example2": "Every carnivore in the reserve needs a wide hunting ground."
+ },
+ {
+  "w": "case study",
+  "sense": 0,
+  "example": "The chapter opens with a case study of a real flood recovery.",
+  "translation": "บทนี้เปิดด้วยกรณีศึกษาของการฟื้นฟูหลังน้ำท่วมจริง",
+  "example2": "A short case study illustrated the whole theory."
+ },
+ {
+  "w": "casualty",
+  "sense": 0,
+  "example": "The firefighters counted every casualty before the roll call.",
+  "translation": "นักดับเพลิงนับผู้เสียชีวิตหรือบาดเจ็บจากเหตุการณ์ทุกคนก่อนการตรวจนับ",
+  "example2": "The report lists every casualty of the storm."
+ },
+ {
+  "w": "causal relationship",
+  "sense": 0,
+  "example": "The study tested the causal relationship between sleep and memory.",
+  "translation": "งานวิจัยทดสอบความสัมพันธ์เชิงเหตุและผลระหว่างการนอนกับความจำ",
+  "example2": "A causal relationship is harder to prove than a correlation."
+ },
+ {
+  "w": "causality",
+  "sense": 0,
+  "example": "Mixing up correlation and causality misleads every reader.",
+  "translation": "การผสมผสานความสัมพันธ์กับความสัมพันธ์เชิงเหตุและผลทำให้ผู้อ่านทุกคนเข้าใจผิด"
+ },
+ {
+  "w": "census",
+  "sense": 0,
+  "example": "The national census collected data from every household last year.",
+  "translation": "การสำมะโนประชากรระดับชาติเก็บข้อมูลจากทุกครัวเรือนเมื่อปีที่แล้ว",
+  "example2": "A census takes the whole country a month to complete."
+ },
+ {
+  "w": "chance",
+  "sense": 0,
+  "example": "He took a chance and applied for the scholarship abroad.",
+  "translation": "เขาลองเสี่ยงและสมัครขอทุนไปเรียนต่างประเทศ",
+  "example2": "Every chance to practise improves the language skill."
+ },
+ {
+  "w": "charity",
+  "sense": 0,
+  "example": "The charity raised money for flood victims in three days.",
+  "translation": "การกุศลระดมเงินสำหรับผู้ประสบภัยน้ำท่วมภายในสามวัน",
+  "example2": "Volunteers run the charity shop every weekend."
+ },
+ {
+  "w": "citation",
+  "sense": 0,
+  "example": "Every citation in the essay must match the reference list.",
+  "translation": "การอ้างอิงทุกรายการในเรียงความต้องตรงกับรายชื่อเอกสารอ้างอิง",
+  "example2": "The examiner checked every citation in the essay carefully."
+ },
+ {
+  "w": "citizenship",
+  "sense": 0,
+  "example": "The course on citizenship explores rights and duties together.",
+  "translation": "หลักสูตรความเป็นพลเมืองสำรวจสิทธิและหน้าที่ควบคู่กัน"
+ },
+ {
+  "w": "civilization",
+  "sense": 0,
+  "example": "The museum displays the artifacts of an ancient civilization.",
+  "translation": "พิพิธภัณฑ์จัดแสดงโบราณวัตถุของอารยธรรมโบราณ",
+  "example2": "Every civilization shaped the land in its own way."
+ },
+ {
+  "w": "client",
+  "sense": 0,
+  "example": "The shop keeps a file of every client and their orders.",
+  "translation": "ร้านค้าเก็บแฟ้มข้อมูลของลูกค้าทุกคนและคำสั่งซื้อทั้งหมด",
+  "example2": "A satisfied client brings in two more buyers."
+ },
+ {
+  "w": "climate crisis",
+  "sense": 0,
+  "example": "The climate crisis demands quick action from every government.",
+  "translation": "วิกฤตสภาพภูมิอากาศเรียกร้องการดำเนินการที่รวดเร็วจากทุกรัฐบาล",
+  "example2": "Coastal towns face the climate crisis first."
+ },
+ {
+  "w": "clinic",
+  "sense": 0,
+  "example": "The clinic near the station opens early for shift workers.",
+  "translation": "คลินิกใกล้สถานีเปิดเช้าสำหรับคนทำงานเป็นกะ",
+  "example2": "The clinic reports a rise in patients this month."
+ },
+ {
+  "w": "cloud computing",
+  "sense": 0,
+  "example": "Cloud computing lets small shops store data without a server.",
+  "translation": "การประมวลผลแบบคลาวด์ให้ร้านค้าขนาดเล็กเก็บข้อมูลได้โดยไม่ต้องมีเซิร์ฟเวอร์"
+ },
+ {
+  "w": "cohesion",
+  "sense": 0,
+  "example": "Team games build cohesion among the new classmates.",
+  "translation": "เกมทีมสร้างความเป็นอันหนึ่งอันเดียวกันในหมู่เพื่อนร่วมชั้นใหม่"
+ },
+ {
+  "w": "coincidence",
+  "sense": 0,
+  "example": "Meeting her again was pure coincidence, not a plan.",
+  "translation": "การพบเธออีกครั้งเป็นเรื่องบังเอิญล้วนๆ ไม่ใช่การวางแผน",
+  "example2": "The two events were a strange coincidence."
+ },
+ {
+  "w": "colleague",
+  "sense": 0,
+  "example": "Her colleague shared the workload during the busy week.",
+  "translation": "เพื่อนร่วมงานของเธอแบ่งเบาภาระงานในช่วงสัปดาห์ที่ยุ่ง",
+  "example2": "Every colleague in the office joined the farewell."
+ },
+ {
+  "w": "commercial district",
+  "sense": 0,
+  "example": "The commercial district fills with shoppers every weekend.",
+  "translation": "ย่านธุรกิจเต็มไปด้วยผู้ซื้อของทุกสุดสัปดาห์",
+  "example2": "Parking in the commercial district is hard at noon."
+ },
+ {
+  "w": "commitment",
+  "sense": 0,
+  "example": "His commitment to the project earned the trust of the team.",
+  "translation": "ความมุ่งมั่นของเขาต่อโครงการทำให้ได้รับความไว้วางใจจากทีม",
+  "example2": "A clear commitment keeps the team on track."
+ },
+ {
+  "w": "commodity",
+  "sense": 0,
+  "example": "Farmers sell the commodity at the weekly market price.",
+  "translation": "เกษตรกรขายสินค้าโภคภัณฑ์ตามราคาตลาดรายสัปดาห์",
+  "example2": "Every commodity in the trade route moved by ship."
+ },
+ {
+  "w": "community",
+  "sense": 0,
+  "example": "The community built a library with donations from local firms.",
+  "translation": "ชุมชนสร้างห้องสมุดด้วยเงินบริจาคจากบริษัทในท้องถิ่น",
+  "example2": "A strong community supports its members in hard times."
+ },
+ {
+  "w": "commute",
+  "sense": 0,
+  "example": "Her commute by bus takes forty minutes each way.",
+  "translation": "การเดินทางไปกลับที่ทำงาน/เรียนของเธอโดยรถประจำทางใช้เวลาสี่สิบนาทีต่อเที่ยว",
+  "example2": "A long commute drains the energy of the workers."
+ },
+ {
+  "w": "commuter",
+  "sense": 0,
+  "example": "Every commuter on the train reads or rests silently.",
+  "translation": "ผู้เดินทางไปกลับทุกคนบนรถไฟอ่านหนังสือหรือพักผ่อนอย่างเงียบๆ",
+  "example2": "The commuter line runs every fifteen minutes."
+ },
+ {
+  "w": "compassion",
+  "sense": 0,
+  "example": "Compassion from the staff helped patients through the long stay.",
+  "translation": "ความเมตตาสงสารจากเจ้าหน้าที่ช่วยให้ผู้ป่วยผ่านช่วงพักรักษาที่ยาวนาน"
+ },
+ {
+  "w": "compensation",
+  "sense": 0,
+  "example": "The firm offered compensation to every worker affected by the move.",
+  "translation": "บริษัทเสนอค่าตอบแทนให้คนงานทุกคนที่ได้รับผลกระทบจากการย้าย"
+ },
+ {
+  "w": "competitor",
+  "sense": 0,
+  "example": "The new competitor cut prices and took many regular customers.",
+  "translation": "คู่แข่งรายใหม่ลดราคาและแย่งลูกค้าประจำไปมากมาย",
+  "example2": "Every competitor in the race trained hard."
+ },
+ {
+  "w": "compliance",
+  "sense": 0,
+  "example": "Full compliance with the rules avoided every fine this year.",
+  "translation": "การปฏิบัติตามกฎ/ข้อกำหนดอย่างเต็มที่หลีกเลี่ยงค่าปรับทุกรายการในปีนี้"
+ },
+ {
+  "w": "compliment",
+  "sense": 0,
+  "example": "A sincere compliment on her work brightened the whole day.",
+  "translation": "คำชมอย่างจริงใจเกี่ยวกับงานของเธอทำให้ทั้งวันสดใสขึ้น",
+  "example2": "He gave her a compliment with a warm smile."
+ },
+ {
+  "w": "compost",
+  "sense": 0,
+  "example": "The garden compost turns kitchen waste into rich soil.",
+  "translation": "ปุ๋ยหมักของสวนแปลงขยะในครัวให้ดินที่อุดมสมบูรณ์"
+ },
+ {
+  "w": "comprehension",
+  "sense": 0,
+  "example": "Reading aloud improved the children's comprehension of the story.",
+  "translation": "การอ่านออกเสียงช่วยเพิ่มความเข้าใจของเด็กๆ ต่อเรื่องราว"
+ },
+ {
+  "w": "comrade",
+  "sense": 0,
+  "example": "His comrade in the corps stayed by his side through the storm.",
+  "translation": "สหายของเขาในหน่วยอยู่เคียงข้างเขาตลอดพายุ",
+  "example2": "Every comrade in the group shared the same goal."
+ },
+ {
+  "w": "concession",
+  "sense": 0,
+  "example": "The union's concession on hours ended the strike the next day.",
+  "translation": "การยอมให้ของสหภาพเรื่องชั่วโมงการทำงานทำให้การนัดหยุดงานสิ้นสุดในวันถัดไป",
+  "example2": "A small concession saved the whole deal."
+ },
+ {
+  "w": "confidence",
+  "sense": 0,
+  "example": "Small wins built her confidence for the final competition.",
+  "translation": "ชัยชนะเล็กๆ สร้างความมั่นใจให้เธอสำหรับการแข่งสุดท้าย"
+ },
+ {
+  "w": "confidentiality",
+  "sense": 0,
+  "example": "The clinic stresses confidentiality of every patient record.",
+  "translation": "คลินิกเน้นย้ำการรักษาความลับของบันทึกผู้ป่วยทุกราย"
+ },
+ {
+  "w": "conformity",
+  "sense": 0,
+  "example": "Conformity to the dress code is checked at the gate.",
+  "translation": "การทำตามแบบแผนของระเบียบการแต่งกายถูกตรวจสอบที่ประตู",
+  "example2": "Conformity kept the group quiet for a while."
+ },
+ {
+  "w": "confrontation",
+  "sense": 0,
+  "example": "A calm talk avoided a confrontation between the two families.",
+  "translation": "การพูดคุยอย่างใจเย็นหลีกเลี่ยงการเผชิญหน้าระหว่างสองครอบครัว",
+  "example2": "The confrontation at the meeting ended quickly."
+ },
+ {
+  "w": "connectivity",
+  "sense": 0,
+  "example": "Better connectivity lets the village school join remote classes.",
+  "translation": "ความสามารถในการเชื่อมต่อที่ดีขึ้นให้โรงเรียนในหมู่บ้านเข้าร่วมชั้นเรียนทางไกล"
+ },
+ {
+  "w": "consensus-building",
+  "sense": 0,
+  "example": "Consensus-building takes time but makes every decision stick.",
+  "translation": "กระบวนการสร้างฉันทามติต้องใช้เวลาแต่ทำให้การตัดสินใจทุกข้อมั่นคง"
+ },
+ {
+  "w": "consequence",
+  "sense": 0,
+  "example": "Every action has a consequence that the team must accept.",
+  "translation": "ทุกการกระทำมีผลที่ตามมาที่ทีมต้องยอมรับ",
+  "example2": "The consequence of the delay hit the budget."
+ },
+ {
+  "w": "conservationist",
+  "sense": 0,
+  "example": "The conservationist mapped the nesting sites of the sea turtles.",
+  "translation": "นักอนุรักษ์วาดแผนที่จุดวางไข่ของเต่าทะเล",
+  "example2": "Every conservationist in the area works with volunteers."
+ },
+ {
+  "w": "consistency",
+  "sense": 0,
+  "example": "Consistency in marking keeps the results fair for all students.",
+  "translation": "ความสม่ำเสมอในการให้คะแนนทำให้ผลลัพธ์เป็นธรรมกับนักเรียนทุกคน",
+  "example2": "True consistency builds trust over the long term."
+ },
+ {
+  "w": "consultation",
+  "sense": 0,
+  "example": "The policy grew from a long consultation with every department.",
+  "translation": "นโยบายนี้เติบโตจากการปรึกษาหารืออย่างยาวนานกับทุกหน่วยงาน",
+  "example2": "A quick consultation settled the final wording."
+ },
+ {
+  "w": "consumerism",
+  "sense": 0,
+  "example": "The course critiques consumerism and its effect on the planet.",
+  "translation": "หลักสูตรวิจารณ์บริโภคนิยมและผลกระทบต่อโลก"
+ },
+ {
+  "w": "consumption",
+  "sense": 0,
+  "example": "Household consumption of power fell after the insulation work.",
+  "translation": "การบริโภคไฟฟ้าในครัวเรือนลดลงหลังจากงานฉนวน"
+ },
+ {
+  "w": "contaminant",
+  "sense": 0,
+  "example": "The test found a harmful contaminant in the well water.",
+  "translation": "การตรวจพบสารปนเปื้อนที่เป็นอันตรายในน้ำบาดาล",
+  "example2": "Every contaminant in the sample was measured."
+ },
+ {
+  "w": "contamination",
+  "sense": 0,
+  "example": "Careful handling prevented contamination of the whole batch.",
+  "translation": "การจัดการอย่างระมัดระวังป้องกันการปนเปื้อนของสินค้าทั้งล็อต"
+ },
+ {
+  "w": "context",
+  "sense": 0,
+  "example": "The word changes its meaning with the context of the sentence.",
+  "translation": "คำนี้เปลี่ยนความหมายไปตามบริบทของประโยค",
+  "example2": "Understand the context before judging the text."
+ },
+ {
+  "w": "contingency",
+  "sense": 0,
+  "example": "The team planned a contingency for the delayed shipment.",
+  "translation": "ทีมวางแผนเหตุการณ์ที่อาจเกิดขึ้นสำหรับสินค้าที่จัดส่งล่าช้า",
+  "example2": "Every contingency in the plan was tested."
+ },
+ {
+  "w": "continuity",
+  "sense": 0,
+  "example": "Continuity of care matters more than any single treatment.",
+  "translation": "ความต่อเนื่องของการดูแลสำคัญกว่าการรักษาครั้งเดียว"
+ }
+]
