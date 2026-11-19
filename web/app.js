@@ -608,7 +608,8 @@ function VLT_next(){const r=VLT_RUN;if(!r)return;const q=VLT_current();if(r.mode
  if(r.mode==='sprint'){if(Date.now()>=r.deadline){VLT_finish(true);return;}r.index++;if(r.index>=r.qs.length)r.index=0;VLT_HINT=false;VLT_renderQuiz();return;}
  if(r.index<r.qs.length-1){r.index++;VLT_HINT=false;VLT_renderQuiz();}else VLT_finish();}
 function VLT_exit(){if(VLT_RUN){TGConfirm('ออกจากโหมดนี้หรือไม่? คะแนนสอบจำลองจะบันทึกเมื่อส่งข้อสอบเท่านั้น ส่วนคำตอบในโหมดฝึกที่ทำเสร็จจะถูกเก็บแล้ว').then(ok=>{if(ok){VLT_stopTimer();VLT_RUN=null;VLT_home()}})}}
-function VLT_finish(auto=false){const r=VLT_RUN;if(!r)return;VLT_stopTimer();const isMock=r.mode==='mock',isSprint=r.mode==='sprint';let total=0,score=0,scored=[];
+/* T1 merge: base finish engine; the single merged VLT_finish dispatcher is defined at end of file. */
+function VLT_finishBase(auto=false){const r=VLT_RUN;if(!r)return;VLT_stopTimer();const isMock=r.mode==='mock',isSprint=r.mode==='sprint';let total=0,score=0,scored=[];
  if(isMock){const rawCorrect=r.qs.filter(q=>r.answers[q.id]===q.answer).length;const speaking=r.qs.filter(q=>['qr','short','long'].includes(q.category));const reading=r.qs.filter(q=>['tc','rc'].includes(q.category));const spOK=speaking.filter(q=>r.answers[q.id]===q.answer).length;const rdOK=reading.filter(q=>r.answers[q.id]===q.answer).length;score=Math.round((speaking.length?spOK/speaking.length*50:0)+(reading.length?rdOK/reading.length*50:0));total=100;scored=r.qs.map(q=>({...q,userAnswer:r.answers[q.id]}));for(const q of r.qs){const answered=Number.isInteger(r.answers[q.id]);if(answered){const ok=r.answers[q.id]===q.answer;VLT_record(q,ok,false);}else{VLT_STATE.missed[q.id]=(VLT_STATE.missed[q.id]||0)+1;}}if(Number(r.setNo)>=1&&Number(r.setNo)<=20){const prev=VLT_STATE.completedSets[r.setNo];VLT_STATE.completedSets[r.setNo]={score,attempts:(prev&&prev.attempts||0)+1,best:Math.max(score,prev&&prev.best||0),date:VLT_day()};}VLT_STATE.scoreScale=100;VLT_STATE.xp+=score;}
  else{total=Object.keys(r.answers).length;score=isSprint?r.score:r.score;scored=r.qs.slice(0,Math.min(r.index+1,r.qs.length)).filter(q=>Number.isInteger(r.answers[q.id])).map(q=>({...q,userAnswer:r.answers[q.id]}));if(r.mode==='daily')VLT_STATE.dailyDone=VLT_day();VLT_STATE.xp+=r.mode==='daily'?20:isSprint?Math.max(5,score*2):5;}
  VLT_STATE.history.push({mode:r.mode,setNo:r.setNo||null,score,total,at:new Date().toISOString(),rawScore:isMock?scored.filter(q=>q.userAnswer===q.answer).length:null,categories:isMock?VLT_CATS.map(c=>({cat:c[0],total:r.qs.filter(q=>q.category===c[0]).length,score:r.qs.filter(q=>q.category===c[0]&&r.answers[q.id]===q.answer).length})):[]});VLT_STATE.history=VLT_STATE.history.slice(-80);VLT_updateBadges();VLT_save();VLT_RUN=null;VLT_RESULT={mode:r.mode,score,total,scored,auto,setNo:r.setNo||null};VLT_renderResult();}
@@ -1193,6 +1194,8 @@ studioUpdateChrome=function(page){const r=studioOriginalChromeV6.apply(this,argu
  window.__TGAT1_PERSONAL_V9__=true;
  const TARGET_KEY='tgat1_personal_target_score_v1';
  const VLT_RUN_KEY='tgat1_vlt_active_run_v1';
+/* T1 merge: exposed for the merged VLT_finish dispatcher. */
+window.TGAT1_VLT_RUN_KEY=VLT_RUN_KEY;
  const DAY_KEY='tgat1_personal_study_days_v1';
  const safeRead=(k,fb)=>{try{const v=JSON.parse(localStorage.getItem(k)||'null');return v==null?fb:v}catch(e){return fb}};
  const safeWrite=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}};
@@ -1336,8 +1339,7 @@ studioUpdateChrome=function(page){const r=studioOriginalChromeV6.apply(this,argu
  VLT_renderQuiz=function(){const r=oldRenderQuiz.apply(this,arguments);saveVltRun();return r};
  const oldBegin=VLT_begin;
  VLT_begin=function(run){const r=oldBegin.apply(this,arguments);saveVltRun();return r};
- const oldFinish=VLT_finish;
- VLT_finish=function(){const r=oldFinish.apply(this,arguments);localStorage.removeItem(VLT_RUN_KEY);return r};
+ /* T1 merge: VLT_finish wrapper folded into the merged dispatcher at end of file. */
  const oldExit=VLT_exit;
  VLT_exit=function(){const before=VLT_RUN;const r=oldExit.apply(this,arguments);if(before&&!VLT_RUN)localStorage.removeItem(VLT_RUN_KEY);return r};
  window.addEventListener('pagehide',saveVltRun);
@@ -1575,6 +1577,8 @@ VLT_home=function(){VLT_homeOriginalV12.apply(this,arguments);const view=documen
 
 // Add uncertain-question flags and per-question timing to mock mode.
 function VLT_stampCurrentV12(){const r=VLT_RUN;if(!r||r.mode!=='mock')return;const q=r.qs&&r.qs[r.index];if(!q)return;r.questionTimes=r.questionTimes||{};const start=Number(r.questionStartedAt)||Date.now();const sec=Math.max(0,(Date.now()-start)/1000);r.questionTimes[q.id]=(Number(r.questionTimes[q.id])||0)+sec;r.questionStartedAt=Date.now()}
+/* T1 merge: exposed for the merged VLT_finish dispatcher. */
+window.TGAT1_v12StampCurrent=VLT_stampCurrentV12;
 function VLT_toggleFlagV12(){const r=VLT_RUN;if(!r||r.mode!=='mock')return;const q=VLT_current();if(!q)return;r.flagged=r.flagged||{};if(r.flagged[q.id])delete r.flagged[q.id];else r.flagged[q.id]=true;VLT_renderQuiz()}
 window.VLT_toggleFlagV12=VLT_toggleFlagV12;
 const VLT_beginOriginalV12=VLT_begin;
@@ -1595,12 +1599,7 @@ const VLT_gotoOriginalV12=VLT_goto;
 VLT_goto=function(i){if(VLT_RUN&&VLT_RUN.mode==='mock'&&i!==VLT_RUN.index)VLT_stampCurrentV12();return VLT_gotoOriginalV12.apply(this,arguments)};
 const VLT_nextOriginalV12=VLT_next;
 VLT_next=function(){if(VLT_RUN&&VLT_RUN.mode==='mock'&&VLT_RUN.index<VLT_RUN.qs.length-1)VLT_stampCurrentV12();return VLT_nextOriginalV12.apply(this,arguments)};
-const VLT_finishOriginalV12=VLT_finish;
-VLT_finish=function(auto){const r=VLT_RUN;if(r&&r.mode==='mock'){VLT_stampCurrentV12();const vals=Object.values(r.questionTimes||{}).filter(Number.isFinite);r.v12Summary={avgSeconds:vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null,visited:vals.length,totalSeconds:vals.reduce((a,b)=>a+b,0),flagged:Object.keys(r.flagged||{}).filter(k=>r.flagged[k]).length};}
- const ret=VLT_finishOriginalV12.apply(this,arguments);
- if(VLT_RESULT&&r&&r.v12Summary){VLT_RESULT.v12Summary=r.v12Summary;const h=VLT_STATE.history[VLT_STATE.history.length-1];if(h&&h.mode==='mock'&&h.setNo===(r.setNo||null)){h.avgSeconds=r.v12Summary.avgSeconds;h.visited=r.v12Summary.visited;h.flagged=r.v12Summary.flagged;VLT_save()}VLT_renderResult()}
- return ret;
-};
+/* T1 merge: v12 per-question timing summary folded into the merged VLT_finish dispatcher. */
 const VLT_renderResultOriginalV12=VLT_renderResult;
 VLT_renderResult=function(){const ret=VLT_renderResultOriginalV12.apply(this,arguments);const r=VLT_RESULT;if(!r||!r.v12Summary)return ret;const el=document.querySelector('#app .vault-view .vault-hero');if(el&&!el.querySelector('.v12-time-summary')){const z=r.v12Summary,avg=z.avgSeconds==null?'—':`${Math.round(z.avgSeconds)} วินาที`;el.insertAdjacentHTML('beforeend',`<div class="v12-time-summary"><b>⏱️ สถิติเวลาทำข้อสอบ</b><div>เวลาเฉลี่ยต่อข้อที่เข้าถึง: <strong>${avg}</strong> · เปิดดู ${z.visited}/60 ข้อ</div><div>เวลาที่บันทึกได้: ${Math.round(z.totalSeconds/60)} นาที · ข้อที่ปักธงไม่มั่นใจ: ${z.flagged} ข้อ</div><small>ค่าเฉลี่ยเป็นเวลาที่อยู่บนแต่ละข้อโดยประมาณ; การสลับแท็บหรือพักหน้าจออาจทำให้เวลาสูงกว่าการคิดจริง</small></div>`)}return ret};
 // Keep random-mock retry on the random pool, not on fixed Set 1.
@@ -2168,6 +2167,8 @@ window.studioStartFlashcards=function(){const due=Object.entries(STUDIO_VSTATE.i
  function readDraft(){try{const x=JSON.parse(localStorage.getItem(KEY)||'null');if(!x||x.version!==1||!x.payload)return null;const raw=JSON.stringify(x.payload);if(hash(raw)!==x.checksum)return null;return normalizeRun(x.payload)}catch(e){return null}}
  function clearDraft(){try{localStorage.removeItem(KEY)}catch(e){}}
  function counts(r){const answered=r.qs.filter(q=>Number.isInteger(r.answers[q.id])&&r.answers[q.id]>=0&&r.answers[q.id]<4).length;const flagged=(r.flagged||[]).length;return {answered,unanswered:r.qs.length-answered,flagged}}
+ /* T1 merge: exposed for the merged VLT_finish dispatcher. */
+ window.TGAT1_v17Counts=counts;window.TGAT1_v17ClearDraft=clearDraft;window.TGAT1_v17SetActiveMeta=function(m){activeMeta=m};
  function renderResume(){const app=document.getElementById('app');if(!app)return;const old=app.querySelector('.v17-resume');if(old)old.remove();const draft=readDraft();if(!draft||!app.querySelector('.vault-view'))return;const head=app.querySelector('.vault-head');if(!head)return;const c=counts(draft);const left=Math.max(0,Math.ceil((draft.deadline-Date.now())/1000));const card=document.createElement('section');card.className='v17-resume';card.innerHTML=`<h3>พบข้อสอบที่ยังไม่ส่ง · ชุด ${Number(draft.setNo)||1}</h3><p>ทำแล้ว ${c.answered}/60 ข้อ · ยังไม่ตอบ ${c.unanswered} · ติดธง ${c.flagged}<br>เวลาที่เหลือ ${String(Math.floor(left/60)).padStart(2,'0')}:${String(left%60).padStart(2,'0')} — เวลายังคงเดินต่อแม้ปิดแอป</p><div class="v17-tools-row"><button class="v17-btn primary" onclick="V17_resumeDraft()">กลับไปทำข้อสอบต่อ</button><button class="v17-btn" onclick="V17_discardDraft()">ทิ้งรอบสอบที่ค้าง</button></div>`;
  head.insertAdjacentElement('afterend',card)}
  window.V17_resumeDraft=function(){const draft=readDraft();if(!draft){clearDraft();if(typeof VLT_toast==='function')VLT_toast('ไม่พบรอบสอบที่กู้คืนได้ หรือไฟล์บันทึกไม่สมบูรณ์');renderResume();return}if(draft.deadline<=Date.now()){TGConfirm('เวลาสอบของรอบที่ค้างหมดแล้ว ต้องการส่งคำตอบที่บันทึกไว้ทันทีหรือไม่?').then(ok=>{if(ok){VLT_RUN=draft;VLT_finish(true)}});return}resumeInProgress=true;try{VLT_begin(draft)}finally{resumeInProgress=false}if(typeof VLT_toast==='function')VLT_toast('กู้คืนรอบสอบแล้ว เวลายังคงนับต่อจากเดิม')};
@@ -2189,8 +2190,7 @@ window.studioStartFlashcards=function(){const due=Object.entries(STUDIO_VSTATE.i
  const oldHome=VLT_home;VLT_home=function(){oldHome.apply(this,arguments);renderResume()};
  const oldResult=VLT_renderResult;
  VLT_renderResult=function(){oldResult.apply(this,arguments);if(!activeMeta)return;const app=document.getElementById('app');if(!app||app.querySelector('.v17-result'))return;const m=activeMeta;const el=document.createElement('section');el.className='v17-result';el.innerHTML=`<h3>📋 สรุปการบริหารเวลาและความมั่นใจ</h3><div class="v17-result-grid"><div><b>${m.duration}</b><small>เวลาที่ใช้</small></div><div><b>${m.answered}/60</b><small>ตอบแล้ว</small></div><div><b>${m.unanswered}</b><small>ไม่ได้ตอบ</small></div><div><b>${m.flagged}</b><small>ข้อที่ติดธง</small></div><div><b>${m.corrected}</b><small>คำตอบที่ถูก</small></div><div><b>${m.auto?'หมดเวลา':'ส่งด้วยตนเอง'}</b><small>วิธีจบข้อสอบ</small></div></div><p class="v17-muted">ข้อที่ติดธงเป็นเครื่องหมายความไม่มั่นใจ ไม่ได้เปลี่ยนคะแนน และสามารถนำไปทบทวนหลังสอบได้</p>${m.flaggedIds.length?`<p class="v17-muted"><b>ข้อที่ติดธง:</b> ${m.flaggedIds.map(id=>esc(id)).join(' · ')}</p>`:'<p class="v17-muted">รอบนี้ไม่มีข้อที่ติดธง</p>'}`;const head=app.querySelector('.vault-head');if(head)head.insertAdjacentElement('afterend',el);else app.prepend(el)};
- const oldFinish=VLT_finish;
- VLT_finish=function(auto=false){const r=VLT_RUN;if(r&&r.mode==='mock'){const c=counts(r);const elapsed=Math.max(0,Date.now()-(r.started||Date.now()));const mm=Math.floor(elapsed/60000),ss=Math.floor(elapsed%60000/1000);activeMeta={duration:mm+' นาที '+ss+' วินาที',answered:c.answered,unanswered:c.unanswered,flagged:c.flagged,flaggedIds:[...(r.flagged||[])],corrected:r.qs.filter(q=>r.answers[q.id]===q.answer).length,auto:!!auto};}oldFinish.apply(this,arguments);if(r&&r.mode==='mock'){clearDraft();const h=VLT_STATE.history&&VLT_STATE.history[VLT_STATE.history.length-1];if(h&&h.mode==='mock'){h.durationMs=Math.max(0,Date.now()-(r.started||Date.now()));h.answered=activeMeta.answered;h.unanswered=activeMeta.unanswered;h.flagged=activeMeta.flagged;h.autoSubmitted=!!auto;try{VLT_save()}catch(e){}}}}
+/* T1 merge: v17 exam activeMeta + draft cleanup folded into the merged VLT_finish dispatcher. */
  window.addEventListener('pagehide',()=>{if(VLT_RUN&&VLT_RUN.mode==='mock')writeDraft(VLT_RUN)});
  window.addEventListener('beforeunload',e=>{if(VLT_RUN&&VLT_RUN.mode==='mock'){writeDraft(VLT_RUN);e.preventDefault();e.returnValue='ข้อสอบยังไม่ถูกส่ง คำตอบจะถูกบันทึกไว้เพื่อกลับมาทำต่อ'}});
  // Ensure any valid draft is surfaced when the app enters its exam home.
@@ -2343,10 +2343,11 @@ window.addEventListener('pagehide',pauseTime);
 const oldRenderQuiz=window.VLT_renderQuiz;
 if(typeof oldRenderQuiz==='function')window.VLT_renderQuiz=function(){onQuizRender();return oldRenderQuiz.apply(this,arguments)};
 function makeTimingSummary(r){const rows=(r.qs||[]).map(q=>({id:q.id,category:q.category,ms:Math.max(0,Number(timeValues[q.id])||0),answered:Number.isInteger(r.answers&&r.answers[q.id])}));const visited=rows.filter(x=>x.ms>0);const total=visited.reduce((n,x)=>n+x.ms,0);const byCategory={};Object.keys(names).forEach(c=>{const a=rows.filter(x=>x.category===c&&x.ms>0),sum=a.reduce((n,x)=>n+x.ms,0);byCategory[c]={visited:a.length,totalMs:sum,avgMs:a.length?Math.round(sum/a.length):0}});return {runKey:timeSession,setNo:r.setNo||null,at:new Date().toISOString(),totalMs:total,visited:visited.length,avgMs:visited.length?Math.round(total/visited.length):0,byCategory,slowest:visited.slice().sort((a,b)=>b.ms-a.ms).slice(0,5),answered:rows.filter(x=>x.answered).length,totalQuestions:rows.length}}
+/* T1 merge: v19 active-tab timing capture, exposed for the merged VLT_finish dispatcher. */
+window.TGAT1_v19CaptureTiming=function(){const r=currentRun();if(r&&r.mode==='mock'){accrue();const summary=makeTimingSummary(r);summary.elapsedMode='active-tab-visible-time';const hist=readJSON(TIMING_HISTORY_KEY,[]);hist.push(summary);writeJSON(TIMING_HISTORY_KEY,hist.slice(-30));window.__TGAT1_V19_LAST_TIMING__=summary;timeQuestion=null;timeStarted=0;saveTime()}};
 function formatMs(ms){const sec=Math.round((Number(ms)||0)/1000);return Math.floor(sec/60)+' นาที '+(sec%60)+' วินาที'}
 function renderTimingCard(summary){if(!summary||!document.getElementById('app')||document.getElementById('tgat19-timing-card'))return;const rows=Object.entries(summary.byCategory).filter(([,x])=>x.visited).map(([c,x])=>`<div class="tgat19-row"><span>${esc(names[c])} · ${x.visited} ข้อที่เข้าถึง</span><b>${formatMs(x.avgMs)}/ข้อ</b></div>`).join('');const slow=summary.slowest.map(x=>`<div class="tgat19-row"><span>${esc(x.id)} · ${esc(names[x.category]||x.category)}</span><b>${formatMs(x.ms)}</b></div>`).join('');const el=document.createElement('section');el.id='tgat19-timing-card';el.className='tgat19-card tgat19-timing';el.innerHTML=`<div class="st-eyebrow">ACTIVE-TAB TIMING</div><h3 style="margin:5px 0">วิเคราะห์เวลาต่อข้อ</h3><p class="tgat19-muted">นับเฉพาะเวลาที่หน้าแอปอยู่เบื้องหน้า · หากสลับแอปหรือซ่อนแท็บจะหยุดนับ · เวลานี้เป็นตัวช่วยวางแผน ไม่ใช่ตัวชี้วัดความสามารถ</p><div class="tgat19-timing-grid"><div class="tgat19-kpi"><b>${formatMs(summary.totalMs)}</b><small>เวลาที่นับได้</small></div><div class="tgat19-kpi"><b>${summary.visited}/${summary.totalQuestions}</b><small>ข้อที่เข้าถึง</small></div><div class="tgat19-kpi"><b>${formatMs(summary.avgMs)}</b><small>เฉลี่ยต่อข้อที่เข้าถึง</small></div></div>${rows?'<h4>เฉลี่ยตามทักษะ</h4>'+rows:''}${slow?'<h4 style="margin-top:12px">5 ข้อที่ใช้เวลามากที่สุด</h4>'+slow:''}<p class="tgat19-muted" style="margin-top:10px">ข้อมูลเวลาถูกเก็บในเครื่องและรวมอยู่ในไฟล์ Backup ของแอป</p>`;const app=document.getElementById('app');const head=app.querySelector('.vault-head');if(head)head.insertAdjacentElement('afterend',el);else app.prepend(el)}
-const oldFinish=window.VLT_finish;
-if(typeof oldFinish==='function')window.VLT_finish=function(){const r=currentRun();if(r&&r.mode==='mock'){accrue();const summary=makeTimingSummary(r);summary.elapsedMode='active-tab-visible-time';const hist=readJSON(TIMING_HISTORY_KEY,[]);hist.push(summary);writeJSON(TIMING_HISTORY_KEY,hist.slice(-30));window.__TGAT1_V19_LAST_TIMING__=summary;timeQuestion=null;timeStarted=0;saveTime()}return oldFinish.apply(this,arguments)};
+/* T1 merge: v19 active-tab timing capture folded into the merged VLT_finish dispatcher. */
 const oldRenderResult=window.VLT_renderResult;
 if(typeof oldRenderResult==='function')window.VLT_renderResult=function(){const ret=oldRenderResult.apply(this,arguments);if(currentResult()&&currentResult().mode==='mock'&&window.__TGAT1_V19_LAST_TIMING__)renderTimingCard(window.__TGAT1_V19_LAST_TIMING__);return ret};
 // Clear live timing state only after a genuinely different mock starts; resume keeps the same run key.
@@ -2884,23 +2885,7 @@ window.TGAT1_addGameHook(function(){const head=[...document.querySelectorAll('.s
   window.TGAT1Adaptive={start,analyze,buildQuestions,refresh:decorate};
   if(typeof window.studioHome==='function')window.TGAT1_addHomeHook(function(){decorate();});
   if(typeof window.studioAnalytics==='function')window.TGAT1_addAnalyticsHook(function(){decorate();});
-  if(typeof window.VLT_finish==='function'){
-    const original=window.VLT_finish;
-    window.VLT_finish=function(){
-      const run=typeof VLT_RUN!=='undefined'?VLT_RUN:null,meta=run&&run.adaptiveMeta?run.adaptiveMeta:null;
-      const result=original.apply(this,arguments);
-      if(meta&&typeof VLT_STATE!=='undefined'&&Array.isArray(VLT_STATE.history)){ 
-        const h=VLT_STATE.history[VLT_STATE.history.length-1];
-        if(h&&h.mode==='practice'&&Array.isArray(run.qs)){
-          const cats={};
-          run.qs.forEach(q=>{const x=cats[q.category]||(cats[q.category]={cat:q.category,total:0,score:0});x.total++;if(run.answers[q.id]===q.answer)x.score++;});
-          h.categories=Object.values(cats);h.adaptive=true;h.adaptiveTarget=meta.target||null;
-          if(typeof VLT_save==='function')VLT_save();
-        }
-      }
-      return result;
-    };
-  }
+  /* T1 merge: adaptive-practice history annotation folded into the merged VLT_finish dispatcher. */
   // Keep time analysis honest: it uses completed timed mock sessions only.
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',decorate,{once:true});else decorate();
 })();
@@ -5945,3 +5930,46 @@ function TG_summary(o){const safe=s=>typeof window.studioEsc==='function'?window
     if(kind==='syn')return sameSyn||family(w,y);if(kind==='ant')return isAnt||family(w,y);return sameSyn||isAnt}
   window.TGAT1MatchGuard=Object.freeze({conflict,info,thaiOverlap,related});
 })();
+
+/* T1 merge: single VLT_finish dispatcher composing the former v9/v12/v17/v19/v21 wrapper
+   chain. Execution order matches the original nesting (outermost first):
+   v21 adaptive capture -> v19 timing capture -> v17 activeMeta -> v12 per-question summary
+   -> base finish -> v9 draft cleanup -> v12 result annotation -> v17 history -> v21 history. */
+function VLT_finish(auto){
+  const run=VLT_RUN,meta=run&&run.adaptiveMeta?run.adaptiveMeta:null;
+  if(window.TGAT1_v19CaptureTiming)window.TGAT1_v19CaptureTiming();
+  const r=VLT_RUN;let v17Meta=null;
+  if(r&&r.mode==='mock'){
+    const c=window.TGAT1_v17Counts(r);
+    const elapsed=Math.max(0,Date.now()-(r.started||Date.now()));
+    const mm=Math.floor(elapsed/60000),ss=Math.floor(elapsed%60000/1000);
+    v17Meta={duration:mm+' นาที '+ss+' วินาที',answered:c.answered,unanswered:c.unanswered,flagged:c.flagged,flaggedIds:[...(r.flagged||[])],corrected:r.qs.filter(q=>r.answers[q.id]===q.answer).length,auto:!!auto};
+    window.TGAT1_v17SetActiveMeta(v17Meta);
+    window.TGAT1_v12StampCurrent();
+    const vals=Object.values(r.questionTimes||{}).filter(Number.isFinite);
+    r.v12Summary={avgSeconds:vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null,visited:vals.length,totalSeconds:vals.reduce((a,b)=>a+b,0),flagged:Object.keys(r.flagged||{}).filter(k=>r.flagged[k]).length};
+  }
+  const ret=VLT_finishBase.apply(this,arguments);
+  try{localStorage.removeItem(window.TGAT1_VLT_RUN_KEY)}catch(e){}
+  if(VLT_RESULT&&r&&r.v12Summary){
+    VLT_RESULT.v12Summary=r.v12Summary;
+    const h=VLT_STATE.history[VLT_STATE.history.length-1];
+    if(h&&h.mode==='mock'&&h.setNo===(r.setNo||null)){h.avgSeconds=r.v12Summary.avgSeconds;h.visited=r.v12Summary.visited;h.flagged=r.v12Summary.flagged;VLT_save()}
+    VLT_renderResult();
+  }
+  if(r&&r.mode==='mock'){
+    window.TGAT1_v17ClearDraft();
+    const h=VLT_STATE.history&&VLT_STATE.history[VLT_STATE.history.length-1];
+    if(h&&h.mode==='mock'){h.durationMs=Math.max(0,Date.now()-(r.started||Date.now()));h.answered=v17Meta.answered;h.unanswered=v17Meta.unanswered;h.flagged=v17Meta.flagged;h.autoSubmitted=!!auto;try{VLT_save()}catch(e){}}
+  }
+  if(meta&&typeof VLT_STATE!=='undefined'&&Array.isArray(VLT_STATE.history)){
+    const h=VLT_STATE.history[VLT_STATE.history.length-1];
+    if(h&&h.mode==='practice'&&Array.isArray(run.qs)){
+      const cats={};
+      run.qs.forEach(q=>{const x=cats[q.category]||(cats[q.category]={cat:q.category,total:0,score:0});x.total++;if(run.answers[q.id]===q.answer)x.score++;});
+      h.categories=Object.values(cats);h.adaptive=true;h.adaptiveTarget=meta.target||null;
+      if(typeof VLT_save==='function')VLT_save();
+    }
+  }
+  return ret;
+}
