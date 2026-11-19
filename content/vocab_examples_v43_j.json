@@ -1,0 +1,371 @@
+[
+ {
+  "w": "diploma",
+  "sense": 0,
+  "example": "She framed her diploma and hung it above the desk.",
+  "translation": "เธอใส่กรอบประกาศนียบัตรวิชาชีพแล้วแขวนไว้เหนือโต๊ะ",
+  "example2": "Every diploma in the room was earned through years of work."
+ },
+ {
+  "w": "disagreement",
+  "sense": 0,
+  "example": "Their disagreement on the plan ended with a compromise.",
+  "translation": "ความไม่เห็นพ้องกันของพวกเขาเกี่ยวกับแผนจบลงด้วยการประนีประนอม",
+  "example2": "A short disagreement shaped a better final version."
+ },
+ {
+  "w": "disaster relief",
+  "sense": 0,
+  "example": "Disaster relief teams reached the flooded village within a day.",
+  "translation": "ทีมบรรเทาทุกข์ภัยพิบัติถึงหมู่บ้านที่ถูกน้ำท่วมภายในหนึ่งวัน"
+ },
+ {
+  "w": "displacement",
+  "sense": 0,
+  "example": "The storm caused the displacement of families along the coast.",
+  "translation": "พายุทำให้เกิดการพลัดถิ่นของครอบครัวตามแนวชายฝั่ง",
+  "example2": "Every displacement of people strains the local shelters."
+ },
+ {
+  "w": "disruption",
+  "sense": 0,
+  "example": "The rail disruption added two hours to every commuter's day.",
+  "translation": "การหยุดชะงักของการรถไฟเพิ่มสองชั่วโมงให้กับทุกวันของผู้เดินทาง",
+  "example2": "One small disruption changed the whole schedule."
+ },
+ {
+  "w": "dissent",
+  "sense": 0,
+  "example": "His dissent on the policy was recorded in the meeting notes.",
+  "translation": "ความเห็นต่างของเขาเกี่ยวกับนโยบายถูกบันทึกไว้ในบันทึกการประชุม"
+ },
+ {
+  "w": "distinction",
+  "sense": 0,
+  "example": "The distinction between the two species was clear under the lens.",
+  "translation": "ความแตกต่างระหว่างสองสปีชีส์ชัดเจนภายใต้เลนส์",
+  "example2": "Her distinction in the exam earned a scholarship."
+ },
+ {
+  "w": "diversification",
+  "sense": 0,
+  "example": "Diversification of crops protects farmers from one bad season.",
+  "translation": "การกระจายความเสี่ยง/ความหลากหลายของพืชผลปกป้องเกษตรกรจากฤดูกาลที่เสียหายหนึ่งฤดู"
+ },
+ {
+  "w": "diversity",
+  "sense": 0,
+  "example": "The city's diversity shows in its food, music and festivals.",
+  "translation": "ความหลากหลายของเมืองปรากฏในอาหาร ดนตรี และเทศกาล"
+ },
+ {
+  "w": "dominance",
+  "sense": 0,
+  "example": "The team's dominance in the league grew over the second half.",
+  "translation": "การครอบงำของทีมในลีกเพิ่มขึ้นตลอดครึ่งหลังของฤดูกาล"
+ },
+ {
+  "w": "donation",
+  "sense": 0,
+  "example": "Every donation to the fund bought books for the school.",
+  "translation": "การบริจาคทุกรายการให้กองทุนซื้อหนังสือให้โรงเรียน",
+  "example2": "A single donation paid for the new computers."
+ },
+ {
+  "w": "downturn",
+  "sense": 0,
+  "example": "The downturn in trade forced the shop to cut its hours.",
+  "translation": "ภาวะตกต่ำของการค้าบังคับให้ร้านลดเวลาเปิด",
+  "example2": "Every downturn tests the strength of a business."
+ },
+ {
+  "w": "drought",
+  "sense": 0,
+  "example": "The drought dried the wells and forced the crops to fail.",
+  "translation": "ภัยแล้งทำให้บ่อน้ำแห้งและพืชผลเสียหาย",
+  "example2": "A long drought changed the way the village farmed."
+ },
+ {
+  "w": "earnings",
+  "sense": 0,
+  "example": "Her earnings from the extra shift covered the rent.",
+  "translation": "รายได้จากเวรพิเศษของเธอครอบคลุมค่าเช่า"
+ },
+ {
+  "w": "earthquake",
+  "sense": 0,
+  "example": "The earthquake cracked the walls but left the school standing.",
+  "translation": "แผ่นดินไหวทำให้ผนังแตกร้าวแต่โรงเรียนยังคงตั้งอยู่",
+  "example2": "Every earthquake in the region is recorded by the station."
+ },
+ {
+  "w": "ecology",
+  "sense": 0,
+  "example": "The lecture on ecology explained every link in the food chain.",
+  "translation": "บรรยายเรื่องนิเวศวิทยาอธิบายความเชื่อมโยงทุกข้อในห่วงโซ่อาหาร"
+ },
+ {
+  "w": "economic growth",
+  "sense": 0,
+  "example": "Economic growth lifted the income of every village household.",
+  "translation": "การเติบโตทางเศรษฐกิจยกระดับรายได้ของทุกครัวเรือนในหมู่บ้าน",
+  "example2": "Economic growth depends on a stable and fair market."
+ },
+ {
+  "w": "ecosystem",
+  "sense": 0,
+  "example": "The wetland ecosystem balances birds, fish and plants together.",
+  "translation": "ระบบนิเวศพื้นที่ชุ่มน้ำสร้างสมระหว่างนก ปลา และพืช",
+  "example2": "Every ecosystem needs clean water to survive."
+ },
+ {
+  "w": "educator",
+  "sense": 0,
+  "example": "The educator planned lessons that fit every level of the class.",
+  "translation": "นักการศึกษาวางแผนบทเรียนให้เหมาะกับทุกระดับของชั้นเรียน",
+  "example2": "Every educator in the school joined the seminar."
+ },
+ {
+  "w": "efficacy",
+  "sense": 0,
+  "example": "The study measured the efficacy of the new drug over a year.",
+  "translation": "งานวิจัยวัดประสิทธิผลของวิธี/การรักษาด้วยยาใหม่ตลอดหนึ่งปี",
+  "example2": "The efficacy of the training was clear within weeks."
+ },
+ {
+  "w": "emergence",
+  "sense": 0,
+  "example": "The emergence of the new industry changed the town's fortunes.",
+  "translation": "การเกิดขึ้นของอุตสาหกรรมใหม่เปลี่ยนโชคชะตาของเมือง"
+ },
+ {
+  "w": "emergency",
+  "sense": 0,
+  "example": "Every emergency drill at the hospital was run on a fixed day.",
+  "translation": "การซ้อมเหตุฉุกเฉินทุกครั้งของโรงพยาบาลดำเนินในวันที่กำหนดไว้",
+  "example2": "The emergency team arrived within five minutes."
+ },
+ {
+  "w": "emergency exit",
+  "sense": 0,
+  "example": "The emergency exit at the theatre stays locked until needed.",
+  "translation": "ทางออกฉุกเฉินของโรงละครยังล็อกอยู่จนกว่าจะจำเป็น",
+  "example2": "Signs mark every emergency exit in the building."
+ },
+ {
+  "w": "emphasis",
+  "sense": 0,
+  "example": "The teacher put the emphasis on practice rather than theory.",
+  "translation": "ครูเน้นย้ำไปที่การฝึกฝนมากกว่าทฤษฎี"
+ },
+ {
+  "w": "empirical evidence",
+  "sense": 0,
+  "example": "The argument rests on empirical evidence from the field study.",
+  "translation": "ข้อโต้แย้งตั้งอยู่บนหลักฐานเชิงประจักษ์จากการศึกษาภาคสนาม",
+  "example2": "Every claim needs empirical evidence to stand."
+ },
+ {
+  "w": "employee",
+  "sense": 0,
+  "example": "The firm rewards every employee who suggests a better process.",
+  "translation": "บริษัทให้รางวัลลูกจ้างทุกคนที่เสนอกระบวนการที่ดีกว่า",
+  "example2": "Each employee received a clear handbook on day one."
+ },
+ {
+  "w": "employer",
+  "sense": 0,
+  "example": "A good employer keeps the workload fair for everyone.",
+  "translation": "นายจ้างที่ดีรักษาปริมาณงานให้เป็นธรรมกับทุกคน",
+  "example2": "Every employer in the district joined the training."
+ },
+ {
+  "w": "endorsement",
+  "sense": 0,
+  "example": "The product's endorsement by a famous chef sold out the stock in a day.",
+  "translation": "การรับรองผลิตภัณฑ์โดยเชฟชื่อดังทำให้สินค้าหมดสต็อกภายในหนึ่งวัน",
+  "example2": "His endorsement of the plan settled the debate."
+ },
+ {
+  "w": "equity",
+  "sense": 0,
+  "example": "The policy on equity ensures every student gets a fair chance.",
+  "translation": "นโยบายความเป็นธรรมรับประกันว่านักเรียนทุกคนได้รับโอกาสที่เท่าเทียม"
+ },
+ {
+  "w": "eruption",
+  "sense": 0,
+  "example": "The eruption covered the fields with a thick layer of ash.",
+  "translation": "การปะทุทำให้ทุ่งนาปกคลุมไปด้วยชั้นเถ้าหนา",
+  "example2": "The eruption warning lifted after two quiet days."
+ },
+ {
+  "w": "essay",
+  "sense": 0,
+  "example": "Her essay on the subject won the first prize in the contest.",
+  "translation": "เรียงความของเธอเกี่ยวกับหัวข้อนี้ได้รับรางวัลที่หนึ่งในการแข่งขัน",
+  "example2": "Every essay in the folder was read twice."
+ },
+ {
+  "w": "establishment",
+  "sense": 0,
+  "example": "The establishment of the clinic took the village a full year.",
+  "translation": "การจัดตั้งคลินิกใช้เวลาของหมู่บ้านเต็มหนึ่งปี",
+  "example2": "The establishment of the council changed the local rules."
+ },
+ {
+  "w": "ethics",
+  "sense": 0,
+  "example": "The course on ethics asks students to weigh every choice.",
+  "translation": "หลักสูตรจริยธรรมให้นักเรียนชั่งน้ำหนักทุกการตัดสินใจ"
+ },
+ {
+  "w": "evacuation",
+  "sense": 0,
+  "example": "The evacuation of the town moved everyone to the high ground.",
+  "translation": "การอพยพของเมืองย้ายทุกคนไปยังพื้นที่สูง",
+  "example2": "Every evacuation plan was practised last month."
+ },
+ {
+  "w": "evaluation",
+  "sense": 0,
+  "example": "The evaluation of the programme found two clear weaknesses.",
+  "translation": "การประเมินโครงการพบจุดอ่อนสองจุดที่ชัดเจน",
+  "example2": "A final evaluation closed the whole project."
+ },
+ {
+  "w": "exaggeration",
+  "sense": 0,
+  "example": "His exaggeration about the storm amused the whole newsroom.",
+  "translation": "การพูดเกินจริงของเขาเกี่ยวกับพายุทำให้ห้องข่าวทั้งหมดขบขัน",
+  "example2": "The story is a mild exaggeration of the facts."
+ },
+ {
+  "w": "examination",
+  "sense": 0,
+  "example": "The final examination in maths takes three full hours.",
+  "translation": "การสอบปลายภาคคณิตศาสตร์ใช้เวลาสามชั่วโมงเต็ม",
+  "example2": "Every examination in the week was closed-book."
+ },
+ {
+  "w": "examiner",
+  "sense": 0,
+  "example": "The examiner checked every answer before signing the sheet.",
+  "translation": "ผู้คุมสอบตรวจสอบคำตอบทุกข้อก่อนเซ็นชื่อในกระดาษคำตอบ",
+  "example2": "The examiner had taught the class for two years."
+ },
+ {
+  "w": "exclusion",
+  "sense": 0,
+  "example": "The exclusion of the old rule cleared the way for new ideas.",
+  "translation": "การกีดกันกฎเก่าทำให้เส้นทางสู่แนวคิดใหม่โล่ง",
+  "example2": "His exclusion from the team surprised everyone."
+ },
+ {
+  "w": "executive",
+  "sense": 0,
+  "example": "The executive approved the budget after a short review.",
+  "translation": "ผู้บริหารอนุมัติงบประมาณหลังจากทบทวนสั้นๆ",
+  "example2": "Every executive in the board joined the call."
+ },
+ {
+  "w": "expense",
+  "sense": 0,
+  "example": "The expense of the trip was shared by the whole team.",
+  "translation": "ค่าใช้จ่ายของการเดินทางถูกแบ่งกันโดยทั้งทีม",
+  "example2": "Every expense in the report was itemised."
+ },
+ {
+  "w": "exploitation",
+  "sense": 0,
+  "example": "The report criticised the exploitation of child labour.",
+  "translation": "รายงานวิจารณ์การแสวงหาประโยชน์จากการใช้แรงงานเด็ก"
+ },
+ {
+  "w": "extinction",
+  "sense": 0,
+  "example": "The extinction of the species would erase a unique heritage.",
+  "translation": "การสูญพันธุ์ของสัตว์ชนิดนี้จะลบมรดกที่ไม่เหมือนใคร",
+  "example2": "Every step now matters in the fight against extinction."
+ },
+ {
+  "w": "extrovert",
+  "sense": 0,
+  "example": "The extrovert at the table kept the whole group laughing.",
+  "translation": "คนชอบเข้าสังคมที่โต๊ะทำให้ทั้งกลุ่มหัวเราะตลอด",
+  "example2": "Every extrovert in the class loves group work."
+ },
+ {
+  "w": "fact-checking",
+  "sense": 0,
+  "example": "Slow fact-checking caught the error before the article ran.",
+  "translation": "การตรวจสอบข้อเท็จจริงที่รอบคอบจับข้อผิดพลาดก่อนบทความเผยแพร่"
+ },
+ {
+  "w": "factor",
+  "sense": 0,
+  "example": "Sleep is a key factor in every student's exam results.",
+  "translation": "การนอนเป็นปัจจัยสำคัญในผลการสอบของนักเรียนทุกคน",
+  "example2": "Every factor in the plan was listed in the table."
+ },
+ {
+  "w": "feasibility",
+  "sense": 0,
+  "example": "The feasibility study showed the plan could finish on budget.",
+  "translation": "การศึกษาความเป็นไปได้แสดงว่าแผนสามารถเสร็จตามงบ"
+ },
+ {
+  "w": "financial literacy",
+  "sense": 0,
+  "example": "The workshop on financial literacy drew a full room of parents.",
+  "translation": "การอบรมความรู้ทางการเงินดึงผู้ปกครองมาเต็มห้อง",
+  "example2": "Financial literacy starts with a simple budget."
+ },
+ {
+  "w": "finding",
+  "sense": 0,
+  "example": "Every finding in the report was checked twice before release.",
+  "translation": "ข้อค้นพบทุกข้อในรายงานถูกตรวจสอบสองครั้งก่อนเผยแพร่",
+  "example2": "The main finding shaped the whole chapter."
+ },
+ {
+  "w": "fiscal policy",
+  "sense": 0,
+  "example": "The new fiscal policy raised taxes on the largest firms.",
+  "translation": "นโยบายการคลังใหม่ขึ้นภาษีสำหรับบริษัทที่ใหญ่ที่สุด",
+  "example2": "Every fiscal policy in the decade had its critics."
+ },
+ {
+  "w": "flight",
+  "sense": 0,
+  "example": "The flight to the south was delayed by the evening storm.",
+  "translation": "เที่ยวบินสู่ภาคใต้ล่าช้าเพราะพายุยามค่ำคืน",
+  "example2": "Every flight in the morning was full."
+ },
+ {
+  "w": "flooding",
+  "sense": 0,
+  "example": "Flooding in the low area forced the market to close early.",
+  "translation": "น้ำท่วมในพื้นที่ลุ่มต่ำบังคับให้ตลาดปิดก่อนเวลา"
+ },
+ {
+  "w": "fluctuation",
+  "sense": 0,
+  "example": "Price fluctuation made the budget hard to predict.",
+  "translation": "ความผันผวนของราคาทำให้งบประมาณคาดการณ์ยาก",
+  "example2": "Every fluctuation in the data was recorded."
+ },
+ {
+  "w": "food poisoning",
+  "sense": 0,
+  "example": "Food poisoning kept half the class home for two days.",
+  "translation": "อาหารเป็นพิษทำให้นักเรียนครึ่งห้องต้องพัก домаสองวัน"
+ },
+ {
+  "w": "food safety",
+  "sense": 0,
+  "example": "Food safety checks at the market happen every morning.",
+  "translation": "การตรวจสอบความปลอดภัยด้านอาหารในตลาดเกิดขึ้นทุกเช้า",
+  "example2": "Every rule of food safety is printed on the wall."
+ }
+]
