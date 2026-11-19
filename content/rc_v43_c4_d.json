@@ -1,0 +1,312 @@
+[
+ {
+  "first": "S16-Q046",
+  "topic": "News report: city park gets a new wetland area",
+  "context": "A long-abandoned corner of the city's central park has been transformed into a small wetland area that will serve both wildlife and people. The project began two years ago when engineers drained the area, reshaped the ground to hold rainwater, and planted native reeds and water plants. Today, the wetland collects runoff from the surrounding paths and slowly filters it before it reaches the canal, reducing the muddiness of the water. Park staff have recorded more than forty bird species using the area, compared with just a handful before. Visitors can follow a wooden boardwalk that winds through the reeds, with information boards explaining how the wetland works. The project was funded by a mix of city funds and a local environmental foundation, and officials say maintenance will be low because the plants are native and hardy.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did engineers do first when creating the wetland?",
+    "key": "They drained the area and reshaped the ground.",
+    "d": [
+     "They imported exotic plants.",
+     "They filled it with tap water.",
+     "They removed all the birds."
+    ],
+    "exp": "ข่าวระบุว่าโครงการเริ่ม “when engineers drained the area, reshaped the ground to hold rainwater” จึงตอบระบายน้ำและปรับรูปดิน ตัวเลือกสร้างกำแพงคอนกรีต/นำพืชแปลก/เติมน้ำประปา/ไล่นก ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What does the wetland do to the runoff water?",
+    "key": "It filters it before it reaches the canal.",
+    "d": [
+     "It pumps it back into the canal quickly.",
+     "It turns it into drinking water.",
+     "It heats it before release."
+    ],
+    "exp": "ข่าวระบุว่า “the wetland collects runoff... and slowly filters it before it reaches the canal” จึงตอบกรองน้ำก่อนถึงคลอง ตัวเลือกเก็บไว้ใช้/สูบกลับเร็ว/ทำน้ำดื่ม/ทำให้ร้อน ขัดกับข่าว"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “the area” refer to in “using the area”?",
+    "key": "The new wetland in the central park.",
+    "d": [
+     "The canal near the park.",
+     "The information boards.",
+     "The surrounding paths."
+    ],
+    "exp": "ข้อความ “Park staff have recorded more than forty bird species using the area” อ้างถึงพื้นที่ชุ่มน้ำใหม่ในสวนสาธารณะ ตัวเลือกคลอง/ทางเดินไม้/ป้ายข้อมูล/ทางเดินรอบ ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The project was funded by a mix of city funds and a local environmental foundation.”?",
+    "key": "The project received money from both the city and a foundation.",
+    "d": [
+     "The foundation funded the project alone.",
+     "The project was funded by local businesses.",
+     "The project received no external funding."
+    ],
+    "exp": "ใจความคือโครงการได้รับเงินจากทั้งเมืองและมูลนิธิสิ่งแวดล้อม ตัวเลือกเมืองจ่ายทั้งหมด/มูลนิธิเดียว/ธุรกิจท้องถิ่น/ไม่มีทุนภายนอก ขัดกับข่าว"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the officials' view of the wetland's maintenance?",
+    "key": "They expect it to be low because the plants are native.",
+    "d": [
+     "They worry it will be expensive to maintain.",
+     "They think it will need daily watering.",
+     "They are unsure who will maintain it."
+    ],
+    "exp": "ข่าวระบุ “maintenance will be low because the plants are native and hardy” แสดงว่าคาดว่าบำรุงรักษาน้อย ตัวเลือกกังวลแพง/ต้องรดน้ำทุกวัน/ต้องปลูกใหม่/ไม่แน่ใจ ขัดกับข่าว"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q046",
+  "topic": "Email: invitation to a product launch event",
+  "context": "Dear valued customer, we are delighted to invite you to the launch event for our new line of plant-based snacks, which will take place at the Skyline Ballroom on the fifteenth of next month. The evening will begin with a short presentation on how the snacks are made, followed by a tasting session where you can try every flavor. Our chefs will also demonstrate how to pair the snacks with drinks for a relaxed gathering. The event runs from 6 p.m. to 9 p.m., and parking is available at the building's underground lot. Please confirm your attendance by replying to this email with your name and the number of guests, no more than two per invitation. As a token of our appreciation, every guest will receive a sample pack to take home. We look forward to sharing this new chapter with you.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What is the purpose of the event?",
+    "key": "To launch a new line of plant-based snacks.",
+    "d": [
+     "To thank customers for past orders.",
+     "To introduce a new chef.",
+     "To discuss future price increases."
+    ],
+    "exp": "อีเมลระบุ “invite you to the launch event for our new line of plant-based snacks” จึงตอบเปิดตัวผลิตภัณฑ์ snack จากพืชใหม่ ตัวเลือกครบรอบบริษัท/ขอบคุณลูกค้า/แนะนำเชฟ/คุยขึ้นราคา ไม่ได้กล่าว"
+   },
+   {
+    "type": "detail",
+    "prompt": "What will happen during the tasting session?",
+    "key": "Guests can try every flavor of the snacks.",
+    "d": [
+     "Guests must buy the snacks to taste.",
+     "The chefs cook the snacks on site.",
+     "Only one flavor is offered to each guest."
+    ],
+    "exp": "อีเมลระบุ “a tasting session where you can try every flavor” จึงตอบได้ลองทุกรสชาติ ตัวเลือกเฉพาะรสขายดี/ต้องซื้อ/เชฟทำหน้างาน/เลือกได้หนึ่งรส ขัดกับอีเมล"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “this email” refer to?",
+    "key": "The invitation message the sender wrote.",
+    "d": [
+     "A menu sent to guests.",
+     "A newsletter about the company.",
+     "A thank-you note from the chef."
+    ],
+    "exp": "ข้อความ “Please confirm your attendance by replying to this email” อ้างถึงอีเมลเชิญชวนฉบับนี้ ตัวเลือกจดหมายยืนยัน/เมนู/จดหมายข่าว/บันทึกขอบคุณ ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “As a token of our appreciation, every guest will receive a sample pack to take home.”?",
+    "key": "Every guest gets a sample pack as a thank-you.",
+    "d": [
+     "Only paying guests receive a sample pack.",
+     "Guests must earn the sample pack.",
+     "The sample pack is sent by post later."
+    ],
+    "exp": "ใจความคือแขกทุกคนได้รับ sample pack เพื่อเป็นขอบคุณ ตัวเลือกเฉพาะผู้จ่าย/ขายหน้างาน/ต้องแลก/ส่งทางไปรษณีย์ ขัดกับอีเมล"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the sender's attitude toward the guests?",
+    "key": "Appreciative and welcoming.",
+    "d": [
+     "Indifferent to guest numbers.",
+     "Formal and distant.",
+     "Critical of past orders."
+    ],
+    "exp": "อีเมลใช้ “Dear valued customer” และ “As a token of our appreciation” แสดงว่าให้ความสำคัญและต้อนรับ ตัวเลือกดูแคลน/ไม่ใส่ใจ/เป็นทางการ/วิจารณ์คำสั่งซื้อ ขัดกับอีเมล"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q046",
+  "topic": "Article: why street markets remain popular",
+  "context": "Despite the rise of supermarkets and online shopping, street markets remain a popular part of city life, and researchers say there are clear reasons why. A recent study found that markets offer more than just lower prices. They give shoppers a chance to talk to the people who grow or make what they buy, building trust and a sense of community. The study also noted that markets support small producers who cannot afford the fees of large stores, allowing them to reach customers directly. Freshness is another factor: produce sold at a market is often picked the same morning, unlike goods that have traveled for days. Market organizers say they are adapting too, adding card payment terminals and keeping the market open longer to serve people who work during the day. The study concludes that markets persist because they offer value that a screen cannot.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "According to the study, what do markets offer beyond lower prices?",
+    "key": "A chance to talk to the producers directly.",
+    "d": [
+     "Longer opening hours than stores.",
+     "A wider range of imported goods.",
+     "A guarantee on all products."
+    ],
+    "exp": "บทความระบุว่าตลาด “give shoppers a chance to talk to the people who grow or make what they buy” จึงตอบโอกาสคุยกับผู้ผลิต ตัวเลือกจัดส่งฟรี/เปิดนานกว่า/สินค้านำเข้า/รับประกัน ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why do markets support small producers?",
+    "key": "Because large stores charge fees they cannot afford.",
+    "d": [
+     "Because small producers prefer outdoor selling.",
+     "Because markets sell only organic goods.",
+     "Because producers are required to join."
+    ],
+    "exp": "บทความระบุว่าตลาด “support small producers who cannot afford the fees of large stores” จึงตอบเพราะค่าธรรมเนียมร้านใหญ่สูงเกิน ตัวเลือกใกล้บ้าน/ชอบขายกลางแจ้ง/ขายออร์แกนิก/บังคับเข้าร่วม ขัดกับบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the article?",
+    "key": "Street markets remain popular because they offer community value beyond shopping.",
+    "d": [
+     "Markets are popular only because of low prices.",
+     "Online shopping is more popular than markets.",
+     "Markets will close as cities grow."
+    ],
+    "exp": "บทความสรุปว่า “markets persist because they offer value that a screen cannot” จึงตอบตลาดยังนิยมเพราะคุณค่าชุมชนที่มากกว่าการซื้อขาย ตัวเลือกซูเปอร์มาร์เก็ตแทนที่หมด/นิยมเพราะราคา/ออนไลน์นิยมกว่า/ตลาดจะปิด ขัดกับบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Market organizers say they are adapting too, adding card payment terminals and keeping the market open longer.”?",
+    "key": "Organizers are making changes like card payments and longer hours.",
+    "d": [
+     "Organizers refuse to accept cards.",
+     "Organizers are removing all changes.",
+     "Longer hours are the only adaptation."
+    ],
+    "exp": "ใจความคือผู้จัดตลาดปรับตัวโดยเพิ่มเครื่องรับบัตรและเปิดนานขึ้น ตัวเลือกปิดเร็ว/ไม่รับบัตร/ยกเลิกการเปลี่ยนแปลง/มีแค่ขยายเวลา ขัดกับบทความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the study's attitude toward street markets?",
+    "key": "Positive, seeing them as valuable and enduring.",
+    "d": [
+     "Neutral, with no clear view.",
+     "Critical of their hygiene standards.",
+     "Certain they will disappear soon."
+    ],
+    "exp": "บทความสรุปว่าตลาด “persist because they offer value that a screen cannot” แสดงทัศนะเชิงบวกว่ามีคุณค่าและอยู่ต่อไป ตัวเลือกเชิงลบ/เป็นกลาง/วิจารณ์สุขอนามัย/แน่ใจว่าจะหายไป ขัดกับบทความ"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q046",
+  "topic": "Announcement: changes to the city bus network",
+  "context": "The city's bus network will undergo several changes from the beginning of next month, designed to make journeys faster and simpler for daily commuters. The most significant change is a new express route that will connect the main railway station with the eastern industrial zone, running every fifteen minutes during peak hours. Several local routes will be shortened or rerouted to feed passengers into the express route, and new timetable signs will be posted at every stop. The city advises regular users to check the updated timetables on the transit website or at the station information desk before their first journey under the new system. Fares will remain unchanged, and the monthly concession card will continue to offer unlimited travel. The changes follow a public consultation in which residents asked for faster connections to workplaces.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What is the most significant change to the bus network?",
+    "key": "A new express route between the station and the industrial zone.",
+    "d": [
+     "The removal of all local routes.",
+     "A shorter operating day.",
+     "New buses with more seats."
+    ],
+    "exp": "ประกาศระบุว่า “The most significant change is a new express route that will connect the main railway station with the eastern industrial zone” จึงตอบเส้นทางด่วนใหม่ ตัวเลือกขึ้นค่าโดยสาร/ยกเลิกเส้นทางท้องถิ่น/ลดเวลาทำการ/รถใหม่ที่นั่งเยอะ ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What will happen to several local routes?",
+    "key": "They will be shortened or rerouted.",
+    "d": [
+     "They will run less frequently.",
+     "They will be merged into one route.",
+     "They will be extended to the industrial zone."
+    ],
+    "exp": "ประกาศระบุว่า “Several local routes will be shortened or rerouted to feed passengers into the express route” จึงตอบสั้นลงหรือเปลี่ยนเส้นทาง ตัวเลือกยกเลิก/ลดความถี่/รวมเป็นเส้นเดียว/ขยายถึงนิคม ขัดกับประกาศ"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “the new system” refer to?",
+    "key": "The new bus network arrangement.",
+    "d": [
+     "The railway timetable.",
+     "The concession card scheme.",
+     "The station information desk."
+    ],
+    "exp": "ข้อความ “before their first journey under the new system” อ้างถึงระบบรถโดยสารใหม่ทั้งหมด ตัวเลือกเส้นทางด่วน/ตารางรถไฟ/บัตรสิทธิประโยชน์/โต๊ะข้อมูล ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Fares will remain unchanged, and the monthly concession card will continue to offer unlimited travel.”?",
+    "key": "Fares stay the same and the monthly card still gives unlimited travel.",
+    "d": [
+     "The monthly card will no longer be offered.",
+     "Unlimited travel will cost more.",
+     "Only the express route accepts the card."
+    ],
+    "exp": "ใจความคือค่าโดยสารไม่เปลี่ยนและบัตรรายเดือนยังใช้เดินทางไม่จำกัด ตัวเลือกขึ้นค่า/ยกเลิกบัตร/ไม่จำกัดราคาแพงขึ้น/ใช้เฉพาะเส้นทางด่วน ขัดกับประกาศ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the city's attitude toward the bus changes?",
+    "key": "Positive, aiming to make journeys faster and simpler.",
+    "d": [
+     "Reluctant to make any changes.",
+     "Indifferent to commuter needs.",
+     "Certain the changes will fail."
+    ],
+    "exp": "ประกาศระบุว่าการเปลี่ยนแปลง “designed to make journeys faster and simpler for daily commuters” แสดงทัศนะเชิงบวก ตัวเลือกขอโทษ/ไม่อยากเปลี่ยน/ไม่ใส่ใจ/แน่ใจว่าล้มเหลว ขัดกับประกาศ"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q046",
+  "topic": "Article: community cleanups bring surprising benefits",
+  "context": "When a group of neighbors in one district decided to clean up their streets once a month, they expected little more than a tidier neighborhood. Instead, the regular cleanups have brought benefits that nobody had planned. Residents who had never spoken before now work side by side, and the group has become a small support network for families facing difficulties. Shop owners report that cleaner streets have attracted more customers, and the local council has agreed to provide equipment and organize a proper waste collection on cleanup days. Teachers at a nearby school noticed that children who joined the clean-ups became more responsible and confident, and now bring the habit home. The organizers say the real value of the clean-ups is not just the rubbish removed, but the connections built while picking it up. They encourage other districts to start small and stay consistent.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the neighbors expect from the clean-ups?",
+    "key": "Little more than a tidier neighborhood.",
+    "d": [
+     "A rise in property values.",
+     "Formal recognition from the council.",
+     "A larger group of volunteers."
+    ],
+    "exp": "บทความระบุว่า “they expected little more than a tidier neighborhood” จึงตอบหวังเพียงย่านที่สะอาดขึ้น ตัวเลือกบริการเก็บขยะใหม่/มูลค่าที่ดิน/การยอมรับจากสภา/อาสาสมัครเพิ่ม ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What have shop owners reported since the clean-ups?",
+    "key": "Cleaner streets have attracted more customers.",
+    "d": [
+     "Fewer customers during clean-up days.",
+     "A need for more staff.",
+     "A drop in local sales."
+    ],
+    "exp": "บทความระบุว่า “Shop owners report that cleaner streets have attracted more customers” จึงตอบถนนสะอาดดึงลูกค้ามากขึ้น ตัวเลือกค่าเช่าขึ้น/ลูกค้าลด/ต้องการพนักงานเพิ่ม/ยอดขายลด ขัดกับบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the article?",
+    "key": "Regular community clean-ups bring social benefits beyond tidiness.",
+    "d": [
+     "Clean-ups are mainly about removing rubbish.",
+     "Clean-ups are a waste of residents' time.",
+     "Clean-ups should be done by professionals."
+    ],
+    "exp": "บทความสรุปว่า “the real value of the clean-ups is not just the rubbish removed, but the connections built” จึงตอบการทำความสะอาดชุมชนให้ประโยชน์ทางสังคมมากกว่าความสะอาด ตัวเลือกมีแค่เก็บขยะ/สภาได้ประโยชน์/เสียเวลา/ควรเป็นมืออาชีพ ขัดกับบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Teachers at a nearby school noticed that children who joined the clean-ups became more responsible and confident.”?",
+    "key": "Children who joined became more responsible and confident.",
+    "d": [
+     "Only older children benefited.",
+     "The clean-ups made children tired.",
+     "Children joined only for the rewards."
+    ],
+    "exp": "ใจความคือเด็กที่ร่วมกิจกรรมมีความรับผิดชอบและความมั่นใจมากขึ้น ตัวเลือกครูบังคับ/เฉพาะเด็กโต/ทำให้เหนื่อย/ร่วมเพื่อรางวัล ขัดกับบทความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the organizers' advice to other districts?",
+    "key": "Start small and stay consistent.",
+    "d": [
+     "Organize large clean-ups immediately.",
+     "Hire professional cleaners.",
+     "Only clean on special occasions."
+    ],
+    "exp": "บทความระบุ “They encourage other districts to start small and stay consistent” จึงตอบเริ่มเล็กและทำสม่ำเสมอ ตัวเลือกรอสภา/จัดใหญ่ทันที/จ้างมืออาชีพ/ทำความสะอาดเฉพาะโอกาส ขัดกับบทความ"
+   }
+  ]
+ }
+]
