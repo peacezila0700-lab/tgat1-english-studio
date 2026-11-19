@@ -1,0 +1,802 @@
+[
+ {
+  "set": 1,
+  "passage": "A",
+  "genre": "news",
+  "topic": "Museum closure news",
+  "context": "The National Heritage Museum will close its main gallery for three weeks starting next Monday to allow(1) ____ of the air-conditioning system. Director Ms. Nattaya said the(2) ____ had become unreliable and could no longer keep humidity within safe(3) ____. During the closure, the museum's online collection will remain(4) ____ to the public, and a special weekend exhibition will open in the(5) ____ hall. Visitors who have pre-booked tickets will be offered(6) ____ passes or a full refund. The museum expects the work to finish before the(7) ____ festival.",
+  "tip": "news report: use present tense for facts, past tense for completed actions, and passive voice for processes done to the subject.",
+  "items": [
+   {
+    "type": "passive",
+    "key": "installation",
+    "d": [
+     "install",
+     "installed",
+     "installing"
+    ],
+    "exp": "ช่อง (1) ตามหลัง to allow ต้องใช้รูป to be + V3 (passive) เพราะระบบแอร์ถูกติดตั้ง ไม่ใช่ active"
+   },
+   {
+    "type": "tense",
+    "key": "system",
+    "d": [
+     "systems",
+     "systematic",
+     "systemically"
+    ],
+    "exp": "ช่อง (2) ต้องการคำนามเอกพจน์ที่หมายถึงระบบเครื่องปรับอากาศ system"
+   },
+   {
+    "type": "noun",
+    "key": "levels",
+    "d": [
+     "level",
+     "leveled",
+     "leveling"
+    ],
+    "exp": "ช่อง (3) ตามหลัง safe ต้องใช้คำนาม plural levels เพราะ humidity มีหลายระดับ"
+   },
+   {
+    "type": "adjective",
+    "key": "accessible",
+    "d": [
+     "access",
+     "accessing",
+     "accessed"
+    ],
+    "exp": "ช่อง (4) ตามหลัง remain ต้องใช้ adjective accessible หมายถึงสามารถเข้าถึงได้"
+   },
+   {
+    "type": "noun",
+    "key": "annexe",
+    "d": [
+     "annex",
+     "annexing",
+     "annexed"
+    ],
+    "exp": "ช่อง (5) ตามหน้า hall ต้องใช้คำนาม annexe หมายถึงอาคารต่อเติม"
+   },
+   {
+    "type": "noun",
+    "key": "substitution",
+    "d": [
+     "substitutions",
+     "substituting",
+     "substituted"
+    ],
+    "exp": "ช่อง (6) ตามหน้า passes ต้องการคำนาม substitution หมายถึงบัตรเปลี่ยนแทน"
+   },
+   {
+    "type": "noun",
+    "key": "cultural",
+    "d": [
+     "culture",
+     "cultured",
+     "culturing"
+    ],
+    "exp": "ช่อง (7) ตามหน้า festival ต้องใช้ adjective cultural หมายถึงด้านวัฒนธรรม"
+   }
+  ]
+ },
+ {
+  "set": 2,
+  "passage": "A",
+  "genre": "announcement",
+  "topic": "Office relocation announcement",
+  "context": "All staff are(1) ____ to note that the head office will move to the new premises at(2) ____ Tower on the first of December. The(3) ____ floors have been fully renovated and include upgraded meeting rooms and a(4) ____ canteen. During the move week, the(5) ____ desk will operate from the third floor of the old building. Staff(6) ____ to update their contact details in the HR portal by Friday. We(7) ____ any inconvenience caused during this transition.",
+  "tip": "announcement: use passive voice for actions done to staff, modals for requirements, and formal vocabulary.",
+  "items": [
+   {
+    "type": "passive",
+    "key": "advised",
+    "d": [
+     "advice",
+     "advising",
+     "adviseds"
+    ],
+    "exp": "ช่อง (1) รูปแบบ are + V3 passive หมายถึงได้รับการแจ้งให้ทราบ ใช้ advised"
+   },
+   {
+    "type": "proper noun",
+    "key": "Silom",
+    "d": [
+     "silom",
+     "Siloms",
+     "Silomese"
+    ],
+    "exp": "ช่อง (2) ต้องเป็นชื่อเฉพาะ Silom ใช้ตัวใหญ่"
+   },
+   {
+    "type": "adjective",
+    "key": "upper",
+    "d": [
+     "uppers",
+     "upping",
+     "upped"
+    ],
+    "exp": "ช่อง (3) ตามหน้า floors ต้องการ adjective upper หมายถึงชั้นบน"
+   },
+   {
+    "type": "adjective",
+    "key": "newly",
+    "d": [
+     "new",
+     "newer",
+     "newest"
+    ],
+    "exp": "ช่อง (4) ต้องการ adjective newly หมายถึงที่เพิ่งปรับปรุงใหม่ ขยาย canteen"
+   },
+   {
+    "type": "noun",
+    "key": "reception",
+    "d": [
+     "receptions",
+     "receiving",
+     "received"
+    ],
+    "exp": "ช่อง (5) ตามหน้า desk ต้องการคำนาม reception หมายถึงโต๊ะต้อนรับ"
+   },
+   {
+    "type": "modal",
+    "key": "are",
+    "d": [
+     "is",
+     "was",
+     "been"
+    ],
+    "exp": "ช่อง (6) กับ to update ต้องใช้ modal are เพื่อบอกหน้าที่ที่พนักงานต้องทำ"
+   },
+   {
+    "type": "verb",
+    "key": "appreciate",
+    "d": [
+     "appreciates",
+     "appreciating",
+     "appreciated"
+    ],
+    "exp": "ช่อง (7) หลัง We ต้องการ verb ปัจจุบัน appreciate หมายถึงขออภัยในความไม่สะดวก"
+   }
+  ]
+ },
+ {
+  "set": 3,
+  "passage": "A",
+  "genre": "ad",
+  "topic": "Product launch advertisement",
+  "context": "Meet the(1) ____ Smart Bottle — the only bottle that tracks your daily water intake and(2) ____ you when you need a sip. With a(3) ____ battery that lasts thirty days, it pairs instantly with your phone and(4) ____ your progress on a clear screen. Available in four(5) ____ colors, the bottle is made from recycled material and is(6) ____ dishwasher safe. Order today and get free(7) ____ on any bundle of two or more.",
+  "tip": "advertisement: use emphatic adjectives, present tense for product features, and persuasive vocabulary.",
+  "items": [
+   {
+    "type": "adjective",
+    "key": "revolutionary",
+    "d": [
+     "revolution",
+     "revolutions",
+     "revolutionized"
+    ],
+    "exp": "ช่อง (1) ตามหน้า Smart Bottle ต้องการ adjective revolutionary หมายถึงปฏิวัติวงการ"
+   },
+   {
+    "type": "verb",
+    "key": "reminds",
+    "d": [
+     "remind",
+     "reminded",
+     "reminding"
+    ],
+    "exp": "ช่อง (2) กับ you ต้องการ verb ปัจจุบันเอกพจน์ reminds หมายถึงแจ้งเตือน"
+   },
+   {
+    "type": "adjective",
+    "key": "long-lasting",
+    "d": [
+     "long",
+     "lasting",
+     "longed"
+    ],
+    "exp": "ช่อง (3) ตามหน้า battery ต้องการ compound adjective long-lasting หมายถึงใช้ได้นาน"
+   },
+   {
+    "type": "verb",
+    "key": "displays",
+    "d": [
+     "display",
+     "displayed",
+     "displaying"
+    ],
+    "exp": "ช่อง (4) กับ your progress ต้องการ verb ปัจจุบันเอกพจน์ displays หมายถึงแสดงผล"
+   },
+   {
+    "type": "noun",
+    "key": "vivid",
+    "d": [
+     "vividly",
+     "vivids",
+     "vividness"
+    ],
+    "exp": "ช่อง (5) ตามหน้า colors ต้องการ adjective vivid หมายถึงสีสันสดใส"
+   },
+   {
+    "type": "adverb",
+    "key": "fully",
+    "d": [
+     "full",
+     "fuller",
+     "fullest"
+    ],
+    "exp": "ช่อง (6) ขยาย dishwasher safe ต้องการ adverb fully หมายถึงอย่างสมบูรณ์"
+   },
+   {
+    "type": "noun",
+    "key": "shipping",
+    "d": [
+     "ship",
+     "shipped",
+     "shippings"
+    ],
+    "exp": "ช่อง (7) หลัง free ต้องการคำนาม uncountable shipping หมายถึงค่าจัดส่ง"
+   }
+  ]
+ },
+ {
+  "set": 4,
+  "passage": "A",
+  "genre": "knowledge article",
+  "topic": "AI in education article",
+  "context": "Artificial intelligence is(1) ____ reshaping how students learn across all age groups. Rather than(2) ____ the role of teachers, most systems are designed to(3) ____ personalized feedback on homework and answer questions at any hour. Researchers(4) ____ that students who use AI tools responsibly often show(5) ____ improvement in comprehension, though over-reliance can(6) ____ critical thinking. Educators stress that AI should be treated as a(7) ____, not a replacement for human guidance.",
+  "tip": "knowledge article: use present continuous for ongoing trends, gerunds after prepositions, and modal verbs for effects.",
+  "items": [
+   {
+    "type": "present continuous",
+    "key": "gradually",
+    "d": [
+     "gradual",
+     "graduation",
+     "graduallys"
+    ],
+    "exp": "ช่อง (1) ขยาย is reshaping ต้องการ adverb gradually หมายถึงค่อยเป็นค่อยไป"
+   },
+   {
+    "type": "gerund",
+    "key": "replacing",
+    "d": [
+     "replace",
+     "replaced",
+     "replacement"
+    ],
+    "exp": "ช่อง (2) หลัง than ต้องการ gerund replacing หมายถึงการแทนที่"
+   },
+   {
+    "type": "verb",
+    "key": "provide",
+    "d": [
+     "provides",
+     "provided",
+     "providing"
+    ],
+    "exp": "ช่อง (3) หลัง to ต้องการ verb รูปเติมตัว seek to + V ใช้ provide"
+   },
+   {
+    "type": "verb",
+    "key": "note",
+    "d": [
+     "notes",
+     "noted",
+     "noting"
+    ],
+    "exp": "ช่อง (4) หลัง Researchers ต้องการ verb ปัจจุบันเอกพจน์ notes หมายถึงชี้ให้เห็น"
+   },
+   {
+    "type": "adjective",
+    "key": "measurable",
+    "d": [
+     "measure",
+     "measured",
+     "measuring"
+    ],
+    "exp": "ช่อง (5) ตามหน้า improvement ต้องการ adjective measurable หมายถึงที่วัดได้"
+   },
+   {
+    "type": "verb",
+    "key": "undermine",
+    "d": [
+     "undermines",
+     "undermined",
+     "undermining"
+    ],
+    "exp": "ช่อง (6) หลัง can ต้องการ verb รูปเติมตัว undermine หมายถึงบั่นทอน"
+   },
+   {
+    "type": "noun",
+    "key": "support",
+    "d": [
+     "supports",
+     "supported",
+     "supporting"
+    ],
+    "exp": "ช่อง (7) ตามหน้า a ต้องการคำนาม support หมายถึงเครื่องมือช่วย"
+   }
+  ]
+ },
+ {
+  "set": 5,
+  "passage": "A",
+  "genre": "email",
+  "topic": "Business meeting email",
+  "context": "Dear team, I am writing to(1) ____ you that the quarterly review meeting has been(2) ____ to Thursday at two p.m. in Room 5B. Please(3) ____ your presentations to the shared folder by Wednesday noon so that everyone can(4) ____ them beforehand. If any of you(5) ____ a conflict with the new time, kindly let me know by(6) ____ so we can find an alternative. I look forward to(7) ____ your updates.",
+  "tip": "business email: use infinitives after phrases like I am writing to, passive voice for scheduling, and gerunds after prepositions.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "inform",
+    "d": [
+     "informs",
+     "informed",
+     "informing"
+    ],
+    "exp": "ช่อง (1) หลัง to ต้องการ verb เติมตัว inform หมายถึงแจ้งให้ทราบ"
+   },
+   {
+    "type": "passive",
+    "key": "rescheduled",
+    "d": [
+     "reschedule",
+     "rescheduling",
+     "reschedules"
+    ],
+    "exp": "ช่อง (2) รูปแบบ has been + V3 passive ใช้ rescheduled หมายถึงถูกเลื่อน"
+   },
+   {
+    "type": "verb",
+    "key": "upload",
+    "d": [
+     "uploads",
+     "uploaded",
+     "uploading"
+    ],
+    "exp": "ช่อง (3) หลัง Please ต้องการ verb เติมตัว upload หมายถึงอัปโหลด"
+   },
+   {
+    "type": "verb",
+    "key": "review",
+    "d": [
+     "reviews",
+     "reviewed",
+     "reviewing"
+    ],
+    "exp": "ช่อง (4) หลัง can ต้องการ verb เติมตัว review หมายถึงทบทวน"
+   },
+   {
+    "type": "verb",
+    "key": "have",
+    "d": [
+     "has",
+     "had",
+     "having"
+    ],
+    "exp": "ช่อง (5) กับ a conflict ต้องการ verb have รูปปัจจุบันเอกพจน์ have"
+   },
+   {
+    "type": "noun",
+    "key": "tomorrow",
+    "d": [
+     "tomorrows",
+     "tomorrowing",
+     "tomorrowed"
+    ],
+    "exp": "ช่อง (6) หลัง by ต้องการคำนามบอกเวลา tomorrow หมายถึงวันพรุ่งนี้"
+   },
+   {
+    "type": "gerund",
+    "key": "reviewing",
+    "d": [
+     "review",
+     "reviewed",
+     "reviews"
+    ],
+    "exp": "ช่อง (7) หลัง to ต้องการ gerund reviewing หมายถึงการรับฟัง"
+   }
+  ]
+ },
+ {
+  "set": 6,
+  "passage": "A",
+  "genre": "ad",
+  "topic": "Job recruitment advertisement",
+  "context": "A leading tech company is(1) ____ for a junior data analyst to join our(2) ____ team. The successful candidate will(3) ____ daily reports, maintain databases, and support(4) ____ decision-making. We require a bachelor's degree in a(5) ____ field and at least one year of(6) ____. Excellent communication skills and a willingness to(7) ____ are essential. Apply now via our careers portal.",
+  "tip": "job ad: use present continuous for recruitment, modal will for duties, and adjectives for requirements.",
+  "items": [
+   {
+    "type": "present continuous",
+    "key": "recruiting",
+    "d": [
+     "recruit",
+     "recruited",
+     "recruitment"
+    ],
+    "exp": "ช่อง (1) รูปแบบ is + V-ing ต้องการ recruiting หมายถึงกำลังรับสมัคร"
+   },
+   {
+    "type": "adjective",
+    "key": "dynamic",
+    "d": [
+     "dynamics",
+     "dynamite",
+     "dynamicing"
+    ],
+    "exp": "ช่อง (2) ตามหน้า team ต้องการ adjective dynamic หมายถึงมีพลวัต"
+   },
+   {
+    "type": "verb",
+    "key": "prepare",
+    "d": [
+     "prepares",
+     "prepared",
+     "preparing"
+    ],
+    "exp": "ช่อง (3) หลัง will ต้องการ verb เติมตัว prepare หมายถึงจัดเตรียม"
+   },
+   {
+    "type": "adjective",
+    "key": "senior",
+    "d": [
+     "seniors",
+     "seniority",
+     "senioring"
+    ],
+    "exp": "ช่อง (4) ตามหน้า decision-making ต้องการ adjective senior หมายถึงระดับบริหาร"
+   },
+   {
+    "type": "noun",
+    "key": "related",
+    "d": [
+     "relate",
+     "relating",
+     "relateds"
+    ],
+    "exp": "ช่อง (5) ตามหน้า field ต้องการ adjective related หมายถึงที่เกี่ยวข้อง"
+   },
+   {
+    "type": "noun",
+    "key": "experience",
+    "d": [
+     "experiences",
+     "experiencing",
+     "experienced"
+    ],
+    "exp": "ช่อง (6) หลัง of ต้องการคำนาม uncountable experience หมายถึงประสบการณ์"
+   },
+   {
+    "type": "verb",
+    "key": "learn",
+    "d": [
+     "learns",
+     "learned",
+     "learning"
+    ],
+    "exp": "ช่อง (7) หลัง to ต้องการ verb เติมตัว learn หมายถึงเรียนรู้"
+   }
+  ]
+ },
+ {
+  "set": 7,
+  "passage": "A",
+  "genre": "schedule",
+  "topic": "Festival schedule announcement",
+  "context": "The annual River Festival will(1) ____ over three days this November. On the first day, the opening ceremony will(2) ____ at six p.m. at the riverside stage, followed by a lantern(3) ____ at eight. The second day features food(4) ____ from local markets and a music competition that will(5) ____ until midnight. The final day offers a morning(6) ____ race and a closing fireworks display. All events are(7) ____ to the public free of charge.",
+  "tip": "schedule: use modal will for planned future events, passive voice for accessibility, and compound nouns for event types.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "take",
+    "d": [
+     "takes",
+     "took",
+     "taking"
+    ],
+    "exp": "ช่อง (1) หลัง will ต้องการ verb เติมตัว take ใช้ในสำนวน take place"
+   },
+   {
+    "type": "verb",
+    "key": "begin",
+    "d": [
+     "begins",
+     "began",
+     "beginning"
+    ],
+    "exp": "ช่อง (2) หลัง will ต้องการ verb เติมตัว begin หมายถึงเริ่มต้น"
+   },
+   {
+    "type": "noun",
+    "key": "procession",
+    "d": [
+     "process",
+     "processions",
+     "processional"
+    ],
+    "exp": "ช่อง (3) ตามหน้า lantern ต้องการคำนาม procession หมายถึงขบวน"
+   },
+   {
+    "type": "noun",
+    "key": "stalls",
+    "d": [
+     "stall",
+     "stalling",
+     "stalled"
+    ],
+    "exp": "ช่อง (4) ตามหน้า food ต้องการคำนามพหูพจน์ stalls หมายถึงร้าน"
+   },
+   {
+    "type": "verb",
+    "key": "continue",
+    "d": [
+     "continues",
+     "continued",
+     "continuing"
+    ],
+    "exp": "ช่อง (5) หลัง will ต้องการ verb เติมตัว continue หมายถึงดำเนินต่อ"
+   },
+   {
+    "type": "noun",
+    "key": "fun",
+    "d": [
+     "funs",
+     "funny",
+     "funnel"
+    ],
+    "exp": "ช่อง (6) ตามหน้า race ต้องการคำนาม fun หมายถึงความสนุกสนาน"
+   },
+   {
+    "type": "adjective",
+    "key": "open",
+    "d": [
+     "opens",
+     "opening",
+     "opened"
+    ],
+    "exp": "ช่อง (7) รูปแบบ are + adjective ต้องการ open หมายถึงเปิดให้เข้า"
+   }
+  ]
+ },
+ {
+  "set": 8,
+  "passage": "A",
+  "genre": "review",
+  "topic": "Restaurant review",
+  "context": "Tucked behind the old market, Lumière Bistro(1) ____ a dining experience that feels both intimate and(2) ____. The menu(3) ____ on seasonal ingredients, and the chef's signature soup is(4) ____ worth the short wait. Service is attentive without(5) ____, and the ambient lighting creates a(6) ____ atmosphere perfect for a quiet evening. While prices lean(7) ____ the higher side, the quality justifies every baht spent.",
+  "tip": "review: use present tense for current state, adjectives for evaluation, and prepositions for comparisons.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "offers",
+    "d": [
+     "offer",
+     "offered",
+     "offering"
+    ],
+    "exp": "ช่อง (1) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน offers หมายถึงมอบ"
+   },
+   {
+    "type": "adjective",
+    "key": "relaxed",
+    "d": [
+     "relax",
+     "relaxing",
+     "relaxeds"
+    ],
+    "exp": "ช่อง (2) ต่อจาก and ต้องการ adjective relaxed หมายถึงผ่อนคลาย"
+   },
+   {
+    "type": "verb",
+    "key": "focuses",
+    "d": [
+     "focus",
+     "focused",
+     "focusing"
+    ],
+    "exp": "ช่อง (3) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน focuses หมายถึงมุ่งเน้น"
+   },
+   {
+    "type": "adverb",
+    "key": "definitely",
+    "d": [
+     "definite",
+     "definitively",
+     "defining"
+    ],
+    "exp": "ช่อง (4) ขยาย worth ต้องการ adverb definitely หมายถึงอย่างแน่นอน"
+   },
+   {
+    "type": "gerund",
+    "key": "being",
+    "d": [
+     "be",
+     "been",
+     "beings"
+    ],
+    "exp": "ช่อง (5) หลัง without ต้องการ gerund being หมายถึงการรบกวน"
+   },
+   {
+    "type": "adjective",
+    "key": "cozy",
+    "d": [
+     "cozily",
+     "cozen",
+     "cozys"
+    ],
+    "exp": "ช่อง (6) ตามหน้า atmosphere ต้องการ adjective cozy หมายถึงอบอุ่น"
+   },
+   {
+    "type": "preposition",
+    "key": "toward",
+    "d": [
+     "towards",
+     "towarding",
+     "towarded"
+    ],
+    "exp": "ช่อง (7) กับ lean ต้องการ preposition toward หมายถึงไปทาง"
+   }
+  ]
+ },
+ {
+  "set": 9,
+  "passage": "A",
+  "genre": "news",
+  "topic": "Traffic alert news",
+  "context": "Commuters should expect(1) ____ delays on Sukhumvit Road this weekend as the highway department(2) ____ emergency repairs on the overpass at Soi 21. The(3) ____ closure will begin at nine p.m. Saturday and is expected to(4) ____ until five a.m. Sunday. Drivers are(5) ____ to use the alternate route via Rama IV or(6) ____ public transport during the repair window. Officials(7) ____ that the work is necessary to prevent further structural damage.",
+  "tip": "news: use should for recommendations, present continuous for ongoing actions, and passive voice for official statements.",
+  "items": [
+   {
+    "type": "adjective",
+    "key": "significant",
+    "d": [
+     "significance",
+     "significantly",
+     "significances"
+    ],
+    "exp": "ช่อง (1) ขยาย delays ต้องการ adjective significant หมายถึงมาก"
+   },
+   {
+    "type": "present continuous",
+    "key": "carries",
+    "d": [
+     "carry",
+     "carried",
+     "carrying"
+    ],
+    "exp": "ช่อง (2) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน carrying หมายถึงดำเนินการ"
+   },
+   {
+    "type": "noun",
+    "key": "partial",
+    "d": [
+     "part",
+     "partially",
+     "partials"
+    ],
+    "exp": "ช่อง (3) ตามหน้า closure ต้องการ adjective partial หมายถึงบางส่วน"
+   },
+   {
+    "type": "verb",
+    "key": "last",
+    "d": [
+     "lasts",
+     "lasted",
+     "lasting"
+    ],
+    "exp": "ช่อง (4) หลัง to ต้องการ verb เติมตัว last หมายถึงใช้เวลา"
+   },
+   {
+    "type": "adjective",
+    "key": "advised",
+    "d": [
+     "advice",
+     "advising",
+     "adviseds"
+    ],
+    "exp": "ช่อง (5) รูปแบบ are + V3 passive ต้องการ advised หมายถึงได้รับการแนะนำ"
+   },
+   {
+    "type": "verb",
+    "key": "take",
+    "d": [
+     "takes",
+     "took",
+     "taking"
+    ],
+    "exp": "ช่อง (6) หลัง or ต้องการ verb เติมตัว take ใช้ในสำนวน take public transport"
+   },
+   {
+    "type": "verb",
+    "key": "state",
+    "d": [
+     "states",
+     "stated",
+     "stating"
+    ],
+    "exp": "ช่อง (7) กับ subject พหูพจน์ ต้องการ verb ปัจจุบัน state หมายถึงระบุ"
+   }
+  ]
+ },
+ {
+  "set": 10,
+  "passage": "A",
+  "genre": "email",
+  "topic": "Volunteer appeal email",
+  "context": "Dear friends, our community kitchen is(1) ____ urgently for volunteers to help prepare and(2) ____ meals for families in need this month. No previous(3) ____ is required — we will provide training on your first(4) ____. Shifts are available on weekday mornings and weekend(5) ____, and each session lasts approximately three hours. If you are(6) ____ to join us, please reply to this message by the end of the week. Every(7) ____ of time makes a real difference.",
+  "tip": "appeal email: use present continuous for current needs, nouns for requirements, and adjectives for willingness.",
+  "items": [
+   {
+    "type": "present continuous",
+    "key": "recruiting",
+    "d": [
+     "recruit",
+     "recruited",
+     "recruitment"
+    ],
+    "exp": "ช่อง (1) รูปแบบ is + V-ing ต้องการ recruiting หมายถึงกำลังหา"
+   },
+   {
+    "type": "verb",
+    "key": "distribute",
+    "d": [
+     "distributes",
+     "distributed",
+     "distributing"
+    ],
+    "exp": "ช่อง (2) ต่อจาก and ต้องการ verb เติมตัว distribute หมายถึงแจกจ่าย"
+   },
+   {
+    "type": "noun",
+    "key": "experience",
+    "d": [
+     "experiences",
+     "experiencing",
+     "experienced"
+    ],
+    "exp": "ช่อง (3) หลัง No previous ต้องการคำนาม uncountable experience หมายถึงประสบการณ์"
+   },
+   {
+    "type": "noun",
+    "key": "session",
+    "d": [
+     "sessions",
+     "sessional",
+     "sessioning"
+    ],
+    "exp": "ช่อง (4) หลัง first ต้องการคำนามเอกพจน์ session หมายถึงครั้ง"
+   },
+   {
+    "type": "noun",
+    "key": "evenings",
+    "d": [
+     "evening",
+     "eveningly",
+     "eveninging"
+    ],
+    "exp": "ช่อง (5) ต่อจาก weekend ต้องการคำนามพหูพจน์ evenings หมายถึงช่วงค่ำ"
+   },
+   {
+    "type": "adjective",
+    "key": "willing",
+    "d": [
+     "will",
+     "willingly",
+     "willings"
+    ],
+    "exp": "ช่อง (6) รูปแบบ are + adjective ต้องการ willing หมายถึงเต็มใจ"
+   },
+   {
+    "type": "noun",
+    "key": "hour",
+    "d": [
+     "hours",
+     "hourly",
+     "houring"
+    ],
+    "exp": "ช่อง (7) หลัง Every ต้องการคำนามเอกพจน์ hour หมายถึงชั่วโมง"
+   }
+  ]
+ }
+]

@@ -1,0 +1,902 @@
+[
+ {
+  "set": 1,
+  "passage": "B",
+  "genre": "news",
+  "topic": "Public transport expansion news",
+  "context": "The Transport Authority has(1) ____ a new express bus service that will connect the northern suburbs with the city center. The route, which is(2) ____ to launch next month, will operate at(3) ____ intervals during peak hours and less frequently in the(4) ____. Fares have been set(5) ____ with current city bus rates to encourage ridership. The authority also plans to(6) ____ the number of bicycle racks at each stop, noting that the(7) ____ service has received positive feedback from commuters. Officials expect the new line to(8) ____ congestion on the main highway.",
+  "tip": "news: use present perfect for completed recent actions, passive voice for plans, and adjectives for frequency.",
+  "items": [
+   {
+    "type": "present perfect",
+    "key": "approved",
+    "d": [
+     "approve",
+     "approving",
+     "approval"
+    ],
+    "exp": "ช่อง (1) รูปแบบ has + V3 ต้องการ approved หมายถึงได้รับการอนุมัติ"
+   },
+   {
+    "type": "passive",
+    "key": "due",
+    "d": [
+     "expected",
+     "dued",
+     "dueing"
+    ],
+    "exp": "ช่อง (2) รูปแบบ is + adjective ต้องการ due หมายถึงกำหนด"
+   },
+   {
+    "type": "noun",
+    "key": "regular",
+    "d": [
+     "regularly",
+     "regularity",
+     "regulars"
+    ],
+    "exp": "ช่อง (3) ตามหน้า intervals ต้องการ adjective regular หมายถึงสม่ำเสมอ"
+   },
+   {
+    "type": "noun",
+    "key": "off-peak",
+    "d": [
+     "offpeak",
+     "off-peaks",
+     "offpeakly"
+    ],
+    "exp": "ช่อง (4) หลัง the ต้องการคำนาม off-peak หมายถึงช่วงนอกเวลาเร่งด่วน"
+   },
+   {
+    "type": "adjective",
+    "key": "consistent",
+    "d": [
+     "consistency",
+     "consistently",
+     "consistence"
+    ],
+    "exp": "ช่อง (5) ตามหน้า with ต้องการ adjective consistent หมายถึงสอดคล้อง"
+   },
+   {
+    "type": "verb",
+    "key": "increase",
+    "d": [
+     "increases",
+     "increased",
+     "increasing"
+    ],
+    "exp": "ช่อง (6) หลัง to ต้องการ verb เติมตัว increase หมายถึงเพิ่ม"
+   },
+   {
+    "type": "adjective",
+    "key": "existing",
+    "d": [
+     "exist",
+     "existence",
+     "existent"
+    ],
+    "exp": "ช่อง (7) ตามหน้า service ต้องการ adjective existing หมายถึงที่มีอยู่"
+   },
+   {
+    "type": "verb",
+    "key": "reduce",
+    "d": [
+     "reduces",
+     "reduced",
+     "reducing"
+    ],
+    "exp": "ช่อง (8) หลัง to ต้องการ verb เติมตัว reduce หมายถึงลด"
+   }
+  ]
+ },
+ {
+  "set": 2,
+  "passage": "B",
+  "genre": "ad",
+  "topic": "Fitness center promotion advertisement",
+  "context": "Ready to(1) ____ your fitness journey? Our new fitness center is now open with state-of-the-art(2) ____ and a team of certified(3) ____ ready to guide you. For a limited time, new members can(4) ____ a thirty-day trial at no cost, with no(5) ____ commitment required. Our facilities include a(6) ____ pool, a fully equipped gym, and group classes(7) ____ daily. Join today and(8) ____ your first session with a complimentary towel service.",
+  "tip": "promotion ad: use infinitives for invitations, modals for offers, and adjectives for facilities.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "start",
+    "d": [
+     "starts",
+     "started",
+     "starting"
+    ],
+    "exp": "ช่อง (1) หลัง to ต้องการ verb เติมตัว start หมายถึงเริ่มต้น"
+   },
+   {
+    "type": "noun",
+    "key": "equipment",
+    "d": [
+     "equipments",
+     "equipping",
+     "equipped"
+    ],
+    "exp": "ช่อง (2) หลัง state-of-the-art ต้องการคำนาม equipment หมายถึงอุปกรณ์"
+   },
+   {
+    "type": "noun",
+    "key": "trainers",
+    "d": [
+     "trainer",
+     "training",
+     "trained"
+    ],
+    "exp": "ช่อง (3) หลัง certified ต้องการคำนามพหูพจน์ trainers หมายถึงผู้ฝึกสอน"
+   },
+   {
+    "type": "verb",
+    "key": "enjoy",
+    "d": [
+     "enjoys",
+     "enjoyed",
+     "enjoying"
+    ],
+    "exp": "ช่อง (4) หลัง can ต้องการ verb เติมตัว enjoy หมายถึงรับสิทธิ"
+   },
+   {
+    "type": "noun",
+    "key": "financial",
+    "d": [
+     "finance",
+     "financing",
+     "financed"
+    ],
+    "exp": "ช่อง (5) ตามหน้า commitment ต้องการ adjective financial หมายถึงทางการเงิน"
+   },
+   {
+    "type": "noun",
+    "key": "swimming",
+    "d": [
+     "swim",
+     "swims",
+     "swimmer"
+    ],
+    "exp": "ช่อง (6) ตามหน้า pool ต้องการ adjective swimming หมายถึงว่ายน้ำ"
+   },
+   {
+    "type": "adverb",
+    "key": "offered",
+    "d": [
+     "offer",
+     "offering",
+     "offers"
+    ],
+    "exp": "ช่อง (7) ขยาย daily ต้องการ past participle offered หมายถึงที่จัด"
+   },
+   {
+    "type": "verb",
+    "key": "complete",
+    "d": [
+     "completes",
+     "completed",
+     "completing"
+    ],
+    "exp": "ช่อง (8) ต่อจาก and ต้องการ verb เติมตัว complete หมายถึงทำ"
+   }
+  ]
+ },
+ {
+  "set": 3,
+  "passage": "B",
+  "genre": "knowledge article",
+  "topic": "Library services knowledge article",
+  "context": "Modern libraries have evolved far beyond(1) ____ shelves of books. Many now offer digital(2) ____ that patrons can access from home, including e-books, research(3) ____, and language-learning platforms. Librarians play a(4) ____ role in helping users navigate these resources, often providing one-on-one(5) ____ on research methods. Community programs such as reading(6) ____ and author talks are also popular, drawing(7) ____ of all ages. The library remains a(8) ____ space for learning and discovery.",
+  "tip": "knowledge article: use prepositions after phrases, nouns for resources, and present tense for current state.",
+  "items": [
+   {
+    "type": "noun",
+    "key": "rows",
+    "d": [
+     "row",
+     "rowing",
+     "rower"
+    ],
+    "exp": "ช่อง (1) หลัง beyond ต้องการคำนามพหูพจน์ rows หมายถึงแถว"
+   },
+   {
+    "type": "noun",
+    "key": "resources",
+    "d": [
+     "resource",
+     "resourcing",
+     "resourceful"
+    ],
+    "exp": "ช่อง (2) หลัง digital ต้องการคำนามพหูพจน์ resources หมายถึงทรัพยากร"
+   },
+   {
+    "type": "noun",
+    "key": "databases",
+    "d": [
+     "database",
+     "databasing",
+     "databased"
+    ],
+    "exp": "ช่อง (3) ต่อจาก research ต้องการคำนามพหูพจน์ databases หมายถึงฐานข้อมูล"
+   },
+   {
+    "type": "adjective",
+    "key": "key",
+    "d": [
+     "keys",
+     "keying",
+     "keyed"
+    ],
+    "exp": "ช่อง (4) ตามหน้า role ต้องการ adjective key หมายถึงสำคัญ"
+   },
+   {
+    "type": "noun",
+    "key": "guidance",
+    "d": [
+     "guides",
+     "guiding",
+     "guided"
+    ],
+    "exp": "ช่อง (5) หลัง one-on-one ต้องการคำนาม guidance หมายถึงคำแนะนำ"
+   },
+   {
+    "type": "noun",
+    "key": "clubs",
+    "d": [
+     "club",
+     "clubbing",
+     "clubbed"
+    ],
+    "exp": "ช่อง (6) ตามหน้า reading ต้องการคำนามพหูพจน์ clubs หมายถึงชมรม"
+   },
+   {
+    "type": "noun",
+    "key": "visitors",
+    "d": [
+     "visitor",
+     "visiting",
+     "visited"
+    ],
+    "exp": "ช่อง (7) หลัง drawing ต้องการคำนามพหูพจน์ visitors หมายถึงผู้มาเยี่ยม"
+   },
+   {
+    "type": "adjective",
+    "key": "free",
+    "d": [
+     "freely",
+     "freedom",
+     "freed"
+    ],
+    "exp": "ช่อง (8) ตามหน้า space ต้องการ adjective free หมายถึงฟรี"
+   }
+  ]
+ },
+ {
+  "set": 4,
+  "passage": "B",
+  "genre": "email",
+  "topic": "Office supply order confirmation email",
+  "context": "Dear Mr. Chaiwat, this email confirms your order for office(1) ____ placed on Monday. The items, including printer(2) ____ and paper reams, are currently in(3) ____ and will be shipped within two business days. Your order(4) ____ a total of four thousand baht, which will be charged to your(5) ____ account. A tracking number will be sent once the(6) ____ leaves our warehouse. If you(7) ____ any changes, please contact our support team before(8) ____.",
+  "tip": "order email: use past participle for order status, nouns for products, and prepositions for time.",
+  "items": [
+   {
+    "type": "noun",
+    "key": "supplies",
+    "d": [
+     "supply",
+     "supplying",
+     "suppliance"
+    ],
+    "exp": "ช่อง (1) หลัง office ต้องการคำนามพหูพจน์ supplies หมายถึงอุปกรณ์"
+   },
+   {
+    "type": "noun",
+    "key": "cartridges",
+    "d": [
+     "cartridge",
+     "cartridgeing",
+     "cartridgeed"
+    ],
+    "exp": "ช่อง (2) ตามหน้า printer ต้องการคำนามพหูพจน์ cartridges หมายถึงตลับหมึก"
+   },
+   {
+    "type": "noun",
+    "key": "stock",
+    "d": [
+     "stocks",
+     "stocking",
+     "stocked"
+    ],
+    "exp": "ช่อง (3) หลัง in ต้องการคำนาม uncountable stock หมายถึงคลังสินค้า"
+   },
+   {
+    "type": "verb",
+    "key": "totals",
+    "d": [
+     "total",
+     "totaled",
+     "totaling"
+    ],
+    "exp": "ช่อง (4) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน totals หมายถึงรวม"
+   },
+   {
+    "type": "noun",
+    "key": "corporate",
+    "d": [
+     "corporates",
+     "corporating",
+     "corporator"
+    ],
+    "exp": "ช่อง (5) ตามหน้า account ต้องการ adjective corporate หมายถึงขององค์กร"
+   },
+   {
+    "type": "noun",
+    "key": "shipment",
+    "d": [
+     "shipments",
+     "shipping",
+     "shipped"
+    ],
+    "exp": "ช่อง (6) หลัง the ต้องการคำนามเอกพจน์ shipment หมายถึงการจัดส่ง"
+   },
+   {
+    "type": "verb",
+    "key": "need",
+    "d": [
+     "needs",
+     "needed",
+     "needing"
+    ],
+    "exp": "ช่อง (7) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน need หมายถึงต้องการ"
+   },
+   {
+    "type": "gerund",
+    "key": "shipping",
+    "d": [
+     "ship",
+     "ships",
+     "shipped"
+    ],
+    "exp": "ช่อง (8) หลัง before ต้องการ gerund shipping หมายถึงการจัดส่ง"
+   }
+  ]
+ },
+ {
+  "set": 5,
+  "passage": "B",
+  "genre": "review",
+  "topic": "Hotel review article",
+  "context": "The Seaside Resort(1) ____ expectations from the moment we arrived. The(2) ____ staff greeted us with warm smiles and(3) ____ us to our room within minutes. The room itself was(4) ____ clean and well-furnished, with a balcony overlooking the(5) ____. Breakfast offered a(6) ____ selection of local and international dishes, and the(7) ____ service was attentive throughout. The only(8) ____ was the noise from nearby construction during the day.",
+  "tip": "review: use past tense for personal experience, adjectives for evaluation, and nouns for amenities.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "exceeded",
+    "d": [
+     "exceed",
+     "exceeding",
+     "exceeds"
+    ],
+    "exp": "ช่อง (1) กับ subject เอกพจน์ อดีต ต้องการ verb อดีต exceeded หมายถึงเกิน"
+   },
+   {
+    "type": "adjective",
+    "key": "front-desk",
+    "d": [
+     "front",
+     "desk",
+     "frontage"
+    ],
+    "exp": "ช่อง (2) ตามหน้า staff ต้องการ compound adjective front-desk หมายถึงหน้างาน"
+   },
+   {
+    "type": "verb",
+    "key": "escorted",
+    "d": [
+     "escort",
+     "escorting",
+     "escorts"
+    ],
+    "exp": "ช่อง (3) กับ subject อดีต ต้องการ verb อดีต escorted หมายถึงพาเดิน"
+   },
+   {
+    "type": "adverb",
+    "key": "spotlessly",
+    "d": [
+     "spotless",
+     "spotlessness",
+     "spotlit"
+    ],
+    "exp": "ช่อง (4) ขยาย clean ต้องการ adverb spotlessly หมายถึงอย่างสะอาดหมดจด"
+   },
+   {
+    "type": "noun",
+    "key": "ocean",
+    "d": [
+     "oceans",
+     "oceanic",
+     "oceaning"
+    ],
+    "exp": "ช่อง (5) หลัง the ต้องการคำนาม ocean หมายถึงทะเล"
+   },
+   {
+    "type": "adjective",
+    "key": "generous",
+    "d": [
+     "generate",
+     "generously",
+     "generosity"
+    ],
+    "exp": "ช่อง (6) ตามหน้า selection ต้องการ adjective generous หมายถึงหลากหลาย"
+   },
+   {
+    "type": "noun",
+    "key": "room",
+    "d": [
+     "rooms",
+     "rooming",
+     "roomer"
+    ],
+    "exp": "ช่อง (7) ตามหน้า service ต้องการคำนาม room หมายถึงห้องพัก"
+   },
+   {
+    "type": "noun",
+    "key": "drawback",
+    "d": [
+     "drawbacks",
+     "drawing",
+     "drawn"
+    ],
+    "exp": "ช่อง (8) หลัง only ต้องการคำนามเอกพจน์ drawback หมายถึงข้อเสีย"
+   }
+  ]
+ },
+ {
+  "set": 6,
+  "passage": "B",
+  "genre": "announcement",
+  "topic": "Charity event announcement",
+  "context": "We are pleased to announce the upcoming Charity Fun(1) ____, which will take place at the central park on(2) ____ Saturday. The event will feature a five-kilometer(3) ____, food stalls, and live music performances. All(4) ____ raised will go directly to supporting local(5) ____ programs. Participants can register online, and early(6) ____ will receive a complimentary T-shirt. We encourage everyone to(7) ____ and make this event a(8) ____ success.",
+  "tip": "announcement: use future tense for events, nouns for activities, and adjectives for outcomes.",
+  "items": [
+   {
+    "type": "noun",
+    "key": "Fair",
+    "d": [
+     "fair",
+     "fairs",
+     "fairly"
+    ],
+    "exp": "ช่อง (1) ตามหน้า Fun ต้องการคำนาม Fair หมายถึงงาน"
+   },
+   {
+    "type": "adjective",
+    "key": "next",
+    "d": [
+     "nexts",
+     "nextly",
+     "nexting"
+    ],
+    "exp": "ช่อง (2) ตามหน้า Saturday ต้องการ adjective next หมายถึงถัดไป"
+   },
+   {
+    "type": "noun",
+    "key": "run",
+    "d": [
+     "runs",
+     "running",
+     "runner"
+    ],
+    "exp": "ช่อง (3) ตามหน้า five-kilometer ต้องการคำนาม run หมายถึงการวิ่ง"
+   },
+   {
+    "type": "noun",
+    "key": "proceeds",
+    "d": [
+     "proceed",
+     "proceeding",
+     "proceeded"
+    ],
+    "exp": "ช่อง (4) หลัง All ต้องการคำนามพหูพจน์ proceeds หมายถึงรายได้"
+   },
+   {
+    "type": "noun",
+    "key": "education",
+    "d": [
+     "educational",
+     "educating",
+     "educated"
+    ],
+    "exp": "ช่อง (5) ตามหน้า programs ต้องการคำนาม education หมายถึงการศึกษา"
+   },
+   {
+    "type": "noun",
+    "key": "registrations",
+    "d": [
+     "registration",
+     "registering",
+     "registry"
+    ],
+    "exp": "ช่อง (6) หลัง early ต้องการคำนามพหูพจน์ registrations หมายถึงการสมัคร"
+   },
+   {
+    "type": "verb",
+    "key": "attend",
+    "d": [
+     "attends",
+     "attended",
+     "attending"
+    ],
+    "exp": "ช่อง (7) หลัง to ต้องการ verb เติมตัว attend หมายถึงเข้าร่วม"
+   },
+   {
+    "type": "adjective",
+    "key": "resounding",
+    "d": [
+     "resound",
+     "resounded",
+     "resonant"
+    ],
+    "exp": "ช่อง (8) ตามหน้า success ต้องการ adjective resounding หมายถึงยอดเยี่ยม"
+   }
+  ]
+ },
+ {
+  "set": 7,
+  "passage": "B",
+  "genre": "review",
+  "topic": "Technology product review",
+  "context": "The NovaBook Pro is a(1) ____ laptop that balances portability with(2) ____ performance. Its 13-inch display delivers(3) ____ colors and sharp text, making it ideal for(4) ____ work and streaming. The battery easily(5) ____ a full workday, and the(6) ____ keyboard offers a comfortable typing experience. While the base model has(7) ____ storage, the higher-tier configuration is(8) ____ for professionals who need more.",
+  "tip": "product review: use adjectives for evaluation, nouns for features, and prepositions for purposes.",
+  "items": [
+   {
+    "type": "adjective",
+    "key": "sleek",
+    "d": [
+     "sleekly",
+     "sleekness",
+     "sleeker"
+    ],
+    "exp": "ช่อง (1) ตามหน้า laptop ต้องการ adjective sleek หมายถึงทันสมัย"
+   },
+   {
+    "type": "adjective",
+    "key": "solid",
+    "d": [
+     "solidly",
+     "solidity",
+     "solider"
+    ],
+    "exp": "ช่อง (2) ตามหน้า performance ต้องการ adjective solid หมายถึงเชื่อถือได้"
+   },
+   {
+    "type": "adjective",
+    "key": "vivid",
+    "d": [
+     "vividly",
+     "vividness",
+     "vivifier"
+    ],
+    "exp": "ช่อง (3) ตามหน้า colors ต้องการ adjective vivid หมายถึงสดใส"
+   },
+   {
+    "type": "noun",
+    "key": "creative",
+    "d": [
+     "create",
+     "creation",
+     "creatively"
+    ],
+    "exp": "ช่อง (4) ตามหน้า work ต้องการ adjective creative หมายถึงสร้างสรรค์"
+   },
+   {
+    "type": "verb",
+    "key": "lasts",
+    "d": [
+     "last",
+     "lasted",
+     "lasting"
+    ],
+    "exp": "ช่อง (5) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน lasts หมายถึงใช้ได้"
+   },
+   {
+    "type": "adjective",
+    "key": "backlit",
+    "d": [
+     "backlight",
+     "backlighting",
+     "backlits"
+    ],
+    "exp": "ช่อง (6) ตามหน้า keyboard ต้องการ adjective backlit หมายถึงมีแสงหลัง"
+   },
+   {
+    "type": "adjective",
+    "key": "limited",
+    "d": [
+     "limit",
+     "limiting",
+     "limiter"
+    ],
+    "exp": "ช่อง (7) ตามหน้า storage ต้องการ adjective limited หมายถึงจำกัด"
+   },
+   {
+    "type": "adjective",
+    "key": "worthwhile",
+    "d": [
+     "worth",
+     "worthiness",
+     "worthily"
+    ],
+    "exp": "ช่อง (8) ตามหน้า for ต้องการ adjective worthwhile หมายถึงคุ้มค่า"
+   }
+  ]
+ },
+ {
+  "set": 8,
+  "passage": "B",
+  "genre": "announcement",
+  "topic": "Community workshop announcement",
+  "context": "The community center is hosting a free(1) ____ on urban gardening this Saturday afternoon. The session will(2) ____ participants in planning small(3) ____ plots and selecting suitable plants for their(4) ____. Materials will be provided, and participants(5) ____ to bring their own gloves if they have them. The workshop will(6) ____ with a hands-on activity in the center's(7) ____ area. Space is limited, so please(8) ____ your place by Friday.",
+  "tip": "workshop announcement: use modals for requirements, nouns for activities, and passive voice for materials.",
+  "items": [
+   {
+    "type": "noun",
+    "key": "workshop",
+    "d": [
+     "workshops",
+     "working",
+     "worked"
+    ],
+    "exp": "ช่อง (1) หลัง free ต้องการคำนาม workshop หมายถึงเวิร์กชอป"
+   },
+   {
+    "type": "verb",
+    "key": "guide",
+    "d": [
+     "guides",
+     "guided",
+     "guiding"
+    ],
+    "exp": "ช่อง (2) หลัง will ต้องการ verb เติมตัว guide หมายถึงแนะนำ"
+   },
+   {
+    "type": "noun",
+    "key": "container",
+    "d": [
+     "containers",
+     "containing",
+     "containering"
+    ],
+    "exp": "ช่อง (3) ตามหน้า plots ต้องการ adjective container หมายถึงแบบ contained"
+   },
+   {
+    "type": "noun",
+    "key": "balconies",
+    "d": [
+     "balcony",
+     "balconied",
+     "balconieing"
+    ],
+    "exp": "ช่อง (4) หลัง their ต้องการคำนามพหูพจน์ balconies หมายถึงระเบียง"
+   },
+   {
+    "type": "verb",
+    "key": "are",
+    "d": [
+     "is",
+     "was",
+     "been"
+    ],
+    "exp": "ช่อง (5) กับ to bring ต้องการ verb are เพื่อบอกคำแนะนำ"
+   },
+   {
+    "type": "verb",
+    "key": "conclude",
+    "d": [
+     "concludes",
+     "concluded",
+     "concluding"
+    ],
+    "exp": "ช่อง (6) หลัง will ต้องการ verb เติมตัว conclude หมายถึงสิ้นสุด"
+   },
+   {
+    "type": "noun",
+    "key": "courtyard",
+    "d": [
+     "courtyards",
+     "courtyarding",
+     "court"
+    ],
+    "exp": "ช่อง (7) ตามหน้า area ต้องการคำนาม courtyard หมายถึงลาน"
+   },
+   {
+    "type": "verb",
+    "key": "reserve",
+    "d": [
+     "reserves",
+     "reserved",
+     "reserving"
+    ],
+    "exp": "ช่อง (8) หลัง please ต้องการ verb เติมตัว reserve หมายถึงจอง"
+   }
+  ]
+ },
+ {
+  "set": 9,
+  "passage": "B",
+  "genre": "news",
+  "topic": "Book launch news article",
+  "context": "Local author Ms. Waraporn(1) ____ her debut novel at a special event held at the(2) ____ bookstore on Saturday. The novel, which(3) ____ the lives of three generations in a coastal town, has already(4) ____ positive reviews from readers. During the launch, the author(5) ____ questions from the audience and signed copies for(6) ____ fans. The book is now(7) ____ at all major bookstores and online platforms, and the(8) ____ has planned a second printing to meet demand.",
+  "tip": "news: use past tense for events, relative clauses for descriptions, and present perfect for ongoing effects.",
+  "items": [
+   {
+    "type": "verb",
+    "key": "launched",
+    "d": [
+     "launch",
+     "launching",
+     "launches"
+    ],
+    "exp": "ช่อง (1) กับ subject อดีต ต้องการ verb อดีต launched หมายถึงเปิดตัว"
+   },
+   {
+    "type": "adjective",
+    "key": "independent",
+    "d": [
+     "independence",
+     "independently",
+     "independency"
+    ],
+    "exp": "ช่อง (2) ตามหน้า bookstore ต้องการ adjective independent หมายถึงอิสระ"
+   },
+   {
+    "type": "verb",
+    "key": "explores",
+    "d": [
+     "explore",
+     "explored",
+     "exploring"
+    ],
+    "exp": "ช่อง (3) กับ subject เอกพจน์ ต้องการ verb ปัจจุบัน explores หมายถึงสำรวจ"
+   },
+   {
+    "type": "verb",
+    "key": "received",
+    "d": [
+     "receive",
+     "receiving",
+     "receives"
+    ],
+    "exp": "ช่อง (4) รูปแบบ has + V3 ต้องการ received หมายถึงได้รับ"
+   },
+   {
+    "type": "verb",
+    "key": "answered",
+    "d": [
+     "answer",
+     "answering",
+     "answers"
+    ],
+    "exp": "ช่อง (5) กับ subject อดีต ต้องการ verb อดีต answered หมายถึงตอบ"
+   },
+   {
+    "type": "noun",
+    "key": "hundreds",
+    "d": [
+     "hundred",
+     "hundredfold",
+     "hundreding"
+    ],
+    "exp": "ช่อง (6) ตามหน้า fans ต้องการคำนามพหูพจน์ hundreds หมายถึงหลายร้อย"
+   },
+   {
+    "type": "verb",
+    "key": "available",
+    "d": [
+     "avail",
+     "availing",
+     "availment"
+    ],
+    "exp": "ช่อง (7) รูปแบบ is + adjective ต้องการ available หมายถึงวางจำหน่าย"
+   },
+   {
+    "type": "noun",
+    "key": "publisher",
+    "d": [
+     "publishers",
+     "publish",
+     "publishing"
+    ],
+    "exp": "ช่อง (8) หลัง the ต้องการคำนามเอกพจน์ publisher หมายถึงผู้พิมพ์"
+   }
+  ]
+ },
+ {
+  "set": 10,
+  "passage": "B",
+  "genre": "email",
+  "topic": "Volunteer orientation email",
+  "context": "Dear volunteers, thank you for(1) ____ to join our community service program. Your orientation session is scheduled for(2) ____ morning at the main hall. Please bring a(3) ____ copy of your identification and your emergency(4) ____ details. During the session, you will be(5) ____ through the safety guidelines and assigned to your(6) ____ teams. Lunch will be provided, and the session is expected to(7) ____ by early afternoon. If you are unable to(8) ____, please notify us immediately.",
+  "tip": "orientation email: use gerunds after prepositions, passive voice for processes, and modals for requirements.",
+  "items": [
+   {
+    "type": "gerund",
+    "key": "committing",
+    "d": [
+     "commit",
+     "committed",
+     "commitment"
+    ],
+    "exp": "ช่อง (1) หลัง for ต้องการ gerund committing หมายถึงการตัดสินใจ"
+   },
+   {
+    "type": "noun",
+    "key": "Saturday",
+    "d": [
+     "Saturdays",
+     "Saturdayly",
+     "Saturn"
+    ],
+    "exp": "ช่อง (2) ตามหน้า morning ต้องการคำนาม Saturday หมายถึงวันเสาร์"
+   },
+   {
+    "type": "adjective",
+    "key": "valid",
+    "d": [
+     "validly",
+     "validity",
+     "validate"
+    ],
+    "exp": "ช่อง (3) ตามหน้า copy ต้องการ adjective valid หมายถึงที่ยังใช้ได้"
+   },
+   {
+    "type": "noun",
+    "key": "contact",
+    "d": [
+     "contacts",
+     "contacting",
+     "contacted"
+    ],
+    "exp": "ช่อง (4) ตามหน้า emergency ต้องการคำนาม contact หมายถึงการติดต่อ"
+   },
+   {
+    "type": "verb",
+    "key": "walked",
+    "d": [
+     "walk",
+     "walking",
+     "walks"
+    ],
+    "exp": "ช่อง (5) รูปแบบ will be + V3 ต้องการ walked หมายถึงพาเดิน"
+   },
+   {
+    "type": "noun",
+    "key": "respective",
+    "d": [
+     "respect",
+     "respectively",
+     "respectful"
+    ],
+    "exp": "ช่อง (6) ตามหน้า teams ต้องการ adjective respective หมายถึงแต่ละ"
+   },
+   {
+    "type": "verb",
+    "key": "conclude",
+    "d": [
+     "concludes",
+     "concluded",
+     "concluding"
+    ],
+    "exp": "ช่อง (7) หลัง to ต้องการ verb เติมตัว conclude หมายถึงสิ้นสุด"
+   },
+   {
+    "type": "verb",
+    "key": "attend",
+    "d": [
+     "attends",
+     "attended",
+     "attending"
+    ],
+    "exp": "ช่อง (8) หลัง to ต้องการ verb เติมตัว attend หมายถึงเข้าร่วม"
+   }
+  ]
+ }
+]

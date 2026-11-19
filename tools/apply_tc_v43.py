@@ -9,8 +9,15 @@ sys.path.insert(0,os.path.dirname(__file__));from changelog import log
 V=json.load(open('data/vault.json'));by={q['id']:q for q in V}
 qs=[q for q in V if q['kind']=='tc']
 assert len(qs)==300,len(qs)
-groups=[]
-for f in sorted(glob.glob('content/tc_v43_[a-j].json')): groups+=json.load(open(f))
+# Load all specs; later files (k,l = C4 new-genre) override earlier ones by (set,passage)
+seen={}
+_loaded=0
+for f in sorted(glob.glob('content/tc_v43_[a-l].json')):
+    for g in json.load(open(f)):
+        seen[(g['set'],g['passage'])]=g  # later files win
+        _loaded+=1
+groups=[seen[k] for k in seen]
+assert _loaded==60,_loaded
 assert len(groups)==40,len(groups)
 REASON='TC v43 rebalance: v42.0.2 had 241/300 function-word blanks and no inversion/question-tag/verb-form spread; passages rewritten with ~40-50% vocabulary/collocation and the grammar types listed in qa/R3-BLUEPRINT-ALIGNMENT.md'
 # split vault tc items into per-set passages: 7 items (A) then 8 items (B) per set
