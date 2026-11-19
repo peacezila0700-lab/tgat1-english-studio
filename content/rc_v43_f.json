@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S11-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the teachers set up a garden beside the science room?",
+    "key": "Book exercises seemed unrelated to life.",
+    "d": [
+     "Students had asked for many more outdoor lessons.",
+     "The school had no room for experiments.",
+     "Plants grew too slowly in the classroom."
+    ],
+    "exp": "บทความให้เหตุผลว่า “Textbook examples felt distant from daily life, so the teachers set up a small garden beside the science room.” ตัวเลือกนักเรียนขอ/ไม่มีห้อง/พืชโตช้า ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which equipment did the students need for the garden work?",
+    "key": "Measuring tools, name tags and notebooks.",
+    "d": [
+     "Thermometers and expensive soil testing kits.",
+     "Cameras and measuring tapes.",
+     "Scales and light meters."
+    ],
+    "exp": "ข้อความระบุว่า “Rulers, plant labels, and simple journals were enough; no expensive equipment was needed.” ตัวเลือกเครื่องมือวัดอื่น ๆ จึงผิด เพราะบทความเน้นว่าไม่ต้องใช้อุปกรณ์ราคาแพง"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the teachers feel about the garden project so far?",
+    "key": "Positive, though they see room to improve.",
+    "d": [
+     "Disappointed by the slow growth.",
+     "Unsure whether to keep the garden.",
+     "Proud that no expensive equipment was needed."
+    ],
+    "exp": "ครูมองว่า “The results were encouraging” และยังวางแผนย้ายกระถางเพื่อเทียบบันทึก พร้อมหวังให้สวนอยู่ในการเรียนระยะยาว = พึงพอใจแต่ยังพัฒนาต่อ ตัวเลือกผิดหวัง/ลังเล ไม่มีสัญญาณในข้อความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “encouraging” is closest in meaning to",
+    "key": "giving reason to feel hopeful.",
+    "d": [
+     "surprising to the teachers.",
+     "difficult to measure.",
+     "complete and final."
+    ],
+    "exp": "“The results were encouraging, although plants in shaded areas grew more slowly” = ผลน่าพอใจ/ให้ความหวังว่าวิธีนี้ได้ผล แม้ยังมีจุดที่ต้องปรับ ตัวเลือกน่าประหลาดใจ/วัดยาก/เสร็จสิ้นสมบูรณ์ ไม่ใช่ความหมายนี้"
+   },
+   {
+    "type": "true",
+    "prompt": "According to the passage, which statement is TRUE?",
+    "key": "Students recorded their observations every week.",
+    "d": [
+     "Plants in shaded areas grew the fastest.",
+     "The garden project lasted six days.",
+     "Teachers plan to stop using the garden."
+    ],
+    "exp": "บทความระบุว่านักเรียนต้อง “record their observations each week” ส่วนพืชในที่ร่ม “grew more slowly” ไม่ใช่เร็วสุด โครงการกินเวลา “six weeks” ไม่ใช่หกวัน และครูหวังให้สวน “have a lasting place in science lessons”"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What was the first step taken by the venue staff and residents?",
+    "key": "Agreeing on closing routines and naming a contact.",
+    "d": [
+     "Building a wall around the venue.",
+     "Asking the town for a new noise rule.",
+     "Moving events to earlier evenings."
+    ],
+    "exp": "บทความระบุว่า “Their first step was to agree on clear closing routines and name a contact person for concerns.” ตัวเลือกสร้างกำแพง/ขอกฎใหม่/ย้ายเวลาจัดงาน ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "How could neighbors comment on the arrangement?",
+    "key": "By filling in a comment sheet.",
+    "d": [
+     "By attending the venue’s meetings.",
+     "By writing in the shared schedule.",
+     "By contacting the town office."
+    ],
+    "exp": "ข้อความบอกว่ากลุ่ม “invited neighbors to comment through a short feedback form” ตัวเลือกเข้าประชุม/เขียนในตารางร่วมกัน/ติดต่อสำนักงานเขต ไม่ตรงกับวิธีที่ระบุ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the drop in complaints suggest to the group?",
+    "key": "That the agreed changes were working.",
+    "d": [
+     "That fewer people lived near the venue.",
+     "That the venue held fewer busy evenings.",
+     "That the feedback form was ignored."
+    ],
+    "exp": "บทความเชื่อมสองเรื่องไว้ตรง ๆ ว่า “complaints fell, suggesting that the changes were helping” การลดลงจึงเป็นสัญญาณว่าการปรับใช้ได้ผล ไม่ได้บอกว่าคนน้อยลงหรืองานน้อยลง"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “routines” is closest in meaning to",
+    "key": "regular steps followed each time.",
+    "d": [
+     "rules written by the local council.",
+     "letters sent to the neighbors.",
+     "special events held late at night."
+    ],
+    "exp": "ขั้นแรกคือ “agree on clear closing routines” คือขั้นตอนปิดสถานที่ที่ทำเหมือนเดิมทุกครั้ง บทความบอกว่ากลุ่มไม่ได้รอ “a single rule” จากทางการ จึงไม่ใช่กฎของสภาท้องถิ่น ส่วนจดหมายและงานพิเศษไม่ใช่ความหมายของคำ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the passage call the approach practical?",
+    "key": "It used simple steps both sides could revise.",
+    "d": [
+     "It solved the whole problem with a single rule.",
+     "It removed the need for any planning.",
+     "It ended late-night events completely."
+    ],
+    "exp": "ประโยคท้ายระบุว่า “The approach was practical because it relied on simple steps that residents and staff could follow and revise when necessary.” ตัวเลือกกฎข้อเดียวตรงข้ามกับ “rather than wait for a single rule” และงานดึกยังมีอยู่ (special events still needed extra planning)"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What problem led the teachers to create the homework board?",
+    "key": "Students missed small tasks and forgot due dates.",
+    "d": [
+     "Students submitted work too early.",
+     "Teachers posted too many weekly lists.",
+     "The online calendar stopped working."
+    ],
+    "exp": "บทความระบุว่าบอร์ดถูกสร้างขึ้น “after noticing that students were missing small assignments and forgetting due dates” ตัวเลือกส่งเร็วเกิน/ครูโพสต์เยอะ/ปฏิทินเสีย ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What problem did the one-month review reveal?",
+    "key": "Some learners lacked a steady connection.",
+    "d": [
+     "Students did not read the weekly lists.",
+     "Teachers forgot to post the reminders.",
+     "The online calendar showed the wrong due dates."
+    ],
+    "exp": "ผลการทบทวนระบุว่า “some students had unreliable internet access at home” ครูจึงตัดสินใจไม่พึ่งเว็บไซต์อย่างเดียว ตัวเลือกนักเรียนไม่อ่าน/ครูลืมโพสต์/ปฏิทินแสดงวันผิด ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The project showed that reliable information matters only when everyone can reach it and use it.”?",
+    "key": "Good information is useless if some students cannot access it.",
+    "d": [
+     "Reliable information helps every student equally.",
+     "Students must have internet to learn at all.",
+     "Printed lists are more reliable than websites."
+    ],
+    "exp": "ใจความคือข้อมูลที่ดีจะมีค่าก็ต่อเมื่อทุกคนเข้าถึงได้ = ถ้าบางคนเข้าถึงไม่ได้ ข้อมูลนั้นก็ช่วยไม่ได้ ตัวเลือกแรกตรงข้ามกับข้อความ ตัวเลือกสามสรุปเกินว่ากระดาษดีกว่าเว็บเสมอ (บทความใช้ทั้งสองทาง)"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the central point of the passage?",
+    "key": "A homework board and the limits teachers found.",
+    "d": [
+     "Why students keep forgetting their weekly assignments.",
+     "A school plan to give students free internet.",
+     "How teachers choose online calendar tools."
+    ],
+    "exp": "แกนเรื่องคือครูทดลองบอร์ดการบ้านดิจิทัล ได้ผลบางส่วน แล้วพบข้อจำกัดเรื่องการเข้าถึงจนปรับเป็นใช้ทั้งกระดาษและออนไลน์ ตัวเลือกแผนแจกอินเทอร์เน็ต/วิธีเลือกเครื่องมือ ไม่มีในบทความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “consistently” is closest in meaning to",
+    "key": "in a regular way each time.",
+    "d": [
+     "with fewer spelling mistakes.",
+     "through the online calendar.",
+     "earlier than the teachers expected."
+    ],
+    "exp": "ปัญหาเดิมคือนักเรียน “missing small assignments and forgetting due dates” ครูจึงตรวจว่านักเรียน “submitting work more consistently” = ส่งงานสม่ำเสมอทุกครั้ง ไม่ใช่เรื่องตัวสะกด ช่องทางส่ง หรือส่งเร็วกว่ากำหนด"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did visitors do before the signs were added?",
+    "key": "Admired the sculptures and walked on.",
+    "d": [
+     "Asked the local guides about each artwork.",
+     "Read the artists’ names along the whole trail.",
+     "Took photographs at the stops."
+    ],
+    "exp": "บทความระบุว่าผู้เยี่ยมชม “often admired the sculptures but walked on without learning who had made them or what they represented” จึงมีการเพิ่มคำบรรยายสั้น ๆ ที่แต่ละจุด"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the review find about some of the new signs?",
+    "key": "They were hard to read in bright sunlight.",
+    "d": [
+     "They were damaged by the rainy season.",
+     "They were placed too close together.",
+     "They used wording that most visitors disliked."
+    ],
+    "exp": "ผลการทบทวนคือ “some signs were difficult to read in bright sunlight” ผู้จัดจึงจะทดสอบตัวอักษรใหญ่ขึ้นและตำแหน่งใหม่ ตัวเลือกเสียหายจากฝน/วางชิดกัน/ถ้อยคำไม่ถูกใจ ไม่มีข้อมูล"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “weather-resistant” is closest in meaning to",
+    "key": "not easily damaged by rain or sun.",
+    "d": [
+     "easy to move to another place.",
+     "printed in very large letters.",
+     "cheap for the organizers to buy in bulk."
+    ],
+    "exp": "พวกเขา “chose weather-resistant signs” เพราะต้องติดตั้งกลางแจ้งและผ่านช่วงฝน = ทนแดดทนฝนไม่เสียหายง่าย ตัวเลือกย้ายง่าย/ตัวอักษรใหญ่/ราคาถูก ไม่ใช่ความหมายของคำนี้"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement agrees with the information in the passage?",
+    "key": "Visitors spent longer looking at the artworks.",
+    "d": [
+     "The organizers will redesign the whole art trail.",
+     "Visitors were asked to comment before the signs were made.",
+     "The signs were counted only on dry days."
+    ],
+    "exp": "บทความระบุว่า “visitors spent longer looking at the artworks” ส่วนผู้จัด “do not intend to redesign the whole trail” ผู้เยี่ยมชมถูกขอความเห็นเรื่องถ้อยคำและตำแหน่ง (คือหลังทำต้นแบบ) และการนับทำ “During the rainy season”"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the organizers’ next steps?",
+    "key": "They will change small details, not the trail itself.",
+    "d": [
+     "They will remove the signs for now.",
+     "They will replace every sign immediately.",
+     "They will stop asking visitors to comment."
+    ],
+    "exp": "ผู้จัดจะ “test larger lettering and different positions before replacing the signs” และ “do not intend to redesign the whole trail; they simply need to adjust a few details” = ปรับรายละเอียดทีละน้อย ตัวเลือกถอดป้ายทั้งหมด/เปลี่ยนทันที/เลิกขอความเห็น จึงผิด"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What two systems did the tool library use to manage items?",
+    "key": "Coded tags and sign-out slips.",
+    "d": [
+     "Photos of tools and a member list.",
+     "A phone line and a paper register.",
+     "Barcodes and an online booking form."
+    ],
+    "exp": "บทความระบุว่าตั้งห้องสมุดเครื่องมือ “using numbered labels to identify each item and return cards to record who borrowed it” ตัวเลือกอื่นไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What problem remained after the scheme improved access?",
+    "key": "Some items were returned too late.",
+    "d": [
+     "Members refused to use the labels.",
+     "Too few residents joined the group.",
+     "The tools were often returned broken."
+    ],
+    "exp": "ข้อความระบุว่า “some items came back late, making it difficult for the next person to borrow them” กลุ่มจึงวางแผนส่งข้อความเตือนก่อนถึงกำหนดคืน ตัวเลือกของชำรุด/คนเข้าร่วมน้อย ไม่มีข้อมูล"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “It” in “It set up a shared tool library” refer to?",
+    "key": "A neighborhood group.",
+    "d": [
+     "A local hardware tool shop.",
+     "The town council.",
+     "A single local household."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “A neighborhood group saw an opportunity to help people save money” ผู้ที่ตั้งห้องสมุดเครื่องมือจึงคือกลุ่มเพื่อนบ้านนั้น ไม่ใช่ร้านค้า สภาเมือง หรือครัวเรือนใดครัวเรือนหนึ่ง"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the group plan to send reminder messages?",
+    "key": "To reduce the number of late returns.",
+    "d": [
+     "To ask members what should change next.",
+     "To record who borrowed each item.",
+     "To tell members about new tools."
+    ],
+    "exp": "การส่งข้อความเตือนก่อนถึงกำหนดคืนมุ่งแก้ปัญหา “some items came back late” ส่วนการถามความเห็นว่าควรปรับอะไรทำไปแล้วตอนทบทวนบันทึกการยืม และการบันทึกผู้ยืมเป็นหน้าที่ของ return cards"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “scheme” is closest in meaning to",
+    "key": "an organized plan or project.",
+    "d": [
+     "a dishonest plan to trick people.",
+     "a list of tools offered for sale.",
+     "a group of nearby households."
+    ],
+    "exp": "“The scheme improved access to useful equipment” หมายถึงโครงการห้องสมุดเครื่องมือที่กลุ่มจัดตั้งขึ้น ในบริบทนี้ scheme ไม่ได้มีความหมายเชิงลบว่าแผนหลอกลวง ห้องสมุดไม่ได้ขายเครื่องมือ และไม่ใช่กลุ่มครัวเรือน"
+   }
+  ]
+ }
+]

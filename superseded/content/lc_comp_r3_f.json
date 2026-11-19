@@ -1,0 +1,277 @@
+[
+ {
+  "first": "S13-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Adjusting a wetland trip because of the morning tide",
+    "d": [
+     "Choosing a new date for the class visit to the wetland",
+     "Training students to use the water-testing kits",
+     "Finding more adults to help on the trip"
+    ],
+    "exp": "ทั้งบทสนทนาปรับแผนการไปพื้นที่ชุ่มน้ำวันพฤหัสเพราะน้ำขึ้นสูงตอนเช้า ยังไปวันเดิม จึงไม่ใช่การเลือกวันใหม่ ชุดตรวจน้ำและผู้ใหญ่สองคนเป็นรายละเอียดย่อย ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "prompt": "Why does the guide suggest taking the raised path first?",
+    "key": "The tide will be high in the morning.",
+    "d": [
+     "The marked pond is closed until noon.",
+     "The visitor centre opens late on Thursdays.",
+     "Students want to see the birds first."
+    ],
+    "exp": "Mek บอกตั้งแต่ต้นว่า “the tide will be high in the morning” คำแนะนำให้ใช้ทางยกระดับจึงตอบปัญหานี้ ไม่มีข้อมูลว่าบ่อปิดหรือศูนย์บริการเปิดช้า และนิทรรศการนกเป็นแผนสำรองเมื่อทางปิด"
+   },
+   {
+    "prompt": "When will the students use the water-testing kits?",
+    "key": "After the guide checks the conditions at the pond",
+    "d": [
+     "As soon as they arrive at the visitor centre in the morning",
+     "While they walk along the raised path",
+     "Only if the path to the pond is closed"
+    ],
+    "exp": "ครูบอกว่า “we’ll use them only at the marked pond after the guide checks the conditions” ตัวเลือกอื่นระบุเวลาหรือสถานที่อื่นซึ่งขัดกับคำว่า only at the marked pond"
+   },
+   {
+    "prompt": "What will Mek do tonight?",
+    "key": "Send families the updated meeting time",
+    "d": [
+     "Find two adults for the back of the group",
+     "Check the tide times for Thursday again",
+     "Book a visit to the indoor bird exhibit"
+    ],
+    "exp": "Mek พูดว่า “I can send the updated meeting time to families tonight.” การหาผู้ใหญ่สองคนเป็นความต้องการที่ครูพูดถึงแต่ไม่ได้มอบให้ Mek ส่วนการตรวจตารางน้ำและการจองนิทรรศการนกไม่มีใครบอกว่าจะทำ"
+   },
+   {
+    "prompt": "What will happen if the path is closed?",
+    "key": "The class will go to the indoor bird exhibit.",
+    "d": [
+     "The trip will be moved to another day.",
+     "Students will test the water on the shore.",
+     "The class will wait at the visitor centre."
+    ],
+    "exp": "ครูพูดว่า “If the path is closed, we’ll use the indoor bird exhibit instead.” ไม่มีการเลื่อนวัน การทดสอบน้ำที่ชายฝั่งขัดกับการใช้ชุดตรวจเฉพาะที่บ่อ และการรอที่ศูนย์ไม่ใช่แผนที่ระบุ"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Testing captions at one theatre performance",
+    "d": [
+     "Asking the actors to speak more slowly on stage",
+     "Moving audience members closer to the stage",
+     "Adding captions to every show this month"
+    ],
+    "exp": "ทั้งสองวางแผนทดลองแสดงคำบรรยายในรอบวันพฤหัสหนึ่งรอบ ไม่มีการขอให้นักแสดงพูดช้าลงหรือย้ายที่นั่ง และการเพิ่มคำบรรยายในรอบอื่นจะพิจารณาหลังการทดลองเท่านั้น"
+   },
+   {
+    "prompt": "What did some audience members complain about?",
+    "key": "They missed lines when actors spoke quickly.",
+    "d": [
+     "They could not see the stage from the back row.",
+     "The captions covered part of the stage.",
+     "The Thursday show started too late."
+    ],
+    "exp": "Jin รายงานว่า “they missed lines when actors spoke quickly” ตัวเลือกคำบรรยายบังเวทีเป็นความเสี่ยงที่ May กังวลล่วงหน้า ไม่ใช่คำร้องเรียน เพราะยังไม่ได้ใช้คำบรรยาย ส่วนแถวหลังและเวลาเริ่มไม่ได้ถูกร้องเรียน"
+   },
+   {
+    "prompt": "What is May concerned about?",
+    "key": "The captions might block the view of the actors.",
+    "d": [
+     "The volunteer in the back row might miss timing problems.",
+     "The audience might not give any feedback.",
+     "The stage manager might refuse to help."
+    ],
+    "exp": "May พูดว่า “we need to check that they don’t cover the actors” ตัวเลือกอื่นเป็นปัญหาที่อาจเกิดได้ แต่ไม่มีผู้พูดคนใดแสดงความกังวลเรื่องเหล่านั้น"
+   },
+   {
+    "prompt": "Why will a volunteer sit in the back row?",
+    "key": "To note any problems with the caption timing",
+    "d": [
+     "To help latecomers find their seats",
+     "To collect feedback forms after the show",
+     "To check whether the actors speak too fast"
+    ],
+    "exp": "Jin พูดว่าจะให้อาสาสมัคร “sit in the back row and note any timing problems” หมายถึงเวลาแสดงคำบรรยาย ตัวเลือกช่วยหาที่นั่งและแจกแบบฟอร์มไม่มีในบทสนทนา ส่วนการตรวจว่านักแสดงพูดเร็วเป็นสาเหตุเดิม ไม่ใช่หน้าที่ของอาสาสมัคร"
+   },
+   {
+    "prompt": "What will May do before the screen is prepared?",
+    "key": "Speak with the stage manager",
+    "d": [
+     "Ask the audience for feedback",
+     "Choose a volunteer for the back row",
+     "Add captions to more performances"
+    ],
+    "exp": "May ปิดท้ายว่า “I’ll speak with the stage manager before we prepare the screen.” การถามความเห็นผู้ชมจะทำหลังการแสดง การหาอาสาสมัครเป็นสิ่งที่ Jin อาสา และการเพิ่มรอบเป็นเรื่องที่จะพิจารณาภายหลัง"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Whether to set up a donation box by the office door",
+    "d": [
+     "How to find more volunteers who can work at the food bank at noon",
+     "Which kinds of food the food bank should accept",
+     "Where to store fresh food during hot weather"
+    ],
+    "exp": "บทสนทนาเสนอและวางแผนทดลองกล่องรับบริจาคหน้าประตูสำนักงาน ตัวเลือกหาอาสาสมัครเพิ่มฟังดูเป็นทางแก้แต่ไม่มีใครเสนอ ส่วนชนิดอาหารและอาหารสดไม่ใช่ประเด็นที่คุยกัน"
+   },
+   {
+    "prompt": "What problem do donations at noon cause?",
+    "key": "No volunteers are there to sort them.",
+    "d": [
+     "Too few people bring donations at that time.",
+     "The office door is locked during lunch.",
+     "The storage room gets too warm at noon."
+    ],
+    "exp": "Ploy บอกว่า “volunteers aren’t there to sort them” ช่วงเที่ยงมีของบริจาคมาก จึงไม่ใช่ว่ามีน้อย ประตูล็อกไม่ได้ถูกกล่าวถึง และอุณหภูมิห้องเป็นสิ่งที่ต้องตรวจก่อนวางกล่อง ไม่ใช่ปัญหาของช่วงเที่ยง"
+   },
+   {
+    "prompt": "Why must they check the room before using the box?",
+    "key": "Canned and dry goods need a cool, secure place.",
+    "d": [
+     "The coordinator wants to move the office.",
+     "The building manager has refused the plan.",
+     "Volunteers need a place to sort donations."
+    ],
+    "exp": "ผู้ประสานงานต้องการตรวจว่า “the room stays cool enough for canned and dry goods” และ Sam จะถามเรื่อง “temperature and security” ด้วย ตัวเลือกอื่นไม่มีหลักฐาน และผู้จัดการอาคารยังไม่ได้ถูกถามจึงยังไม่ได้ปฏิเสธ"
+   },
+   {
+    "prompt": "Who will Sam contact?",
+    "key": "The building manager",
+    "d": [
+     "The food bank coordinator",
+     "The volunteers who sort food",
+     "The people who give donations"
+    ],
+    "exp": "Sam พูดว่า “I can ask the building manager about the temperature and security.” ผู้ประสานงานเป็นคนที่ให้คำแนะนำมาแล้ว ส่วนอาสาสมัครและผู้บริจาคไม่ใช่คนที่ Sam จะติดต่อ"
+   },
+   {
+    "prompt": "How will they judge whether the box works?",
+    "key": "By comparing donations before and after the change",
+    "d": [
+     "By asking the building manager for his opinion of it",
+     "By counting the volunteers who come at noon",
+     "By checking the room temperature every day"
+    ],
+    "exp": "Sam สรุปว่า “volunteers can compare how many donations arrive before and after the change.” ผู้จัดการอาคารเกี่ยวข้องกับการอนุญาต ไม่ใช่การประเมินผล และการนับอาสาสมัครหรือวัดอุณหภูมิทุกวันไม่ได้ถูกใช้เป็นตัววัด"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Helping riders return shared bikes to the docks",
+    "d": [
+     "Stopping cars from parking in front of the station signs",
+     "Adding more bike docks beside the station",
+     "Building a new cycle path to the station"
+    ],
+    "exp": "ปัญหาคือผู้ใช้จอดจักรยานนอกจุดคืน และทั้งสองเสนอทาเส้นสีสดนำทางไปจุดคืน รถยนต์ที่บังป้ายเป็นสาเหตุ แต่ไม่ได้มีแผนห้ามจอด การเพิ่มจุดจอดหรือสร้างทางจักรยานใหม่ไม่ได้ถูกเสนอ"
+   },
+   {
+    "prompt": "According to Art, why are the signs easy to miss?",
+    "key": "Parked cars can block them.",
+    "d": [
+     "They are too small to read.",
+     "They face the wrong direction.",
+     "They are far from the cycle path."
+    ],
+    "exp": "Art บอกว่า “The signs are easy to miss when cars are parked in front of them.” ตัวเลือกอื่นเป็นสาเหตุที่เป็นไปได้ทั่วไป แต่ไม่มีในบทสนทนา"
+   },
+   {
+    "prompt": "Why does Art want to talk to the station manager first?",
+    "key": "To check the rules about painting the pavement",
+    "d": [
+     "To ask for more bike docks at the station",
+     "To report riders who leave bikes outside",
+     "To get permission to take photographs"
+    ],
+    "exp": "Art พูดว่า “Before painting, let’s check with the station manager about the pavement rules.” การขอจุดจอดเพิ่ม การรายงานผู้ใช้ และการขออนุญาตถ่ายรูปไม่ได้เป็นเหตุผลที่ระบุ"
+   },
+   {
+    "prompt": "When will Nok take photos?",
+    "key": "During the morning and evening rush",
+    "d": [
+     "Only after the line has been painted",
+     "When the station manager agrees",
+     "Late at night when the station is quiet"
+    ],
+    "exp": "Nok บอกว่า “I can take photos during the morning and evening rush.” ไม่ได้บอกว่าต้องรอให้ทาสีหรือรอผู้จัดการอนุมัติ และช่วงกลางคืนขัดกับช่วงเร่งด่วนที่ระบุ"
+   },
+   {
+    "prompt": "How will they decide whether the trial worked?",
+    "key": "Count misplaced bikes and ask riders",
+    "d": [
+     "Ask the station manager to inspect it",
+     "Count the cars that park nearby",
+     "Compare photos from other stations"
+    ],
+    "exp": "Art บอกว่าหลังทดลอง “we can count misplaced bikes and ask riders whether the route is clearer.” ผู้จัดการสถานีเกี่ยวข้องกับกฎการทาสี การนับรถยนต์และสถานีอื่นไม่ได้ถูกกล่าวถึง"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Opening a cool place for residents during hot weather",
+    "d": [
+     "Planning a health talk for older residents in the community",
+     "Asking the council for more volunteers",
+     "Moving the bus stop closer to the hall"
+    ],
+    "exp": "ทั้งสองเตรียมเปิดห้องโถงชุมชนเป็นที่หลบร้อนช่วงอากาศร้อนจัด การบรรยายของพยาบาลเป็นเพียงส่วนหนึ่งของแผน ส่วนการขอสภาหรือย้ายป้ายรถเมล์ไม่มีในบทสนทนา (ป้ายรถเมล์เป็นที่ติดประกาศเวลาเปิด)"
+   },
+   {
+    "prompt": "According to Rita, what is needed before the hall can be used?",
+    "key": "Drinking water and a volunteer schedule",
+    "d": [
+     "A talk from the nurse about heat illness",
+     "Permission from the older residents",
+     "A notice at the bus stop"
+    ],
+    "exp": "Rita บอกว่า “we need drinking water and a volunteer schedule” การบรรยายของพยาบาลและประกาศที่ป้ายรถเมล์เป็นข้อเสนอของ Tao ไม่ใช่เงื่อนไขก่อนเปิด และไม่มีการขออนุญาตจากผู้สูงอายุ"
+   },
+   {
+    "prompt": "What will the nurse do on Monday?",
+    "key": "Give a short talk about heat illness",
+    "d": [
+     "Check older residents’ health at home",
+     "Open the shaded side room",
+     "Organize the volunteer schedule"
+    ],
+    "exp": "Tao บอกว่า “The nurse can give a short talk about signs of heat illness on Monday.” การตรวจสุขภาพที่บ้านไม่ได้กล่าวถึง ห้องด้านข้างเป็นเรื่องที่ Rita จะถามผู้จัดการ และไม่มีใครมอบตารางอาสาสมัครให้พยาบาล"
+   },
+   {
+    "prompt": "Where will the opening hours be posted?",
+    "key": "At the bus stop",
+    "d": [
+     "On the hall’s front door",
+     "At the nurse’s clinic",
+     "Inside the shaded side room"
+    ],
+    "exp": "Tao เสนอว่า “Let’s post the opening hours at the bus stop and send them to older residents.” สถานที่อื่นในตัวเลือกไม่ได้ถูกกล่าวถึงเป็นที่ติดประกาศ"
+   },
+   {
+    "prompt": "Why will they review attendance after the first two days?",
+    "key": "To decide whether to extend the hours",
+    "d": [
+     "To see if the nurse should talk again",
+     "To count how many volunteers came",
+     "To check whether the forecast was right"
+    ],
+    "exp": "Rita พูดว่า “We should review attendance after the first two days before extending the hours.” การตรวจจำนวนผู้มาใช้จึงใช้ตัดสินเรื่องขยายเวลา ไม่ใช่เรื่องการบรรยาย จำนวนอาสาสมัคร หรือความถูกต้องของพยากรณ์"
+   }
+  ]
+ }
+]

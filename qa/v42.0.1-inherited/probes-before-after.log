@@ -1,0 +1,123 @@
+# probe: Vocabulary Lab distractors (3 rounds x 10 items) 2026-11-18T23:46:36+07:00
+## ORIGINAL v40.9.0
+{
+ "items": 29,
+ "distractor_slots": 87,
+ "distractors_with_latin": 87,
+ "unique_distractors": 6,
+ "items_where_only_answer_is_pure_thai": 29,
+ "top_distractors": [
+  [
+   "make up แต่งเรื่อง/คืนดี/ประกอบเป็น; make up for ชดเชย",
+   20
+  ],
+  [
+   "little แทบไม่มี; a little มีอยู่บ้าง",
+   20
+  ],
+  [
+   "few แทบไม่มี/น้อยจนไม่พอ; a few มีอยู่บ้าง",
+   20
+  ],
+  [
+   "many ใช้กับคำนามนับได้พหูพจน์; much ใช้กับนามนับไม่ได้",
+   9
+  ],
+  [
+   "มักเป็น adverb หรือแปลว่าสบายดี",
+   9
+  ],
+  [
+   "มัน (เป็น/ได้) — ย่อมาจาก it is / it has; ต่างจาก its = ของมัน",
+   9
+  ]
+ ],
+ "errors": []
+}
+## FIXED v41.0.0
+{
+ "items": 30,
+ "distractor_slots": 90,
+ "distractors_with_latin": 0,
+ "unique_distractors": 86,
+ "items_where_only_answer_is_pure_thai": 0,
+ "top_distractors": [
+  [
+   "บริการด้านสุขภาพ",
+   2
+  ],
+  [
+   "ผู้โดยสาร",
+   2
+  ],
+  [
+   "เริ่มต้น",
+   2
+  ],
+  [
+   "เทียบเท่า",
+   2
+  ],
+  [
+   "ง่าย",
+   1
+  ],
+  [
+   "ประหลาดใจ",
+   1
+  ],
+  [
+   "สั้น; โดยสรุป",
+   1
+  ],
+  [
+   "ความแออัด",
+   1
+  ],
+  [
+   "การออกเดินทาง",
+   1
+  ],
+  [
+   "สารก่อภูมิแพ้",
+   1
+  ],
+  [
+   "กิจวัตร",
+   1
+  ],
+  [
+   "ผล; ผลกระทบ",
+   1
+  ],
+  [
+   "รสชาติ",
+   1
+  ],
+  [
+   "ธนาคาร; ตลิ่ง; สะสมหรือฝากเงิน",
+   1
+  ],
+  [
+   "ทบทวน; การทบทวน",
+   1
+  ]
+ ],
+ "errors": []
+}
+
+# probe: Vocabulary Lab SRS persistence across reload
+## ORIGINAL
+in-memory log 10 items 10
+stored None
+after reload {'log': 0, 'items': 0, 'xp': None, 'sessions': 0}
+## FIXED
+in-memory log 10 items 10
+stored {'log': 10, 'items': 10}
+after reload {'log': 10, 'items': 10, 'xp': None, 'sessions': 1}
+
+# probe: progress for 107 pack words survives reload
+## ORIGINAL
+{'pack': 107, 'kept': 100, 'inBank': 107}
+## FIXED
+{'pack': 107, 'kept': 107, 'inBank': 107}

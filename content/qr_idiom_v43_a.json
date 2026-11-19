@@ -1,0 +1,452 @@
+[
+ {
+  "id": "S01-Q002",
+  "old_prompt": "Q: Could you tell me where the science lab is?",
+  "prompt": "Q: Did you remember to bring the projector cable?",
+  "options": [
+   "Yes, it slipped off the table during this morning’s meeting.",
+   "Oh no, it slipped my mind. I’ll get it now.",
+   "The cable is about two meters long.",
+   "I’ll remember this trip for years."
+  ],
+  "answer": 1,
+  "explanation": "“It slipped my mind” แปลว่า ลืมไปเลย จึงตอบคำถามว่าจำได้ไหมได้ตรงที่สุด ตัวเลือก slipped off the table ใช้คำว่า slip ตามตัวอักษร (หล่นจากโต๊ะ) ไม่ใช่การตอบว่าจำได้หรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S01-Q003",
+  "old_prompt": "Q: Would you mind moving these chairs?",
+  "prompt": "Q: Can I tell you about my idea for the class trip?",
+  "options": [
+   "My ears hurt after the concert last night.",
+   "Yes, I heard the trip was fun.",
+   "No, I’ve never been on a class trip.",
+   "Sure, I’m all ears."
+  ],
+  "answer": 3,
+  "explanation": "“I’m all ears” แปลว่า พร้อมฟังเต็มที่ เป็นการตอบรับคำขอให้ฟังไอเดีย ตัวเลือกหูเจ็บใช้คำว่า ears ตามตัวอักษร ส่วนตัวเลือกอื่นไม่ได้อนุญาตให้เล่า",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S01-Q006",
+  "old_prompt": "Q: I’m sorry I forgot to call you.",
+  "prompt": "Q: Should we eat Thai or Japanese food tonight?",
+  "options": [
+   "It’s up the hill, near the station.",
+   "It’s up to you.",
+   "Yes, I’d like to.",
+   "I cooked Japanese food in class."
+  ],
+  "answer": 1,
+  "explanation": "คำถามแบบ or ให้เลือก A หรือ B “It’s up to you” = แล้วแต่คุณ จึงตอบได้เหมาะสม ตัวเลือก Yes, I’d like to ตอบคำถามแบบ or ไม่ได้ ส่วน up the hill ใช้คำว่า up ตามตัวอักษรบอกสถานที่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S02-Q002",
+  "old_prompt": "Q: Could you tell me where the library is?",
+  "prompt": "Q: Pim won the piano competition. She practiced three hours a day this year.",
+  "options": [
+   "I wonder where the piano is kept.",
+   "No, she has never played before.",
+   "No wonder she won.",
+   "The competition is in the main hall."
+  ],
+  "answer": 2,
+  "explanation": "“No wonder” = ไม่แปลกใจเลย ใช้เมื่อข้อมูลอธิบายผลที่เกิดขึ้น (ซ้อมหนักจึงชนะ) ตัวเลือก I wonder ใช้คำ wonder แต่ความหมายคือสงสัย และตัวเลือก never played ขัดกับข้อมูลที่ผู้พูดบอก",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S02-Q006",
+  "old_prompt": "Q: I’m sorry I sent the wrong file.",
+  "prompt": "Q: Do you know a singer called Lisa Park?",
+  "options": [
+   "Yes, the school bell rings at eight.",
+   "Sure, I can sing that one too.",
+   "No, I don’t sing at parties.",
+   "The name rings a bell."
+  ],
+  "answer": 3,
+  "explanation": "“rings a bell” = ฟังดูคุ้น ๆ จึงตอบคำถามว่ารู้จักนักร้องคนนี้ไหมได้ ตัวเลือก the school bell rings ใช้คำ bell ตามตัวอักษร ส่วนอีกสองตัวเลือกพูดถึงการร้องเพลงของตัวเอง ไม่ได้ตอบว่ารู้จักหรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S02-Q008",
+  "old_prompt": "Q: Could you possibly send me the updated file?",
+  "prompt": "Q: We’re having a picnic by the lake on Sunday. Can you come?",
+  "options": [
+   "Sorry, I can’t make it.",
+   "Sure, I can make sandwiches for the class.",
+   "The lake is about ten kilometers away.",
+   "I came here by bus this morning."
+  ],
+  "answer": 0,
+  "explanation": "“I can’t make it” = ไปไม่ได้ เป็นการปฏิเสธคำชวนอย่างสุภาพ ตัวเลือก make sandwiches ใช้คำ make ตามตัวอักษรและไม่ตอบว่ามาได้หรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S03-Q002",
+  "old_prompt": "Q: Could you tell me where the main gate is?",
+  "prompt": "Q: Sorry, I’m still looking for my ticket.",
+  "options": [
+   "Take the bus to the ticket office.",
+   "It costs two hundred baht.",
+   "I bought mine online yesterday.",
+   "No rush. Take your time."
+  ],
+  "answer": 3,
+  "explanation": "อีกฝ่ายขอโทษที่ยังหาตั๋วไม่เจอ “Take your time” = ไม่ต้องรีบ ค่อย ๆ หา เป็นคำตอบที่สุภาพ ตัวเลือก Take the bus ใช้คำ take แต่เป็นคำแนะนำการเดินทาง ไม่เกี่ยวกับคำขอโทษ",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S03-Q003",
+  "old_prompt": "Q: Would you mind repeating the last instruction?",
+  "prompt": "Q: Do you want to come to the jazz concert with us?",
+  "options": [
+   "Yes, I’d love a cup of tea after the concert finishes.",
+   "Thanks, but jazz isn’t really my cup of tea.",
+   "The concert hall holds five hundred people.",
+   "I played the drums in my school band."
+  ],
+  "answer": 1,
+  "explanation": "“not my cup of tea” = ไม่ใช่แนวที่ชอบ จึงเป็นการปฏิเสธคำชวนอย่างสุภาพ ตัวเลือก a cup of tea ใช้ความหมายตามตัวอักษร (ชาหนึ่งถ้วย) ไม่ได้ตอบคำชวน",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S03-Q006",
+  "old_prompt": "Q: I’m sorry I missed the first bus.",
+  "prompt": "Q: We’ve been painting the stage set for six hours.",
+  "options": [
+   "Let’s call the paint shop for a price.",
+   "The stage set is twenty meters wide.",
+   "I painted my bedroom blue last year.",
+   "You’re right. Let’s call it a day."
+  ],
+  "answer": 3,
+  "explanation": "“Let’s call it a day” = พอแค่นี้ก่อนวันนี้ เหมาะกับสถานการณ์ที่ทำงานมาหกชั่วโมงแล้ว ตัวเลือก call the paint shop ใช้คำ call ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S04-Q002",
+  "old_prompt": "Q: Could you tell me where the cafeteria is?",
+  "prompt": "Q: Nobody is talking at the welcome party. What should we do?",
+  "options": [
+   "Let’s break the ice cubes into the drinks for the guests.",
+   "Let’s play a quick game to break the ice.",
+   "The party started at seven o’clock.",
+   "Nobody came to my party last year."
+  ],
+  "answer": 1,
+  "explanation": "“break the ice” = ทำให้บรรยากาศคลายความเกร็ง เกมสั้น ๆ ช่วยให้คนเริ่มคุยกัน ตัวเลือก ice cubes ใช้ความหมายตามตัวอักษร ส่วนตัวเลือกอื่นไม่ได้เสนอทางแก้",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S04-Q003",
+  "old_prompt": "Q: Would you mind checking the room booking?",
+  "prompt": "Q: How often do you go to the cinema?",
+  "options": [
+   "The cinema walls are painted blue.",
+   "Once in a blue moon.",
+   "I watched a film about the moon.",
+   "About two hours and fifteen minutes."
+  ],
+  "answer": 1,
+  "explanation": "“once in a blue moon” = นาน ๆ ครั้ง ตอบคำถาม How often ได้ ตัวเลือกผนังสีฟ้า/หนังเรื่องดวงจันทร์ใช้คำตามตัวอักษร และ two hours ตอบระยะเวลา ไม่ใช่ความถี่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S04-Q006",
+  "old_prompt": "Q: I’m sorry I arrived a little late.",
+  "prompt": "Q: Was the math quiz difficult?",
+  "options": [
+   "I ate a piece of cake after the quiz.",
+   "The quiz was on Monday morning.",
+   "My math teacher is very tall.",
+   "No, it was a piece of cake."
+  ],
+  "answer": 3,
+  "explanation": "“a piece of cake” = ง่ายมาก จึงตอบคำถามว่ายากไหม ตัวเลือกกินเค้กใช้ความหมายตามตัวอักษร ส่วนวันสอบและส่วนสูงครูไม่ได้ตอบเรื่องความยาก",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S05-Q002",
+  "old_prompt": "Q: Could you tell me where the music room is?",
+  "prompt": "Q: You look pale. Are you okay?",
+  "options": [
+   "I’m feeling a bit under the weather today.",
+   "Yes, the weather has been cloudy all day today.",
+   "I painted the wall pale yellow.",
+   "I’m okay with the new timetable."
+  ],
+  "answer": 0,
+  "explanation": "“under the weather” = ไม่ค่อยสบาย ตอบคำถามว่าเป็นอะไรหรือเปล่าได้ ตัวเลือกอากาศครึ้มใช้คำ weather ตามตัวอักษร ส่วนสีผนังและตารางเรียนไม่เกี่ยว",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S05-Q003",
+  "old_prompt": "Q: Would you mind helping me carry this box?",
+  "prompt": "Q: Did you buy the new phone you wanted?",
+  "options": [
+   "Yes, I hurt my arm and my leg playing football.",
+   "No, it costs an arm and a leg.",
+   "I called you on my old phone.",
+   "The shop opens at ten."
+  ],
+  "answer": 1,
+  "explanation": "“cost an arm and a leg” = แพงมาก เป็นเหตุผลที่ไม่ได้ซื้อ ตัวเลือกเจ็บแขนขาใช้ความหมายตามตัวอักษร ส่วนอีกสองตัวเลือกไม่ได้ตอบว่าซื้อหรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S05-Q006",
+  "old_prompt": "Q: I’m sorry I spilled some water.",
+  "prompt": "Q: Are you coming to the mall with us after school?",
+  "options": [
+   "Don’t hit the books on the shelf.",
+   "I can’t. I need to hit the books.",
+   "The mall has a big bookstore.",
+   "I came home after school yesterday."
+  ],
+  "answer": 1,
+  "explanation": "“hit the books” = ตั้งใจอ่านหนังสือ ใช้เป็นเหตุผลปฏิเสธคำชวน ตัวเลือกห้ามตีหนังสือใช้ความหมายตามตัวอักษร ส่วนร้านหนังสือในห้างไม่ได้ตอบคำชวน",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S06-Q001",
+  "old_prompt": "Q: How often does the campus shuttle run on weekends?",
+  "prompt": "Q: Who told everyone about the surprise party?",
+  "options": [
+   "I spilled some beans on the kitchen floor.",
+   "The party will be at Nok’s house.",
+   "Everyone loved the chocolate cake.",
+   "Sorry, I spilled the beans by accident."
+  ],
+  "answer": 3,
+  "explanation": "“spill the beans” = เผลอบอกความลับ ตอบคำถามว่าใครบอกเรื่องปาร์ตี้เซอร์ไพรส์ ตัวเลือกถั่วหกใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S06-Q002",
+  "old_prompt": "Q: Would you mind keeping an eye on my bag for a minute?",
+  "prompt": "Q: I’m nervous about calling the hotel to complain.",
+  "options": [
+   "The hotel has a bullet train nearby.",
+   "I’m calling you from the hotel lobby right now.",
+   "They complained about the noise too.",
+   "Just bite the bullet and call them now."
+  ],
+  "answer": 3,
+  "explanation": "“bite the bullet” = กัดฟันทำเรื่องที่ไม่อยากทำ เป็นคำแนะนำที่เหมาะกับคนที่กังวล ตัวเลือก bullet train ใช้คำ bullet ตามตัวอักษร ส่วนตัวเลือกอื่นไม่ได้ตอบสนองความกังวล",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S06-Q003",
+  "old_prompt": "Q: Would you mind if I opened the window for some fresh air?",
+  "prompt": "Q: Have you decided which club to join?",
+  "options": [
+   "Yes, the fence around the club is new.",
+   "Not yet. I’m still on the fence.",
+   "The club meets in Room 5.",
+   "I joined the school in May."
+  ],
+  "answer": 1,
+  "explanation": "“on the fence” = ยังตัดสินใจไม่ได้ ตอบคำถามว่าตัดสินใจแล้วหรือยัง ตัวเลือกรั้วใหม่ใช้คำ fence ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S07-Q001",
+  "old_prompt": "Q: What time should we leave to beat the morning traffic?",
+  "prompt": "Q: What time should we leave for the festival?",
+  "options": [
+   "I play the guitar by myself.",
+   "Let’s play it by ear.",
+   "The festival lasts three days.",
+   "My ears hurt at loud festivals."
+  ],
+  "answer": 1,
+  "explanation": "“play it by ear” = ดูสถานการณ์แล้วค่อยตัดสินใจ ตอบคำถามเรื่องเวลาได้อย่างเป็นธรรมชาติ ตัวเลือกเล่นกีตาร์และหูเจ็บใช้คำตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S07-Q003",
+  "old_prompt": "Q: Could you speak up a little? The line is breaking up.",
+  "prompt": "Q: I just found out that your cousin is my new teacher!",
+  "options": [
+   "Is that the world map on the wall?",
+   "My cousin lives in a small flat.",
+   "Really? Small world, isn’t it?",
+   "Teachers have many students."
+  ],
+  "answer": 2,
+  "explanation": "“Small world” ใช้เมื่อเจอความบังเอิญที่คนรู้จักกันโดยไม่คาดคิด ตัวเลือกแผนที่โลกและแฟลตเล็กใช้คำ world/small ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S07-Q010",
+  "old_prompt": "Q: What should you do if the road is flooded?",
+  "prompt": "Q: Let me pay for the coffee this time.",
+  "options": [
+   "It’s on the small table by the window over there.",
+   "No, it’s on me. You paid last week.",
+   "I don’t drink coffee at all.",
+   "The coffee is very hot."
+  ],
+  "answer": 1,
+  "explanation": "“It’s on me” = ฉันเลี้ยงเอง ใช้ตอบเมื่ออีกฝ่ายเสนอจะจ่าย ตัวเลือก on the table ใช้คำ on บอกตำแหน่งตามตัวอักษร ส่วนไม่ดื่มกาแฟไม่ได้ตอบเรื่องใครจ่าย",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S08-Q003",
+  "old_prompt": "Q: Could you cover my shift at the café this Saturday?",
+  "prompt": "Q: I’ll hear about the scholarship next week.",
+  "options": [
+   "I posted the letter yesterday.",
+   "Good luck! Keep me posted.",
+   "The scholarship is for science.",
+   "Next week is a holiday."
+  ],
+  "answer": 1,
+  "explanation": "“Keep me posted” = บอกความคืบหน้าด้วยนะ เหมาะกับการรอผลทุน ตัวเลือก posted the letter ใช้คำ post ตามตัวอักษร (ส่งจดหมาย)",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S08-Q005",
+  "old_prompt": "Q: Why don’t we create a short study plan?",
+  "prompt": "Q: Can you help me move these boxes now?",
+  "options": [
+   "Sorry, I’m tied up right now.",
+   "The boxes are tied with string.",
+   "I moved house last year.",
+   "Lunch is in the canteen."
+  ],
+  "answer": 0,
+  "explanation": "“I’m tied up” = ติดธุระอยู่ จึงเป็นการปฏิเสธคำขอให้ช่วยตอนนี้อย่างสุภาพ ตัวเลือกผูกเชือกใช้คำ tied ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S08-Q010",
+  "old_prompt": "Q: What should you do if you receive a confusing message?",
+  "prompt": "Q: My exam results come out tomorrow.",
+  "options": [
+   "My fingers are so cold today!",
+   "The exam lasted two hours.",
+   "Fingers crossed!",
+   "I crossed the road carefully."
+  ],
+  "answer": 2,
+  "explanation": "“Fingers crossed” = ขอให้โชคดี ใช้กับคนที่รอผลสอบ ตัวเลือกนิ้วเย็นและข้ามถนนใช้คำตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S09-Q003",
+  "old_prompt": "Q: Would you mind printing one more copy?",
+  "prompt": "Q: I’m going on stage in five minutes!",
+  "options": [
+   "Be careful not to break your leg.",
+   "Break a leg! You’ll be great.",
+   "The stage is made of wood.",
+   "I went on stage last year."
+  ],
+  "answer": 1,
+  "explanation": "“Break a leg” = ขอให้แสดงได้ดี เป็นคำอวยพรนักแสดง ตัวเลือกระวังขาหักเป็นความหมายตามตัวอักษร ไม่ใช่คำอวยพร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S09-Q005",
+  "old_prompt": "Q: Why don’t we share the travel costs?",
+  "prompt": "Q: We’re making a team for the football match. Do you want to join?",
+  "options": [
+   "Count me in!",
+   "I can count to one hundred!",
+   "The match was on TV.",
+   "Football is popular in Brazil."
+  ],
+  "answer": 0,
+  "explanation": "“Count me in” = นับฉันด้วย/เอาด้วย ตอบรับคำชวนเข้าทีม ตัวเลือก count to one hundred ใช้คำ count ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S09-Q008",
+  "old_prompt": "Q: Could you possibly print one more copy?",
+  "prompt": "Q: Could you hold the door for me?",
+  "options": [
+   "My hands are clean now.",
+   "Sorry, my hands are full with these bags.",
+   "The door is painted green.",
+   "I held a birthday party for my sister last week."
+  ],
+  "answer": 1,
+  "explanation": "“my hands are full” = มือไม่ว่าง (ถือของอยู่) จึงช่วยจับประตูไม่ได้ ตัวเลือกมือสะอาดและจัดปาร์ตี้ไม่ได้ตอบคำขอ",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S10-Q002",
+  "old_prompt": "Q: Could you tell me where the sports hall is?",
+  "prompt": "Q: This project is so hard. I want to give up.",
+  "options": [
+   "Hang in there. You’re almost done.",
+   "Hang your coat in there.",
+   "I gave the project to the teacher this morning.",
+   "It was hard to find the room."
+  ],
+  "answer": 0,
+  "explanation": "“Hang in there” = อดทนไว้ เป็นการให้กำลังใจคนที่อยากยอมแพ้ ตัวเลือกแขวนเสื้อใช้คำ hang ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S10-Q003",
+  "old_prompt": "Q: Would you mind explaining the first step?",
+  "prompt": "Q: I’m really tired after that long walk.",
+  "options": [
+   "Same here.",
+   "The same walk is in the park.",
+   "I walked here with my dog.",
+   "Long walks are good for you."
+  ],
+  "answer": 0,
+  "explanation": "“Same here” = ฉันก็เหมือนกัน เป็นการตอบรับว่าเหนื่อยเหมือนกัน ตัวเลือกอื่นพูดถึงการเดินแต่ไม่ได้ตอบความรู้สึกของผู้พูด",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S10-Q005",
+  "old_prompt": "Q: Why don’t we move the meeting online?",
+  "prompt": "Q: That was the best concert I’ve ever been to.",
+  "options": [
+   "You can say that again!",
+   "Can you say it again more slowly?",
+   "The concert ended at ten.",
+   "I’ve been to the bank today."
+  ],
+  "answer": 0,
+  "explanation": "“You can say that again” = เห็นด้วยอย่างยิ่ง ตัวเลือก say it again more slowly เข้าใจตามตัวอักษรว่าขอให้พูดซ้ำ ซึ่งไม่ใช่ความหมายของสำนวน",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ }
+]

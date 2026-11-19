@@ -1,0 +1,262 @@
+[
+ {
+  "first": "S03-Q026",
+  "context": "Sam: Ploy, we’re showing the Grade 7 students how to spot fake emails next Tuesday. Have you made the sample messages yet?\nPloy: (1) ____\nSam: That’s fine. We still have the weekend. How many examples do you think we need?\nPloy: Maybe five. (2) ____\nSam: Good idea. If some are real, they’ll have to look more carefully.\nPloy: Exactly. And should we use the school’s real logo on the fake ones?\nSam: (3) ____\nPloy: You’re right. I’ll design a made-up logo for “Sunny Bank” instead.\nSam: After the demo, we could give them a short checklist to take home.\nPloy: (4) ____\nSam: True. Then they can share the tips with their families, too.\nPloy: One more thing—do we know which computer lab we’re using?\nSam: (5) ____\nPloy: OK. I’ll ask the IT teacher to check Lab 2 before Tuesday, then.",
+  "tip": "ดูว่าผู้พูดถัดไปเห็นด้วยกับเหตุผลใด เช่น “You’re right” มักตามหลังคำเตือนหรือคำแนะนำ",
+  "items": [
+   {
+    "key": "Not yet. I’ve only finished two so far.",
+    "d": [
+     "Yes, all of them are printed and ready.",
+     "I received a strange email from my bank last week.",
+     "Grade 7 students are usually very good with computers."
+    ],
+    "exp": "Sam ตอบว่า “That’s fine. We still have the weekend.” แสดงว่า Ploy เพิ่งบอกว่างานยังไม่เสร็จ ตัวเลือกที่ว่าทุกอย่างพร้อมแล้วไม่ทำให้ต้องพูดว่ายังมีเวลาเสาร์อาทิตย์ ส่วนการเล่าอีเมลแปลก ๆ หรือความสามารถของนักเรียนไม่ได้ตอบว่าทำตัวอย่างเสร็จหรือยัง"
+   },
+   {
+    "key": "We could mix in a couple of real ones, too.",
+    "d": [
+     "We could send them to the students’ real accounts.",
+     "We could make the five emails obviously fake.",
+     "We could skip the examples and just give a talk."
+    ],
+    "exp": "Sam ตอบว่า “If some are real, they’ll have to look more carefully.” จึงต้องเป็นข้อเสนอให้ปนอีเมลจริงไว้ด้วย ตัวเลือกส่งเข้าบัญชีจริงของนักเรียนไม่เหมาะสมและไม่เกี่ยวกับการปนอีเมลจริง การทำให้ปลอมชัดเจนทั้งหมดหรือไม่ใช้ตัวอย่างเลยขัดกับเหตุผลของ Sam"
+   },
+   {
+    "key": "Better not. People might think the school sent them.",
+    "d": [
+     "Sure, it will make the fake emails look much more official.",
+     "I don’t think the school has a logo.",
+     "Only if the principal agrees to sign each email first."
+    ],
+    "exp": "Ploy ตอบว่า “You’re right. I’ll design a made-up logo... instead.” แสดงว่า Sam ไม่เห็นด้วยกับการใช้โลโก้จริงพร้อมเหตุผล ตัวเลือกที่สนับสนุนให้ใช้โลโก้จริงหรือให้ผู้อำนวยการเซ็นขัดกับการเปลี่ยนไปใช้โลโก้สมมติ และการบอกว่าโรงเรียนไม่มีโลโก้ขัดกับคำถามของ Ploy"
+   },
+   {
+    "key": "Good idea. They might forget the tips by next week.",
+    "d": [
+     "Good idea. They can hand it back to us after class.",
+     "I’d rather they didn’t take anything home.",
+     "Only if we can finish the demo in five minutes."
+    ],
+    "exp": "Sam ตอบว่า “True. Then they can share the tips with their families, too.” แปลว่า Ploy สนับสนุนการให้นำเอกสารกลับบ้านพร้อมเหตุผล ตัวเลือกให้ส่งคืนหลังเรียนหรือไม่ให้นำกลับบ้านขัดกับการแบ่งปันกับครอบครัว และเงื่อนไขเรื่องเวลา 5 นาทีไม่เกี่ยวกับเอกสาร"
+   },
+   {
+    "key": "Lab 2, I think, but some computers there were broken.",
+    "d": [
+     "It’s Lab 2, and the computers there work perfectly now.",
+     "We don’t need computers for this demo.",
+     "The computer lab is open until six on Tuesdays."
+    ],
+    "exp": "Ploy ตอบว่า “I’ll ask the IT teacher to check Lab 2 before Tuesday” แสดงว่า Sam พูดถึง Lab 2 และมีปัญหาที่ต้องตรวจ ตัวเลือกที่ว่าคอมพิวเตอร์ใช้ได้ทุกเครื่องไม่ทำให้ต้องให้ครูไอทีตรวจ การบอกว่าไม่ต้องใช้คอมพิวเตอร์ขัดกับการตรวจห้องแล็บ และเวลาปิดห้องไม่ได้ตอบว่าใช้ห้องไหน"
+   }
+  ]
+ },
+ {
+  "first": "S04-Q021",
+  "context": "Alex: Beam, the bookmark booth for the class charity fair is next Friday. How many bookmarks have we made?\nBeam: (1) ____\nAlex: That might not be enough. Last year’s booth sold out in an hour.\nBeam: (2) ____\nAlex: Great. If everyone makes ten more, we’ll have about three hundred.\nBeam: What price should we charge?\nAlex: (3) ____\nBeam: True. At twenty baht, younger students can buy two or three.\nAlex: Should we accept bank transfers as well as cash?\nBeam: (4) ____\nAlex: OK, I’ll print a QR code and stick it on the table.\nBeam: Who’s going to count the money at the end?\nAlex: (5) ____\nBeam: Good. Two people counting is safer than one.",
+  "tip": "ตัวเลข ราคา และจำนวนในบรรทัดถัดไปเป็นหลักฐานสำคัญ ให้ตรวจว่าตัวเลือกไหนทำให้ตัวเลขนั้นสมเหตุสมผล",
+  "items": [
+   {
+    "key": "About 150 so far, but we still have plenty of card left.",
+    "d": [
+     "We haven’t started yet because nobody has any card.",
+     "About 500, so we probably have too many.",
+     "I made bookmarks for my sister’s birthday last month."
+    ],
+    "exp": "Alex ตอบว่า “That might not be enough.” จึงต้องเป็นจำนวนที่ยังไม่มากพอ และบรรทัดถัดไปยังพูดถึงการทำเพิ่ม ตัวเลือกยังไม่เริ่มเพราะไม่มีกระดาษขัดกับการทำเพิ่มได้ทันที ตัวเลือก 500 ชิ้นไม่ใช่ “That might not be enough.” และเรื่องวันเกิดน้องสาวไม่ได้ตอบคำถาม"
+   },
+   {
+    "key": "Then let’s ask the class to make a few more this weekend.",
+    "d": [
+     "Then let’s stop making bookmarks and sell drinks.",
+     "Then let’s ask the school to buy bookmarks for us.",
+     "Then let’s raise the price so we sell fewer."
+    ],
+    "exp": "Alex ตอบว่า “If everyone makes ten more, we’ll have about three hundred.” แสดงว่า Beam เสนอให้ทุกคนในห้องช่วยทำเพิ่ม ตัวเลือกเปลี่ยนไปขายเครื่องดื่มหรือให้โรงเรียนซื้อไม่ได้ทำให้แต่ละคนทำเพิ่มสิบชิ้น และการขึ้นราคาให้ขายได้น้อยลงไม่ได้แก้ปัญหาจำนวนไม่พอ"
+   },
+   {
+    "key": "Let’s keep it cheap so more students can buy them.",
+    "d": [
+     "Let’s charge a hundred baht because it’s for charity.",
+     "Let’s give them away for free this year, since it’s for charity.",
+     "Let’s ask each buyer to decide the price."
+    ],
+    "exp": "Beam ตอบว่า “True. At twenty baht, younger students can buy two or three.” แสดงว่า Alex เสนอให้ราคาถูกเพื่อให้นักเรียนซื้อได้มาก ตัวเลือกตั้งราคา 100 บาท แจกฟรี หรือให้ผู้ซื้อกำหนดราคาเอง ไม่สอดคล้องกับราคา 20 บาทที่ Beam สรุป"
+   },
+   {
+    "key": "Yes, lots of students don’t carry cash these days.",
+    "d": [
+     "No, the bank near school is closed on Fridays.",
+     "Yes, but only if they pay more than five hundred baht.",
+     "No, we should accept coins instead."
+    ],
+    "exp": "Alex ตอบต่อว่าจะพิมพ์ QR code มาติดไว้ แสดงว่า Beam เห็นด้วยให้รับโอนเงินพร้อมเหตุผล ตัวเลือกที่ปฏิเสธการโอนเงินขัดกับการพิมพ์ QR code และเงื่อนไขซื้อเกินห้าร้อยบาทไม่สมเหตุสมผลกับที่คั่นหนังสือราคา 20 บาท"
+   },
+   {
+    "key": "Ms. Dao said she’ll do it with our class leader.",
+    "d": [
+     "Nobody, because we won’t take any money.",
+     "I’ll count it alone while I’m packing up.",
+     "We can count it next week, when we have a bit more time."
+    ],
+    "exp": "Beam ตอบว่า “Good. Two people counting is safer than one.” จึงต้องเป็นคำตอบที่มีสองคนนับเงิน ตัวเลือกนับคนเดียวขัดกับคำว่า two people ตัวเลือกไม่รับเงินขัดกับเรื่องราคาที่คุยกัน และการรอนับสัปดาห์หน้าไม่ได้ตอบว่าใครนับ"
+   }
+  ]
+ },
+ {
+  "first": "S04-Q026",
+  "context": "Maya: June, for Thursday’s cooking class, Mr. Chai wants each pair to make a healthy lunch. What should we cook?\nJune: (1) ____\nMaya: Wraps sound good, but we only have forty minutes.\nJune: (2) ____\nMaya: Oh, that’s quick, then. What should we put inside?\nJune: Chicken, lettuce and carrots. Maybe a little yogurt sauce.\nMaya: (3) ____\nJune: Right, I forgot about that. Let’s use lime juice instead.\nMaya: I can bring the vegetables from my mum’s shop.\nJune: (4) ____\nMaya: No, she said we can have them for free.\nJune: Wonderful. I’ll buy the chicken and the wraps, then.\nMaya: (5) ____\nJune: Good thinking. I’ll keep it in the staff-room fridge.",
+  "tip": "คำว่า “Right, I forgot about that” หรือ “No, she said…” บอกว่าประโยคในช่องก่อนหน้าเป็นคำเตือนหรือคำถามแบบ yes/no",
+  "items": [
+   {
+    "key": "How about chicken wraps? They’re easy to make.",
+    "d": [
+     "I usually have rice and soup for lunch at home.",
+     "Mr. Chai is the best cooking teacher in our school.",
+     "How about a three-layer cake? It looks amazing."
+    ],
+    "exp": "Maya ตอบว่า “Wraps sound good, but we only have forty minutes.” จึงต้องเป็นข้อเสนอให้ทำแรป ตัวเลือกเล่าว่ากินอะไรที่บ้านหรือชมครูไม่ได้เสนอเมนู และเค้กสามชั้นไม่ใช่ wraps"
+   },
+   {
+    "key": "We don’t have to cook anything except the chicken.",
+    "d": [
+     "We should bake the bread ourselves first.",
+     "Then let’s make a soup that has to cook for at least an hour.",
+     "We can ask Mr. Chai to give us an extra lesson next week."
+    ],
+    "exp": "Maya ตอบว่า “Oh, that’s quick, then.” แสดงว่า June เพิ่งอธิบายว่าเมนูนี้ใช้เวลาน้อย ตัวเลือกอบขนมปังเองหรือทำซุปที่ต้องต้มหนึ่งชั่วโมงใช้เวลามากขึ้น ส่วนการขอคาบเพิ่มไม่ได้ทำให้เมนู “quick”"
+   },
+   {
+    "key": "Don’t forget that Ton can’t eat dairy.",
+    "d": [
+     "Yogurt sauce is my favorite part of a wrap.",
+     "Should we add some cheese as well?",
+     "Carrots are very good for your eyes."
+    ],
+    "exp": "June ตอบว่า “Right, I forgot about that. Let’s use lime juice instead.” แสดงว่า Maya เตือนเรื่องที่ทำให้ใช้ซอสโยเกิร์ตไม่ได้ คือมีคนกินผลิตภัณฑ์นมไม่ได้ ตัวเลือกชมซอสโยเกิร์ตหรือเสนอเพิ่มชีสขัดกับการเปลี่ยนเป็นน้ำมะนาว และเรื่องแครอทดีต่อสายตาไม่ใช่สิ่งที่ June “ลืม”"
+   },
+   {
+    "key": "Are you sure? Will she want us to pay?",
+    "d": [
+     "Does your mum’s shop sell chicken too?",
+     "What time does your mum’s shop open?",
+     "Can you bring a knife from home as well?"
+    ],
+    "exp": "Maya ตอบว่า “No, she said we can have them for free.” จึงต้องเป็นคำถามว่าต้องจ่ายเงินหรือไม่ ตัวเลือกที่ถามว่าร้านขายไก่ไหม เปิดกี่โมง หรือขอให้นำมีดมา ไม่ได้รับคำตอบว่า “for free”"
+   },
+   {
+    "key": "Remember to keep the chicken cold until class starts.",
+    "d": [
+     "Remember to leave the chicken in your bag.",
+     "Remember to buy the cheapest wraps you can find.",
+     "Remember to bring a camera for the cooking class."
+    ],
+    "exp": "June ตอบว่า “I’ll keep it in the staff-room fridge.” แสดงว่า Maya เตือนให้เก็บไก่ให้เย็น ตัวเลือกทิ้งไก่ไว้ในกระเป๋าทั้งเช้าขัดกับการแช่ตู้เย็นและไม่ปลอดภัย ส่วนการซื้อแรปราคาถูกหรือนำกล้องมาไม่เกี่ยวกับตู้เย็น"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q021",
+  "context": "Leo: Pat, two former students have agreed to give a career talk to Grade 12 on Friday. One is a nurse and the other is a game designer.\nPat: (1) ____\nLeo: I know. I think we’ll need the main auditorium instead of a classroom.\nPat: (2) ____\nLeo: Good question. I’ll ask Mr. Somchai to test it on Thursday afternoon.\nPat: How long will each speaker talk?\nLeo: About twenty minutes, then there’ll be time for questions.\nPat: (3) ____\nLeo: That’s a good way to avoid long silences. Could you collect them by Wednesday?\nPat: Sure. (4) ____\nLeo: Yes, please. A short online form would be the easiest way.\nPat: Should we give the speakers anything to say thank you?\nLeo: (5) ____\nPat: A card is a nice idea. I’ll ask the art club to design one.",
+  "tip": "คำตอบ “Good question” แสดงว่าช่องก่อนหน้าเป็นคำถาม ส่วน “That’s a good way to…” แสดงว่าช่องก่อนหน้าเป็นข้อเสนอ",
+  "items": [
+   {
+    "key": "Great choices! I’m sure lots of students will come.",
+    "d": [
+     "That’s a pity. Nobody in Grade 12 is interested in those jobs.",
+     "I’d like to be a nurse when I finish university.",
+     "Friday is a holiday, so the school will be closed."
+    ],
+    "exp": "Leo ตอบว่า “I know. I think we’ll need the main auditorium...” แสดงว่า Pat คาดว่าจะมีคนมาจำนวนมาก ตัวเลือกที่ว่าไม่มีใครสนใจขัดกับการต้องใช้หอประชุมใหญ่ การเล่าความฝันของตนไม่ได้นำไปสู่ “I know” และวันหยุดขัดกับการจัดงานวันศุกร์"
+   },
+   {
+    "key": "Do you know if the microphones there are working?",
+    "d": [
+     "Do you know who won the speech contest last year?",
+     "How many chairs are there in our classroom?",
+     "Can students bring food into the classroom?"
+    ],
+    "exp": "Leo ตอบว่า “Good question. I’ll ask Mr. Somchai to test it on Thursday afternoon.” ช่อง (2) จึงต้องเป็นคำถามเกี่ยวกับอุปกรณ์ในหอประชุมที่ต้องทดสอบ ตัวเลือกเรื่องการประกวดสุนทรพจน์ไม่มีอะไรต้องทดสอบ และคำถามเรื่องห้องเรียนขัดกับการย้ายไปหอประชุม"
+   },
+   {
+    "key": "Maybe students could send us questions before the talk.",
+    "d": [
+     "Maybe students shouldn’t ask the speaker questions this time.",
+     "Maybe the speakers should talk for an hour each.",
+     "Maybe we should finish early and skip the questions."
+    ],
+    "exp": "Leo ตอบว่า “That’s a good way to avoid long silences. Could you collect them by Wednesday?” แสดงว่า Pat เสนอให้รวบรวมคำถามล่วงหน้า ตัวเลือกห้ามถามหรือข้ามช่วงถามตอบขัดกับเวลาถามคำถามที่วางไว้ และการพูดคนละชั่วโมงไม่ได้มีสิ่งที่ต้อง “collect”"
+   },
+   {
+    "key": "Do you want me to make a form for that?",
+    "d": [
+     "Do you want me to cancel the talk?",
+     "Do you want me to answer the questions myself?",
+     "Do you want me to print the questions on posters?"
+    ],
+    "exp": "Leo ตอบว่า “Yes, please. A short online form would be the easiest way.” จึงต้องเป็นการอาสาทำแบบฟอร์ม ตัวเลือกยกเลิกงานหรือให้ Pat ตอบคำถามเองไม่สมเหตุสมผล ส่วนการพิมพ์โปสเตอร์ไม่ใช่สิ่งที่ Leo ตอบด้วยแบบฟอร์มออนไลน์"
+   },
+   {
+    "key": "Something simple—maybe a card signed by students.",
+    "d": [
+     "We should pay them a lot of money.",
+     "No, they won’t have time to read anything.",
+     "We could ask them to come back and give another talk next week."
+    ],
+    "exp": "Pat ตอบว่า “A card is a nice idea.” แสดงว่า Leo เพิ่งเสนอการ์ดขอบคุณ ตัวเลือกจ่ายเงินจำนวนมาก ปฏิเสธการให้สิ่งของ หรือขอให้มาพูดอีกครั้ง ไม่มีคำว่าการ์ดและไม่ใช่การขอบคุณแบบที่ Pat ตอบรับ"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q026",
+  "context": "Pim: Emma, the library wants us to help launch the “Read Five Genres” challenge next month. Have you heard about it?\nEmma: (1) ____\nPim: Exactly. Each student reads one book from five different types, like poetry or science fiction.\nEmma: (2) ____\nPim: That’s the hard part. The librarian says only a few students read anything except comics.\nEmma: Maybe we could make a display with short reviews from older students.\nPim: (3) ____\nEmma: Good. I’ll ask the Grade 11 book club to write some this week.\nPim: And how will students record what they’ve read?\nEmma: (4) ____\nPim: Paper cards are easier for younger students, I agree.\nEmma: When does the challenge actually start?\nPim: (5) ____\nEmma: Then we only have ten days. We’d better hurry.",
+  "tip": "ช่องว่างที่ตามด้วยคำว่า “Exactly” หรือ “I agree” มักเป็นการสรุปหรือเสนอความเห็นที่ผู้พูดถัดไปเห็นด้วย",
+  "items": [
+   {
+    "key": "A little. Is it about reading different kinds of books?",
+    "d": [
+     "No, and to be honest, I don’t really like reading at all.",
+     "Yes, I won it last year with my friends.",
+     "Isn’t the library closed all next month?"
+    ],
+    "exp": "Pim ตอบว่า “Exactly. Each student reads one book from five different types...” แสดงว่า Emma ถามยืนยันว่าเป็นการอ่านหนังสือหลายประเภทใช่ไหม ตัวเลือกไม่ชอบอ่านหนังสือไม่ได้ทำให้ Pim ตอบ Exactly ส่วนการบอกว่าเคยชนะปีที่แล้วขัดกับการที่โครงการกำลังจะเริ่ม และการบอกว่าห้องสมุดปิดไม่สอดคล้อง"
+   },
+   {
+    "key": "Sounds great, but will students really try new types?",
+    "d": [
+     "That sounds great, and most students at our school already read poetry.",
+     "That sounds boring, so let’s use comics instead.",
+     "That sounds great. How many pages is each book?"
+    ],
+    "exp": "Pim ตอบว่า “That’s the hard part. ... only a few students read anything except comics.” แสดงว่า Emma สงสัยว่านักเรียนจะลองอ่านประเภทใหม่หรือไม่ ตัวเลือกที่ว่าทุกคนอ่านกวีนิพนธ์อยู่แล้วขัดกับข้อมูลของบรรณารักษ์ การให้อ่านแต่การ์ตูนขัดกับเป้าหมายโครงการ และคำถามเรื่องจำนวนหน้าไม่ใช่ “the hard part” ที่ Pim อธิบาย"
+   },
+   {
+    "key": "Yes, younger students often listen to older students.",
+    "d": [
+     "No, reviews are too long for anyone to read.",
+     "Yes, but only the librarian should be allowed to write them.",
+     "No, let’s just put up a list of the book titles instead."
+    ],
+    "exp": "Emma ตอบว่า “Good. I’ll ask the Grade 11 book club to write some this week.” แสดงว่า Pim เห็นด้วยกับรีวิวจากรุ่นพี่ ตัวเลือกที่ปฏิเสธรีวิวหรือให้บรรณารักษ์เขียนเองขัดกับการขอให้ชมรมหนังสือ ม.5 เขียน"
+   },
+   {
+    "key": "We could give each student a paper card to stamp.",
+    "d": [
+     "They don’t need to record anything this time.",
+     "We could ask them to write a five-page report.",
+     "They can tell the librarian at the end of the year."
+    ],
+    "exp": "Pim ตอบว่า “Paper cards are easier for younger students, I agree.” จึงต้องเป็นข้อเสนอให้ใช้บัตรกระดาษ ตัวเลือกไม่ต้องบันทึกหรือบอกบรรณารักษ์ตอนปลายปีไม่มีบัตรกระดาษ และรายงานห้าหน้าไม่ใช่วิธีที่ง่ายสำหรับนักเรียนรุ่นเล็ก"
+   },
+   {
+    "key": "On the first of next month—so in about ten days.",
+    "d": [
+     "Not until next year, so there’s no rush.",
+     "It started last week, actually.",
+     "On Friday afternoons, straight after the lunch break."
+    ],
+    "exp": "Emma ตอบว่า “Then we only have ten days. We’d better hurry.” จึงต้องเป็นวันเริ่มที่อีกประมาณสิบวัน ตัวเลือกปีหน้าขัดกับการต้องรีบ ตัวเลือกเริ่มไปแล้วขัดกับการมีเวลาเหลือสิบวัน และ Every Friday ไม่ใช่วันเริ่มต้น"
+   }
+  ]
+ }
+]

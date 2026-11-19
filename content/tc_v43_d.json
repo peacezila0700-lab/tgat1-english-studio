@@ -1,0 +1,342 @@
+[
+ {
+  "set": 7,
+  "passage": "A",
+  "genre": "station announcement",
+  "topic": "Train delay announcement",
+  "context": "Attention passengers: the 18:40 service to Lamphun (1) ____ been delayed by about twenty-five minutes because of a signal problem north of the city. Passengers who need to (2) ____ a connection at Lamphun should speak to staff on platform three. We apologise for the (3) ____ and thank you for your patience. Announcements will explain (4) ____ the repair work is taking longer than expected. A spare part is on its (5) ____ from the depot in Chiang Mai. (6) ____ the delay, the last train of the night still leaves at 23:15 as scheduled. Information screens will show updated times (7) ____ further notice.",
+  "tip": "ประกาศสถานีนี้ใช้สำนวนคงที่หลายจุด เช่น apologise for the inconvenience, on its way, until further notice และ passive ในรูป present perfect",
+  "items": [
+   {
+    "type": "tense",
+    "key": "has",
+    "d": [
+     "was",
+     "being",
+     "have"
+    ],
+    "exp": "ช่อง (1) เป็น present perfect passive (has been delayed) เพราะเหตุการณ์เพิ่งเกิดและยังส่งผลตอนนี้ ประธาน the service เป็นเอกพจน์จึงใช้ has ส่วน was been ผิดโครงสร้าง, being ทำให้ไม่มีกริยาแท้ และ have ใช้กับประธานเอกพจน์ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "catch",
+    "d": [
+     "catching",
+     "caught",
+     "to catch"
+    ],
+    "exp": "ช่อง (2) หลัง need to ต้องใช้กริยารูปฐาน catch (catch a connection = ต่อรถ/ต่อขบวนทัน) ส่วน catching, caught ใช้หลัง to ไม่ได้ และ to catch ทำให้ to ซ้ำ"
+   },
+   {
+    "type": "vocab",
+    "key": "inconvenience",
+    "d": [
+     "convenience",
+     "invention",
+     "conference"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ apologise for the inconvenience ซึ่งเป็นสำนวนคงที่ในประกาศสาธารณะ แปลว่า ขออภัยในความไม่สะดวก ส่วน convenience (ความสะดวก) มีความหมายตรงข้าม, invention (สิ่งประดิษฐ์) และ conference (การประชุม) ไม่เข้ากับบริบท"
+   },
+   {
+    "type": "clause",
+    "key": "why",
+    "d": [
+     "what",
+     "which",
+     "whose"
+    ],
+    "exp": "ช่อง (4) ต้องการ noun clause บอกเหตุผล (explain why the repair work is taking longer) ส่วน what, which, whose ทำให้ clause ผิดโครงสร้างเพราะประโยคมีประธานและกริยาครบแล้ว"
+   },
+   {
+    "type": "vocab",
+    "key": "way",
+    "d": [
+     "road",
+     "path",
+     "route"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ on its way ซึ่งเป็นสำนวน แปลว่า กำลังมา/กำลังถูกส่งมา ส่วน on its road, on its path, on its route ไม่เป็นสำนวนนี้แม้คำจะความหมายใกล้กัน"
+   },
+   {
+    "type": "conn",
+    "key": "Despite",
+    "d": [
+     "Although",
+     "However",
+     "Because"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ Despite + คำนาม (Despite the delay) ส่วน Although ต้องตามด้วยประโยคสมบูรณ์, However ต้องขึ้นต้นประโยคใหม่และมีจุลภาค และ Because ต้องใช้ Because of จึงจะตามด้วยคำนามได้"
+   },
+   {
+    "type": "vocab",
+    "key": "until",
+    "d": [
+     "for",
+     "by",
+     "since"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ until further notice ซึ่งเป็นวลีคงที่ แปลว่า จนกว่าจะมีประกาศเปลี่ยนแปลง ส่วน for, by, since further notice ไม่เป็นสำนวนและไม่เข้ากับความหมาย"
+   }
+  ]
+ },
+ {
+  "set": 7,
+  "passage": "B",
+  "genre": "news",
+  "topic": "City tree report",
+  "context": "Bangkok planted fifty thousand trees last year, more than double its previous record. Only after the numbers were published (1) ____ many residents realise how fast the city's canopy is changing. The report, (2) ____ took two years to compile, counted every public tree in thirty districts. Officials say young trees need watering twice a week, while older ones can (3) ____ long dry spells. Not a single district (4) ____ the target set in 2023, but twelve came close. The city now trains volunteers (5) ____ newly planted saplings during the hot season. Public support for the scheme (6) ____ grown every year since 2022, the deputy governor said. Trees reduce street temperatures (7) ____ they absorb carbon dioxide, the report notes. (8) ____ the fifty thousand, another twenty thousand seedlings are ready in city nurseries.",
+  "tip": "ข่าวนี้มี inversion หลัง Only after... และคำคู่คงที่ เช่น meet the target, train somebody to do ส่วน besides กับ beside ความหมายต่างกัน",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "did",
+    "d": [
+     "do",
+     "that",
+     "when"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Only after + ประโยค ต้องกลับกริยาช่วยมาหน้าประธาน: Only after... did many residents realise (เล่าอดีตจึงใช้ did) ส่วน do เป็นปัจจุบันขัดกับ were published และ that, when ไม่ใช่กริยาช่วย"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "what",
+     "wherever"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย the report (สิ่งของ) และเป็นประธานของ took จึงใช้ which ส่วน it ทำให้เกิด comma splice และ what, wherever ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "survive",
+    "d": [
+     "arrive",
+     "derive",
+     "deprive"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ survive long dry spells (รอดพ้นช่วงแล้งยาว) ส่วน arrive (มาถึง), derive from (ได้มาจาก) และ deprive (ริดรอน ต้องตามด้วย of) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "vocab",
+    "key": "met",
+    "d": [
+     "sat",
+     "set",
+     "let"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ met the target ซึ่งเป็น collocation แปลว่า ทำได้ตามเป้าหมาย ส่วน sat (นั่ง), set (กำหนดเป้าหมาย — ซ้ำกับ the target set in 2023), let (ปล่อย) ไม่เข้ากับความหมาย"
+   },
+   {
+    "type": "verb",
+    "key": "to water",
+    "d": [
+     "water",
+     "watering",
+     "to be watered"
+    ],
+    "exp": "ช่อง (5) ใช้โครงสร้าง train + บุคคล + to-infinitive แบบ active (trains volunteers to water saplings) เพราะอาสาสมัครเป็นผู้รดน้ำ ส่วน water, watering ใช้ในโครงสร้างนี้ไม่ได้ และ to be watered เป็น passive ซึ่งตามด้วยกรรม saplings ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "has",
+    "d": [
+     "was",
+     "been",
+     "being"
+    ],
+    "exp": "ช่อง (6) มี since 2022 จึงต้องใช้ present perfect: support has grown ส่วน was grown เป็น passive ที่ขัดความหมาย, been ต้องมี have/be นำ และ being ไม่ใช่กริยาช่วยของ perfect"
+   },
+   {
+    "type": "conn",
+    "key": "because",
+    "d": [
+     "despite",
+     "regardless",
+     "whereas"
+    ],
+    "exp": "ช่อง (7) ต้องการคำเชื่อมบอกเหตุตามด้วยประโยคสมบูรณ์ (because they absorb carbon dioxide) ส่วน despite เป็นบุพบทที่ต้องตามด้วยคำนาม regardless ต้องใช้คู่กับ of และบอกว่าไม่สนใจเงื่อนไข และ whereas บอกความขัดแย้งซึ่งไม่เข้ากับเหตุและผลในประโยค"
+   },
+   {
+    "type": "vocab",
+    "key": "Besides",
+    "d": [
+     "Beside",
+     "Between",
+     "Against"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ Besides (นอกจาก...แล้วยังมี) ซึ่งหมายถึงการบวกเพิ่ม ส่วน Beside (ข้าง ๆ) เป็นบุพบทบอกสถานที่, Between (ระหว่าง) และ Against (ต่อต้าน) ไม่เข้ากับความหมายที่ว่ายังมีต้นไม้อีกสองหมื่นต้นรออยู่"
+   }
+  ]
+ },
+ {
+  "set": 8,
+  "passage": "A",
+  "genre": "building notice",
+  "topic": "Water shutdown notice",
+  "context": "Notice to all residents: the water supply to Block C will be (1) ____ on Saturday from 9 a.m. to 4 p.m. for tank cleaning. Residents should (2) ____ enough water for drinking and washing before Saturday morning. The work was originally planned for last month, but it (3) ____ postponed because of the storm. The office will announce (4) ____ the work finishes and the supply returns. Sediment builds (5) ____ inside the tanks every year and affects water pressure, so the cleaning happens twice a year. (6) ____ questions, please call the office between 8 a.m. and 6 p.m. We thank residents for their (7) ____ during the shutdown.",
+  "tip": "ประกาศอาคารนี้ทดสอบ passive (will be interrupted, was postponed) และคำนาม/คำคู่ที่มักสะกดผิด เช่น patience กับ patients, build up",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "interrupted",
+    "d": [
+     "interpreted",
+     "interviewed",
+     "introduced"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ interrupted (ถูกตัด/ขัดจังหวะชั่วคราว) ตรงกับการจ่ายน้ำที่หยุดชั่วคราว ส่วน interpreted (ตีความ), interviewed (สัมภาษณ์), introduced (แนะนำ) เป็นคำหน้าตาคล้ายแต่ใช้กับ water supply ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "store",
+    "d": [
+     "stored",
+     "storing",
+     "to store"
+    ],
+    "exp": "ช่อง (2) หลัง should ต้องใช้กริยารูปฐาน store (กักเก็บน้ำ) ส่วน stored เป็นอดีต, storing ต้องมี be นำ และ to store ใช้หลัง should ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "is",
+     "has",
+     "were"
+    ],
+    "exp": "ช่อง (3) เล่าเหตุการณ์เดือนที่แล้ว (originally planned for last month) จึงต้องใช้ past passive: it was postponed ส่วน is เป็นปัจจุบัน, has ต้องตามด้วย V3 และ were ใช้กับประธาน it ไม่ได้"
+   },
+   {
+    "type": "clause",
+    "key": "when",
+    "d": [
+     "what",
+     "whose",
+     "which"
+    ],
+    "exp": "ช่อง (4) ต้องการ noun clause บอกเวลา (announce when the work finishes) ส่วน what, whose, which ทำหน้าที่ประธาน/กรรมซึ่ง clause นี้มีครบแล้ว"
+   },
+   {
+    "type": "vocab",
+    "key": "up",
+    "d": [
+     "in",
+     "on",
+     "out"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ builds up ซึ่งเป็น phrasal verb แปลว่า สะสมตัวเพิ่มขึ้น ส่วน builds in, builds on (ต่อยอด), builds out ไม่แปลว่าตะกอนสะสมตัวตามบริบท"
+   },
+   {
+    "type": "conn",
+    "key": "For",
+    "d": [
+     "From",
+     "By",
+     "As"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ For questions, please call... (สำหรับคำถาม) ซึ่งเป็นสำนวนเปิดท้ายประกาศ ส่วน From, By, As questions ไม่เข้ากับความหมายนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "patience",
+    "d": [
+     "patients",
+     "pattern",
+     "practice"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ patience (ความอดทน) ซึ่งเป็นคำนามที่เข้ากับ thank residents for their... ส่วน patients (คนไข้) ออกเสียงเหมือนกันแต่คนละความหมาย และ pattern (รูปแบบ), practice (การฝึก) ไม่เข้ากับบริบท"
+   }
+  ]
+ },
+ {
+  "set": 8,
+  "passage": "B",
+  "genre": "sports news",
+  "topic": "School football title",
+  "context": "Coach Wut led the school football team to its first provincial title last Sunday. “We trained in the rain for two months, (1) ____?” he laughed, when a reporter mentioned the team's perfect record in wet conditions. The final, (2) ____ drew three thousand spectators, ended one–nil after extra time. Wut credits his players: “They never stopped (3) ____, even when we were losing at half-time.” The club captain said the title match was the hardest game he (4) ____. Next season the team will (5) ____ to the older age group, where matches are longer and faster. The school has promised (6) ____ a small training pitch behind the gym. “A new pitch won't win games on its own, (7) ____ every bit helps,” Wut said. Supporters can buy season tickets at the school office; under-twelves go (8) ____.",
+  "tip": "ข่าวกีฬานี้มี question tag ในคำพูดอ้างอิง past perfect ใน reported speech และ phrasal verb move up ส่วน but เชื่อมความคิดที่ขัดกันเล็กน้อย",
+  "items": [
+   {
+    "type": "tag",
+    "key": "didn't we",
+    "d": [
+     "did we",
+     "don't we",
+     "weren't we"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ We trained... ซึ่งเป็น past simple บอกเล่า tag จึงต้องเป็น didn't we ส่วน did we ใช้กับประโยคบอกเล่าไม่ได้ และ don't we, weren't we ไม่ตรงกับกริยา trained"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "whatever",
+     "where"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย the final (เหตุการณ์/สิ่งของ) และเป็นประธานของ drew จึงใช้ which ส่วน it ทำให้เกิด comma splice และ whatever, where ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "believing",
+    "d": [
+     "believe",
+     "to believe",
+     "believed"
+    ],
+    "exp": "ช่อง (3) หลัง stop ในความหมายเลิกทำ ต้องใช้ gerund (never stopped believing) ส่วน believe, to believe, believed ใช้ตามหลัง stop ในความหมายนี้ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "had played",
+    "d": [
+     "has played",
+     "plays",
+     "would play"
+    ],
+    "exp": "ช่อง (4) เล่าอดีตซ้อนอดีต: กัปตัน said (อดีต) ว่านัดชิงคือเกมที่หนักที่สุดที่เขา เคยเล่น (เกิดก่อน said) จึงต้องใช้ past perfect had played ส่วน has played ผิดลำดับเวลาในประโยคอดีต"
+   },
+   {
+    "type": "vocab",
+    "key": "move up",
+    "d": [
+     "move in",
+     "move out",
+     "move off"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ move up to ซึ่งหมายถึง เลื่อนขึ้นไปอยู่ในกลุ่มที่สูงกว่า (รุ่นอายุมากขึ้น) ส่วน move in (ย้ายเข้า), move out (ย้ายออก), move off (เคลื่อนออกไป) ไม่หมายถึงการเลื่อนระดับ"
+   },
+   {
+    "type": "verb",
+    "key": "to build",
+    "d": [
+     "build",
+     "building",
+     "to be built"
+    ],
+    "exp": "ช่อง (6) หลัง promised ต้องใช้ to-infinitive แบบ active (has promised to build a pitch) เพราะโรงเรียนเป็นผู้สร้าง ส่วน build, building ใช้ตามหลัง promise โดยตรงไม่ได้ และ to be built เป็น passive ซึ่งตามด้วยกรรม a small training pitch ไม่ได้"
+   },
+   {
+    "type": "conn",
+    "key": "but",
+    "d": [
+     "so",
+     "or",
+     "nor"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ but เพราะสองความคิดขัดกันเล็กน้อย: สนามใหม่ไม่ชนะเกมให้เอง แต่ ทุกส่วนเล็กน้อยช่วยได้ ส่วน so (ดังนั้น) และ or (หรือ) ผิดความสัมพันธ์ และ nor ต้องใช้กับ neither"
+   },
+   {
+    "type": "vocab",
+    "key": "free",
+    "d": [
+     "off",
+     "out",
+     "away"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ go free (เข้าฟรี) ตรงกับที่เด็กต่ำกว่าสิบสองเข้าได้โดยไม่ต้องซื้อตั๋ว ส่วน go off (ระเบิด/ดังขึ้น), go out (ออกไปข้างนอก), go away (ออกไปให้พ้น) เป็น phrasal verb คนละความหมาย"
+   }
+  ]
+ }
+]

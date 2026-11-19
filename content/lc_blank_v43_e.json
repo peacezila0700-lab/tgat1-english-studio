@@ -1,0 +1,267 @@
+[
+ {
+  "first": "S11-Q021",
+  "topic": "A science museum night",
+  "context": "Maya: The museum wants to keep its astronomy room open later on Fridays, and the trial night comments are finally in.\nLeo: (1) ____\nMaya: The lighting has to stay dim for the telescopes, so we can’t just make the room brighter.\nLeo: (2) ____\nMaya: That could work, and it’s cheap enough to test this month. Who would make them?\nLeo: (3) ____\nMaya: Good. We also need to know what visitors think while the trial runs.\nLeo: (4) ____\nMaya: And if the cards really help people read in the dark?\nLeo: (5) ____\nMaya: Great. I’ll tell the director we’re ready for Friday.",
+  "tip": "บทสนทนานี้ Maya จะตอบรับสิ่งที่ Leo เพิ่งพูดเสมอ เช่น “Who would make them?” บอกว่าช่องก่อนหน้าต้องเสนอของที่ต้องทำขึ้นใหม่ และ “And if the cards really help…” บอกว่าช่องถัดไปต้องเป็นผลที่จะตามมา",
+  "items": [
+   {
+    "key": "Families enjoyed the planet-show, but several visitors couldn’t read the labels in the dim light.",
+    "d": [
+     "Most families asked the museum to move the planet-show to Sunday evenings.",
+     "Several visitors said the astronomy room felt too cold after sunset, especially near the big telescope.",
+     "The telescope demo ran late because two school groups arrived together."
+    ],
+    "exp": "Maya ตอบว่า “The lighting has to stay dim for the telescopes” แสดงว่าปัญหาจากช่อง (1) ต้องเกี่ยวกับการอ่านไม่ออกในที่แสงน้อย ซึ่งตรงกับตัวเลือกที่บอกว่าอ่านป้ายไม่ได้ ส่วนตัวเลือกเรื่องย้ายรอบฉายไปวันอาทิตย์หรือห้องหนาวจัดไม่ทำให้ Maya พูดเรื่องการปรับแสง"
+   },
+   {
+    "key": "Then let’s test large-text label cards without changing the room lights.",
+    "d": [
+     "We could ask visitors to read the labels with their phone torches instead of changing anything.",
+     "Maybe the museum should buy brighter bulbs for the galleries.",
+     "The director could shorten the Friday opening hours instead."
+    ],
+    "exp": "Maya ตอบว่า “That could work, and it’s cheap enough to test this month. Who would make them?” ข้อเสนอในช่อง (2) จึงต้องเป็นเรื่องทำป้ายตัวอักษรใหญ่แบบทดสอบได้และต้อง ‘ทำ’ ขึ้นมา ตัวเลือกให้ใช้ไฟฉายจากมือถือไม่ต้องทำอะไรใหม่ ส่วนตัวเลือกซื้อหลอดไฟสว่างขัดกับที่ Maya บอกว่าไฟต้องหรี่ไว้"
+   },
+   {
+    "key": "I can print the cards today, and two volunteers will check them before Friday.",
+    "d": [
+     "The cards were already printed last month for the space exhibition, if those ones are still usable.",
+     "The printing shop beside the museum already closed for the weekend.",
+     "Maya designed some posters for the last exhibition, so ask her."
+    ],
+    "exp": "Maya ถามว่า “Who would make them?” ช่อง (3) จึงต้องตอบว่าใครจะทำและทันเมื่อไร ซึ่งตรงกับตัวเลือกที่ Leo อาสาพิมพ์เองวันนี้ ตัวเลือกที่บอกว่าการ์ดพิมพ์ไว้แล้วเมื่อเดือนก่อนขัดกับข้อเสนอที่เพิ่งตกลงกัน และตัวเลือกที่โยนงานกลับให้ Maya ไม่ตอบคำถามเพราะ Maya เป็นคนถามเอง"
+   },
+   {
+    "key": "We could put a short survey near the exit and compare family and school-group answers.",
+    "d": [
+     "The volunteers can hand out free stickers to children at the door.",
+     "We should film the whole planet-show and post it online for the families who missed the trial night.",
+     "The exit sign needs a new battery before Friday night."
+    ],
+    "exp": "Maya บอกว่า “We also need to know what visitors think while the trial runs.” ช่อง (4) จึงต้องเป็นวิธีเก็บความเห็นผู้ชม ซึ่งคือการวางแบบสำรวจสั้น ๆ ใกล้ทางออก ตัวเลือกแจกสติกเกอร์หรือถ่ายคลิปไม่ได้ถามความเห็นผู้ชม และไม่ตรงกับคำถาม “And if the cards really help” ที่ตามมา"
+   },
+   {
+    "key": "Then the museum can try the same cards in the other galleries too.",
+    "d": [
+     "Then we should close the astronomy room earlier on Fridays from now on.",
+     "Then the planet-show needs a longer script for adults.",
+     "Then visitors will probably complain about the telescopes."
+    ],
+    "exp": "Maya ถามว่า “And if the cards really help people read in the dark?” คำตอบในช่อง (5) จึงต้องเป็นผลที่จะทำต่อถ้าการ์ดได้ผล คือขยายไปใช้กับแกลเลอรีอื่น ซึ่ง Maya รับว่า “Great. I’ll tell the director we’re ready for Friday.” ตัวเลือกให้ปิดห้องเร็วขึ้นขัดกับเป้าหมายเปิดดึกขึ้น"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q026",
+  "topic": "A campus shuttle timetable",
+  "context": "Niran: The evening shuttle keeps arriving after the last library study group ends, and students are complaining.\nPim: (1) ____\nNiran: The driver says traffic near the south gate is worst around six, but a new route would take months to approve.\nPim: (2) ____\nNiran: Good idea. The transport office may shift one departure by fifteen minutes, but only with evidence.\nPim: (3) ____\nNiran: Exactly. Can we also find out where people get on and how long they wait?\nPim: (4) ____\nNiran: Perfect. Who will prepare the recording form?\nPim: (5) ____\nNiran: Thanks. Let’s start counting on Monday and review the numbers next Friday.",
+  "tip": "ระวังตัวเลือกที่พูดเรื่องรถรับส่งเหมือนกันแต่ผิดประเด็น เช่น เสนอสิ่งที่ Niran บอกไปแล้วว่าเป็นไปไม่ได้ (“a new route would take months to approve”) หรือตอบไม่ตรงกับคำถามท้าย ๆ ที่ระบุชัดว่าใครต้องทำอะไร",
+  "items": [
+   {
+    "key": "Two students in my group missed it on Tuesday and had to walk home in the dark.",
+    "d": [
+     "The morning shuttle runs almost empty because most classes start late this term.",
+     "The library should stay open until midnight on weekdays.",
+     "The bus fare increased again at the start of this term."
+    ],
+    "exp": "Niran พูดต่อว่า “The driver says traffic near the south gate is worst around six” เพื่ออธิบายสาเหตุของปัญหาที่ Pim เล่า ช่อง (1) จึงต้องเป็นผลกระทบที่เกิดขึ้นจริงกับนักเรียน คือพลาดรถรอบเย็น ตัวเลือกเรื่องรถรอบเช้า ค่าโดยสาร หรือการขยายเวลาห้องสมุดไม่เข้ากับสาเหตุที่ Niran อธิบาย"
+   },
+   {
+    "key": "Then let’s record the arrival times for a week before asking for any change.",
+    "d": [
+     "Then students should just cycle to the library in the evening instead of waiting for the shuttle.",
+     "Then the university must buy a second shuttle immediately.",
+     "Then we should cancel the evening study groups this term."
+    ],
+    "exp": "Niran บอกว่าเส้นทางใหม่ต้องรออนุมัตินาน แล้วตอบรับว่า “Good idea. The transport office may shift one departure by fifteen minutes, but only with evidence.” ข้อเสนอในช่อง (2) จึงต้องเป็นการเก็บข้อมูลก่อนขอเปลี่ยนแปลง ตัวเลือกซื้อรถคันที่สองทันทีขัดกับเงื่อนไข ‘ต้องมีหลักฐาน’"
+   },
+   {
+    "key": "A record of the late arrivals would be exactly the evidence they need.",
+    "d": [
+     "Fifteen minutes is far too long for anyone to wait at the stop after a study group.",
+     "The transport office never answers emails from students.",
+     "We should ask the office to move the south gate stop."
+    ],
+    "exp": "Niran พูดว่าสำนักงานขนส่งขอ “only with evidence” แล้วตามด้วย “Exactly.” ช่อง (3) จึงต้องโยงว่าบันทึกเวลารถที่มาช้าคือหลักฐานนั้น ตัวเลือกที่เข้าใจสิบห้านาทีผิดว่าเป็นเวลารอ หรือบอกว่าสำนักงานไม่ตอบอีเมล ขัดกับความเป็นไปได้ที่ Niran เพิ่งยกมา"
+   },
+   {
+    "key": "I can ask passengers to note their boarding point and waiting time on the same sheet.",
+    "d": [
+     "The waiting time mostly depends on the traffic lights near the south gate, not on the shuttle itself.",
+     "Most passengers board at the main gate anyway.",
+     "We could interview the driver about his favourite route."
+    ],
+    "exp": "Niran ถามว่า “Can we also find out where people get on and how long they wait?” ช่อง (4) ต้องเสนอวิธีเก็บสองข้อมูลนั้น ซึ่งคือการให้ผู้โดยสารจดจุดขึ้นรถและเวลารอ แล้ว Niran จึงตอบ “Perfect. Who will prepare the recording form?” ตัวเลือกอื่นให้ความเห็นลอย ๆ ไม่ได้เสนอวิธีเก็บข้อมูล"
+   },
+   {
+    "key": "I’ll make a simple form tonight and print fifty copies tomorrow.",
+    "d": [
+     "The office should design the form for us sometime next month, after the trial.",
+     "Forms are not needed if we just watch the shuttle.",
+     "My cousin can lend us his laptop for the survey."
+    ],
+    "exp": "Niran ถามตรง ๆ ว่า “Who will prepare the recording form?” และปิดท้ายว่า “Let’s start counting on Monday” คำตอบในช่อง (5) จึงต้องรับทำเองและทันก่อนวันจันทร์ ตัวเลือกที่ให้สำนักงานทำเดือนหน้าหรือบอกว่าไม่ต้องมีฟอร์มขัดกับกำหนดเวลานับวันจันทร์"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q021",
+  "topic": "A community market layout",
+  "context": "Arun: The Saturday market feels really crowded near the fruit stalls, and two shoppers nearly knocked a table over.\nBee: (1) ____\nArun: That matches what I saw. People stop in the middle of the lane to look at the prices.\nBee: (2) ____\nArun: We can try that for one weekend, but nothing may be taped to the tables without permission.\nBee: (3) ____\nArun: Good. I’ll draw a simple map and bring it to the meeting on Tuesday.\nBee: (4) ____\nArun: Yes, and we should also ask shoppers whether the new signs are clearer for them.\nBee: (5) ____\nArun: Agreed. If the trial makes the lane safer, the committee can decide whether to keep the arrangement.",
+  "tip": "ประโยคของ Arun หลังแต่ละช่องจะ ‘รับลูก’ สิ่งที่ Bee เพิ่งเสนอ เช่น “We can try that for one weekend” บอกว่าช่องก่อนหน้าต้องเป็นการทดลองจัดพื้นที่ และ “Yes, and we should also ask shoppers…” บอกว่าช่องก่อนหน้าต้องเป็นการวัดผลอีกอย่างหนึ่ง",
+  "items": [
+   {
+    "key": "The vendors say people stop there because the price signs are hard to see from a distance.",
+    "d": [
+     "The fruit sellers already asked the committee twice about moving their stalls to the car park next month.",
+     "Saturday morning is the busiest time for the whole market.",
+     "Two vendors argued about who owns the corner table."
+    ],
+    "exp": "Arun ตอบว่า “That matches what I saw. People stop in the middle of the lane to look at the prices.” สาเหตุในช่อง (1) จึงต้องอธิบายว่าทำไมคนหยุดกลางทางเดิน คือมองป้ายราคาไม่เห็น ตัวเลือกเรื่องย้ายร้านหรือเถียงกันเรื่องโต๊ะไม่เกี่ยวกับการหยุดดูราคา"
+   },
+   {
+    "key": "Then let’s raise the signs higher and mark a wider walking lane for one weekend.",
+    "d": [
+     "Maybe the market should ban trolleys and carts on Saturday mornings until the crowd thins out.",
+     "We could ask the fruit vendors to lower their prices first.",
+     "The committee should build a second market near the river."
+    ],
+    "exp": "Arun ตอบรับว่า “We can try that for one weekend” ข้อเสนอในช่อง (2) จึงต้องเป็นการทดลองจัดพื้นที่หนึ่งสุดสัปดาห์ คือยกป้ายให้สูงขึ้นและขยายทางเดิน ตัวเลือกขอให้ผู้ขายลดราคาเป็นคนละเรื่องกับป้ายราคาที่มองยาก และตัวเลือกสร้างตลาดที่สองใหญ่เกินกว่าจะ ‘ลองหนึ่งสุดสัปดาห์’"
+   },
+   {
+    "key": "I’ll speak to the vendors on Sunday, so nobody is surprised on Saturday.",
+    "d": [
+     "The tape we bought for last year’s festival is still somewhere in the storage box.",
+     "Permissions like that can take the committee several months.",
+     "Visitors never read the signs at the market entrance."
+    ],
+    "exp": "Arun เตือนว่า “nothing may be taped to the tables without permission” แล้วตอบ “Good.” กับแผนของ Bee ช่อง (3) จึงต้องรับว่าจะไปขออนุญาตผู้ขายก่อน ตัวเลือกที่บอกว่าขออนุญาตต้องใช้เวลาหลายเดือนขัดกับแผนทดลองสุดสัปดาห์หน้า และ Arun จะไม่ตอบ “Good.”"
+   },
+   {
+    "key": "During the trial we can count how many people pass through the lane.",
+    "d": [
+     "The map should also show exactly where the musicians will perform each hour.",
+     "Tuesday is too early for the vendors to decide anything.",
+     "We could photograph the stalls for the market page."
+    ],
+    "exp": "Arun บอกว่าจะวาดแผนที่ไปประชุมอังคาร แล้ว Bee เสนออะไรที่ Arun ตอบว่า “Yes, and we should also ask shoppers whether the new signs are clearer” ช่อง (4) จึงต้องเป็นการวัดผลเชิงตัวเลขระหว่างทดลอง คือการนับคนผ่านช่องทางเดิน ตัวเลือกเรื่องนักดนตรีหรือถ่ายรูปแผงไม่เกี่ยวกับการวัดผล"
+   },
+   {
+    "key": "Their answers plus the counts will show whether the wider lane really works.",
+    "d": [
+     "Shoppers at this market usually complain about the layout whatever small change we make.",
+     "The committee already decided to keep the old layout.",
+     "Clearer signs will probably double the fruit sales."
+    ],
+    "exp": "Arun สรุปว่า “If the trial makes the lane safer, the committee can decide whether to keep the arrangement.” ช่อง (5) ต้องโยงว่าข้อมูลจากการนับและคำตอบผู้ซื้อจะใช้ตัดสินผลการทดลอง ตัวเลือกที่บอกว่าคณะกรรมการตัดสินใจไปแล้วขัดกับที่ยังต้องรอผลทดลอง"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q026",
+  "topic": "A library study-room booking",
+  "context": "Dao: Students keep arriving at the group-study room and finding it occupied, even when the sheet says it’s free.\nKen: (1) ____\nDao: That explains last week. Two groups arrived for the same six o’clock slot and argued at the door.\nKen: (2) ____\nDao: That might help, though we should keep the paper booking sheet for anyone who doesn’t use the library app.\nKen: (3) ____\nDao: Good plan. I’ll make a sample card and show the librarian tomorrow.\nKen: (4) ____\nDao: Yes, and we can ask users whether the new process feels easier than the old sheet.\nKen: (5) ____\nDao: Right. Then the librarian can choose whether the library keeps the card.",
+  "tip": "ช่องว่างในบทสนทนานี้เชื่อมกับ ‘ขั้นตอนทดลองใช้’ ทั้งหมด: สาเหตุของปัญหา → สิ่งที่ลองทำ → สิ่งที่ต้องคงไว้คู่กัน → วิธีวัดผล → เกณฑ์ตัดสิน ตัดตัวเลือกที่ขัดกับขั้นตอนที่ตกลงกันไปแล้วออกก่อน",
+  "items": [
+   {
+    "key": "The booking sheet is on the noticeboard, but people often forget to cross out their old names.",
+    "d": [
+     "The library app keeps crashing these days whenever more than ten students try to log in at once.",
+     "Most students prefer studying at home in the evening.",
+     "The room’s air conditioner has been broken since Monday."
+    ],
+    "exp": "Dao ตอบว่า “That explains last week. Two groups arrived for the same six o’clock slot” สาเหตุในช่อง (1) จึงต้องอธิบายการจองซ้ำ คือคนลืมขีดฆ่าชื่อเก่าออกจากใบจอง ตัวเลือกเรื่องแอปค้างหรือแอร์เสียไม่ทำให้เกิดคิวหกโมงซ้ำสองกลุ่ม"
+   },
+   {
+    "key": "We could test a sign-out card at the door for two weeks.",
+    "d": [
+     "Should the library hire a guard for the study room door too?",
+     "Why don’t we lock the room during booking slots?",
+     "Let’s move the study groups to the empty computer lab."
+    ],
+    "exp": "Dao ตอบว่า “That might help, though we should keep the paper booking sheet for anyone who doesn’t use the library app.” ข้อเสนอในช่อง (2) จึงต้องเป็นระบบจองแบบใหม่ที่ยังใช้คู่กับใบจองกระดาษได้ คือการ์ดเซ็นชื่อหน้าห้องสองสัปดาห์ ตัวเลือกจ้างยามหรือล็อกห้องไม่เกี่ยวกับการคงใบจองกระดาษไว้คู่กัน"
+   },
+   {
+    "key": "Agreed, so the card and the sheet can work side by side during the trial.",
+    "d": [
+     "The app already sends automatic reminders to people who book a slot online.",
+     "Paper sheets are cheaper than printing any new card.",
+     "Students without phones are not allowed to book rooms."
+    ],
+    "exp": "Dao กำหนดว่าต้องคงใบจองกระดาษไว้ แล้วตามด้วย “Good plan.” ช่อง (3) จึงต้องเห็นด้วยและยืนยันว่าการ์ดกับใบจองจะใช้คู่กันได้ ตัวเลือกที่บอกว่ากระดาษถูกกว่าเป็นการค้านแผน ซึ่ง Dao จะไม่ตอบ “Good plan.” และตัวเลือกห้ามคนไม่มีมือถือจองขัดกับที่ให้คงใบกระดาษไว้"
+   },
+   {
+    "key": "During the trial we can count how many double bookings still happen.",
+    "d": [
+     "The librarian usually prefers short emails over printed samples like that card.",
+     "We should buy a whiteboard for the noticeboard first.",
+     "Tomorrow the library closes early for staff training."
+    ],
+    "exp": "Dao บอกว่าจะทำการ์ดตัวอย่างไปให้บรรณารักษ์ดูพรุ่งนี้ แล้วตอบ “Yes, and we can ask users whether the new process feels easier” ช่อง (4) จึงต้องเสนอการวัดผลอีกอย่างระหว่างการทดลอง คือการนับการจองซ้ำที่ยังเกิดขึ้น ตัวเลือกเรื่องไวต์บอร์ดหรืออีเมลไม่ใช่วิธีวัดผลการทดลอง"
+   },
+   {
+    "key": "The counts and the answers together will tell us if the card really helps.",
+    "d": [
+     "Users always say the process is easier when the librarian is watching them.",
+     "The card will probably confuse the first-year students.",
+     "Booking rules should stay exactly as they are now."
+    ],
+    "exp": "Dao ปิดท้ายว่า “Then the librarian can choose whether the library keeps the card.” ช่อง (5) จึงต้องสรุปว่าเกณฑ์ตัดสินคือการนับการจองซ้ำรวมกับคำตอบผู้ใช้ ตัวเลือกที่บอกว่าควรคงกฎเดิมทุกอย่างขัดกับการทดลองที่กำลังจะวัดผล"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q021",
+  "topic": "Clinic appointment reminders",
+  "context": "Fah: Several patients missed their morning appointments last month, and the doctors’ schedules slipped badly.\nDr. Lin: (1) ____\nFah: Two days earlier would give them time to arrange childcare and transport.\nDr. Lin: (2) ____\nFah: Good, and the reception team can hand out a short feedback form at the desk.\nDr. Lin: (3) ____\nFah: Of course. Patients must still be able to choose a phone call instead of a message.\nDr. Lin: (4) ____\nFah: Yes. We’ll compare the missed appointments over four weeks before the clinic decides anything.\nDr. Lin: (5) ____\nFah: I’ll write the timeline tonight and send it to the whole team.",
+  "tip": "ตัวเลขในเรื่องนี้สำคัญ: “two days earlier”, “one clinic team”, “four weeks” ตัวเลือกที่เปลี่ยนตัวเลขเหล่านี้หรือเสนอก่อนมีข้อมูลมักเป็นตัวลวงที่ฟังดูใกล้เคียงที่สุด",
+  "items": [
+   {
+    "key": "Some reminders arrive only the night before, so we should send them two days earlier.",
+    "d": [
+     "The morning traffic around the clinic makes patients late for most appointments.",
+     "We should cancel the morning appointments and keep only afternoons.",
+     "The clinic needs more doctors for the Monday morning rush."
+    ],
+    "exp": "Fah ตอบว่า “Two days earlier would give them time to arrange childcare and transport.” ข้อเสนอในช่อง (1) จึงต้องเป็นการเลื่อนส่งข้อความเตือนให้เร็วขึ้นสองวัน ตัวเลือกเรื่องรถติดตอนเช้าหรือเพิ่มหมอไม่ทำให้ Fah พูดถึง ‘สองวัน’ ได้"
+   },
+   {
+    "key": "Let’s try the new timing with one clinic team first.",
+    "d": [
+     "Patients should receive three messages each week.",
+     "The night-before messages can stay exactly as they are.",
+     "Childcare is not really a problem for our patients."
+    ],
+    "exp": "Fah เห็นด้วยว่าส่งเร็วขึ้นสองวันจะช่วยเรื่อง “childcare and transport” แล้ว Dr. Lin เสนออะไรที่ Fah ตอบว่า “Good, and the reception team can hand out a short feedback form” ช่อง (2) จึงเป็นการเริ่มทดลองทีละทีม ตัวเลือกให้คงข้อความคืนก่อนไว้ขัดกับที่เพิ่งตกลงเปลี่ยนเวลาส่ง"
+   },
+   {
+    "key": "We should also ask whether they prefer a message or a phone call.",
+    "d": [
+     "The feedback forms should be printed in only one language to save paper.",
+     "Reception is too busy to collect any forms this month.",
+     "Doctors should read the forms before the next shift."
+    ],
+    "exp": "Fah ตอบว่า “Of course. Patients must still be able to choose a phone call instead of a message.” คำถามในช่อง (3) จึงต้องเกี่ยวกับช่องทางที่ผู้ป่วยต้องการรับเตือน ตัวเลือกบอกว่าแผนกต้อนรับยุ่งเกินเก็บแบบฟอร์มขัดกับที่ Fah เพิ่งเสนอให้แจกแบบฟอร์มที่เคาน์เตอร์"
+   },
+   {
+    "key": "Agreed. We can then see whether fewer people miss their morning slots.",
+    "d": [
+     "Four weeks is far too long to wait for any useful result about missed appointments.",
+     "The clinic should decide before the trial even starts.",
+     "Missed appointments are never a problem in the afternoon."
+    ],
+    "exp": "Fah ตอบว่า “Yes. We’ll compare the missed appointments over four weeks before the clinic decides anything.” ช่อง (4) จึงต้องเห็นด้วยและโยงไปที่เป้าหมายลดการพลาดนัดตอนเช้า ตัวเลือกที่บอกว่าสี่สัปดาห์นานไปหรือควรตัดสินก่อนทดลองขัดกับแผนเปรียบเทียบสี่สัปดาห์โดยตรง"
+   },
+   {
+    "key": "That sounds fair, and the whole team should see the plan.",
+    "d": [
+     "Let’s just keep the results secret from the reception staff.",
+     "The doctors will not change anything anyway.",
+     "A timeline is unnecessary for such a small test."
+    ],
+    "exp": "Fah ปิดท้ายว่า “I’ll write the timeline tonight and send it to the whole team.” ช่อง (5) จึงต้องสนับสนุนการทำแผนและให้ทั้งทีมรับรู้ ตัวเลือกให้ปิดผลจากเจ้าหน้าที่หรือบอกว่าไม่ต้องมีไทม์ไลน์ขัดกับประโยคปิดของ Fah"
+   }
+  ]
+ }
+]

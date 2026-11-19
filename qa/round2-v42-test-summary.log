@@ -1,0 +1,14 @@
+TGAT1 English Studio v42.0.1 test summary · 2026-11-18
+
+PASS: node --check app.js learning-hub.js learning-hub-curriculum.js sw.js
+PASS: smoke-v42.0.1 49/49 (full output: smoke-v42.0.1.log)
+PASS: regression-v42.0.1 59/59 (full output: regression-v42.0.1.log)
+PASS: 1,200 unique practice questions; 20 × QR10/Short10/Long10/TC15/RC15 blueprint
+PASS: Long Conversation 40 unique contexts / 200 linked questions
+PASS: Text Completion 40 unique passages / 300 linked questions; answer positions A/B/C/D 75 each
+PASS: Vocabulary match-game 12 generated rounds have five unique words/first-gloss meanings; correct-pair flow tested
+PASS: Vocabulary Lab broad fallback pool and distinct Thai-only answer options tested; SRS save/reload tested
+PASS: responsive layouts at 390px and 1280px, routes, keyboard focus, Hub, mock, import/export, offline/PWA checks
+INFO: axe-core scan skipped (AXE_PATH/core not supplied)
+INFO: not human/editorial review; no iOS Safari, Android Chrome, physical PWA-install/update, or assistive-technology test
+See ROUND2-STATUS.md and qa/REVIEW-QUEUE.csv for unresolved human review.

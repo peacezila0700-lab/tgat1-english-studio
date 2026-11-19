@@ -1,0 +1,422 @@
+[
+ {
+  "id": "S11-Q011",
+  "slot": 0,
+  "old": "Should we withdraw now and pick another project?",
+  "new": "Why weren’t the sample fake emails and demo login accounts ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the sample fake emails and demo login accounts ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S11-Q013",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "Why did the other group decide not to start with the scam-link poll?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to start with the scam-link poll?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S11-Q014",
+  "slot": 1,
+  "old": "Why did the organizing committee decide to postpone the whole activity until next term?",
+  "new": "How much did the cash box, price sign and QR payment stand cost last year?",
+  "exp_add": " ตัวเลือก “How much did the cash box, price sign and QR payment stand cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S11-Q016",
+  "slot": 0,
+  "old": "Why was the room locked yesterday afternoon?",
+  "new": "When did we last count the starting change in the cash box?",
+  "exp_add": " ตัวเลือก “When did we last count the starting change in the cash box?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S11-Q017",
+  "slot": 1,
+  "old": "How many students signed up last semester?",
+  "new": "Who forgot to return the clean apron and ingredient checklist last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the clean apron and ingredient checklist last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S11-Q019",
+  "slot": 1,
+  "old": "Can we push the whole event back to next month?",
+  "new": "Who was supposed to rinse and chop the fresh vegetables last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to rinse and chop the fresh vegetables last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q011",
+  "slot": 0,
+  "old": "How much is a front-row ticket for visitors?",
+  "new": "Did the school already pay for the printed question cards and bottled water?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the printed question cards and bottled water?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q013",
+  "slot": 0,
+  "old": "How much did we spend on last month’s event?",
+  "new": "How long did it take to test the slide clicker and wireless mic last time?",
+  "exp_add": " ตัวเลือก “How long did it take to test the slide clicker and wireless mic last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q014",
+  "slot": 0,
+  "old": "Can we hand the whole task to another team instead?",
+  "new": "Why weren’t the stamp cards and recommended-book display signs ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the stamp cards and recommended-book display signs ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q016",
+  "slot": 0,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "Why did the other group decide not to pick three beginner-friendly titles per genre?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to pick three beginner-friendly titles per genre?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q017",
+  "slot": 1,
+  "old": "How long did it take the previous team to clean everything up after the event ended?",
+  "new": "How much did the helmet, spare tube and reflective bands cost last year?",
+  "exp_add": " ตัวเลือก “How much did the helmet, spare tube and reflective bands cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S12-Q019",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "When did we last check everyone’s brakes and tire pressure?",
+  "exp_add": " ตัวเลือก “When did we last check everyone’s brakes and tire pressure?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q011",
+  "slot": 0,
+  "old": "Can we hand the whole task to another team instead?",
+  "new": "Who forgot to return the rulers, clipboards and observation charts last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the rulers, clipboards and observation charts last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q013",
+  "slot": 0,
+  "old": "Can we push the whole event back to next month?",
+  "new": "Who was supposed to measure stem height and count new leaves last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to measure stem height and count new leaves last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q014",
+  "slot": 0,
+  "old": "Whose signature do we need for next year’s round?",
+  "new": "Did the school already pay for the numbered sticky tags and logbook?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the numbered sticky tags and logbook?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q016",
+  "slot": 1,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "How long did it take to separate electronics and IDs into a locked drawer last time?",
+  "exp_add": " ตัวเลือก “How long did it take to separate electronics and IDs into a locked drawer last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q017",
+  "slot": 0,
+  "old": "Who won first prize in last year’s school round?",
+  "new": "Why weren’t the title cards, measuring tape and wall hooks ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the title cards, measuring tape and wall hooks ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S13-Q019",
+  "slot": 0,
+  "old": "Why was the room locked yesterday afternoon?",
+  "new": "Why did the other group decide not to lay the paintings along the floor by theme?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to lay the paintings along the floor by theme?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q011",
+  "slot": 0,
+  "old": "Should we withdraw now and pick another project?",
+  "new": "How much did the task board link and draft survey questions cost last year?",
+  "exp_add": " ตัวเลือก “How much did the task board link and draft survey questions cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q013",
+  "slot": 1,
+  "old": "Have you asked whether we can invite students from other schools to watch the session?",
+  "new": "When did we last finalize the ten survey questions by Wednesday?",
+  "exp_add": " ตัวเลือก “When did we last finalize the ten survey questions by Wednesday?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q014",
+  "slot": 0,
+  "old": "Who won first prize in last year’s school round?",
+  "new": "Who forgot to return the thick poster boards and markers last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the thick poster boards and markers last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q016",
+  "slot": 1,
+  "old": "How much did we spend on last month’s event?",
+  "new": "Who was supposed to check the temperature chart last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to check the temperature chart last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q017",
+  "slot": 0,
+  "old": "Why didn’t anyone tell us that the teacher had already called off the entire activity?",
+  "new": "Did the school already pay for the packing tape and checklist of canned goods?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the packing tape and checklist of canned goods?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S14-Q019",
+  "slot": 0,
+  "old": "Can we push the whole event back to next month?",
+  "new": "How long did it take to label each carton clearly last time?",
+  "exp_add": " ตัวเลือก “How long did it take to label each carton clearly last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q011",
+  "slot": 0,
+  "old": "Why did the organizing committee decide to postpone the whole activity until next term?",
+  "new": "Why weren’t the laptop and shared source list ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the laptop and shared source list ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q013",
+  "slot": 0,
+  "old": "Do you happen to know whether the advisor has already graded our individual reports yet?",
+  "new": "Why did the other group decide not to match each slide to a speaker?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to match each slide to a speaker?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q014",
+  "slot": 0,
+  "old": "Why didn’t anyone tell us that the teacher had already called off the entire activity?",
+  "new": "How much did the student ID card and small notebook cost last year?",
+  "exp_add": " ตัวเลือก “How much did the student ID card and small notebook cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q016",
+  "slot": 0,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "When did we last start on the second floor?",
+  "exp_add": " ตัวเลือก “When did we last start on the second floor?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q017",
+  "slot": 1,
+  "old": "Should we withdraw now and pick another project?",
+  "new": "Who forgot to return the last month’s practice sheet and highlighter last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the last month’s practice sheet and highlighter last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S15-Q019",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "Who was supposed to go over inference questions last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to go over inference questions last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q011",
+  "slot": 0,
+  "old": "Can we hand the whole task to another team instead?",
+  "new": "Did the school already pay for the coolers, paper cups and first-aid kit?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the coolers, paper cups and first-aid kit?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q013",
+  "slot": 1,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "How long did it take to check the match schedule with the coach last time?",
+  "exp_add": " ตัวเลือก “How long did it take to check the match schedule with the coach last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q014",
+  "slot": 0,
+  "old": "Whose signature do we need for next year’s round?",
+  "new": "Why weren’t the colored genre stickers and swap coupons ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the colored genre stickers and swap coupons ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q016",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "Why did the other group decide not to group the donated books by genre?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to group the donated books by genre?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q017",
+  "slot": 0,
+  "old": "How much is a front-row ticket for visitors?",
+  "new": "How much did the refillable water bottle and sun hat cost last year?",
+  "exp_add": " ตัวเลือก “How much did the refillable water bottle and sun hat cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S16-Q019",
+  "slot": 0,
+  "old": "Why was the room locked yesterday afternoon?",
+  "new": "When did we last reserve the return train seats online?",
+  "exp_add": " ตัวเลือก “When did we last reserve the return train seats online?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q011",
+  "slot": 0,
+  "old": "Should we withdraw now and pick another project?",
+  "new": "Who forgot to return the blank name tags and sign-up sheet last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the blank name tags and sign-up sheet last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q013",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "Who was supposed to arrange the chairs in a circle last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to arrange the chairs in a circle last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q014",
+  "slot": 0,
+  "old": "How much is a front-row ticket for visitors?",
+  "new": "Did the school already pay for the gardening gloves and small hand trowel?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the gardening gloves and small hand trowel?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q016",
+  "slot": 0,
+  "old": "Why was the room locked yesterday afternoon?",
+  "new": "How long did it take to pull out the weeds last time?",
+  "exp_add": " ตัวเลือก “How long did it take to pull out the weeds last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q017",
+  "slot": 0,
+  "old": "Why didn’t anyone tell us that the teacher had already called off the entire activity?",
+  "new": "Why weren’t the sample fake emails and demo login accounts ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the sample fake emails and demo login accounts ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S17-Q019",
+  "slot": 0,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "Why did the other group decide not to start with the scam-link poll?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to start with the scam-link poll?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q011",
+  "slot": 0,
+  "old": "How much is a front-row ticket for visitors?",
+  "new": "How much did the cash box, price sign and QR payment stand cost last year?",
+  "exp_add": " ตัวเลือก “How much did the cash box, price sign and QR payment stand cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q013",
+  "slot": 1,
+  "old": "Why was the room locked yesterday afternoon?",
+  "new": "When did we last count the starting change in the cash box?",
+  "exp_add": " ตัวเลือก “When did we last count the starting change in the cash box?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q014",
+  "slot": 0,
+  "old": "Can we hand the whole task to another team instead?",
+  "new": "Who forgot to return the clean apron and ingredient checklist last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the clean apron and ingredient checklist last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q016",
+  "slot": 0,
+  "old": "Can we push the whole event back to next month?",
+  "new": "Who was supposed to rinse and chop the fresh vegetables last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to rinse and chop the fresh vegetables last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q017",
+  "slot": 0,
+  "old": "How long did it take the previous team to clean everything up after the event ended?",
+  "new": "Did the school already pay for the printed question cards and bottled water?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the printed question cards and bottled water?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S18-Q019",
+  "slot": 0,
+  "old": "Have you asked whether we can invite students from other schools to watch the session?",
+  "new": "How long did it take to test the slide clicker and wireless mic last time?",
+  "exp_add": " ตัวเลือก “How long did it take to test the slide clicker and wireless mic last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q011",
+  "slot": 1,
+  "old": "How many students signed up last semester?",
+  "new": "Why weren’t the stamp cards and recommended-book display signs ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the stamp cards and recommended-book display signs ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q013",
+  "slot": 0,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "Why did the other group decide not to pick three beginner-friendly titles per genre?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to pick three beginner-friendly titles per genre?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q014",
+  "slot": 1,
+  "old": "How long did it take the previous team to clean everything up after the event ended?",
+  "new": "How much did the helmet, spare tube and reflective bands cost last year?",
+  "exp_add": " ตัวเลือก “How much did the helmet, spare tube and reflective bands cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q016",
+  "slot": 0,
+  "old": "Where do we store leftover items afterward?",
+  "new": "When did we last check everyone’s brakes and tire pressure?",
+  "exp_add": " ตัวเลือก “When did we last check everyone’s brakes and tire pressure?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q017",
+  "slot": 0,
+  "old": "Who won first prize in last year’s school round?",
+  "new": "Who forgot to return the rulers, clipboards and observation charts last time?",
+  "exp_add": " ตัวเลือก “Who forgot to return the rulers, clipboards and observation charts last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S19-Q019",
+  "slot": 1,
+  "old": "Do you happen to know whether the advisor has already graded our individual reports yet?",
+  "new": "Who was supposed to measure stem height and count new leaves last week?",
+  "exp_add": " ตัวเลือก “Who was supposed to measure stem height and count new leaves last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q011",
+  "slot": 0,
+  "old": "Should we withdraw now and pick another project?",
+  "new": "Did the school already pay for the numbered sticky tags and logbook?",
+  "exp_add": " ตัวเลือก “Did the school already pay for the numbered sticky tags and logbook?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q013",
+  "slot": 0,
+  "old": "Did everyone get the email sent on Tuesday?",
+  "new": "How long did it take to separate electronics and IDs into a locked drawer last time?",
+  "exp_add": " ตัวเลือก “How long did it take to separate electronics and IDs into a locked drawer last time?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q014",
+  "slot": 1,
+  "old": "Who won first prize in last year’s school round?",
+  "new": "Why weren’t the title cards, measuring tape and wall hooks ready last week?",
+  "exp_add": " ตัวเลือก “Why weren’t the title cards, measuring tape and wall hooks ready last week?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q016",
+  "slot": 1,
+  "old": "Do you happen to know whether the advisor has already graded our individual reports yet?",
+  "new": "Why did the other group decide not to lay the paintings along the floor by theme?",
+  "exp_add": " ตัวเลือก “Why did the other group decide not to lay the paintings along the floor by theme?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q017",
+  "slot": 1,
+  "old": "Can we hand the whole task to another team instead?",
+  "new": "How much did the task board link and draft survey questions cost last year?",
+  "exp_add": " ตัวเลือก “How much did the task board link and draft survey questions cost last year?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการนัดสถานที่และบอกของที่ต้องนำมา ไม่ได้ตอบคำถามนี้"
+ },
+ {
+  "id": "S20-Q019",
+  "slot": 1,
+  "old": "Who volunteered to take photos after the event?",
+  "new": "When did we last finalize the ten survey questions by Wednesday?",
+  "exp_add": " ตัวเลือก “When did we last finalize the ten survey questions by Wednesday?” ใช้คำจากบทสนทนาเป็นตัวหลอก แต่ประโยคถัดไปเป็นการเสนอว่าจะเริ่มทำอะไรก่อน ไม่ได้ตอบคำถามนี้"
+ }
+]

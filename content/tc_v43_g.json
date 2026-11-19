@@ -1,0 +1,342 @@
+[
+ {
+  "set": 13,
+  "passage": "A",
+  "genre": "book review",
+  "topic": "Novel review: The Salt Road",
+  "context": "Book review: “The Salt Road” by Pimchanok Rattanaporn. Rattanaporn's second novel follows a truck driver who hauls salt between the coast and the mountains. The story, (1) ____ spans thirty years, never once feels slow. Rattanaporn's great gift is (2) ____: she can make two pages about a roadside meal feel like a feast. Readers who enjoyed her first book will (3) ____ the same dry humour here. Some critics have (4) ____ that the middle chapters drag, but even they praise the ending. The novel was (5) ____ for the national book prize last month, its first major honour. If you buy only one Thai novel this year, this reviewer suggests you (6) ____ it “The Salt Road”. (7) ____ its length — nearly six hundred pages — the book reads in a weekend.",
+  "tip": "บทวิจารณ์หนังสือนี้ทดสอบ relative clause, present perfect (have + V3) และโครงสร้าง suggest + ประธาน + กริยารูปฐาน รวมถึงคำคู่ shortlisted for, despite + คำนาม",
+  "items": [
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "whatever",
+     "where"
+    ],
+    "exp": "ช่อง (1) เป็น non-defining relative clause ขยาย the story และเป็นประธานของ spans จึงใช้ which ส่วน it ทำให้เกิด comma splice (สองประโยคสมบูรณ์คั่นด้วยจุลภาค) และ whatever, where ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "detail",
+    "d": [
+     "retail",
+     "entail",
+     "prevail"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ detail (รายละเอียด) เพราะเบาะแสคือเธอเขียนเรื่องมื้ออาหารริมทางสองหน้าให้อลังการได้ ส่วน retail (ขายปลีก), entail (จำเป็นต้องมี), prevail (ครอบงำ) เป็นคำท้าย -tail/-vail คล้ายกันแต่คนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "recognise",
+    "d": [
+     "resign",
+     "resist",
+     "resolve"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ recognise (จดจำได้/สังเกตเห็น) — นักอ่านเล่มแรกจะจำอารมณ์ขันแห้ง ๆ แบบเดิมได้ ส่วน resign (ลาออก), resist (ต่อต้าน), resolve (แก้ปัญหา) เป็นคำ re- หน้าตาคล้ายแต่ไม่เข้ากับ humour"
+   },
+   {
+    "type": "tense",
+    "key": "complained",
+    "d": [
+     "complain",
+     "complaining",
+     "complains"
+    ],
+    "exp": "ช่อง (4) หลัง have ใน present perfect ต้องใช้ V3 complained ส่วน complain เป็นรูปฐาน, complaining ต้องมี be นำ และ complains เป็นปัจจุบันเอกพจน์"
+   },
+   {
+    "type": "vocab",
+    "key": "shortlisted",
+    "d": [
+     "shortened",
+     "sharpened",
+     "sheltered"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ shortlisted for ซึ่งเป็น collocation แปลว่า เข้ารอบสุดท้ายของรางวัล ส่วน shortened (ทำให้สั้นลง), sharpened (เหลาให้คม), sheltered (ให้ที่กำบัง) ไม่ใช้กับรางวัลหนังสือ"
+   },
+   {
+    "type": "verb",
+    "key": "make",
+    "d": [
+     "to make",
+     "making",
+     "made"
+    ],
+    "exp": "ช่อง (6) หลัง suggests + ประธาน you ต้องใช้กริยารูปฐาน make (suggests you make it...) ตามโครงสร้าง subjunctive ส่วน to make, making, made ใช้ในโครงสร้างนี้ไม่ได้"
+   },
+   {
+    "type": "conn",
+    "key": "Despite",
+    "d": [
+     "Although",
+     "Because",
+     "However"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ Despite + คำนาม (Despite its length) ส่วน Although ต้องตามด้วยประโยคสมบูรณ์, Because ต้องใช้ Because of และ However ต้องขึ้นต้นประโยคใหม่พร้อมจุลภาค"
+   }
+  ]
+ },
+ {
+  "set": 13,
+  "passage": "B",
+  "genre": "business news",
+  "topic": "Freight returns to rail",
+  "context": "Freight is returning to Thailand's railways, and the night trains between Bangkok and Nong Khai are leading the change. Never before (1) ____ so many private companies asked for freight slots on the same line. The revival began quietly; the first private freight (2) ____ ran in 2023, carrying rice for a single exporter. Today the nightly service (3) ____ rice, fruit, electronics and even motorbikes. Journey times have fallen by three hours since the new signalling system (4) ____ installed. Shippers say rail beats road (5) ____ bad weather, when floods sometimes close highways. The railway authority, (6) ____ had long treated freight as a sideline, now plans a dedicated terminal. Not only does the terminal create jobs; it promises to (7) ____ delivery times to the northeast by a further day. Operators warn, however, that success will depend (8) ____ keeping the night timetable reliable.",
+  "tip": "ข่าวธุรกิจนี้มี inversion หลัง Never before และทดสอบ depend on, in bad weather ซึ่งเป็นคำบุพบทคู่คงที่ พร้อม passive หลัง since",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "have",
+    "d": [
+     "has",
+     "did",
+     "are"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Never before ต้องสลับกริยาช่วยมาหน้าประธาน: Never before have so many companies asked (ประธานพหูพจน์ + present perfect เพราะเล่าถึงสถิติถึงปัจจุบัน) ส่วน has ใช้กับพหูพจน์ไม่ได้, did ต้องตามด้วยกริยารูปฐาน และ are asked เปลี่ยนความหมายเป็น passive"
+   },
+   {
+    "type": "vocab",
+    "key": "service",
+    "d": [
+     "servant",
+     "sequence",
+     "seminar"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ freight service (บริการขนส่งสินค้า) ซึ่งเป็นคำคู่ collocation ส่วน servant (คนรับใช้), sequence (ลำดับ), seminar (สัมมนา) เป็นคำนามหน้าคล้ายแต่ความหมายไม่เข้ากับเที่ยวขนส่งที่วิ่งปี 2023"
+   },
+   {
+    "type": "tense",
+    "key": "carries",
+    "d": [
+     "carried",
+     "carry",
+     "carrying"
+    ],
+    "exp": "ช่อง (3) มีคำบอกเวลา Today และเป็นกิจวัตรปัจจุบัน ประธาน the nightly service เอกพจน์จึงใช้ carries ส่วน carried เป็นอดีต, carry ใช้กับประธานเอกพจน์ไม่ได้ และ carrying ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "is",
+     "has",
+     "been"
+    ],
+    "exp": "ช่อง (4) หลัง since อ้างถึงเหตุการณ์จุดหนึ่งในอดีตเมื่อระบบถูกติดตั้ง จึงต้องใช้ passive อดีต: since the system was installed ส่วน is installed เป็นปัจจุบันขัดกับ have fallen ที่วัดจากอดีต, has installed เป็น active และ been installed ต้องมี have/be นำ"
+   },
+   {
+    "type": "conn",
+    "key": "in",
+    "d": [
+     "on",
+     "at",
+     "by"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ in bad weather ซึ่งเป็น collocation บอกสภาวะอากาศ ส่วน on, at, by weather ไม่เป็นไปตามธรรมเนียมการใช้บุพบทนี้"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "what",
+     "whereas"
+    ],
+    "exp": "ช่อง (6) เป็น non-defining relative clause ขยาย the railway authority (องค์กร = สิ่งของ) และเป็นประธานของ had treated จึงใช้ which ส่วน it ทำให้เกิด comma splice และ what, whereas ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "cut",
+    "d": [
+     "cuts",
+     "cutting",
+     "to cut"
+    ],
+    "exp": "ช่อง (7) หลัง promises to ต้องใช้กริยารูปฐาน cut (cut delivery times = ลดเวลาส่ง) ส่วน cuts เติม s ผิดตำแหน่ง, cutting ต้องมี be นำ และ to cut ทำให้ to ซ้ำ"
+   },
+   {
+    "type": "conn",
+    "key": "on",
+    "d": [
+     "in",
+     "at",
+     "for"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ depend on ซึ่งเป็น phrasal verb คงที่ แปลว่า ขึ้นอยู่กับ ส่วน depend in, depend at, depend for ไม่เป็นสำนวนในภาษาอังกฤษ"
+   }
+  ]
+ },
+ {
+  "set": 14,
+  "passage": "A",
+  "genre": "property advertisement",
+  "topic": "Condominium relocation ad",
+  "context": "Moving notice: Brightview Condominiums is relocating its sales gallery — and you are invited. From 1 March, all viewings will (1) ____ at our new show suite near the river park. The move lets us display three fully (2) ____ rooms, including a family unit with two balconies. Buyers who (3) ____ a unit this month keep the current price list, which will rise in April. The new gallery, (4) ____ replaces the old car-park office, is a ten-minute walk from the station. Visitors can (5) ____ an appointment online or simply walk in between 10 a.m. and 6 p.m. Our agents will answer questions about loans, and the bank desk next door can (6) ____ your borrowing power in twenty minutes. (7) ____ than 40 units remain, so early visitors have the widest choice.",
+  "tip": "โฆษณาอสังหาฯ นี้ทดสอบ passive หลัง will (be held) คำคู่ make an appointment, assess borrowing power และ fewer กับ less ที่ใช้กับนามนับได้/ไม่ได้ต่างกัน",
+  "items": [
+   {
+    "type": "tense",
+    "key": "be held",
+    "d": [
+     "hold",
+     "held",
+     "being held"
+    ],
+    "exp": "ช่อง (1) หลัง will ต้องใช้กริยารูปฐาน และเป็น passive เพราะ viewings ถูกจัดขึ้น: will be held ส่วน hold เป็น active ที่ประธานต้องเป็นผู้จัด และ held, being held ไม่ใช่กริยารูปฐานจึงใช้หลัง will ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "furnished",
+    "d": [
+     "punished",
+     "vanished",
+     "polished"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ fully furnished rooms (ห้องตกแต่งพร้อมอยู่ครบ) ซึ่งเป็นศัพท์มาตรฐานของอสังหาริมทรัพย์ ส่วน punished (ถูกลงโทษ), vanished (หายตัว), polished (ขัดเงา) เป็นคำท้าย -ished คล้ายกันแต่ไม่ใช้กับห้องตัวอย่าง"
+   },
+   {
+    "type": "vocab",
+    "key": "purchase",
+    "d": [
+     "pursue",
+     "persuade",
+     "perfume"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ purchase a unit (ซื้อห้องชุด) ซึ่งเป็นคำทางการของการซื้อขาย ส่วน pursue (ไล่ตามเป้าหมาย), persuade (โน้มน้าวคน) ต้องมีบุคคลเป็นกรรม และ perfume (น้ำหอม) เป็นคนละความหมาย"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "that",
+     "wherever"
+    ],
+    "exp": "ช่อง (4) เป็น non-defining relative clause ขยาย the new gallery และเป็นประธานของ replaces จึงใช้ which ส่วน it ทำให้เกิด comma splice, that ไม่ใช้ใน clause ที่มีจุลภาคหน้า และ wherever ใช้แทนประธานไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "make",
+    "d": [
+     "made",
+     "making",
+     "to make"
+    ],
+    "exp": "ช่อง (5) หลัง can ต้องใช้กริยารูปฐาน make an appointment (ทำนัด) ซึ่งเป็น collocation ส่วน made เป็นอดีต, making ต้องมี be นำ และ to make ใช้หลัง can ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "assess",
+    "d": [
+     "access",
+     "accept",
+     "assist"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ assess your borrowing power (ประเมินกำลังกู้) ซึ่งเป็นคำคู่ที่ใช้กับความสามารถทางการเงิน ส่วน access (เข้าถึง), accept (ยอมรับ), assist (ช่วยเหลือ — ต้องมี with) ไม่เข้ากับความหมายการประเมิน"
+   },
+   {
+    "type": "vocab",
+    "key": "Fewer",
+    "d": [
+     "Less",
+     "Lower",
+     "Smaller"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ Fewer than เพราะ units เป็นนามนับได้พหูพจน์ ส่วน Less ใช้กับนามนับไม่ได้ (less water), Lower และ Smaller ไม่จับคู่กับ than ในความหมายจำนวนที่เหลือ"
+   }
+  ]
+ },
+ {
+  "set": 14,
+  "passage": "B",
+  "genre": "radio phone-in",
+  "topic": "First home radio phone-in",
+  "context": "Radio programme “First Home” — phone-in segment. Host: Our listener Nid is on the line. Nid, you've saved for a deposit in just two years, (1) ____? Nid: Yes! I kept every receipt. Host: Listeners want to know (2) ____ you cut your spending so fast. Nid: I stopped eating out and cancelled subscriptions I never used. The hardest part was the first month; after that it was plain (3) ____. Host: Any mistakes? Nid: I nearly bought a unit after the agent promised “a rare (4) ____” — the price was ridiculous. My advice: compare at least five places. Host: Wise words. Nid now runs a small (5) ____ group where members share price lists and warnings. She says banks examine your (6) ____ as carefully as your salary. Host: One last question — is a big deposit always better? Nid: Not if it (7) ____ you broke. Keep a cushion. Host: That (8) ____ perfect sense. Thank you, Nid.",
+  "tip": "รายการวิทยุนี้มี question tag ของ present perfect สำนวน plain sailing และคำคู่คงที่ เช่น savings group, make sense พร้อมกฎ if + ปัจจุบัน",
+  "items": [
+   {
+    "type": "tag",
+    "key": "haven't you",
+    "d": [
+     "have you",
+     "didn't you",
+     "don't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ you've saved... ซึ่งเป็น present perfect บอกเล่า tag จึงต้องเป็น haven't you ส่วน have you ใช้กับประโยคบอกเล่าไม่ได้ และ didn't you, don't you ไม่ตรงกับกริยา have saved"
+   },
+   {
+    "type": "clause",
+    "key": "how",
+    "d": [
+     "what",
+     "which",
+     "whose"
+    ],
+    "exp": "ช่อง (2) ต้องการ noun clause บอกวิธี (want to know how you cut your spending) ส่วน what, which, whose ทำหน้าที่ประธาน/กรรมซึ่ง clause นี้มีครบแล้ว"
+   },
+   {
+    "type": "vocab",
+    "key": "sailing",
+    "d": [
+     "failing",
+     "selling",
+     "salting"
+    ],
+    "exp": "ช่อง (3) ต้องใช้สำนวน plain sailing ซึ่งแปลว่า ราบรื่นไม่มีอุปสรรค ตรงกับที่เดือนแรกยากแต่หลังจากนั้นง่าย ส่วน failing, selling, salting ไม่ใช่ส่วนหนึ่งของสำนวนนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "bargain",
+    "d": [
+     "barrel",
+     "balcony",
+     "baggage"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ a rare bargain (ของดีราคาถูกที่หายาก) ตามคำที่นายหน้าใช้โน้มน้าว ส่วน barrel (ถัง), balcony (ระเบียง), baggage (สัมภาระ) เป็นคำนาม b- หน้าคล้ายแต่ไม่เข้ากับคำว่า rare ในบริบทราคา"
+   },
+   {
+    "type": "vocab",
+    "key": "savings",
+    "d": [
+     "saving",
+     "sewing",
+     "sealing"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ savings group (กลุ่มออมทรัพย์) ซึ่งเป็นคำคู่คงที่และเข้ากับสมาชิกที่แลกเปลี่ยนข้อมูลราคาบ้าน ส่วน saving รูปเอกพจน์ไม่เป็นชื่อกลุ่ม, sewing (เย็บผ้า) และ sealing (ปิดผนึก) คนละเรื่อง"
+   },
+   {
+    "type": "vocab",
+    "key": "debts",
+    "d": [
+     "doubts",
+     "debuts",
+     "doves"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ debts (หนี้สิน) เพราะธนาคารตรวจประวัติหนี้ควบคู่กับเงินเดือน ส่วน doubts (ความสงสัย), debuts (การเปิดตัว), doves (นกพิราบ) ออกเสียง/สะกดใกล้กันแต่ไม่เข้าบริบทการเงิน"
+   },
+   {
+    "type": "verb",
+    "key": "leaves",
+    "d": [
+     "leave",
+     "leaving",
+     "to leave"
+    ],
+    "exp": "ช่อง (7) อยู่ใน if-clause ที่เป็นปัจจุบัน (Not if it leaves you broke = ถ้ามันไม่ทำให้คุณหมดตัว) ประธาน it เอกพจน์จึงใช้ leaves ส่วน leave ไม่เติม s, leaving ไม่ใช่กริยาแท้ และ to leave ใช้หลัง if + ประธานแบบนี้ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "makes",
+    "d": [
+     "takes",
+     "gives",
+     "does"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ make sense ซึ่งเป็น collocation คงที่ แปลว่า ฟังขึ้น/สมเหตุสมผล ประธาน That เอกพจน์จึงเติม s ส่วน takes, gives, does sense ไม่เป็นสำนวน"
+   }
+  ]
+ }
+]

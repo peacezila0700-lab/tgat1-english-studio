@@ -1,0 +1,342 @@
+[
+ {
+  "set": 11,
+  "passage": "A",
+  "genre": "instruction manual",
+  "topic": "Rice cooker manual",
+  "context": "Thank you for choosing the HomeChef RC-5 rice cooker. Before first use, wash the inner pot with warm water and (1) ____ it completely. The RC-5 can cook five kinds of grain; the full list appears (2) ____ page four of this manual. Always place the cooker on a flat, dry surface, and never (3) ____ the steam vent with a cloth while it is working. If the keep-warm light does not come on after cooking, unplug the unit and (4) ____ the service centre. The pot's coating is designed (5) ____ sticky rice from burning; metal spoons will damage it, so use the wooden scoop provided. Repairs during the first year (6) ____ free of charge, provided the warranty card is returned within thirty days of purchase. (7) ____ you have questions this manual does not answer, call our hotline between 9 a.m. and 5 p.m.",
+  "tip": "คู่มือเครื่องใช้นี้ทดสอบคำคู่คงที่ (appears on page, contact the service centre) คำสั่งรูปกริยาฐานหลัง never/design to และ present simple ของข้อเท็จจริง",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "dry",
+    "d": [
+     "dye",
+     "deny",
+     "decay"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ dry (เช็ด/ทำให้แห้ง) ตามขั้นตอนล้างหม้อก่อนใช้ครั้งแรก ส่วน dye (ย้อมสี), deny (ปฏิเสธ), decay (ผุพัง) เป็นคำสะกดใกล้กันแต่คนละความหมาย"
+   },
+   {
+    "type": "conn",
+    "key": "on",
+    "d": [
+     "in",
+     "at",
+     "by"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ on page four เพราะภาษาอังกฤษใช้ on กับหมายเลขหน้า ส่วน in page, at page, by page ไม่เป็นไปตามธรรมเนียมนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "block",
+    "d": [
+     "lock",
+     "break",
+     "brake"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ block the steam vent (ปิดกั้นช่องระบายไอน้ำ) ซึ่งเป็นคำเตือนความปลอดภัย ส่วน lock (ล็อก), break (ทำให้แตก), brake (เบรก) ไม่ใช้กับช่องระบายอากาศ"
+   },
+   {
+    "type": "vocab",
+    "key": "contact",
+    "d": [
+     "contract",
+     "connect",
+     "conduct"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ contact the service centre (ติดต่อศูนย์บริการ) ส่วน contract เป็นคำนาม/ทำสัญญา, connect ต้องมี with และ conduct (ดำเนินการ) เป็นคำหน้าตาคล้ายแต่ไม่เข้ากับบริบท"
+   },
+   {
+    "type": "verb",
+    "key": "to keep",
+    "d": [
+     "keep",
+     "keeping",
+     "to be kept"
+    ],
+    "exp": "ช่อง (5) ใช้โครงสร้าง be designed + to-infinitive บอกจุดประสงค์ (designed to keep rice from burning) ส่วน keep, keeping ใช้ในโครงสร้างนี้ไม่ได้ และ to be kept เป็น passive ซึ่งตามด้วยกรรม sticky rice ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "are",
+    "d": [
+     "is",
+     "were",
+     "been"
+    ],
+    "exp": "ช่อง (6) เป็นข้อเท็จจริงปัจจุบันของเงื่อนไขประกัน ประธาน Repairs เป็นพหูพจน์จึงใช้ are free of charge ส่วน is เป็นเอกพจน์, were เป็นอดีต และ been ต้องมี have/be นำ"
+   },
+   {
+    "type": "clause",
+    "key": "If",
+    "d": [
+     "Despite",
+     "Whether",
+     "Unless"
+    ],
+    "exp": "ช่อง (7) ต้องการคำเชื่อมเงื่อนไข (If you have questions..., call the hotline) ส่วน Despite ต้องตามด้วยคำนาม, Whether ต้องมีทางเลือก or not และ Unless (ถ้าไม่) ทำให้ความหมายกลับด้าน"
+   }
+  ]
+ },
+ {
+  "set": 11,
+  "passage": "B",
+  "genre": "science news",
+  "topic": "Urban beekeeping",
+  "context": "City bees are making a comeback, and Bangkok is no exception. Only in the last five years (1) ____ rooftop hives appeared on hotels, malls and even a hospital. A hive can house sixty thousand bees, (2) ____ pollinate plants within three kilometres. Beekeeper Lek Chaiyan has kept hives downtown (3) ____ 2019; his honey sells out within a day of harvest. Urban honey, Lek explains, (4) ____ its flavour from hundreds of different flowers, which gives each batch a distinct taste. No visitor (5) ____ ever been stung at his sites, he says, because city bees are surprisingly gentle. The biggest threat is not people but pesticides: hives should never (6) ____ near sprayed gardens. Lek now trains new beekeepers each month, and demand for his course (7) ____ every term. His advice to beginners is simple: (8) ____ calm, move slowly and let the bees come to you.",
+  "tip": "ข่าววิทยาศาสตร์นี้มี inversion หลัง Only in... และทดสอบ since/for, rise/raise, stay calm ซึ่งเป็นคู่คำที่สับสนบ่อย",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "have",
+    "d": [
+     "has",
+     "did",
+     "had"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Only + ส่วนขยายเวลา ต้องกลับกริยาช่วยมาหน้าประธาน: Only in the last five years have rooftop hives appeared (ประธานพหูพจน์ + ช่วงเวลาที่ยังนับถึงปัจจุบัน → have) ส่วน has ใช้กับพหูพจน์ไม่ได้, did ต้องตามด้วยกริยารูปฐาน appeared ไม่ได้ และ had ต้องมีเหตุการณ์อดีตอื่นรองรับ"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "they",
+     "what",
+     "wherever"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย bees และเป็นประธานของ pollinate จึงใช้ which ส่วน they ทำให้เกิด comma splice และ what, wherever ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "since",
+    "d": [
+     "for",
+     "from",
+     "at"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ since + จุดเวลา (since 2019) คู่กับ present perfect has kept ส่วน for ต้องตามด้วยช่วงเวลา (for five years), from ต้องมี to/until ปิดท้าย และ at ใช้กับจุดเวลาสั้น ๆ"
+   },
+   {
+    "type": "vocab",
+    "key": "draws",
+    "d": [
+     "pulls",
+     "drags",
+     "pushes"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ draws its flavour from ซึ่งเป็นสำนวน แปลว่า ได้รสชาติมาจาก ส่วน pulls (ดึง), drags (ลาก), pushes (ดัน) เป็นคำความหมายแรงทางกายภาพที่ไม่ใช้กับรสชาติ"
+   },
+   {
+    "type": "tense",
+    "key": "has",
+    "d": [
+     "is",
+     "will be",
+     "had"
+    ],
+    "exp": "ช่อง (5) มี ever และเล่าถึงสถิติจนถึงปัจจุบัน จึงต้องใช้ present perfect: No visitor has ever been stung ประธาน No visitor เป็นเอกพจน์ ส่วน is และ will be ตามด้วย been ไม่ได้ และ had ต้องมีจุดอ้างอิงในอดีต"
+   },
+   {
+    "type": "verb",
+    "key": "be placed",
+    "d": [
+     "placed",
+     "being placed",
+     "to place"
+    ],
+    "exp": "ช่อง (6) หลัง should never ต้องใช้กริยารูปฐาน และเป็น passive เพราะรังผึ้งถูกนำไปวาง: should never be placed ส่วน placed และ being placed ไม่ใช่กริยารูปฐานจึงใช้หลัง modal ไม่ได้ และ to place เกิน to มา"
+   },
+   {
+    "type": "vocab",
+    "key": "rises",
+    "d": [
+     "raises",
+     "lifts",
+     "lift"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ rises (เพิ่มขึ้น) ซึ่งเป็นกริยาไม่ต้องการกรรม ตรงกับ demand ที่เพิ่มขึ้นเอง ส่วน raises และ lifts ต้องมีกรรมมารับ (raise something) จึงผิดโครงสร้าง"
+   },
+   {
+    "type": "vocab",
+    "key": "stay",
+    "d": [
+     "stand",
+     "sit",
+     "lie"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ stay calm ซึ่งเป็น collocation แปลว่า รักษาอาการสงบ ส่วน stand (ยืน), sit (นั่ง), lie (นอน/โกหก) ไม่จับคู่กับ calm ในความหมายนี้"
+   }
+  ]
+ },
+ {
+  "set": 12,
+  "passage": "A",
+  "genre": "course brochure",
+  "topic": "Evening classes brochure",
+  "context": "Greenfield Community College — Evening Classes, Term 2. Photography Basics: learn (1) ____ your camera's manual mode in six relaxed sessions. The course, (2) ____ runs on Tuesday evenings, costs 1,200 baht including a printed workbook. Students who do not own a camera may (3) ____ one from the college for a small fee. Last term's class (4) ____ its first public exhibition of student work at the town hall. Our cooking course now has a long waiting list; (5) ____ the demand, we have added a second Thursday group. Places on every course are limited, so early booking is (6) ____ to avoid disappointment. Ask the office (7) ____ you are unsure which level suits you.",
+  "tip": "โบรชัวร์คอร์สนี้ทดสอบ learn + to-infinitive, relative clause, คำคู่ because of the demand และ because of กับ despite ที่ใช้แทนกันไม่ได้",
+  "items": [
+   {
+    "type": "verb",
+    "key": "to use",
+    "d": [
+     "use",
+     "using",
+     "to be used"
+    ],
+    "exp": "ช่อง (1) หลัง learn ในความหมายฝึกใช้ทักษะ ต้องใช้ to-infinitive แบบ active (learn to use your camera) ส่วน use, using ใช้ตามหลัง learn โดยตรงไม่ได้ และ to be used เป็น passive ซึ่งตามด้วยกรรม your camera ไม่ได้"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "where",
+     "whatever"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย the course และเป็นประธานของ runs จึงใช้ which ส่วน it ทำให้เกิด comma splice และ where, whatever ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "rent",
+    "d": [
+     "lend",
+     "sell",
+     "owe"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ rent (เช่า/ยืมโดยเสียค่าธรรมเนียม) ตรงกับ for a small fee ส่วน lend คือวิทยาลัยให้ยืม — ทิศทางสลับกัน, sell (ขาย) ขัดกับค่าบริการเล็กน้อย และ owe (เป็นหนี้) ไม่เข้ากับบริบท"
+   },
+   {
+    "type": "tense",
+    "key": "staged",
+    "d": [
+     "stage",
+     "stages",
+     "staging"
+    ],
+    "exp": "ช่อง (4) มีคำบอกเวลา Last term จึงต้องใช้ past simple staged (จัดแสดง) ส่วน stage, stages เป็นปัจจุบัน และ staging ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "conn",
+    "key": "Because of",
+    "d": [
+     "Instead of",
+     "Ahead of",
+     "In spite of"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ Because of + คำนาม (เพราะความต้องการที่สูง) จึงเพิ่มกลุ่มวันพฤหัส ส่วน Instead of (แทนที่) และ Ahead of (ล่วงหน้า) ผิดความหมาย และ In spite of (ทั้ง ๆ ที่) ขัดกับเหตุและผล"
+   },
+   {
+    "type": "vocab",
+    "key": "essential",
+    "d": [
+     "eventual",
+     "internal",
+     "eternal"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ essential (จำเป็นอย่างยิ่ง) ตรงกับที่นั่งมีจำกัดจึงควรจองเร็ว ส่วน eventual (ที่เกิดในที่สุด), internal (ภายใน), eternal (ชั่วนิรันดร์) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "clause",
+    "key": "if",
+    "d": [
+     "that",
+     "what",
+     "which"
+    ],
+    "exp": "ช่อง (7) หลัง Ask the office ต้องการ noun clause แบบเงื่อนไข (ask... if you are unsure) ส่วน that ทำให้ความหมายเป็นการสั่ง, what และ which ทำหน้าที่ประธาน/กรรมซึ่ง clause มีครบแล้ว"
+   }
+  ]
+ },
+ {
+  "set": 12,
+  "passage": "B",
+  "genre": "local news",
+  "topic": "Market cooking class",
+  "context": "The Saturday cooking class at Wat Deng market ended its first season with a shared lunch on Sunday. “You have all tasted the sour curry by now, (1) ____?” the teacher asked the class, pointing at the long table. Students, (2) ____ had paid just two hundred baht for the whole course, cooked for neighbours, monks and market staff. The menu focused on (3) ____ dishes: sour curry, steamed fish with lime and stir-fried morning glory. One student, a retired bus driver, said it (4) ____ the first proper meal he had cooked in years. At lunch, two students promised to (5) ____ the course to their friends. The class (6) ____ by a local chef who grew up beside the market, and ingredients (7) ____ from the stalls downstairs every Saturday morning. Season two opens for booking in January; the market trust (8) ____ that all twelve places will go within a day.",
+  "tip": "ข่าวท้องถิ่นนี้มีการพูดอ้างอิงที่มี question tag แบบ present perfect และทดสอบ passive ในอดีต (was taught) กับคำคู่ come from, expect that",
+  "items": [
+   {
+    "type": "tag",
+    "key": "haven't you",
+    "d": [
+     "have you",
+     "don't you",
+     "didn't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ You have all tasted... ซึ่งเป็น present perfect บอกเล่า tag จึงต้องเป็น haven't you ส่วน have you ใช้กับประโยคบอกเล่าไม่ได้ และ don't you, didn't you ไม่ตรงกับกริยา have tasted"
+   },
+   {
+    "type": "clause",
+    "key": "who",
+    "d": [
+     "which",
+     "whom",
+     "whose"
+    ],
+    "exp": "ช่อง (2) เป็น relative pronoun ทำหน้าที่ประธานของ had paid และอ้างถึงคน (students) จึงใช้ who ส่วน which ใช้กับสิ่งของ, whom ทำหน้าที่ประธานไม่ได้ และ whose แสดงความเป็นเจ้าของ"
+   },
+   {
+    "type": "vocab",
+    "key": "traditional",
+    "d": [
+     "transitional",
+     "transparent",
+     "temporary"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ traditional dishes (อาหารดั้งเดิม) ตรงกับเมนูแกงส้ม ปลานึ่งมะนาว ผัดผักบุ้ง ส่วน transitional (ในช่วงเปลี่ยนผ่าน), transparent (โปร่งใส), temporary (ชั่วคราว) เป็นคำหน้าตาคล้ายแต่ไม่ใช้กับอาหาร"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "is",
+     "were",
+     "been"
+    ],
+    "exp": "ช่อง (4) อยู่ใน reported speech หลัง said ที่เล่าอดีต จึงเลื่อนมาเป็น was (it was the first proper meal) ส่วน is ไม่ backshift, were ใช้กับ it ไม่ได้ และ been ต้องมี have/be นำ"
+   },
+   {
+    "type": "vocab",
+    "key": "recommend",
+    "d": [
+     "command",
+     "demand",
+     "remark"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ recommend something to somebody (แนะนำคอร์สให้เพื่อน) ส่วน command (สั่งการ), demand (เรียกร้อง) และ remark (remark on = ให้ความเห็น) เป็นคำหน้าตาคล้ายแต่ความหมายและโครงสร้างไม่เข้า"
+   },
+   {
+    "type": "verb",
+    "key": "was taught",
+    "d": [
+     "was teaching",
+     "taught",
+     "has taught"
+    ],
+    "exp": "ช่อง (6) เป็น passive ในอดีต: The class was taught by a local chef (คลาสถูกสอนโดยเชฟ) ส่วน was teaching, taught และ has taught เป็น active ซึ่งจะทำให้ by a local chef ผิดบทบาท"
+   },
+   {
+    "type": "tense",
+    "key": "come",
+    "d": [
+     "came",
+     "comes",
+     "coming"
+    ],
+    "exp": "ช่อง (7) เล่ากิจวัตรปัจจุบัน (every Saturday morning) ประธาน ingredients เป็นพหูพจน์ จึงใช้ come ส่วน came เป็นอดีต, comes เป็นเอกพจน์ และ coming ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "vocab",
+    "key": "expects",
+    "d": [
+     "inspects",
+     "infects",
+     "erects"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ expects that (คาดว่า) ตรงกับความเชื่อว่าที่ทั้งสิบสองจะหมดภายในวันเดียว ส่วน inspects (ตรวจสอบ), infects (แพร่เชื้อ), erects (ก่อสร้าง) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้า"
+   }
+  ]
+ }
+]

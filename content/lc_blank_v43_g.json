@@ -1,0 +1,267 @@
+[
+ {
+  "first": "S16-Q021",
+  "topic": "School timetable pilot",
+  "context": "Eve: Students say the short break between science and art isn’t enough to reach the other building, and many arrive late.\nNoah: (1) ____\nEve: That’s exactly what the principal wants. She asked us to map the walking time before suggesting any change.\nNoah: (2) ____\nEve: Good, because the corridor is crowded right after the lunch break too.\nNoah: (3) ____\nEve: Yes, the ramp matters. Some students can’t use the stairs at all.\nNoah: (4) ____\nEve: One grade first sounds sensible, and we can check whether the next lesson starts on time.\nNoah: (5) ____\nEve: Agreed. Let’s finish the timing this week and send the proposal to the principal.",
+  "tip": "แผนของโรงเรียนนี้เปลี่ยนทีละขั้น: จับเวลาเดิน → วัดหลายช่วงเวลา → รวมบันไดและทางลาด → เสนอเลื่อนห้านาที → ทดลองหนึ่งระดับชั้น ตัวเลือกที่เสนอเปลี่ยนทั้งโรงเรียนทันทีมักข้ามขั้นตอน",
+  "items": [
+   {
+    "key": "Then let’s time the walk between the two buildings ourselves.",
+    "d": [
+     "The students should simply walk much faster between lessons.",
+     "The whole art class could just move into the science building.",
+     "The late arrivals are really the art teacher’s own problem."
+    ],
+    "exp": "Eve ตอบว่า “That’s exactly what the principal wants. She asked us to map the walking time before suggesting any change.” ข้อเสนอในช่อง (1) จึงต้องเป็นการจับเวลาเดินระหว่างสองตึก ตัวเลือกให้นักเรียนเดินเร็วขึ้นหรือโยนปัญหาให้ครูไม่ตรงกับสิ่งที่อาจารย์ใหญ่ขอคือการวัดเวลา"
+   },
+   {
+    "key": "We can time the route at different points in the day.",
+    "d": [
+     "One timing during the quiet morning should be enough for the study.",
+     "The corridor map is already posted near the staff room.",
+     "The lunch break is the only crowded time in the whole day anyway."
+    ],
+    "exp": "Eve ตอบว่า “Good, because the corridor is crowded right after the lunch break too.” คำว่า too แสดงว่าช่อง (2) ต้องเสนอการวัดหลายช่วงเวลาของวัน ไม่ใช่ช่วงเดียว ตัวเลือกบอกว่าวัดตอนเช้าเงียบ ๆ ครั้งเดียวพอ หรือบอกว่าเที่ยงเท่านั้นที่คนแน่น ขัดกับที่ Eve เพิ่งยกตัวอย่างความแออัดหลังพักเที่ยง"
+   },
+   {
+    "key": "I’ll include the stairs and the accessible ramp in every timing.",
+    "d": [
+     "The ramp is for moving equipment between floors, not for timing.",
+     "The stairs are faster, so we should time just those routes.",
+     "The crowded corridors would make any timing useless anyway."
+    ],
+    "exp": "Eve ตอบว่า “Yes, the ramp matters. Some students can’t use the stairs at all.” ช่อง (3) จึงต้องรวมทางลาดสำหรับผู้ใช้รถเข็นในการจับเวลาทุกเส้นทาง ตัวเลือกให้จับเวลาเฉพาะบันไดขัดกับที่ Eve เน้นว่านักเรียนบางคนใช้บันไดไม่ได้เลย"
+   },
+   {
+    "key": "With those times we can propose moving art by five minutes, starting with one grade.",
+    "d": [
+     "We should extend the breaks by five minutes school-wide.",
+     "The timetable cannot change before the start of next year.",
+     "The art lessons could simply start ten minutes earlier from now on."
+    ],
+    "exp": "Eve ตอบว่า “One grade first sounds sensible, and we can check whether the next lesson starts on time.” ข้อเสนอในช่อง (4) จึงต้องเป็นการเลื่อนวิชาศิลปะห้านาทีและเริ่มทดลองหนึ่งระดับชั้น ตัวเลือกขยายพักทุกคาบทั้งโรงเรียนหรือเลื่อนสิบนาทีผิดทั้งขนาดและตัวเลข"
+   },
+   {
+    "key": "Then the pilot will show whether five minutes is really enough.",
+    "d": [
+     "Five extra minutes never change anything in large schools.",
+     "The principal always decides these things without any data.",
+     "The lateness at the next lesson is really the other teachers’ fault."
+    ],
+    "exp": "Eve บอกว่าจะตรวจว่าคาบถัดไปเริ่มตรงเวลาไหม แล้วปิดว่า “Let’s finish the timing this week and send the proposal to the principal.” ช่อง (5) จึงต้องสรุปว่าการทดลองระดับชั้นเดียวจะบอกได้ว่าห้านาทีพอจริงหรือไม่ ตัวเลือกที่บอกว่าอาจารย์ใหญ่ตัดสินโดยไม่มีข้อมูลขัดกับที่เธอขอแผนที่เวลาก่อนเสนอ"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q026",
+  "topic": "A neighborhood repair café",
+  "context": "Dan: The repair café gets more broken lamps and toasters every month, but we have only one volunteer who can check electrical items.\nMew: (1) ____\nDan: That would help, though we must confirm what tools he needs and whether the insurance covers his work.\nMew: (2) ____\nDan: Good. A written list keeps the first session safe and simple.\nMew: (3) ____\nDan: Yes, lamps are the safest start. What about the other items people keep bringing?\nMew: (4) ____\nDan: Right. That also shows us how many more volunteers we need.\nMew: (5) ____\nDan: Agreed. Let’s keep the first event manageable while we learn.",
+  "tip": "บทสนทนานี้คุมขอบเขตงานให้เล็กลงเรื่อย ๆ: ช่างอาสา → ตรวจเครื่องมือ/ประกัน → ลิสต์งานปลอดภัย → เริ่มที่โคมไฟ → ถามความต้องการผู้มาเยือน ตัวเลือกที่ขยายงานให้ใหญ่ขึ้นทันทีจึงผิดทิศทาง",
+  "items": [
+   {
+    "key": "A retired technician offered to help twice a month.",
+    "d": [
+     "Electrical items should be banned from the repair café entirely.",
+     "Our volunteer already checks the toasters in a single afternoon.",
+     "The community centre will buy us new tools very soon."
+    ],
+    "exp": "Dan ตอบว่า “That would help, though we must confirm what tools he needs and whether the insurance covers his work.” ข่าวในช่อง (1) จึงต้องมี ‘คน’ ที่อาสาช่วยและต้องใช้เครื่องมือกับมีประกันครอบคลุม คือช่างเกษียณที่มาช่วยเดือนละสองครั้ง ตัวเลือกห้ามรับเครื่องไฟฟ้าเป็นการตัดปัญหาแทนการเพิ่มคนช่วย"
+   },
+   {
+    "key": "I can contact the community centre and make a list of safe tasks for the first session.",
+    "d": [
+     "Insurance never covers any volunteer work anywhere at all.",
+     "The technician can simply decide his own tasks at each visit.",
+     "Good tools are expensive, so let’s skip that question entirely."
+    ],
+    "exp": "Dan กังวลเรื่องเครื่องมือและประกัน แล้วสรุปว่า “Good. A written list keeps the first session safe and simple.” แผนในช่อง (2) จึงต้องลงเอยด้วยลิสต์งานที่เป็นลายลักษณ์อักษร คือติดต่อศูนย์ชุมชนและทำรายการงานที่ปลอดภัย ตัวเลือกให้ช่างตัดสินใจเองแต่ละครั้งขัดกับแนวคิดลิสต์ที่ตกลงกัน"
+   },
+   {
+    "key": "The first list can cover lamps only, since they are the most common item.",
+    "d": [
+     "Toasters are actually much safer to repair than the lamps.",
+     "The list should include the big appliances on day one.",
+     "Visitors rarely bring lamps or any other small appliances to the repair café."
+    ],
+    "exp": "Dan ตอบว่า “Yes, lamps are the safest start.” ช่อง (3) จึงต้องเสนอให้เริ่มงานแรกด้วยโคมไฟเพราะพบบ่อยที่สุด ตัวเลือกใส่เครื่องใช้ไฟฟ้าทุกชนิดตั้งแต่วันแรกขัดกับหลัก ‘ปลอดภัยและเรียบง่าย’ และตัวเลือกบอกว่าคนไม่ค่อยนำโคมไฟมาขัดกับบรรทัดแรกของ Dan"
+   },
+   {
+    "key": "Then we can ask visitors which items they want help with next.",
+    "d": [
+     "The other items can safely wait until next year.",
+     "We should stop accepting anything except lamps from now on, permanently.",
+     "Most visitors actually want their phones repaired instead."
+    ],
+    "exp": "Dan ถามว่า “What about the other items people keep bringing?” แล้วตอบรับว่า “Right. That also shows us how many more volunteers we need.” ช่อง (4) จึงต้องเป็นวิธีรับรู้ความต้องการเรื่องอื่น ๆ จากการถามผู้มาเยือน ซึ่งบอกได้ด้วยว่าต้องเพิ่มอาสาสมัครกี่คน ตัวเลือกคาดเดาเองว่าคนอยากซ่อมมือถือไม่ใช่การถามผู้มาเยือน"
+   },
+   {
+    "key": "The answers will tell us which training the new volunteers need.",
+    "d": [
+     "One technician is enough for the future sessions.",
+     "Counting the needed volunteers only slows the repairs down.",
+     "The very first event should accept the items people bring at once."
+    ],
+    "exp": "Dan บอกว่าการถามผู้มาเยือน “also shows us how many more volunteers we need” แล้วปิดว่า “Let’s keep the first event manageable while we learn.” ช่อง (5) จึงต้องต่อยอดว่าคำตอบจะบอกด้วยว่าอาสาสมัครใหม่ต้องฝึกอะไร ตัวเลือกบอกว่าช่างคนเดียวพอทุกเซสชันขัดกับที่ต้องการอาสาสมัครเพิ่ม"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q021",
+  "topic": "A local history audio walk",
+  "context": "Ben: The history group wants an audio walk around the old railway quarter, but some stops have no clear sign.\nAom: (1) ____\nBen: A paper map sounds fine for the test. Which stops should we record first?\nAom: (2) ____\nBen: Good choice; those three stops are close together. Who will record the directions?\nAom: (3) ____\nBen: That matters, because the old street names are hard to pronounce.\nAom: (4) ____\nBen: Perfect. And after the walk, how will we know where people got lost?\nAom: (5) ____\nBen: Agreed. Then we can decide whether the walk needs more signs or simpler instructions.",
+  "tip": "คำถามของ Ben ท้ายแต่ละช่วงชี้คำตอบของช่องก่อนหน้าเสมอ เช่น “Which stops should we record first?” หมายถึงช่อง (2) ต้องระบุจุดหยุด และ “Who will record the directions?” หมายถึงช่อง (3) ต้องมีคนรับหน้าที่",
+  "items": [
+   {
+    "key": "Then let’s test three stops first and ask walkers to follow a paper map.",
+    "d": [
+     "The history group should record the twelve stops before the end of this month.",
+     "Clear signs already exist at every stop in the railway quarter.",
+     "Audio walks are always more popular than printed guides."
+    ],
+    "exp": "Ben ตอบว่า “A paper map sounds fine for the test.” แผนในช่อง (1) จึงต้องมีการทดลองด้วยแผนที่กระดาษ ซึ่งคือการทดสอบสามจุดหยุดแรก ตัวเลือกอัดเสียงทั้งสิบสองจุดในเดือนนี้ไม่ใช่การทดสอบเล็ก ๆ และตัวเลือกบอกว่ามีป้ายชัดทุกจุดขัดกับบรรทัดแรกของ Ben"
+   },
+   {
+    "key": "The station gate, the old warehouse, and the railway bridge.",
+    "d": [
+     "The stops along the river sound far more interesting to walkers.",
+     "The museum room has the best photographs of the old quarter inside.",
+     "We should simply let the walkers choose the stops themselves."
+    ],
+    "exp": "Ben ถามว่า “Which stops should we record first?” แล้วตอบว่า “Good choice; those three stops are close together.” ช่อง (2) จึงต้องระบุจุดหยุดสามแห่งในย่านรถไฟเก่า คือประตูสถานี โกดังเก่า และสะพานรถไฟ ตัวเลือกให้ผู้เดินเลือกจุดเองไม่ได้ตอบว่าจะอัดเสียงจุดไหนก่อน"
+   },
+   {
+    "key": "I can record them, but local residents should check the pronunciation of the names.",
+    "d": [
+     "A professional studio costs far too much for our small group.",
+     "The recordings can safely wait until after the test walk.",
+     "Pronunciation doesn’t really matter in an audio guide."
+    ],
+    "exp": "Ben ถามว่า “Who will record the directions?” แล้วเสริมว่า “That matters, because the old street names are hard to pronounce.” คำตอบในช่อง (3) จึงต้องรับหน้าที่อัดเสียงเองและให้ชาวบ้านช่วยตรวจการออกเสียงชื่อท้องถิ่น ตัวเลือกบอกว่ารออัดหลังเดินทดสอบขัดกับลำดับที่ต้องมีเสียงให้กลุ่มทดสอบใช้"
+   },
+   {
+    "key": "We’ll invite a small group next Saturday and watch where they pause.",
+    "d": [
+     "Saturday is the busiest day in the old railway quarter.",
+     "The local residents already recorded every old street name once last year.",
+     "A small group would make the whole test unreliable."
+    ],
+    "exp": "Ben ตอบว่า “Perfect. And after the walk, how will we know where people got lost?” แสดงว่าช่อง (4) ต้องมี ‘การเดินทดสอบ’ เกิดขึ้นก่อน คือชวนกลุ่มเล็กมาเดินเสาร์หน้าและสังเกตจุดที่พวกเขาหยุด ตัวเลือกบอกว่ากลุ่มเล็กทำให้ผลเชื่อถือไม่ได้ขัดกับแผนทดสอบที่ Ben เพิ่งชมว่า Perfect"
+   },
+   {
+    "key": "We can note every place where walkers stop and check the map.",
+    "d": [
+     "Lost walkers will simply call the history group for help instead.",
+     "Getting lost is just part of an interesting audio walk.",
+     "The paper map already shows the likely wrong turns."
+    ],
+    "exp": "Ben ถามว่า “how will we know where people got lost?” แล้วสรุปว่า “Then we can decide whether the walk needs more signs or simpler instructions.” ช่อง (5) จึงต้องเป็นวิธีเก็บข้อมูลจุดที่คนหลง คือจดทุกจุดที่ผู้เดินหยุดดูแผนที่ ตัวเลือกบอกว่าแผนที่แสดงทางผิดครบแล้วทำให้ไม่ต้องเก็บข้อมูล ซึ่งขัดกับคำถามของ Ben"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q026",
+  "topic": "A school food-waste survey",
+  "context": "June: The cafeteria throws away more rice on some days than others, and the kitchen staff want to understand why.\nLiam: (1) ____\nJune: Agreed, and the survey should be short and anonymous so students answer honestly.\nLiam: (2) ____\nJune: Five days is enough to see a pattern. We should record the menu next to each weight.\nLiam: (3) ____\nJune: Yes, the menu will show whether certain dishes cause more waste.\nLiam: (4) ____\nJune: That’s fair to the students who are happy with the regular size.\nLiam: (5) ____\nJune: Agreed. We’ll compare the waste and the survey results before recommending a permanent change.",
+  "tip": "แผนนี้เก็บข้อมูลสองทางพร้อมกัน: ชั่งเศษอาหารควบคู่บันทึกเมนู และสำรวจความเห็นนักเรียน แล้วจึงทดลองตัวเลือกจานเล็กลงโดยยังมีจานปกติให้เลือก ตัวเลือกที่ตัดทางใดทางหนึ่งทิ้งมักผิด",
+  "items": [
+   {
+    "key": "The staff think the serving size may be too large, but we should ask the students too.",
+    "d": [
+     "Rice is simply the cheapest food on the cafeteria menu.",
+     "Students waste plenty of food in every school cafeteria.",
+     "The kitchen should cook much less rice from now on."
+    ],
+    "exp": "June ตอบว่า “Agreed, and the survey should be short and anonymous so students answer honestly.” ช่อง (1) จึงต้องเสนอทั้งสมมติฐานว่าจานที่เสิร์ฟอาจใหญ่เกินไปและการถามนักเรียนด้วย ตัวเลือกให้ครัวหุงข้าวน้อยลงทุกวันเป็นการลงมือก่อนมีข้อมูล ซึ่ง June ไม่ได้รับรองในลักษณะนั้น"
+   },
+   {
+    "key": "We can weigh the leftovers for five school days.",
+    "d": [
+     "The short survey alone will answer everything we need.",
+     "The kitchen staff can estimate the waste by eye.",
+     "The leftovers go to the farm animals in the evenings."
+    ],
+    "exp": "June ตอบว่า “Five days is enough to see a pattern. We should record the menu next to each weight.” แผนในช่อง (2) จึงต้องเป็นการชั่งเศษอาหารห้าวันเรียน ตัวเลือกให้กะปริมาณด้วยตาไม่มี ‘น้ำหนัก’ ให้บันทึกคู่เมนู และตัวเลือกใช้แบบสำรวจอย่างเดียวตัดการชั่งทิ้งซึ่งขัดกับแผนสองทาง"
+   },
+   {
+    "key": "Then we can match heavy-waste days with the dishes served that day.",
+    "d": [
+     "The cafeteria menu changes only once every two months, so matching is useless.",
+     "Recording the menus is the kitchen’s job, not ours.",
+     "Most students never even look at the menu board."
+    ],
+    "exp": "June บอกว่าให้บันทึกเมนูไว้ข้างน้ำหนักแต่ละครั้ง แล้วตอบว่า “Yes, the menu will show whether certain dishes cause more waste.” ช่อง (3) จึงต้องอธิบายวิธีใช้ข้อมูลเมนู คือจับคู่วันที่เศษอาหารเยอะกับจานที่เสิร์ฟวันนั้น ตัวเลือกบอกว่าเมนูเปลี่ยนสองเดือนครั้งขัดกับที่เศษข้าวเปลี่ยนรายวัน"
+   },
+   {
+    "key": "The cafeteria can then test a smaller serving option beside the regular one.",
+    "d": [
+     "The portions should simply be halved from next week.",
+     "Students who waste rice should pay a small fine.",
+     "The smaller serving option would cost the kitchen more."
+    ],
+    "exp": "June ตอบว่า “That’s fair to the students who are happy with the regular size.” ข้อเสนอในช่อง (4) จึงต้องมีทั้งตัวเลือกจานเล็กและคงจานปกติไว้ให้นักเรียนเลือก ตัวเลือกลดทุกจานลงครึ่งหนึ่งตั้งแต่สัปดาห์หน้าตัดสิทธิคนพอใจจานปกติ ซึ่ง June จะไม่ชมว่า fair"
+   },
+   {
+    "key": "Both options together let the results, not opinions, decide.",
+    "d": [
+     "The trial option will confuse the younger students.",
+     "The students’ opinions matter far more than the weights here.",
+     "Any permanent change needs the parents’ approval first."
+    ],
+    "exp": "June ปิดว่า “We’ll compare the waste and the survey results before recommending a permanent change.” ช่อง (5) จึงต้องย้ำว่าการตัดสินใจมาจากข้อมูลทั้งสองทาง ตัวเลือกบอกว่าความเห็นสำคัญกว่าน้ำหนักขัดกับแผนเปรียบเทียบข้อมูลก่อนเสนอเปลี่ยนถาวร"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q021",
+  "topic": "A park garden watering plan",
+  "context": "Nia: The new trees near the playground look dry after sunny weekends, and two of them have brown leaves already.\nOat: (1) ____\nNia: Volunteers could cover the rest, but we need a simple schedule so nobody waters the same tree twice.\nOat: (2) ____\nNia: Good. Then we can invite volunteers for the other evenings and mark each tree after watering.\nOat: (3) ____\nNia: Yes, a marked tree tells the next volunteer it’s already done.\nOat: (4) ____\nNia: One month is a fair test for young trees.\nOat: (5) ____\nNia: Agreed. Let’s post the schedule at the park gate this weekend.",
+  "tip": "สังเกตการแบ่งงาน: ทีมสวนดูแลต้นไม้ครึ่งหนึ่ง อาสาสมัครดูแลที่เหลือ ตารางและรอยทำเครื่องหมายกันรดน้ำซ้ำ และการประเมินใช้เวลาหนึ่งเดือน ตัวเลือกที่บอกว่าทีมสวนทำอยู่แล้วทั้งหมดจึงขัดกับข้อมูลในเรื่อง",
+  "items": [
+   {
+    "key": "The parks team says their hose reaches only half of the trees.",
+    "d": [
+     "The playground needs new grass far more than these new trees do.",
+     "Brown leaves are completely normal for every young tree.",
+     "The rain next month will solve the whole problem."
+    ],
+    "exp": "Nia พูดต่อว่า “Volunteers could cover the rest, but we need a simple schedule” ข่าวในช่อง (1) จึงต้องบอกว่ามีต้นไม้บางส่วนที่ทีมสวนดูแลไม่ถึง คือสายยางไปถึงแค่ครึ่งเดียว คำว่า the rest ของ Nia ชี้ว่าครึ่งที่เหลือต้องใช้อาสาสมัคร ตัวเลือกรอฝนเดือนหน้าขัดกับที่ต้นไม้อาการแย่แล้วตอนนี้"
+   },
+   {
+    "key": "I’ll check which days the parks team already visits.",
+    "d": [
+     "A written schedule only slows down simple watering work.",
+     "The parks team already waters the trees daily.",
+     "The volunteers prefer weekend mornings to weekday evenings."
+    ],
+    "exp": "Nia บอกว่าต้องทำตารางง่าย ๆ กันรดน้ำซ้ำ แล้วตอบว่า “Good. Then we can invite volunteers for the other evenings” คำว่า the other evenings หมายถึงเย็นที่ทีมสวนไม่ได้มา ช่อง (2) จึงต้องเป็นการเช็คว่าทีมสวนมาวันไหนบ้าง ตัวเลือกบอกว่าทีมสวนรดทุกวันอยู่แล้วขัดกับข้อมูลสายยางไปถึงแค่ครึ่งเดียว"
+   },
+   {
+    "key": "Marking stops the double watering you were worried about.",
+    "d": [
+     "Paint marks on the trees are ugly in a public park.",
+     "Each volunteer should simply remember their own tree.",
+     "The parks team already marks the trees that they water."
+    ],
+    "exp": "Nia ตอบว่า “Yes, a marked tree tells the next volunteer it’s already done.” ช่อง (3) จึงต้องโยงว่าการทำเครื่องหมายหลังรดน้ำแก้ปัญหารดซ้ำที่ Nia กังวล ตัวเลือกให้อาสาสมัครจำต้นไม้ของตัวเองคือสิ่งที่การทำเครื่องหมายจะมาแทน และตัวเลือกบอกว่าทีมสวนทำเครื่องหมายทุกต้นอยู่แล้วทำให้แผนของ Nia ซ้ำซ้อน"
+   },
+   {
+    "key": "After a month we can check whether the soil stays moist around them.",
+    "d": [
+     "Young trees need a full year of daily water.",
+     "The soil is always moist near the playground.",
+     "Checking the soil is the parks team’s job alone."
+    ],
+    "exp": "Nia ตอบว่า “One month is a fair test for young trees.” ข้อเสนอในช่อง (4) จึงต้องเป็นการประเมินผลหลังหนึ่งเดือน คือตรวจว่าดินยังชุ่มชื้นรอบต้นหรือไม่ ตัวเลือกบอกว่าดินชุ่มเสมอใกล้สนามเด็กเล่นขัดกับปัญหาต้นไม้แห้งที่ Nia เล่าตอนต้น"
+   },
+   {
+    "key": "Then the schedule and the marks will keep the plan running smoothly.",
+    "d": [
+     "Posting schedules never attracts real volunteers to any park in town.",
+     "The park gate is closed on weekends anyway.",
+     "The brown leaves will fall off by themselves soon."
+    ],
+    "exp": "Nia ปิดว่า “Agreed. Let’s post the schedule at the park gate this weekend.” ช่อง (5) จึงต้องสนับสนุนว่าตารางเวลาบวกรอยทำเครื่องหมายจะทำให้แผนราบรื่น ตัวเลือกบอกว่าติดตารางก็ไม่ได้อาสาสมัครจริงหรือประตูสวนปิดสุดสัปดาห์ขัดกับแผนปิดท้ายของ Nia โดยตรง"
+   }
+  ]
+ }
+]

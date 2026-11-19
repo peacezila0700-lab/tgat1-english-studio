@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S17-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did families receive before the supervised trial ride?",
+    "key": "Route maps and bright safety strips.",
+    "d": [
+     "Helmets and bicycle lights.",
+     "Maps of the busy junctions.",
+     "A printed list of local repair shops."
+    ],
+    "exp": "บทความระบุว่า “They gave students route cards and reflective bands, then asked families to report any difficult sections.” ตัวเลือกหมวกกันน็อก/ไฟ/รายชื่อร้านซ่อม ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the group ask the local council to do?",
+    "key": "Repaint some of the road markings.",
+    "d": [
+     "Build a cycle lane near the junctions.",
+     "Send officers to supervise the ride.",
+     "Close the busiest streets at school times."
+    ],
+    "exp": "ข้อความระบุว่ากลุ่ม “shared those locations with the local council and asked for the markings to be repainted” เพราะฝนทำให้เครื่องหมายถนนบางจุดมองเห็นยาก ตัวเลือกสร้างเลน/ส่งเจ้าหน้าที่/ปิดถนน ไม่มีข้อมูล"
+   },
+   {
+    "type": "main",
+    "prompt": "Which summary best fits the passage as a whole?",
+    "key": "A trial that made cycling to school feel safer.",
+    "d": [
+     "Why rain damages road markings.",
+     "A council plan to map local streets.",
+     "How families choose bicycles for their children."
+    ],
+    "exp": "แกนเรื่องคือโรงเรียนและผู้ปกครองวางแผนเส้นทางจราจรน้อย ทดลองขี่พร้อมดูแล แล้วเก็บคำติชมเพื่อปรับปรุงความปลอดภัย ตัวเลือกฝนทำลายเครื่องหมายถนน/วิธีเลือกจักรยาน เป็นเพียงรายละเอียด"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “supervised” is closest in meaning to",
+    "key": "watched over by adults.",
+    "d": [
+     "organized by the local council.",
+     "held on roads with no traffic.",
+     "paid for by the parents."
+    ],
+    "exp": "“School staff and parents mapped streets with less traffic and arranged a supervised trial ride” = การปั่นทดลองที่มีผู้ใหญ่คอยดูแล ถนนมีรถน้อยลง ไม่ใช่ไม่มีรถเลย และสภาท้องถิ่นเข้ามาภายหลังเรื่องทาสีถนน ไม่ได้จัดการปั่น"
+   },
+   {
+    "type": "true",
+    "prompt": "Which option matches what the passage says?",
+    "key": "More pupils rode bikes after the test.",
+    "d": [
+     "The supervised trial ride was held in rainy weather.",
+     "Road markings were easy to see in rain.",
+     "The route will not be reviewed again."
+    ],
+    "exp": "บทความระบุว่า “More students tried cycling after the trial” ส่วนฝนทำให้ “some road markings hard to see” (ไม่ใช่มองง่าย) และกลุ่ม “plans to review the route again at the start of the next school year”"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the team add to make sorting easier?",
+    "key": "Image signs on the covered bins.",
+    "d": [
+     "A written list beside the dining area.",
+     "Colored bags for each type of scrap.",
+     "A second bin for plastic wrappers."
+    ],
+    "exp": "บทความระบุว่า “The team placed lidded bins near the dining area and added picture labels to make sorting easier.” ตัวเลือกป้ายตัวหนังสือ/ถุงสี/ถังที่สองสำหรับพลาสติก ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What problem remained after the first term?",
+    "key": "Wrong materials got mixed in.",
+    "d": [
+     "The garden did not need the compost.",
+     "Students refused to separate the scraps.",
+     "The bins were placed too far away."
+    ],
+    "exp": "ข้อความระบุว่า “plastic wrappers and other unsuitable items sometimes contaminated the bins” นักเรียนจึงวางแผนตรวจถังทุกต้นเทอมและเปลี่ยนป้ายที่ไม่ชัด ตัวเลือกนักเรียนปฏิเสธการแยก/ถังไกลเกิน ไม่มีข้อมูล"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about providing bins alone?",
+    "key": "Bins are not enough without clear guidance.",
+    "d": [
+     "Bins are the most expensive part of recycling.",
+     "Bins work better without any labels.",
+     "Bins should be checked once a year."
+    ],
+    "exp": "ข้อสรุปคือ “a practical recycling system depends on clear instructions and regular checks, not simply on providing containers” = มีถังอย่างเดียวไม่พอ ตัวเลือกป้ายไม่จำเป็นจึงตรงข้าม และการตรวจเป็นรายเทอมไม่ใช่รายปี"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “contaminated” is closest in meaning to",
+    "key": "made unclean or unsuitable.",
+    "d": [
+     "filled up much faster than expected.",
+     "removed from the dining area.",
+     "damaged so badly they broke."
+    ],
+    "exp": "“plastic wrappers and other unsuitable items sometimes contaminated the bins” = ทำให้ถังปุ๋ยหมักปนเปื้อนสิ่งที่ไม่ควรอยู่ ตัวเลือกเต็มเร็ว/ถูกย้าย/แตกเสียหาย ไม่ใช่ความหมายของ contaminated"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why do students plan to check the bins each new term?",
+    "key": "To keep contamination under control.",
+    "d": [
+     "To count how much compost was made.",
+     "To move the bins closer to the garden.",
+     "To decide which scraps are compostable."
+    ],
+    "exp": "การตรวจถัง “during the first month of each new term” พร้อม “replace unclear labels” มุ่งแก้ของที่ทิ้งผิดถังซึ่งเป็นปัญหาที่เหลืออยู่ ตัวเลือกนับปุ๋ย/ย้ายถัง ไม่ใช่จุดประสงค์ที่ระบุ และการตัดสินว่าอะไรย่อยสลายได้อธิบายไปแล้วตั้งแต่ต้น"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What two measures did the library assistants introduce?",
+    "key": "A public schedule and maximum use periods.",
+    "d": [
+     "A shared screen and a door lock.",
+     "Reminder signs and a waiting list.",
+     "A booking app and much shorter opening hours."
+    ],
+    "exp": "บทความระบุว่า “Library assistants introduced a visible booking calendar and time limits” แล้วจึงแสดงตารางบนจอร่วมและติดป้ายเตือนที่ประตู ตัวเลือกแอปจอง/ล็อกประตู/รายชื่อรอ ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What will staff do five minutes before a booking ends?",
+    "key": "Warn users time is ending.",
+    "d": [
+     "Ask the group to leave the room.",
+     "Check the room’s booking record.",
+     "Display the next group’s name."
+    ],
+    "exp": "ข้อความระบุว่า “Staff now plan to send a reminder five minutes before each booking finishes” เพื่อแก้ปัญหากลุ่มที่นั่งเกินเวลา ตัวเลือกขอให้ลุกจากห้อง/แสดงชื่อกลุ่มถัดไป ไม่มีข้อมูล"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “After a month, rooms were being used more fairly, although some groups continued working after their reserved time had ended.”?",
+    "key": "Sharing improved, but some groups stayed too long.",
+    "d": [
+     "Every group respected the new time limits.",
+     "Rooms were used less often after a month.",
+     "Fairness improved mainly for large groups."
+    ],
+    "exp": "ใจความคือการใช้ห้องเป็นธรรมขึ้น แต่ยังมีบางกลุ่มอยู่เกินเวลาที่จอง ตัวเลือกแรกตรงข้ามกับ although ตัวเลือกสองไม่มีข้อมูลว่าใช้น้อยลง และบทความไม่ได้จำกัดผลไว้ที่กลุ่มใหญ่"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “occupied” is closest in meaning to",
+    "key": "being used by others.",
+    "d": [
+     "locked for cleaning.",
+     "booked online in advance.",
+     "too noisy to study in."
+    ],
+    "exp": "นักเรียนมาถึง “only to find that all spaces were occupied” = ห้องมีคนใช้อยู่ทั้งหมด บทความไม่ได้พูดถึงการปิดทำความสะอาดหรือเสียงดัง และระบบจองเป็นสิ่งที่เพิ่มเข้ามาภายหลัง"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement is TRUE according to the passage?",
+    "key": "Students often found all the rooms occupied.",
+    "d": [
+     "The schedule was shown only on the doors.",
+     "Reminders were sent after each booking.",
+     "The booking system was reviewed before it started."
+    ],
+    "exp": "ประโยคแรกระบุว่านักเรียนไปถึงห้องสมุดแล้ว “only to find that all spaces were occupied” ส่วนตารางแสดง “on a shared screen” และป้ายเตือนติดที่ประตู การเตือนจะส่งก่อนหมดเวลา และการทบทวนจะทำปลายเทอม"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How did council staff make the survey easier to reach?",
+    "key": "They offered it online and on paper.",
+    "d": [
+     "They shortened it to three questions.",
+     "They sent staff to visit each home.",
+     "They held the survey only at meetings."
+    ],
+    "exp": "บทความระบุว่า “Council staff responded by offering a short survey both online and on paper.” พร้อมแปลหลายภาษาและตั้งกล่องรับที่ศูนย์ชุมชน ตัวเลือกไปเยี่ยมบ้าน/ทำเฉพาะในที่ประชุม ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did participants do in the review session?",
+    "key": "Explained which wording caused confusion.",
+    "d": [
+     "Rewrote the survey questions themselves.",
+     "Translated the questions into other languages.",
+     "Chose which ideas the council should adopt."
+    ],
+    "exp": "ข้อความระบุว่า “Staff held a small review session and asked participants to explain which wording caused confusion.” ส่วนการแปลหลายภาษาเป็นงานของเจ้าหน้าที่ก่อนหน้านั้น และผู้เข้าร่วมไม่ได้เขียนคำถามใหม่เอง"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the plan to test revised questions suggest?",
+    "key": "Clear wording increases public participation.",
+    "d": [
+     "Residents prefer paper surveys to online ones.",
+     "The council will stop translating questions.",
+     "Confusing terms help people think more carefully."
+    ],
+    "exp": "การทดสอบคำถามที่แก้แล้วกับชาวชุมชนก่อนส่งรอบถัดไป สะท้อนความเชื่อว่าถ้อยคำที่เข้าใจง่ายจะทำให้คนแสดงความเห็นได้มากขึ้น (สอดคล้องกับเป้าหมาย “share their views without being confused by unfamiliar terms”)"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “input” is closest in meaning to",
+    "key": "ideas and opinions.",
+    "d": [
+     "money from taxes.",
+     "information on paper.",
+     "attendance at meetings."
+    ],
+    "exp": "ชาวบ้านบ่นว่าตัดสินใจ “without enough public input” สภาจึงทำแบบสำรวจและ “more residents submitted ideas” = ความคิดเห็นจากประชาชน ตัวเลือกบนกระดาษเป็นแค่ช่องทางส่ง ส่วนภาษี/การเข้าประชุมไม่ใช่ความหมายของ input"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why will the council test the revised questions with a few residents first?",
+    "key": "To avoid confusion in the next survey round.",
+    "d": [
+     "To reduce the cost of printing the surveys.",
+     "To decide which languages to include.",
+     "To choose participants for the review."
+    ],
+    "exp": "บทความระบุว่า “They plan to test revised questions with a few residents before sending the next survey” เพราะรอบแรกมีคำถามที่เข้าใจยาก การทดสอบก่อนจึงกันความสับสนในรอบถัดไป ตัวเลือกต้นทุน/เลือกภาษา ไม่ใช่เหตุผลที่ระบุ"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did participants do after learning to inspect tires and brakes?",
+    "key": "They practiced with repair kits and demo bikes.",
+    "d": [
+     "They explained the steps to the instructors.",
+     "They visited a list of trusted repair shops.",
+     "They watched a demonstration of complex repairs."
+    ],
+    "exp": "บทความระบุว่า “Participants first learned how to inspect tires and brakes, then practiced with simple repair kits and demonstration bikes.” ส่วนการอธิบายขั้นตอนด้วยคำพูดตัวเองทำตอนท้ายเซสชัน"
+   },
+   {
+    "type": "detail",
+    "prompt": "What does the group plan to publish?",
+    "key": "Names of reliable places to fix bikes.",
+    "d": [
+     "A guide to buying demonstration bikes.",
+     "A timetable for the next free lesson.",
+     "A checklist for professional mechanics."
+    ],
+    "exp": "ข้อความระบุว่า “It plans to publish a list of trusted repair shops and offer another lesson later in the year.” ตัวเลือกคู่มือซื้อจักรยาน/ตารางเรียน/เช็กลิสต์ช่าง ไม่มีในบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Most participants became more confident about handling minor problems, but the group emphasized that complex repairs should be taken to a professional.”?",
+    "key": "Learners could fix small issues, not major ones.",
+    "d": [
+     "Participants learned to repair major problems.",
+     "The group refused to teach minor repairs.",
+     "Most participants still lacked all their confidence."
+    ],
+    "exp": "ใจความคือผู้เรียนมั่นใจขึ้นกับปัญหาเล็กน้อย แต่กลุ่มย้ำว่างานซ่อมซับซ้อนควรให้ช่างมืออาชีพทำ ตัวเลือกแรกเกินจริง ตัวเลือกสองและสามตรงข้ามกับข้อความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the group view expert help for cyclists?",
+    "key": "As necessary for complicated repairs.",
+    "d": [
+     "As something that learners should avoid.",
+     "As useful only for loose brakes.",
+     "As too expensive for commuters."
+    ],
+    "exp": "กลุ่มเน้นว่า “complex repairs should be taken to a professional” และยังจะเผยแพร่รายชื่อร้านซ่อมที่ไว้ใจได้ = เห็นว่าช่างจำเป็นสำหรับงานยาก ไม่ใช่สิ่งที่ควรเลี่ยง และบทความไม่ได้พูดถึงราคา"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “inspect” is closest in meaning to",
+    "key": "look at carefully to check.",
+    "d": [
+     "replace with brand-new parts from a shop.",
+     "clean with water and a soft cloth.",
+     "ride carefully on busy roads."
+    ],
+    "exp": "ผู้เรียน “learned how to inspect tires and brakes” เพื่อหาปัญหาเล็ก ๆ อย่าง “a loose brake or a flat tire” = ตรวจดูอย่างละเอียด ไม่ใช่เปลี่ยนอะไหล่ใหม่ ทำความสะอาด หรือขี่อย่างระมัดระวัง"
+   }
+  ]
+ }
+]

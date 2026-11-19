@@ -1,0 +1,15 @@
+{
+ "kind": "rc",
+ "n": 300,
+ "heuristic_accuracy (chance=0.25)": {
+  "longest": 0.53,
+  "no-topic-name+longest": 0.813,
+  "no-extreme-word+longest": 0.503,
+  "max-context-overlap": 0.547,
+  "combined(no name,no extreme,overlap)": 0.687
+ },
+ "extreme_word_rate_answer": 0.06,
+ "extreme_word_rate_distractor": 0.324,
+ "topic_name_rate_answer": 0.08,
+ "topic_name_rate_distractor": 0.673
+}

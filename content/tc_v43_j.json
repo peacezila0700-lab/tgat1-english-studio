@@ -1,0 +1,342 @@
+[
+ {
+  "set": 19,
+  "passage": "A",
+  "genre": "what's-on listing",
+  "topic": "Park film-music concert",
+  "context": "What's on: The Riverside Orchestra returns to the park this Saturday with a free evening of film music. The concert will (1) ____ with the famous theme from “Island Quest”, arranged for the outdoor acoustics. The programme (2) ____ music from classic adventure films, plus a surprise item chosen by the audience. Gates open at five; early arrivals can (3) ____ a good spot on the grass with a blanket and a picnic. Weather rules are strict: (4) ____ heavy rain, the concert moves to the town hall on the same evening. Last year's park concert (5) ____ a record crowd of four thousand, and organisers expect even more this time, (6) ____ the film programme is the orchestra's most popular idea. Families are welcome; organisers promise (7) ____ the music will end by nine o'clock.",
+  "tip": "ตารางแสดงนี้มีคำคู่ draw a crowd, claim a spot และ In case of สำหรับประกาศกฎอากาศ รวมถึง promise + that-clause",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "open",
+    "d": [
+     "operate",
+     "oppose",
+     "occupy"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ open with ซึ่งเป็น collocation แปลว่า เปิดการแสดงด้วยเพลง... ส่วน operate (ดำเนินการ), oppose (ต่อต้าน), occupy (ครอบครอง) เป็นคำ op- หน้าคล้ายแต่ไม่ใช้กับการเปิดรายการแสดง"
+   },
+   {
+    "type": "vocab",
+    "key": "features",
+    "d": [
+     "feathers",
+     "fences",
+     "ferries"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ features (นำเสนอเป็นจุดเด่น) ตรงกับรายการเพลงจากหนังผจญภัย ส่วน feathers (ขนนก), fences (รั้ว), ferries (เรือข้ามฟาก) เป็นคำนามหน้าคล้ายแต่คนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "claim",
+    "d": [
+     "calm",
+     "climb",
+     "clean"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ claim a spot ซึ่งเป็น collocation แปลว่า จับจองพื้นที่ (ปูผ้าห่มจองที่บนสนามหญ้า) ส่วน calm (ทำให้สงบ), climb (ปีน), clean (ทำความสะอาด) ไม่ใช้กับการจองที่นั่งแบบตามสบาย"
+   },
+   {
+    "type": "conn",
+    "key": "In case of",
+    "d": [
+     "In spite of",
+     "Instead of",
+     "In favour of"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ In case of heavy rain (หากมีฝนตกหนัก) ซึ่งเป็นวลีมาตรฐานในประกาศแผนสำรอง ส่วน In spite of (ทั้ง ๆ ที่), Instead of (แทนที่), In favour of (สนับสนุน) ไม่เข้ากับความหมายเงื่อนไข"
+   },
+   {
+    "type": "tense",
+    "key": "drew",
+    "d": [
+     "draw",
+     "draws",
+     "drawing"
+    ],
+    "exp": "ช่อง (5) มีคำบอกเวลา Last year จึงต้องใช้ past simple drew ใน collocation draw a crowd (ดึงดูดฝูงชน) ส่วน draw เป็นรูปฐาน, draws เป็นปัจจุบัน และ drawing ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "conn",
+    "key": "because",
+    "d": [
+     "despite",
+     "unless",
+     "before"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ because + ประโยค บอกเหตุผลที่คาดว่าจะคนเยอะกว่าเดิม ส่วน despite ต้องตามด้วยคำนาม, unless (ถ้าไม่) และ before (ก่อน) ผิดความสัมพันธ์เหตุและผล"
+   },
+   {
+    "type": "clause",
+    "key": "that",
+    "d": [
+     "what",
+     "where",
+     "whose"
+    ],
+    "exp": "ช่อง (7) หลัง promise ต้องการ that-clause บอกสิ่งที่สัญญา (promise that the music will end by nine) ส่วน what, where, whose ต้องทำหน้าที่ประธาน/กรรม/สถานที่ใน clause ซึ่งประโยคมีครบแล้ว"
+   }
+  ]
+ },
+ {
+  "set": 19,
+  "passage": "B",
+  "genre": "local news",
+  "topic": "Historic bridge reopens",
+  "context": "After eighteen months of repairs, the old Pak Nam ferry bridge reopened to walkers on Monday. So careful (1) ____ the restoration that the original 1950s steelwork now carries modern loads. The bridge, (2) ____ links two markets across the canal, had been closed since an inspection found cracks. Engineers replaced every worn cable; not one of the original bolts (3) ____ in place today. Mayor Anan, who cut the ribbon, called the reopening “a small miracle for a small budget”. Local traders say foot traffic has already (4) ____ their sales; one noodle shop sold out by ten each morning last week. The council has promised (5) ____ evening lights along the bridge, a gift from the traders' association. Not a single lane of the canal (6) ____ closed during the works, which kept the ferry market alive. Residents (7) ____ the bridge will become the town's most photographed spot — dozens of photographers already (8) ____ it every evening.",
+  "tip": "ข่าวนี้มี inversion โครงสร้าง So + คำคุณศัพท์ + กริยา (So careful was...) และทดสอบ none/not one เป็นเอกพจน์, has already + V3 และ promise + to-infinitive",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "was",
+    "d": [
+     "is",
+     "were",
+     "did"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย So + คำคุณศัพท์ (So careful) ต้องสลับกริยามาหน้าประธาน: So careful was the restoration that... (เล่าอดีต ประธานเอกพจน์ → was) ส่วน is เป็นปัจจุบันขัดกับบริบทเล่าเหตุการณ์, were ใช้กับเอกพจน์ไม่ได้ และ did ต้องตามด้วยกริยารูปฐาน"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "wherever",
+     "what"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย the bridge และเป็นประธานของ links จึงใช้ which ส่วน it ทำให้เกิด comma splice และ wherever, what ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "remains",
+    "d": [
+     "remain",
+     "remaining",
+     "remained"
+    ],
+    "exp": "ช่อง (3) ประธาน not one of... นับเป็นเอกพจน์ และมี today บอกปัจจุบัน จึงใช้ remains ส่วน remain เป็นพหูพจน์, remaining ไม่ใช่กริยาแท้ และ remained เป็นอดีตขัดกับ today"
+   },
+   {
+    "type": "tense",
+    "key": "lifted",
+    "d": [
+     "lift",
+     "lifting",
+     "lifts"
+    ],
+    "exp": "ช่อง (4) หลัง has already ใน present perfect ต้องใช้ V3 lifted (lifted their sales = ยอดขายดีขึ้น) ส่วน lift เป็นรูปฐาน, lifting ต้องมี be นำ และ lifts เป็นปัจจุบันเอกพจน์"
+   },
+   {
+    "type": "verb",
+    "key": "to install",
+    "d": [
+     "install",
+     "installing",
+     "to be installed"
+    ],
+    "exp": "ช่อง (5) หลัง promised ต้องใช้ to-infinitive แบบ active (promised to install evening lights) เพราะสภาเป็นผู้ติดตั้ง ส่วน install, installing ใช้ตามหลัง promise โดยตรงไม่ได้ และ to be installed เป็น passive ซึ่งตามด้วยกรรม evening lights ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "were",
+     "is",
+     "been"
+    ],
+    "exp": "ช่อง (6) เป็น passive ในอดีตเล่าช่วงซ่อมแซม: Not a single lane... was closed ประธาน Not a single lane เป็นเอกพจน์และเหตุการณ์จบแล้ว ส่วน were ใช้กับเอกพจน์ไม่ได้, is เป็นปัจจุบัน และ been ต้องมี have/be นำ"
+   },
+   {
+    "type": "vocab",
+    "key": "predict",
+    "d": [
+     "proceed",
+     "provoke",
+     "prevent"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ predict (คาดการณ์) ตรงกับที่ชาวเมืองคาดว่าการคาดการณ์เรื่องจุดถ่ายรูป ส่วน proceed (ดำเนินการต่อ — ต้องมี with/to), provoke (ยั่วยุ), prevent (ป้องกัน) เป็นคำ pro-/pre- หน้าคล้ายแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "vocab",
+    "key": "frequent",
+    "d": [
+     "request",
+     "require",
+     "rescue"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ frequent ในฐานะกริยา แปลว่า มาที่นั่นบ่อย ๆ (ช่างภาพมาที่สะพานทุกเย็น) ส่วน request (ขอ), require (ต้องการ), rescue (ช่วยชีวิต) เป็นคำ re- หน้าคล้ายแต่ความหมายไม่เข้ากับสถานที่"
+   }
+  ]
+ },
+ {
+  "set": 20,
+  "passage": "A",
+  "genre": "visitor guide",
+  "topic": "Central Library visitor guide",
+  "context": "Welcome to the Central Library — visitor guide. The library is free for everyone; a membership card is needed only (1) ____ you want to borrow items. Members may borrow up to eight items for three weeks, with two free (2) ____ if nobody has reserved them. Study rooms can be (3) ____ at the desk for up to two hours a day. Please keep voices low: phones must (4) ____ to silent, and calls are allowed only in the lobby. Lost cards (5) ____ fifty baht to replace. Food and drink, (6) ____ bottled water, are not allowed past the turnstiles. The children's corner hosts a free story hour every Saturday at ten; no booking is (7) ____ for this activity.",
+  "tip": "คู่มือห้องสมุดนี้ทดสอบ if/unless ในเงื่อนไข ศัพท์ห้องสมุด (renewals, required) และ passive สองจุด: can be booked, must be set",
+  "items": [
+   {
+    "type": "conn",
+    "key": "if",
+    "d": [
+     "unless",
+     "although",
+     "despite"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ if (บัตรสมาชิกจำเป็นเฉพาะถ้าจะยืมหนังสือ) ส่วน unless (ถ้าไม่) ทำให้ความหมายกลับด้าน, although (แม้ว่า) ผิดตรรกะ และ despite ต้องตามด้วยคำนามไม่ใช่ประโยค"
+   },
+   {
+    "type": "vocab",
+    "key": "renewals",
+    "d": [
+     "removals",
+     "reviews",
+     "reversals"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ renewals (การต่ออายุยืม) ซึ่งเป็นศัพท์ห้องสมุดตรงกับ borrow... for three weeks ส่วน removals (การย้ายออก), reviews (บทวิจารณ์), reversals (การกลับทิศ) เป็นคำ re- หน้าคล้ายแต่ไม่ใช่วิธีต่อเวลายืม"
+   },
+   {
+    "type": "verb",
+    "key": "booked",
+    "d": [
+     "book",
+     "booking",
+     "books"
+    ],
+    "exp": "ช่อง (3) เป็น passive หลัง can be (ห้องอ่านหนังสือถูกจองได้ที่เคาน์เตอร์): can be booked ส่วน book เป็น active, booking ต้องใช้ be booking และเป็น active, books เติม s ใช้หลัง be ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "be set",
+    "d": [
+     "set",
+     "setting",
+     "sets"
+    ],
+    "exp": "ช่อง (4) หลัง must ใช้กริยารูปฐาน และเป็น passive เพราะโทรศัพท์ถูกตั้งเป็นเงียบ: must be set to silent ส่วน set เดี่ยว ๆ เป็น active ที่ผิดความหมาย (โทรศัพท์ตั้งตัวเอง), setting ต้องมี be setting และเป็น active, sets เติม s ใช้หลัง must ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "cost",
+    "d": [
+     "spend",
+     "pay",
+     "take"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ cost เพราะประธานเป็นสิ่งของ (Lost cards cost fifty baht = บัตรหาย ค่าทำใหม่ห้าสิบบาท) ส่วน spend และ pay ต้องมีคนเป็นประธาน และ take ใช้กับเวลาหรือโครงสร้าง it takes... ไม่ใช่ราคาของบัตร"
+   },
+   {
+    "type": "vocab",
+    "key": "including",
+    "d": [
+     "include",
+     "inclusive",
+     "includes"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ including ซึ่งเป็นบุพบท แปลว่า รวมไปถึง (เครื่องดื่มรวมขวดน้ำก็ห้ามนำเข้า) ส่วน include และ includes เป็นกริยาแท้ซึ่งจะทำให้ประโยคมีกริยาซ้อน และ inclusive เป็นคำคุณศัพท์ที่ต้องใช้หลัง verb to be"
+   },
+   {
+    "type": "vocab",
+    "key": "required",
+    "d": [
+     "requested",
+     "retained",
+     "relieved"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ required (จำเป็นต้องจอง) ตรงกับกิจกรรมฟรีที่เดินเข้าได้เลย ส่วน requested (ถูกร้องขอ), retained (ถูกเก็บไว้), relieved (ได้รับการบรรเทา) เป็นคำ re- หน้าคล้ายแต่ไม่เข้ากับความหมายกฎการเข้าร่วม"
+   }
+  ]
+ },
+ {
+  "set": 20,
+  "passage": "B",
+  "genre": "community magazine",
+  "topic": "Farewell to a volunteer",
+  "context": "The town's volunteer centre said goodbye to Khun Prasit last week after thirty-one years of service. “You started before most of us were born, (1) ____?” joked the centre's chair, handing him a framed photo of the 1994 team. Prasit began as a driver for the meal-delivery round, a job he (2) ____ for eleven years before becoming coordinator. Colleagues described him as the calmest person in any (3) ____: flooded streets, broken vans, missing turkeys. “He never raised his voice, not (4) ____,” said one long-time volunteer. Under Prasit, the centre (5) ____ from nine volunteers to more than two hundred. His advice to new coordinators is short: listen twice as much as you (6) ____. The mayor presented him with the town's first Civic (7) ____ Medal, a prize created specially for the occasion. “You'll visit us anyway, (8) ____?” asked the chair. “The kettle is always on.”",
+  "tip": "บทอำลามี question tag สองแบบ (past simple กับ will) และทดสอบ not once, grow from...to, listen/speak ในโครงสร้าง as much as",
+  "items": [
+   {
+    "type": "tag",
+    "key": "didn't you",
+    "d": [
+     "did you",
+     "don't you",
+     "weren't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ You started... ซึ่งเป็น past simple บอกเล่า tag จึงต้องเป็น didn't you ส่วน did you ใช้กับประโยคบอกเล่าไม่ได้ และ don't you, weren't you ไม่ตรงกับกริยา started"
+   },
+   {
+    "type": "tense",
+    "key": "did",
+    "d": [
+     "does",
+     "has done",
+     "doing"
+    ],
+    "exp": "ช่อง (2) เล่างานในอดีตที่จบก่อนเขาเลื่อนตำแหน่ง (a job he did for eleven years) จึงใช้ past simple did ส่วน does เป็นปัจจุบัน, has done เชื่อมถึงปัจจุบันซึ่งขัดกับ before becoming coordinator และ doing ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "vocab",
+    "key": "crisis",
+    "d": [
+     "critic",
+     "crystal",
+     "criterion"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ in any crisis (ในวิกฤตใด ๆ) ตรงกับตัวอย่างน้ำท่วม รถเสีย ส่วน critic (นักวิจารณ์), crystal (คริสตัล), criterion (เกณฑ์) เป็นคำ cr- หน้าคล้ายแต่ไม่เข้ากับสถานการณ์ฉุกเฉิน"
+   },
+   {
+    "type": "vocab",
+    "key": "once",
+    "d": [
+     "one",
+     "on",
+     "only"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ not once ซึ่งเป็นสำนวนเน้นว่า ไม่แม้แต่ครั้งเดียว ส่วน one เป็นตัวเลข, on เป็นบุพบท และ only (เท่านั้น) ไม่เข้าสำนวนปฏิเสธนี้"
+   },
+   {
+    "type": "tense",
+    "key": "grew",
+    "d": [
+     "grows",
+     "grown",
+     "growing"
+    ],
+    "exp": "ช่อง (5) เล่าการเติบโตใต้ยุคของ Prasit ในอดีต จึงใช้ past simple grew ในโครงสร้าง grow from... to... ส่วน grows เป็นปัจจุบัน, grown ต้องมี have นำ และ growing ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "verb",
+    "key": "speak",
+    "d": [
+     "spoke",
+     "speaking",
+     "to speak"
+    ],
+    "exp": "ช่อง (6) อยู่ในโครงสร้างเปรียบเทียบปัจจุบัน listen twice as much as you speak (ฟังให้มากเป็นสองเท่าที่พูด) จึงใช้กริยารูปฐาน speak ส่วน spoke เป็นอดีตขัดกับ advice ปัจจุบัน, speaking และ to speak ผิดโครงสร้างหลัง as you"
+   },
+   {
+    "type": "vocab",
+    "key": "Service",
+    "d": [
+     "Servant",
+     "Serial",
+     "Serious"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ Civic Service Medal (เหรียญบำเพ็ญประโยชน์พลเมือง) ตรงกับรางวัลที่สร้างเพื่อโอกาสพิเศษ ส่วน Servant (คนรับใช้), Serial (เป็นชุด), Serious (จริงจัง) สะกดคล้ายแต่ไม่ใช่ชื่อรางวัล"
+   },
+   {
+    "type": "tag",
+    "key": "won't you",
+    "d": [
+     "will you",
+     "don't you",
+     "didn't you"
+    ],
+    "exp": "ช่อง (8) เป็น question tag ของ You'll visit us anyway ซึ่งใช้ will ในประโยคบอกเล่า tag จึงต้องเป็น won't you ส่วน will you ใช้กับประโยคบอกเล่าไม่ได้ และ don't you, didn't you ไม่ตรงกับ will visit"
+   }
+  ]
+ }
+]

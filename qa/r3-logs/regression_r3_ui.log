@@ -1,0 +1,9 @@
+PASS match game (active override): 400 rounds have 5 unique words and 5 unique displayed meanings
+PASS match game: no semantically overlapping pair in 400 rounds (semantic guard)
+PASS vocab MCQ (translate/syn/ant): no distractor overlaps the key or is a listed synonym/antonym
+PASS phrase detail shows IPA with source label
+PASS previously unsourced headword “a lack of” now shows IPA and source
+PASS axe-core: no serious/critical violations (incl. contrast) in 8 deep states [light]
+PASS axe-core: no serious/critical violations (incl. contrast) in 8 deep states [dark]
+
+regression_r3_ui: 7/7 passed

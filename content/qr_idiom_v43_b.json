@@ -1,0 +1,452 @@
+[
+ {
+  "id": "S11-Q002",
+  "old_prompt": "Q: Could you tell me where the meeting room is?",
+  "prompt": "Q: If you help me with math, I’ll help you with English.",
+  "options": [
+   "The deal was on page ten.",
+   "Math is my worst subject.",
+   "It’s a deal.",
+   "English class starts at nine."
+  ],
+  "answer": 2,
+  "explanation": "“It’s a deal” = ตกลงตามนั้น ตอบรับข้อเสนอแลกเปลี่ยน ตัวเลือก The deal was on page ten ใช้คำ deal แต่ไม่มีความหมาย ส่วนอีกสองตัวเลือกไม่ได้ตอบรับหรือปฏิเสธข้อเสนอ",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S11-Q003",
+  "old_prompt": "Q: Would you mind closing the door?",
+  "prompt": "Q: The bill for dinner is twelve hundred baht.",
+  "options": [
+   "Let’s split the bill, then.",
+   "Let’s split the pizza into eight pieces.",
+   "Dinner was at the new restaurant.",
+   "I paid the electricity bill."
+  ],
+  "answer": 0,
+  "explanation": "“split the bill” = หารค่าอาหารกัน เป็นการตอบที่เข้ากับการได้รับบิล ตัวเลือกแบ่งพิซซ่าใช้คำ split ตามตัวอักษร และ electricity bill เป็นบิลคนละเรื่อง",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S11-Q005",
+  "old_prompt": "Q: Why don’t we reuse the old materials?",
+  "prompt": "Q: Do you want to buy the bike today?",
+  "options": [
+   "I slept on the bus this morning.",
+   "Let me sleep on it.",
+   "The bike shop closes at six.",
+   "My bike is red and black."
+  ],
+  "answer": 1,
+  "explanation": "“sleep on it” = ขอเวลาคิดก่อนตัดสินใจ ตัวเลือกหลับบนรถบัสใช้ความหมายตามตัวอักษร ส่วนเวลาปิดร้านและสีจักรยานไม่ได้ตอบว่าจะซื้อหรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S12-Q002",
+  "old_prompt": "Q: Could you tell me where the student center is?",
+  "prompt": "Q: Why does Tom look so worried?",
+  "options": [
+   "He’s in hot water for missing the deadline.",
+   "He’s in the hot water pool.",
+   "He looks like his father.",
+   "The deadline for the report was last Monday afternoon."
+  ],
+  "answer": 0,
+  "explanation": "“in hot water” = กำลังเดือดร้อน/มีปัญหา อธิบายว่าทำไม Tom ดูกังวล ตัวเลือกสระน้ำร้อนใช้ความหมายตามตัวอักษร ส่วนอีกสองตัวเลือกไม่ได้อธิบายสาเหตุ",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S12-Q003",
+  "old_prompt": "Q: Would you mind saving this document?",
+  "prompt": "Q: Did you know Mai was visiting this week?",
+  "options": [
+   "No, her car is dark blue.",
+   "She visited the museum.",
+   "This week is very busy at the office for everyone.",
+   "No, she called me out of the blue."
+  ],
+  "answer": 3,
+  "explanation": "“out of the blue” = อย่างไม่คาดคิด แสดงว่าไม่รู้มาก่อน ตัวเลือกรถสีน้ำเงินใช้คำ blue ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S12-Q005",
+  "old_prompt": "Q: Why don’t we add clear signs?",
+  "prompt": "Q: Do you think our team can win the final?",
+  "options": [
+   "It’s a long shot, but we can try.",
+   "He took a long shot from midfield.",
+   "The final is on Saturday.",
+   "Our team has new shirts."
+  ],
+  "answer": 0,
+  "explanation": "“a long shot” = มีโอกาสน้อย แต่ยังลองได้ ตอบความเห็นเรื่องโอกาสชนะ ตัวเลือกเตะไกลใช้ความหมายตามตัวอักษร ส่วนวันแข่งและเสื้อทีมไม่ได้ตอบความเห็น",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S13-Q002",
+  "old_prompt": "Q: Could you tell me where the clinic is?",
+  "prompt": "Q: How’s your new part-time job going?",
+  "options": [
+   "I’m getting the hang of it.",
+   "I hang my uniform on the door.",
+   "My job starts at nine.",
+   "I got the job last month."
+  ],
+  "answer": 0,
+  "explanation": "“getting the hang of it” = เริ่มทำเป็นแล้ว ตอบคำถามว่างานเป็นอย่างไร ตัวเลือกแขวนชุดใช้คำ hang ตามตัวอักษร ส่วนเวลาเริ่มงานและได้งานเมื่อไรไม่ได้บอกว่างานเป็นอย่างไร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S13-Q003",
+  "old_prompt": "Q: Would you mind calling the front desk?",
+  "prompt": "Q: How are you doing these days?",
+  "options": [
+   "I could do it better next time.",
+   "I’m doing my homework.",
+   "Couldn’t be better, thanks.",
+   "These days are very short."
+  ],
+  "answer": 2,
+  "explanation": "“Couldn’t be better” = ดีมาก ๆ ตอบคำถามทักทายเรื่องความเป็นอยู่ ตัวเลือก doing my homework ใช้คำ doing ตามตัวอักษร ไม่ใช่การบอกความเป็นอยู่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S13-Q005",
+  "old_prompt": "Q: Why don’t we practice in pairs?",
+  "prompt": "Q: Thank you so much for driving me home.",
+  "options": [
+   "Don’t mention it.",
+   "Don’t mention the car to anyone.",
+   "I drove for two hours.",
+   "My home is near the lake."
+  ],
+  "answer": 0,
+  "explanation": "“Don’t mention it” = ไม่เป็นไร (ตอบคำขอบคุณ) ตัวเลือก Don’t mention the car เป็นการห้ามพูดถึงตามตัวอักษร ไม่ใช่การตอบคำขอบคุณ",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S14-Q002",
+  "old_prompt": "Q: Could you tell me where the bookshop is?",
+  "prompt": "Q: Hey, Ben! What’s up?",
+  "options": [
+   "The sky is up there.",
+   "I woke up at seven.",
+   "Not much. Just studying for the test.",
+   "It’s up the stairs on the left, next to the library."
+  ],
+  "answer": 2,
+  "explanation": "“What’s up?” = เป็นไงบ้าง/ทำอะไรอยู่ ตอบด้วย Not much และบอกสิ่งที่ทำอยู่ ตัวเลือก sky is up there และ up the stairs ใช้คำ up ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S14-Q003",
+  "old_prompt": "Q: Would you mind checking the list again?",
+  "prompt": "Q: Can I take one of these cookies?",
+  "options": [
+   "I helped my mom bake them.",
+   "The cookies are in the oven.",
+   "Of course. Help yourself.",
+   "Can you help me with this?"
+  ],
+  "answer": 2,
+  "explanation": "“Help yourself” = เชิญตามสบาย/หยิบได้เลย ตอบคำขออนุญาต ตัวเลือก helped my mom ใช้คำ help แต่ไม่ได้อนุญาต",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S14-Q005",
+  "old_prompt": "Q: Why don’t we set a weekly goal?",
+  "prompt": "Q: I don’t want to come to the beach. I’ll stay home.",
+  "options": [
+   "My new suit is at home.",
+   "The beach is very crowded.",
+   "Suit yourself. We’ll miss you.",
+   "I stayed home last weekend."
+  ],
+  "answer": 2,
+  "explanation": "“Suit yourself” = ตามใจ ใช้ตอบเมื่ออีกฝ่ายเลือกทางของตัวเอง ตัวเลือกชุดสูทใช้คำ suit ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S15-Q002",
+  "old_prompt": "Q: Could you tell me where the park entrance is?",
+  "prompt": "Q: Are you going to study abroad next year?",
+  "options": [
+   "I’m in two minds about it.",
+   "I have two books about it.",
+   "Next year is 2027.",
+   "I studied abroad in a dream."
+  ],
+  "answer": 0,
+  "explanation": "“in two minds” = ลังเล ยังตัดสินใจไม่ได้ ตอบคำถามเรื่องแผนเรียนต่อ ตัวเลือก two books ใช้คำ two ตามตัวอักษร ส่วนปี 2027 ไม่ได้ตอบคำถาม",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S15-Q003",
+  "old_prompt": "Q: Would you mind lending me a pen?",
+  "prompt": "Q: Shall I pay for both tickets?",
+  "options": [
+   "Let’s go to the Netherlands.",
+   "The tickets are in my bag.",
+   "No, let’s go Dutch this time.",
+   "Both seats are by the window."
+  ],
+  "answer": 2,
+  "explanation": "“go Dutch” = ต่างคนต่างจ่าย ตอบคำถามว่าจะให้จ่ายให้ไหม ตัวเลือกไปเนเธอร์แลนด์ใช้คำ Dutch ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S15-Q005",
+  "old_prompt": "Q: Why don’t we visit the local exhibition?",
+  "prompt": "Q: I need to buy a gift, and the post office is next to the gift shop.",
+  "options": [
+   "Please don’t throw stones at birds.",
+   "I bought a nice gift for my sister last month.",
+   "Great, you can kill two birds with one stone.",
+   "The letter arrived two days late."
+  ],
+  "answer": 2,
+  "explanation": "ผู้พูดต้องซื้อของขวัญและไปไปรษณีย์ซึ่งอยู่ติดกัน “kill two birds with one stone” = ทำสองอย่างเสร็จในครั้งเดียว ตัวเลือกห้ามปาหินใส่นกเป็นความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S16-Q002",
+  "old_prompt": "Q: Could you tell me where the language lab is?",
+  "prompt": "Q: Do you want to play tennis this afternoon?",
+  "options": [
+   "Shall I check if it’s raining outside?",
+   "I played tennis with my uncle.",
+   "This afternoon is sunny and hot.",
+   "Can I take a rain check?"
+  ],
+  "answer": 3,
+  "explanation": "“take a rain check” = ขอเลื่อนไปคราวหน้า เป็นการปฏิเสธคำชวนแบบสุภาพ ตัวเลือกเช็กว่าฝนตกไหมใช้คำ rain/check ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S16-Q003",
+  "old_prompt": "Q: Would you mind turning down the music?",
+  "prompt": "Q: Did you catch the train this morning?",
+  "options": [
+   "Yes, I caught a cold this morning.",
+   "The train has ten carriages.",
+   "Yes, just in the nick of time.",
+   "I like trains more than buses."
+  ],
+  "answer": 2,
+  "explanation": "“in the nick of time” = ทันเวลาพอดี ตอบคำถามว่าขึ้นรถไฟทันไหม ตัวเลือก caught a cold ใช้คำ catch ในความหมายอื่น",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S16-Q005",
+  "old_prompt": "Q: Why don’t we make a checklist?",
+  "prompt": "Q: The builders finished the house in only two weeks.",
+  "options": [
+   "They cut the cake into corners.",
+   "The house has four bedrooms.",
+   "Two weeks is a long holiday.",
+   "I hope they didn’t cut corners."
+  ],
+  "answer": 3,
+  "explanation": "“cut corners” = ทำแบบลวก ๆ ลัดขั้นตอน เป็นความกังวลที่สมเหตุสมผลเมื่อสร้างบ้านเร็วผิดปกติ ตัวเลือกตัดเค้กใช้คำ cut ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S17-Q002",
+  "old_prompt": "Q: Could you tell me where the auditorium is?",
+  "prompt": "Q: I can’t work out how to use this coffee machine.",
+  "options": [
+   "Don’t worry. It’s not rocket science.",
+   "Rockets use a lot of fuel.",
+   "I work out at the gym.",
+   "Coffee keeps me awake."
+  ],
+  "answer": 0,
+  "explanation": "“It’s not rocket science” = ไม่ได้ยากอะไร เป็นการให้กำลังใจ ตัวเลือก work out at the gym ใช้คำ work out ในความหมายออกกำลังกาย และ rockets ใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S17-Q003",
+  "old_prompt": "Q: Would you mind waiting a moment?",
+  "prompt": "Q: Why is Jane so happy today?",
+  "options": [
+   "The clouds look like heavy rain again today.",
+   "She drives a white car.",
+   "She’s on cloud nine about her driving test.",
+   "Nine students passed the test."
+  ],
+  "answer": 2,
+  "explanation": "“on cloud nine” = มีความสุขมาก อธิบายว่าทำไม Jane ดีใจ ตัวเลือกเมฆฝนและ nine students ใช้คำตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S17-Q005",
+  "old_prompt": "Q: Why don’t we collect feedback first?",
+  "prompt": "Q: Mark! I haven’t seen you since primary school!",
+  "options": [
+   "I can’t see very well without glasses.",
+   "Primary school starts at eight.",
+   "I saw you yesterday at the bank.",
+   "Wow, long time no see."
+  ],
+  "answer": 3,
+  "explanation": "“Long time no see” = ไม่ได้เจอกันนาน ใช้ทักทายเพื่อนเก่า ตัวเลือกมองไม่ชัดใช้คำ see ตามตัวอักษร และ saw you yesterday ขัดกับข้อมูลว่าไม่ได้เจอกันตั้งแต่ประถม",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S18-Q002",
+  "old_prompt": "Q: Could you tell me where the train station is?",
+  "prompt": "Q: I’m thinking of joining the school choir.",
+  "options": [
+   "Go for it! You have a great voice.",
+   "Go to the choir room and get it.",
+   "The choir sang last Friday.",
+   "I joined the chess club."
+  ],
+  "answer": 0,
+  "explanation": "“Go for it” = ลุยเลย เป็นการสนับสนุนการตัดสินใจ ตัวเลือก Go to the choir room ใช้คำ go ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S18-Q003",
+  "old_prompt": "Q: Would you mind confirming the time?",
+  "prompt": "Q: Where are you? The meeting started ten minutes ago.",
+  "options": [
+   "I’m running in the park every morning.",
+   "Sorry, I’m running late.",
+   "The meeting room is on the second floor.",
+   "It started at nine yesterday."
+  ],
+  "answer": 1,
+  "explanation": "“I’m running late” = มาสาย จึงขอโทษที่ยังไม่ถึงที่ประชุม ตัวเลือกวิ่งในสวนใช้คำ running ตามตัวอักษร ส่วนตำแหน่งห้องและเวลาเมื่อวานไม่ได้ตอบว่าอยู่ที่ไหน",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S18-Q005",
+  "old_prompt": "Q: Why don’t we take a short break?",
+  "prompt": "Q: So, um, about the money I borrowed last month…",
+  "options": [
+   "The bush in the garden is very big.",
+   "Please don’t beat around the bush.",
+   "I borrowed a book last month.",
+   "Money doesn’t grow on trees."
+  ],
+  "answer": 1,
+  "explanation": "ผู้พูดอ้อมค้อม “beat around the bush” = พูดอ้อมไปมา จึงขอให้พูดตรง ๆ ตัวเลือกพุ่มไม้ในสวนใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S19-Q002",
+  "old_prompt": "Q: Could you tell me where the garden is?",
+  "prompt": "Q: Do you and your brother agree about the holiday plan?",
+  "options": [
+   "Yes, we both have brown eyes.",
+   "We don’t see eye to eye on it.",
+   "My brother is two years older than me.",
+   "The holiday is in April."
+  ],
+  "answer": 1,
+  "explanation": "“see eye to eye” = เห็นตรงกัน รูป don’t see eye to eye จึงแปลว่าเห็นไม่ตรงกัน ตอบคำถามว่าเห็นด้วยกันไหม ตัวเลือกตาสีน้ำตาลใช้คำ eyes ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S19-Q003",
+  "old_prompt": "Q: Would you mind taking a photo of the poster?",
+  "prompt": "Q: I haven’t finished the science report either.",
+  "options": [
+   "We went on a boat trip last summer.",
+   "Then we’re in the same boat.",
+   "Science is my favorite subject.",
+   "The report is due on Friday."
+  ],
+  "answer": 1,
+  "explanation": "“in the same boat” = อยู่ในสถานการณ์เดียวกัน (ยังทำรายงานไม่เสร็จทั้งคู่) ตัวเลือกล่องเรือใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S19-Q005",
+  "old_prompt": "Q: Why don’t we organize a book exchange?",
+  "prompt": "Q: Did you really meet a famous actor at the mall?",
+  "options": [
+   "Yes, he pulled my bag by mistake.",
+   "My leg hurts after walking.",
+   "The mall closes at ten.",
+   "No, I was just pulling your leg."
+  ],
+  "answer": 3,
+  "explanation": "“pulling your leg” = แค่แซวเล่น/โกหกเล่น ตอบว่าไม่ได้เจอจริง ตัวเลือกขาเจ็บใช้คำ leg ตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S20-Q002",
+  "old_prompt": "Q: Could you tell me where the information desk is?",
+  "prompt": "Q: The file didn’t save, so we lost the whole report.",
+  "options": [
+   "The square is near the old market.",
+   "I saved my photos on the laptop.",
+   "The report was about squares.",
+   "Oh no. We’re back to square one."
+  ],
+  "answer": 3,
+  "explanation": "“back to square one” = ต้องเริ่มใหม่ตั้งแต่ต้น เหมาะเมื่อรายงานหายหมด ตัวเลือก square ที่หมายถึงลานเมืองและรูปสี่เหลี่ยมใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S20-Q003",
+  "old_prompt": "Q: Would you mind helping arrange the tables?",
+  "prompt": "Q: I’ve sent the manager my offer. What happens now?",
+  "options": [
+   "The ball is under the basketball court.",
+   "The ball is in her court now.",
+   "I sent a letter last month.",
+   "The manager plays tennis."
+  ],
+  "answer": 1,
+  "explanation": "“the ball is in her court” = ตอนนี้ขึ้นอยู่กับเธอที่จะตัดสินใจ ตอบคำถามว่าต่อไปจะเป็นอย่างไร ตัวเลือกลูกบอลใต้สนามใช้ความหมายตามตัวอักษร",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ },
+ {
+  "id": "S20-Q005",
+  "old_prompt": "Q: Why don’t we test the idea for one week?",
+  "prompt": "Q: Can you lend me your notes? I missed class again.",
+  "options": [
+   "The ice on the lake is very thin this winter, so be careful.",
+   "My notes are written in pencil.",
+   "I missed the bus again too.",
+   "Sure, but you’re on thin ice with the teacher."
+  ],
+  "answer": 3,
+  "explanation": "“on thin ice” = อยู่ในสถานการณ์เสี่ยง (ขาดเรียนบ่อยจนครูอาจไม่พอใจ) เป็นการให้ยืมพร้อมเตือน ตัวเลือกน้ำแข็งบางใช้ความหมายตามตัวอักษร ส่วนอีกสองตัวเลือกไม่ได้ตอบว่าจะให้ยืมหรือไม่",
+  "tip": "ข้อสำนวน: ตีความหมายของสำนวนในประโยคก่อน แล้วเลือกคำตอบที่ตอบสนองความหมายนั้น ระวังตัวเลือกที่ใช้คำเดียวกับสำนวนแต่ในความหมายตามตัวอักษร",
+  "topic": "Idioms and expressions"
+ }
+]

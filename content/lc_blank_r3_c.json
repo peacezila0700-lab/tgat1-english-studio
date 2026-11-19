@@ -1,0 +1,262 @@
+[
+ {
+  "first": "S06-Q021",
+  "context": "Nora: Owen, you’re leading the cycling club’s park ride on Sunday, aren’t you?\nOwen: (1) ____\nNora: Don’t worry. I’ll ride at the back and make sure nobody gets left behind.\nOwen: Thanks. The weather forecast says it might rain in the afternoon.\nNora: (2) ____\nOwen: Good idea. If we start at 6:30, we’ll be finished by ten.\nNora: How long is the route?\nOwen: About fifteen kilometres. (3) ____\nNora: That’s sensible. Some of the new members have only just learned to ride on roads.\nOwen: Should I ask everyone to bring a helmet?\nNora: (4) ____\nOwen: You’re right. I’ll write “No helmet, no ride” in the group message.\nNora: And where should we meet?\nOwen: (5) ____\nNora: Perfect. There’s a bike stand there, too.",
+  "tip": "บทสนทนาที่มีการตอบว่า “Don’t worry” หรือ “That’s sensible” ช่วยบอกว่าช่องก่อนหน้าแสดงความกังวลหรือให้รายละเอียดอะไร",
+  "items": [
+   {
+    "key": "Yes, but I’m worried the new riders won’t keep up.",
+    "d": [
+     "Yes, and the riders this time are very experienced.",
+     "No, I sold my bike last month, so I can’t go this time.",
+     "I usually ride to school on weekdays."
+    ],
+    "exp": "Nora ตอบว่า “Don’t worry. I’ll ride at the back and make sure nobody gets left behind.” แสดงว่า Owen กังวลว่าสมาชิกใหม่จะตามไม่ทัน ตัวเลือกที่ว่าทุกคนมีประสบการณ์ไม่ทำให้ต้องปลอบ ส่วนการขายจักรยานขัดกับการเป็นผู้นำทริป และการขี่ไปโรงเรียนไม่ใช่สิ่งที่ต้องกังวล"
+   },
+   {
+    "key": "Then why don’t we start a bit earlier than usual?",
+    "d": [
+     "Then why don’t we start after lunch, when the roads are quieter?",
+     "Then let’s cancel the ride and stay at home.",
+     "Then we should bring sunglasses and sun cream."
+    ],
+    "exp": "Owen ตอบว่า “Good idea. If we start at 6:30, we’ll be finished by ten.” จึงต้องเป็นข้อเสนอให้เริ่มเช้าขึ้นเพื่อหนีฝนตอนบ่าย ตัวเลือกเริ่มหลังอาหารกลางวันจะเจอฝน การยกเลิกขัดกับการวางเวลาเริ่ม และการเตรียมแว่นกันแดดไม่ได้นำไปสู่การเลือกเวลาเริ่ม"
+   },
+   {
+    "key": "We’ll stay on the park paths and avoid main roads.",
+    "d": [
+     "We’ll ride along the main road to save time.",
+     "We’ll race each other to see who is fastest.",
+     "We’ll stop at a café for two hours on the way."
+    ],
+    "exp": "Nora ตอบว่า “That’s sensible. Some of the new members have only just learned to ride on roads.” แสดงว่า Owen เลือกเส้นทางที่ปลอดภัยและเลี่ยงถนนใหญ่ ตัวเลือกขี่ถนนใหญ่หรือแข่งความเร็วไม่ปลอดภัยสำหรับมือใหม่ และการแวะร้านกาแฟสองชั่วโมงขัดกับการจบก่อนสิบโมง"
+   },
+   {
+    "key": "Definitely. Nobody should ride without one.",
+    "d": [
+     "Only if they want to—it’s just a short ride.",
+     "No, helmets are too hot in the morning.",
+     "Yes, but they can leave them in the car."
+    ],
+    "exp": "Owen ตอบว่า “You’re right.” แล้วจะเขียนกฎ No helmet, no ride แสดงว่า Nora ยืนยันว่าทุกคนต้องใส่หมวก ตัวเลือกที่ให้ใส่ตามความสมัครใจ ปฏิเสธหมวก หรือให้ทิ้งไว้ในรถ ขัดกับกฎ “No helmet, no ride”"
+   },
+   {
+    "key": "How about the north entrance, by the ticket office?",
+    "d": [
+     "Let’s meet at my house, which is on the other side of town.",
+     "Each person can choose their own place to start.",
+     "Why don’t we meet at the café after the ride?"
+    ],
+    "exp": "Nora ตอบว่า “Perfect. There’s a bike stand there, too.” จึงต้องเป็นจุดนัดพบที่ระบุสถานที่ชัดเจน ตัวเลือกให้แต่ละคนเลือกจุดเริ่มเองไม่ใช่สถานที่ที่มีที่จอดจักรยาน บ้านอีกฝั่งเมืองไม่เหมาะกับการเริ่มที่สวน และการนัดหลังปั่นไม่ได้ตอบคำถามว่าจะเจอกันที่ไหนก่อนเริ่ม"
+   }
+  ]
+ },
+ {
+  "first": "S06-Q026",
+  "context": "Tom: Mint, Ms. Ying asked us to help with the plant-measurement lesson behind the science building on Monday.\nMint: (1) ____\nTom: The Grade 8 students will measure how tall the bean plants have grown since last week.\nMint: (2) ____\nTom: Rulers might be too short. Some plants are almost forty centimetres now.\nMint: Then let’s borrow the measuring tapes from the PE department.\nTom: (3) ____\nMint: OK, I’ll ask Mr. Krit at lunch, then.\nTom: Great. What if it rains on Monday morning?\nMint: (4) ____\nTom: That works. The plants are in pots, so we can carry them inside.\nMint: How should the students write down their results?\nTom: (5) ____\nMint: That’s smart. Then they can make a graph in their next lesson.",
+  "tip": "ถ้าคำตอบถัดไปเป็นการอธิบายกิจกรรม ช่องก่อนหน้ามักเป็นคำถาม What/How ส่วนคำตอบ “OK, I’ll ask…” มักตามหลังคำแนะนำ",
+  "items": [
+   {
+    "key": "Sure. What exactly will they be doing?",
+    "d": [
+     "Sure. I measured my height last week.",
+     "Sorry, I don’t like beans or any other vegetables very much.",
+     "Is the science building open on Sundays?"
+    ],
+    "exp": "Tom ตอบโดยอธิบายว่า “The Grade 8 students will measure how tall the bean plants have grown...” ช่อง (1) จึงต้องเป็นการตอบรับและถามว่านักเรียนจะทำอะไร ตัวเลือกเรื่องวัดส่วนสูงตัวเองหรือไม่ชอบถั่วไม่ได้ทำให้ Tom ต้องอธิบายกิจกรรม และคำถามเรื่องวันอาทิตย์ไม่ตรงกับบทเรียนวันจันทร์"
+   },
+   {
+    "key": "Will they use rulers for that?",
+    "d": [
+     "Will they plant new seeds on Monday?",
+     "Did the plants grow at all last week?",
+     "Should they water the plants more often?"
+    ],
+    "exp": "Tom ตอบว่า “Rulers might be too short.” แสดงว่า Mint เพิ่งถามว่าจะใช้ไม้บรรทัดหรือไม่ คำถามเรื่องปลูกเมล็ดใหม่ ต้นไม้โตหรือไม่ หรือรดน้ำทุกชั่วโมง ไม่ได้รับคำตอบเกี่ยวกับความยาวของไม้บรรทัด"
+   },
+   {
+    "key": "Good idea, but we’d better ask first.",
+    "d": [
+     "Good idea. Let’s just take them without asking.",
+     "No, measuring tapes are too short as well.",
+     "The PE department doesn’t have any equipment."
+    ],
+    "exp": "Mint ตอบว่า “OK, I’ll ask Mr. Krit at lunch, then.” แสดงว่า Tom แนะนำให้ขออนุญาตก่อน ตัวเลือกให้หยิบไปโดยไม่ขอขัดกับการไปถาม Mr. Krit ส่วนการบอกว่าสายวัดก็สั้นหรือแผนกพละไม่มีอุปกรณ์ ไม่ทำให้ Mint ต้องไปถาม"
+   },
+   {
+    "key": "We could move the lesson into the lab.",
+    "d": [
+     "We could ask the students to stand in the rain.",
+     "We could cancel the lesson for the whole term.",
+     "We could measure the plants next year."
+    ],
+    "exp": "Tom ตอบว่า “That works. The plants are in pots, so we can carry them inside.” แสดงว่า Mint เสนอให้ย้ายเข้าในห้องปฏิบัติการ ตัวเลือกยืนตากฝน ยกเลิกทั้งเทอม หรือเลื่อนไปปีหน้า ไม่ต้องยกกระถางเข้าข้างใน"
+   },
+   {
+    "key": "They could fill in a table with the date and height.",
+    "d": [
+     "They could just remember the numbers.",
+     "They could draw a picture of their favourite plant.",
+     "They could write a short poem about beans."
+    ],
+    "exp": "Mint ตอบว่า “That’s smart. Then they can make a graph in their next lesson.” จึงต้องเป็นการบันทึกข้อมูลเป็นตารางที่นำไปทำกราฟได้ ตัวเลือกจำตัวเลขไว้เอง วาดภาพ หรือเขียนกลอน ไม่ได้ให้ข้อมูลสำหรับทำกราฟ"
+   }
+  ]
+ },
+ {
+  "first": "S07-Q021",
+  "context": "Ben: Nina, the lost-and-found box in the student office is completely full again.\nNina: (1) ____\nBen: Mostly water bottles and jackets. Some of them have been there since June.\nNina: (2) ____\nBen: Good idea. If we post photos online, students can check from home.\nNina: But what about things nobody collects?\nBen: (3) ____\nNina: That’s kind. The children’s home could really use warm jackets.\nBen: Should we put up a notice with a deadline?\nNina: (4) ____\nBen: Two weeks sounds fair. That gives everyone enough time.\nNina: Can you ask the student council to share the post?\nBen: (5) ____\nNina: Even better. More students will see it if teachers announce it in class.",
+  "tip": "ในบทสนทนาที่แก้ปัญหา ให้ติดตามว่าข้อเสนอแต่ละข้อได้รับการตอบรับอย่างไร คำตอบที่ถูกต้องต้องทำให้คำตอบรับนั้นสมเหตุสมผล",
+  "items": [
+   {
+    "key": "Again? What kind of things are in there?",
+    "d": [
+     "Great, then we don’t need to do anything.",
+     "I lost my umbrella in the canteen yesterday.",
+     "Do you know when the student office opens?"
+    ],
+    "exp": "Ben ตอบว่า “Mostly water bottles and jackets.” จึงต้องเป็นคำถามว่ามีของอะไรอยู่ในกล่อง ตัวเลือกที่ว่าไม่ต้องทำอะไรขัดกับปัญหากล่องเต็ม การเล่าว่าทำร่มหายและเวลาเปิดห้องไม่ได้ถามชนิดของที่อยู่ในกล่อง"
+   },
+   {
+    "key": "Maybe we could photograph everything and share it.",
+    "d": [
+     "Maybe we could hide the box somewhere so nobody adds anything more.",
+     "Maybe we should throw everything away today.",
+     "Maybe we could buy a bigger box."
+    ],
+    "exp": "Ben ตอบว่า “Good idea. If we post photos online, students can check from home.” แสดงว่า Nina เสนอให้ถ่ายรูปและเผยแพร่ ตัวเลือกซ่อนกล่อง ทิ้งทั้งหมด หรือซื้อกล่องใหญ่ ไม่เกี่ยวกับการโพสต์ภาพออนไลน์"
+   },
+   {
+    "key": "We could give them to the children’s home nearby.",
+    "d": [
+     "We could sell them and keep the money.",
+     "We could keep them in the box for another whole year, just in case.",
+     "We could ask the cleaners to take them home."
+    ],
+    "exp": "Nina ตอบว่า “That’s kind. The children’s home could really use warm jackets.” แสดงว่า Ben เสนอบริจาคให้บ้านเด็ก ตัวเลือกขายของเพื่อเก็บเงิน เก็บไว้อีกปี หรือให้แม่บ้านนำกลับบ้าน ไม่ได้กล่าวถึงบ้านเด็กและไม่ใช่สิ่งที่ Nina จะเรียกว่า “kind” ในบริบทนี้"
+   },
+   {
+    "key": "Yes, maybe two weeks from Monday.",
+    "d": [
+     "Yes, maybe by tomorrow morning.",
+     "No, students should have until the end of the year.",
+     "No, a notice won’t help anyone."
+    ],
+    "exp": "Ben ตอบว่า “Two weeks sounds fair. That gives everyone enough time.” จึงต้องเป็นข้อเสนอเส้นตายสองสัปดาห์ ตัวเลือกพรุ่งนี้เช้าสั้นเกินไปและไม่ตรงกับสองสัปดาห์ การให้เวลาถึงสิ้นปีไม่ตรงตัวเลข และการปฏิเสธประกาศขัดกับการตอบรับของ Ben"
+   },
+   {
+    "key": "Sure, and I’ll ask teachers to mention it in homeroom.",
+    "d": [
+     "Sure, but please don’t tell any teachers about it.",
+     "I’d rather not tell anyone about the box.",
+     "The student council is on holiday until July."
+    ],
+    "exp": "Nina ตอบว่า “Even better. More students will see it if teachers announce it in class.” แสดงว่า Ben รับปากและเพิ่มการให้ครูประกาศในห้อง ตัวเลือกห้ามบอกครูขัดกับคำตอบของ Nina และการไม่บอกใครหรือสภานักเรียนหยุดงาน ไม่ใช่สิ่งที่ “even better”"
+   }
+  ]
+ },
+ {
+  "first": "S07-Q026",
+  "context": "Ken: Tara, the art exhibition opens on Thursday, and we still have thirty paintings to hang.\nTara: (1) ____\nKen: Good. The gallery is free all afternoon, so we won’t be interrupted.\nTara: Do you think the paintings should be arranged by grade?\nKen: (2) ____\nTara: I like that idea. Visitors can compare how different students show the same theme.\nKen: We also need small labels with each artist’s name.\nTara: (3) ____\nKen: Perfect. Then visitors will understand what each painting is about.\nTara: What about the large painting from Grade 12? It’s quite heavy.\nKen: (4) ____\nTara: OK, I’ll ask Mr. Anan to bring a ladder and some strong hooks.\nKen: Should we invite parents to the opening?\nTara: (5) ____\nKen: True. The gallery only holds about eighty people.",
+  "tip": "ถ้าผู้พูดถัดไปพูดว่า “I like that idea” ช่องก่อนหน้าต้องเป็นไอเดียใหม่ ไม่ใช่เพียงการตอบ yes/no",
+  "items": [
+   {
+    "key": "Why don’t we start right after lunch on Wednesday?",
+    "d": [
+     "Why don’t we wait until Thursday evening?",
+     "I painted a picture of the sea last term.",
+     "Thirty paintings is not very many."
+    ],
+    "exp": "Ken ตอบว่า “Good. The gallery is free all afternoon...” แสดงว่า Tara เสนอเวลาเริ่มงานช่วงบ่าย ตัวเลือกรอถึงเย็นวันพฤหัสสายเกินไปเพราะงานเปิดวันนั้น ส่วนการเล่าภาพวาดของตนหรือการบอกว่าสามสิบภาพไม่มากไม่ได้เสนอเวลา"
+   },
+   {
+    "key": "Maybe by theme instead, like nature or family.",
+    "d": [
+     "Yes, from Grade 7 to Grade 12 in order.",
+     "No, let’s put them anywhere there’s space.",
+     "Maybe by size, from the smallest to the largest."
+    ],
+    "exp": "Tara ตอบว่า “Visitors can compare how different students show the same theme.” จึงต้องเป็นการจัดตามหัวข้อ ตัวเลือกจัดตามชั้นปี ตามขนาด หรือวางตรงไหนก็ได้ ไม่ทำให้เปรียบเทียบงานที่มีหัวข้อเดียวกัน"
+   },
+   {
+    "key": "Let’s add a one-line description under each name.",
+    "d": [
+     "Let’s just write the price of each painting under the name.",
+     "Let’s write the names on the back of the paintings.",
+     "Let’s use labels that are too small to read."
+    ],
+    "exp": "Ken ตอบว่า “Then visitors will understand what each painting is about.” จึงต้องเป็นข้อเสนอเพิ่มคำอธิบายสั้น ๆ ตัวเลือกเขียนราคา เขียนชื่อด้านหลัง หรือใช้ป้ายเล็กจนอ่านไม่ได้ ไม่ช่วยให้ผู้ชมเข้าใจเนื้อหาภาพ"
+   },
+   {
+    "key": "We’ll need a teacher’s help with that one.",
+    "d": [
+     "We can hang it ourselves with tape.",
+     "Let’s leave it on the floor in the corner.",
+     "Grade 12 can take it home after the show."
+    ],
+    "exp": "Tara ตอบว่า “OK, I’ll ask Mr. Anan to bring a ladder and some strong hooks.” แสดงว่า Ken บอกว่าต้องให้ครูช่วย ตัวเลือกแขวนเองด้วยเทปไม่ปลอดภัยกับภาพหนัก การวางกับพื้นไม่ต้องใช้บันไดและตะขอ และการให้นำกลับบ้านไม่เกี่ยวกับการติดตั้ง"
+   },
+   {
+    "key": "Yes, but we may need to limit the numbers.",
+    "d": [
+     "Yes, and they can bring as many friends as they like.",
+     "No, parents aren’t interested in student art.",
+     "Yes, but only if they buy a painting."
+    ],
+    "exp": "Ken ตอบว่า “True. The gallery only holds about eighty people.” แสดงว่า Tara กังวลเรื่องจำนวนคน ตัวเลือกให้พาเพื่อนมาได้ไม่จำกัดขัดกับความจุ 80 คน การบอกว่าผู้ปกครองไม่สนใจหรือต้องซื้อภาพไม่ได้นำไปสู่การพูดถึงความจุห้อง"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q021",
+  "context": "Dan: Fah, our environmental survey project is due in three weeks, and the group chat has been quiet for days.\nFah: (1) ____\nDan: I think so, too. Nobody knows who is supposed to do what.\nFah: (2) ____\nDan: That’s a good start. Could you share the document tonight?\nFah: Sure. Should we also set a deadline for each part?\nDan: (3) ____\nFah: OK. Then we’ll still have a week to check everything before we hand it in.\nDan: What about the survey itself? We haven’t asked anyone yet.\nFah: (4) ____\nDan: Good thinking. Fifty answers from different grades would be enough.\nFah: Shall we have a video call this week to discuss it?\nDan: (5) ____\nFah: Fine, Thursday at seven, then. I’ll send the link.",
+  "tip": "เมื่อมีการระบุเวลาหรือจำนวนในประโยคถัดไป (“a week to check”, “Fifty answers”, “Thursday at seven”) ให้ตรวจว่าตัวเลือกใดสอดคล้องกับตัวเลขนั้น",
+  "items": [
+   {
+    "key": "Maybe everyone is waiting for someone else to start.",
+    "d": [
+     "Maybe the others have already finished their parts and forgot to say so.",
+     "I think the project is due next year.",
+     "I don’t use that chat app any more."
+    ],
+    "exp": "Dan ตอบว่า “I think so, too. Nobody knows who is supposed to do what.” แสดงว่า Fah ตั้งข้อสังเกตว่าทุกคนรอให้คนอื่นเริ่มก่อน ตัวเลือกที่ว่าทุกคนทำเสร็จแล้วขัดกับปัญหาที่ไม่มีใครรู้หน้าที่ ส่วนกำหนดส่งปีหน้าขัดกับสามสัปดาห์ และการเลิกใช้แอปไม่ได้อธิบายสาเหตุ"
+   },
+   {
+    "key": "Let’s make a shared task list with a name for each job.",
+    "d": [
+     "Let’s each work alone and not tell the others.",
+     "Let’s ask the teacher to do the project for us.",
+     "Let’s change our topic to something easier."
+    ],
+    "exp": "Dan ตอบว่า “That’s a good start. Could you share the document tonight?” จึงต้องเป็นข้อเสนอที่มีเอกสารให้แบ่งปัน คือรายการงานพร้อมชื่อผู้รับผิดชอบ ตัวเลือกทำงานคนเดียว ให้ครูทำแทน หรือเปลี่ยนหัวข้อ ไม่มีเอกสารที่ต้องแชร์และไม่แก้ปัญหาไม่รู้หน้าที่"
+   },
+   {
+    "key": "Yes—let’s finish all the parts in two weeks.",
+    "d": [
+     "Yes—let’s finish the parts the day before it’s due.",
+     "No, deadlines only make people stressed.",
+     "Yes—let’s finish everything by tomorrow."
+    ],
+    "exp": "Fah ตอบว่า “Then we’ll still have a week to check everything...” โครงงานส่งในสามสัปดาห์ จึงต้องตั้งเส้นตายที่สองสัปดาห์ ตัวเลือกเสร็จก่อนส่งหนึ่งวันไม่เหลือเวลาตรวจหนึ่งสัปดาห์ ตัวเลือกเสร็จพรุ่งนี้ไม่สมจริง และการปฏิเสธเส้นตายขัดกับคำว่า “OK”"
+   },
+   {
+    "key": "We could make an online form for students in every grade.",
+    "d": [
+     "We could just guess what people think.",
+     "We could ask only our own group members.",
+     "We could just copy the results from last year’s project."
+    ],
+    "exp": "Dan ตอบว่า “Good thinking. Fifty answers from different grades would be enough.” จึงต้องเป็นวิธีเก็บข้อมูลจากนักเรียนหลายชั้นปี ตัวเลือกเดาความเห็น ถามเฉพาะสมาชิกกลุ่ม หรือคัดลอกผลปีก่อน ไม่ได้ข้อมูลจากหลายระดับชั้นและไม่น่าเชื่อถือ"
+   },
+   {
+    "key": "Good idea, but I’m busy until Wednesday.",
+    "d": [
+     "Good idea. Let’s do it right now, while we’re both online.",
+     "No, let’s never discuss it as a group.",
+     "Sorry, I don’t have a camera on my laptop at the moment."
+    ],
+    "exp": "Fah ตอบว่า “Fine, Thursday at seven, then.” แสดงว่า Dan ตกลงแต่ขอวันที่หลังจากที่ตนว่าง ตัวเลือกให้ประชุมทันทีขัดกับการนัดวันพฤหัส การปฏิเสธการประชุมขัดกับการส่งลิงก์ และเรื่องกล้องโน้ตบุ๊กไม่ได้นำไปสู่การเลือกวันพฤหัส"
+   }
+  ]
+ }
+]

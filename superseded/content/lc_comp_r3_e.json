@@ -1,0 +1,277 @@
+[
+ {
+  "first": "S11-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "A trial of easier-to-read labels in the astronomy room",
+    "d": [
+     "Making the astronomy room brighter for evening visitors",
+     "Shortening the planet show for families with children",
+     "Choosing which galleries should get new labels first"
+    ],
+    "exp": "ทั้งบทสนทนาพูดถึงปัญหาป้ายอ่านยากในแสงสลัวและการทดลองใช้การ์ดตัวอักษรใหญ่ ตัวเลือกทำห้องให้สว่างขึ้นขัดกับ “without changing the room lighting” การย่อโชว์ไม่ได้ถูกเสนอเพราะครอบครัวชอบโชว์อยู่แล้ว และเรื่องแกลเลอรีอื่นเป็นเพียงความเป็นไปได้หลังทดลอง"
+   },
+   {
+    "prompt": "What problem did visitors mention?",
+    "key": "Some labels were hard to read in the dim light.",
+    "d": [
+     "The planet show was too long for young children.",
+     "The room closed too early on Friday evenings.",
+     "School groups could not find the astronomy room."
+    ],
+    "exp": "Leo บอกว่า “several people could not read the labels in the dim light” ตัวเลือกโชว์ยาวเกินไปขัดกับที่ครอบครัวชอบโชว์สั้น ส่วนเวลาปิดและการหาห้องไม่พบไม่มีในบทสนทนา"
+   },
+   {
+    "prompt": "What will the two volunteers do before Friday?",
+    "key": "Check the large-text cards",
+    "d": [
+     "Put a survey near the exit",
+     "Compare comments from school groups",
+     "Change the lighting in the room"
+    ],
+    "exp": "Leo พูดว่า “ask two volunteers to check them before Friday” โดย them หมายถึง large-text cards แบบสำรวจเป็นข้อเสนอของ Maya ที่ไม่ได้มอบให้อาสาสมัคร การเปรียบเทียบความเห็นเกิดหลังการทดลอง และไม่มีการเปลี่ยนไฟในห้อง"
+   },
+   {
+    "prompt": "What does Maya say she will do?",
+    "key": "Book the printer today",
+    "d": [
+     "Print the large-text cards herself",
+     "Ask two volunteers to check the cards",
+     "Compare visitors’ comments after the trial"
+    ],
+    "exp": "ประโยคสุดท้าย Maya พูดว่า “I’ll book the printer today, then.” การพิมพ์การ์ดและขอให้อาสาสมัครตรวจเป็นสิ่งที่ Leo จะทำ ส่วนการเปรียบเทียบความเห็นเป็นงานหลังการทดลองที่ทั้งสองพูดถึงร่วมกัน"
+   },
+   {
+    "prompt": "What can be inferred from the conversation?",
+    "key": "The cards could later be used outside the astronomy room.",
+    "d": [
+     "The museum will now stay open late every evening.",
+     "Families were disappointed with the planet show.",
+     "The exit survey will replace the large-text cards next week."
+    ],
+    "exp": "Leo กล่าวว่า “If the cards help, the museum can use them in the other galleries too.” จึงอนุมานได้ว่าการ์ดอาจใช้ในส่วนอื่นด้วย การเปิดดึกทุกคืนเกินกว่าที่บทสนทนาบอก (พูดถึงเฉพาะวันศุกร์) ครอบครัวชอบโชว์ และแบบสำรวจเป็นเครื่องมือเก็บความเห็น ไม่ได้มาแทนการ์ด"
+   }
+  ]
+ },
+ {
+  "first": "S11-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Collecting evidence before asking to change a shuttle time",
+    "d": [
+     "Finding a new route that avoids the south gate",
+     "Asking the library to stay open fifteen minutes later in the evening",
+     "Complaining to the driver about heavy traffic"
+    ],
+    "exp": "ทั้งสองวางแผนบันทึกเวลารถมาถึงหนึ่งสัปดาห์และนำข้อมูลไปให้สำนักงานขนส่งก่อนขอปรับเวลา ตัวเลือกเส้นทางใหม่ถูกเลื่อนไว้จนกว่าจะมีข้อมูล (“before asking for a new route”) การขอให้ห้องสมุดปิดช้าลงไม่มีใครเสนอ และไม่ได้ต่อว่าคนขับ"
+   },
+   {
+    "prompt": "According to the driver, when is traffic near the south gate worst?",
+    "key": "At about six o’clock",
+    "d": [
+     "Just after the library opens",
+     "At about fifteen minutes past five",
+     "During the morning study group"
+    ],
+    "exp": "Pim รายงานว่า “traffic near the south gate is worst around six” ตัวเลข fifteen ในบทสนทนาหมายถึงการเลื่อนเวลาออก 15 นาที ไม่ใช่เวลาที่รถติด ส่วนช่วงเช้าและเวลาห้องสมุดเปิดไม่ได้ถูกกล่าวถึง"
+   },
+   {
+    "prompt": "Why does Pim want to show the records to the transport office first?",
+    "key": "So that the request is supported by real data",
+    "d": [
+     "Because the driver asked to see the records",
+     "Because the office has already changed the route",
+     "So that passengers can choose a new boarding place"
+    ],
+    "exp": "Niran เสนอให้ “record arrival times for a week before asking” และ Pim ย้ำว่า “We should show them the records first” จุดประสงค์คือให้คำขอมีหลักฐานรองรับ คนขับไม่ได้ขอดูข้อมูล สำนักงานยังไม่ได้เปลี่ยนอะไร และการเลือกจุดขึ้นรถไม่ใช่เป้าหมาย"
+   },
+   {
+    "prompt": "What will Niran do tonight?",
+    "key": "Make a simple form",
+    "d": [
+     "Ask passengers how long they waited",
+     "Call the transport office",
+     "Record the shuttle’s arrival time"
+    ],
+    "exp": "Niran พูดตอนท้ายว่า “I’ll make a simple form tonight.” การถามผู้โดยสารเป็นสิ่งที่ Pim อาสาทำ การติดต่อสำนักงานขนส่งจะทำหลังมีข้อมูล และการบันทึกเวลาจะทำตลอดหนึ่งสัปดาห์ ไม่ใช่งานของคืนนี้โดยเฉพาะ"
+   },
+   {
+    "prompt": "What can be inferred from the conversation?",
+    "key": "They will check results again if the timetable changes.",
+    "d": [
+     "They are sure the office will move the shuttle.",
+     "They think the driver is causing the delays.",
+     "They plan to stop using the evening shuttle."
+    ],
+    "exp": "Pim บอกว่า “If they change the schedule, we can check whether students still miss the library closing time.” จึงอนุมานได้ว่าจะตรวจผลอีกครั้ง Niran ใช้คำว่า “may be able to” จึงยังไม่แน่นอน คนขับเป็นผู้ให้ข้อมูลเรื่องรถติด ไม่ใช่ต้นเหตุ และไม่มีใครเสนอเลิกใช้รถรับส่ง"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "A weekend trial to make the fruit-stall area less crowded",
+    "d": [
+     "Moving the fruit stalls to a quieter part of the Saturday market",
+     "Asking vendors to lower their fruit prices",
+     "Printing new price lists for every stall"
+    ],
+    "exp": "บทสนทนาวางแผนทดลองหนึ่งสุดสัปดาห์ด้วยการยกป้ายราคาให้สูงขึ้นและทำทางเดินกว้างขึ้นเพื่อลดความแออัด ไม่มีการย้ายแผงหรือขอให้ลดราคา และการพิมพ์ราคาใหม่ทุกแผงไม่ได้ถูกเสนอ"
+   },
+   {
+    "prompt": "Why do people stop near the fruit stalls, according to the vendors?",
+    "key": "The price signs are difficult to see.",
+    "d": [
+     "The fruit there is cheaper than elsewhere.",
+     "The walking lane is too narrow for carts.",
+     "Shoppers want to ask about fruit quality."
+    ],
+    "exp": "Bee รายงานว่า “people stop there because the price signs are difficult to see” ตัวเลือกเรื่องผลไม้ถูก รถเข็น หรือการถามคุณภาพ ไม่ได้มาจากคำพูดของพ่อค้าแม่ค้า"
+   },
+   {
+    "prompt": "Why does Bee want to talk to the vendors first?",
+    "key": "The changes involve taping things to their tables.",
+    "d": [
+     "The vendors have to pay for the new signs.",
+     "The committee meets with the vendors only on Tuesdays.",
+     "The vendors asked for a wider walking lane."
+    ],
+    "exp": "Bee พูดว่า “Let’s ask the vendors before we tape anything to their tables.” เหตุผลคือการเปลี่ยนแปลงกระทบโต๊ะของผู้ขาย ไม่มีการพูดถึงค่าใช้จ่าย การประชุมวันอังคารเป็นแผนของ Arun ไม่ใช่เหตุผล และผู้ขายไม่ได้ขอทางเดินกว้างขึ้น"
+   },
+   {
+    "prompt": "What will Arun bring to the meeting on Tuesday?",
+    "key": "A simple map of the plan",
+    "d": [
+     "A count of shoppers in the lane",
+     "New price signs for the vendors",
+     "A survey of shoppers’ opinions"
+    ],
+    "exp": "Arun บอกว่า “I’ll draw a simple map and bring it to the meeting on Tuesday.” การนับคนเดินผ่านและการถามความเห็นผู้ซื้อจะเกิดระหว่างหรือหลังการทดลอง ส่วนป้ายราคาใหม่ไม่ได้เป็นสิ่งที่ Arun จะนำไปประชุม"
+   },
+   {
+    "prompt": "What can be inferred about the new layout?",
+    "key": "The committee will decide later whether to keep it.",
+    "d": [
+     "The vendors have already agreed to it.",
+     "It will be used every weekend from now on.",
+     "Shoppers asked for it at the last meeting."
+    ],
+    "exp": "Arun สรุปว่า “If the trial makes the lane safer, the committee can decide whether to keep that arrangement.” แสดงว่ายังต้องตัดสินใจภายหลัง ผู้ขายยังไม่ได้ถูกถาม การใช้ทุกสุดสัปดาห์เกินจากแผนทดลองหนึ่งสุดสัปดาห์ และไม่มีข้อมูลว่าผู้ซื้อเป็นผู้เสนอ"
+   }
+  ]
+ },
+ {
+  "first": "S12-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "A way to stop students finding the study room already taken",
+    "d": [
+     "Moving the booking sheet into the library app",
+     "Making the group-study room available for longer",
+     "Asking the librarian to check every room booking herself each day"
+    ],
+    "exp": "ปัญหาหลักคือผู้มาถึงห้องแล้วพบว่ามีคนใช้อยู่ และทั้งสองเสนอทดลองการ์ดลงชื่อออกที่ประตู Ken ต้องการเก็บแผ่นจองกระดาษไว้ จึงไม่ใช่การย้ายเข้าแอปทั้งหมด การขยายเวลาใช้ห้องและการให้บรรณารักษ์ตรวจทุกการจองไม่ได้ถูกเสนอ"
+   },
+   {
+    "prompt": "According to Ken, why does the problem happen?",
+    "key": "People forget to cross out their names on the sheet.",
+    "d": [
+     "The booking sheet is hidden from most of the students.",
+     "The library app shows the wrong booking times.",
+     "Too many students book the room at once."
+    ],
+    "exp": "Ken บอกว่า “people sometimes forget to cross out their names” แผ่นจองติดไว้บนบอร์ดประกาศ จึงไม่ได้ถูกซ่อน แอปไม่ได้ถูกกล่าวว่าแสดงเวลาผิด และไม่ได้บอกว่ามีคนจองพร้อมกันมากเกินไป"
+   },
+   {
+    "prompt": "Why does Ken want to keep the paper booking sheet?",
+    "key": "Some people don’t use the library app.",
+    "d": [
+     "The librarian prefers to keep paper records.",
+     "The sign-out card might get lost.",
+     "Paper sheets are cheaper than cards."
+    ],
+    "exp": "Ken ให้เหตุผลว่า “for anyone who doesn’t use the library app” ตัวเลือกอื่นเป็นเหตุผลที่ฟังดูเป็นไปได้ แต่ไม่มีในบทสนทนา"
+   },
+   {
+    "prompt": "What will Dao do tomorrow?",
+    "key": "Show a sample card to the librarian",
+    "d": [
+     "Count the double bookings",
+     "Remove the paper booking sheet",
+     "Ask users whether the process is easier"
+    ],
+    "exp": "Dao พูดว่า “I’ll make a sample card and show the librarian tomorrow.” การนับการจองซ้อนและถามผู้ใช้จะทำระหว่างการทดลองสองสัปดาห์ และไม่มีใครจะเอาแผ่นจองกระดาษออก"
+   },
+   {
+    "prompt": "Who will make the final decision about the card?",
+    "key": "The school librarian",
+    "d": [
+     "Dao and Ken together",
+     "The students who use the room",
+     "The library app team"
+    ],
+    "exp": "ประโยคสุดท้าย Dao พูดว่า “Then the librarian can choose whether to keep the card.” Dao กับ Ken เป็นผู้ทดลองและเก็บข้อมูล ผู้ใช้ห้องให้ความเห็น แต่ผู้ตัดสินใจคือบรรณารักษ์"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Changing when appointment reminders are sent",
+    "d": [
+     "Moving morning appointments to the afternoon instead",
+     "Replacing text reminders with phone calls",
+     "Hiring more staff for the reception desk"
+    ],
+    "exp": "ทั้งสองวางแผนทดลองส่งข้อความเตือนล่วงหน้าสองวันแทนคืนก่อนนัด การย้ายนัดไปช่วงบ่ายไม่ได้ถูกเสนอ โทรศัพท์เป็นเพียงทางเลือกสำหรับผู้ป่วย ไม่ได้มาแทนข้อความทั้งหมด และไม่มีการพูดถึงการจ้างพนักงาน"
+   },
+   {
+    "prompt": "What did the reception team notice?",
+    "key": "Some reminders arrive only the night before.",
+    "d": [
+     "Some patients don’t have a mobile phone.",
+     "Reminders are often sent to the wrong patient.",
+     "Patients prefer calls to text messages."
+    ],
+    "exp": "Dr. Lin บอกว่า “some reminder messages arrive only the night before” ตัวเลือกอื่นอาจฟังดูเป็นสาเหตุที่เป็นไปได้ แต่ไม่ได้มาจากทีมต้อนรับในบทสนทนา"
+   },
+   {
+    "prompt": "Why does Dr. Lin suggest starting with one clinic team?",
+    "key": "To try the new timing on a small scale first",
+    "d": [
+     "Because other teams refused to take part",
+     "Because only one team sends text messages at present",
+     "To save money on phone calls this month"
+    ],
+    "exp": "Dr. Lin พูดว่า “Let’s try the new timing with one clinic team first.” คำว่า first แสดงการทดลองขนาดเล็กก่อนขยาย ไม่มีข้อมูลว่าทีมอื่นปฏิเสธ หรือมีเพียงทีมเดียวที่ส่งข้อความ และไม่ได้พูดเรื่องประหยัดค่าโทรศัพท์"
+   },
+   {
+    "prompt": "What will Fah prepare?",
+    "key": "A feedback form for the reception desk",
+    "d": [
+     "A list of patients who missed appointments",
+     "A new reminder message for patients",
+     "A schedule for phone-call reminders"
+    ],
+    "exp": "Fah พูดว่า “I’ll prepare a short feedback form for the reception desk.” ตัวเลือกอื่นเกี่ยวข้องกับหัวข้อ แต่ไม่มีใครบอกว่าจะเตรียมสิ่งเหล่านั้น"
+   },
+   {
+    "prompt": "Which statement best reflects the speakers’ attitude?",
+    "key": "Patients should still be able to choose how they are contacted.",
+    "d": [
+     "Text messages are the only reminders patients need.",
+     "The new timing will definitely end all missed morning appointments.",
+     "Patients who miss appointments should lose their place."
+    ],
+    "exp": "ทั้งสองย้ำสองครั้งว่าผู้ป่วยควรเลือกช่องทางติดต่อได้ (“choose a phone call instead”, “change their contact preference”) การบอกว่าข้อความอย่างเดียวพอขัดกับทางเลือกโทรศัพท์ คำว่า definitely เกินกว่าการทดลองสี่สัปดาห์ และไม่มีการลงโทษผู้ป่วย"
+   }
+  ]
+ }
+]

@@ -1,0 +1,305 @@
+[
+ {
+  "first": "S19-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did visitors often buy bottled water in the park?",
+    "key": "Spots to top up containers were scarce.",
+    "d": [
+     "The park map did not show any drinking fountains.",
+     "Filtered water was not safe to drink.",
+     "Managers banned reusable containers."
+    ],
+    "exp": "ประโยคแรกระบุว่า “there were few places to refill reusable bottles” ผู้เยี่ยมชมจึงซื้อน้ำขวด ส่วนแผนที่ถูกนำมาใช้ภายหลังเพื่อทำเครื่องหมายจุดเติมน้ำ และไม่มีการห้ามใช้ภาชนะใช้ซ้ำ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the managers add after one station needed frequent cleaning?",
+    "key": "Regular cleaning checks.",
+    "d": [
+     "A second filtered fountain nearby.",
+     "A sign asking visitors to clean it.",
+     "A repair team for each inspection."
+    ],
+    "exp": "บทความระบุว่า “The managers have added regular cleaning checks and plan to review usage again after the next busy season.” พร้อมบันทึกการซ่อมหลังตรวจทุกครั้ง ตัวเลือกติดตั้งน้ำพุเพิ่ม/ป้ายขอให้ผู้เยี่ยมชมทำความสะอาด ไม่มีในบทความ"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They chose filtered fountains” refer to?",
+    "key": "The park managers.",
+    "d": [
+     "The visitors to the busy park.",
+     "The staff who record repairs.",
+     "The people who made the map."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “Park managers installed refill points and marked them on the park map.” ผู้ที่เลือกน้ำพุแบบกรองและติดป้ายเตือนจึงคือผู้จัดการสวน ไม่ใช่ผู้เยี่ยมชมหรือพนักงานบันทึกการซ่อม"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “They hope the refill points will provide a lasting alternative to single-use bottles and reduce plastic waste in the park.”?",
+    "key": "The points should replace disposable bottles over time.",
+    "d": [
+     "The managers hope to sell fewer bottled drinks.",
+     "Plastic waste in the park has already ended.",
+     "Visitors must use the refill points."
+    ],
+    "exp": "ใจความคือผู้จัดการหวังว่าจุดเติมน้ำจะเป็นทางเลือกที่ยั่งยืนแทนขวดใช้ครั้งเดียวและลดขยะพลาสติก ตัวเลือกสองสรุปเกินว่าขยะหมดแล้ว และตัวเลือกสามบิดความหวังเป็นข้อบังคับ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “alternative” is closest in meaning to",
+    "key": "option that can replace.",
+    "d": [
+     "warning about the dangers of.",
+     "cleaning method suitable for.",
+     "price that is similar to."
+    ],
+    "exp": "ผู้จัดการหวังว่าจุดเติมน้ำจะเป็น “a lasting alternative to single-use bottles” = ทางเลือกที่ใช้แทนขวดใช้ครั้งเดียว เพราะตอนต้นคนต้อง “bought bottled water” ไม่ใช่คำเตือน วิธีทำความสะอาด หรือราคา"
+   }
+  ]
+ },
+ {
+  "first": "S19-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the role-play cards help participants do?",
+    "key": "Support statements with concrete cases.",
+    "d": [
+     "Choose which questions to answer first.",
+     "Write their resumes during the workshop.",
+     "Record feedback for the advisers."
+    ],
+    "exp": "บทความระบุว่า “Role-play cards helped them give specific examples instead of making general claims” ส่วนเช็กลิสต์ทำหน้าที่เตือนให้อธิบายส่วนที่ตนเคยรับผิดชอบ ตัวเลือกเขียนเรซูเม่/บันทึกข้อเสนอแนะ ไม่ใช่หน้าที่ของการ์ดบทบาท"
+   },
+   {
+    "type": "detail",
+    "prompt": "What do advisers plan to run regularly?",
+    "key": "Practice job conversations.",
+    "d": [
+     "Resume writing classes.",
+     "Feedback sessions with employers.",
+     "Short courses on job hunting."
+    ],
+    "exp": "ข้อความระบุว่า “Some applicants still needed more interview experience, so the group plans to run mock interviews regularly.” ตัวเลือกคลาสเขียนเรซูเม่/เซสชันกับนายจ้าง/คอร์สหางาน ไม่มีในบทความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “rehearse” is closest in meaning to",
+    "key": "practice before the real event.",
+    "d": [
+     "write and send to employers.",
+     "avoid answering during interviews.",
+     "collect from previous job seekers."
+    ],
+    "exp": "เวิร์กช็อปให้ผู้หางาน “a chance to rehearse real questions and receive feedback before an actual interview” = ซ้อมก่อนสัมภาษณ์จริง ไม่ใช่การเขียนส่งนายจ้าง การเลี่ยงตอบ หรือการรวบรวมคำถาม"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They organized a workshop” refer to?",
+    "key": "The career advisers.",
+    "d": [
+     "The job seekers in the group.",
+     "The participants who practiced.",
+     "The employers who hired staff."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “Career advisers noticed that some job seekers struggled to describe their skills clearly” ผู้ที่จัดเวิร์กช็อปจึงคือที่ปรึกษาอาชีพ ไม่ใช่ผู้หางานหรือนายจ้าง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The workshop was practical because it gave job seekers a chance to rehearse real questions and receive feedback before an actual interview.”?",
+    "key": "Practicing real questions with feedback made it useful.",
+    "d": [
+     "The workshop replaced the need for interviews.",
+     "Feedback was given only after real interviews.",
+     "Job seekers wrote the questions themselves."
+    ],
+    "exp": "ใจความคือเวิร์กช็อปใช้ได้จริงเพราะให้ซ้อมคำถามจริงและรับคำติชมก่อนไปสัมภาษณ์จริง ตัวเลือกคำติชมหลังสัมภาษณ์จริงจึงตรงข้ามกับ before an actual interview และไม่มีข้อมูลว่าผู้หางานเขียนคำถามเอง"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How did the organizers keep the film night cheap?",
+    "key": "They used loaned equipment and a community space.",
+    "d": [
+     "They asked neighbors to bring their own seats.",
+     "They showed the film outdoors in the evening.",
+     "They charged a small fee for the discussion."
+    ],
+    "exp": "บทความระบุว่า “They borrowed a projector and used a public room to keep costs low.” และงานนี้เป็นงานฟรีตามประโยคแรก ตัวเลือกนั่งเอง/ฉายกลางแจ้ง/เก็บค่าอภิปราย ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What problem did the event have with the sound?",
+    "key": "Some viewers could not hear quiet scenes.",
+    "d": [
+     "The borrowed projector made noise during the film.",
+     "The room was too small for the sound.",
+     "The group discussions were too loud after the film."
+    ],
+    "exp": "ข้อความระบุว่า “sound quality varied across the large room, and some viewers had difficulty hearing quieter scenes” กลุ่มจึงจะทดสอบอุปกรณ์และผังห้องก่อนจัดครั้งต่อไป"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the organizers regard the first film night?",
+    "key": "As a success that still needs improvements.",
+    "d": [
+     "As a failure they will not repeat.",
+     "As perfect in every way.",
+     "As useful only for close friends."
+    ],
+    "exp": "ผู้จัดพบผลดีว่า “people had begun talking with neighbors they had not known before” แต่ก็ยอมรับว่า “The event was not flawless” และวางแผนทดสอบอุปกรณ์ก่อนจัดอีกครั้ง = สำเร็จแต่ยังต้องปรับ ไม่ได้ล้มเลิก"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “flawless” is closest in meaning to",
+    "key": "without any problems.",
+    "d": [
+     "well attended by local families.",
+     "free of charge for local residents.",
+     "shorter than the organizers planned."
+    ],
+    "exp": "“The event was not flawless: sound quality varied across the large room” = งานยังไม่สมบูรณ์แบบ มีข้อบกพร่องเรื่องเสียง ตัวเลือกคนมาเยอะ/ฟรี/สั้นกว่ากำหนด ไม่ใช่ความหมายของ flawless"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They borrowed a projector” refer to?",
+    "key": "The organizers of the film night.",
+    "d": [
+     "The neighbors living in the community.",
+     "The participants in the discussions.",
+     "The owners of the public room."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “so organizers arranged a free film night followed by small-group discussions” ผู้ที่ยืมเครื่องฉายและใช้ห้องสาธารณะจึงคือผู้จัดงาน ไม่ใช่เพื่อนบ้านหรือเจ้าของห้อง"
+   }
+  ]
+ },
+ {
+  "first": "S20-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why will the museum close from 1 June?",
+    "key": "Its roof and wiring need major work.",
+    "d": [
+     "Summer is its busiest season of the year.",
+     "The collection is moving to a new city.",
+     "The library needs its gallery for events."
+    ],
+    "exp": "ข่าวบอกว่าพิพิธภัณฑ์ปิด “while workers repair its leaking roof and replace the old electrical system” จึงตอบว่าหลังคาและระบบไฟต้องซ่อมใหญ่ ตัวเลือกฤดูร้อนคนเยอะเป็นเหตุผลที่ทำให้ตัดสินใจยาก ไม่ใช่สาเหตุที่ปิด ตัวเลือกย้ายไปเมืองอื่นขัดกับการย้ายไปแกลเลอรีชั่วคราวในห้องสมุดกลาง และไม่มีข้อมูลว่าห้องสมุดต้องการพื้นที่"
+   },
+   {
+    "type": "detail",
+    "prompt": "What can school groups with existing bookings do?",
+    "key": "Pick a library tour or an online lesson.",
+    "d": [
+     "Visit the museum before the roof repairs begin.",
+     "Get their money back from the city council.",
+     "Join the children’s room opening in February."
+    ],
+    "exp": "บทความระบุว่า “School groups that have already booked visits can choose a library tour or an online session with a museum educator.” ตัวเลือกไปก่อนเริ่มซ่อม/ขอเงินคืนจากสภา/ร่วมเปิดห้องเด็ก ไม่มีข้อมูลในข่าว และสภาเกี่ยวข้องกับเรื่องร้านกาแฟเท่านั้น"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Delaying the work would only put the collection at greater risk”?",
+    "key": "Waiting could harm the objects more.",
+    "d": [
+     "The work will be finished faster in summer.",
+     "The collection is already badly damaged.",
+     "The director wanted to delay the work."
+    ],
+    "exp": "ผู้อำนวยการหมายความว่าถ้าเลื่อนการซ่อมออกไป ของสะสมจะยิ่งเสี่ยงเสียหาย ตรงกับตัวเลือกที่บอกว่าการรอจะทำให้ของเสียหายมากขึ้น ตัวเลือกเสร็จเร็วในฤดูร้อนไม่มีในบท ตัวเลือกเสียหายหนักแล้วเกินกว่าที่บทบอก และตัวเลือกอยากเลื่อนงานขัดกับคำพูดของเธอ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the writer present the cafés’ concerns?",
+    "key": "As a real issue the council will look at later.",
+    "d": [
+     "As a minor complaint that nobody needs to address.",
+     "As the main reason the museum is closing.",
+     "As a problem the museum has already solved."
+    ],
+    "exp": "ข่าวเขียนว่า “Some local cafés near the museum are worried about losing customers, and the city council has promised to review their situation in September.” แสดงว่าเป็นปัญหาจริงที่สภาจะพิจารณาภายหลัง ไม่ใช่เรื่องเล็กที่ไม่ต้องสนใจ ไม่ใช่สาเหตุของการปิด และยังไม่ได้ถูกแก้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “review” is closest in meaning to",
+    "key": "look at again carefully.",
+    "d": [
+     "pay for in full.",
+     "write a news report about.",
+     "move to another part of town."
+    ],
+    "exp": "“the city council has promised to review their situation in September” = สภาจะพิจารณาสถานการณ์ของร้านกาแฟอีกครั้งอย่างรอบคอบ ไม่ใช่จ่ายเงินให้ เขียนข่าว หรือย้ายร้าน"
+   }
+  ],
+  "context": "The City History Museum will close to the public from 1 June for eight months while workers repair its leaking roof and replace the old electrical system. The museum’s director, Anong Sripan, said the decision was difficult because summer is usually the busiest season. “Delaying the work would only put the collection at greater risk,” she explained. During the closure, about two hundred objects will move to a temporary gallery in the central library, where entry will remain free. School groups that have already booked visits can choose a library tour or an online session with a museum educator. Some local cafés near the museum are worried about losing customers, and the city council has promised to review their situation in September. The museum expects to reopen in February with a new children’s room and longer weekend hours.",
+  "topic": "A museum closing for repairs",
+  "genre": "news"
+ },
+ {
+  "first": "S20-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What three things did the students ask parents about?",
+    "key": "How far, how long and how safe trips were.",
+    "d": [
+     "Car costs, fuel use and parking.",
+     "Route maps, crossings and traffic.",
+     "Walking habits, cycling skills and weather."
+    ],
+    "exp": "บทความระบุว่า “They began by asking parents about distance, travel time, and safety concerns.” ตัวเลือกค่ารถ/น้ำมัน/ที่จอด หรือทักษะปั่นจักรยาน ไม่ใช่หัวข้อที่ถาม"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the students use anonymous forms?",
+    "key": "To avoid asking for unnecessary personal details.",
+    "d": [
+     "To make the survey shorter to complete.",
+     "To stop families from discussing answers.",
+     "To collect more forms from each family."
+    ],
+    "exp": "ข้อความระบุว่า “Anonymous forms and a simple route map helped them collect responses without asking for unnecessary personal details.” ตัวเลือกทำให้สั้นลง/กันการคุยกัน ไม่ได้เป็นเหตุผลของการไม่ระบุชื่อ"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “they” in “because they were worried about traffic” refer to?",
+    "key": "Some of the families surveyed.",
+    "d": [
+     "The student researchers.",
+     "The families who walked to school.",
+     "The school staff members."
+    ],
+    "exp": "ประโยคเต็มคือ “some families avoided walking or cycling because they were worried about traffic and unsafe crossings” ผู้ที่กังวลเรื่องจราจรจึงคือครอบครัวกลุ่มนั้น ไม่ใช่นักวิจัยหรือเจ้าหน้าที่โรงเรียน"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Not every family returned the form, so the students plan to shorten the survey and repeat it later in the year.”?",
+    "key": "Because some forms were not returned, the survey will be shorter next time.",
+    "d": [
+     "Every family returned the form on time.",
+     "The students will stop the survey this year.",
+     "A shorter survey was already sent to families."
+    ],
+    "exp": "ใจความคือมีครอบครัวที่ไม่ส่งแบบสอบถามกลับ นักเรียนจึงจะลดความยาวและทำซ้ำปลายปี ตัวเลือกแรกตรงข้ามกับข้อความ ตัวเลือกสองผิดเพราะวางแผนทำซ้ำ และตัวเลือกสามสลับลำดับเวลา"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “barriers” is closest in meaning to",
+    "key": "things that block travel.",
+    "d": [
+     "fences built along the road.",
+     "routes that are the shortest.",
+     "costs of driving to school."
+    ],
+    "exp": "แบบสำรวจพบว่าครอบครัวไม่เดินหรือปั่นเพราะ “worried about traffic and unsafe crossings” สิ่งเหล่านี้คือ “local travel barriers” = อุปสรรคที่ขัดขวางการเดินทาง ไม่ใช่รั้วจริง ๆ ตามความหมายตรงตัว และไม่ใช่เส้นทางหรือค่าใช้จ่าย"
+   }
+  ]
+ }
+]

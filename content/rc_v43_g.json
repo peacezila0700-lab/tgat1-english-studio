@@ -1,0 +1,308 @@
+[
+ {
+  "first": "S12-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did volunteers do first in the support network?",
+    "key": "They checked on neighbors and shared advice.",
+    "d": [
+     "They opened a public cooling center.",
+     "They printed safety tips for nearby homes.",
+     "They asked health services for funding."
+    ],
+    "exp": "บทความระบุว่า “They first checked on neighbors and shared clear advice about drinking water, resting in the shade, and recognizing signs of heat exhaustion.” ศูนย์ทำความเย็นมีอยู่แล้วในชุมชน และการประสานกับบริการสุขภาพเป็นแผนในอนาคต"
+   },
+   {
+    "type": "detail",
+    "prompt": "What was the phone tree used for?",
+    "key": "Contacting people who lived alone.",
+    "d": [
+     "Calling the local health services.",
+     "Recording how many tips were printed.",
+     "Warning residents about hot afternoons."
+    ],
+    "exp": "ข้อความบอกว่า “A phone tree helped volunteers contact people who lived alone” ส่วนการประสานกับบริการสุขภาพเป็นแผนของผู้จัด และการเตือนเรื่องอากาศร้อนไม่ใช่วัตถุประสงค์ของสายโทรศัพท์นี้"
+   },
+   {
+    "type": "main",
+    "prompt": "Which summary best fits the passage as a whole?",
+    "key": "A volunteer network helping residents in hot weather.",
+    "d": [
+     "Why cooling centers are hard to find.",
+     "A town plan to build more indoor spaces.",
+     "How heat exhaustion is treated by doctors."
+    ],
+    "exp": "แกนเรื่องคืออาสาสมัครสุขภาพตั้งเครือข่ายช่วยเหลือผู้สูงวัยในช่วงอากาศร้อน แล้วขยายผลและวางแผนให้ยั่งยืน ตัวเลือกศูนย์ทำความเย็นหายาก/แผนสร้างพื้นที่/วิธีรักษา ไม่ใช่สาระหลัก"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the organizers regard the network’s current limits?",
+    "key": "As problems to fix by working with others.",
+    "d": [
+     "As proof the network should be closed.",
+     "As the fault of residents who joined the list late.",
+     "As reasons to stop visiting homes."
+    ],
+    "exp": "ผู้จัดยอมรับว่า “volunteers could not visit every home each day” แล้ววางแผน “coordinate with local health services and invite additional residents to join the phone list” = มองเป็นสิ่งที่แก้ได้ด้วยการร่วมมือ ไม่ใช่ล้มเลิกหรือโทษใคร"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “lasting” is closest in meaning to",
+    "key": "continuing for a long time.",
+    "d": [
+     "reaching more people at once.",
+     "costing the organizers less.",
+     "starting again in summer."
+    ],
+    "exp": "“To make the support more lasting” = ทำให้ความช่วยเหลืออยู่ได้นานต่อเนื่อง จึงต้องประสานกับบริการสุขภาพและเพิ่มคนในรายชื่อ ตัวเลือกเข้าถึงมากขึ้น/ถูกลง/เริ่มใหม่ทุกฤดู ไม่ใช่ความหมายของ lasting"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What happened after the Chiang Mai seller started going live?",
+    "key": "She sold twice as much as before.",
+    "d": [
+     "She opened a second shop in the city.",
+     "She stopped posting photos of clothes.",
+     "She hired a friend to answer comments."
+    ],
+    "exp": "บทความบอกว่า “her sales doubled after she began going live three evenings a week” = ขายได้เป็นสองเท่า ตัวเลือกเปิดร้านที่สองและเลิกโพสต์รูปไม่มีในบท ส่วนการให้เพื่อนช่วยอ่านคอมเมนต์เป็นคำแนะนำของผู้เชี่ยวชาญ ไม่ใช่สิ่งที่ผู้ขายคนนี้ทำ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What do consumer groups advise shoppers to do?",
+    "key": "Check return rules and wait briefly.",
+    "d": [
+     "Ask a friend to read the comments for them.",
+     "Shop during short live sessions instead.",
+     "Compare live prices with prices in photos."
+    ],
+    "exp": "กลุ่มผู้บริโภคแนะนำให้ “check return policies before paying and to wait a few minutes before deciding” จึงตอบว่าดูเงื่อนไขการคืนสินค้าและรอสักครู่ ตัวเลือกให้เพื่อนอ่านคอมเมนต์และไลฟ์สั้น ๆ เป็นคำแนะนำสำหรับผู้ขาย ส่วนเทียบราคากับรูปไม่มีในบท"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “demanding” is closest in meaning to",
+    "key": "needing a lot of effort.",
+    "d": [
+     "asking for money.",
+     "very popular with viewers.",
+     "easy to learn quickly."
+    ],
+    "exp": "ประโยคถัดไปอธิบายว่าผู้ขายต้องเตรียมสินค้า พูดนาน และตอบคอมเมนต์เร็ว ดังนั้น “more demanding than it looks” = ต้องใช้ความพยายามมากกว่าที่เห็น ตัวเลือกขอเงินมาจากคำว่า demand ในความหมายอื่น ส่วนเป็นที่นิยมและเรียนง่ายไม่ใช่ความหมายนี้"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about live-stream shopping from the passage?",
+    "key": "It can lead some viewers to spend unwisely.",
+    "d": [
+     "It works best for clothing sellers in big cities.",
+     "It requires no preparation before going live.",
+     "It has replaced photo-based selling entirely."
+    ],
+    "exp": "บทความบอกว่าความตื่นเต้นของการไลฟ์ “makes them buy things they do not really need” จึงอนุมานได้ว่าทำให้บางคนใช้เงินไม่รอบคอบ ตัวเลือกไม่ต้องเตรียมตัวขัดกับ “prepare products in advance” ตัวเลือกเหมาะกับเมืองใหญ่และแทนที่การขายแบบรูปทั้งหมดไม่มีหลักฐานในบท"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “them” in “makes them buy things they do not really need” refer to?",
+    "key": "Some viewers.",
+    "d": [
+     "Small sellers.",
+     "Consumer groups.",
+     "The products."
+    ],
+    "exp": "ประโยคเต็มคือ “Some viewers also complain that the excitement of a live sale makes them buy things they do not really need.” them จึงหมายถึงผู้ชมบางคน ผู้ขาย กลุ่มผู้บริโภค และสินค้า ไม่ใช่ผู้ที่ถูกกระตุ้นให้ซื้อ"
+   }
+  ],
+  "context": "Live-stream shopping has become a popular way for small sellers in Thailand to reach customers. Instead of posting photos and waiting for orders, sellers appear on camera, show their products, and answer viewers’ questions in real time. A clothing seller in Chiang Mai says her sales doubled after she began going live three evenings a week. However, the method is more demanding than it looks. Sellers must prepare products in advance, speak clearly for long periods, and respond quickly to comments. Some viewers also complain that the excitement of a live sale makes them buy things they do not really need. Consumer groups advise shoppers to check return policies before paying and to wait a few minutes before deciding. For sellers, experts suggest starting with short sessions and asking a friend to help read comments, so that the host can focus on presenting.",
+  "topic": "Selling products on live video",
+  "genre": "article"
+ },
+ {
+  "first": "S13-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What problem did the language teachers want to fix?",
+    "key": "A few confident students answered everything.",
+    "d": [
+     "Discussions made lessons too long.",
+     "Beginners refused to join any group.",
+     "Teachers asked too few questions."
+    ],
+    "exp": "บทความระบุว่า “a small number of confident students tended to answer every question, leaving quieter learners with few chances to speak” ตัวเลือกอภิปรายยืดเยื้อ/มือใหม่ปฏิเสธเข้าร่วม ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which two tools helped groups stay focused?",
+    "key": "Question prompts and role cards.",
+    "d": [
+     "Turn-taking cards and small timers.",
+     "Small groups and name lists.",
+     "Record sheets and feedback forms."
+    ],
+    "exp": "ข้อความระบุว่า “Question prompts and role cards helped groups stay focused.” ส่วนบัตรผลัดกันพูดและกลุ่มย่อยเป็นอีกมาตรการหนึ่งที่ทำให้ทุกคนมีโอกาสพูด ไม่ใช่ตัวช่วยเรื่องโฟกัสที่ระบุไว้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “contribute” is closest in meaning to",
+    "key": "share ideas in the discussion.",
+    "d": [
+     "give money to support the class activities.",
+     "lead the whole group.",
+     "prepare answers at home."
+    ],
+    "exp": "ครูใช้การ์ดผลัดกันพูดเพื่อให้ “each student had a clear chance to contribute” และผลคือ “more learners were sharing ideas” = มีส่วนร่วมแสดงความคิดเห็น ตัวเลือกบริจาคเงินเป็นความหมายอื่นของ contribute ที่ไม่เข้ากับบริบท"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “They introduced turn-taking cards and small-group discussions so that each student had a clear chance to contribute.”?",
+    "key": "New methods gave every student a chance to speak.",
+    "d": [
+     "The cards let confident students answer more often.",
+     "Small groups replaced the class discussions.",
+     "Students had to contribute before the lesson."
+    ],
+    "exp": "ใจความคือการใช้บัตรผลัดพูดและกลุ่มย่อยเพื่อให้ทุกคนมีโอกาสพูดชัด ๆ ตัวเลือกแรกตรงข้ามกับเป้าหมายเรื่องความเท่าเทียม และตัวเลือกสามบิดเวลาเป็นก่อนเรียน"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "Making class discussion fairer for all students.",
+    "d": [
+     "Teaching beginners a second language.",
+     "Choosing questions for language classes.",
+     "Recording participation in one school."
+    ],
+    "exp": "แกนเรื่องคือครูปรับวิธีอภิปราย (บัตรผลัดพูด กลุ่มย่อย การ์ดบทบาท) เพื่อให้ผู้เรียนเงียบมีโอกาสเท่าเทียม แล้วประเมินผลและวางแผนต่อ ตัวเลือกบันทึกการมีส่วนร่วมเป็นเพียงมาตรการย่อย"
+   }
+  ]
+ },
+ {
+  "first": "S13-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the first session of the event focus on?",
+    "key": "Basic stitches and choosing safe repairs.",
+    "d": [
+     "Buying new needles, thread and spare fabric.",
+     "Deciding which clothes to throw away.",
+     "Publishing a guide for beginners."
+    ],
+    "exp": "บทความระบุว่า “The first session focused on basic stitches and on deciding which garments were safe to repair.” ตัวเลือกซื้ออุปกรณ์เป็นสิ่งที่อาสาสมัครจัดเตรียมให้ และการเผยแพร่คู่มือเป็นแผนในอนาคต"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which items were hardest to repair safely?",
+    "key": "Those with badly worn seams or fastenings.",
+    "d": [
+     "Clothes with a few small tears in the fabric.",
+     "Garments made of thin spare fabric.",
+     "Items that families had worn for many years."
+    ],
+    "exp": "ข้อความระบุว่า “not every damaged item could be safely fixed, especially when seams or fastenings were badly worn” ส่วนรอยขาดเล็ก ๆ คือสิ่งที่อาสาสมัครสอนซ่อมได้"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the organizers respond to the event’s limitation?",
+    "key": "They plan clearer advice for participants.",
+    "d": [
+     "They blame families for bringing old clothes.",
+     "They decide to stop holding the events.",
+     "They insist every item can be repaired."
+    ],
+    "exp": "หลังพบข้อจำกัด ผู้จัดวางแผน “publish a short guide showing which repairs are suitable for beginners” และ “adjust the workshop to make the safety advice clearer” = ตอบด้วยการทำให้คำแนะนำชัดขึ้น ไม่ใช่เลิกจัดหรือยืนยันว่าซ่อมได้ทุกชิ้น"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “garments” is closest in meaning to",
+    "key": "items of clothing.",
+    "d": [
+     "pieces of spare fabric.",
+     "small tears in cloth.",
+     "tools used for sewing."
+    ],
+    "exp": "บริบทคืออาสาสมัครสอนครอบครัวซ่อมเสื้อผ้าที่มีรอยขาดเล็ก ๆ และตัดสินว่า “which garments were safe to repair” = เสื้อผ้าแต่ละชิ้น ไม่ใช่เศษผ้า รอยขาด หรืออุปกรณ์เย็บ"
+   },
+   {
+    "type": "true",
+    "prompt": "Which option matches what the passage says?",
+    "key": "Many people came back with clothes they had mended.",
+    "d": [
+     "Volunteers repaired the items for the families.",
+     "The event was held once and never repeated.",
+     "Families had to bring their own thread."
+    ],
+    "exp": "บทความระบุว่า “Many people returned the following week with clothes they had repaired themselves” ส่วนอาสาสมัครให้เวลาผู้เข้าร่วมฝึกซ่อมเอง งานมีแผนจัดครั้งต่อไป และการจัดเตรียม “needles, thread, and spare fabric” ไว้ให้แล้ว"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why is the workshop moving?",
+    "key": "Its usual room is having equipment fixed.",
+    "d": [
+     "The drama club needs Room 204 on Thursday.",
+     "More students signed up than expected.",
+     "The technician will use the main hall."
+    ],
+    "exp": "อีเมลบอกว่า “The air conditioner in Room 204 is being repaired” จึงต้องย้ายห้อง ตัวเลือกชมรมการแสดงต้องการห้อง 204 ผิด เพราะชมรมใช้ห้องโถงร่วมกัน ตัวเลือกคนสมัครเยอะและช่างใช้ห้องโถงไม่มีในอีเมล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why should students come ten minutes early?",
+    "key": "To help arrange the seating.",
+    "d": [
+     "To pick up the reading from last week.",
+     "To meet the drama club before the session.",
+     "To give their replies to Ms. Wong in person."
+    ],
+    "exp": "อีเมลขอให้มาก่อนสิบนาทีเพราะ “we need to set up the chairs ourselves” จึงตอบว่าช่วยจัดที่นั่ง ตัวเลือกรับเอกสาร ผิดเพราะได้รับไปแล้วสัปดาห์ก่อน ส่วนพบชมรมการแสดงและตอบกลับด้วยตนเองไม่มีในอีเมล"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “attend” is closest in meaning to",
+    "key": "be present at.",
+    "d": [
+     "pay attention to.",
+     "arrive late to.",
+     "write about."
+    ],
+    "exp": "“If you cannot attend because of the new location” = ถ้ามาร่วมเวิร์กช็อปไม่ได้ attend ในที่นี้แปลว่าเข้าร่วม ไม่ใช่ตั้งใจฟัง (pay attention) มาสาย หรือเขียนถึง"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “it” in “we will discuss it in small groups” refer to?",
+    "key": "The reading given out last week.",
+    "d": [
+     "The main hall.",
+     "The air conditioner.",
+     "The new location of the workshop."
+    ],
+    "exp": "ประโยคเต็มคือ “Bring the reading you received last week; we will discuss it in small groups.” it จึงหมายถึงเอกสารที่ได้รับสัปดาห์ก่อน ห้องโถง แอร์ และสถานที่ใหม่ ไม่ใช่สิ่งที่จะนำมาอภิปรายกลุ่ม"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does Ms. Wong ask some students to reply by Wednesday?",
+    "key": "So absent students can still get the materials.",
+    "d": [
+     "So she can book a larger room for Friday.",
+     "So the technician can finish the repair on time.",
+     "So the drama club knows how many chairs to bring."
+    ],
+    "exp": "อีเมลบอกว่าคนที่มาไม่ได้ให้ตอบกลับ แล้ว “I will send you the slides and a short task to complete at home” จุดประสงค์จึงเป็นการส่งเอกสารให้คนที่ขาด ตัวเลือกจองห้องวันศุกร์ เร่งช่าง และบอกชมรมการแสดงเรื่องเก้าอี้ ไม่มีในอีเมล"
+   }
+  ],
+  "context": "Subject: Change to Thursday’s English workshop. Dear students, I am writing to let you know that this Thursday’s English workshop will move from Room 204 to the main hall. The air conditioner in Room 204 is being repaired, and the technician cannot finish the work until Friday. The workshop will still start at 3:30 p.m., but please arrive ten minutes early, because the hall is shared with the drama club and we need to set up the chairs ourselves. Bring the reading you received last week; we will discuss it in small groups. If you cannot attend because of the new location, reply to this email by Wednesday evening, and I will send you the slides and a short task to complete at home. Thank you for your understanding. Best regards, Ms. Kanya Wong, English Department",
+  "topic": "A workshop room change",
+  "genre": "email"
+ }
+]

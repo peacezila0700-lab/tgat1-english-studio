@@ -1,0 +1,342 @@
+[
+ {
+  "set": 17,
+  "passage": "A",
+  "genre": "business email",
+  "topic": "Order delay email",
+  "context": "Dear Ms Boonmee, thank you for your order of 12 April. We are writing because one item, the oak desk lamp, is (1) ____ from stock until early May. You have two choices. We can (2) ____ the delivery: the desk lamp will follow in May, and the rest of your order arrives this week. If you (3) ____ the second choice, we will hold everything and ship one complete parcel later. Our team has (4) ____ every order by hand this week because of a system error, so please (5) ____ us for the slower replies. The warehouse manager, (6) ____ you spoke to on the phone, will update you every Friday. We are sorry for the (7) ____ and thank you for your patience.",
+  "tip": "อีเมลธุรกิจนี้ทดสอบคำ un- (unavailable) คำคู่ split a delivery, excuse us, take effect และ whom ทำหน้าที่กรรมใน relative clause",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "unavailable",
+    "d": [
+     "unable",
+     "uncomfortable",
+     "uncertain"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ unavailable from stock (ไม่มีในสต็อกจนถึงต้นพฤษภาคม) ส่วน unable (ทำไม่ได้ — ใช้กับคน), uncomfortable (ไม่สบาย), uncertain (ไม่แน่ใจ) เป็นคำ un- หน้าคล้ายแต่ไม่ใช้กับสินค้าในคลัง"
+   },
+   {
+    "type": "vocab",
+    "key": "split",
+    "d": [
+     "spill",
+     "spin",
+     "spoil"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ split the delivery (แยกการจัดส่งเป็นสองเที่ยว) ตามสองทางเลือกที่อธิบายต่อ ส่วน spill (ทำหก), spin (หมุน), spoil (ทำเสีย) เป็นคำ sp- คล้ายกันแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "verb",
+    "key": "prefer",
+    "d": [
+     "preferred",
+     "preferring",
+     "to prefer"
+    ],
+    "exp": "ช่อง (3) อยู่ใน if-clause แบบที่ 1 (If + present simple) จึงใช้ prefer รูปปัจจุบัน ส่วน preferred เป็นอดีต, preferring ไม่ใช่กริยาแท้ และ to prefer ใช้หลัง you ตรง ๆ ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "checked",
+    "d": [
+     "check",
+     "checking",
+     "checks"
+    ],
+    "exp": "ช่อง (4) หลัง has ใน present perfect ต้องใช้ V3 checked ส่วน check เป็นรูปฐาน, checking ต้องมี be นำ และ checks เป็นปัจจุบันเอกพจน์"
+   },
+   {
+    "type": "vocab",
+    "key": "excuse",
+    "d": [
+     "execute",
+     "exercise",
+     "exhaust"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ excuse us for... (ขออภัยเราในเรื่อง...) ซึ่งเป็นสำนวนขอโทษทางการ ส่วน execute (ดำเนินการ/ประหาร), exercise (ออกกำลังกาย), exhaust (ทำให้หมดแรง) เป็นคำ ex- หน้าคล้ายแต่ไม่เข้าสำนวน"
+   },
+   {
+    "type": "clause",
+    "key": "whom",
+    "d": [
+     "who",
+     "whose",
+     "which"
+    ],
+    "exp": "ช่อง (6) เป็น relative pronoun ทำหน้าที่กรรมของ spoke to (you spoke to him) และอ้างถึงคน จึงใช้ whom ซึ่งเป็นรูปกรรมที่ถูกต้อง ส่วน who เป็นรูปประธาน, whose แสดงความเป็นเจ้าของ และ which ใช้กับสิ่งของ"
+   },
+   {
+    "type": "vocab",
+    "key": "delay",
+    "d": [
+     "display",
+     "decay",
+     "dismay"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ delay (ความล่าช้า) ตรงกับเรื่องที่ตอบอีเมลช้าและส่งของไม่ครบ ส่วน display (การแสดงผล), decay (การผุพัง), dismay (ความท้อแท้) เป็นคำ d- หน้าคล้ายแต่ไม่เข้ากับคำขอโทษเรื่องการรอ"
+   }
+  ]
+ },
+ {
+  "set": 17,
+  "passage": "B",
+  "genre": "museum label",
+  "topic": "Thai silk: loom to world",
+  "context": "Thai silk: from village loom to world stage. For centuries, silk was woven only for special occasions; a fine sarong could (1) ____ as much as a month's wages. Not until the twentieth century (2) ____ Thai silk reach buyers abroad. The turning point came when a traveller, (3) ____ name is now famous here, set up workshops that paid weavers directly. His shop in Bangkok still sells cloth from the same villages. Real mudmee silk can (4) ____ hours of skilled tying before a single thread is dyed; no printed fabric can copy that depth of colour. Buyers learn to tell real from fake: genuine silk (5) ____ cool to the touch and warms quickly in the hand. Last year alone, exports of Thai silk (6) ____ by eight percent. Few souvenirs (7) ____ so much history in so little space, and a single sarong can (8) ____ the story of a whole village.",
+  "tip": "ป้ายพิพิธภัณฑ์นี้มี inversion หลัง Not until... และทดสอบคำคู่คงที่ เช่น cost as much as, feel cool to the touch, tell a story กับ few/little ที่ใช้กับนามนับได้/ไม่ได้",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "cost",
+    "d": [
+     "coast",
+     "roast",
+     "boast"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ cost (มีราคาเท่ากับ) ในสำนวน cost as much as — ผ้าซิ่นผืนดีอาจราคาเท่าค่าแรงหนึ่งเดือน ส่วน coast (ชายฝั่ง), roast (ย่าง), boast (โอ้อวด) ออกเสียงใกล้กันแต่คนละความหมาย"
+   },
+   {
+    "type": "inversion",
+    "key": "did",
+    "d": [
+     "do",
+     "that",
+     "when"
+    ],
+    "exp": "ช่อง (2) เมื่อขึ้นต้นด้วย Not until + ช่วงเวลา ต้องกลับกริยาช่วยมาหน้าประธาน: Not until the twentieth century did Thai silk reach... (เล่าอดีตจึงใช้ did + กริยารูปฐาน reach) ส่วน do เป็นปัจจุบัน, that และ when ไม่ใช่กริยาช่วย"
+   },
+   {
+    "type": "clause",
+    "key": "whose",
+    "d": [
+     "who",
+     "which",
+     "whoever"
+    ],
+    "exp": "ช่อง (3) ต้องการ relative pronoun แสดงความเป็นเจ้าของ (a traveller, whose name is famous = ชื่อของเขา) ส่วน who, whoever อ้างถึงตัวคนไม่ใช่ชื่อ และ which ใช้กับสิ่งของ"
+   },
+   {
+    "type": "verb",
+    "key": "involve",
+    "d": [
+     "involved",
+     "involving",
+     "involves"
+    ],
+    "exp": "ช่อง (4) หลัง can ต้องใช้กริยารูปฐาน involve (can involve hours of tying = ต้องใช้เวลามัดหมี่หลายชั่วโมง) ส่วน involved เป็นอดีต, involving ต้องมี be นำ และ involves เติม s ผิดหลัง modal"
+   },
+   {
+    "type": "vocab",
+    "key": "feels",
+    "d": [
+     "feeds",
+     "falls",
+     "fails"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ feels cool to the touch ซึ่งเป็น collocation ของการสัมผัสเนื้อผ้า (feels เป็น linking verb) ส่วน feeds (ป้อน), falls (ตก), fails (ล้มเหลว) ไม่ใช้กับการสัมผัส"
+   },
+   {
+    "type": "tense",
+    "key": "grew",
+    "d": [
+     "grow",
+     "grown",
+     "grows"
+    ],
+    "exp": "ช่อง (6) มีคำบอกเวลา Last year alone จึงต้องใช้ past simple grew ส่วน grow เป็นรูปฐาน, grown ต้องมี have นำ และ grows เป็นปัจจุบันเอกพจน์"
+   },
+   {
+    "type": "vocab",
+    "key": "hold",
+    "d": [
+     "hide",
+     "hire",
+     "hit"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ hold so much history (บรรจุประวัติศาสตร์ไว้มาก) ในความหมายเปรียบเทียบกับพื้นที่น้อย ๆ ส่วน hide (ซ่อน) ขัดกับจุดขายของของที่ระลึก, hire (จ้าง) และ hit (ตี) ไม่เข้ากับ history"
+   },
+   {
+    "type": "vocab",
+    "key": "tell",
+    "d": [
+     "say",
+     "speak",
+     "talk"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ tell the story ซึ่งเป็น collocation คงที่ (เล่าเรื่องราว) ส่วน say ต้องมีข้อความตรง ๆ, speak และ talk ต้องใช้กับ about/to ไม่รับ story เป็นกรรมตรงแบบนี้"
+   }
+  ]
+ },
+ {
+  "set": 18,
+  "passage": "A",
+  "genre": "meeting minutes",
+  "topic": "Village fund minutes",
+  "context": "Minutes — Baan Na Village Fund, meeting of 5 May. Present: eleven members; (1) ____: two (Somchai and Mali, on farm duty). The chair opened by thanking the audit team for a clean report. Members (2) ____ the proposal to raise the loan limit from 20,000 to 30,000 baht. Vote: nine in favour, two (3) ____. It was agreed that the new limit would (4) ____ effect on 1 June. The treasurer reminded members that interest must be (5) ____ monthly, not yearly, under the fund's rules. Action: Nid will (6) ____ the updated rules to every household before the next meeting. The meeting closed at 8.40 p.m.; the next one is (7) ____ for the first Tuesday of July.",
+  "tip": "รายงานการประชุมนี้ใช้ศัพท์เฉพาะ เช่น Present/Absent, in favour/against, take effect และทดสอบ passive หลัง must be กับ set for",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "Absent",
+    "d": [
+     "Absence",
+     "Accepted",
+     "Accused"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ Absent: ซึ่งเป็นหัวข้อมาตรฐานในรายงานการประชุม คู่กับ Present: (ไม่มา: สองคน) ส่วน Absence เป็นคำนาม ความเจ็บขาด, Accepted (ยอมรับ) และ Accused (ถูกกล่าวหา) ไม่ใช่หัวข้อบันทึกการมาประชุม"
+   },
+   {
+    "type": "tense",
+    "key": "discussed",
+    "d": [
+     "discuss",
+     "discussing",
+     "discusses"
+    ],
+    "exp": "ช่อง (2) เล่าสิ่งที่เกิดขึ้นในที่ประชุมวันที่ 5 พฤษภาคม (อดีต) จึงต้องใช้ past simple discussed ส่วน discuss เป็นรูปฐาน, discussing ไม่ใช่กริยาแท้ และ discusses เป็นปัจจุบัน"
+   },
+   {
+    "type": "vocab",
+    "key": "against",
+    "d": [
+     "again",
+     "along",
+     "among"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ against (ไม่เห็นด้วย) คู่กับ in favour ในผลการลงมติ ส่วน again (อีกครั้ง), along (ไปตาม), among (ในบรรดา) สะกดคล้ายแต่ไม่ใช่ศัพท์การออกเสียงลงมติ"
+   },
+   {
+    "type": "verb",
+    "key": "take",
+    "d": [
+     "took",
+     "taking",
+     "to take"
+    ],
+    "exp": "ช่อง (4) หลัง would ต้องใช้กริยารูปฐาน และเป็นสำนวน take effect (มีผลบังคับใช้) ส่วน took เป็นอดีต, taking ต้องมี be นำ และ to take ทำให้ to ซ้ำ"
+   },
+   {
+    "type": "verb",
+    "key": "paid",
+    "d": [
+     "pay",
+     "paying",
+     "pays"
+    ],
+    "exp": "ช่อง (5) เป็น passive หลัง must be (ดอกเบี้ยต้องถูกชำระ): must be paid ส่วน pay เป็น active, paying ต้องใช้ be paying และเป็น active, pays เติม s ใช้หลัง be ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "deliver",
+    "d": [
+     "develop",
+     "devote",
+     "deviate"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ deliver... to every household (ส่งเอกสารถึงทุกครัวเรือน) ส่วน develop (พัฒนา), devote (อุทิศ — ต้องมี to ในความหมายทุ่มเทเวลา), deviate (เบี่ยงเบน) เป็นคำ de- หน้าคล้ายแต่ไม่ใช้กับเอกสารที่แจกจ่าย"
+   },
+   {
+    "type": "vocab",
+    "key": "set",
+    "d": [
+     "sat",
+     "sit",
+     "seat"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ is set for ซึ่งเป็น collocation แปลว่า ถูกกำหนดไว้ (การประชุมครั้งหน้ากำหนดไว้วันอังคารแรกของกรกฎาคม) ส่วน sat, sit เป็นกริยานั่ง และ seat เป็นคำนาม/จัดที่นั่ง ไม่เข้ากับความหมายกำหนดการ"
+   }
+  ]
+ },
+ {
+  "set": 18,
+  "passage": "B",
+  "genre": "health column",
+  "topic": "Dentist myths column",
+  "context": "Health column: we asked dentist Dr Praew about common myths. “Most people brush far too hard, (1) ____?” she begins. “They think harder means cleaner.” In fact, hard brushing wears away enamel, which (2) ____ grow back. Dr Praew recommends a soft brush and two minutes, twice a day; patients who (3) ____ this routine report far fewer problems. “Flossing is the habit people skip most,” she says. “They promise me they'll start tomorrow, (4) ____ tomorrow never comes.” Sugar, not luck, (5) ____ most cavities: bacteria turn sugar into acid within twenty minutes of a meal. Rinsing with water after meals (6) ____ the acid away before it bites. Children should see a dentist by age two, and adults need a check-up (7) ____ a year, more often if they have gum disease. “The cheapest filling,” she smiles, “is the one you never (8) ____.”",
+  "tip": "คอลัมน์สุขภาพนี้มี question tag ของ present simple และทดสอบ cause/cure, wash away, once a year รวมถึง need กับ knead ที่ออกเสียงเหมือนกัน",
+  "items": [
+   {
+    "type": "tag",
+    "key": "don't they",
+    "d": [
+     "do they",
+     "didn't they",
+     "aren't they"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ Most people brush... ซึ่งเป็น present simple บอกเล่า กริยาหลัก brush จึงใช้ tag ว่า don't they ส่วน do they ใช้กับประโยคบอกเล่าไม่ได้ และ didn't they, aren't they ไม่ตรงกับกริยาปัจจุบัน"
+   },
+   {
+    "type": "verb",
+    "key": "cannot",
+    "d": [
+     "can",
+     "will",
+     "must"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ cannot เพราะเนื้อความบอกว่าเคลือบฟันที่สึกไปจะงอกกลับมาไม่ได้ (ข้อเท็จจริงทางการแพทย์) ส่วน can, will, must ทำให้ความหมายกลับด้านว่าเคลือบฟันงอกใหม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "follow",
+    "d": [
+     "follows",
+     "followed",
+     "following"
+    ],
+    "exp": "ช่อง (3) ประธาน patients who เป็นพหูพจน์และเล่าปัจจุบันคู่กับ report จึงใช้ follow ส่วน follows เป็นเอกพจน์, followed เป็นอดีตขัดกับ report และ following ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "conn",
+    "key": "but",
+    "d": [
+     "so",
+     "or",
+     "nor"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ but เพราะสองความคิดขัดกัน: สัญญาจะเริ่มพรุ่งนี้ แต่ พรุ่งนี้ไม่เคยมาถึง ส่วน so บอกผลซึ่งผิดตรรกะ, or บอกทางเลือก และ nor ต้องใช้คู่ neither"
+   },
+   {
+    "type": "vocab",
+    "key": "causes",
+    "d": [
+     "cures",
+     "carves",
+     "carts"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ causes (ทำให้เกิดฟันผุ) ตามคำอธิบายเรื่องน้ำตาลและกรด ส่วน cures (รักษา) ทำให้ความหมายกลับด้าน และ carves (แกะสลัก), carts (บรรทุก) ไม่เข้ากับ cavities"
+   },
+   {
+    "type": "vocab",
+    "key": "washes",
+    "d": [
+     "wishes",
+     "wastes",
+     "wants"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ washes... away ซึ่งเป็น phrasal verb แปลว่า ชะล้างออกไป (บ้วนน้ำชะกรด) ส่วน wishes (ปรารถนา), wastes (เปลือง), wants (ต้องการ) สะกดใกล้กันแต่ไม่เข้ากับความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "once",
+    "d": [
+     "one",
+     "first",
+     "only"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ once a year (ปีละครั้ง) ซึ่งเป็นคำบอกความถี่ ส่วน one เป็นตัวเลขที่ใช้แทนความถี่ไม่ได้, first (ครั้งแรก) และ only (เท่านั้น) ไม่เข้ากับความถี่ของการตรวจฟัน"
+   },
+   {
+    "type": "vocab",
+    "key": "need",
+    "d": [
+     "knead",
+     "kneel",
+     "needle"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ need (ต้องการ) — อุดฟันที่ถูกที่สุดคือรูที่ไม่เคยต้องอุด ส่วน knead (นวดแป้ง) ออกเสียงเหมือนกันแต่คนละความหมาย, kneel (คุกเข่า) และ needle (เข็ม) ไม่เข้ากับบริบท"
+   }
+  ]
+ }
+]

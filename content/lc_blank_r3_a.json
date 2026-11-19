@@ -1,0 +1,262 @@
+[
+ {
+  "first": "S01-Q021",
+  "context": "Nora: Owen, Ms. Lee asked us to run the water and first-aid table on Sports Day. Are you free that morning?\nOwen: (1) ____\nNora: That works. I’ll look after the table while you’re racing. (2) ____\nOwen: Last year we ran out before lunch, so let’s ask every class to bring refillable bottles.\nNora: Good idea. (3) ____\nOwen: Right—then we’ll need a sign. I’ll make one that says “Refill here” in English and Thai.\nNora: Perfect. And what should we do if someone gets badly hurt?\nOwen: (4) ____\nNora: OK, so we only deal with small cuts and blisters ourselves. That makes sense.\nOwen: Let’s meet at the gym at 7:30 to set everything up.\nNora: (5) ____\nOwen: Fine, let’s say 7:15, then. See you there.",
+  "tip": "อ่านทั้งประโยคก่อนและหลังช่องว่าง ประโยคถัดไปมักบอกว่าผู้พูดคนก่อนเพิ่งพูดอะไร เช่น “while you’re racing” หรือ “let’s say 7:15, then”",
+  "items": [
+   {
+    "key": "I have a relay race at nine, but I can help before and after it.",
+    "d": [
+     "I ran in the relay race last year, and our class came second.",
+     "Ms. Lee is usually in the staff room before the first class.",
+     "No problem—I can stay at the table all morning by myself."
+    ],
+    "exp": "Nora ถามว่า Owen ว่างเช้าวันนั้นหรือไม่ และประโยคถัดไป Nora บอกว่า “I’ll look after the table while you’re racing” จึงต้องเป็นคำตอบที่บอกว่า Owen มีแข่งวิ่งแต่ช่วยได้ก่อนและหลัง ตัวเลือกที่เล่าผลแข่งปีที่แล้วไม่ได้ตอบเรื่องเวลาว่าง ตัวเลือกเรื่อง Ms. Lee ไม่เกี่ยวกับคำถาม และตัวเลือกที่บอกว่าจะอยู่ทั้งเช้าคนเดียวขัดกับการที่ Nora ต้องดูแทนตอน Owen แข่ง"
+   },
+   {
+    "key": "Do you remember how much drinking water we had last year?",
+    "d": [
+     "Who won the relay race against Class 5/2 last year, do you remember?",
+     "Should we put the first-aid kit right next to the finish line this year?",
+     "Have you seen the new running track behind the gym?"
+    ],
+    "exp": "Owen ตอบว่า “Last year we ran out before lunch...” (ปีที่แล้วน้ำหมดก่อนเที่ยง) ช่อง (2) จึงต้องเป็นคำถามเรื่องปริมาณน้ำดื่ม ตัวเลือกที่ถามว่าใครชนะเมื่อปีที่แล้วมีคำว่า last year เหมือนกันแต่ถามคนละเรื่อง ส่วนคำถามเรื่องชุดปฐมพยาบาลและลู่วิ่งใหม่ไม่สอดคล้องกับคำตอบเรื่องน้ำหมด"
+   },
+   {
+    "key": "We could set up a refill tank so nobody buys plastic bottles.",
+    "d": [
+     "We could sell cold drinks to raise money for the sports club.",
+     "We should hand out new plastic bottles to the runners instead.",
+     "Let’s ask the canteen to close early on Sports Day."
+    ],
+    "exp": "หลังช่อง (3) Owen ตอบว่า “then we’ll need a sign” และป้าย Refill here แสดงว่าช่อง (3) ต้องเสนอจุดเติมน้ำ คำตอบที่เสนอ refill tank จึงต่อกันได้ ตัวเลือกขายเครื่องดื่มไม่ทำให้ต้องมีป้าย Refill here ตัวเลือกแจกขวดพลาสติกใหม่ขัดกับแนวคิดขวดเติมน้ำ และการให้โรงอาหารปิดเร็วไม่เกี่ยวข้อง"
+   },
+   {
+    "key": "Nothing serious ourselves—we should call the school nurse straight away.",
+    "d": [
+     "We should give them some water, let them rest, and tell them to keep running.",
+     "Don’t worry—nobody got hurt at last year’s Sports Day.",
+     "I’ll bring extra plasters, sun cream and some snacks for all the helpers."
+    ],
+    "exp": "Nora สรุปต่อว่า “so we only deal with small cuts and blisters ourselves” แปลว่า Owen เพิ่งบอกว่าเรื่องร้ายแรงต้องให้พยาบาลโรงเรียนดูแล ตัวเลือกให้ดื่มน้ำแล้ววิ่งต่อไม่ปลอดภัยและไม่ตรง ตัวเลือก “nobody got hurt” ไม่ได้ตอบว่าควรทำอย่างไร ส่วนการเตรียมพลาสเตอร์และขนมไม่ได้ตอบเรื่องคนเจ็บหนัก"
+   },
+   {
+    "key": "Could we make it a bit earlier? The tank takes a while to fill.",
+    "d": [
+     "Sounds good—see you at the gym at 7:30, then.",
+     "I’m afraid I can’t come on Sports Day this year.",
+     "The gym was very crowded during last year’s opening ceremony."
+    ],
+    "exp": "ประโยคสุดท้าย Owen ตอบว่า “Fine, let’s say 7:15, then.” แสดงว่า Nora ขอเลื่อนเวลาให้เร็วขึ้น ตัวเลือกที่ตกลง 7:30 ขัดกับการที่ Owen เปลี่ยนเวลา ตัวเลือกที่บอกว่ามาไม่ได้เลยขัดกับบทสนทนาทั้งหมด และเรื่องความแออัดปีที่แล้วไม่นำไปสู่การเปลี่ยนเวลา"
+   }
+  ]
+ },
+ {
+  "first": "S01-Q026",
+  "context": "Tom: Mint, the book exchange is on Thursday, and we still don’t have enough books for the fiction table.\nMint: (1) ____\nTom: A box from the teachers would help a lot. Most students only brought old textbooks.\nMint: (2) ____\nTom: Maybe, but last time nobody wanted them, and they filled two tables.\nMint: Fair point. (3) ____\nTom: Yes, one coupon for every book that’s in good condition sounds fair.\nMint: And what if someone brings a book with missing pages?\nTom: (4) ____\nMint: OK. I’ll write that rule on the poster, then.\nTom: Thanks. Can you also be at the lounge by 11:30 to set up the tables?\nMint: (5) ____\nTom: No problem. Just come as soon as your class finishes, and I’ll start without you.",
+  "tip": "ตัวเลือกที่ถูกต้องต้องเข้ากับทั้งสิ่งที่พูดก่อนหน้าและคำตอบที่ตามมา เช่น “Maybe, but last time nobody wanted them” ต้องตอบข้อเสนอที่เพิ่งพูด",
+  "items": [
+   {
+    "key": "I could ask the English teachers for some novels.",
+    "d": [
+     "I finished a great mystery novel on the bus yesterday.",
+     "We had far too many fiction books at last year’s exchange, remember?",
+     "The library closes early on Thursdays, so we can’t go."
+    ],
+    "exp": "Tom ตอบต่อว่า “A box from the teachers would help a lot” จึงต้องเป็นข้อเสนอให้ไปขอหนังสือจากครู ตัวเลือกที่เล่าว่าอ่านนิยายบนรถบัสไม่ได้แก้ปัญหา ตัวเลือกที่บอกว่ามีหนังสือนิยายมากเกินไปขัดกับปัญหาว่าหนังสือไม่พอ และเรื่องห้องสมุดปิดเร็วไม่ได้นำไปสู่การพูดถึงกล่องหนังสือจากครู"
+   },
+   {
+    "key": "Should we accept the old textbooks as well, then?",
+    "d": [
+     "Did you enjoy the textbooks we used in class last term?",
+     "Can the teachers sign the posters before we put them up?",
+     "Why are textbooks so expensive this year?"
+    ],
+    "exp": "Tom ตอบว่า “Maybe, but last time nobody wanted them, and they filled two tables.” แสดงว่า Mint เพิ่งถามว่าควรรับตำราเก่าด้วยหรือไม่ ตัวเลือกที่ถามว่าชอบตำราเทอมก่อนไหม หรือถามว่าทำไมตำราแพง ไม่เข้ากับคำตอบเรื่องไม่มีใครต้องการ ส่วนการให้ครูเซ็นโปสเตอร์ไม่เกี่ยวข้อง"
+   },
+   {
+    "key": "Then let’s give coupons only for books people want.",
+    "d": [
+     "Then let’s charge visitors a small fee to come in.",
+     "Then let’s give away the old textbooks first, before anything else.",
+     "Then let’s cancel the fiction table this year."
+    ],
+    "exp": "Tom ตอบรับว่า “one coupon for every book that’s in good condition sounds fair” แสดงว่าช่อง (3) เสนอเรื่องคูปองแลกหนังสือ ตัวเลือกเก็บค่าเข้า แจกตำราก่อน หรือยกเลิกโต๊ะนิยาย ไม่ได้พูดถึงคูปองและขัดกับเป้าหมายของงาน"
+   },
+   {
+    "key": "We’d better not give a coupon for that one.",
+    "d": [
+     "We’d better put it on the fiction table first.",
+     "We’d better ask the author to sign it.",
+     "We’d better sell it for a higher price."
+    ],
+    "exp": "Mint ตอบต่อว่า “I’ll write that rule on the poster” จึงต้องเป็นกฎที่ชัดเจนเกี่ยวกับหนังสือที่หน้าหาย ซึ่งสอดคล้องกับเงื่อนไข “good condition” ก่อนหน้า ตัวเลือกให้วางบนโต๊ะนิยาย ให้ผู้เขียนเซ็น หรือขายแพงขึ้น ไม่ใช่กฎที่สมเหตุสมผลกับหนังสือที่ชำรุด"
+   },
+   {
+    "key": "I might be late—my science class ends at 11:25.",
+    "d": [
+     "Sure, I’ll be there at 11:00 to unlock the door for everyone.",
+     "Sorry, I forgot to bring the books last week.",
+     "The lounge is next to the computer room, isn’t it?"
+    ],
+    "exp": "Tom ตอบว่า “Just come as soon as your class finishes, and I’ll start without you.” แสดงว่า Mint บอกว่าอาจมาช้าเพราะติดเรียน ตัวเลือกที่บอกว่าจะมาตอน 11:00 ไม่ทำให้ Tom ต้องเริ่มก่อน ตัวเลือกขอโทษเรื่องสัปดาห์ก่อนและการถามตำแหน่งห้องไม่สอดคล้องกับคำตอบ"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q021",
+  "context": "Ben: Nina, are we still taking the train to Ayutthaya on Saturday?\nNina: (1) ____\nBen: Oh no. What time does the next one leave?\nNina: There’s one at 8:40, but it arrives after the boat tour starts.\nBen: (2) ____\nNina: Good thinking. If the tour company agrees, we won’t have to rush.\nBen: I’ll call them this afternoon. (3) ____\nNina: Not really. A water bottle, a hat and comfortable shoes should be enough.\nBen: What about lunch? Are we eating near the temples?\nNina: (4) ____\nBen: That sounds cheaper. I’ll bring some fruit as well.\nNina: Great. Text me when you’ve spoken to the tour company.\nBen: (5) ____\nNina: Even better. Just send me a screenshot of the new time.",
+  "tip": "ในบทสนทนาเรื่องการวางแผน ให้ดูว่าผู้พูดคนถัดไปตอบรับ ปฏิเสธ หรือถามต่อเรื่องใด แล้วเลือกตัวเลือกที่ทำให้คำตอบนั้นสมเหตุสมผล",
+  "items": [
+   {
+    "key": "Yes, but the 7:20 train is already full.",
+    "d": [
+     "Yes, and the 7:20 train still has plenty of seats.",
+     "I went to Ayutthaya with my family last year.",
+     "No, we decided to go by bus on Sunday instead."
+    ],
+    "exp": "Ben ตอบว่า “Oh no. What time does the next one leave?” จึงต้องเป็นข่าวไม่ดีเกี่ยวกับรถไฟขบวนที่ตั้งใจจะขึ้น ตัวเลือกที่บอกว่ายังมีที่นั่งเหลือไม่ทำให้ Ben ต้องพูดว่า Oh no ตัวเลือกเล่าเรื่องปีที่แล้วไม่ได้ตอบคำถาม และตัวเลือกที่ว่าเปลี่ยนไปนั่งรถบัสวันอาทิตย์ขัดกับการถามหารถไฟขบวนถัดไป"
+   },
+   {
+    "key": "Why don’t we ask if we can join a later tour?",
+    "d": [
+     "Why don’t we leave the boat tour until next year?",
+     "Why don’t we take the 8:40 train and skip the tour?",
+     "Why don’t we buy our train tickets on the day?"
+    ],
+    "exp": "Nina ตอบว่า “If the tour company agrees, we won’t have to rush.” ช่อง (2) จึงต้องเป็นข้อเสนอที่ต้องขอความเห็นจากบริษัททัวร์ คือขอเปลี่ยนไปรอบทัวร์ที่ช้ากว่า ตัวเลือกเลื่อนไปปีหน้าหรือยกเลิกทัวร์ไม่ต้องขอบริษัททัวร์ ส่วนซื้อตั๋ววันเดินทางเสี่ยงยิ่งขึ้นเพราะรถไฟเต็มแล้ว"
+   },
+   {
+    "key": "Do we need to bring anything special?",
+    "d": [
+     "Do you know the tour company’s phone number?",
+     "Did you enjoy the boat tour last time?",
+     "Have you ever been to a temple at night?"
+    ],
+    "exp": "Nina ตอบว่า “Not really. A water bottle, a hat and comfortable shoes should be enough.” แสดงว่าคำถามคือต้องเตรียมของอะไรพิเศษหรือไม่ คำถามเรื่องเบอร์โทรศัพท์ ความประทับใจทัวร์ครั้งก่อน หรือการไปวัดตอนกลางคืน จะไม่ได้รับคำตอบเป็นรายการของที่ต้องพกแบบนี้"
+   },
+   {
+    "key": "Restaurants there are expensive. Let’s pack sandwiches.",
+    "d": [
+     "Yes, there’s a famous restaurant right next to the main temple.",
+     "I’m never very hungry when I travel by train, so I’ll skip it.",
+     "The boat tour includes a free lunch for students."
+    ],
+    "exp": "Ben ตอบว่า “That sounds cheaper. I’ll bring some fruit as well.” จึงต้องเป็นข้อเสนอที่ประหยัดกว่าและเกี่ยวกับการเตรียมอาหารไปเอง ตัวเลือกร้านอาหารดังไม่ได้ถูกกว่า ตัวเลือกว่าไม่หิวไม่ทำให้ Ben จะนำผลไม้ไป และหากทัวร์มีอาหารฟรีก็ไม่ต้องพูดว่า cheaper"
+   },
+   {
+    "key": "Actually, I’ll ask them to email us the new booking.",
+    "d": [
+     "Actually, I don’t think I’ll call them after all.",
+     "Actually, I’ll wait until we arrive in Ayutthaya.",
+     "Actually, my phone number has changed recently."
+    ],
+    "exp": "Nina ตอบว่า “Even better. Just send me a screenshot of the new time.” แสดงว่า Ben เสนอวิธีที่ดีกว่าส่งข้อความ คือขอให้บริษัทส่งอีเมลยืนยันการจองใหม่ ตัวเลือกที่ว่าจะไม่โทรหรือจะรอถึงอยุธยา ไม่ใช่สิ่งที่ “even better” และการเปลี่ยนเบอร์โทรไม่เกี่ยวกับภาพหน้าจอเวลารอบใหม่"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q026",
+  "context": "Ken: Tara, ten new members are joining the English club on Wednesday. Any ideas for a welcome activity?\nTara: (1) ____\nKen: Hmm, some of them might be too shy to talk in front of everyone.\nTara: (2) ____\nKen: That’s better. Small groups of three or four would feel much more relaxed.\nTara: We could give each group a few question cards so they know what to ask.\nKen: (3) ____\nTara: True. Let’s keep them simple, like “What music do you listen to?”\nKen: Should we ask the teacher to join us?\nTara: (4) ____\nKen: Good point. She can come at the end and say a few words instead.\nTara: OK. I’ll book Room 204 for 4:00.\nKen: (5) ____\nTara: Oh, right. I’ll check if Room 206 is free, then.",
+  "tip": "สังเกตคำเชื่อมการโต้ตอบ เช่น “Hmm”, “That’s better”, “Good point”, “Oh, right” ซึ่งบอกว่าผู้พูดเห็นด้วย กังวล หรือเพิ่งรู้ข้อมูลใหม่",
+  "items": [
+   {
+    "key": "Each new member could introduce themselves to the whole club.",
+    "d": [
+     "We could give the new members a vocabulary test on the first day.",
+     "The club usually meets on Wednesdays after school.",
+     "I joined the club last year because my best friend was already a member."
+    ],
+    "exp": "Ken ตอบว่า “some of them might be too shy to talk in front of everyone” จึงต้องเป็นกิจกรรมที่ให้สมาชิกใหม่พูดต่อหน้าทุกคน ตัวเลือกสอบคำศัพท์ไม่เกี่ยวกับการพูดต่อหน้าคนอื่น ตัวเลือกเรื่องวันประชุมไม่ใช่ไอเดียกิจกรรม และการเล่าว่าตนเข้าชมรมเมื่อไรไม่ได้ตอบคำถาม"
+   },
+   {
+    "key": "Then maybe they could chat in small groups first.",
+    "d": [
+     "Then maybe they should speak for five minutes each.",
+     "Then maybe we should cancel the welcome activity this time.",
+     "Then maybe they could write a long essay instead."
+    ],
+    "exp": "Ken ตอบว่า “That’s better. Small groups of three or four would feel much more relaxed.” แปลว่า Tara เพิ่งเสนอให้คุยเป็นกลุ่มเล็ก ตัวเลือกให้พูดคนละห้านาทีทำให้คนขี้อายลำบากขึ้น การยกเลิกกิจกรรมหรือให้เขียนเรียงความไม่สอดคล้องกับการพูดถึงกลุ่มเล็ก"
+   },
+   {
+    "key": "Yes, but the questions shouldn’t be too personal.",
+    "d": [
+     "Yes, and each card should have ten difficult words.",
+     "No, I think they should prepare speeches at home.",
+     "Yes, and the teacher can mark their answers."
+    ],
+    "exp": "Tara ตอบว่า “True. Let’s keep them simple” แสดงว่า Ken เพิ่งเตือนเรื่องคำถามที่เป็นเรื่องส่วนตัวเกินไป ตัวเลือกคำยากสิบคำและการให้ครูตรวจคำตอบขัดกับการทำให้เรียบง่าย ส่วนการเตรียมสุนทรพจน์ไม่ได้ต่อจากเรื่องการ์ดคำถาม"
+   },
+   {
+    "key": "Maybe not for the whole time—they might feel nervous.",
+    "d": [
+     "Yes, she should lead the small groups herself from the start.",
+     "No, she doesn’t know any of the members.",
+     "Yes, she can give them a grammar quiz."
+    ],
+    "exp": "Ken ตอบว่า “Good point. She can come at the end and say a few words instead.” แสดงว่า Tara ไม่อยากให้ครูอยู่ตลอดเพราะสมาชิกใหม่อาจประหม่า ตัวเลือกให้ครูนำทุกกลุ่มหรือให้ทำแบบทดสอบขัดกับการให้ครูมาแค่ตอนท้าย ส่วนการบอกว่าครูไม่รู้จักสมาชิกไม่นำไปสู่คำว่า Good point"
+   },
+   {
+    "key": "Isn’t the science club in that room on Wednesdays?",
+    "d": [
+     "Room 204 is the biggest room on the second floor.",
+     "Great. 4:00 is the perfect time for everyone.",
+     "Can we bring some snacks and drinks into Room 204?"
+    ],
+    "exp": "Tara ตอบว่า “Oh, right. I’ll check if Room 206 is free, then.” แสดงว่า Ken เพิ่งเตือนปัญหาเกี่ยวกับห้อง 204 ตัวเลือกที่ชมว่าห้องใหญ่หรือตกลงเวลา 4:00 ไม่ทำให้ต้องเปลี่ยนห้อง และคำถามเรื่องนำขนมเข้าห้องไม่ได้ทำให้ต้องหาห้องใหม่"
+   }
+  ]
+ },
+ {
+  "first": "S03-Q021",
+  "context": "Dan: Fah, the new herb beds at the community garden are ready. When do you want to plant the seedlings?\nFah: (1) ____\nDan: Saturday morning works for me, too. Should we start early before it gets hot?\nFah: (2) ____\nDan: OK, 8:00 at the south gate, then. How many seedlings do we have?\nFah: About sixty, but the basil and the mint shouldn’t go in the same bed.\nDan: (3) ____\nFah: Mint spreads very quickly and can take over the whole bed.\nDan: I see. (4) ____\nFah: That’s a good idea. Then visitors will know what each plant is.\nDan: I’ll bring the watering cans. Can you bring some gloves?\nFah: (5) ____\nDan: Don’t worry. I have a few extra pairs at home.",
+  "tip": "เมื่อคำตอบในบรรทัดถัดไปเป็นการให้เหตุผล เช่น “Mint spreads very quickly” ช่องก่อนหน้าน่าจะเป็นคำถาม Why",
+  "items": [
+   {
+    "key": "How about Saturday? It’s supposed to rain on Sunday.",
+    "d": [
+     "I planted some tomatoes and chillies at home last weekend.",
+     "The garden closes at five on weekdays.",
+     "We should buy more seedlings before we start."
+    ],
+    "exp": "Dan ตอบว่า “Saturday morning works for me, too.” แสดงว่า Fah เพิ่งเสนอวันเสาร์ ตัวเลือกเรื่องปลูกมะเขือเทศที่บ้าน เวลาปิดของสวนวันธรรมดา หรือการซื้อต้นกล้าเพิ่ม ไม่ได้เสนอวันปลูก"
+   },
+   {
+    "key": "Definitely. Let’s meet at the south gate at eight.",
+    "d": [
+     "No, let’s wait until the afternoon when it’s cooler.",
+     "Definitely. Let’s meet at the north gate at six.",
+     "I’m not sure the seedlings are ready to go in the ground yet."
+    ],
+    "exp": "Dan ยืนยันว่า “OK, 8:00 at the south gate, then.” จึงต้องเป็นคำตอบที่ตกลงเริ่มเช้าและนัด 8 โมงที่ประตูทิศใต้ ตัวเลือกที่นัดประตูทิศเหนือ 6 โมงไม่ตรงข้อมูล ตัวเลือกให้รอบ่ายขัดกับการเริ่มเช้า และการไม่แน่ใจว่าต้นกล้าพร้อมขัดกับการนัดหมาย"
+   },
+   {
+    "key": "Really? Why not?",
+    "d": [
+     "Really? Where did you buy them?",
+     "Really? How much did they cost?",
+     "Really? When will they be ready?"
+    ],
+    "exp": "Fah ตอบว่า “Mint spreads very quickly and can take over the whole bed.” ซึ่งเป็นการให้เหตุผล ช่อง (3) จึงต้องถามว่าทำไม ตัวเลือกที่ถามสถานที่ซื้อ ราคา หรือเวลาที่พร้อม ไม่ได้รับคำตอบเป็นเหตุผลแบบนี้"
+   },
+   {
+    "key": "Let’s put a small name label next to each bed.",
+    "d": [
+     "Let’s plant the mint in the middle of the beds.",
+     "Let’s ask visitors not to come on Saturday.",
+     "Let’s throw away the mint seedlings."
+    ],
+    "exp": "Fah ตอบว่า “Then visitors will know what each plant is.” ช่อง (4) จึงต้องเป็นข้อเสนอติดป้ายชื่อ ตัวเลือกปลูกสะระแหน่กลางทุกแปลงขัดกับสิ่งที่ Fah เพิ่งเตือน การห้ามผู้มาเยี่ยมหรือทิ้งต้นกล้าไม่ได้ช่วยให้คนรู้ว่าต้นไม้แต่ละชนิดคืออะไร"
+   },
+   {
+    "key": "I only have one pair, I’m afraid.",
+    "d": [
+     "Sure, I have plenty of gloves for everyone.",
+     "I’ll bring the watering cans instead.",
+     "Gloves are sold at the market near the gate."
+    ],
+    "exp": "Dan ตอบว่า “Don’t worry. I have a few extra pairs at home.” แสดงว่า Fah เพิ่งบอกว่ามีถุงมือไม่พอ ตัวเลือกที่ว่ามีถุงมือพอสำหรับทุกคนไม่ทำให้ Dan ต้องปลอบว่า Don’t worry ส่วน Dan บอกแล้วว่าจะเอาบัวรดน้ำมาเอง และการบอกว่ามีขายที่ตลาดไม่ได้แสดงปัญหาที่ Dan ต้องแก้"
+   }
+  ]
+ }
+]

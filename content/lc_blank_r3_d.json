@@ -1,0 +1,262 @@
+[
+ {
+  "first": "S08-Q026",
+  "context": "Sam: Ploy, the science fair is on Friday. Is our solar oven ready?\nPloy: (1) ____\nSam: Oh no. Maybe we used the wrong kind of foil.\nPloy: Possibly. Or maybe the box lets too much heat escape.\nSam: (2) ____\nPloy: Good idea. Let’s test both changes tomorrow and compare the results.\nSam: What if it’s cloudy on Friday?\nPloy: (3) ____\nSam: That’s a relief. At least the judges will see that it works.\nPloy: Should we explain the science on a poster or just talk to visitors?\nSam: (4) ____\nPloy: Fair enough. Some visitors may be too shy to ask questions.\nSam: Where’s our table in the hall?\nPloy: (5) ____\nSam: Great. We’ll get more sunlight there.",
+  "tip": "คำตอบเช่น “That’s a relief” แสดงว่าข้อมูลในช่องก่อนหน้าช่วยลดความกังวล ส่วน “Fair enough” มักตามหลังการให้เหตุผล",
+  "items": [
+   {
+    "key": "Almost, but it only reached forty degrees yesterday.",
+    "d": [
+     "Yes, it melted a bar of chocolate in less than five minutes.",
+     "I haven’t decided what our project is about.",
+     "We won second prize at last year’s fair."
+    ],
+    "exp": "Sam ตอบว่า “Oh no. Maybe we used the wrong kind of foil.” จึงต้องเป็นปัญหาที่เตาร้อนไม่พอ ตัวเลือกที่บอกว่าละลายช็อกโกแลตได้เร็วไม่ใช่ข่าวร้าย การบอกว่ายังไม่ได้เลือกหัวข้อขัดกับการมีเตาแล้ว และรางวัลปีก่อนไม่เกี่ยวกับความพร้อม"
+   },
+   {
+    "key": "We could try thicker foil and seal the edges with tape.",
+    "d": [
+     "We could paint the whole box black on the outside.",
+     "We could just tell the judges it works.",
+     "We could leave the lid open to let air in."
+    ],
+    "exp": "Ploy ตอบว่า “Let’s test both changes tomorrow” ซึ่งหมายถึงการแก้ทั้งสองสาเหตุที่เพิ่งพูด คือฟอยล์และความร้อนรั่ว ตัวเลือกใช้ฟอยล์หนาขึ้นและปิดขอบจึงมีสองการเปลี่ยนแปลงที่ตรงกัน การเปิดฝาทำให้ความร้อนออกมากขึ้น การบอกกรรมการว่าใช้ได้ไม่ใช่การทดลอง และการทาสีภายนอกเป็นการเปลี่ยนเพียงอย่างเดียวที่ไม่ตรงกับสองสาเหตุ"
+   },
+   {
+    "key": "Don’t worry. We can show a video of our sunny test.",
+    "d": [
+     "Then the judges won’t be able to see anything that it does.",
+     "Then we’ll have to take the oven home.",
+     "It never rains in March, so that’s impossible."
+    ],
+    "exp": "Sam ตอบว่า “That’s a relief. At least the judges will see that it works.” แสดงว่า Ploy เสนอทางแก้ที่ทำให้กรรมการเห็นผลแม้มีเมฆ ตัวเลือกที่ว่ากรรมการจะไม่เห็นอะไรหรือต้องนำกลับบ้านไม่ใช่เรื่องโล่งใจ และการยืนยันว่าฝนไม่ตกไม่ได้ตอบกรณีฟ้าครึ้ม"
+   },
+   {
+    "key": "Both. A poster helps people who don’t want to talk.",
+    "d": [
+     "Just talking. Posters take far too long to make and print.",
+     "Neither. Visitors can read about it online.",
+     "Just a poster, because we’ll be too busy."
+    ],
+    "exp": "Ploy ตอบว่า “Fair enough. Some visitors may be too shy to ask questions.” จึงต้องเป็นเหตุผลว่าโปสเตอร์ช่วยคนที่ไม่อยากพูด ตัวเลือกพูดอย่างเดียวหรือไม่ทำอะไรเลยไม่ช่วยคนขี้อาย ส่วนโปสเตอร์อย่างเดียวเพราะยุ่งไม่ได้ให้เหตุผลเกี่ยวกับผู้ชมขี้อาย"
+   },
+   {
+    "key": "Next to the big windows on the east side.",
+    "d": [
+     "In the corner of the hall, behind the stage curtain.",
+     "Outside, near the car park.",
+     "We don’t have a table this year."
+    ],
+    "exp": "Sam ตอบว่า “Great. We’ll get more sunlight there.” จึงต้องเป็นตำแหน่งที่ได้แดดมากและอยู่ในห้องโถง ตัวเลือกมุมหลังม่านเวทีไม่มีแดด ข้างนอกใกล้ที่จอดรถไม่ใช่ “in the hall” และการไม่มีโต๊ะขัดกับคำถาม"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q021",
+  "context": "Alex: Beam, we’re visiting the food bank on Saturday. Have you checked how many volunteers are coming?\nBeam: (1) ____\nAlex: That’s more than last time. We’ll need to split into teams.\nBeam: (2) ____\nAlex: Sounds good. Then one team can sort the cans while the other packs boxes.\nBeam: Should we bring anything from school?\nAlex: (3) ____\nBeam: OK, I’ll ask the class to bring rice and canned fish, then.\nAlex: What time do we need to be there?\nBeam: (4) ____\nAlex: Hmm, that’s early. I’ll have to take the first bus.\nBeam: (5) ____\nAlex: Thanks, that would be a big help. I’ll wait at the corner by the bakery.",
+  "tip": "สังเกตคำตอบที่บอกผลลัพธ์ เช่น “That’s more than last time” หรือ “Hmm, that’s early” แล้วเลือกตัวเลือกที่ทำให้ปฏิกิริยานั้นสมเหตุสมผล",
+  "items": [
+   {
+    "key": "Yes, sixteen people signed up this time.",
+    "d": [
+     "Only three people, unfortunately.",
+     "I volunteered at a hospital last summer.",
+     "The food bank is closed on Saturdays."
+    ],
+    "exp": "Alex ตอบว่า “That’s more than last time. We’ll need to split into teams.” จึงต้องเป็นจำนวนอาสาสมัครที่มากพอแบ่งทีม ตัวเลือกมีเพียงสามคนไม่ต้องแบ่งทีม การเล่าว่าเคยอาสาที่โรงพยาบาลไม่ได้ตอบจำนวน และการบอกว่าปิดวันเสาร์ขัดกับแผนการไป"
+   },
+   {
+    "key": "How about two teams of eight?",
+    "d": [
+     "How about one big team of sixteen?",
+     "How about working alone this time?",
+     "How about sending half of them home?"
+    ],
+    "exp": "Alex ตอบว่า “Then one team can sort the cans while the other packs boxes.” จึงต้องแบ่งเป็นสองทีม ตัวเลือกทีมเดียว ทำคนเดียว หรือให้ครึ่งหนึ่งกลับบ้าน ไม่ทำให้มีสองทีมทำงานคู่กัน"
+   },
+   {
+    "key": "Yes, they need food that doesn’t go bad quickly.",
+    "d": [
+     "No, they already have more food than they can give away.",
+     "Yes, they need fresh cakes and ice cream.",
+     "Just bring your phone so we can take some photos for the school page."
+    ],
+    "exp": "Beam ตอบว่าจะขอให้เพื่อนนำข้าวและปลากระป๋องมา ซึ่งเป็นอาหารที่เก็บได้นาน ตัวเลือกที่ว่ามีอาหารเกินพอขัดกับการขอบริจาค เค้กสดและไอศกรีมเสียง่าย และการนำโทรศัพท์มาถ่ายรูปไม่เกี่ยวกับข้าวและปลากระป๋อง"
+   },
+   {
+    "key": "We should arrive by 7:30 to unload the truck.",
+    "d": [
+     "Any time after lunch is fine.",
+     "We should arrive at about eleven.",
+     "It doesn’t matter—we can come whenever we like."
+    ],
+    "exp": "Alex ตอบว่า “Hmm, that’s early. I’ll have to take the first bus.” จึงต้องเป็นเวลาที่เช้ามาก ตัวเลือกหลังอาหารกลางวันหรือสิบเอ็ดโมงไม่ใช่เวลาเช้า และการมาเวลาไหนก็ได้ไม่ทำให้ต้องขึ้นรถเมล์คันแรก"
+   },
+   {
+    "key": "My dad drives past your street. We could give you a lift.",
+    "d": [
+     "The first bus is usually very crowded.",
+     "I’ll take the first bus, too, then.",
+     "You could always stay at home instead."
+    ],
+    "exp": "Alex ตอบว่า “Thanks, that would be a big help. I’ll wait at the corner by the bakery.” แสดงว่า Beam เสนอให้ติดรถไปด้วย ตัวเลือกบอกว่ารถเมล์แน่นไม่ใช่ความช่วยเหลือ การขึ้นรถเมล์ด้วยกันไม่ต้องรอที่มุมถนน และการให้อยู่บ้านไม่ใช่ “a big help”"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q026",
+  "context": "Maya: June, our history presentation is on Monday. How are the slides going?\nJune: (1) ____\nMaya: Twenty-five is far too many for ten minutes.\nJune: (2) ____\nMaya: Yes, that would help. We could keep only the most important dates and pictures.\nJune: Who’s going to speak first?\nMaya: (3) ____\nJune: Fine by me. I’ll talk about the causes, and you can explain the results.\nMaya: Should we practise together before Monday?\nJune: (4) ____\nMaya: The language lab is free at 1:30. Is that OK?\nJune: (5) ____\nMaya: No problem. Let’s say 2:00, then.",
+  "tip": "ตัวเลขที่ผู้พูดถัดไปอ้างถึง (“Twenty-five”) หรือเวลาที่เปลี่ยน (“Let’s say 2:00”) เป็นหลักฐานโดยตรงสำหรับเลือกคำตอบ",
+  "items": [
+   {
+    "key": "Almost done, but there are twenty-five slides now.",
+    "d": [
+     "Almost done, and there are only five slides.",
+     "I haven’t opened the file yet.",
+     "Our teacher really loves it when we do history presentations."
+    ],
+    "exp": "Maya ตอบว่า “Twenty-five is far too many for ten minutes.” จึงต้องเป็นการบอกว่ามียี่สิบห้าสไลด์ ตัวเลือกห้าสไลด์ไม่ตรงตัวเลข ตัวเลือกยังไม่เปิดไฟล์ไม่สอดคล้องกับการมีสไลด์จำนวนมาก และการพูดถึงครูไม่ได้ตอบความคืบหน้า"
+   },
+   {
+    "key": "Should we cut some of the text-heavy ones?",
+    "d": [
+     "Should we add more slides about the war?",
+     "Should we ask the teacher for a much longer time slot?",
+     "Should we read the slides word for word?"
+    ],
+    "exp": "Maya ตอบว่า “Yes, that would help. We could keep only the most important dates and pictures.” จึงต้องเป็นข้อเสนอให้ตัดสไลด์ ตัวเลือกเพิ่มสไลด์ทำให้ปัญหาแย่ลง การขอเวลาเพิ่มไม่ใช่การเก็บเฉพาะข้อมูลสำคัญ และการอ่านทุกคำไม่ได้ลดจำนวน"
+   },
+   {
+    "key": "You could start with the causes, and I’ll finish.",
+    "d": [
+     "Nobody. We’ll just show the slides in silence.",
+     "I’ll do the whole thing by myself.",
+     "Let’s ask the teacher to choose for us."
+    ],
+    "exp": "June ตอบว่า “Fine by me. I’ll talk about the causes, and you can explain the results.” แสดงว่า Maya เสนอให้ June เริ่มด้วยเรื่องสาเหตุและตนพูดตอนท้าย ตัวเลือกไม่มีใครพูด ทำคนเดียว หรือให้ครูเลือก ไม่สอดคล้องกับการแบ่งส่วนกันพูด"
+   },
+   {
+    "key": "Definitely. Maybe on Saturday afternoon?",
+    "d": [
+     "No, practising will only make us nervous.",
+     "Why don’t we just practise in front of the class on Monday?",
+     "I’ve already practised it alone ten times."
+    ],
+    "exp": "Maya ตอบโดยเสนอเวลาว่าห้อง language lab ว่างตอน 1:30 แสดงว่า June ตกลงจะซ้อมและเสนอช่วงบ่าย ตัวเลือกที่ปฏิเสธการซ้อมหรือบอกว่าซ้อมคนเดียวแล้วไม่ทำให้ Maya เสนอห้องซ้อม และการซ้อมต่อหน้าห้องวันจันทร์ไม่ใช่ “before Monday”"
+   },
+   {
+    "key": "Could we make it later? I have swimming until 1:45.",
+    "d": [
+     "Perfect. I’ll be there at 1:30.",
+     "Could we make it earlier? I’m free at noon.",
+     "The language lab doesn’t have a projector that works, though."
+    ],
+    "exp": "Maya ตอบว่า “No problem. Let’s say 2:00, then.” จึงต้องเป็นการขอเลื่อนให้ช้าลงพร้อมเหตุผล ตัวเลือกที่ตกลง 1:30 ไม่ต้องเปลี่ยนเวลา การขอเวลาเร็วขึ้นขัดกับ 2:00 และเรื่องโปรเจกเตอร์ไม่ได้นำไปสู่การเปลี่ยนเวลา"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q021",
+  "context": "Leo: Pat, the bus company called about our class trip to the city history museum next Tuesday.\nPat: (1) ____\nLeo: No, it’s still on. They just want to pick us up at 7:45 instead of 8:00.\nPat: (2) ____\nLeo: That’s true. I’ll send a message to the parents’ group tonight.\nPat: Have we booked a guide at the museum?\nLeo: (3) ____\nPat: Then let’s divide the class into two groups so everyone can hear.\nLeo: Good idea. Can students take photos inside?\nPat: (4) ____\nLeo: OK, I’ll remind everyone to turn their flash off.\nPat: What about lunch?\nLeo: (5) ____\nPat: That’s convenient. We won’t need to walk anywhere.",
+  "tip": "เมื่อผู้พูดถัดไปปฏิเสธ (“No, it’s still on”) ให้มองหาตัวเลือกที่เป็นคำถามหรือความกังวลที่ทำให้ต้องปฏิเสธเช่นนั้น",
+  "items": [
+   {
+    "key": "Oh no, they haven’t cancelled it, have they?",
+    "d": [
+     "Great, I love going to the zoo.",
+     "The museum is closed every Tuesday.",
+     "What did they say about the weather for next Tuesday?"
+    ],
+    "exp": "Leo ตอบว่า “No, it’s still on.” แสดงว่า Pat กังวลว่าทริปถูกยกเลิก ตัวเลือกไปสวนสัตว์ผิดสถานที่ การบอกว่าพิพิธภัณฑ์ปิดวันอังคารขัดกับทริป และคำถามเรื่องสภาพอากาศไม่ได้นำไปสู่คำตอบว่า “still on”"
+   },
+   {
+    "key": "Then we’d better tell the parents about the new time.",
+    "d": [
+     "Then we can sleep a little later on the day of the trip.",
+     "Then the trip will take less time than we planned.",
+     "Then we don’t need to tell anyone."
+    ],
+    "exp": "Leo ตอบว่า “That’s true. I’ll send a message to the parents’ group tonight.” จึงต้องเป็นการเสนอให้แจ้งผู้ปกครองเรื่องเวลาใหม่ การนอนตื่นสายขัดกับเวลารถรับที่เร็วขึ้น การบอกว่าทริปสั้นลงไม่ได้เกี่ยวกับการแจ้งผู้ปกครอง และการไม่ต้องบอกใครขัดกับการส่งข้อความ"
+   },
+   {
+    "key": "Yes, but there’s only one guide for forty of us.",
+    "d": [
+     "Yes, and there are four guides, one for each small group of ten.",
+     "No, the museum doesn’t allow school groups.",
+     "I think the guide speaks French."
+    ],
+    "exp": "Pat ตอบว่า “Then let’s divide the class into two groups so everyone can hear.” แสดงว่ามีไกด์คนเดียวแต่นักเรียนมาก ตัวเลือกมีไกด์สี่คนไม่ต้องแบ่งกลุ่มเพิ่ม การบอกว่าพิพิธภัณฑ์ไม่รับกลุ่มโรงเรียนขัดกับทริป และเรื่องภาษาของไกด์ไม่ได้ทำให้ต้องแบ่งเป็นสองกลุ่ม"
+   },
+   {
+    "key": "Yes, as long as they don’t use flash.",
+    "d": [
+     "No, cameras aren’t allowed anywhere in the building.",
+     "Yes, they can use flash as much as they like.",
+     "Only on the bus, not inside the museum itself."
+    ],
+    "exp": "Leo ตอบว่าจะเตือนให้ปิดแฟลช แสดงว่าถ่ายได้แต่ห้ามใช้แฟลช ตัวเลือกห้ามกล้องทั้งหมดไม่ต้องพูดเรื่องปิดแฟลช ตัวเลือกใช้แฟลชได้ตามสบายขัดกับคำเตือน และการถ่ายได้แค่บนรถไม่ตรงกับคำถามเรื่องภายในพิพิธภัณฑ์"
+   },
+   {
+    "key": "The museum has a café on the ground floor.",
+    "d": [
+     "We’ll eat at a restaurant across the river.",
+     "The class will go home for lunch at noon.",
+     "The bus driver will choose a place on the way back."
+    ],
+    "exp": "Pat ตอบว่า “That’s convenient. We won’t need to walk anywhere.” จึงต้องเป็นที่กินอาหารภายในพิพิธภัณฑ์ ตัวเลือกร้านอีกฝั่งแม่น้ำต้องเดินทาง การกลับบ้านตอนเที่ยงไม่สมเหตุสมผลกับทริป และการให้คนขับเลือกร้านระหว่างทางไม่ใช่ “we won’t need to walk anywhere” ในพิพิธภัณฑ์"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q026",
+  "context": "Pim: Emma, a few people asked if we could run a review session before next week’s English reading test.\nEmma: (1) ____\nPim: I was thinking Wednesday after school, in Study Room 3.\nEmma: (2) ____\nPim: Really? Then let’s ask the librarian to book the bigger room downstairs.\nEmma: What should we focus on?\nPim: (3) ____\nEmma: Good choice. Those questions always take me the longest.\nPim: Could you find a few practice passages?\nEmma: (4) ____\nPim: That’s fine. Short ones are better for a one-hour session anyway.\nEmma: Should we ask Mr. Tan to come?\nPim: (5) ____\nEmma: Good. Then we can check our answers with him at the end.",
+  "tip": "คำว่า “Really?” แสดงความประหลาดใจต่อข้อมูลใหม่ในช่องก่อนหน้า ส่วน “That’s fine” อาจตอบรับข้อจำกัดที่อีกฝ่ายเพิ่งบอก",
+  "items": [
+   {
+    "key": "Sure, I’d be happy to help. When were you thinking?",
+    "d": [
+     "Sorry, but I don’t think a review session will be very useful.",
+     "I already took the reading test last week.",
+     "Is the test about grammar or speaking?"
+    ],
+    "exp": "Pim ตอบว่า “I was thinking Wednesday after school...” จึงต้องเป็นการตอบรับและถามเวลา ตัวเลือกปฏิเสธหรือบอกว่าสอบไปแล้วไม่ทำให้ Pim เสนอเวลา และการถามว่าข้อสอบเรื่องอะไรไม่ได้รับคำตอบเป็นวันและสถานที่"
+   },
+   {
+    "key": "That room only seats six, and fifteen people want to come.",
+    "d": [
+     "That room is perfect for fifteen people.",
+     "Wednesday is the best day for me.",
+     "Study Room 3 has a new whiteboard."
+    ],
+    "exp": "Pim ตอบว่า “Really? Then let’s ask the librarian to book the bigger room downstairs.” แสดงว่า Emma บอกว่าห้องเล็กเกินไป ตัวเลือกที่ว่าห้องเหมาะสม วันพุธสะดวก หรือมีไวท์บอร์ดใหม่ ไม่ทำให้ต้องเปลี่ยนเป็นห้องใหญ่"
+   },
+   {
+    "key": "Maybe inference questions—lots of people find them hard.",
+    "d": [
+     "Maybe spelling, because it’s always easy.",
+     "Maybe we should just chat about films.",
+     "Maybe the questions most people already find easy."
+    ],
+    "exp": "Emma ตอบว่า “Good choice. Those questions always take me the longest.” จึงต้องเป็นคำถามประเภทที่ยาก ตัวเลือกที่ง่ายอยู่แล้วหรือคุยเรื่องหนังไม่ได้ตอบสนองความยากที่ Emma พูดถึง"
+   },
+   {
+    "key": "I can, but most of mine are quite short.",
+    "d": [
+     "I can, and they’re very long ones.",
+     "No, I don’t have any free time this week.",
+     "I’ll write a new textbook for the class."
+    ],
+    "exp": "Pim ตอบว่า “That’s fine. Short ones are better for a one-hour session anyway.” แสดงว่า Emma บอกข้อจำกัดว่าบทอ่านสั้น ตัวเลือกบทอ่านยาวขัดกับ short ones ตัวเลือกไม่มีเวลาเลยไม่ใช่สิ่งที่ Pim จะตอบว่า That’s fine แบบนี้ และการเขียนตำราใหม่ไม่สมจริง"
+   },
+   {
+    "key": "Yes, he can stay for the last twenty minutes.",
+    "d": [
+     "No, he’s away until the end of the month.",
+     "No, teachers aren’t allowed in the library.",
+     "Yes, he can teach the whole session for us."
+    ],
+    "exp": "Emma ตอบว่า “Then we can check our answers with him at the end.” จึงต้องเป็นการที่ครูมาช่วงท้าย ตัวเลือกที่ครูมาไม่ได้หรือครูเข้าห้องสมุดไม่ได้ขัดกับการตรวจคำตอบกับครู และการสอนทั้งคาบไม่ตรงกับการมาช่วงท้าย"
+   }
+  ]
+ }
+]

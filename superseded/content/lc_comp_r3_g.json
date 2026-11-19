@@ -1,0 +1,277 @@
+[
+ {
+  "first": "S16-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Checking walking times before changing the timetable",
+    "d": [
+     "Moving art lessons into the science building",
+     "Making every break longer for all grades",
+     "Repairing the stairs and ramp between the two school buildings"
+    ],
+    "exp": "ปัญหาคือช่วงพักสั้นเกินไป และหลักของบทสนทนาคือการจับเวลาเดินก่อนเสนอเปลี่ยนตาราง ไม่มีการย้ายวิชาศิลปะเข้าอาคารวิทยาศาสตร์ ข้อเสนอคือเลื่อนศิลปะห้านาที ไม่ใช่ยืดทุกช่วงพัก และไม่ได้พูดถึงการซ่อมบันได"
+   },
+   {
+    "prompt": "What did the principal ask them to do?",
+    "key": "Measure how long the walk takes",
+    "d": [
+     "Start art five minutes later",
+     "Test a new timetable with one grade",
+     "Ask students about their lessons"
+    ],
+    "exp": "Noah บอกว่า “The principal asked us to map the walking time before suggesting a timetable change.” การเลื่อนศิลปะเป็นข้อเสนอของ Eve และการทดลองกับหนึ่งระดับชั้นเป็นความเห็นของ Noah ไม่ใช่คำสั่งของผู้อำนวยการ"
+   },
+   {
+    "prompt": "What change might Eve propose?",
+    "key": "Moving art five minutes later",
+    "d": [
+     "Taking art off the timetable",
+     "Holding science in the other building",
+     "Making all breaks ten minutes long"
+    ],
+    "exp": "Eve พูดว่า “we can propose moving art by five minutes.” ตัวเลือกอื่นเป็นการเปลี่ยนแปลงที่ใหญ่กว่าหรือคนละแบบและไม่มีใครเสนอ"
+   },
+   {
+    "prompt": "How does Noah think the change should be tested?",
+    "key": "With one grade before the whole school",
+    "d": [
+     "In every grade at the same time",
+     "By letting the principal decide alone",
+     "Only on days when there is an art lesson"
+    ],
+    "exp": "Noah กล่าวว่า “The school should test the change with one grade first” การทดลองทุกระดับพร้อมกันขัดกับคำว่า first การให้ผู้อำนวยการตัดสินใจคนเดียวไม่ใช่การทดสอบ และไม่ได้ระบุว่าทดลองเฉพาะวันที่มีศิลปะ"
+   },
+   {
+    "prompt": "Why does Noah most likely include the accessible ramp?",
+    "key": "Some students may take longer using the ramp.",
+    "d": [
+     "The stairs are closed for repairs.",
+     "The principal told them to avoid the stairs.",
+     "The ramp is the fastest way between buildings."
+    ],
+    "exp": "Noah จับเวลาทั้งบันไดและทางลาด จึงอนุมานได้ว่าต้องการให้ผลครอบคลุมนักเรียนที่ใช้ทางลาดซึ่งอาจใช้เวลานานกว่า บันไดยังใช้ได้เพราะรวมอยู่ในการจับเวลา ผู้อำนวยการไม่ได้ห้ามใช้บันได และไม่มีข้อมูลว่าทางลาดเร็วที่สุด"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Preparing safely for a new repair volunteer",
+    "d": [
+     "Buying new tools for the repair café",
+     "Teaching visitors to fix their own lamps and toasters",
+     "Finding a bigger room for the café"
+    ],
+    "exp": "ช่างเทคนิคที่เกษียณแล้วอาสามาช่วย และทั้งสองวางแผนตรวจเครื่องมือ ประกันภัย และงานที่ปลอดภัยสำหรับครั้งแรก การซื้อเครื่องมือยังไม่ได้ตัดสินใจ (ต้องถามก่อนว่าต้องใช้อะไร) ส่วนการสอนผู้มาเยือนและการหาห้องใหญ่ไม่มีในบทสนทนา"
+   },
+   {
+    "prompt": "What is the café’s current problem?",
+    "key": "Only one volunteer can check electrical items.",
+    "d": [
+     "Visitors are bringing too many lamps.",
+     "The insurance no longer covers repairs.",
+     "The technician can come only once a year."
+    ],
+    "exp": "Mew บอกว่า “we have only one volunteer who can check electrical items.” ประกันภัยเป็นสิ่งที่ต้องตรวจ ไม่ได้บอกว่าหมดความคุ้มครอง และช่างมาได้เดือนละสองครั้ง ไม่ใช่ปีละครั้ง"
+   },
+   {
+    "prompt": "What does Mew want to confirm?",
+    "key": "The technician’s tools and the insurance",
+    "d": [
+     "The date of the café’s next session",
+     "Which items visitors bring most often",
+     "How much visitors should pay for repairs"
+    ],
+    "exp": "Mew พูดว่า “We should confirm what tools he needs and whether the insurance covers the work.” ตัวเลือกอื่นเป็นเรื่องที่เกี่ยวกับร้านซ่อมแต่ไม่ได้ถูกกล่าวว่าเป็นสิ่งที่ต้องยืนยัน"
+   },
+   {
+    "prompt": "Why will they start with lamps?",
+    "key": "To keep the first event manageable",
+    "d": [
+     "Because lamps are the most valuable items",
+     "Because toasters are not allowed at the café",
+     "Because the technician only repairs lamps"
+    ],
+    "exp": "Dan ให้เหตุผลว่า “That keeps the first event manageable while we learn how many volunteers are needed.” ไม่มีข้อมูลว่าโคมไฟมีค่ากว่า เครื่องปิ้งขนมปังถูกห้าม หรือช่างซ่อมได้เฉพาะโคมไฟ"
+   },
+   {
+    "prompt": "What do they hope to learn from the first session?",
+    "key": "How many volunteers they will need",
+    "d": [
+     "Whether the insurance is still valid",
+     "Which tools the technician owns",
+     "How often the café should open"
+    ],
+    "exp": "Dan บอกว่าการเริ่มทีละน้อยช่วยให้ “learn how many volunteers are needed” ประกันภัยและเครื่องมือเป็นสิ่งที่ต้องตรวจก่อนจัดงาน ไม่ใช่สิ่งที่จะเรียนรู้จากงาน และความถี่ในการเปิดไม่ได้ถูกกล่าวถึง"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Testing part of a planned audio walk",
+    "d": [
+     "Recording the history of the old railway",
+     "Putting new signs at every stop on the walk",
+     "Teaching visitors how to say local names"
+    ],
+    "exp": "ทั้งสองวางแผนทดลองสามจุดแรกของเส้นทางเดินพร้อมเสียงบรรยาย การติดป้ายเพิ่มเป็นทางเลือกที่จะตัดสินหลังทดลอง การบันทึกประวัติศาสตร์และการสอนออกเสียงไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "prompt": "What problem does Ben point out?",
+    "key": "Listeners may not know where to stop.",
+    "d": [
+     "The recordings may be too long.",
+     "Residents may not want visitors.",
+     "The paper map is out of date."
+    ],
+    "exp": "Ben บอกว่า “Some stops have no clear sign, so listeners may not know where to pause.” ตัวเลือกอื่นเป็นปัญหาที่อาจเกิดได้ แต่ไม่มีใครกล่าวถึง"
+   },
+   {
+    "prompt": "Why should residents check the recordings?",
+    "key": "To make sure local names are pronounced correctly",
+    "d": [
+     "To add their own stories about the old railway quarter",
+     "To decide where the new signs should go",
+     "To test whether the paper map is clear"
+    ],
+    "exp": "Ben บอกว่า “the residents should check the pronunciation of local names.” ไม่มีการขอให้ผู้อยู่อาศัยเล่าเรื่อง เลือกจุดติดป้าย หรือทดสอบแผนที่"
+   },
+   {
+    "prompt": "Who will be invited next Saturday?",
+    "key": "A small group of walkers",
+    "d": [
+     "All the residents of the area",
+     "Only members of the history group",
+     "A large group of tourists"
+    ],
+    "exp": "Aom พูดว่า “We’ll invite a small group next Saturday.” คำว่า small group ขัดกับผู้อยู่อาศัยทั้งหมดหรือกลุ่มนักท่องเที่ยวขนาดใหญ่ และไม่ได้ระบุว่าเป็นเฉพาะสมาชิกกลุ่มประวัติศาสตร์"
+   },
+   {
+    "prompt": "What will they decide after the test?",
+    "key": "Whether to add signs or simplify the instructions",
+    "d": [
+     "Whether to cancel the audio walk",
+     "Which residents should record directions",
+     "How many stops to remove from the walk"
+    ],
+    "exp": "Ben สรุปว่าจะ “decide whether the walk needs more signs or simpler instructions.” ไม่มีการพูดถึงการยกเลิกหรือตัดจุดออก และ Ben เป็นผู้บันทึกเสียงคำแนะนำทาง"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q026",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Finding out why rice is wasted in the cafeteria",
+    "d": [
+     "Changing the cafeteria menu every day",
+     "Making the regular rice serving smaller for everyone",
+     "Teaching students not to waste their food"
+    ],
+    "exp": "ทั้งสองวางแผนชั่งข้าวที่เหลือและทำแบบสำรวจเพื่อหาสาเหตุ การลดขนาดปกติสำหรับทุกคนขัดกับแผนที่ยังคงขนาดเดิมไว้ และไม่มีการเปลี่ยนเมนูทุกวันหรือรณรงค์สอนนักเรียน"
+   },
+   {
+    "prompt": "What do the kitchen staff think?",
+    "key": "The servings may be too big.",
+    "d": [
+     "Students do not like the rice.",
+     "Some dishes are too spicy.",
+     "Too many students skip lunch."
+    ],
+    "exp": "June บอกว่า “The kitchen staff think the serving size may be too large.” ตัวเลือกอื่นเป็นเหตุผลที่เป็นไปได้ แต่ไม่ใช่ความเห็นของพนักงานครัวในบทสนทนา"
+   },
+   {
+    "prompt": "Why will they most likely record the menu?",
+    "key": "To see whether the waste changes with the menu",
+    "d": [
+     "To plan next week’s school meals",
+     "To share the menu with parents",
+     "To choose dishes for the survey"
+    ],
+    "exp": "Liam บอกตั้งแต่ต้นว่าข้าวเหลือ “more rice on some days than others” การบันทึกเมนูคู่กับน้ำหนักข้าวเหลือจึงน่าจะใช้ดูว่าปริมาณขยะเปลี่ยนตามเมนูหรือไม่ ตัวเลือกอื่นไม่เกี่ยวกับการตรวจสาเหตุ"
+   },
+   {
+    "prompt": "What will happen to the regular serving during the test?",
+    "key": "It will still be available.",
+    "d": [
+     "It will be removed from the menu.",
+     "It will cost more than before.",
+     "It will be served only on some days."
+    ],
+    "exp": "Liam บอกว่าจะทดลองขนาดเล็ก “without removing the regular one” จึงยังมีขนาดปกติให้เลือก ไม่มีการกล่าวถึงราคาหรือการเสิร์ฟบางวัน"
+   },
+   {
+    "prompt": "What must happen before a permanent change is recommended?",
+    "key": "The waste and survey results must be compared.",
+    "d": [
+     "The kitchen staff must agree to the change.",
+     "The smaller serving must be tested for a whole school year.",
+     "Every student must answer the survey."
+    ],
+    "exp": "June บอกว่า “We should compare the waste and survey results before recommending a permanent change.” ไม่มีเงื่อนไขเรื่องการยินยอมของพนักงาน การทดลองหนึ่งปี หรือให้นักเรียนทุกคนตอบ"
+   }
+  ]
+ },
+ {
+  "first": "S18-Q021",
+  "items": [
+   {
+    "prompt": "What are the speakers mainly discussing?",
+    "key": "Organizing volunteers to water young trees",
+    "d": [
+     "Buying a longer hose for the parks team",
+     "Moving the young trees away from the playground area",
+     "Asking the parks team to visit more often"
+    ],
+    "exp": "แผนหลักคือชวนผู้อยู่อาศัยมาช่วยรดน้ำต้นไม้ที่สายยางเข้าไม่ถึงตามตาราง การซื้อสายยางยาวขึ้นฟังดูเป็นทางแก้แต่ไม่มีใครเสนอ และไม่มีการย้ายต้นไม้หรือขอให้ทีมสวนมาบ่อยขึ้น"
+   },
+   {
+    "prompt": "Why do some of the trees get too little water?",
+    "key": "The hose reaches only half of them.",
+    "d": [
+     "The parks team visits only at weekends.",
+     "Residents have turned off the water.",
+     "The trees were planted in sandy soil."
+    ],
+    "exp": "Oat รายงานว่า “the hose reaches only half of them.” ไม่มีข้อมูลว่าทีมสวนมาเฉพาะสุดสัปดาห์ (ต้นไม้แห้งหลังสุดสัปดาห์ที่แดดจัด) และไม่ได้พูดถึงการปิดน้ำหรือดินทราย"
+   },
+   {
+    "prompt": "Why does Oat want to check the parks team’s visit days?",
+    "key": "So volunteers can water on the other days",
+    "d": [
+     "So the parks team can water every tree",
+     "So residents can meet the parks team",
+     "So they know when to buy a new hose"
+    ],
+    "exp": "Nia ต่อว่า “Then we can invite volunteers for the other evenings” แสดงว่าการรู้วันที่ทีมสวนมาช่วยให้จัดอาสาสมัครวันอื่น ตัวเลือกอื่นไม่ได้ต่อเนื่องกับคำว่า the other evenings"
+   },
+   {
+    "prompt": "What will volunteers do after watering each tree?",
+    "key": "Put a mark on it",
+    "d": [
+     "Measure how tall it is",
+     "Report to the parks team",
+     "Test the soil with a tool"
+    ],
+    "exp": "Nia บอกว่าให้ “mark each tree after watering.” การวัดความสูง รายงานทีมสวน หรือตรวจดิน ไม่ได้ถูกกล่าวถึงเป็นหน้าที่หลังรดน้ำ"
+   },
+   {
+    "prompt": "What will they check after a month?",
+    "key": "Whether the soil stays moist",
+    "d": [
+     "Whether the trees have grown taller",
+     "How many volunteers have joined",
+     "Whether the hose needs repairing"
+    ],
+    "exp": "Oat ปิดท้ายว่า “we can see whether the plan keeps the soil moist.” ความสูงของต้นไม้ จำนวนอาสาสมัคร และการซ่อมสายยางไม่ใช่ตัวชี้วัดที่ระบุ"
+   }
+  ]
+ }
+]

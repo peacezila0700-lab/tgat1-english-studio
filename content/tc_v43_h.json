@@ -1,0 +1,342 @@
+[
+ {
+  "set": 15,
+  "passage": "A",
+  "genre": "film review",
+  "topic": "Film review: Monsoon Letters",
+  "context": "Film review: “Monsoon Letters”, directed by Anon Siri. Siri's third feature is a gentle family drama set during one rainy week in Trang. A retired teacher (1) ____ home to her flooded village to sort her late husband's papers, and finds letters she never knew existed. The film's pace is slow, but the performances (2) ____ it moving rather than boring. Actress Mali Wanmee, (3) ____ plays the teacher's daughter, delivers the year's finest supporting turn. Audiences should not (4) ____ big action scenes; the drama lives in faces and silences. Some viewers have (5) ____ the middle hour slow, a fair criticism. Yet the final scene, in which the rain stops mid-sentence, (6) ____ audiences breathless at last week's premiere. If you liked Siri's earlier films, you will not want to (7) ____ this one.",
+  "tip": "บทวิจารณ์หนังนี้ทดสอบคำกริยาคู่ complement (make it moving, leave audiences breathless) คู่สับสน found/founded และ suggest + กริยารูปฐานไม่ได้ แต่ should not + กริยารูปฐานได้",
+  "items": [
+   {
+    "type": "tense",
+    "key": "returns",
+    "d": [
+     "returned",
+     "returning",
+     "return"
+    ],
+    "exp": "ช่อง (1) เป็นการเล่าเรื่องย่อของหนังซึ่งใช้ present simple (narrative present) ประธาน A retired teacher เอกพจน์จึงใช้ returns และสอดคล้องกับ finds ในประโยคเดียวกัน ส่วน returned เป็นอดีต, returning ไม่ใช่กริยาแท้ และ return ไม่เติม s"
+   },
+   {
+    "type": "vocab",
+    "key": "make",
+    "d": [
+     "do",
+     "take",
+     "let"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ make + กรรม + คำเสริม (make it moving = ทำให้หนังซาบซึ้ง) ซึ่งเป็นโครงสร้าง collocation ส่วน do, take, let ไม่ใช้ในความหมายทำให้มีคุณสมบัติเช่นนี้"
+   },
+   {
+    "type": "clause",
+    "key": "who",
+    "d": [
+     "which",
+     "whom",
+     "whose"
+    ],
+    "exp": "ช่อง (3) เป็น relative pronoun ทำหน้าที่ประธานของ plays และอ้างถึงคน (Mali Wanmee) จึงใช้ who ส่วน which ใช้กับสิ่งของ, whom ทำหน้าที่ประธานไม่ได้ และ whose แสดงความเป็นเจ้าของ"
+   },
+   {
+    "type": "verb",
+    "key": "expect",
+    "d": [
+     "expected",
+     "expecting",
+     "to expect"
+    ],
+    "exp": "ช่อง (4) หลัง should not ต้องใช้กริยารูปฐาน expect ส่วน expected เป็นอดีต, expecting ต้องมี be นำ และ to expect ใช้หลัง should ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "found",
+    "d": [
+     "founded",
+     "funded",
+     "folded"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ found (found-found-found = พบว่า) ใน present perfect: have found the middle hour slow ส่วน founded (ก่อตั้ง — ช่อง 3 คือ founded), funded (ให้ทุน), folded (พับ) เป็นคำหน้าตาคล้ายแต่คนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "left",
+    "d": [
+     "felt",
+     "lost",
+     "lent"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ left audiences breathless ซึ่งเป็น collocation แปลว่า ทำให้ผู้ชมแทบหยุดหายใจ ส่วน felt (รู้สึก — ประธานต้องเป็นผู้รู้สึกเอง), lost (ทำให้หาย), lent (ให้ยืม) ไม่เข้าโครงสร้างนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "miss",
+    "d": [
+     "pass",
+     "lose",
+     "drop"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ miss (พลาดชม) ตรงกับคำแนะนำว่าถ้าชอบหนังเรื่องก่อนก็ไม่ควรพลาดเรื่องนี้ ส่วน pass ต้องใช้ pass on, lose (ทำหาย) และ drop (ทิ้งเรื่อง) ไม่ใช้กับการพลาดดูหนัง"
+   }
+  ]
+ },
+ {
+  "set": 15,
+  "passage": "B",
+  "genre": "explainer article",
+  "topic": "Why Bangkok floods",
+  "context": "Why does Bangkok flood so often? The answer (1) ____ three things at once: high tides from the gulf, heavy rain, and a river already full. Only when all three arrive together (2) ____ the worst floods happen. Since the big flood of 2011, the city (3) ____ tunnels, pumps and retention ponds worth billions of baht. Engineers say the new systems cope (4) ____ storms that would have flooded streets a decade ago. But concrete alone is not enough; green spaces absorb rain (5) ____ sending it straight into drains. Residents can help by keeping drains clear — a single blocked drain can (6) ____ a whole lane under water. The (7) ____ question is not whether Bangkok will flood again, but when. Households in low-lying districts are (8) ____ to keep a go-bag ready during the monsoon.",
+  "tip": "บทความอธิบายนี้มี inversion หลัง Only when... และคำคู่คงที่ เช่น cope with, instead of + V-ing, advised to รวมถึง found/founded ที่เจอในอีกบริบท",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "involves",
+    "d": [
+     "evolves",
+     "revolts",
+     "dissolves"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ involves (ประกอบด้วย/เกี่ยวข้อง) — คำตอบของน้ำท่วมรวมสามปัจจัยพร้อมกัน ส่วน evolves (วิวัฒนาการ), revolts (ก่อการกบฏ), dissolves (ละลาย) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "inversion",
+    "key": "do",
+    "d": [
+     "does",
+     "that",
+     "when"
+    ],
+    "exp": "ช่อง (2) เมื่อขึ้นต้นด้วย Only when + ประโยค ต้องกลับกริยาช่วยมาหน้าประธาน: Only when... do the worst floods happen (ประธานพหูพจน์จึงใช้ do) ส่วน does ใช้กับพหูพจน์ไม่ได้ และ that, when ไม่ใช่กริยาช่วย"
+   },
+   {
+    "type": "tense",
+    "key": "has built",
+    "d": [
+     "built",
+     "builds",
+     "is building"
+    ],
+    "exp": "ช่อง (3) มี Since the big flood of 2011 ซึ่งลากยาวถึงปัจจุบัน จึงต้องใช้ present perfect has built ส่วน built เป็นอดีตที่ตัดขาด, builds เป็นปัจจุบันทั่วไป และ is building สื่อว่ากำลังสร้างอยู่ตอนนี้เท่านั้น"
+   },
+   {
+    "type": "conn",
+    "key": "with",
+    "d": [
+     "on",
+     "at",
+     "for"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ cope with ซึ่งเป็น phrasal verb คงที่ แปลว่า รับมือกับ ส่วน cope on, cope at, cope for ไม่เป็นสำนวนในภาษาอังกฤษ"
+   },
+   {
+    "type": "conn",
+    "key": "instead of",
+    "d": [
+     "because of",
+     "ahead of",
+     "in spite of"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ instead of + gerund (ดูดซับฝนแทนที่จะส่งลงท่อตรง ๆ) ตามแนวคิดพื้นที่สีเขียว ส่วน because of บอกสาเหตุ in spite of แปลว่า ทั้ง ๆ ที่ ซึ่งผิดความหมาย และ ahead of (ล่วงหน้า) ไม่เข้ากับการเปรียบเทียบสองทางเลือก"
+   },
+   {
+    "type": "verb",
+    "key": "leave",
+    "d": [
+     "left",
+     "leaving",
+     "to leave"
+    ],
+    "exp": "ช่อง (6) หลัง can ต้องใช้กริยารูปฐาน leave (leave a lane under water = ทิ้งให้ทั้งซอยจมอยู่ใต้น้ำ) ส่วน left เป็นอดีต, leaving ต้องมี be นำ และ to leave ใช้หลัง can ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "real",
+    "d": [
+     "royal",
+     "loyal",
+     "rural"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ the real question ซึ่งเป็นสำนวน แปลว่า คำถามที่แท้จริง คือไม่ใช่จะท่วมอีกไหมแต่คือเมื่อไร ส่วน royal (เกี่ยวกับราชวงศ์), loyal (จงรักภักดี), rural (ชนบท) เป็นคำท้าย -al คล้ายกันแต่คนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "advised",
+    "d": [
+     "avoided",
+     "awaited",
+     "awarded"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ are advised to ซึ่งเป็น passive collocation แปลว่า ได้รับคำแนะนำให้ ส่วน avoided (ถูกหลีกเลี่ยง), awaited (ถูกรอคอย), awarded (ได้รับรางวัล) ไม่จับคู่กับ to keep a go-bag ready"
+   }
+  ]
+ },
+ {
+  "set": 16,
+  "passage": "A",
+  "genre": "recipe card",
+  "topic": "Quick tom yum recipe",
+  "context": "Recipe card: quick tom yum soup (serves two). Bring 500 ml of stock to a (1) ____ boil, then add lemongrass, galangal and kaffir lime leaves. Let the herbs (2) ____ for three minutes so the stock takes their flavour. Add mushrooms and prawns; (3) ____ the prawns turn pink, they are cooked. Take the pot off the heat (4) ____ you stir in the fish sauce and lime juice — boiling lime turns bitter. Taste and adjust: the soup should (5) ____ sour, salty and slightly spicy at the same time. If it tastes flat, a splash more lime juice usually (6) ____ the difference. Serve at once, with a (7) ____ of fresh coriander and a wedge of lime.",
+  "tip": "การ์ดสูตรอาหารนี้มีสำนวนครัวคงที่ เช่น a rolling boil, make the difference, a sprinkle of และทดสอบ let + กริยารูปฐาน กับ before + ประโยค",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "rolling",
+    "d": [
+     "running",
+     "ruling",
+     "ruining"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ a rolling boil ซึ่งเป็นศัพท์ครัวคงที่ แปลว่า เดือดพล่าน ส่วน running boil, ruling boil, ruining boil ไม่เป็นสำนวนในการทำอาหาร"
+   },
+   {
+    "type": "verb",
+    "key": "simmer",
+    "d": [
+     "simmers",
+     "simmering",
+     "to simmer"
+    ],
+    "exp": "ช่อง (2) หลัง Let + กรรม ต้องใช้กริยารูปฐาน (Let the herbs simmer) ส่วน simmers เติม s, simmering และ to simmer ใช้ในโครงสร้าง let ไม่ได้"
+   },
+   {
+    "type": "conn",
+    "key": "When",
+    "d": [
+     "Despite",
+     "During",
+     "Unless"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ When + ประโยค (เมื่อกุ้งเปลี่ยนเป็นสีชมพู) ส่วน Despite, During เป็นบุพบทที่ต้องตามด้วยคำนาม และ Unless (ถ้าไม่) ทำให้เงื่อนไขกลับด้าน"
+   },
+   {
+    "type": "conn",
+    "key": "before",
+    "d": [
+     "although",
+     "whereas",
+     "despite"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ before you stir in (ยกลงจากเตาก่อนจึงค่อยคนใส่) ตามลำดับขั้นตอนและคำเตือนว่ามะนาวต้มจะขม ส่วน although, whereas ต้องบอกความขัดแย้ง และ despite ต้องตามด้วยคำนาม"
+   },
+   {
+    "type": "vocab",
+    "key": "taste",
+    "d": [
+     "test",
+     "tempt",
+     "tend"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ taste เป็น linking verb (the soup should taste sour = ซุปต้องมีรสเปรี้ยว) ส่วน test (ทดสอบ) ประธานต้องเป็นคน, tempt (ยั่วยวน) และ tend (มีแนวโน้ม — ต้องใช้ tend to) ไม่เข้าความหมายนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "makes",
+    "d": [
+     "takes",
+     "does",
+     "gives"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ make the difference ซึ่งเป็น collocation แปลว่า สร้างความแตกต่าง ประธาน a splash... เอกพจน์จึงเติม s ส่วน take, do, give the difference ไม่เป็นสำนวน"
+   },
+   {
+    "type": "vocab",
+    "key": "sprinkle",
+    "d": [
+     "sparkle",
+     "struggle",
+     "shuttle"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ a sprinkle of ซึ่งเป็น collocation แปลว่า ปริมาณโรยเล็กน้อย (โรยผักชี) ส่วน sparkle (ประกาย), struggle (การดิ้นรน), shuttle (รถรับส่ง) เป็นคำนามหน้าคล้ายแต่ไม่ใช้กับเครื่องปรุง"
+   }
+  ]
+ },
+ {
+  "set": 16,
+  "passage": "B",
+  "genre": "interview",
+  "topic": "A park ranger's rounds",
+  "context": "Junior Rangers: a chat with Somchai, who has patrolled the city park for fifteen years. “You walk twenty kilometres a day, (1) ____?” we ask. “More on festival weekends,” he laughs. Somchai's main job is not catching rule-breakers but (2) ____ visitors safe: checking bridges, warning about wasp nests, carrying water for older walkers. He has (3) ____ hundreds of lost items back to their owners, from wedding rings to false teeth. “The strangest thing I ever found (4) ____ a drum,” he says. “Someone had left it under a bench.” Park rules are simple; visitors must (5) ____ to two of them: dogs on leads, and no litter. Most people obey, and serious complaints are (6) ____. Somchai worries only about the young trees, (7) ____ need five more years to (8) ____ strong roots. “Shade takes time,” he says. “You cannot rush a forest.”",
+  "tip": "บทสัมภาษณ์นี้มี question tag ของ present simple โครงสร้าง not...but + gerund ขนานกัน และคำคู่ stick to, are rare, develop roots",
+  "items": [
+   {
+    "type": "tag",
+    "key": "don't you",
+    "d": [
+     "do you",
+     "didn't you",
+     "aren't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ You walk twenty kilometres a day ซึ่งเป็น present simple บอกเล่า กริยาหลัก walk จึงใช้ tag ด้วย don't you ส่วน do you ใช้กับประโยคบอกเล่าไม่ได้ และ didn't you, aren't you ไม่ตรงกับกริยาปัจจุบัน"
+   },
+   {
+    "type": "verb",
+    "key": "keeping",
+    "d": [
+     "keep",
+     "being kept",
+     "to keep"
+    ],
+    "exp": "ช่อง (2) ต้องขนานกับ catching ในโครงสร้าง not catching... but keeping... จึงใช้ gerund แบบ active keeping ส่วน keep, to keep ทำลายความขนานของโครงสร้าง และ being kept เป็น passive ซึ่งตามด้วยกรรม visitors ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "brought",
+    "d": [
+     "bring",
+     "bringing",
+     "brings"
+    ],
+    "exp": "ช่อง (3) หลัง has ใน present perfect ต้องใช้ V3 brought (has brought... back = นำกลับมาคืน) ส่วน bring เป็นรูปฐาน, bringing ต้องมี be นำ และ brings เป็นปัจจุบันเอกพจน์"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "is",
+     "were",
+     "been"
+    ],
+    "exp": "ช่อง (4) เล่าสิ่งที่พบในอดีต (The strangest thing I ever found was a drum) จึงใช้ past simple was ส่วน is เป็นปัจจุบันขัดกับ found, were ใช้กับประธานเอกพจน์ the thing ไม่ได้ และ been ต้องมี have/be นำ"
+   },
+   {
+    "type": "verb",
+    "key": "stick",
+    "d": [
+     "stuck",
+     "sticking",
+     "to stick"
+    ],
+    "exp": "ช่อง (5) หลัง must ใช้กริยารูปฐาน และเป็น phrasal verb stick to (ปฏิบัติตามกฎ) ส่วน stuck เป็นอดีต, sticking ต้องมี be นำ และ to stick ใช้หลัง must ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "rare",
+    "d": [
+     "rarely",
+     "barely",
+     "nearly"
+    ],
+    "exp": "ช่อง (6) ต้องใช้คำคุณศัพท์ rare หลัง verb to be (complaints are rare = ข้อร้องเรียนหายาก) ส่วน rarely, barely, nearly เป็นกริยาวิเศษณ์ซึ่งใช้แทนคำคุณศัพท์หลัง are ไม่ได้"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "they",
+     "what",
+     "whereas"
+    ],
+    "exp": "ช่อง (7) เป็น non-defining relative clause ขยาย the young trees และเป็นประธานของ need จึงใช้ which ส่วน they ทำให้เกิด comma splice และ what, whereas ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "develop",
+    "d": [
+     "depart",
+     "depend",
+     "deposit"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ develop strong roots (สร้างรากที่แข็งแรง) ซึ่งเป็น collocation ธรรมชาติ ส่วน depart (ออกเดินทาง), depend (ต้องตามด้วย on), deposit (ฝาก/วางทับ) เป็นคำ de- หน้าคล้ายแต่ความหมายไม่เข้า"
+   }
+  ]
+ }
+]

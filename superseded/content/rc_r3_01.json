@@ -1,0 +1,386 @@
+{
+ "R01": {
+  "q0": {
+   "key": "How a seed-lending project helped residents grow food and connect",
+   "d": [
+    "Why seed packets are cheaper than buying vegetables",
+    "Which vegetables grow best in small containers",
+    "How the community center plans to add herbs and flowers to its collection"
+   ],
+   "exp": "บทอ่านเล่าการตั้งห้องสมุดเมล็ดพันธุ์ ผลด้านการปลูกผัก และผลที่ผู้คนได้พูดคุยกัน จึงสรุปได้ว่าโครงการช่วยทั้งการปลูกและความสัมพันธ์ในชุมชน ตัวเลือกเรื่องพืชที่โตในภาชนะและแผนเพิ่มสมุนไพรเป็นเพียงรายละเอียด ส่วนเรื่องราคาเมล็ดไม่มีในบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What did the organizers do after recording which plants grew well in containers?",
+   "key": "They added notes to each seed packet.",
+   "d": [
+    "They began lending seed packets to members.",
+    "They started selling seeds to local families.",
+    "They added herbs and flowers to the collection."
+   ],
+   "exp": "ประโยค “They then added simple notes to each packet...” มาหลังการบันทึกผลในเดือนแรก การให้ยืมเมล็ดเกิดขึ้นก่อนแล้ว ห้องสมุดไม่ได้ขายเมล็ด และการเพิ่มสมุนไพรกับดอกไม้เป็นแผนในอนาคต"
+  },
+  "q2": {
+   "prompt": "According to the passage, why did the organizers record which plants grew well in containers?",
+   "dmap": {
+    "To prepare for adding herbs and flowers.": "To prepare for adding herbs and flowers to the collection."
+   }
+  },
+  "q4": {
+   "d": [
+    "The organizers care more about the number of vegetables than about conversations.",
+    "Seed libraries work only for families with large gardens.",
+    "Members must return all of the seeds they borrow."
+   ],
+   "exp": "ผู้จัดคนหนึ่งบอกว่าผลที่มีประโยชน์ที่สุดคือการที่ผู้คนได้คุยกัน และโครงการยังช่วยแลกเปลี่ยนคำแนะนำการปลูก จึงอนุมานได้ว่าสร้างทั้งความสัมพันธ์และทักษะ ตัวเลือกที่ว่าสนใจจำนวนผักมากกว่าขัดกับคำพูดนั้น ผู้ปลูกใช้ระเบียงไม่ใช่สวนใหญ่ และสมาชิกคืนเมล็ดเพียงบางส่วน (some seeds)"
+  }
+ },
+ "R02": {
+  "q0": {
+   "key": "A student study of whether clearer signs helped passengers",
+   "d": [
+    "How a digital board replaced the station’s signs",
+    "Why trains at busy stations are often delayed",
+    "How station staff answer passengers’ questions"
+   ],
+   "exp": "นักเรียนสังเกต ติดป้ายใหม่ นับคำถามอีกครั้ง และสรุปผลว่าป้ายช่วยได้แต่ไม่ทั้งหมด กระดานดิจิทัลเป็นข้อเสนอให้เพิ่ม ไม่ใช่แทนป้าย ส่วนเรื่องรถไฟล่าช้าและการตอบคำถามของพนักงานเป็นรายละเอียดประกอบ"
+  },
+  "q1": {
+   "prompt": "What happened after the students observed where people asked for directions?",
+   "key": "Station staff put large signs near the entrance.",
+   "d": [
+    "The students recommended adding a small digital board.",
+    "The students wrote their final report.",
+    "Passengers were asked to complete a survey."
+   ],
+   "exp": "ประโยค “The following week, station staff placed large signs near the entrance...” ตามหลังสัปดาห์แรกที่สังเกต การเสนอกระดานดิจิทัลและการเขียนรายงานเกิดตอนท้าย ส่วนแบบสำรวจไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "prompt": "Why did the students count passengers’ questions again after the new signs were placed?",
+   "dmap": {
+    "To show that signs could solve every problem.": "To show station staff that the new signs could solve every passenger problem."
+   }
+  },
+  "q3": {
+   "dmap": {
+    "permanent and unlikely to change": "permanent and very unlikely to change"
+   }
+  },
+  "q4": {
+   "d": [
+    "Large signs removed the need for staff to help passengers.",
+    "Most passengers prefer long written directions to arrows.",
+    "The digital board has already reduced questions about delayed trains, according to the students’ report."
+   ],
+   "exp": "นักเรียนแนะนำให้คงป้ายไว้แต่เพิ่มกระดานดิจิทัลที่แสดงการเปลี่ยนแปลงชั่วคราว และรายงานเน้นว่าข้อมูลควรอ่านง่ายและปรับปรุงง่าย จึงอนุมานได้ว่าป้ายถาวรทำงานได้ดีขึ้นเมื่อมีข้อมูลที่เปลี่ยนได้ ผู้โดยสารบางคนยังต้องการความช่วยเหลือ ป้ายใช้ลูกศรแทนข้อความยาว และกระดานดิจิทัลยังเป็นเพียงข้อเสนอ"
+  }
+ },
+ "R03": {
+  "q0": {
+   "key": "A museum’s comparison of two audio-guide styles",
+   "d": [
+    "Why older visitors dislike modern museum technology",
+    "How the museum shortened all of its exhibition labels",
+    "Why visitors remember more when explanations are long and detailed"
+   ],
+   "exp": "บทอ่านเล่าการทดลองคู่มือเสียงสองแบบ ผลที่ได้ และการตัดสินใจเสนอทั้งสองแบบ ตัวเลือกเรื่องผู้สูงอายุไม่ชอบเทคโนโลยีเกินกว่าข้อมูล (บางคนชอบแบบ A ที่เรียบง่าย) ป้ายนิทรรศการไม่ได้ถูกกล่าวถึง และคำอธิบายยาวทำให้ผู้ฟังหยุดฟัง"
+  },
+  "q1": {
+   "prompt": "What did the museum decide after the trial?",
+   "key": "To offer both versions and let visitors choose",
+   "d": [
+    "To use only Version B for every visitor",
+    "To stop using audio guides in exhibitions",
+    "To make a separate exhibition for older visitors"
+   ],
+   "exp": "บทอ่านบอกว่า “it will offer both formats and let visitors select the one they prefer.” พิพิธภัณฑ์ตัดสินใจไม่เลือกแบบเดียวให้ทุกคน ไม่ได้เลิกใช้คู่มือเสียง และไม่มีนิทรรศการแยกสำหรับผู้สูงอายุ"
+  },
+  "q2": {
+   "prompt": "What was the main purpose of testing two versions of the guide?",
+   "dmap": {
+    "To choose one version for every visitor.": "To choose a single version that would suit every visitor."
+   }
+  },
+  "q3": {
+   "key": "the way information is arranged or presented",
+   "dmap": {
+    "the device used to play a recording": "the device or player used to play a recording"
+   }
+  },
+  "q4": {
+   "key": "Long explanations without pauses may reduce visitors’ attention.",
+   "d": [
+    "Older visitors remembered more details than younger visitors.",
+    "Version A was removed because nobody chose to use it.",
+    "Asking a question first works for every visitor in every museum, according to the staff."
+   ],
+   "exp": "ผู้เข้าชมหลายคนบอกว่าหยุดฟังเมื่อคำอธิบายยาวต่อเนื่องหลายนาที จึงอนุมานได้ว่าคำอธิบายยาวโดยไม่หยุดอาจลดความสนใจ บทอ่านไม่ได้เปรียบเทียบความจำตามอายุ แบบ A ยังถูกเสนอให้เลือก และคำว่า every visitor in every museum เกินจากหลักฐาน"
+  }
+ },
+ "R04": {
+  "q0": {
+   "key": "How a student committee made the lunch queue work better",
+   "d": [
+    "Why the school reduced the number of lunch choices",
+    "How students plan their meals before exams",
+    "Why drinks should be served before the main meal at every school"
+   ],
+   "exp": "คณะกรรมการศึกษาจุดที่คิวช้า เสนอย้ายเครื่องดื่มและแสดงเมนูล่วงหน้า แล้วพบว่าคิวเร็วขึ้นและนักเรียนเห็นอาหารชัดขึ้น ไม่มีการลดเมนู เรื่องหลังสอบเป็นเพียงแผนทบทวน และเครื่องดื่มถูกย้ายไปท้ายจุดบริการ ไม่ใช่ก่อนอาหาร"
+  },
+  "q1": {
+   "prompt": "What did the committee notice while studying the queue?",
+   "key": "Students had to stop twice, for a meal and a drink.",
+   "d": [
+    "Students skipped lunch to avoid waiting in line.",
+    "Students wanted more drinks to choose from.",
+    "There were not enough serving stations for everyone in the hall."
+   ],
+   "exp": "บทอ่านบอกว่าความล่าช้าเกิดเมื่อนักเรียน “had to stop twice: once to choose a meal and again to collect a drink.” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "prompt": "Why did the committee study the queue?"
+  },
+  "q4": {
+   "key": "The best layout may depend on how many students eat at school.",
+   "d": [
+    "The new layout made the queue faster on every single day.",
+    "Students cared only about speed, not about seeing the menu.",
+    "The committee will remove the menu display after exams because it slowed the line."
+   ],
+   "exp": "โรงเรียนจะทบทวนอีกครั้งหลังสอบ “when the number of students eating at school usually changes” จึงอนุมานได้ว่าการจัดที่ดีที่สุดอาจขึ้นกับจำนวนนักเรียน คิวเร็วขึ้นใน “most days” ไม่ใช่ทุกวัน นักเรียนให้ความสำคัญกับการเห็นเมนูด้วย และไม่มีแผนเอาเมนูออก"
+  }
+ },
+ "R05": {
+  "q0": {
+   "key": "A shopkeeper’s daily weather records and why people use them",
+   "d": [
+    "How the town’s official weather forecast is produced",
+    "Why a storm damaged several roads near the town",
+    "How farmers decide when to move their equipment between different fields"
+   ],
+   "exp": "บทอ่านพูดถึงการบันทึกสภาพอากาศทุกเช้าของเจ้าของร้านและประโยชน์ต่อชาวบ้าน เกษตรกร และโรงเรียน บันทึกนี้ไม่ใช่การพยากรณ์ทางการ ส่วนพายุและการย้ายอุปกรณ์เป็นรายละเอียดประกอบ"
+  },
+  "q1": {
+   "prompt": "Why did the shopkeeper start recording the weather?",
+   "key": "Residents wanted to compare local conditions after a storm.",
+   "d": [
+    "Farmers asked for help planning field work.",
+    "A school class needed data for a lesson.",
+    "The town asked the shopkeeper for an official forecast for the hill."
+   ],
+   "exp": "บทอ่านบอกว่า “The habit began after a storm damaged several roads and residents wanted a simple way to compare local conditions” เกษตรกรและชั้นเรียนวิทยาศาสตร์เริ่มใช้ข้อมูลภายหลัง และบันทึกนี้ไม่ใช่การพยากรณ์ทางการ"
+  },
+  "q2": {
+   "prompt": "Why does the shopkeeper use the same tools at the same time each morning?",
+   "key": "So that readings can be compared fairly from day to day",
+   "d": [
+    "So that farmers know when to move their equipment",
+    "So that the board looks like an official forecast",
+    "So that the science class can copy the records more easily"
+   ],
+   "exp": "การใช้เครื่องมือเดิมในเวลาเดิมทำให้ข้อมูลแต่ละวันเปรียบเทียบกันได้ ซึ่งตรงกับเป้าหมาย “compare local conditions from day to day” ตัวเลือกเรื่องเกษตรกรและชั้นเรียนเป็นผู้ใช้ข้อมูลในภายหลัง และเจ้าของร้านไม่เคยอ้างว่าเป็นการพยากรณ์"
+  },
+  "q3": {
+   "key": "provided by an authorized organization"
+  },
+  "q4": {
+   "key": "Regular local records can be useful even if they are not forecasts.",
+   "d": [
+    "The shopkeeper’s board predicts tomorrow’s weather better than official forecasts.",
+    "Farmers no longer need any other weather information.",
+    "The school plans to take over the board from the shopkeeper."
+   ],
+   "exp": "บทอ่านบอกว่าบันทึกไม่ใช่การพยากรณ์ แต่ “Its value is more practical” เพราะแสดงสภาพจริงในพื้นที่ จึงอนุมานได้ว่าข้อมูลท้องถิ่นที่สม่ำเสมอมีประโยชน์ ตัวเลือกที่ว่าพยากรณ์ได้ดีกว่าขัดกับบทอ่าน และอีกสองตัวเลือกเกินหลักฐาน"
+  }
+ },
+ "R06": {
+  "q0": {
+   "key": "How a library tested a quiet zone and reached a compromise",
+   "d": [
+    "Why families stopped visiting the public library",
+    "How remote workers persuaded the library to ban talking",
+    "Why the library board rejected a quiet zone after many complaints"
+   ],
+   "exp": "ห้องสมุดทดลองโซนเงียบสี่สัปดาห์ แล้วอนุมัติพร้อมเพิ่มที่นั่งสำหรับคนที่อยากคุย ซึ่งเป็นการประนีประนอม การมาของครอบครัวไม่ได้ลดลงมากอย่างที่คาด ไม่มีการห้ามพูดทุกพื้นที่ และคณะกรรมการอนุมัติ ไม่ได้ปฏิเสธ"
+  },
+  "q1": {
+   "prompt": "What did the library do before deciding on the quiet zone?",
+   "key": "It ran a four-week trial.",
+   "d": [
+    "It added seats outside the quiet zone.",
+    "It banned conversations in every area.",
+    "It asked families to visit only on weekdays."
+   ],
+   "exp": "บทอ่านบอกว่า “Before deciding, the library ran a four-week trial.” การเพิ่มที่นั่งเกิดหลังการตัดสินใจ การห้ามพูดทุกพื้นที่ขัดกับป้ายที่อนุญาตให้คุยสั้น ๆ ได้ และไม่มีการขอให้ครอบครัวมาเฉพาะวันธรรมดา"
+  },
+  "q2": {
+   "prompt": "Why did the library run a trial before making a decision?",
+   "key": "to gather evidence before making a permanent decision",
+   "dmap": {
+    "to reduce the number of remote workers": "to reduce the number of remote workers using the library"
+   }
+  },
+  "q3": {
+   "key": "an agreement in which each side gives up something",
+   "dmap": {
+    "a trial that has not yet been decided": "a trial whose result has not yet been decided by the board"
+   }
+  },
+  "q4": {
+   "d": [
+    "Complaints about noise increased during the trial.",
+    "Family visits fell sharply, just as staff had expected.",
+    "The board believes the quiet zone has solved every problem for both students and families."
+   ],
+   "exp": "ห้องสมุดอนุมัติโซนเงียบแต่เพิ่มที่นั่งสำหรับคนที่ต้องการคุย และเรียกว่าเป็นการประนีประนอม จึงอนุมานได้ว่าพยายามสมดุลความต้องการของผู้ใช้หลายกลุ่ม คำร้องเรียนลดลง ครอบครัวไม่ได้ลดลงมากอย่างที่คาด และบทอ่านบอกว่าไม่ใช่ “complete solution”"
+  }
+ },
+ "R07": {
+  "q0": {
+   "key": "Training volunteers to explain repairs to visitors",
+   "d": [
+    "Teaching visitors how to repair lamps and bags at home",
+    "Why some household items cannot be repaired",
+    "How new volunteers learn to use tools safely"
+   ],
+   "exp": "ผู้จัดจัดวันอบรมเน้นการสื่อสารเพราะอาสาสมัครใหม่ใช้เครื่องมือเป็นแต่ไม่มั่นใจในการอธิบาย ผลคือผู้มาใช้บริการเข้าใจมากขึ้น ไม่ใช่การสอนผู้มาเยือนซ่อมเอง เรื่องของที่ซ่อมไม่ได้เป็นเพียงหัวข้อหนึ่งในการฝึก และอาสาสมัครใช้เครื่องมือเป็นอยู่แล้ว"
+  },
+  "q1": {
+   "prompt": "What did the organizers notice about new volunteers?",
+   "key": "They could use tools but found explaining repairs harder.",
+   "d": [
+    "They did not know how to use basic tools.",
+    "They refused to tell visitors when items could not be fixed.",
+    "They preferred fixing chairs to fixing lamps."
+   ],
+   "exp": "บทอ่านบอกว่าอาสาสมัครใหม่ “knew how to use tools but were less confident when explaining repairs” ตัวเลือกอื่นขัดกับข้อความนี้หรือไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "prompt": "Why did the organizers introduce a training day?",
+   "dmap": {
+    "because visitors wanted to fix items themselves": "because visitors wanted to learn to fix all their items themselves"
+   }
+  },
+  "q4": {
+   "d": [
+    "Visitors care more about speed than about understanding repairs.",
+    "Volunteers should do repairs without explaining their methods.",
+    "After the training, volunteers completed more repairs each day than before, the organizers say."
+   ],
+   "exp": "ผู้จัดสรุปว่า “teaching people about a repair can be almost as valuable as completing the repair” จึงอนุมานได้ว่าบริการซ่อมที่ดีต้องอาศัยทั้งการสื่อสารและฝีมือ ตัวเลือกอื่นขัดกับบทอ่านหรือกล่าวอ้างข้อมูลที่ไม่มี (บทอ่านไม่ได้วัดจำนวนงานซ่อม)"
+  }
+ },
+ "R08": {
+  "q0": {
+   "key": "How regular sampling revealed more than one cause of cloudy water",
+   "d": [
+    "Why heavy rain is the main cause of river pollution",
+    "How the council punished a construction company",
+    "How students compare river readings from different towns across the country"
+   ],
+   "exp": "ชมรมเก็บตัวอย่างหลังฝนตกแล้วเพิ่มวันแห้ง จึงพบว่างานก่อสร้างก็ทำให้น้ำขุ่น ข้อมูลสม่ำเสมอช่วยเจ้าหน้าที่ ฝนไม่ใช่สาเหตุเดียว สภาขอให้บริษัทคลุมดิน ไม่ได้ลงโทษ และการเปรียบเทียบเป็นอีกช่วงของแม่น้ำ ไม่ใช่เมืองทั่วประเทศ"
+  },
+  "q1": {
+   "prompt": "What did the club do after its first samples taken after heavy rain?",
+   "key": "It added weekly samples on dry days.",
+   "d": [
+    "It shared its findings with the council.",
+    "It compared results with another part of the river.",
+    "It stopped taking samples after rain."
+   ],
+   "exp": "ประโยค “Later, they added weekly samples taken on dry days.” เป็นขั้นต่อจากการเก็บหลังฝนตก การแจ้งสภาเกิดหลังจากได้ผล การเปรียบเทียบกับอีกช่วงของแม่น้ำเป็นแผนในอนาคต และไม่มีการหยุดเก็บหลังฝนตก"
+  },
+  "q2": {
+   "prompt": "Why did the club add samples on dry days?",
+   "key": "To see whether things other than rain affected the water.",
+   "d": [
+    "To check the water only after heavy rain.",
+    "To satisfy a request from the local council.",
+    "To prove that construction was the only cause of pollution."
+   ],
+   "exp": "การเพิ่มตัวอย่างวันแห้งทำให้เห็นว่าน้ำขุ่นไม่ได้เกิดจากฝนเสมอ และพบผลจากงานก่อสร้าง ตัวเลือกแรกขัดกับการเพิ่มวันแห้ง สภาไม่ได้ขอให้เก็บตัวอย่าง และชมรมไม่ได้อ้างว่าพิสูจน์แหล่งมลพิษทั้งหมด"
+  },
+  "q3": {
+   "dmap": {
+    "loose soil covered near the riverbank": "loose soil that was covered near the riverbank by the company"
+   }
+  },
+  "q4": {
+   "d": [
+    "The club proved exactly where all of the pollution came from.",
+    "Construction work always makes rivers cloudy.",
+    "The council would have acted even without the students’ regular measurements of the river."
+   ],
+   "exp": "การเก็บเฉพาะหลังฝนอาจทำให้เข้าใจว่าฝนเป็นสาเหตุเดียว แต่การเพิ่มวันแห้งเผยผลจากงานก่อสร้าง จึงอนุมานได้ว่าการสังเกตหลายแบบเผยสาเหตุที่วิธีเดียวมองไม่เห็น ชมรมไม่ได้อ้างว่าพิสูจน์ทุกแหล่ง คำว่า always เกินหลักฐาน และบทอ่านบอกว่าข้อมูลของนักเรียนช่วยให้เจ้าหน้าที่เห็นภาพชัดขึ้น"
+  }
+ },
+ "R09": {
+  "q0": {
+   "key": "How a book podcast changed from summaries to discussion",
+   "d": [
+    "How a librarian chooses books for library displays",
+    "Why younger students find it hard to choose stories",
+    "Why the hosts decided to avoid disagreement with their guests"
+   ],
+   "exp": "พอดแคสต์เปลี่ยนจากการสรุปเรื่องเป็นการตั้งคำถามและเชิญแขก เพราะผู้ฟังต้องการการอภิปราย เรื่องบรรณารักษ์และนักเรียนรุ่นเล็กเป็นตัวอย่างแขก และผู้จัดเห็นว่าความเห็นต่างเป็นประโยชน์ ไม่ได้หลีกเลี่ยง"
+  },
+  "q1": {
+   "prompt": "What do the hosts now do in each episode?",
+   "key": "Ask one question and invite a different guest",
+   "d": [
+    "Summarize the whole plot in more detail",
+    "Interview the same librarian every week",
+    "Read the first chapter of each book aloud to listeners"
+   ],
+   "exp": "บทอ่านบอกว่าเปลี่ยนรูปแบบ “by choosing one question for each episode and asking a different guest to respond” การสรุปเรื่องลดลง บรรณารักษ์มาร่วมเพียงตอนเดียว และไม่มีการอ่านบทแรกออกอากาศ"
+  },
+  "q2": {
+   "prompt": "Why did the hosts change the format of the podcast?",
+   "dmap": {
+    "because the hosts wanted to avoid any disagreement": "because the hosts wanted to avoid any disagreement between guests on the show"
+   }
+  },
+  "q4": {
+   "d": [
+    "The hosts now avoid talking about the plot at all.",
+    "Disagreement made listeners stop following the podcast.",
+    "Guests are chosen only from the school’s librarians and teachers, never from students."
+   ],
+   "exp": "รูปแบบใหม่สร้างความเห็นต่างที่ทำให้ผู้ฟัง “several ways to think about the same book” จึงอนุมานได้ว่าคำถามปลายเปิดทำให้การอภิปรายหลากหลายกว่าการสรุป ผู้จัดใช้เวลาสรุปเรื่องน้อยลงแต่ไม่ได้เลิก ไม่มีข้อมูลว่าผู้ฟังเลิกติดตาม และนักเรียนรุ่นเล็กก็เคยเป็นแขก"
+  }
+ },
+ "R10": {
+  "q0": {
+   "key": "How numbering stalls helped customers find their way",
+   "d": [
+    "Why vendors stopped making announcements",
+    "How delivery drivers plan their routes around town",
+    "Why customers prefer colored maps to numbers at weekend markets"
+   ],
+   "exp": "ผู้จัดการตลาดทดลองติดหมายเลขแผงพร้อมแผนที่ ทำให้คำถามเจาะจงขึ้น และขยายไปใช้กับคนส่งของ การประกาศยังมีอยู่ คนส่งของเป็นผลพลอยได้ และสีบนแผนที่เป็นแผนเพิ่มเติม ไม่ใช่ความชอบของลูกค้า"
+  },
+  "q1": {
+   "prompt": "How did customers’ questions change during the first two weekends?",
+   "key": "They became more specific.",
+   "d": [
+    "They stopped completely.",
+    "They were mostly about bread.",
+    "They came mainly from delivery drivers instead of customers."
+   ],
+   "exp": "บทอ่านบอกว่า “customers still asked questions, but the questions became more specific” คำถามไม่ได้หายไป เรื่องขนมปังเป็นตัวอย่างคำถามแบบเดิม และคนส่งของใช้ระบบในภายหลัง"
+  },
+  "q2": {
+   "prompt": "Why did the manager introduce stall numbers?",
+   "dmap": {
+    "to separate food, clothing, and craft areas by color": "to separate the food, clothing, and craft areas by color"
+   }
+  },
+  "q4": {
+   "d": [
+    "Customers no longer needed to ask any questions.",
+    "The map was removed once vendors displayed numbers.",
+    "Colors will replace the numbers on the map because the numbers confused many customers."
+   ],
+   "exp": "ลูกค้ายังถามอยู่แต่คำถามชัดเจนขึ้น ผู้จัดการถือว่าแผนที่ช่วยได้ จึงอนุมานได้ว่าระบบช่วยการสื่อสารแม้ไม่ได้แก้ทุกปัญหา ตัวเลือกอื่นขัดกับบทอ่าน (ยังมีคำถาม ยังใช้แผนที่ และสีจะถูกเพิ่ม ไม่ใช่แทนตัวเลข)"
+  }
+ }
+}

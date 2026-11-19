@@ -1,0 +1,267 @@
+[
+ {
+  "first": "S13-Q026",
+  "topic": "A coastal field trip",
+  "context": "Mek: The class is visiting the wetland on Thursday, but the tide chart says the water will be high all morning.\nTeacher: (1) ____\nMek: That works. Should we still bring the water-testing kits for the pond?\nTeacher: (2) ____\nMek: Good. I can send the updated meeting time to the families tonight.\nTeacher: (3) ____\nMek: Sure. Two parents already offered to help, so one can walk at the back.\nTeacher: (4) ____\nMek: And if heavy rain closes the raised path on the day?\nTeacher: (5) ____\nMek: Perfect. I’ll add that plan to the message for the families.",
+  "tip": "บทสนทนาเรื่องการทัศนศึกษามีเงื่อนไขความปลอดภัยกำกับทุกข้อเสนอ เช่น “only at the marked pond after the guide checks the conditions” ตัวเลือกที่ตัดเงื่อนไขเหล่านี้ออกมักเป็นตัวลวง",
+  "items": [
+   {
+    "key": "The guide suggests starting at the visitor centre and taking the raised path first.",
+    "d": [
+     "We should cancel the whole trip because a high tide is far too dangerous for the class.",
+     "The class can swim at the wetland pond in the afternoon.",
+     "Thursday morning is also the busiest time at the visitor centre this season."
+    ],
+    "exp": "Mek ตอบว่า “That works. Should we still bring the water-testing kits for the pond?” แผนในช่อง (1) จึงต้องเป็นวิธีเดินชมที่ทำได้ทั้งที่น้ำขึ้น คือเริ่มที่ศูนย์บริการผู้เยี่ยมชมและใช้ทางยกระดับก่อน ตัวเลือกยกเลิกทริปขัดกับที่ Mek ยังวางแผนต่อ และการว่ายน้ำในบ่อไม่ปลอดภัยและไม่เข้ากับคำถามเรื่องชุดตรวจน้ำ"
+   },
+   {
+    "key": "Yes, but we’ll use them only at the marked pond after the guide checks the conditions.",
+    "d": [
+     "No, the kits were broken during the last field trip.",
+     "The students may test the water anywhere along the raised path as they walk past each marker.",
+     "Testing kits are too expensive for one short visit."
+    ],
+    "exp": "Mek ถามว่า “Should we still bring the water-testing kits for the pond?” แล้วตามด้วย “Good.” คำตอบในช่อง (2) จึงต้องอนุญาตให้นำไปใช้ได้แบบมีเงื่อนไข คือใช้ที่บ่อที่มีป้ายและหลังไกด์ตรวจสภาพก่อน ตัวเลือกให้ตรวจน้ำได้ทุกจุดตามทางขัดกับเงื่อนไขความปลอดภัย"
+   },
+   {
+    "key": "We also need two adults at the back of the group, so please ask the parents to volunteer.",
+    "d": [
+     "The families should meet us at the wetland by bus.",
+     "Tell the families that the trip will finish well before lunch on Thursday.",
+     "Parents are not allowed on school trips this term."
+    ],
+    "exp": "Mek บอกว่าจะส่งเวลาพบใหม่ให้ผู้ปกครองคืนนี้ แล้วตอบว่า “Sure. Two parents already offered to help, so one can walk at the back.” ช่อง (3) จึงต้องขอผู้ช่วยผู้ใหญ่เพิ่มท้ายแถว ตัวเลือกที่บอกว่าผู้ปกครองร่วมทริปไม่ได้ขัดกับที่ Mek บอกว่ามีผู้ปกครองอาสาแล้วสองคน"
+   },
+   {
+    "key": "Great. Then the other parent can lead the pond testing with the guide.",
+    "d": [
+     "One adult walking at the back is enough for the whole group of students.",
+     "The parents should wait at the visitor centre.",
+     "Heavy rain never closes the raised path during this season."
+    ],
+    "exp": "Mek บอกว่าผู้ปกครองคนหนึ่งเดินท้ายแถวได้แล้ว ช่อง (4) จึงต้องแบ่งหน้าที่ผู้ปกครองอีกคน คือพาตรวจน้ำที่บ่อกับไกด์ แล้ว Mek จึงถามต่อเรื่องแผนสำรองหากฝนตก ตัวเลือกบอกว่าผู้ใหญ่คนเดียวพอขัดกับแผนสองคน"
+   },
+   {
+    "key": "Then we’ll use the indoor bird exhibit instead and keep the same meeting time.",
+    "d": [
+     "Then we’ll cancel the trip and reschedule for next term.",
+     "Then the students can play games in the car park.",
+     "Then the guide will decide what to do on the morning itself."
+    ],
+    "exp": "Mek ถามว่า “And if heavy rain closes the raised path on the day?” แล้วปิดว่า “Perfect. I’ll add that plan to the message for the families.” คำตอบในช่อง (5) จึงต้องเป็นแผนสำรองที่แจ้งล่วงหน้าได้ คือย้ายไปชมนิทรรศการนกในร่ม ตัวเลือกให้ไกด์ตัดสินใจเช้าวันนั้นไม่มี ‘แผน’ ให้ Mek เขียนแจ้งผู้ปกครอง"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q021",
+  "topic": "Subtitles at a local theatre",
+  "context": "May: Our small theatre got feedback after last weekend’s shows, and one point keeps coming up.\nJin: (1) ____\nMay: The actors speak fastest in the argument scene, so captions could really help there.\nJin: (2) ____\nMay: We should check that the screen doesn’t cover the actors from any seat first.\nJin: (3) ____\nMay: Good idea. Let’s use the Thursday show as the trial and invite feedback afterward.\nJin: (4) ____\nMay: Yes, and I’ll speak with the stage manager before we prepare anything.\nJin: (5) ____\nMay: Agreed. If the captions are readable, we can discuss adding them to more performances.",
+  "tip": "ทุกข้อเสนอในบทสนทนานี้อยู่ในขั้น ‘ทดลองหนึ่งรอบ’ ตัวเลือกที่ขยายผลทันที (เช่น ใช้ทุกรอบ) หรือยกเลิกแผน มักผิดเพราะข้ามขั้นตอนที่คนพูดตกลงกันไว้",
+  "items": [
+   {
+    "key": "Some audience members said they missed lines when the actors spoke quickly.",
+    "d": [
+     "The audience loved the new lighting design in most scenes.",
+     "Two of the actors forgot their lines during the very final show.",
+     "Ticket sales dropped sharply last weekend because the new prices were simply too high."
+    ],
+    "exp": "May พูดต่อว่า “The actors speak fastest in the argument scene, so captions could really help there.” ปัญหาในช่อง (1) จึงต้องเกี่ยวกับการฟังบทไม่ทันตอนนักแสดงพูดเร็ว ตัวเลือกเรื่องไฟสวยหรือลืมบทเป็นปัญหาคนละด้าน และไม่ทำให้ May เสนอคำบรรยาย"
+   },
+   {
+    "key": "We could show captions on a small screen beside the stage.",
+    "d": [
+     "We could ask the actors to speak much more slowly throughout the play.",
+     "The theatre should print the full script and hand it to viewers at the door.",
+     "Maybe we should cut the argument scene for the rest of the run."
+    ],
+    "exp": "May ตอบว่า “We should check that the screen doesn’t cover the actors from any seat first.” ข้อเสนอในช่อง (2) จึงต้องเกี่ยวข้องกับจอแสดงผลคำบรรยาย ตัวเลือกให้นักแสดงพูดช้าลงหรือแจกบททั้งเล่มไม่ทำให้ May กังวลเรื่องจอบังนักแสดง"
+   },
+   {
+    "key": "I can ask a volunteer to sit in the back row and note any timing problems.",
+    "d": [
+     "The small screen arrived last week with a scratch on one corner.",
+     "The seats in our small theatre have exactly the same view of the stage anyway.",
+     "The stage manager should choose which seats the volunteers test from."
+    ],
+    "exp": "May กำหนดว่าต้องตรวจว่าจอไม่บังนักแสดงจากทุกที่นั่ง แล้วตอบว่า “Good idea.” แผนในช่อง (3) จึงต้องเป็นวิธีตรวจสอบจริง คือให้อาสาสมัครนั่งแถวหลังสุดและจดปัญหา ตัวเลือกที่บอกว่าทุกที่นั่งมองเห็นเหมือนกันอยู่แล้วขัดกับความต้องการตรวจสอบ"
+   },
+   {
+    "key": "We should also collect the audience’s comments at the door after the show.",
+    "d": [
+     "Thursday shows are usually our emptiest performances of the whole week.",
+     "The captions must be prepared in three different colours before Thursday night.",
+     "Feedback forms would slow people down at the exit after the show."
+    ],
+    "exp": "May เสนอใช้รอบวันพฤหัสเป็นการทดลองและ “invite feedback afterward” แล้วตอบ “Yes, and I’ll speak with the stage manager” ช่อง (4) จึงต้องเสริมเรื่องการเก็บความเห็นผู้ชม ตัวเลือกที่บอกว่าฟอร์มขอความเห็นทำให้ทางออกช้าขัดกับแผนเชิญชวนผู้ชมแสดงความเห็นหลังรอบแสดง"
+   },
+   {
+    "key": "Then the trial will show whether captions help without hiding the stage.",
+    "d": [
+     "The stage manager decides everything about the stage in this theatre.",
+     "Captions will probably distract the actors during the argument scene instead.",
+     "Adding captions to more performances would cost the theatre too much."
+    ],
+    "exp": "May ปิดว่า “If the captions are readable, we can discuss adding them to more performances.” ช่อง (5) จึงต้องสรุปว่าการทดลองจะพิสูจน์ทั้งประโยชน์ของคำบรรยายและเรื่องจอไม่บังเวที ตัวเลือกที่คาดว่าคำบรรยายจะทำนักแสดงเสียสมาธิเป็นข้อสันนิษฐานที่ May ไม่ได้รับรอง"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q026",
+  "topic": "Food-bank collection times",
+  "context": "Ploy: The food bank receives many donations at noon, but no volunteers are there to sort them until the evening.\nSam: (1) ____\nPloy: The coordinator says we must first check whether that room stays cool enough for canned and dry goods.\nSam: (2) ____\nPloy: Good. If the room is suitable, we’ll test the box for one week.\nSam: (3) ____\nPloy: Yes, clear instructions beside the box will stop people leaving fresh food there.\nSam: (4) ____\nPloy: Exactly. Then the evening volunteers won’t face a full table at once.\nSam: (5) ____\nPloy: Good idea. Let’s report the comparison to the coordinator at the end of the month.",
+  "tip": "ลำดับขั้นตอนสำคัญมากในบทสนทนานี้: เสนอกล่องรับของ → ตรวจอุณหภูมิห้อง → ทดลองหนึ่งสัปดาห์ → ติดคำชี้แจง → เทียบจำนวนบริจาค ตัวเลือกที่ข้ามหรือย้อนขั้นตอนมักผิด",
+  "items": [
+   {
+    "key": "Could we put a collection box by the office door for the morning donations?",
+    "d": [
+     "Should the food bank stop accepting canned and dry goods altogether this year?",
+     "Why do the evening volunteers always arrive so late anyway?",
+     "We could simply move the sorting work to the noon shift."
+    ],
+    "exp": "Ploy ตอบว่า “The coordinator says we must first check whether that room stays cool enough” ข้อเสนอในช่อง (1) จึงต้องเกี่ยวกับจุดรับของบริจาคที่เกี่ยวข้องกับ ‘ห้อง’ นั้น ตัวเลือกย้ายงานคัดแยกมาเที่ยงไม่มีการใช้ห้องให้ตรวจอุณหภูมิ และไม่เข้ากับการทดลอง ‘กล่อง’ ที่พูดถึงภายหลัง"
+   },
+   {
+    "key": "I can ask the building manager about the temperature and the door locks.",
+    "d": [
+     "The room felt quite cool when I walked past it yesterday afternoon.",
+     "Canned goods never go bad in any room, whatever the temperature.",
+     "The building manager is already on leave until the very end of next month."
+    ],
+    "exp": "Ploy บอกว่าผู้ประสานงานให้ตรวจว่าห้องเย็นพอไหม แล้วตอบ “Good. If the room is suitable, we’ll test the box for one week.” ช่อง (2) จึงต้องเป็นวิธีตรวจสอบจริง คือถามผู้จัดการอาคารเรื่องอุณหภูมิและความปลอดภัย ตัวเลือกที่เดาจากการเดินผ่านเมื่อวานไม่ใช่การตรวจสอบ และตัวเลือกที่บอกว่าผู้จัดการลาถึงเดือนหน้าขัดกับกำหนดทดลองหนึ่งสัปดาห์"
+   },
+   {
+    "key": "We should put a short instruction sheet beside the box.",
+    "d": [
+     "One week is far too short to collect anything useful at all.",
+     "The box should stay empty until the coordinator approves the plan.",
+     "The volunteers can sort the donations at their own homes."
+    ],
+    "exp": "Ploy ตอบว่า “Yes, clear instructions beside the box will stop people leaving fresh food there.” ข้อเสนอในช่อง (3) จึงต้องเกี่ยวกับการติดคำชี้แจงข้างกล่อง ตัวเลือกที่ให้คัดแยกของบริจาคที่บ้านขัดกับระบบกล่องรับของที่ตกลงกัน"
+   },
+   {
+    "key": "The box spreads the donations through the day instead of one big noon pile.",
+    "d": [
+     "Fresh food is the most popular donation at noon on weekdays.",
+     "Evening volunteers say they actually prefer tables full of donations at once.",
+     "The office door stays locked around noon anyway."
+    ],
+    "exp": "Ploy ตอบว่า “Exactly. Then the evening volunteers won’t face a full table at once.” ช่อง (4) จึงต้องอธิบายว่ากล่องช่วยกระจายของบริจาคทั้งวันแทนมากองตอนเที่ยงรวดเดียว ตัวเลือกที่บอกว่าอาสาสมัครรอบเย็นชอบโต๊ะเต็มขัดกับปัญหาที่ตั้งไว้แต่แรก"
+   },
+   {
+    "key": "After the week, we can compare how many donations arrive before and after the change.",
+    "d": [
+     "The coordinator should visit the collection box herself in the mornings to check it.",
+     "We should buy a much bigger box before reporting anything to anyone.",
+     "The noon donations will probably drop to zero within a few days."
+    ],
+    "exp": "Ploy ปิดว่า “Let’s report the comparison to the coordinator at the end of the month.” คำว่า comparison ชี้ว่าช่อง (5) ต้องเสนอการเปรียบเทียบจำนวนบริจาคก่อนและหลังเปลี่ยน ตัวเลือกซื้อกล่องใหญ่ก่อนรายงานไม่ใช่การเปรียบเทียบ และไม่มีข้อมูลรองรับว่าบริจาคตอนเที่ยงจะเหลือศูนย์"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q021",
+  "topic": "Bike-share return docks",
+  "context": "Nok: Riders keep leaving shared bikes beside the station instead of locking them into the marked docks.\nArt: (1) ____\nNok: A bright line sounds cheap to try, but the pavement belongs to the city, not the station.\nArt: (2) ____\nNok: Good. Painted lines need photos of the problem first, so the manager can see the rush-hour mess.\nArt: (3) ____\nNok: Perfect. And after the line is painted, how will we know it works?\nArt: (4) ____\nNok: Yes, riders’ opinions matter as much as the numbers here.\nArt: (5) ____\nNok: Agreed. Let’s finish the photos this week and talk to the manager on Monday.",
+  "tip": "สังเกตว่า Nok ขยับแผนทีละขั้น: เสนอเส้นสี → ขออนุญาต → ถ่ายภาพหลักฐาน → วัดผลสองทาง (นับจักรยาน + ถามผู้ขี่) ตัวเลือกที่ข้ามขั้นหรือตัดทางใดทางหนึ่งออกมักผิด",
+  "items": [
+   {
+    "key": "We could paint a bright line from the cycle path to the return area.",
+    "d": [
+     "The station should hire a guard to move the misplaced bikes once an hour.",
+     "Riders who leave bikes outside the docks should pay a small fine.",
+     "Maybe the marked docks are simply too small for these shared bikes."
+    ],
+    "exp": "Nok ตอบว่า “A bright line sounds cheap to try, but the pavement belongs to the city” ข้อเสนอในช่อง (1) จึงต้องเป็นการทาสีเส้นนำทางไปยังจุดคืนจักรยาน ตัวเลือกจ้างยามหรือปรับเงินไม่ใช่ ‘เส้นสี’ ที่ Nok พูดถึง"
+   },
+   {
+    "key": "Then let’s check the pavement rules with the station manager before painting.",
+    "d": [
+     "Painting without permission is fine for one thin temporary line.",
+     "The city already repairs this pavement after the rainy season, so painting is pointless.",
+     "The station manager never answers any messages before noon."
+    ],
+    "exp": "Nok เตือนว่าทางเท้าเป็นของเมือง แล้วตอบ “Good. Painted lines need photos of the problem first” ช่อง (2) จึงต้องเป็นแผนขอกฎ/อนุญาตจากผู้จัดการสถานีก่อนทาสี ตัวเลือกทาสีโดยไม่ขออนุญาตขัดกับข้อกังวลของ Nok โดยตรง"
+   },
+   {
+    "key": "I can take photos during the morning and evening rush this week.",
+    "d": [
+     "Photos of the parked cars nearby will just annoy the drivers.",
+     "The station cameras already record everything around the docks daily.",
+     "Rush hour is the worst possible time to count anything at all."
+    ],
+    "exp": "Nok บอกว่า “Painted lines need photos of the problem first, so the manager can see the rush-hour mess.” แล้วตอบ “Perfect.” ช่อง (3) จึงต้องรับหน้าที่ถ่ายภาพช่วงชั่วโมงเร่งด่วนตามที่ Nok ขอ ตัวเลือกบอกว่ากล้องสถานีบันทึกอยู่แล้วทำให้ไม่ต้องถ่าย ซึ่งขัดกับที่ Nok ต้องการภาพไปแสดงผู้จัดการ"
+   },
+   {
+    "key": "We can count the misplaced bikes each evening and ask riders whether the route is clearer.",
+    "d": [
+     "The manager will simply decide by looking at the painted line once.",
+     "Fewer bikes on the pavement always means the change worked.",
+     "We should remove the marked docks after the trial ends."
+    ],
+    "exp": "Nok ถามว่า “how will we know it works?” แล้วสรุปว่า “Yes, riders’ opinions matter as much as the numbers here.” คำตอบในช่อง (4) จึงต้องมีทั้งการนับจักรยานที่จอดผิดที่และถามความเห็นผู้ขี่ ตัวเลือกที่มีแค่ตัวเลขด้านเดียวไม่ตรงกับที่ Nok เน้นว่าต้องใช้ทั้งสองทาง"
+   },
+   {
+    "key": "Then both results will show whether the painted line is worth keeping.",
+    "d": [
+     "Counting numbers never really changes what riders actually do at the station.",
+     "Collecting opinions slows down station projects too much.",
+     "The painted line will fade away within one rainy month anyway."
+    ],
+    "exp": "Nok บอกว่าความเห็นผู้ขี่สำคัญพอ ๆ กับตัวเลข แล้วปิดว่า “Let’s finish the photos this week and talk to the manager on Monday.” ช่อง (5) จึงต้องสรุปว่าผลทั้งสองทางจะใช้ตัดสินว่าเส้นสีควรทำต่อ ตัวเลือกที่ปฏิเสธประโยชน์ของตัวเลขหรือความเห็นขัดกับที่ Nok เพิ่งยืนยัน"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q026",
+  "topic": "A community heatwave room",
+  "context": "Rita: The forecast says next week may be unusually hot, and the council wants a cool room ready for residents.\nTao: (1) ____\nRita: The hall is free, but we still need drinking water and a volunteer schedule for every afternoon.\nTao: (2) ____\nRita: That would help, because the oldest residents worry most about the heat.\nTao: (3) ____\nRita: Good idea, and the shaded side room would add ten more seats.\nTao: (4) ____\nRita: Yes. Let’s also review attendance after the first two days.\nTao: (5) ____\nRita: Agreed. I’ll call the hall manager now and put the notice up tonight.",
+  "tip": "แต่ละช่องเชื่อมกับ ‘ทรัพยากร’ ของห้องเย็น: สถานที่ → น้ำ/อาสาสมัคร → กลุ่มผู้สูงอายุ → ห้องข้างเคียง → การประชาสัมพันธ์และประเมินผล ตัดตัวเลือกที่พูดถูกหัวข้อแต่ผิดขั้นตอนออกก่อน",
+  "items": [
+   {
+    "key": "The community hall is available all next week if we book it today.",
+    "d": [
+     "The forecast is probably wrong again about next week’s unusual heat.",
+     "The residents should simply stay home with their own fans instead.",
+     "The council already opened three cool rooms downtown last summer."
+    ],
+    "exp": "Rita ตอบว่า “The hall is free, but we still need drinking water and a volunteer schedule” ช่อง (1) จึงต้องเป็นข่าวดีเรื่องสถานที่ คือหอชุมชนว่างทั้งสัปดาห์ถ้าจองวันนี้ ตัวเลือกที่บอกว่าสภาเปิดห้องเย็นแล้วสามแห่งทำให้ Rita ไม่ต้องวางแผนห้องนี้อีก"
+   },
+   {
+    "key": "The nurse can give a short talk about signs of heat illness on Monday.",
+    "d": [
+     "The volunteers can share one bottle of water between them each hot day.",
+     "The volunteer schedule can safely wait until the hot week begins.",
+     "Cold drinks from the corner shop would help the residents more."
+    ],
+    "exp": "Rita บอกว่ายังต้องเตรียมน้ำดื่มและตารางอาสาสมัคร แล้วตอบรับข้อเสนอในช่อง (2) ว่า “That would help, because the oldest residents worry most about the heat.” จึงต้องเป็นกิจกรรมช่วยผู้สูงอายุรับมือความร้อน คือพยาบาลบรรยายสัญญาณโรคลมแดด ตัวเลือกให้รอทำตารางจนถึงสัปดาห์ร้อนขัดกับที่ต้อง ‘พร้อมล่วงหน้า’"
+   },
+   {
+    "key": "We could ask the hall manager whether the shaded side room can open too.",
+    "d": [
+     "Older residents generally prefer staying home in the hot afternoon anyway.",
+     "The side room is still full of old chairs and storage boxes.",
+     "Ten extra seats are never enough for everyone in hot weather."
+    ],
+    "exp": "Rita ตอบว่า “Good idea, and the shaded side room would add ten more seats.” ข้อเสนอในช่อง (3) จึงต้องเกี่ยวกับการขอเปิดห้องด้านข้างที่มีร่มเงา ตัวเลือกที่บอกว่าห้องข้างเต็มไปด้วยของเก่าขัดกับที่ Rita รู้ว่าเพิ่มที่นั่งได้สิบที่"
+   },
+   {
+    "key": "We should post the opening hours at the bus stop and send them to older residents.",
+    "d": [
+     "Attendance numbers are impossible to count properly at a busy hall.",
+     "The bus stop notice can wait until the week after the heat.",
+     "Two days is far too short to learn anything about attendance."
+    ],
+    "exp": "Rita ตอบว่า “Yes. Let’s also review attendance after the first two days.” คำว่า also แสดงว่าช่อง (4) เสนออีกเรื่องที่ควรทำควบคู่กัน คือประชาสัมพันธ์เวลาเปิดที่ป้ายรถเมล์และส่งถึงผู้สูงอายุโดยตรง ตัวเลือกเลื่อนป้ายบอกสัปดาห์หน้าขัดกับความร้อนที่มาสัปดาห์หน้า"
+   },
+   {
+    "key": "Then we can decide whether to extend the opening hours.",
+    "d": [
+     "Then we can close the hall for the rest of the hot week.",
+     "Attendance at these rooms always drops after the second day.",
+     "The hall manager should review the attendance numbers alone."
+    ],
+    "exp": "Rita เสนอ “review attendance after the first two days” แล้วปิดว่า “I’ll call the hall manager now and put the notice up tonight.” ช่อง (5) จึงต้องเป็นเป้าหมายของการทบทวน เช่น ตัดสินว่าจะขยายเวลาเปิดหรือไม่ ตัวเลือกให้ปิดหอทั้งสัปดาห์ที่เหลือขัดกับแผนรองรับคลื่นความร้อน"
+   }
+  ]
+ }
+]

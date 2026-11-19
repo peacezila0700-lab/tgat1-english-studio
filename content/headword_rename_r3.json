@@ -1,0 +1,455 @@
+{
+ "note": "R3/v43 editorial rename of 56 grid 'domain x noun' pseudo-collocations (headword-validity queue) into established English collocations, per user decision (ก)=rename. Each rename replaces the generic template example with a natural sentence that shows the collocation. Nothing deleted; headword count preserved; old->new aliases emitted for learner-progress migration (see web data headwordAliases).",
+ "decided_by": "user (ก) rename",
+ "written_by": "Arena AI",
+ "renames": [
+  {
+   "old": "reading answer",
+   "new": "correct answer",
+   "th": "คำตอบที่ถูกต้อง",
+   "example": "Read the question twice before you choose the correct answer.",
+   "reason": "grid non-collocation 'reading answer' → real exam collocation",
+   "translation": "อ่านคำถามสองครั้งก่อนเลือกคำตอบที่ถูกต้อง"
+  },
+  {
+   "old": "reading author",
+   "new": "the author",
+   "th": "ผู้เขียน",
+   "example": "The author opens the passage with a surprising fact.",
+   "reason": "grid non-collocation → standard reading term 'the author'",
+   "translation": "ผู้เขียนเปิดบทอ่านด้วยข้อเท็จจริงที่น่าประหลาดใจ"
+  },
+  {
+   "old": "reading fact",
+   "new": "present facts",
+   "th": "นำเสนอข้อเท็จจริง",
+   "example": "A good report presents facts rather than personal feelings.",
+   "reason": "grid non-collocation → verb collocation 'present facts'",
+   "translation": "รายงานที่ดีนำเสนอข้อเท็จจริงมากกว่าความรู้สึกส่วนตัว"
+  },
+  {
+   "old": "reading cause",
+   "new": "cause and effect",
+   "th": "เหตุและผล",
+   "example": "The passage explains the cause and effect of air pollution.",
+   "reason": "grid non-collocation → established pairing 'cause and effect'",
+   "translation": "บทอ่านอธิบายเหตุและผลของมลพิษทางอากาศ"
+  },
+  {
+   "old": "reading effect",
+   "new": "have an effect on",
+   "th": "ส่งผลกระทบต่อ",
+   "example": "Stress can have an effect on your sleep.",
+   "reason": "grid non-collocation → verb collocation 'have an effect on'",
+   "translation": "ความเครียดอาจส่งผลกระทบต่อการนอนหลับของคุณ"
+  },
+  {
+   "old": "reading reference",
+   "new": "reference word",
+   "th": "คำอ้างอิง",
+   "example": "A reference word points back to a noun mentioned earlier in the passage.",
+   "reason": "grid non-collocation → reading skill term 'reference word'",
+   "translation": "คำอ้างอิงคือคำที่ชี้กลับไปยังคำนามที่กล่าวถึงก่อนหน้าในบทอ่าน"
+  },
+  {
+   "old": "reading result",
+   "new": "final result",
+   "th": "ผลลัพธ์สุดท้าย",
+   "example": "The final result of the experiment surprised everyone.",
+   "reason": "grid non-collocation → real collocation 'final result' ('as a result' already exists)",
+   "translation": "ผลลัพธ์สุดท้ายของการทดลองทำให้ทุกคนประหลาดใจ"
+  },
+  {
+   "old": "reading reason",
+   "new": "give a reason",
+   "th": "ให้เหตุผล",
+   "example": "Please give a reason for your answer.",
+   "reason": "grid non-collocation → verb collocation 'give a reason'",
+   "translation": "โปรดให้เหตุผลสำหรับคำตอบของคุณ"
+  },
+  {
+   "old": "reading example",
+   "new": "give an example",
+   "th": "ยกตัวอย่าง",
+   "example": "Can you give an example of a renewable energy source?",
+   "reason": "grid non-collocation → verb collocation 'give an example'",
+   "translation": "คุณช่วยยกตัวอย่างแหล่งพลังงานหมุนเวียนได้ไหม"
+  },
+  {
+   "old": "reading opinion",
+   "new": "express an opinion",
+   "th": "แสดงความคิดเห็น",
+   "example": "Readers are free to express an opinion about the article.",
+   "reason": "grid non-collocation → verb collocation 'express an opinion'",
+   "translation": "ผู้อ่านมีอิสระที่จะแสดงความคิดเห็นเกี่ยวกับบทความ"
+  },
+  {
+   "old": "reading comparison",
+   "new": "make a comparison",
+   "th": "เปรียบเทียบ",
+   "example": "The chart lets you make a comparison between the two years.",
+   "reason": "grid non-collocation → verb collocation 'make a comparison'",
+   "translation": "แผนภูมินี้ช่วยให้คุณเปรียบเทียบระหว่างสองปีได้"
+  },
+  {
+   "old": "reading contrast",
+   "new": "contrast sharply",
+   "th": "แตกต่างกันอย่างชัดเจน",
+   "example": "The two reports contrast sharply in their conclusions.",
+   "reason": "grid non-collocation → adverb collocation ('in contrast' already exists)",
+   "translation": "รายงานสองฉบับแตกต่างกันอย่างชัดเจนในข้อสรุป"
+  },
+  {
+   "old": "reading conclusion",
+   "new": "draw a conclusion",
+   "th": "สรุปความ",
+   "example": "From the data we can draw a conclusion about spending habits.",
+   "reason": "grid non-collocation → verb collocation 'draw a conclusion'",
+   "translation": "จากข้อมูลเราสามารถสรุปเกี่ยวกับนิสัยการใช้จ่ายได้"
+  },
+  {
+   "old": "reading claim",
+   "new": "make a claim",
+   "th": "กล่าวอ้าง",
+   "example": "The writer makes a claim that schools should start later.",
+   "reason": "grid non-collocation → verb collocation 'make a claim'",
+   "translation": "ผู้เขียนกล่าวอ้างว่าโรงเรียนควรเข้าเรียนช้าลง"
+  },
+  {
+   "old": "reading argument",
+   "new": "main argument",
+   "th": "ข้อโต้แย้งหลัก",
+   "example": "The main argument of the passage is that recycling saves money.",
+   "reason": "grid non-collocation → real collocation 'main argument'",
+   "translation": "ข้อโต้แย้งหลักของบทอ่านคือการรีไซเคิลช่วยประหยัดเงิน"
+  },
+  {
+   "old": "reading detail",
+   "new": "supporting detail",
+   "th": "รายละเอียดสนับสนุน",
+   "example": "Each main idea is followed by a supporting detail.",
+   "reason": "grid non-collocation → reading skill term 'supporting detail'",
+   "translation": "ใจความสำคัญแต่ละข้อตามด้วยรายละเอียดสนับสนุน"
+  },
+  {
+   "old": "reading summary",
+   "new": "write a summary",
+   "th": "เขียนสรุป",
+   "example": "The teacher asked us to write a summary of the chapter.",
+   "reason": "grid non-collocation → verb collocation 'write a summary'",
+   "translation": "ครูให้นักเรียนเขียนสรุปของบทนั้น"
+  },
+  {
+   "old": "reading attitude",
+   "new": "author's attitude",
+   "th": "ทัศนคติของผู้เขียน",
+   "example": "The author's attitude toward the policy is clearly critical.",
+   "reason": "grid non-collocation → reading skill term 'author's attitude'",
+   "translation": "ทัศนคติของผู้เขียนต่อนโยบายนี้เป็นการวิพากษ์อย่างชัดเจน"
+  },
+  {
+   "old": "reading evidence",
+   "new": "textual evidence",
+   "th": "หลักฐานจากเนื้อเรื่อง",
+   "example": "Support your answer with textual evidence from paragraph two.",
+   "reason": "grid non-collocation → reading skill term 'textual evidence'",
+   "translation": "จงสนับสนุนคำตอบของคุณด้วยหลักฐานจากเนื้อเรื่องในย่อหน้าสอง"
+  },
+  {
+   "old": "reading inference",
+   "new": "make an inference",
+   "th": "สรุปอนุมาน",
+   "example": "Readers make an inference when the answer is not stated directly.",
+   "reason": "grid non-collocation → verb collocation 'make an inference'",
+   "translation": "ผู้อ่านสรุปอนุมานเมื่อคำตอบไม่ได้ระบุไว้โดยตรง"
+  },
+  {
+   "old": "reading tone",
+   "new": "author's tone",
+   "th": "น้ำเสียงของผู้เขียน",
+   "example": "The author's tone is hopeful rather than angry.",
+   "reason": "grid non-collocation → reading skill term 'author's tone'",
+   "translation": "น้ำเสียงของผู้เขียนเต็มไปด้วยความหวังมากกว่าความโกรธ"
+  },
+  {
+   "old": "reading clue",
+   "new": "context clue",
+   "th": "บริบทที่ช่วยทายความหมาย",
+   "example": "You can guess the word's meaning from a context clue in the sentence.",
+   "reason": "grid non-collocation → reading skill term 'context clue'",
+   "translation": "คุณสามารถทายความหมายของคำได้จากบริบทที่ช่วยทายความหมายในประโยค"
+  },
+  {
+   "old": "reading main idea",
+   "new": "main idea",
+   "th": "ใจความสำคัญ",
+   "example": "The main idea of the passage is stated in the first sentence.",
+   "reason": "grid non-collocation → standard reading term 'main idea'",
+   "translation": "ใจความสำคัญของบทอ่านถูกระบุไว้ในประโยคแรก"
+  },
+  {
+   "old": "health sleep",
+   "new": "get enough sleep",
+   "th": "นอนหลับให้เพียงพอ",
+   "example": "Teenagers need to get enough sleep to concentrate at school.",
+   "reason": "grid non-collocation → verb collocation 'get enough sleep'",
+   "translation": "วัยรุ่นต้องนอนหลับให้เพียงพอเพื่อจะมีสมาธิที่โรงเรียน"
+  },
+  {
+   "old": "health exercise",
+   "new": "regular exercise",
+   "th": "การออกกำลังกายสม่ำเสมอ",
+   "example": "Regular exercise strengthens the heart.",
+   "reason": "grid non-collocation → real collocation 'regular exercise'",
+   "translation": "การออกกำลังกายสม่ำเสมอช่วยเสริมสร้างหัวใจให้แข็งแรง"
+  },
+  {
+   "old": "health stress",
+   "new": "manage stress",
+   "th": "จัดการความเครียด",
+   "example": "Deep breathing can help you manage stress before an exam.",
+   "reason": "grid non-collocation → verb collocation 'manage stress'",
+   "translation": "การหายใจลึก ๆ ช่วยให้คุณจัดการความเครียดก่อนสอบได้"
+  },
+  {
+   "old": "health treatment",
+   "new": "receive treatment",
+   "th": "เข้ารับการรักษา",
+   "example": "The injured players received treatment at the hospital.",
+   "reason": "grid non-collocation → verb collocation ('medical treatment' already exists)",
+   "translation": "ผู้เล่นที่ได้รับบาดเจ็บเข้ารับการรักษาที่โรงพยาบาล"
+  },
+  {
+   "old": "career work",
+   "new": "work experience",
+   "th": "ประสบการณ์ทำงาน",
+   "example": "Part-time jobs give students useful work experience.",
+   "reason": "grid non-collocation → real collocation 'work experience'",
+   "translation": "งานพาร์ตไทม์ให้ประสบการณ์ทำงานที่มีประโยชน์แก่นักเรียน"
+  },
+  {
+   "old": "career workplace",
+   "new": "in the workplace",
+   "th": "ในสถานที่ทำงาน",
+   "example": "Good communication is important in the workplace.",
+   "reason": "grid non-collocation → prepositional collocation 'in the workplace'",
+   "translation": "การสื่อสารที่ดีเป็นสิ่งสำคัญในสถานที่ทำงาน"
+  },
+  {
+   "old": "career employment",
+   "new": "employment opportunities",
+   "th": "โอกาสในการจ้างงาน",
+   "example": "The new factory created employment opportunities for the town.",
+   "reason": "grid non-collocation → real collocation 'employment opportunities'",
+   "translation": "โรงงานใหม่สร้างโอกาสในการจ้างงานให้กับเมืองนี้"
+  },
+  {
+   "old": "career salary",
+   "new": "starting salary",
+   "th": "เงินเดือนเริ่มต้น",
+   "example": "The starting salary for this job is quite high.",
+   "reason": "grid non-collocation → real collocation 'starting salary'",
+   "translation": "เงินเดือนเริ่มต้นของงานนี้ค่อนข้างสูง"
+  },
+  {
+   "old": "career teamwork",
+   "new": "teamwork skills",
+   "th": "ทักษะการทำงานเป็นทีม",
+   "example": "Employers value teamwork skills as much as grades.",
+   "reason": "grid non-collocation → real collocation 'teamwork skills'",
+   "translation": "นายจ้างให้ค่ากับทักษะการทำงานเป็นทีมพอ ๆ กับเกรด"
+  },
+  {
+   "old": "career industry",
+   "new": "industry trends",
+   "th": "แนวโน้มในอุตสาหกรรม",
+   "example": "She reads the news to follow industry trends.",
+   "reason": "grid non-collocation → real collocation 'industry trends'",
+   "translation": "เธออ่านข่าวเพื่อติดตามแนวโน้มในอุตสาหกรรม"
+  },
+  {
+   "old": "career interview",
+   "new": "job interview",
+   "th": "การสัมภาษณ์งาน",
+   "example": "He wore a suit to the job interview.",
+   "reason": "grid non-collocation → real collocation 'job interview'",
+   "translation": "เขาใส่สูทไปสัมภาษณ์งาน"
+  },
+  {
+   "old": "career application",
+   "new": "job application",
+   "th": "การสมัครงาน",
+   "example": "Check your job application for spelling mistakes.",
+   "reason": "grid non-collocation → real collocation 'job application'",
+   "translation": "ตรวจสอบใบสมัครงานของคุณว่ามีการสะกดผิดหรือไม่"
+  },
+  {
+   "old": "career balance",
+   "new": "strike a balance",
+   "th": "สร้างความสมดุล",
+   "example": "It is hard to strike a balance between work and family.",
+   "reason": "grid non-collocation → verb collocation ('work-life balance' already exists)",
+   "translation": "เป็นการยากที่จะสร้างความสมดุลระหว่างงานกับครอบครัว"
+  },
+  {
+   "old": "career future",
+   "new": "career prospects",
+   "th": "แนวโน้มความก้าวหน้าทางอาชีพ",
+   "example": "Learning English improves your career prospects.",
+   "reason": "grid non-collocation → real collocation 'career prospects'",
+   "translation": "การเรียนภาษาอังกฤษช่วยปรับปรุงแนวโน้มความก้าวหน้าทางอาชีพของคุณ"
+  },
+  {
+   "old": "workplace salary",
+   "new": "monthly salary",
+   "th": "เงินเดือนรายเดือน",
+   "example": "Her monthly salary is paid on the last day of the month.",
+   "reason": "grid non-collocation → real collocation 'monthly salary'",
+   "translation": "เงินเดือนรายเดือนของเธอจ่ายในวันสุดท้ายของเดือน"
+  },
+  {
+   "old": "workplace career",
+   "new": "career advancement",
+   "th": "ความก้าวหน้าในหน้าที่การงาน",
+   "example": "Training courses support career advancement.",
+   "reason": "grid non-collocation → real collocation 'career advancement'",
+   "translation": "หลักสูตรอบรมสนับสนุนความก้าวหน้าในหน้าที่การงาน"
+  },
+  {
+   "old": "workplace deadline",
+   "new": "meet a deadline",
+   "th": "ส่งงานทันกำหนด",
+   "example": "We worked late to meet a deadline.",
+   "reason": "grid non-collocation → verb collocation 'meet a deadline'",
+   "translation": "เราทำงานดึกเพื่อให้ส่งงานทันกำหนด"
+  },
+  {
+   "old": "financial income",
+   "new": "annual income",
+   "th": "รายได้ต่อปี",
+   "example": "The form asks for your annual income.",
+   "reason": "grid non-collocation → real collocation 'annual income'",
+   "translation": "แบบฟอร์มถามถึงรายได้ต่อปีของคุณ"
+  },
+  {
+   "old": "financial expense",
+   "new": "living expenses",
+   "th": "ค่าครองชีพ",
+   "example": "Rent is the largest of my living expenses.",
+   "reason": "grid non-collocation → real collocation 'living expenses'",
+   "translation": "ค่าเช่าเป็นค่าใช้จ่ายก้อนใหญ่ที่สุดในค่าครองชีพของฉัน"
+  },
+  {
+   "old": "financial profit",
+   "new": "make a profit",
+   "th": "ทำกำไร",
+   "example": "The small shop began to make a profit in its second year.",
+   "reason": "grid non-collocation → verb collocation 'make a profit'",
+   "translation": "ร้านค้าเล็ก ๆ เริ่มทำกำไรในปีที่สอง"
+  },
+  {
+   "old": "financial loan",
+   "new": "take out a loan",
+   "th": "กู้เงิน",
+   "example": "They decided to take out a loan to buy a car.",
+   "reason": "grid non-collocation → verb collocation 'take out a loan'",
+   "translation": "พวกเขาตัดสินใจกู้เงินเพื่อซื้อรถยนต์"
+  },
+  {
+   "old": "data increase",
+   "new": "increase sharply",
+   "th": "เพิ่มขึ้นอย่างรวดเร็ว",
+   "example": "Sales increased sharply after the advertisement.",
+   "reason": "grid non-collocation → adverb collocation 'increase sharply'",
+   "translation": "ยอดขายเพิ่มขึ้นอย่างรวดเร็วหลังจากการโฆษณา"
+  },
+  {
+   "old": "data decrease",
+   "new": "decrease sharply",
+   "th": "ลดลงอย่างรวดเร็ว",
+   "example": "The number of applicants decreased sharply this year.",
+   "reason": "grid non-collocation → adverb collocation 'decrease sharply'",
+   "translation": "จำนวนผู้สมัครลดลงอย่างมากในปีนี้"
+  },
+  {
+   "old": "data difference",
+   "new": "significant difference",
+   "th": "ความแตกต่างอย่างมีนัยสำคัญ",
+   "example": "There is a significant difference between the two groups.",
+   "reason": "grid non-collocation → real collocation 'significant difference'",
+   "translation": "มีความแตกต่างอย่างมีนัยสำคัญระหว่างสองกลุ่ม"
+  },
+  {
+   "old": "data average",
+   "new": "calculate the average",
+   "th": "คำนวณค่าเฉลี่ย",
+   "example": "First, calculate the average of the ten scores.",
+   "reason": "grid non-collocation → verb collocation ('on average' already exists)",
+   "translation": "ขั้นแรก ให้คำนวณค่าเฉลี่ยของคะแนนสิบตัว"
+  },
+  {
+   "old": "data percentage",
+   "new": "a high percentage",
+   "th": "สัดส่วนที่สูง",
+   "example": "A high percentage of voters supported the plan.",
+   "reason": "grid non-collocation → real collocation 'a high percentage'",
+   "translation": "ผู้ลงคะแนนเสียงในสัดส่วนที่สูงสนับสนุนแผนนี้"
+  },
+  {
+   "old": "data graph",
+   "new": "bar chart",
+   "th": "กราฟแท่ง",
+   "example": "The bar chart compares sales in each month.",
+   "reason": "grid non-collocation → real collocation 'bar chart' ('data visualization' already exists)",
+   "translation": "กราฟแท่งเปรียบเทียบยอดขายในแต่ละเดือน"
+  },
+  {
+   "old": "data survey",
+   "new": "conduct a survey",
+   "th": "ทำการสำรวจ",
+   "example": "The class will conduct a survey about study habits.",
+   "reason": "grid non-collocation → verb collocation 'conduct a survey'",
+   "translation": "ชั้นเรียนจะทำการสำรวจเกี่ยวกับนิสัยการเรียน"
+  },
+  {
+   "old": "data evidence",
+   "new": "supporting evidence",
+   "th": "หลักฐานสนับสนุน",
+   "example": "The claim needs supporting evidence from the study.",
+   "reason": "grid non-collocation → real collocation 'supporting evidence'",
+   "translation": "ข้อกล่าวอ้างนี้ต้องการหลักฐานสนับสนุนจากการศึกษา"
+  },
+  {
+   "old": "data result",
+   "new": "analyze the results",
+   "th": "วิเคราะห์ผลลัพธ์",
+   "example": "Scientists analyze the results before publishing.",
+   "reason": "grid non-collocation → verb collocation 'analyze the results'",
+   "translation": "นักวิทยาศาสตร์วิเคราะห์ผลลัพธ์ก่อนตีพิมพ์"
+  },
+  {
+   "old": "public quality",
+   "new": "public services",
+   "th": "บริการสาธารณะ",
+   "example": "The city wants to improve public services such as transport.",
+   "reason": "grid non-collocation → real collocation 'public services'",
+   "translation": "เมืองต้องการปรับปรุงบริการสาธารณะ เช่น การขนส่ง"
+  },
+  {
+   "old": "social community",
+   "new": "local community",
+   "th": "ชุมชนท้องถิ่น",
+   "example": "Volunteers helped to clean up the local community.",
+   "reason": "grid non-collocation → real collocation 'local community'",
+   "translation": "อาสาสมัครช่วยกันทำความสะอาดชุมชนท้องถิ่น"
+  },
+  {
+   "old": "urban public",
+   "new": "urban residents",
+   "th": "ผู้อยู่อาศัยในเมือง",
+   "example": "Many urban residents use public transport.",
+   "reason": "grid non-collocation → real collocation 'urban residents' ('urban population' already exists)",
+   "translation": "ผู้อยู่อาศัยในเมืองจำนวนมากใช้ระบบขนส่งสาธารณะ"
+  }
+ ]
+}

@@ -1,0 +1,342 @@
+[
+ {
+  "set": 9,
+  "passage": "A",
+  "genre": "travel guide",
+  "topic": "Old city walking tour",
+  "context": "Old City Walking Tour — a guide for first-time visitors. The tour begins at the east gate, (1) ____ the original city wall still stands. Allow three hours; the narrow lanes reward visitors who walk (2) ____ and look up. Most buildings date from the 1920s, when the town grew rich (3) ____ the teak trade. The old market hall now houses a museum; entry (4) ____ included in the tour price. Bring water and a hat; the middle section of the route offers little (5) ____. A local guide, who (6) ____ the tour for eleven years, recommends (7) ____ at the rooftop café halfway through.",
+  "tip": "คู่มือเดินเที่ยวนี้ทดสอบ relative clause บอกสถานที่ คำคู่ grew rich from / in the shade และ present perfect กับ for + ช่วงเวลา",
+  "items": [
+   {
+    "type": "clause",
+    "key": "where",
+    "d": [
+     "which",
+     "whichever",
+     "when"
+    ],
+    "exp": "ช่อง (1) เป็น relative clause บอกสถานที่ (the east gate, where the wall still stands) ซึ่ง where ทำหน้าที่เป็นคำวิเศษณ์ของสถานที่ ส่วน which, whichever ต้องเป็นประธาน/กรรมของ clause ซึ่ง the wall เป็นอยู่แล้ว และ when ใช้กับเวลา"
+   },
+   {
+    "type": "vocab",
+    "key": "slowly",
+    "d": [
+     "lately",
+     "shortly",
+     "lonely"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ walk slowly (เดินช้า ๆ) เพื่อให้ทันสังเกตซอยแคบ ๆ ส่วน lately (เมื่อเร็ว ๆ นี้), shortly (อีกครู่เดียว), lonely (เหงา) เป็นคำหน้าตาคล้ายแต่ไม่ใช่กริยาวิเศษณ์ที่เข้ากับ walk ในบริบทนี้"
+   },
+   {
+    "type": "conn",
+    "key": "from",
+    "d": [
+     "into",
+     "onto",
+     "upon"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ grew rich from the teak trade (ร่ำรวยจากการค้าไม้สัก) บุพบท from บอกแหล่งที่มาของความมั่งคั่ง ส่วน into, onto, upon ไม่ใช้กับ grow rich ในความหมายนี้"
+   },
+   {
+    "type": "tense",
+    "key": "is",
+    "d": [
+     "has",
+     "does",
+     "did"
+    ],
+    "exp": "ช่อง (4) เป็น passive ในปัจจุบันตามคู่มือที่ใช้อัพเดตเสมอ: entry is included (ค่าเข้ารวมอยู่แล้ว) ส่วน has included ต้องมีกรรม, does included และ did included ผิดโครงสร้างเพราะ included เป็น V3 ไม่ใช่กริยารูปฐาน"
+   },
+   {
+    "type": "vocab",
+    "key": "shade",
+    "d": [
+     "shadow",
+     "shed",
+     "shape"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ shade ซึ่งหมายถึง ร่มเงาที่ให้กำบังจากแดด (offers little shade) ส่วน shadow คือเงาร่างของวัตถุเฉพาะจุด, shed (โรงเก็บ/ลอกคราบ) และ shape (รูปทรง) เป็นคำสะกดใกล้กันแต่คนละความหมาย"
+   },
+   {
+    "type": "tense",
+    "key": "has led",
+    "d": [
+     "led",
+     "leads",
+     "is leading"
+    ],
+    "exp": "ช่อง (6) มี for eleven years และไกด์ยังนำทัวร์อยู่ถึงปัจจุบัน จึงต้องใช้ present perfect has led ส่วน led เป็นอดีตที่จบแล้ว, leads เป็นปัจจุบันทั่วไป และ is leading เป็นเหตุการณ์ชั่วคราว"
+   },
+   {
+    "type": "verb",
+    "key": "stopping",
+    "d": [
+     "stop",
+     "to stop",
+     "being stopped"
+    ],
+    "exp": "ช่อง (7) หลัง recommend ต้องใช้ gerund แบบ active (recommends stopping at the café) ส่วน stop, to stop ใช้ตามหลัง recommend โดยตรงไม่ได้ และ being stopped เป็น passive แปลว่าถูกหยุด ซึ่งผิดความหมาย"
+   }
+  ]
+ },
+ {
+  "set": 9,
+  "passage": "B",
+  "genre": "expository article",
+  "topic": "Libraries that lend tools",
+  "context": "The city's twelve public libraries now lend far more than books. Seldom (1) ____ a public service reinvented itself so quickly. Users can (2) ____ musical instruments, sewing machines and even cake tins, free of charge with any library card. The idea came from abroad; the first such collection in the city (3) ____ only four years ago. Hardly had the new shelves opened (4) ____ the waiting lists appeared. Staff noticed something unexpected: borrowing a cake tin often (5) ____ to conversation. The whole collection (6) ____ from local donations, and the libraries (7) ____ broken items repaired by volunteer fixers. Not everything returns on time — one cake tin that went (8) ____ in 2023 became a running joke among staff.",
+  "tip": "บทความนี้มี inversion สองโครงสร้าง (Seldom + has..., Hardly had... + when) และทดสอบ borrow กับ lend ที่ความหมายสลับทางกัน",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "has",
+    "d": [
+     "was",
+     "been",
+     "being"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Seldom ต้องสลับกริยาช่วยมาหน้าประธาน: Seldom has a public service reinvented itself (present perfect เพราะ reinvented เป็น V3) ส่วน was reinvented เป็น passive ที่ขัดความหมาย และ been, being ไม่ใช่กริยาช่วยที่ทำ inversion กับ V3 นี้ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "borrow",
+    "d": [
+     "lend",
+     "keep",
+     "rent"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ borrow (ยืมไปใช้ในฐานะผู้ใช้บริการ) ส่วน lend คือห้องสมุดให้ยืม — ทิศทางสลับกัน, keep (เก็บไว้ตลอด) และ rent (เช่าเสียเงิน) ขัดกับ free of charge"
+   },
+   {
+    "type": "tense",
+    "key": "opened",
+    "d": [
+     "has opened",
+     "opens",
+     "opening"
+    ],
+    "exp": "ช่อง (3) มีคำบอกเวลา only four years ago ซึ่งจบไปแล้ว จึงต้องใช้ past simple opened ส่วน has opened ใช้กับ ago ไม่ได้ และ opens เป็นปัจจุบันทั่วไป"
+   },
+   {
+    "type": "conn",
+    "key": "when",
+    "d": [
+     "than",
+     "then",
+     "that"
+    ],
+    "exp": "ช่อง (4) เป็นโครงสร้างคงที่ Hardly had... when... (แทบจะไม่ทัน...ก็...) ส่วน than ใช้กับ No sooner... than ไม่ใช่ Hardly, then และ that ไม่เข้าโครงสร้างนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "leads",
+    "d": [
+     "takes",
+     "brings",
+     "gets"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ leads to ซึ่งเป็น phrasal verb แปลว่า นำไปสู่ (การยืมพิมพ์อบเค้กนำไปสู่การพูดคุย) ส่วน takes to (พาไปที่), brings (นำมา — ไม่ต้องมี to), gets to ไม่ให้ความหมายนี้"
+   },
+   {
+    "type": "tense",
+    "key": "comes",
+    "d": [
+     "came",
+     "coming",
+     "come"
+    ],
+    "exp": "ช่อง (6) เล่าข้อเท็จจริงปัจจุบันของคอลเลกชัน: The whole collection comes from donations ประธานเอกพจน์จึงใช้ comes ส่วน came เป็นอดีต, coming ไม่ใช่กริยาแท้ และ come ใช้กับประธานเอกพจน์ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "have",
+    "d": [
+     "make",
+     "allow",
+     "do"
+    ],
+    "exp": "ช่อง (7) เป็นโครงสร้าง causative: have + สิ่งของ + V3 (have broken items repaired = เอาของไปให้คนอื่นซ่อม) ส่วน make + V3 ใช้ไม่ได้ในความหมายนี้, allow ต้องใช้ allow + กรรม + to-infinitive และ do ไม่เข้าโครงสร้างนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "missing",
+    "d": [
+     "mistaken",
+     "missed",
+     "mission"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ went missing ซึ่งเป็น collocation แปลว่า หายไป ส่วน mistaken (เข้าใจผิด), missed (คิดถึง/พลาด) และ mission (ภารกิจ) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้ากับของที่หายไป"
+   }
+  ]
+ },
+ {
+  "set": 10,
+  "passage": "A",
+  "genre": "advertisement",
+  "topic": "Gym membership offer",
+  "context": "This January, start the habit that sticks. Flex Gym is offering new members a (1) ____ rate for the first three months — half the normal price. Membership includes unlimited classes; you can (2) ____ from yoga to boxing without booking a day ahead. Our trainers will (3) ____ a personal plan with you in your first week. Members who complete twelve visits in a month (4) ____ a free guest pass. The gym stays open late, (5) ____ shift workers can train after ten at night. No long contract: cancel any time with thirty days' (6) ____. Ready? Book a trial visit at any time (7) ____ suits you — evenings and weekends included.",
+  "tip": "โฆษณายิมนี้เน้นคำคู่ collocation เช่น discounted rate, make a plan, earn a pass, thirty days' notice และ relative clause หลัง any time",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "discounted",
+    "d": [
+     "detached",
+     "devoted",
+     "devoured"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ a discounted rate (อัตราที่ลดแล้ว) ตรงกับเบาะแส half the normal price ส่วน detached (แยกออก), devoted (อุทิศให้), devoured (กลืนกิน) เป็นคำหน้าตาคล้ายแต่ใช้กับอัตราค่าสมาชิกไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "choose",
+    "d": [
+     "cheer",
+     "check",
+     "chat"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ choose from (เลือกจากคลาสที่มี) ส่วน cheer (เชียร์), check (ตรวจ), chat (คุย) ไม่เข้าคู่ with from ในความหมายการเลือกคลาส"
+   },
+   {
+    "type": "verb",
+    "key": "design",
+    "d": [
+     "designed",
+     "designing",
+     "to design"
+    ],
+    "exp": "ช่อง (3) หลัง will ต้องใช้กริยารูปฐาน design ส่วน designed เป็นอดีต, designing ต้องมี be นำ และ to design ใช้หลัง will ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "earn",
+    "d": [
+     "burn",
+     "yearn",
+     "turn"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ earn a free guest pass (ได้รับสิทธิ์จากผลงานการมาครบสิบสองครั้ง) ซึ่งเป็น collocation ส่วน burn (เผา), yearn (โหยหา), turn (หมุน) เป็นคำสัมผัสสระแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "conn",
+    "key": "so",
+    "d": [
+     "but",
+     "or",
+     "yet"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ so (ดังนั้น) บอกผลลัพธ์ว่ายิมเปิดดึก คนทำงานเป็นกะจึงซ้อมได้หลังสี่ทุ่ม ส่วน but, yet บอกความขัดแย้ง และ or บอกทางเลือก ซึ่งไม่เข้ากับเหตุและผลในประโยค"
+   },
+   {
+    "type": "vocab",
+    "key": "notice",
+    "d": [
+     "note",
+     "notion",
+     "news"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ thirty days' notice ซึ่งเป็นสำนวนคงที่ แปลว่า แจ้งล่วงหน้าสามสิบวัน ส่วน note (บันทึก), notion (แนวคิด), news (ข่าว) ไม่เข้าสำนวนการบอกเลิกสัญญา"
+   },
+   {
+    "type": "clause",
+    "key": "that",
+    "d": [
+     "when",
+     "what",
+     "whose"
+    ],
+    "exp": "ช่อง (7) เป็น relative clause ขยาย any time: at any time that suits you (เวลาใดก็ได้ที่เหมาะกับคุณ) ส่วน when suits you ผิดโครงสร้าง (when ต้องตามด้วยประโยคสมบูรณ์), what และ whose ไม่ใช้อธิบาย time ในรูปนี้"
+   }
+  ]
+ },
+ {
+  "set": 10,
+  "passage": "B",
+  "genre": "magazine profile",
+  "topic": "A noodle cart veteran",
+  "context": "Every weekday at dawn, Aunt Noi pushes her noodle cart to the same corner near the pier. “I have sold noodles here for thirty years, (1) ____?” she asks, guessing the reporter's question before it is asked. Her soup, (2) ____ simmers from four in the morning, sells out by one in the afternoon. Regulars say the broth is the best in the district; Noi laughs: “It is just patience. You cannot (3) ____ good soup.” A bowl still costs forty baht, a price that (4) ____ most new customers. When the pier was rebuilt last year, she (5) ____ her cart fifty metres away but kept her hours. “The walk is longer now, (6) ____ it?” she jokes. Noi has no plans to retire; her daughter, (7) ____ works at the bank, helps with the accounts each evening. Ask her secret, and she will (8) ____ you the same answer: wake early, buy fresh, be kind.",
+  "tip": "บทความโปรไฟล์นี้มีการพูดอ้างอิงที่มี question tag สองช่อง relative clause ที่ขยายสิ่งของและคน และคำที่ออกเสียงใกล้กัน rush กับ brush",
+  "items": [
+   {
+    "type": "tag",
+    "key": "haven't I",
+    "d": [
+     "have I",
+     "don't I",
+     "didn't I"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ I have sold noodles... ซึ่งเป็น present perfect บอกเล่า tag จึงต้องเป็น haven't I ส่วน have I ใช้กับประโยคบอกเล่าไม่ได้ และ don't I, didn't I ไม่ตรงกับกริยา have sold"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "what",
+     "whereas"
+    ],
+    "exp": "ช่อง (2) เป็น non-defining relative clause ขยาย her soup (สิ่งของ) และเป็นประธานของ simmers จึงใช้ which ส่วน it ทำให้เกิด comma splice และ what, whereas ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "rush",
+    "d": [
+     "brush",
+     "crush",
+     "blush"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ rush (เร่ง) ตรงกับคำตอบ It is just patience — ซุปดีรีบไม่ได้ ส่วน brush (แปรง), crush (บดขยี้), blush (หน้าแดง) เป็นคำคล้องจองแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "vocab",
+    "key": "surprises",
+    "d": [
+     "suspects",
+     "supplies",
+     "supports"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ surprises (ทำให้ประหลาดใจ) เพราะราคาสี่สิบบาทถูกเกินคาดสำหรับลูกค้าใหม่ ส่วน suspects (สงสัย), supplies (จัดหา), supports (สนับสนุน) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้ากับ a price"
+   },
+   {
+    "type": "tense",
+    "key": "moved",
+    "d": [
+     "has moved",
+     "moves",
+     "moving"
+    ],
+    "exp": "ช่อง (5) มีคำบอกเวลา When the pier was rebuilt last year จึงต้องใช้ past simple moved ส่วน has moved เชื่อมถึงปัจจุบันซึ่งขัดกับปีที่แล้ว, moves เป็นปัจจุบันทั่วไป และ moving ไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "tag",
+    "key": "isn't",
+    "d": [
+     "is",
+     "doesn't",
+     "wasn't"
+    ],
+    "exp": "ช่อง (6) เป็น question tag ของ The walk is longer now ซึ่งเป็น present simple บอกเล่าด้วยกริยา is tag จึงต้องเป็น isn't it ส่วน is it ใช้กับประโยคบอกเล่าไม่ได้, doesn't it ต้องใช้กับกริยาอื่นที่ไม่ใช่ is และ wasn't it เป็นอดีต"
+   },
+   {
+    "type": "clause",
+    "key": "who",
+    "d": [
+     "which",
+     "whom",
+     "whose"
+    ],
+    "exp": "ช่อง (7) เป็น relative pronoun ทำหน้าที่ประธานของ works และอ้างถึงคน (her daughter) จึงใช้ who ส่วน which ใช้กับสิ่งของ, whom ทำหน้าที่ประธานไม่ได้ และ whose แสดงความเป็นเจ้าของ"
+   },
+   {
+    "type": "verb",
+    "key": "give",
+    "d": [
+     "gave",
+     "giving",
+     "to give"
+    ],
+    "exp": "ช่อง (8) หลัง will ต้องใช้กริยารูปฐาน give (give somebody an answer) ส่วน gave เป็นอดีต, giving ต้องมี be นำ และ to give ใช้หลัง will ไม่ได้"
+   }
+  ]
+ }
+]

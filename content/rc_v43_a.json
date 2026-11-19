@@ -1,0 +1,602 @@
+[
+ {
+  "first": "S01-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What do members of the seed library agree to do?",
+    "key": "Return some seeds from their next harvest.",
+    "d": [
+     "Pay a small fee for each seed packet.",
+     "Record which plants grow well in containers.",
+     "Exchange vegetables with the other members."
+    ],
+    "exp": "ข้อความบอกว่าห้องสมุดให้ยืมถุงเมล็ดแก่สมาชิก “who agree to return some seeds from the next harvest” จึงตอบคืนเมล็ดจากการเก็บเกี่ยวครั้งหน้า ตัวเลือกเก็บค่าธรรมเนียมขัดกับ “Instead of selling seeds” ตัวเลือกจดบันทึกพืชเป็นงานของ organizers ไม่ใช่สมาชิก"
+   },
+   {
+    "type": "detail",
+    "prompt": "According to the passage, why do the organizers plan to add herbs and flowers?",
+    "key": "They do not need much room in pots.",
+    "d": [
+     "They produce more food than vegetables.",
+     "Members asked for them at the center.",
+     "They are cheaper than vegetable seeds."
+    ],
+    "exp": "ประโยคสุดท้ายบอกว่า “The organizers now plan to add herbs and flowers because they can grow in smaller containers.” จึงตอบว่าปลูกในกระถางเล็กได้ ตัวเลือกให้ผลผลิตมากกว่า/สมาชิกขอ/ราคาถูกกว่า ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A community project that shares seeds and growing advice.",
+    "d": [
+     "A study of which vegetables grow best on small city balconies.",
+     "A new way for shops to sell seeds to families.",
+     "A plan to build vegetable gardens at a center."
+    ],
+    "exp": "ทั้งเรื่องเล่าโครงการ seed library ของชุมชน: ให้ยืมเมล็ด จดบันทึกผล ติดป้ายคำแนะนำ และ “encouraged residents to exchange growing advice” ตัวเลือกศึกษาผักบนระเบียงเป็นแค่รายละเอียดช่วงแรก ตัวเลือกขายเมล็ดขัดกับ “Instead of selling seeds” และไม่มีแผนสร้างสวนที่ศูนย์"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does the word “They” in “They then added simple notes” refer to?",
+    "key": "The organizers.",
+    "d": [
+     "The member families.",
+     "The packets.",
+     "The visiting new gardeners."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “the organizers recorded which plants grew well in containers” ดังนั้น They ในประโยคถัดมา = the organizers ผู้จดบันทึก ตัวเลือก families/packets/new gardeners ไม่ใช่ผู้ทำ action นี้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “what to expect” on the packet notes is closest in meaning to",
+    "key": "how a plant is likely to grow.",
+    "d": [
+     "when the seed library will open.",
+     "which seed packets cost the most.",
+     "where to plant the seeds."
+    ],
+    "exp": "โน้ตบนถุงช่วยให้นักสวนมือใหม่รู้ว่าพืชจะโตอย่างไร เหมาะกับกระถางหรือต้องการที่กว้าง ซึ่งตรงกับ “which plants grew well in containers and which needed more space” ตัวเลือกเวลาเปิด/ราคา/ตำแหน่งปลูกไม่ใช่ข้อมูลบนโน้ต"
+   }
+  ]
+ },
+ {
+  "first": "S01-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the students do during the first week of the experiment?",
+    "key": "They observed where people stopped to ask for directions.",
+    "d": [
+     "They placed large signs near the entrance.",
+     "They recommended adding a small digital board.",
+     "They interviewed the station staff about delays."
+    ],
+    "exp": "บทความบอกว่า “For one week, they observed where people stopped to ask for directions.” ส่วนการติดป้ายเป็นงานของ “station staff” ในสัปดาห์ถัดมา และการแนะนำจอดิจิทัลเป็นข้อสรุปตอนท้าย"
+   },
+   {
+    "type": "detail",
+    "prompt": "What was special about the signs that station staff placed?",
+    "key": "They showed directions with symbols.",
+    "d": [
+     "They explained delays in long sentences.",
+     "They showed temporary changes digitally.",
+     "They told passengers to ask staff for help."
+    ],
+    "exp": "ป้ายใช้ “arrows and platform numbers rather than long sentences” จึงตอบตัวเลือกแรก ตัวเลือกประโยคยาวขัดกับ rather than จอดิจิทัลเป็นเพียงข้อเสนอที่ยังไม่ติดตั้ง และไม่มีป้ายบอกให้ถามพนักงาน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “temporary” is closest in meaning to",
+    "key": "lasting for only a short time.",
+    "d": [
+     "planned many months in advance by staff.",
+     "printed clearly on large boards.",
+     "approved by the station manager."
+    ],
+    "exp": "“a small digital board that could show temporary changes” หมายถึงการเปลี่ยนแปลงชั่วคราว เช่น ตอนรถไฟล่าช้าหรือย้ายชานชาลา ซึ่งเกิดขึ้นแค่ช่วงสั้น ๆ ตัวเลือกวางแผนล่วงหน้านาน/พิมพ์บนป้ายใหญ่/ได้รับอนุมัติ ไม่ใช่ความหมายของ temporary"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “They did not conclude that signs had solved every problem, however.”?",
+    "key": "The students believed some problems remained.",
+    "d": [
+     "The students decided the signs had fixed everything.",
+     "The students never checked whether questions decreased.",
+     "The students concluded that the signs created problems."
+    ],
+    "exp": "ประโยคนี้แปลว่าแม้คำถามลดลง แต่นักเรียนไม่สรุปว่าป้ายแก้ได้ทุกปัญหา = ยังมีปัญหาเหลืออยู่ ตัวเลือกแรกตรงข้าม ตัวเลือกสองขัดกับการที่พวกเขา “counted questions again” และตัวเลือกสามบิดว่าป้ายสร้างปัญหา"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement is TRUE according to the passage?",
+    "key": "Fewer passengers asked for help after the signs appeared.",
+    "d": [
+     "The whole experiment lasted about two months.",
+     "The students removed the signs after week two.",
+     "A digital board was installed during the trial."
+    ],
+    "exp": "บทความระบุตรง ๆ ว่า “found that fewer passengers stopped to ask for help” ส่วนการทดลองกินเวลาสองสัปดาห์ไม่ใช่สองเดือน นักเรียนเสนอ “keeping the signs” และจอดิจิทัลเป็นเพียงคำแนะนำยังไม่ถูกติดตั้ง"
+   }
+  ]
+ },
+ {
+  "first": "S01-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How was Version B of the audio guide different from Version A?",
+    "key": "It invited a guess first, then explained.",
+    "d": [
+     "It gave shorter descriptions of objects.",
+     "It was designed for the older visitors.",
+     "It paused automatically after every few minutes."
+    ],
+    "exp": "บทความบอกว่า “Version B asked a question before providing the explanation” ส่วนคำบรรยายสั้นเป็นลักษณะของ Version A ผู้สูงอายุกลับชอบ Version A และการหยุดเป็นพัก ๆ เป็นคำบ่นของผู้เยี่ยมชมไม่ใช่ฟีเจอร์"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the exit interviews show about Version B?",
+    "key": "Many visitors remembered more details from it.",
+    "d": [
+     "Older visitors liked its opening questions the most.",
+     "It made visitors look at each object less closely.",
+     "Visitors finished it faster than Version A."
+    ],
+    "exp": "ผลคือ “many visitors remembered more details from Version B” ตัวเลือกผู้สูงอายุชอบ B ขัดกับ “some older visitors preferred the simpler format of Version A” ส่วนอีกสองตัวเลือกไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the museum decide to keep both versions of the guide?",
+    "key": "Different visitors preferred different formats.",
+    "d": [
+     "The weekend trial showed both versions were too long.",
+     "Staff members refused to choose a version.",
+     "Version B failed during the weekend show."
+    ],
+    "exp": "พิพิธภัณฑ์ “decided not to choose one version for everyone” และจะให้ “visitors select the one they prefer” เพราะผลทดลองแบ่งเป็นสองกลุ่ม (หลายคนจำ B ได้ดีกว่า บางคนอายุมากชอบ A) ตัวเลือกอื่นไม่มีข้อมูลรองรับ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the passage present the museum’s final decision?",
+    "key": "As a sensible answer to mixed results.",
+    "d": [
+     "As a mistake that wasted the whole trial.",
+     "As a temporary fix to be reversed.",
+     "As a choice that upset many older visitors."
+    ],
+    "exp": "บทความเล่าด้วยน้ำเสียงกลางและแสดงว่าการให้บริการทั้งสองรูปแบบตอบสนองผลที่ผสมกันของผู้เยี่ยมชมแต่ละกลุ่ม ไม่มีถ้อยคำใดชี้ว่าเป็นความผิดพลาด ชั่วคราว หรือทำให้ผู้สูงอายุไม่พอใจ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “format” is closest in meaning to",
+    "key": "the way the guide presents information.",
+    "d": [
+     "the total length of the weekend exhibition.",
+     "the number of objects on display.",
+     "the cost of using the audio guide."
+    ],
+    "exp": "“the simpler format of Version A” หมายถึงรูปแบบการนำเสนอข้อมูล (บรรยายสั้น vs ถามก่อนอธิบาย) ไม่เกี่ยวกับระยะเวลาจัดงาน จำนวนวัตถุ หรือค่าใช้จ่าย"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "According to the passage, what caused most delays in the old queue?",
+    "key": "Students had to stop twice in the line.",
+    "d": [
+     "Students arrived before the food was ready.",
+     "The menu changed while students waited.",
+     "Only one drink station served everyone at lunch."
+    ],
+    "exp": "บทความบอกว่าดีเลย์เกิด “when students had to stop twice: once to choose a meal and again to collect a drink” ตัวเลือกอื่นไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which change did the student committee suggest?",
+    "key": "Moving beverages to the last point of each counter.",
+    "d": [
+     "Displaying the menu inside the serving area.",
+     "Serving lunch ten minutes earlier than before.",
+     "Letting students collect their drinks before the meal."
+    ],
+    "exp": "ข้อเสนอคือ “placing drinks at the end of each serving station and displaying the day’s menu before students entered the line” ตัวเลือกแสดงเมนูข้างในขัดกับ before entered ส่วนอีกสองตัวเลือกไม่มีในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Students studied the lunch queue and made it faster.",
+    "d": [
+     "Schools should give students a longer lunch break.",
+     "Students eat better meals when the queues are shorter.",
+     "A committee decided what food the school should serve."
+    ],
+    "exp": "แกนของเรื่องคือคณะกรรมการนักเรียนศึกษาแถวและปรับจน “the queue moved faster on most days” ตัวเลือกขยายเวลาพัก/อาหารดีขึ้น/เลือกเมนู ไม่ใช่ประเด็นหลักของบทความ"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “it” in “will review it again after exams” refer to?",
+    "key": "The new lunch layout.",
+    "d": [
+     "The student committee.",
+     "The school exam timetable.",
+     "The day’s menu."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “The school plans to keep the layout but will review it again after exams” สิ่งที่ทบทวนคือ layout ใหม่ ตัวเลือกคณะกรรมการ/ตารางสอบ/เมนู ไม่ใช่วัตถุของการ review"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “arrangement” is closest in meaning to",
+    "key": "the way the serving area is organized.",
+    "d": [
+     "the speed of the lunch queue.",
+     "the printed list of meals being served.",
+     "the plan for the exam period."
+    ],
+    "exp": "“the new arrangement made it easier to see what was available” หมายถึงการจัดวางพื้นที่เสิร์ฟใหม่ (เครื่องดื่มท้ายสถานีเสิร์ฟ + เมนูหน้าแถว) ไม่ใช่ความเร็ว รายการอาหาร หรือแผนสอบ"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "When did the shopkeeper begin recording the weather?",
+    "key": "After bad weather harmed local streets.",
+    "d": [
+     "When farmers first asked for the data.",
+     "After the school class requested records.",
+     "When the town built the notice board."
+    ],
+    "exp": "บทความระบุว่า “The habit began after a storm damaged several roads” ตัวเลือกเกษตรกรขอข้อมูลและห้องเรียนขอคัดลอกเกิดภายหลัง และไม่มีข้อมูลว่าเมืองสร้างบอร์ด"
+   },
+   {
+    "type": "detail",
+    "prompt": "What three things does the shopkeeper record every morning?",
+    "key": "Heat, rain and where the wind comes from.",
+    "d": [
+     "Temperature, humidity and cloud cover.",
+     "Rainfall, wind speed and local road conditions.",
+     "Wind direction, storms and equipment moves."
+    ],
+    "exp": "ข้อความบอกตรง ๆ ว่าบันทึก “the temperature, rainfall, and wind direction” ทุกเช้า ตัวเลือกอื่นผสมคำที่ไม่มีในรายการจริง เช่น humidity, cloud cover, road conditions"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about the board’s records?",
+    "key": "They are consistent because methods never change.",
+    "d": [
+     "They are far more accurate than official forecasts.",
+     "They will soon replace the school’s own data.",
+     "They help predict the next day’s weather."
+    ],
+    "exp": "การใช้ “the same measuring tools each morning” และ “writes the readings at the same time” บอกเป็นนัยว่าข้อมูลสม่ำเสมอเทียบกันได้ในแต่ละวัน บทความไม่เทียบความแม่นกับพยากรณ์ทางการ และระบุชัดว่า “never claims that it can predict tomorrow’s weather”"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The information is not an official forecast, and the shopkeeper never claims that it can predict tomorrow’s weather.”?",
+    "key": "The board shows real conditions, not predictions.",
+    "d": [
+     "The board is the town’s official weather forecast.",
+     "The shopkeeper stopped recording during bad weather.",
+     "Officials use the board to predict tomorrow’s weather."
+    ],
+    "exp": "ใจความคือข้อมูลบนบอร์ดเป็นสภาพอากาศที่เกิดขึ้นจริง ไม่ใช่พยากรณ์ล่วงหน้า ตัวเลือกหนึ่งและสามตรงข้ามกับข้อความชัดเจน และตัวเลือกสองไม่มีข้อมูลรองรับ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “practical” is closest in meaning to",
+    "key": "useful in everyday situations.",
+    "d": [
+     "based on official scientific forecasts.",
+     "interesting mainly to science teachers.",
+     "easy to copy for a lesson."
+    ],
+    "exp": "“Its value is more practical” ตามด้วยคำอธิบายว่าคนเห็นสภาพอากาศจริงแถวนั้นได้ และชาวนาใช้ตัดสินใจย้ายเครื่องมือ = มีประโยชน์ใช้งานจริงในชีวิตประจำวัน ตัวเลือกพยากรณ์ทางการขัดกับ “not an official forecast” ตัวเลือกครูวิทย์/คัดลอกไปสอนไม่ใช่ความหมายของคำ"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How long was the library’s quiet-zone trial?",
+    "key": "Four weeks.",
+    "d": [
+     "Two weeks.",
+     "About six weeks.",
+     "One school term."
+    ],
+    "exp": "บทความระบุว่า “the library ran a four-week trial” จึงตอบสี่สัปดาห์ ตัวเลือกอื่นผิดตัวเลข"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the board add when it approved the quiet zone?",
+    "key": "Comfortable seats outside the zone for talking.",
+    "d": [
+     "Much stricter noise rules for family visitors.",
+     "A second quiet zone on another floor.",
+     "Longer opening hours on the weekend."
+    ],
+    "exp": "บอร์ดอนุมัติ quiet zone “but added comfortable seats outside it for visitors who wanted to talk” ตัวเลือกกฎเข้มขึ้น/โซนที่สอง/ขยายเวลาเปิด ไม่มีในบทความ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the library run a trial before making the quiet zone permanent?",
+    "key": "It wanted evidence of the rule’s effects first.",
+    "d": [
+     "The board had already approved the plan.",
+     "Staff refused to enforce any strict rule.",
+     "Supporters had asked for a much shorter quiet zone."
+    ],
+    "exp": "บทความบอกว่า “Before deciding, the library ran a four-week trial” แล้วใช้ผล (ข้อร้องเรียนลดลง ครอบครัวไม่ได้ลดลงมาก) ประกอบการอนุมัติ แสดงว่าต้องการหลักฐานก่อนตัดสินใจ ตัวเลือกบอร์ดอนุมัติแล้วขัดกับลำดับเรื่อง"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How is the final decision described at the end of the passage?",
+    "key": "As a compromise, not a complete solution.",
+    "d": [
+     "As a clear victory for the supporters.",
+     "As a temporary measure to be reviewed soon.",
+     "As a strict rule that upset local families."
+    ],
+    "exp": "ประโยคสุดท้ายระบุตรง ๆ ว่า “The decision was presented as a compromise rather than a complete solution.” ตัวเลือกชัยชนะ/ชั่วคราว/ทำให้ครอบครัวโกรธ ไม่ตรงกับถ้อยคำนี้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “welcoming” is closest in meaning to",
+    "key": "friendly and comfortable for visitors.",
+    "d": [
+     "quiet and strict for everyone who visits.",
+     "large enough for many people.",
+     "modern and well organized."
+    ],
+    "exp": "ข้อกังวลคือกฎเข้มจะ “make the library less welcoming to families” = ทำให้ครอบครัวรู้สึกไม่เป็นที่ต้อนรับ/ไม่สบายใจ ตัวเลือกเงียบเข้มงวด/กว้างขวาง/ทันสมัย ไม่ใช่ความหมายนี้"
+   }
+  ]
+ },
+ {
+  "first": "S03-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What problem with new volunteers did the organizers notice?",
+    "key": "They were not confident explaining repairs.",
+    "d": [
+     "They could not use the tools properly.",
+     "They refused to talk to the visitors.",
+     "They broke items that were already beyond repair."
+    ],
+    "exp": "บทความบอกว่าอาสาสมัครใหม่ “knew how to use tools but were less confident when explaining repairs to visitors” ตัวเลือกใช้เครื่องมือไม่เป็นจึงตรงข้ามกับข้อความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which skill did volunteers practice on the training day?",
+    "key": "Describing a problem in simple language.",
+    "d": [
+     "Repairing lamps, bags and loose chair joints.",
+     "Choosing the cheapest repair method.",
+     "Writing weekly reports for the organizers."
+    ],
+    "exp": "วันฝึกเน้นการสื่อสาร: อาสาสมัคร “practiced describing a problem in simple language, explaining the safest next step” ส่วนการซ่อมเป็นงานปกติของร้าน ไม่ใช่เนื้อหาการฝึก"
+   },
+   {
+    "type": "main",
+    "prompt": "What does the passage mainly describe?",
+    "key": "A repair café that trains volunteers to communicate.",
+    "d": [
+     "How volunteers learn to fix items faster.",
+     "Why visitors complain about slow repairs.",
+     "A café that decides which items to repair."
+    ],
+    "exp": "แกนเรื่องคือ “They introduced a short training day focused on communication” และข้อสรุปว่าการสอนผู้มาเยือนมีค่าพอ ๆ กับการซ่อม ตัวเลือกซ่อมเร็วขึ้น/ผู้เยี่ยมชมบ่น/เลือกรับซ่อม ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They introduced a short training day” refer to?",
+    "key": "The organizers.",
+    "d": [
+     "The new volunteers.",
+     "The visitors.",
+     "The household items."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “the organizers noticed that new volunteers...” ผู้ที่สังเกตเห็นจึงเป็นผู้ introduced วันฝึก = the organizers"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “beyond repair” is closest in meaning to",
+    "key": "impossible to fix.",
+    "d": [
+     "expensive to replace.",
+     "waiting for new parts.",
+     "still under guarantee."
+    ],
+    "exp": "อาสาสมัครฝึก “telling visitors when an item was beyond repair” = บอกเมื่อของซ่อมไม่ได้แล้ว ตัวเลือกเปลี่ยนแพง/รออะไหล่/ยังอยู่ในประกัน ไม่ใช่ความหมายของสำนวนนี้"
+   }
+  ]
+ },
+ {
+  "first": "S03-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the club collect samples only after heavy rain at first?",
+    "key": "To check if rain from the land altered it.",
+    "d": [
+     "To measure pollution from the nearby construction site.",
+     "Because the river was unsafe on dry days.",
+     "To compare two parts of the river."
+    ],
+    "exp": "บทความบอกว่า “they wanted to see whether runoff changed the water’s appearance” จึงเก็บเฉพาะหลังฝนหนัก ส่วนการเทียบแม่น้ำอีกช่วงเป็นแผนในปัจจุบัน และการวัดผลจากไซต์ก่อสร้างมาพบทีหลัง"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the larger set of observations show?",
+    "key": "Muddy water could have other causes too.",
+    "d": [
+     "Runoff from rain was the only cause of cloudiness.",
+     "All construction had stopped near the river.",
+     "Dry-day samples were hard to collect."
+    ],
+    "exp": "ข้อมูลมากขึ้นแสดงว่า “cloudy water was not always linked to rain; nearby construction work also affected the river” ตัวเลือกแรกจึงตรงข้ามกับข้อความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “monitoring” is closest in meaning to",
+    "key": "watching and checking over time.",
+    "d": [
+     "cleaning and protecting from pollution.",
+     "photographing for a school exhibition.",
+     "collecting money to repair."
+    ],
+    "exp": "“A science club began monitoring a small river” แล้วบทความเล่าว่าเก็บตัวอย่างน้ำหลังฝนตกและทุกสัปดาห์ = เฝ้าติดตามตรวจสอบต่อเนื่อง ชมรมไม่ได้ทำความสะอาดแม่น้ำ ถ่ายภาพจัดนิทรรศการ หรือหาเงินซ่อมแซม"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The club did not claim that its observations proved every source of pollution, but the regular measurements gave officials a clearer picture of when changes occurred.”?",
+    "key": "The data was limited but still useful to officials.",
+    "d": [
+     "The club proved every source of the river pollution.",
+     "Officials rejected the club’s measurements.",
+     "The data showed when the pollution started."
+    ],
+    "exp": "ประโยคแปลว่าข้อมูลไม่ได้พิสูจน์ทุกแหล่งมลพิษ (จำกัด) แต่ยังช่วยให้เจ้าหน้าที่เห็นภาพชัดว่ามีอะไรเปลี่ยนเมื่อไร (มีประโยชน์) ตัวเลือกแรกตรงข้าม ตัวเลือกสองไม่มีข้อมูล และตัวเลือกสามบิดจาก when changes occurred"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement agrees with the information in the passage?",
+    "key": "The club plans to compare results with another part of the river.",
+    "d": [
+     "The school ended the project after the council acted.",
+     "The company moved its work away from the riverbank.",
+     "Samples are now collected mainly on dry days."
+    ],
+    "exp": "ประโยคสุดท้ายระบุ “The students now plan to compare their results with readings from another part of the river.” ส่วนโครงการไม่ได้จบ บริษัทแค่ถูกขอให้คลุมดิน และสโมสร “added weekly samples taken on dry days” ควบคู่กับการเก็บหลังฝน ไม่ใช่แทนที่"
+   }
+  ]
+ },
+ {
+  "first": "S03-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What were the podcast’s first episodes like?",
+    "key": "They were simple summaries of books.",
+    "d": [
+     "They featured a different guest each week.",
+     "They asked listeners to send in questions.",
+     "They compared two books in each episode."
+    ],
+    "exp": "บทความบอกว่า “Their first episodes were simple summaries” ส่วนการมีแขกรับเชิญแต่ละตอนเป็นรูปแบบใหม่ที่เปลี่ยนภายหลัง"
+   },
+   {
+    "type": "detail",
+    "prompt": "Who discussed book displays in one episode?",
+    "key": "A librarian.",
+    "d": [
+     "A younger student.",
+     "One of the hosts.",
+     "A local author."
+    ],
+    "exp": "ข้อความระบุว่า “A librarian joined one episode to discuss how libraries decide which books to display” ส่วนนักเรียนรุ่นน้องคุยเรื่องการเลือกนิทานครั้งแรก"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the hosts consider the new disagreement useful?",
+    "key": "It offered fresh views on a title.",
+    "d": [
+     "It attracted more guests to the show.",
+     "It reduced the time spent on summaries.",
+     "It proved summaries were never helpful."
+    ],
+    "exp": "บทความบอกว่าพวกเขาเห็นว่าความขัดแย้งมีประโยชน์ “because it gave listeners several ways to think about the same book” ตัวเลือกดึงแขก/ลดเวลา/พิสูจน์ว่าสรุปเรื่องไม่มีประโยชน์ ไม่มีข้อมูลรองรับ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the hosts feel about their new question format?",
+    "key": "They value it despite the extra preparation.",
+    "d": [
+     "They prefer the old summary style.",
+     "They plan to change the episode format again soon.",
+     "They blame guests for disagreements."
+    ],
+    "exp": "โฮสต์ “considered that useful” และ “spend less time summarizing the plot and more time preparing questions” แสดงว่าให้ค่ารูปแบบใหม่แม้ต้องเตรียมมากขึ้น ไม่มีสัญญาณว่าจะกลับไปใช้แบบเก่า"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “respond” is closest in meaning to",
+    "key": "give an answer.",
+    "d": [
+     "read the book aloud.",
+     "choose the weekly book.",
+     "argue with the hosts."
+    ],
+    "exp": "รูปแบบใหม่คือ “asking a different guest to respond” = ถามแล้วให้แขกตอบ/ให้ความเห็น ตัวเลือกอ่านออกเสียง/เลือกหนังสือ/โต้แย้ง ไม่ใช่ความหมายของ respond"
+   }
+  ]
+ },
+ {
+  "first": "S04-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What problem did the market have before the numbering system?",
+    "key": "Shoppers often reached the wrong booth.",
+    "d": [
+     "Announcements could not be heard clearly.",
+     "Vendors refused to display their new numbers.",
+     "Delivery drivers collected the wrong orders."
+    ],
+    "exp": "ประโยคแรกระบุปัญหา “customers often walked to the wrong stall after hearing an announcement” ตัวเลือกเสียงประกาศไม่ชัด/ร้านค้านไม่ติดเลข/คนขับหยิบผิด ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What does the manager plan to add to the map next?",
+    "key": "Colors marking the food, clothing and craft areas.",
+    "d": [
+     "Numbers printed on the delivery vans.",
+     "Bigger signs at the market entrance.",
+     "Photos of the vendors’ stalls."
+    ],
+    "exp": "แผนต่อไปคือ “add colors to the map so visitors can identify food, clothing, and craft areas more quickly” ตัวเลือกอื่นไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "Which option best summarizes the passage?",
+    "key": "How stall numbers helped market visitors.",
+    "d": [
+     "Why weekend markets should sell more craft items.",
+     "A manager’s plan to enlarge the market.",
+     "How market vendors choose their stall locations."
+    ],
+    "exp": "ทั้งเรื่องเล่าการทดลองระบบหมายเลขร้านค้าซึ่งช่วยให้ลูกค้าถามเจาะจงขึ้นและขยายไปถึงคนส่งของ ตัวเลือกขยายตลาด/เลือกทำเล/ขายงานคราฟต์ไม่ใช่แกนเรื่อง"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “this” in “The manager considered this a sign” refer to?",
+    "key": "Customers asking more specific questions.",
+    "d": [
+     "The map placed at the entrance.",
+     "The loud volume of the announcement system.",
+     "The first weekend’s low sales."
+    ],
+    "exp": "ประโยคก่อนหน้าเล่าว่าคำถามเปลี่ยนเป็นเจาะจงขึ้น เช่น “Where is stall 18?” ผู้จัดการจึงมอง การเปลี่ยนแปลงนี้ = this ว่าแผนที่ช่วยได้ ตัวเลือกอื่นไม่ใช่สิ่งที่ถูกอ้างถึง"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “recurring” is closest in meaning to",
+    "key": "happening again and again.",
+    "d": [
+     "difficult for visitors to understand.",
+     "surprising to almost everyone.",
+     "quickly fixed."
+    ],
+    "exp": "“a recurring problem: customers often walked to the wrong stall” คือปัญหาที่เกิดซ้ำ ๆ ตัวเลือกเข้าใจยาก/น่าประหลาดใจ/แก้เร็ว ไม่ใช่ความหมายของ recurring"
+   }
+  ]
+ }
+]

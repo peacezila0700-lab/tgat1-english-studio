@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S06-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the students propose for the busiest bus stop?",
+    "key": "A smaller shade structure.",
+    "d": [
+     "Planting several large trees.",
+     "Moving the stop to the campus.",
+     "Building a full shelter for the class."
+    ],
+    "exp": "นักเรียนเสนอ “planting trees at two stops while installing a smaller shade structure at the busiest one” เพราะป้ายที่คนเยอะที่สุดมีพื้นที่น้อยที่สุด ตัวเลือกปลูกต้นไม้ที่ป้ายนั้น/ย้ายป้าย/สร้างศาลาใหญ่ จึงผิด"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the city transport office decide to do?",
+    "key": "It said it would look into it.",
+    "d": [
+     "It approved the planting of trees.",
+     "It paid for the shade structure.",
+     "It asked students to survey again."
+    ],
+    "exp": "บทความระบุตรง ๆ ว่า “The office agreed to study the proposal.” ยังไม่ได้อนุมัติ ปลูกต้นไม้ หรือจ่ายเงิน ตัวเลือกให้สำรวจใหม่ก็ไม่มีในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "Which summary best fits the passage as a whole?",
+    "key": "A student survey that shaped a shade proposal.",
+    "d": [
+     "Why hot cities need more bus stops.",
+     "The city transport office’s plans for new trees.",
+     "How students choose survey questions."
+    ],
+    "exp": "แกนเรื่องคือนักเรียนสำรวจผู้รอรถแล้วนำเสนอผลพร้อมข้อเสนอที่ต่างกันตามแต่ละป้าย ตัวเลือกความจำเป็นของป้ายเพิ่ม/แผนของสำนักงาน/วิธีเลือกคำถาม ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They presented the results to the city transport office” refer to?",
+    "key": "The students who did the survey.",
+    "d": [
+     "The people waiting at the bus stops.",
+     "The transport office staff.",
+     "The students’ teacher."
+    ],
+    "exp": "ประโยคก่อนหน้าเล่าว่า “Students at a hot urban school surveyed people waiting at three bus stops” ดังนั้นผู้ที่นำผลไปเสนอคือกลุ่มนักเรียนนั้น ตัวเลือกผู้รอรถ/เจ้าหน้าที่สำนักงาน/ครู ไม่ใช่ผู้ทำ action นี้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “physical limits” is closest in meaning to",
+    "key": "restrictions caused by a place itself.",
+    "d": [
+     "rules written by the city transport office.",
+     "limits on the number of users.",
+     "problems found in a survey."
+    ],
+    "exp": "“the physical limits of a location” ในบริบทนี้คือข้อจำกัดทางกายภาพของพื้นที่ เช่น ป้ายที่คนเยอะที่สุด “had the least space for a large shelter” ไม่ใช่กฎที่สำนักงานเขียนหรือจำนวนผู้ใช้"
+   }
+  ]
+ },
+ {
+  "first": "S06-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What were volunteers trained to identify first?",
+    "key": "The information a resident actually needed.",
+    "d": [
+     "The technical words printed in each notice.",
+     "The office that sent the document.",
+     "The resident’s language level."
+    ],
+    "exp": "บทความบอกว่าอาสาสมัคร “were trained to identify the information a resident needed, such as a deadline, location, or required form” การทำเครื่องหมายคำยากเป็นขั้นตอนถัดมาเมื่อเจอข้อความทางเทคนิค"
+   },
+   {
+    "type": "detail",
+    "prompt": "What do volunteers do when a notice has technical language?",
+    "key": "They mark it and check with a staff member.",
+    "d": [
+     "They translate it word for word.",
+     "They ask the resident to explain it.",
+     "They refuse to help with that kind of notice."
+    ],
+    "exp": "ข้อความระบุว่า “volunteers marked the difficult section and checked it with a staff member” ไม่ใช่แปลคำต่อคำ (บทความปฏิเสธวิธีนี้ตั้งแต่ต้น) และไม่ใช่ปฏิเสธการช่วย"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the list of common terms?",
+    "key": "It helps volunteers answer more quickly.",
+    "d": [
+     "It replaces the need for any staff checks.",
+     "It is given to residents to study.",
+     "It only covers government notices."
+    ],
+    "exp": "ศูนย์ “keeps a list of common terms and updates it when government forms change” เพื่อช่วยให้บริการเร็วขึ้น (สอดคล้องกับ “reduced the time needed for each visit”) บทความไม่บอกว่าลิสต์ทดแทนการเช็คกับเจ้าหน้าที่ และไม่บอกว่าแจกให้ชาวชุมชน"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The coordinator says the service works best when volunteers see themselves as language helpers rather than unofficial decision-makers.”?",
+    "key": "Volunteers should help with language, not make decisions.",
+    "d": [
+     "Volunteers make better decisions than officials.",
+     "The service works best with fewer volunteers.",
+     "Language help is less important than advice."
+    ],
+    "exp": "ใจความคืออาสาสมัครควรมองตัวเองเป็นผู้ช่วยด้านภาษา ไม่ใช่ผู้ตัดสินใจแทนราชการ ตัวเลือกแรกและสามตรงข้ามกับข้อความ และตัวเลือกสองไม่เกี่ยวกับการจำกัดจำนวนคน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “outside their role” is closest in meaning to",
+    "key": "beyond the tasks they are meant to do.",
+    "d": [
+     "far from the community center building.",
+     "after the desk had closed for the day.",
+     "in a language they did not speak well."
+    ],
+    "exp": "อาสาสมัครถูกฝึกให้ชี้ข้อมูลที่จำเป็นเท่านั้น และผู้ประสานงานอยากให้มองตัวเองเป็น “language helpers rather than unofficial decision-makers” ดังนั้น “giving advice outside their role” = ให้คำแนะนำเกินหน้าที่ของตน ไม่ใช่เรื่องสถานที่ เวลาปิด หรือภาษาที่พูดไม่คล่อง"
+   }
+  ]
+ },
+ {
+  "first": "S06-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the survey ask students about?",
+    "key": "Favorite crops and free time.",
+    "d": [
+     "Which roof area was safest to use.",
+     "How much money the garden needed.",
+     "Which department should run the garden."
+    ],
+    "exp": "คำถามในแบบสำรวจคือ “what students wanted to grow, how often they could help, and what they thought the garden should be used for” ตัวเลือกความปลอดภัย/งบประมาณ/หน่วยงานที่ดูแล ไม่ได้อยู่ในแบบสำรวจ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the school choose plants that survive without water?",
+    "key": "Fewer students volunteered for daily watering.",
+    "d": [
+     "Vegetables received many fewer votes than flowers did.",
+     "The roof could not hold heavy soil.",
+     "The science department disliked watering."
+    ],
+    "exp": "ผลสำรวจคือ “Fewer students volunteered for daily watering than for occasional planting” โรงเรียนจึงออกแบบสวนเล็กและเลือกพืชทนแล้งพร้อมตารางหมุนเวียน ตัวเลือกผักได้น้อยกว่าดอกไม้ผิด (ผักก็ popular) และไม่มีข้อมูลเรื่องน้ำหนักดิน"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the team create a rotating schedule?",
+    "key": "So no student had to visit every day.",
+    "d": [
+     "To match the science lessons timetable.",
+     "To spread the votes between flowers.",
+     "To stop students from watering plants."
+    ],
+    "exp": "บทความระบุว่าตารางหมุนเวียนทำขึ้น “so that students would not need to visit every day” ตอบโจทย์ผลสำรวจที่มีคนอาสาปลูกเป็นครั้งคราวมากกว่ารดน้ำทุกวัน"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the passage present the survey’s role in the decision?",
+    "key": "As helpful input, not the final answer.",
+    "d": [
+     "As the only factor in the final garden design.",
+     "As a wasted effort by the school.",
+     "As a way to delay the garden."
+    ],
+    "exp": "ประโยคท้ายระบุว่า “The survey did not determine the final design by itself, but it helped the school make choices…” คือมีประโยชน์แต่ไม่ใช่คำตอบสุดท้าย ตัวเลือกหนึ่งจึงตรงข้าม และไม่มีท่าทีว่าสูญเปล่าหรือถ่วงเวลา"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “occasional” is closest in meaning to",
+    "key": "happening sometimes, not regularly.",
+    "d": [
+     "done by many students at the same time.",
+     "planned for a single day only.",
+     "required at the same time."
+    ],
+    "exp": "นักเรียนอาสาสำหรับ “occasional planting” ตรงข้ามกับ daily watering คือมาช่วยเป็นครั้งคราว ไม่ใช่ทุกวัน ตัวเลือกทำพร้อมกันหลายคน/วันเดียว/ตรงเวลา ไม่ใช่ความหมายของ occasional"
+   }
+  ]
+ },
+ {
+  "first": "S07-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did staff discover about labeled items?",
+    "key": "They were returned much faster.",
+    "d": [
+     "They were kept for months.",
+     "They were mostly phones and wallets.",
+     "They were harder to describe online."
+    ],
+    "exp": "ผลทบทวนระบุว่า “items with clear labels were returned much faster than similar items without labels” ตัวเลือกเก็บนานหลายเดือนคือของที่ไม่ถูกรับคืน (ส่วนใหญ่ร่มและเสื้อผ้า)"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which two things did the office add to its notice system?",
+    "key": "A web page and regular pictures.",
+    "d": [
+     "A phone line and a paper register.",
+     "Name tags and a storage deadline.",
+     "A weekly photo board and a lost-item fine."
+    ],
+    "exp": "บทความบอกว่าเปลี่ยนระบบประกาศ “by adding a simple online form and a weekly photo board” ตัวเลือกสายโทรศัพท์/ทะเบียนกระดาษ/ค่าปรับ ไม่มีในบทความ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about the photo board?",
+    "key": "It describes items without revealing owners’ details.",
+    "d": [
+     "It shows printed photographs of the people who lost items.",
+     "It replaced the one-year records review.",
+     "It lists umbrellas and clothing only."
+    ],
+    "exp": "สำนักงาน “did not publish personal details; they used descriptions that owners could recognize” บอร์ดรูปจึงแสดงของพร้อมคำบรรยายโดยไม่เปิดข้อมูลส่วนตัว ตัวเลือกแสดงรูปเจ้าของ/แทนการทบทวน/ลงเฉพาะร่มเสื้อผ้า ไม่มีข้อมูล"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “unclaimed” is closest in meaning to",
+    "key": "not collected by their owners.",
+    "d": [
+     "damaged while they were in storage.",
+     "recorded in the online form by staff.",
+     "without any labels or descriptions."
+    ],
+    "exp": "“many unclaimed items were kept for months” แล้วเป้าหมายของสำนักงานคือให้ของ “claimed before the storage deadline” = ของที่ยังไม่มีเจ้าของมารับ ตัวเลือกไม่มีป้ายชื่อเป็นสาเหตุที่ทำให้รับช้า ไม่ใช่ความหมายของคำ ส่วนเสียหาย/บันทึกในแบบฟอร์มไม่เกี่ยว"
+   },
+   {
+    "type": "true",
+    "prompt": "According to the passage, which statement is TRUE?",
+    "key": "Mobiles and purses were soon returned.",
+    "d": [
+     "The lost-property office kept every unclaimed item forever.",
+     "Staff published owners’ names on the board.",
+     "The records covered a single term."
+    ],
+    "exp": "บทความระบุ “Phones and wallets were often claimed within a week” ส่วนของที่ไม่ถูกรับคืน “were kept for months” ไม่ใช่ตลอดไป เจ้าหน้าที่ไม่เปิดเผยข้อมูลส่วนตัว และทบทวน “one year of records” ไม่ใช่หนึ่งเทอม"
+   }
+  ]
+ },
+ {
+  "first": "S07-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the survey responses show about the bell signal?",
+    "key": "It was clearer in the main building than near the gym.",
+    "d": [
+     "It was too loud in the main building.",
+     "Teachers heard it better than students.",
+     "It was quiet everywhere in the school."
+    ],
+    "exp": "ผลตอบกลับคือ “the signal was clear in the main building but much quieter near the gym” ตัวเลือกดังเกินทุกตึก/เงียบทุกที่ จึงผิด และไม่มีข้อมูลเปรียบเทียบครูกับนักเรียน"
+   },
+   {
+    "type": "detail",
+    "prompt": "How long did the school test the second speaker?",
+    "key": "Fourteen days.",
+    "d": [
+     "One week.",
+     "About one month.",
+     "One school term."
+    ],
+    "exp": "บทความระบุว่า “The school tested a second speaker near the gym for two weeks.” ตัวเลือกอื่นผิดช่วงเวลา"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the school add a schedule for the outdoor speaker?",
+    "key": "To keep it silent during sports practice.",
+    "d": [
+     "To make the complaints decrease much faster.",
+     "To limit testing to two weeks.",
+     "To adjust the volume in the mornings."
+    ],
+    "exp": "หลังครูบ่นว่าลำโพงดังเกินระหว่างกิจกรรมกลางแจ้ง โรงเรียน “added a simple schedule so the outdoor speaker would not operate during sports practice” คือตั้งเวลาไม่ให้ดังตอนซ้อมกีฬา"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the tone of the passage’s final sentence?",
+    "key": "Cautious, warning that fixes need testing.",
+    "d": [
+     "Proud of the school’s brand-new outdoor speaker.",
+     "Angry at the teachers’ complaints.",
+     "Doubtful that surveys are useful."
+    ],
+    "exp": "ประโยคสรุปว่า “a small technical change can create a new problem if it is not tested in the setting where it will be used” เป็นน้ำเสียงเตือนอย่างระมัดระวัง ไม่ใช่ภูมิใจ โมโห หรือสงสัยคุณค่าของแบบสำรวจ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “setting” is closest in meaning to",
+    "key": "the place and situation where something is used.",
+    "d": [
+     "the volume chosen for a speaker.",
+     "the schedule printed for staff.",
+     "the result of a school survey."
+    ],
+    "exp": "“tested in the setting where it will be used” หมายถึงทดสอบในสถานที่/สถานการณ์ใช้งานจริง (เช่น ใกล้โรงยิมระหว่างซ้อมกีฬา) ไม่ใช่ระดับเสียง ตาราง หรือผลสำรวจ"
+   }
+  ]
+ }
+]

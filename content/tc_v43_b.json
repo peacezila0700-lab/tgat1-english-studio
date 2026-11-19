@@ -1,0 +1,342 @@
+[
+ {
+  "set": 3,
+  "passage": "A",
+  "genre": "email",
+  "topic": "Sports club reopening email",
+  "context": "Dear members, we are writing to (1) ____ you that the riverside tennis courts will reopen on Monday after six weeks of repairs. The new surface drains quickly, so matches should rarely be (2) ____ because of light rain. Members who want a court for the opening weekend can (3) ____ one online from tomorrow morning. We have also hired two part-time coaches; the club hopes that they (4) ____ beginners build confidence quickly. Please note (5) ____ the changing rooms stay closed until the plumbing work finishes. The old floodlights (6) ____ twice last winter, so they were replaced with LED lamps. (7) ____ addition to the two new courts, the club repainted the pool and bought forty chairs.",
+  "tip": "อีเมลสโมสรนี้เน้นคำทางการ (inform, book) และสำนวน phrasal verb (call off) ช่องไวยากรณ์ทดสอบรูปกริยาหลัง hope และ passive ในอดีต",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "inform",
+    "d": [
+     "reform",
+     "perform",
+     "conform"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ inform you that (แจ้งให้ท่านทราบว่า) ซึ่งเป็นสำนวนทางการในจดหมาย ส่วน reform (ปฏิรูป), perform (แสดง/ปฏิบัติงาน), conform (ปฏิบัติตามกฎ) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้ากับบริบท"
+   },
+   {
+    "type": "vocab",
+    "key": "called off",
+    "d": [
+     "called in",
+     "called on",
+     "called up"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ called off ซึ่งเป็น phrasal verb แปลว่า ยกเลิก (matches should rarely be called off = แทบไม่ต้องยกเลิกการแข่งขัน) ส่วน called in (เรียกเข้ามา), called on (เยี่ยม/เชิญ), called up (โทรศัพท์/เกณฑ์ทหาร) ไม่แปลว่ายกเลิก"
+   },
+   {
+    "type": "vocab",
+    "key": "book",
+    "d": [
+     "boost",
+     "boast",
+     "board"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ book a court (จองคอร์ต) ซึ่งเป็นการใช้คำแบบ collocation ส่วน boost (ผลักดัน), boast (โอ้อวด), board (ขึ้นเครื่อง/ปูพื้น) ใช้กับการจองสถานที่ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "help",
+    "d": [
+     "to help",
+     "helping",
+     "helped"
+    ],
+    "exp": "ช่อง (4) อยู่ใน that-clause หลัง hopes ว่าโค้ชจะช่วยสมาชิก: they help beginners build... ใช้กริยารูปฐานตามประธาน they และโครงสร้าง help + บุคคล + กริยารูปฐาน ส่วน to help, helping ทำให้โครงสร้างผิด และ helped ขัดกับ hopes ที่เป็นอนาคต"
+   },
+   {
+    "type": "clause",
+    "key": "that",
+    "d": [
+     "what",
+     "which",
+     "it"
+    ],
+    "exp": "ช่อง (5) หลัง Please note ต้องการ that-clause บอกข้อเท็จจริง (note that the changing rooms stay closed) ส่วน what, which ต้องทำหน้าที่ประธาน/กรรมใน clause ซึ่งประโยคมีครบแล้ว และ it ทำให้เกิดประโยคซ้อนผิดโครงสร้าง"
+   },
+   {
+    "type": "tense",
+    "key": "failed",
+    "d": [
+     "fail",
+     "have failed",
+     "are failing"
+    ],
+    "exp": "ช่อง (6) มีคำบอกเวลา last winter จึงต้องใช้ past simple failed ส่วน fail, have failed, are failing เป็นปัจจุบันซึ่งขัดกับคำบอกอดีต"
+   },
+   {
+    "type": "conn",
+    "key": "In",
+    "d": [
+     "On",
+     "At",
+     "By"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ In addition to ซึ่งเป็นวลีบุพบทคงที่ แปลว่า นอกจาก...แล้ว ส่วน On, At, By addition to ไม่เป็นสำนวนในภาษาอังกฤษ"
+   }
+  ]
+ },
+ {
+  "set": 3,
+  "passage": "B",
+  "genre": "advertisement",
+  "topic": "Island day-tour advertisement",
+  "context": "Discover Koh Yao Day Tours — leaving every morning at eight from the pier. Rarely (1) ____ a day trip include so much: snorkelling, a beach lunch and a visit to the fishing village. Guests (2) ____ hotel pickup free of charge when they book for four people or more. Our guides, all of (3) ____ grew up on the island, speak Thai and English. Last season we (4) ____ more than three thousand visitors, and ninety percent said they would return. Not a single tour (5) ____ cancelled because of weather, thanks to our sheltered route. Bring sunscreen and a hat; the boat has shade, but you will still (6) ____ the sun between stops. Book early (7) ____ the high season, when seats sell out fastest. The office team (8) ____ pride in replying to every enquiry within a day.",
+  "tip": "โฆษณาทัวร์นี้มี inversion หลัง Rarely และ relative pronoun หลังบุพบท (all of whom) ส่วนช่องศัพท์เป็นคำคู่คงที่ เช่น take pride in, book for",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "does",
+    "d": [
+     "is",
+     "has",
+     "do"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นประโยคด้วย Rarely ต้องสลับกริยาช่วยมาหน้าประธาน: Rarely does a day trip include... ประธาน a day trip เป็นเอกพจน์จึงใช้ does ส่วน do เป็นพหูพจน์ และ is, has ใช้กับกริยาหลัก include ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "enjoy",
+    "d": [
+     "employ",
+     "ensure",
+     "endure"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ enjoy (ได้รับ/เพลิดเพลินกับบริการ) ซึ่งเข้ากับ hotel pickup free of charge ส่วน employ (จ้าง), ensure (รับประกัน), endure (อดทน) ความหมายไม่เข้ากับการรับบริการฟรี"
+   },
+   {
+    "type": "clause",
+    "key": "whom",
+    "d": [
+     "who",
+     "which",
+     "that"
+    ],
+    "exp": "ช่อง (3) หลังบุพบท of ที่อ้างถึงคน (our guides) ต้องใช้ whom เท่านั้น ส่วน who ใช้หลังบุพบทไม่ได้, which ใช้กับสิ่งของ และ that ไม่ใช้ใน non-defining clause หลังบุพบท"
+   },
+   {
+    "type": "tense",
+    "key": "welcomed",
+    "d": [
+     "welcome",
+     "have welcomed",
+     "welcoming"
+    ],
+    "exp": "ช่อง (4) มีคำบอกเวลา Last season จึงต้องใช้ past simple welcomed ส่วน have welcomed ขัดกับเวลาที่จบไปแล้วในอดีต และรูปอื่นไม่ใช่กริยาแท้"
+   },
+   {
+    "type": "tense",
+    "key": "was",
+    "d": [
+     "were",
+     "is",
+     "has"
+    ],
+    "exp": "ช่อง (5) เป็น passive ในอดีต (Not a single tour was cancelled) ประธาน a single tour เป็นเอกพจน์และเล่าเรื่องปีที่แล้ว จึงใช้ was ส่วน were เป็นพหูพจน์, is เป็นปัจจุบัน และ has ต้องตามด้วย V3"
+   },
+   {
+    "type": "verb",
+    "key": "feel",
+    "d": [
+     "felt",
+     "feeling",
+     "to feel"
+    ],
+    "exp": "ช่อง (6) หลังกริยาช่วย will ต้องใช้กริยารูปฐาน feel ส่วน felt เป็นอดีต, feeling ต้องมีกริยา help/be นำ และ to feel ใช้หลัง will ไม่ได้"
+   },
+   {
+    "type": "conn",
+    "key": "for",
+    "d": [
+     "of",
+     "from",
+     "at"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ book early for the high season (จองล่วงหน้าสำหรับช่วงไฮซีซั่น) บุพบท for บอกจุดประสงค์/ช่วงเวลาที่เป็นเป้าหมาย ส่วน of, from, at ไม่เข้าคู่กับ book ในความหมายนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "takes",
+    "d": [
+     "makes",
+     "gives",
+     "gets"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ take pride in ซึ่งเป็น collocation คงที่ แปลว่า ภูมิใจใน... ประธาน the team เป็นเอกพจน์จึงเติม s ส่วน make, give, get pride ไม่เป็นสำนวน"
+   }
+  ]
+ },
+ {
+  "set": 4,
+  "passage": "A",
+  "genre": "job advertisement",
+  "topic": "Weekend barista wanted",
+  "context": "Wanted: weekend barista for a busy café near the university. The successful applicant will (1) ____ drinks, keep the counter clean and greet regulars by name. No experience is needed, but you must be able to (2) ____ early shifts that start at six. We offer a fair hourly wage (3) ____ free lunch on working days. Applicants should send a short message explaining (4) ____ they want the job; a formal letter is not required. The café has been (5) ____ by the same family since 2009, and the current barista is leaving to study abroad. The café is a short (6) ____ from the university's main gate. Send your message today; we read every (7) ____ carefully and reply within two days.",
+  "tip": "โฆษณารับสมัครงานนี้มีคำคู่คงที่ (as well as, a short walk) และ passive ใน present perfect (has been run) ให้ตรวจรูปกริยาและชนิดคำรอบช่อง",
+  "items": [
+   {
+    "type": "vocab",
+    "key": "prepare",
+    "d": [
+     "preserve",
+     "preview",
+     "prevent"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ prepare drinks (เตรียมเครื่องดื่ม) ตามหน้าที่ของบาริสต้า ส่วน preserve (ถนอม/รักษาไว้), preview (ดูตัวอย่าง), prevent (ป้องกัน) ความหมายไม่เข้ากับงานชงเครื่องดื่ม"
+   },
+   {
+    "type": "verb",
+    "key": "handle",
+    "d": [
+     "handling",
+     "handled",
+     "to handle"
+    ],
+    "exp": "ช่อง (2) หลัง be able to ต้องใช้กริยารูปฐาน handle ส่วน handling, handled ใช้หลัง to ในความหมายนี้ไม่ได้ และ to handle ทำให้ to ซ้ำ"
+   },
+   {
+    "type": "conn",
+    "key": "as well as",
+    "d": [
+     "such as",
+     "as far as",
+     "as long as"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ as well as (รวมถึง) เชื่อมสิทธิประโยชน์สองอย่าง คือค่าจ้างและมื้อกลางวัน ส่วน such as (เช่น) ใช้ยกตัวอย่าง, as far as (เท่าที่) และ as long as (ตราบใดที่) เป็นคำเชื่อมเงื่อนไขที่ไม่เข้ากับประโยค"
+   },
+   {
+    "type": "clause",
+    "key": "why",
+    "d": [
+     "which",
+     "whose",
+     "what"
+    ],
+    "exp": "ช่อง (4) ต้องการ noun clause บอกเหตุผล (explaining why they want the job) ส่วน which, whose, what ทำให้ clause ขาดส่วนประกอบหรือความหมายผิด"
+   },
+   {
+    "type": "tense",
+    "key": "run",
+    "d": [
+     "ran",
+     "runs",
+     "running"
+    ],
+    "exp": "ช่อง (5) เป็น present perfect passive (has been + V3) กริยาช่อง 3 ของ run คือ run (run-ran-run) ส่วน ran เป็นช่อง 2, runs เป็นปัจจุบัน และ running ต้องมี been นำอยู่แล้วจึงซ้ำ"
+   },
+   {
+    "type": "vocab",
+    "key": "walk",
+    "d": [
+     "hike",
+     "march",
+     "parade"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ a short walk ซึ่งเป็น collocation แปลว่า เดินแป๊บเดียว/ระยะเดินสั้น ๆ ส่วน hike (เดินป่าระยะไกล), march (เดินแถว), parade (เดินขบวน) ไม่ใช้กับระยะทางสั้น ๆ จากประตูมหาวิทยาลัย"
+   },
+   {
+    "type": "vocab",
+    "key": "application",
+    "d": [
+     "applause",
+     "appliance",
+     "appetite"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ application (ใบสมัคร) ตรงกับบริครับสมัครงาน ส่วน applause (เสียงปรบมือ), appliance (เครื่องใช้ไฟฟ้า), appetite (ความอยากอาหาร) เป็นคำหน้าตาคล้ายแต่คนละความหมาย"
+   }
+  ]
+ },
+ {
+  "set": 4,
+  "passage": "B",
+  "genre": "school newsletter",
+  "topic": "Coding club interview",
+  "context": "The school coding club meets every Thursday, and this term it has a waiting list. “You built this game yourself, (1) ____?” asked the newsletter reporter, pointing at a racing game on the club laptop. Natt, who started coding two years ago, nodded: “My cousin showed me the basics, and I (2) ____ online tutorials ever since.” The club's teacher, Mr Prasert, says the club is not about winning. “We don't grade anyone,” he jokes. “You just have to enjoy (3) ____ things with code. You are not in (4) ____ with your friends here.” Last month the club (5) ____ its first public exhibition, where forty visitors tried the students' games. Several parents, (6) ____ had never seen the club before, offered to sponsor new laptops. The club is already (7) ____ ahead to a bigger exhibition at the end of the year. Students who want to (8) ____ part next term should speak to Mr Prasert before Friday.",
+  "tip": "ข่าวโรงเรียนนี้มีการพูดอ้างอิงที่มี question tag สองช่อง และ present perfect กับ ever since ส่วนช่องศัพท์เป็นคำคู่ เช่น in competition with, take part, look ahead to",
+  "items": [
+   {
+    "type": "tag",
+    "key": "didn't you",
+    "d": [
+     "did you",
+     "don't you",
+     "haven't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ You built this game yourself ซึ่งกริยา built เป็น past simple บอกเล่า tag จึงต้องเป็นปฏิเสธ didn't you ส่วน did you ใช้กับประโยคบอกเล่าไม่ได้ และ don't you, haven't you ไม่ตรงกับกริยา past simple"
+   },
+   {
+    "type": "tense",
+    "key": "have watched",
+    "d": [
+     "watch",
+     "was being watched",
+     "am watching"
+    ],
+    "exp": "ช่อง (2) มี ever since (ตั้งแต่นั้นมาจนถึงตอนนี้) จึงต้องใช้ present perfect have watched ส่วน watch เป็นปัจจุบันทั่วไป, am watching เป็นเหตุการณ์ชั่วคราวตอนนี้ และ was being watched เป็น passive ในอดีต ซึ่งผิดทั้งกาลและผิดความหมาย (Natt เป็นผู้ดู ไม่ใช่ถูกดู)"
+   },
+   {
+    "type": "verb",
+    "key": "making",
+    "d": [
+     "make",
+     "to make",
+     "made"
+    ],
+    "exp": "ช่อง (3) หลัง enjoy ต้องใช้ gerund (enjoy making things) ส่วน make, to make, made ใช้ตามหลัง enjoy ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "competition",
+    "d": [
+     "comparison",
+     "completion",
+     "composition"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ in competition with ซึ่งเป็นสำนวน แปลว่า แข่งขันกับ สอดคล้องกับประโยคก่อนที่ว่าชมรมไม่เน้นการชนะ ส่วน comparison (การเปรียบเทียบ), completion (การทำให้เสร็จ), composition (องค์ประกอบ/เรียงความ) ไม่เข้ากับสำนวนนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "held",
+    "d": [
+     "carried",
+     "brought",
+     "kept"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ held an exhibition (จัดนิทรรศการ) ซึ่งเป็น collocation ส่วน carried (ถือ/ขนส่ง), brought (นำมา), kept (เก็บไว้) ไม่ใช้คู่กับ exhibition ในความหมายจัดกิจกรรม"
+   },
+   {
+    "type": "clause",
+    "key": "who",
+    "d": [
+     "which",
+     "whom",
+     "whose"
+    ],
+    "exp": "ช่อง (6) เป็น relative pronoun ทำหน้าที่ประธานของ had never seen และอ้างถึงคน (parents) จึงใช้ who ส่วน which ใช้กับสิ่งของ, whom ทำหน้าที่ประธานไม่ได้ และ whose แสดงความเป็นเจ้าของ"
+   },
+   {
+    "type": "vocab",
+    "key": "looking",
+    "d": [
+     "seeing",
+     "watching",
+     "staring"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ looking ahead to ซึ่งเป็นสำนวน แปลว่า ตั้งตารอ/มองไปข้างหน้า ส่วน seeing, watching, staring ahead to ไม่เป็นสำนวนนี้ในภาษาอังกฤษ"
+   },
+   {
+    "type": "vocab",
+    "key": "take",
+    "d": [
+     "make",
+     "do",
+     "give"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ take part ซึ่งเป็น collocation คงที่ แปลว่า เข้าร่วม ส่วน make, do, give part ไม่เป็นสำนวน"
+   }
+  ]
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S07-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the association translate the emergency notice?",
+    "key": "Locals had not received key facts.",
+    "d": [
+     "The original notice was written badly.",
+     "Staff could not read the first version.",
+     "The town asked for three new languages."
+    ],
+    "exp": "ประโยคแรกระบุว่าแปล “after some residents said they had missed important information” ตัวเลือกต้นฉบับเขียนแย่/พนักงานอ่านไม่ได้/เมืองสั่งให้แปล ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the association keep the original text beside the translation?",
+    "key": "So staff could check the details.",
+    "d": [
+     "So readers could compare sentence structures.",
+     "Because the translation was not finished.",
+     "Because volunteers preferred the first version."
+    ],
+    "exp": "บทความบอกว่าเก็บข้อความต้นฉบับไว้ข้างคำแปล “so staff could check details” ตัวเลือกให้ผู้อ่านเทียบโครงสร้าง/แปลไม่เสร็จ/อาสาสมัครชอบเวอร์ชันแรก ไม่ใช่เหตุผลที่ระบุไว้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “word-for-word” is closest in meaning to",
+    "key": "following the original words one by one.",
+    "d": [
+     "shortened so that only the main points remain.",
+     "spoken aloud by bilingual residents.",
+     "written in a polite and formal style."
+    ],
+    "exp": "“The first translation used direct word-for-word sentences” ต่างจากฉบับที่สอง “changing the sentence structure to sound natural” และบทสรุปพูดถึง “replacing each word with another word” = แปลตรงตัวทีละคำ ไม่ใช่การย่อ การอ่านออกเสียง หรือภาษาทางการ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the volunteers’ lesson at the end?",
+    "key": "Meaning matters more than exact word matches.",
+    "d": [
+     "Translating takes longer than writing notices.",
+     "Word-for-word work is always more accurate.",
+     "Bilingual residents cannot judge translations."
+    ],
+    "exp": "ข้อสรุปคือ “accurate translation is not always a matter of replacing each word with another word” = ความถูกต้องอยู่ที่การสื่อความหมาย ไม่ใช่จับคู่คำทีละคำ ตัวเลือกสองตรงข้ามกับบทเรียนนี้"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They preferred the second version” refer to?",
+    "key": "The bilingual residents asked to compare.",
+    "d": [
+     "The association’s staff members.",
+     "The volunteers who translated the first notice.",
+     "The readers of the first notice."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “The association then asked bilingual residents to compare both versions.” ผู้ที่ชอบเวอร์ชันสองจึงคือ bilingual residents กลุ่มนั้น ไม่ใช่เจ้าหน้าที่หรืออาสาสมัครผู้แปล"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Where was the highest bicycle count recorded?",
+    "key": "On a less busy road next to a school.",
+    "d": [
+     "On the busiest road in the town.",
+     "At an intersection near a park.",
+     "On a street with many parked cars nearby."
+    ],
+    "exp": "ทีมคาดว่าถนนที่คับคั่งที่สุดจะมีจักรยานมากสุด แต่ “the highest count occurred on a quieter street beside a school” ซึ่งถนนนั้นมีเลนจักรยานแบบมีที่กั้นและรถจอดน้อยกว่า"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the students repeat the count on two other mornings?",
+    "key": "To check that the result was not unusual.",
+    "d": [
+     "To compare the four different intersections.",
+     "To count bicycles during the evening.",
+     "To measure the length of the bicycle lane."
+    ],
+    "exp": "บทความระบุว่าทำซ้ำ “to make sure the result was not unusual” และผลคือ “The numbers were similar each time.” ตัวเลือกเทียบสี่แยกเป็นการนับครั้งแรกอยู่แล้ว และไม่มีข้อมูลเรื่องตอนเย็นหรือวัดความยาวเลน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “protected” is closest in meaning to",
+    "key": "separated from cars for safety.",
+    "d": [
+     "watched by police during rush hour.",
+     "reserved for students going to school.",
+     "recently repainted with bright colors."
+    ],
+    "exp": "“the street had a protected bicycle lane and fewer parked cars” ช่องจักรยานแบบ protected คือมีสิ่งกั้นแยกจากรถยนต์เพื่อความปลอดภัย บทความไม่ได้พูดถึงตำรวจ การสงวนให้นักเรียน หรือการทาสีใหม่"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Their report emphasized the difference between observing a pattern and proving its cause.”?",
+    "key": "Seeing a pattern is not the same as explaining why it happens.",
+    "d": [
+     "A report should prove the cause of a pattern.",
+     "Patterns cannot be observed without counting.",
+     "The report proved why people chose that street."
+    ],
+    "exp": "ใจความคือรายงานชี้ให้เห็นความต่างระหว่างการสังเกตแพทเทิร์นกับการพิสูจน์สาเหตุ = เห็นรูปแบบไม่ได้แปลว่ารู้เหตุผล ตัวเลือกสามตรงข้าม (บทความบอกว่าพิสูจน์ไม่ได้) และตัวเลือกหนึ่งบิดเป็นข้อเรียกร้อง"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the passage mainly about?",
+    "key": "A bicycle count that raised questions about a lane.",
+    "d": [
+     "Why students should cycle to school.",
+     "A town plan to build protected lanes.",
+     "How to count traffic at intersections."
+    ],
+    "exp": "แกนเรื่องคือการนับจักรยานที่พบรูปแบบน่าสนใจ (ถนนเงียบข้างโรงเรียนมีจักรยานมากที่สุดเพราะมีเลนมีที่กั้น) แต่ยังสรุปสาเหตุไม่ได้ ตัวเลือกแผนสร้างเลน/แนะนำปั่นไปโรงเรียน/วิธีนับจราจร ไม่ใช่สาระหลัก"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What two things did the conductor ask members to do or see?",
+    "key": "Arrive ten minutes early and use the seating chart.",
+    "d": [
+     "Arrive early and tune their instruments.",
+     "Check the new seating chart and choose their own seats.",
+     "Come ten minutes late for special shows."
+    ],
+    "exp": "บทความระบุว่า “The conductor asked members to arrive ten minutes early and placed a seating chart near the entrance” ตัวเลือกจูนเครื่องดนตรี/เลือกที่นั่งเอง/มาสาย ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did several musicians ignore the chart at first?",
+    "key": "They already knew where they usually sat.",
+    "d": [
+     "The chart was placed too far away.",
+     "Guest musicians had already changed the seats.",
+     "The conductor never explained how the chart worked."
+    ],
+    "exp": "ข้อความบอกว่า “several musicians ignored the chart because they already knew where they usually sat” ตัวเลือกป้ายอยู่ไกล/แขกรับเชิญย้ายที่นั่ง/ผู้ควบคุมไม่อธิบาย ไม่มีข้อมูล"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the conductor view the seating chart?",
+    "key": "As a tool that removes small interruptions.",
+    "d": [
+     "As a way to control where members sit.",
+     "As something useful only for guests.",
+     "As much less important than the rehearsal time."
+    ],
+    "exp": "ผู้ควบคุมอธิบายว่าแผนที่ไม่ได้สำคัญเพราะตัวเก้าอี้ แต่ “it reduced small decisions that could otherwise interrupt the beginning of practice” = เป็นเครื่องมือตัดการตัดสินใจเล็ก ๆ ที่ขัดจังหวะต้นการซ้อม"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “predictable” is closest in meaning to",
+    "key": "happening in an expected way.",
+    "d": [
+     "finishing earlier than planned.",
+     "organized by the guest musicians.",
+     "quiet enough for practice."
+    ],
+    "exp": "“Rehearsals became more predictable” หมายถึงการซ้อมดำเนินไปตามที่คาดไว้ได้ (เริ่มตรงเวลา ทุกคนรู้ที่นั่ง) ไม่ใช่จบเร็วขึ้น หรือเงียบพอสำหรับซ้อม"
+   },
+   {
+    "type": "true",
+    "prompt": "Which of these statements is TRUE?",
+    "key": "The orchestra later changed the chart for special performances.",
+    "d": [
+     "All musicians used the chart from the first day.",
+     "Rehearsals became harder when guests joined.",
+     "The chart was removed after a few rehearsals."
+    ],
+    "exp": "บทความระบุว่า “the orchestra changed the chart for smaller groups and special performances” ส่วนช่วงแรกมีหลายคนเมินแผนผัง การซ้อมกลับคาดเดาได้ง่ายขึ้นโดยเฉพาะเมื่อมีแขกร่วม และแผนผังไม่ได้ถูกถอดออก"
+   }
+  ]
+ },
+ {
+  "first": "S08-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the maintenance review find about the fountain?",
+    "key": "The flow was uneven at peak times.",
+    "d": [
+     "The fountain was not cleaned often.",
+     "The new safety sign was difficult for people to read.",
+     "The square was too busy for a fountain."
+    ],
+    "exp": "ผลทบทวนคือ “the fountain was clean but its water pressure changed during the busiest hours” ตัวเลือกไม่สะอาดบ่อย ๆ จึงตรงข้ามกับข้อความ และไม่มีข้อมูลว่าป้ายอ่านยาก"
+   },
+   {
+    "type": "detail",
+    "prompt": "What else did staff create besides the sign?",
+    "key": "A list for regular checks.",
+    "d": [
+     "A monthly report for the town.",
+     "A second fountain in the square.",
+     "A printed list of safe drinking times."
+    ],
+    "exp": "บทความระบุว่า “They also created a weekly inspection checklist.” ส่วนน้ำพุเพิ่มอีกสองแห่งอยู่ในแผนสำหรับพื้นที่สาธารณะอื่น ไม่ใช่ในจัตุรัสนี้"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred from the town’s comment about the sign?",
+    "key": "Several changes together caused the increase.",
+    "d": [
+     "The sign alone caused the change.",
+     "Some staff doubted that the new checklist helped.",
+     "Usage increased before any changes."
+    ],
+    "exp": "เมือง “did not attribute the change to the sign alone; the improved water flow and regular checks happened at the same time” = การเพิ่มขึ้นมาจากหลายการปรับพร้อมกัน ตัวเลือกป้ายมีผลอย่างเดียวจึงตรงข้าม"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “usage” is closest in meaning to",
+    "key": "the amount the fountain was used.",
+    "d": [
+     "the number of complaints from the public.",
+     "the pressure of the water in the system.",
+     "the cleanliness of the fountain."
+    ],
+    "exp": "ตอนแรก “people sometimes avoided it” หลังปรับระบบ “After several months, usage increased.” = คนมาใช้น้ำพุมากขึ้น ตัวเลือกแรงดันน้ำและความสะอาดเป็นสิ่งที่เจ้าหน้าที่แก้ ไม่ใช่สิ่งที่เพิ่มขึ้น ส่วนจำนวนคำร้องเรียนไม่มีในบท"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the maintenance team now treat the fountain as a service?",
+    "key": "It needs both technical care and clear information.",
+    "d": [
+     "Because two more public fountains are being built soon.",
+     "Because staff need to inspect it daily.",
+     "Because people complained about the square."
+    ],
+    "exp": "บทความสรุปว่าทีม “treats the fountain as a service that requires both technical care and clear information” ซึ่งมาจากบทเรียนที่ว่าทั้งแรงดันน้ำและป้ายช่วยเพิ่มการใช้งาน ตัวเลือกแผนสร้างเพิ่มเป็นผลลัพธ์ต่อยอด ไม่ใช่เหตุผลของมุมมองนี้"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What problem did students find with the first version of the archive?",
+    "key": "The collection was difficult to search.",
+    "d": [
+     "The folders were too few for the topics.",
+     "Students kept repeating old debate topics.",
+     "The teacher refused to store the topics."
+    ],
+    "exp": "บทความบอกว่าหลังเก็บหัวข้อใส่โฟลเดอร์ “they soon realized that the collection was difficult to search” การซ้ำหัวข้อเป็นปัญหาที่ระบบใหม่ช่วยป้องกัน ไม่ใช่ปัญหาของเวอร์ชันแรก"
+   },
+   {
+    "type": "detail",
+    "prompt": "Besides tags, what else did students record?",
+    "key": "Which topics had been used more than once.",
+    "d": [
+     "Which students chose each of the debate topics.",
+     "How long each debate lasted.",
+     "The arguments used in past debates."
+    ],
+    "exp": "ข้อความระบุว่า “They also recorded which topics had been used more than once.” ส่วนการเก็บข้อโต้แย้งถูกปฏิเสธชัดเพราะครูเน้นว่าคลังนี้ “was not meant to provide ready-made arguments”"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The teacher emphasized that the archive was not meant to provide ready-made arguments. It was a record of questions that had already been discussed.”?",
+    "key": "The archive lists past questions, not answers to copy.",
+    "d": [
+     "Students should copy arguments from old debates.",
+     "The archive records answers instead of debate questions.",
+     "Teachers need to write the arguments for students."
+    ],
+    "exp": "ใจความคือคลังเก็บรายการคำถามที่เคยถกมาแล้ว ไม่ใช่ชุดข้อโต้แย้งสำเร็จรูปให้ลอก ตัวเลือกแรกและสามตรงข้ามกับ emphasis ของครู และตัวเลือกสองสลับคำถามกับคำตอบ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "How students built a searchable debate archive.",
+    "d": [
+     "Why school debates repeat the same topics.",
+     "A teacher’s method for choosing debate questions.",
+     "How opinions change over time in schools."
+    ],
+    "exp": "แกนเรื่องคือการพัฒนาคลังหัวข้อโต้วาทีจากโฟลเดอร์ค้นยากไปสู่ระบบติดแท็กและบันทึกการใช้ซ้ำ ตัวเลือกวิธีเลือกคำถามของครู/ความเห็นที่เปลี่ยนไป เป็นเพียงส่วนย่อยของเรื่อง"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “ready-made arguments” is closest in meaning to",
+    "key": "complete arguments to copy.",
+    "d": [
+     "questions that have not been discussed.",
+     "opinions that changed over time.",
+     "topics with tags for each subject."
+    ],
+    "exp": "ครูย้ำว่าคลัง “was not meant to provide ready-made arguments. It was a record of questions” = ไม่ได้มีไว้ให้ข้อโต้แย้งสำเร็จรูปไปใช้ได้ทันที ตัวเลือกคำถามที่ยังไม่เคยอภิปราย/ความเห็นที่เปลี่ยน/แท็กหัวข้อ เป็นสิ่งอื่นในบท ไม่ใช่ความหมายของวลีนี้"
+   }
+  ]
+ }
+]

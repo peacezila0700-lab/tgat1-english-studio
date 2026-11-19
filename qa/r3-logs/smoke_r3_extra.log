@@ -1,0 +1,96 @@
+PASS route home renders [desktop]
+PASS route hub renders [desktop]
+PASS route profile renders [desktop]
+PASS route vocab renders [desktop]
+PASS route exam renders [desktop]
+PASS route reading renders [desktop]
+PASS route game renders [desktop]
+PASS route analytics renders [desktop]
+PASS route settings renders [desktop]
+PASS no console/page errors across routes [desktop]
+PASS route home renders [mobile]
+PASS route home no horizontal overflow [mobile]
+PASS route hub renders [mobile]
+PASS route hub no horizontal overflow [mobile]
+PASS route profile renders [mobile]
+PASS route profile no horizontal overflow [mobile]
+PASS route vocab renders [mobile]
+PASS route vocab no horizontal overflow [mobile]
+PASS route exam renders [mobile]
+PASS route exam no horizontal overflow [mobile]
+PASS route reading renders [mobile]
+PASS route reading no horizontal overflow [mobile]
+PASS route game renders [mobile]
+PASS route game no horizontal overflow [mobile]
+PASS route analytics renders [mobile]
+PASS route analytics no horizontal overflow [mobile]
+PASS route settings renders [mobile]
+PASS route settings no horizontal overflow [mobile]
+PASS no console/page errors across routes [mobile]
+PASS route home renders [small320]
+PASS route home no horizontal overflow [small320]
+PASS route hub renders [small320]
+PASS route hub no horizontal overflow [small320]
+PASS route profile renders [small320]
+PASS route profile no horizontal overflow [small320]
+PASS route vocab renders [small320]
+PASS route vocab no horizontal overflow [small320]
+PASS route exam renders [small320]
+PASS route exam no horizontal overflow [small320]
+PASS route reading renders [small320]
+PASS route reading no horizontal overflow [small320]
+PASS route game renders [small320]
+PASS route game no horizontal overflow [small320]
+PASS route analytics renders [small320]
+PASS route analytics no horizontal overflow [small320]
+PASS route settings renders [small320]
+PASS route settings no horizontal overflow [small320]
+PASS no console/page errors across routes [small320]
+PASS route home renders [tablet768]
+PASS route home no horizontal overflow [tablet768]
+PASS route hub renders [tablet768]
+PASS route hub no horizontal overflow [tablet768]
+PASS route profile renders [tablet768]
+PASS route profile no horizontal overflow [tablet768]
+PASS route vocab renders [tablet768]
+PASS route vocab no horizontal overflow [tablet768]
+PASS route exam renders [tablet768]
+PASS route exam no horizontal overflow [tablet768]
+PASS route reading renders [tablet768]
+PASS route reading no horizontal overflow [tablet768]
+PASS route game renders [tablet768]
+PASS route game no horizontal overflow [tablet768]
+PASS route analytics renders [tablet768]
+PASS route analytics no horizontal overflow [tablet768]
+PASS route settings renders [tablet768]
+PASS route settings no horizontal overflow [tablet768]
+PASS no console/page errors across routes [tablet768]
+PASS route home renders [wide1920]
+PASS route hub renders [wide1920]
+PASS route profile renders [wide1920]
+PASS route vocab renders [wide1920]
+PASS route exam renders [wide1920]
+PASS route reading renders [wide1920]
+PASS route game renders [wide1920]
+PASS route analytics renders [wide1920]
+PASS route settings renders [wide1920]
+PASS no console/page errors across routes [wide1920]
+PASS dark theme applies and persists after reload
+PASS version metadata consistent (app/cache/content/meta/manifest/sw)
+PASS mock exam set 1: 60 questions, answer all, finish shows result
+PASS category practice qr: renders options and explanation after answer
+PASS category practice short: renders options and explanation after answer
+PASS category practice long: renders options and explanation after answer
+PASS category practice tc: renders options and explanation after answer
+PASS category practice rc: renders options and explanation after answer
+PASS matching game: complete one round with correct pairs
+PASS flashcards: open and flip by keyboard
+PASS vocabulary lab starts with 4 options
+PASS learning hub: open unit 1
+PASS reading plus: start passage
+PASS word detail modal shows IPA source
+PASS practice disclaimer: not official TGAT1 / not score prediction is visible
+PASS no console/page errors in flows
+PASS service worker installs and app reloads offline
+
+smoke_r3_extra: 94/94 passed

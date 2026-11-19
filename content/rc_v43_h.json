@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S14-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did new players stop coming after their first sessions?",
+    "key": "They felt excluded by long-time groups.",
+    "d": [
+     "The first drills were far too hard for beginners.",
+     "The club had no equipment for them.",
+     "Sessions were held only at weekends."
+    ],
+    "exp": "บทความระบุว่า “Some felt left out when established teams kept the same roles and practiced at different levels.” ตัวเลือกไม่มีอุปกรณ์ผิดเพราะโค้ชใช้ของเดิมที่มี และตารางสุดสัปดาห์เป็นข้อจำกัดของผู้ฝึกบางคนที่พบภายหลัง"
+   },
+   {
+    "type": "detail",
+    "prompt": "What two changes did the coaches make to the drills?",
+    "key": "Combining abilities and switching positions.",
+    "d": [
+     "Shorter training sessions and clearer instructions.",
+     "New equipment and weekend training.",
+     "Fixed roles and separate skill groups."
+    ],
+    "exp": "โค้ช “began mixing skill levels during drills and rotating team roles so that everyone could take part” โดยใช้กรวย ลูกบอล และคำสั่งที่ชัดเจนแทนการซื้ออุปกรณ์ใหม่ ตัวเลือกบทตายตัว/แยกกลุ่มทักษะ ตรงข้ามกับสิ่งที่ทำ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Their aim is to build a lasting program where new members feel welcome and can improve at their own pace.”?",
+    "key": "They want a program that keeps newcomers included.",
+    "d": [
+     "They want new members to improve quickly.",
+     "They plan to end the whole program after each term.",
+     "They aim to build teams of the best players."
+    ],
+    "exp": "ใจความคือเป้าหมายคือโปรแกรมที่ยั่งยืน ทำให้สมาชิกใหม่รู้สึกได้รับการต้อนรับและเก่งขึ้นตามจังหวะตัวเอง ตัวเลือกหนึ่งบิดเป็นต้องเก่งเร็ว ตัวเลือกสามขัดกับแนวคิดผสมทุกระดับทักษะ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the passage?",
+    "key": "Coaches changing a program to keep new players.",
+    "d": [
+     "Why neighborhood sports clubs need new equipment.",
+     "How coaches plan weekend sports sessions.",
+     "A club’s rules about team roles."
+    ],
+    "exp": "แกนเรื่องคือโค้ชสังเกตว่าผู้เล่นใหม่หายไปแล้วปรับการฝึก (ผสมระดับ หมุนบทบาท เพิ่มรอบสุดสัปดาห์) จนการเข้าร่วมดีขึ้น ตัวเลือกอุปกรณ์ใหม่/กฎบทบาท/วิธีจัดตาราง ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “established” is closest in meaning to",
+    "key": "already formed for some time.",
+    "d": [
+     "officially approved by the city.",
+     "made up of new players.",
+     "stronger than other teams."
+    ],
+    "exp": "ผู้เล่นใหม่รู้สึกถูกกันออกเมื่อ “established teams kept the same roles” = ทีมที่ตั้งมานานแล้ว ตรงข้ามกับผู้เล่นใหม่ ตัวเลือกประกอบด้วยผู้เล่นใหม่จึงผิด ส่วนได้รับอนุมัติ/เก่งกว่าไม่ใช่ความหมายในบริบทนี้"
+   }
+  ]
+ },
+ {
+  "first": "S14-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What was the first step of the home energy check?",
+    "key": "Sharing a checklist and demonstrating standby power.",
+    "d": [
+     "Handing out plug-in meters to households.",
+     "Comparing electricity bills from last year.",
+     "Asking families which appliances they owned."
+    ],
+    "exp": "บทความระบุว่า “Its first step was to share a simple checklist and demonstrate how standby power works.” ส่วนเครื่องวัดแบบเสียบปลั๊กเป็นสิ่งที่อาสาสมัครใช้แสดงตัวเลขเอง ไม่ได้แจกให้ครัวเรือนในตอนแรก"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did households report after several weeks?",
+    "key": "Switching off unused devices and lower bills.",
+    "d": [
+     "Buying fewer electrical appliances.",
+     "Using the checklist daily.",
+     "Asking for more printed reminders."
+    ],
+    "exp": "ข้อความระบุว่า “a number of households reported switching off unused devices and reducing their bills” ตัวเลือกซื้อเครื่องใช้น้อยลง/ใช้เช็กลิสต์ทุกวัน/ขอใบเตือนเพิ่ม ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the phrase “standby power” is closest in meaning to",
+    "key": "electricity used by devices left switched on.",
+    "d": [
+     "power stored for an emergency.",
+     "energy saved by a checklist.",
+     "electricity produced at home."
+    ],
+    "exp": "อาสาสมัครใช้เครื่องวัดเสียบปลั๊กเพื่อแสดง “how much electricity some devices consumed when left on” = ไฟฟ้าที่เครื่องใช้กินขณะเปิดค้างไว้/สแตนด์บาย ไม่ใช่ไฟสำรองหรือไฟที่ผลิตเอง"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement is TRUE according to the passage?",
+    "key": "Energy savings differed between homes.",
+    "d": [
+     "Every household reduced its bill.",
+     "Volunteers promised the same result to all.",
+     "The group stopped giving advice."
+    ],
+    "exp": "บทความระบุว่า “energy savings varied because homes had different appliances and routines” ส่วนผู้ได้ผลคือ “a number of households” ไม่ใช่ทุกครัวเรือน และอาสาสมัครเลือกจะไม่สัญญาว่าจะได้ผลเดียวกัน (Rather than promise the same result) พร้อมวางแผนอัปเดตคำแนะนำ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about why the group will compare more readings?",
+    "key": "Its advice must fit different homes.",
+    "d": [
+     "Households refused to use the meters.",
+     "The first checklist contained mistakes.",
+     "Bills will rise again next year."
+    ],
+    "exp": "เพราะผลประหยัดต่างกันตามเครื่องใช้และกิจวัตรของแต่ละบ้าน การเก็บข้อมูลเพิ่มจึงช่วยให้คำแนะนำเหมาะกับแต่ละครัวเรือนได้ ตัวเลือกเช็กลิสต์ผิด/ครัวเรือนปฏิเสธการใช้เครื่องวัด ไม่มีข้อมูลในบทความ"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the organizers arrange the first-aid day?",
+    "key": "Volunteers were unsure how to respond to accidents.",
+    "d": [
+     "A trainer offered the session for free.",
+     "Medical help arrived too slowly.",
+     "Participants asked for a reference card."
+    ],
+    "exp": "บทความระบุว่าหลังอุบัติเหตุเล็กน้อย “organizers realized that many volunteers were unsure how to respond before medical help arrived” จึงจัดวันอบรม ตัวเลือกเทรนเนอร์เสนอฟรี/ผู้เข้าร่วมขอบัตร ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Which step were some participants still uncertain about?",
+    "key": "Dealing with severe bleeding.",
+    "d": [
+     "Calling the emergency services.",
+     "Placing someone in the recovery position.",
+     "Checking whether a person was responsive."
+    ],
+    "exp": "ผลสอบถามคือ “Most could describe the basic response, but some were uncertain about dealing with severe bleeding.” ตัวเลือกอื่นเป็นขั้นตอนที่ผู้เข้าร่วมส่วนใหญ่ทำได้ดีแล้ว"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They arranged a first-aid awareness day” refer to?",
+    "key": "The organizers of the sports event.",
+    "d": [
+     "The volunteers who attended the session.",
+     "The qualified trainer.",
+     "The community sports teams."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “organizers realized that many volunteers were unsure how to respond” ผู้ที่จัดวันอบรมจึงคือ organizers ไม่ใช่อาสาสมัครผู้เข้าอบรมหรือเทรนเนอร์ที่ถูกเชิญมา"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why does the team plan to invite the trainer back?",
+    "key": "To keep the advice reliable and consistent.",
+    "d": [
+     "To teach participants some new bandage skills.",
+     "To replace the printed reference cards.",
+     "To test volunteers on severe bleeding."
+    ],
+    "exp": "บทความระบุว่า “They want to make sure the advice remains reliable and consistent with current guidance.” จึงเชิญเทรนเนอร์กลับมาทบทวน (refresher) ตัวเลือกทดสอบ/เปลี่ยนบัตร ไม่ใช่จุดประสงค์ที่ระบุ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “responsive” is closest in meaning to",
+    "key": "able to react when spoken to.",
+    "d": [
+     "badly injured and bleeding.",
+     "willing to help other people.",
+     "lying in the recovery position."
+    ],
+    "exp": "ขั้นแรกของการปฐมพยาบาลคือ “check whether a person was responsive” = ดูว่าผู้บาดเจ็บยังรู้สึกตัวและตอบสนองหรือไม่ ตัวเลือกบาดเจ็บรุนแรง/ท่าพักฟื้นเป็นเรื่องอื่นในบท ส่วนเต็มใจช่วยคนอื่นไม่ใช่ความหมายในบริบทนี้"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What could library members do with the new app?",
+    "key": "Find and hold books, and see deadlines.",
+    "d": [
+     "Renew books by phoning the library.",
+     "Read the full catalog offline without connecting.",
+     "Buy books that the library owned."
+    ],
+    "exp": "บทความระบุว่าแอป “allowed members to search the catalog, reserve titles, and check due dates” ตัวเลือกโทรต่ออายุ/ซื้อหนังสือ ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did users ask for after the first version?",
+    "key": "Bigger letters and easier loan extensions.",
+    "d": [
+     "Fewer screens and a faster search.",
+     "A way to reserve more than one title at once.",
+     "Reminders sent before each due date."
+    ],
+    "exp": "ข้อความระบุว่า “users wanted larger text and a simpler renewal button” ผู้พัฒนาจึงแก้ไขตามนั้น ตัวเลือกอื่นไม่มีการร้องขอในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What does the passage mainly describe?",
+    "key": "A library app improved through user testing.",
+    "d": [
+     "Why readers prefer paper catalogs.",
+     "A new plan to teach library members phone skills.",
+     "How libraries choose new software."
+    ],
+    "exp": "แกนเรื่องคือห้องสมุดออกแอปแก้ปัญหาต่ออายุหนังสือบนมือถือ แล้วให้ผู้อ่านกลุ่มเดิมทดสอบสองรอบจนข้อผิดพลาดลดลง ตัวเลือกสอนทักษะ/วิธีเลือกซอฟต์แวร์ ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “launch” is closest in meaning to",
+    "key": "the app being made available.",
+    "d": [
+     "the library opening each morning.",
+     "the first review of the website.",
+     "the meeting with the developers."
+    ],
+    "exp": "“Before launch, staff asked a small group of readers to test the app” = ก่อนเปิดตัวแอปให้สมาชิกใช้ จึงให้กลุ่มเล็กทดสอบก่อน ไม่ใช่เวลาเปิดห้องสมุด การรีวิวเว็บไซต์ หรือการประชุมนักพัฒนา"
+   },
+   {
+    "type": "true",
+    "prompt": "According to the passage, which statement is TRUE?",
+    "key": "The same readers tested the app twice.",
+    "d": [
+     "The first version of the app did not work.",
+     "Staff tested the app before readers did.",
+     "The second review found more mistakes."
+    ],
+    "exp": "บทความระบุว่าผู้พัฒนาแก้ไขแล้ว “invited the same readers to test again” ส่วนเวอร์ชันแรก “worked” แต่ผู้ใช้ต้องการปรับปรุง การทดสอบก่อนเปิดตัวทำโดยกลุ่มผู้อ่าน (ไม่ใช่พนักงาน) และรอบสองพบ “fewer mistakes”"
+   }
+  ]
+ },
+ {
+  "first": "S15-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did visitors struggle to find the right room?",
+    "key": "Information appeared in a single language.",
+    "d": [
+     "The center rooms had no names on their doors.",
+     "Staff could not give directions.",
+     "The center had too many floors."
+    ],
+    "exp": "ประโยคแรกระบุว่า “notices were posted in only one language” จึงมีการทำป้ายหลายภาษาที่พูดกันทั่วไปในชุมชน ตัวเลือกไม่มีชื่อห้อง/พนักงานบอกทางไม่ได้/ตึกหลายชั้น ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "How did staff measure the effect of the new signs?",
+    "key": "By tracking questions at the reception desk.",
+    "d": [
+     "By counting visitors at each entrance.",
+     "By asking bilingual helpers to observe.",
+     "By timing how long people took to find rooms."
+    ],
+    "exp": "บทความระบุว่า “Over the next month, staff kept track of questions at the reception desk.” แล้วพบว่า “Fewer visitors needed directions” ตัวเลือกนับผู้เยี่ยมชม/จับเวลา ไม่มีการทำในบทความ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about room names?",
+    "key": "Some cannot be translated word for word.",
+    "d": [
+     "Visitors disliked the names they were given.",
+     "The center will rename several rooms.",
+     "Room names caused most of the early confusion."
+    ],
+    "exp": "ข้อความบอกว่าบางคำแปลยังต้องทบทวน “especially for room names that had no direct equivalent” = ชื่อห้องบางชื่อไม่มีคำตรงตัวในอีกภาษา จึงต้องตรวจกับผู้พูดเจ้าของภาษา ตัวเลือกเปลี่ยนชื่อห้อง/ไม่ชอบชื่อ ไม่มีข้อมูล"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “equivalent” is closest in meaning to",
+    "key": "word with the same meaning.",
+    "d": [
+     "sign placed near the door.",
+     "speaker who could read them.",
+     "number used to identify a room."
+    ],
+    "exp": "“room names that had no direct equivalent” = ชื่อห้องที่ไม่มีคำในภาษาอื่นที่มีความหมายตรงกัน จึงแปลยาก ไม่ใช่ป้าย ผู้อ่าน หรือหมายเลขห้อง"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why will the team check the signs with native speakers?",
+    "key": "To correct translations that still need review.",
+    "d": [
+     "To choose which languages to include.",
+     "To design the final set of large printed center signs.",
+     "To teach volunteers new room vocabulary."
+    ],
+    "exp": "บทความระบุว่า “A few translations still needed review” ทีมจึงจะ “check those signs with native speakers before printing a final set” = ตรวจความถูกต้องก่อนพิมพ์จริง ไม่ใช่เพื่อเลือกภาษาหรือออกแบบป้าย"
+   }
+  ]
+ }
+]

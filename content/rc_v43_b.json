@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S04-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How did the students study the recycling bins?",
+    "key": "They looked inside each container for days.",
+    "d": [
+     "They counted only the total weight of recycling.",
+     "They asked the students about their own recycling habits.",
+     "They photographed the bins near the sports field."
+    ],
+    "exp": "บทความระบุว่า “Instead of counting only the amount of recycling, students examined the contents of each bin for three days.” ตัวเลือกนับน้ำหนักรวมจึงตรงข้ามกับข้อความ และไม่มีการทำแบบสอบถามหรือถ่ายภาพ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the second audit find after the signs were added?",
+    "key": "Fewer sorting mistakes than before.",
+    "d": [
+     "The same problems as the first audit.",
+     "More bottles placed in the wrong bins.",
+     "That visitors had removed the new signs."
+    ],
+    "exp": "หลังติดป้ายตัวอย่าง “another audit found fewer incorrect items” ตัวเลือกปัญหาเท่าเดิม/ขวดผิดถังมากขึ้น/ป้ายถูกถอด ขัดหรือไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the bin near the sports field?",
+    "key": "Its location did not match where people ate.",
+    "d": [
+     "Sports events at the field created extra rubbish.",
+     "Students near the field ignored the recycling rules.",
+     "The audit team forgot to examine it."
+    ],
+    "exp": "การที่นักเรียนเสนอ “moving it closer to the food area” แสดงเป็นนัยว่าถังอยู่ไกลจากจุดที่คนกินอาหารจึงยังใช้ผิด ตัวเลือกสนามสร้างขยะเพิ่ม/นักเรียนเมินกฎทั้งหมด เป็นการคาดเดาเกินข้อมูล และถังนี้ถูกตรวจพบข้อผิดพลาดจึงไม่ได้ถูกลืม"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Their teacher used the project to explain that measuring a problem before and after a change can show whether the change actually helped.”?",
+    "key": "Comparing data from before and after shows if a change worked.",
+    "d": [
+     "Teachers should measure problems at school more often.",
+     "The project proved the change helped the school.",
+     "Measuring problems prevents changes from failing."
+    ],
+    "exp": "ใจความคือการใช้ข้อมูลก่อน-หลังการเปลี่ยนแปลงพิสูจน์ว่าการเปลี่ยนช่วยจริง ตัวเลือกแรกขยายเป็นคำสั่งทั่วไป ตัวเลือกสองสรุปเกินว่าช่วยแล้ว (บทความบอกแค่วิธีตรวจ) และตัวเลือกสามบิดเป็นป้องกันการล้มเหลว"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “audit” is closest in meaning to",
+    "key": "a careful check of the bin contents.",
+    "d": [
+     "a lesson about recycling rules for students.",
+     "a collection of used bottles and cans.",
+     "a competition between two classes."
+    ],
+    "exp": "นักเรียน “examined the contents of each bin for three days” และหลังติดป้ายสองสัปดาห์ “another audit found fewer incorrect items” ดังนั้น audit = การตรวจสอบสิ่งที่อยู่ในถังอย่างละเอียด ไม่ใช่บทเรียน การเก็บขวด หรือการแข่งขัน"
+   }
+  ]
+ },
+ {
+  "first": "S04-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the student expect most answers to be about?",
+    "key": "New buildings in the neighborhood.",
+    "d": [
+     "Empty lots where children played.",
+     "Neighbors who left their doors open.",
+     "Old photographs from the town archive."
+    ],
+    "exp": "บทความบอกว่า “She expected most answers to focus on new buildings” ส่วนความทรงจำเรื่องประตูเปิดและลานว่างเป็นสิ่งที่ผู้สูงอายุเล่าจริงซึ่งเธอไม่ได้คาดไว้ล่วงหน้า"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the student compare the interviews with?",
+    "key": "Historic pictures held nearby.",
+    "d": [
+     "Newspaper reports about the area.",
+     "Hand-drawn maps by the older residents.",
+     "Recordings from an earlier university project."
+    ],
+    "exp": "ข้อความระบุตรง ๆ ว่า “The student compared the interviews with old photographs from a local archive.” ตัวเลือกหนังสือพิมพ์/แผนที่/บันทึกเสียง ไม่มีในบทความ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why didn’t the student treat differences between memories and photos as failures?",
+    "key": "Because the two sources show different things.",
+    "d": [
+     "Because the old archive photographs were poor quality.",
+     "Because residents refused to be corrected.",
+     "Because the archive had no dates."
+    ],
+    "exp": "เธออธิบายว่า “personal memories show how people experienced change, while photographs show what a place looked like” คือสองแหล่งให้ข้อมูลคนละมิติ ความแตกต่างจึงไม่ใช่ความล้มเหลว ตัวเลือกคุณภาพรูป/ชาวบ้านปฏิเสธ/ไม่มีวันที่ ไม่มีข้อมูล"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the student view personal memories?",
+    "key": "As evidence of how people experienced change.",
+    "d": [
+     "As unreliable stories needing careful correction.",
+     "As less useful than old photographs.",
+     "As records of what a place looked like."
+    ],
+    "exp": "เธอให้ค่าความทรงจำในฐานะหลักฐานของ ประสบการณ์ ต่อการเปลี่ยนแปลง และ “did not treat those differences as failures” ตัวเลือกสุดท้ายคือบทบาทของภาพถ่าย ไม่ใช่ความทรงจำ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “evidence” is closest in meaning to",
+    "key": "information used to support a conclusion.",
+    "d": [
+     "opinions collected from a few close friends.",
+     "photographs kept in a local archive.",
+     "answers written during a class."
+    ],
+    "exp": "“combined both kinds of evidence” หมายถึงข้อมูลทั้งสองแบบ (ความทรงจำ + ภาพถ่าย) ที่ใช้สนับสนุนข้อสรุปของงาน ไม่ใช่ความเห็นเพื่อน รูปภาพอย่างเดียว หรือคำตอบในชั้นเรียน"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the teacher count during the experiment?",
+    "key": "How much each learner talked.",
+    "d": [
+     "How long each group task took.",
+     "How many circles the desks formed.",
+     "How many tests the class passed."
+    ],
+    "exp": "บทความระบุว่า “The teacher counted how often students spoke during group tasks” และถามความรู้สึกสบายแยกต่างหาก ตัวเลือกจับเวลางาน/นับวงกลม/นับผลสอบ ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What was one disadvantage of the circle seating?",
+    "key": "Some students found it harder to concentrate.",
+    "d": [
+     "Participation dropped during group tasks.",
+     "Most students asked to return to rows permanently.",
+     "The teacher could not see the whole class clearly."
+    ],
+    "exp": "ข้อความบอกว่า “a few students said they found it harder to concentrate when nearby groups were talking” ส่วนการมีส่วนร่วมกลับเพิ่มขึ้น ไม่ได้มีใครขอให้กลับไปใช้แถวถาวร"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the central point of the passage?",
+    "key": "The best seating depends on the task being done.",
+    "d": [
+     "Circle seating is always better than rows.",
+     "Teachers should count student participation daily.",
+     "Comfort matters more than participation."
+    ],
+    "exp": "ประโยคสรุปคือ “It showed that the best arrangement depended on the task students were doing.” ตัวเลือกวงกลมดีกว่าเสมอขัดกับข้อความ และอีกสองตัวเลือกเป็นเพียงรายละเอียด"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “It” in “It showed that the best arrangement depended on the task” refer to?",
+    "key": "The experiment.",
+    "d": [
+     "The group task.",
+     "The circle seating.",
+     "The one-month count."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “The experiment did not show that one layout was always better.” แล้วตามด้วย “It showed that...” ดังนั้น It = the experiment ทั้งการทดลอง ไม่ใช่การจัดโต๊ะหรืองานกลุ่ม"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “permanently” is closest in meaning to",
+    "key": "for all time from now on.",
+    "d": [
+     "for only one school term.",
+     "during the group discussions.",
+     "without asking the students."
+    ],
+    "exp": "“decided not to keep one arrangement permanently” = ไม่ใช้รูปแบบใดรูปแบบหนึ่งตลอดไป เพราะจะสลับตามกิจกรรม ตัวเลือกอื่นไม่ใช่ความหมายของ permanently"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What was wrong with the old festival schedule?",
+    "key": "Visitors could not see what happened at the same time.",
+    "d": [
+     "It did not list any food events.",
+     "It was shorter than the new timetable.",
+     "It did not show the festival’s locations."
+    ],
+    "exp": "ผู้เยี่ยมชมบ่นว่า “it was difficult to see what was happening at the same time” ตัวเลือกไม่ลิสต์อาหารผิด (มี food events) ตัวเลือกสั้นกว่าตรงข้ามกับข้อความ (ของเดิมเป็น long list)"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the organizers mark on the new timetable?",
+    "key": "Events requiring people to sign up beforehand.",
+    "d": [
+     "Events that were already fully booked up online.",
+     "The price of the workshops.",
+     "Performances suitable for children."
+    ],
+    "exp": "บทความระบุว่า “They also marked activities that required advance registration.” ตัวเลือกจองเต็มแล้ว/ราคา/เหมาะกับเด็ก ไม่มีในบทความ"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about schedule design?",
+    "key": "A shorter schedule can be more useful.",
+    "d": [
+     "Timetables should list activities in more detail.",
+     "Registration rules confuse most visitors.",
+     "Columns work best for food events only."
+    ],
+    "exp": "ข้อความบอกว่า “The new version was shorter than the old list, yet visitors could find information more quickly” เป็นนัยว่าสั้นกว่าแต่ใช้ได้ดีกว่า ตัวเลือกให้ลิสต์ทุกกิจกรรมขัดกับทิศทางการทำให้สั้นลง"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “conflicts” is closest in meaning to",
+    "key": "events planned for the same time.",
+    "d": [
+     "arguments between festival organizers.",
+     "complaints from visitors about prices.",
+     "changes to the registration rules."
+    ],
+    "exp": "ปัญหาเดิมคือผู้ชม “difficult to see what was happening at the same time” ตารางแบบคอลัมน์ “makes conflicts between events easier to notice” = เห็นกิจกรรมที่จัดชนเวลากัน ตัวเลือกการทะเลาะของผู้จัดเป็นความหมายทั่วไปของ conflict แต่ไม่ใช่ในบริบทนี้ ส่วนราคา/กฎลงทะเบียนไม่เกี่ยว"
+   },
+   {
+    "type": "true",
+    "prompt": "Which option matches what the passage says?",
+    "key": "Visitors found information faster with the new version.",
+    "d": [
+     "The old schedule used columns for locations.",
+     "The committee removed the registration marks.",
+     "The new schedule listed many more activities than before."
+    ],
+    "exp": "บทความระบุว่าด้วยเวอร์ชันใหม่ “visitors could find information more quickly” ส่วนของเดิมเป็น long list ไม่ใช่คอลัมน์ คณะกรรมการเพิ่มโน้ตอธิบาย ไม่ใช่ถอดเครื่องหมาย และเวอร์ชันใหม่สั้นกว่าเดิม"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did students often do before the lesson?",
+    "key": "Compared products by the big number on the front.",
+    "d": [
+     "Read the nutrition labels too slowly.",
+     "Compared only products with sodium.",
+     "Guessed the serving sizes from the front packaging."
+    ],
+    "exp": "ครูสังเกตว่านักเรียน “compared food products by looking only at the large number printed on the front of a package” ตัวเลือกอื่นไม่ใช่พฤติกรรมที่บทความระบุ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why were several students’ guesses wrong?",
+    "key": "Each product measured a portion differently.",
+    "d": [
+     "The labels did not list the sugar.",
+     "The numbers on the front were printed too small.",
+     "Students refused to check the labels."
+    ],
+    "exp": "บทความอธิบายว่า “Several guesses were wrong because the packages used different serving sizes.” ตัวเลือกฉลากไม่มีน้ำตาล/ตัวเลขเล็ก/ไม่ยอมตรวจ ไม่มีข้อมูลรองรับ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the teacher plan to repeat the activity with sodium and fiber?",
+    "key": "So the class could use the approach on further food components.",
+    "d": [
+     "To test whether students remembered the whole first sugar lesson.",
+     "Because sodium labels are easier to read.",
+     "To show that sodium is worse than sugar."
+    ],
+    "exp": "ประโยคสุดท้ายระบุว่าทำซ้ำ “so that students could apply the same method to other nutrients” ตัวเลือกทดสอบความจำ/ฉลากอ่านง่าย/โซเดียมแย่กว่า ไม่ใช่เหตุผลในบทความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How does the teacher view the large numbers on package fronts?",
+    "key": "As misleading without serving information.",
+    "d": [
+     "As useful for quick comparisons.",
+     "As hard for students to find.",
+     "As more honest than labels."
+    ],
+    "exp": "ครูสอนว่า “numbers are meaningful only when the units and serving amounts are considered” แสดงว่าตัวเลขหน้าซองทำให้เข้าใจผิดได้ถ้าไม่ดูหน่วย/ปริมาณต่อหน่วยบริโภค ตัวเลือกว่ามีประโยชน์หาเร็วขัดกับจุดประสงค์ของบทเรียน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “meaningful” is closest in meaning to",
+    "key": "having a clear and useful sense.",
+    "d": [
+     "printed in a very large font size.",
+     "easy for children to read.",
+     "checked twice for accuracy."
+    ],
+    "exp": "“numbers are meaningful only when the units and serving amounts are considered” = ตัวเลขจะมีความหมาย/ตีความได้ต่อเมื่อรู้หน่วยและปริมาณเสิร์ฟ ไม่ใช่เรื่องขนาดตัวพิมพ์หรือการตรวจความถูกต้อง"
+   }
+  ]
+ }
+]

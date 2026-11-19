@@ -1,0 +1,302 @@
+[
+ {
+  "first": "S09-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the market test a shared payment terminal?",
+    "key": "Some sellers did not want their own devices.",
+    "d": [
+     "Customers had complained about having to pay in cash.",
+     "The market wanted to charge vendors a fee.",
+     "One booth had more space than the others."
+    ],
+    "exp": "ประโยคแรกระบุเหตุผลว่า “because some small vendors did not want to buy their own machines” ตัวเลือกผู้ซื้อบ่นเรื่องเงินสด/ตลาดอยากเก็บค่าเช่า/บูธหนึ่งกว้างกว่า ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did organizers add when long queues appeared?",
+    "key": "Another device and queue tickets.",
+    "d": [
+     "More cashiers at the busiest booth.",
+     "A rule limiting card payments to the mornings.",
+     "Extra stalls for the smaller vendors."
+    ],
+    "exp": "บทความระบุว่า “Organizers then added a second terminal and a simple number system.” ตัวเลือกเพิ่มพนักงานเก็บเงิน/จำกัดเวลาใช้บัตร/เพิ่มร้านค้า ไม่มีในบทความ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “practical” is closest in meaning to",
+    "key": "workable in real conditions.",
+    "d": [
+     "cheap for small vendors.",
+     "new to most market visitors.",
+     "tested over several busy seasons."
+    ],
+    "exp": "ผู้จัดสรุปว่า “the idea was practical but depended on enough terminals being available at busy times” = ใช้ได้จริงแต่มีเงื่อนไข ตัวเลือกถูก/ใหม่/ทดสอบหลายฤดูกาล ไม่ใช่ความหมายของ practical"
+   },
+   {
+    "type": "true",
+    "prompt": "Which option matches what the passage says?",
+    "key": "The shared system worked well during quiet periods.",
+    "d": [
+     "Vendors disliked the shared terminal.",
+     "Customers could pay at any stall directly.",
+     "The holiday test has already finished."
+    ],
+    "exp": "บทความระบุว่า “The system worked well during quiet periods” ส่วนผู้ขายบอกว่าระบบ “was useful” ลูกค้าต้องจ่ายที่บูธเดียวแล้วบอกพนักงานว่าเงินเป็นของร้านใด และการทดสอบช่วงเทศกาลยังเป็นแผนในอนาคต"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the organizers’ plan for the holiday market?",
+    "key": "They expect busier times to stress the system.",
+    "d": [
+     "They believe the first trial has already succeeded.",
+     "They will remove the number system first.",
+     "They expect fewer vendors to join."
+    ],
+    "exp": "การเลือกทดสอบซ้ำ “during the holiday market, when visitor numbers are higher” สะท้อนความกังวลเดิมว่าคิวจะยาวเมื่อคนมาพร้อมกันมาก จึงตอบว่าคาดว่าการใช้งานหนาแน่นจะทดสอบระบบ ตัวเลือกเชื่อว่าสำเร็จแล้วขัดกับการที่ยังต้องทดสอบอีก"
+   }
+  ]
+ },
+ {
+  "first": "S09-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How were the two groups of plants watered?",
+    "key": "One a little daily, the other more every three days.",
+    "d": [
+     "Both received the same amount each day.",
+     "Both were watered only when the soil dried.",
+     "One group was not watered at all."
+    ],
+    "exp": "การทดลองคือ “One group of plants was watered a little every day, while another received a larger amount every three days.” ตัวเลือกอื่นผิดจากเงื่อนไขการทดลองที่ระบุไว้"
+   },
+   {
+    "type": "detail",
+    "prompt": "What two things did students measure instead of judging by appearance?",
+    "key": "Earth wetness and crop growth.",
+    "d": [
+     "Leaf color and the flower count.",
+     "Water volume and pot size.",
+     "Soil temperature and root depth."
+    ],
+    "exp": "บทความระบุว่า “Students measured soil moisture and plant height rather than relying only on appearance.” ตัวเลือกสีใบ/จำนวนดอก/อุณหภูมิ/ความรากลึก ไม่ใช่สิ่งที่วัด"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They concluded that watering decisions” refer to?",
+    "key": "The students in the science class.",
+    "d": [
+     "The plants growing in both garden groups.",
+     "The teachers of the class.",
+     "The two watering methods."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “The students did not recommend the same schedule for every plant” ผู้ที่สรุปผลจึงเป็นนักเรียนกลุ่มนั้น ไม่ใช่พืช ครู หรือวิธีรดน้ำ"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did the students refuse to recommend one schedule for all plants?",
+    "key": "Different species needed different amounts.",
+    "d": [
+     "The experiment lasted a few days.",
+     "Both groups of plants grew at exactly the same rate.",
+     "Measuring the soil moisture was too difficult."
+    ],
+    "exp": "เหตุผลในบทความคือ “because different species had different needs” ตัวเลือกการทดลองสั้นผิด (กินเวลา several weeks) และทั้งสองกลุ่มโต แต่กลุ่มที่สองใช้น้ำน้อยกว่า จึงไม่ใช่โตเท่ากัน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “reliable” is closest in meaning to",
+    "key": "more likely to be correct.",
+    "d": [
+     "less expensive for a school class.",
+     "quicker to finish each day.",
+     "more interesting for students."
+    ],
+    "exp": "นักเรียนวัดความชื้นดินและความสูงพืช “rather than relying only on appearance” และสรุปว่า “measuring conditions is more reliable than judging a result” = การวัดให้ผลที่เชื่อถือได้/ถูกต้องกว่าการดูด้วยตา ไม่ใช่เรื่องราคา ความเร็ว หรือความสนุก"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the trial walk show about one street?",
+    "key": "Part of it was a hard uphill climb.",
+    "d": [
+     "It was too long for older visitors.",
+     "It was closed during the trial walk.",
+     "It had no historic buildings left."
+    ],
+    "exp": "การเดินทดสอบเผยว่า “one street had a steep section that was uncomfortable for some visitors” กลุ่มจึงเปลี่ยนเส้นทาง ตัวเลือกถนนยาวเกิน/ปิด/ไม่มีตึกเก่า ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the group put in the guide instead of only distances?",
+    "key": "How long each part takes on foot.",
+    "d": [
+     "Photographs of the six historic buildings.",
+     "Notes about the town’s steep streets.",
+     "Bus times for older visitors who got tired."
+    ],
+    "exp": "บทความระบุว่า “They also placed estimated walking times between stops rather than giving only distances.” ตัวเลือกภาพถ่าย/โน้ตถนนชัน/ตารางรถเมล์ ไม่มีในบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What does the passage mainly describe?",
+    "key": "Teenagers improving a local walking guide.",
+    "d": [
+     "Six historic buildings that are worth visiting.",
+     "Why digital maps mislead walkers.",
+     "A town plan to repair steep streets."
+    ],
+    "exp": "แกนเรื่องคือกลุ่มวัยรุ่นออกแบบเส้นทางเดินแล้วปรับจากผลเดินทดสอบจนได้คู่มือที่ตามง่ายขึ้น ตัวเลือกแนะนำตึกเก่า/แผนที่ดิจิทัลทำให้หลง/แผนซ่อมถนน ไม่ใช่ประเด็นหลัก"
+   },
+   {
+    "type": "attitude",
+    "prompt": "How do the students seem to feel about the changes they made?",
+    "key": "They accept that testers’ comfort matters.",
+    "d": [
+     "They regret shortening the very first guide.",
+     "They believe distances matter more.",
+     "They doubt the value of a trial walk."
+    ],
+    "exp": "นักเรียนเปลี่ยนเส้นทาง เพิ่มคำอธิบาย และใส่เวลาเดินโดยสรุปว่า “a useful guide must describe not only what is interesting but also what visitors need to know to move comfortably” = ยอมรับว่าความสะดวกของผู้ใช้สำคัญ ไม่มีสัญญาณว่าเสียใจหรือสงสัยคุณค่าของการเดินทดสอบ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “revealed” is closest in meaning to",
+    "key": "showed something previously unknown.",
+    "d": [
+     "hid a serious problem from the group.",
+     "created a new walking route.",
+     "confirmed an earlier guess."
+    ],
+    "exp": "“a trial walk revealed that one street had a steep section” = การเดินทดสอบทำให้ค้นพบสิ่งที่ยังไม่รู้มาก่อน ตัวเลือกซ่อนปัญหาตรงข้ามกับคำว่า revealed และกลุ่มไม่ได้เดาไว้ก่อนจึงไม่ใช่การยืนยัน"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Why did the checkout sheet fail to solve the problem?",
+    "key": "Learners did not note return deadlines.",
+    "d": [
+     "Teachers did not keep the old sheet updated.",
+     "The sheet was stored in the wrong room.",
+     "Students could not find the correct item numbers."
+    ],
+    "exp": "บทความระบุว่า “students often forgot to write down when an item was due” จึงเปลี่ยนไปใช้ฟอร์มออนไลน์ที่แสดงวันคืนก่อนส่งคำขอ ตัวเลือกครูไม่อัปเดต/เก็บผิดห้อง/หาเลขไม่ได้ ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did staff add to stop students entering wrong item numbers?",
+    "key": "Pictures next to frequently loaned items.",
+    "d": [
+     "A second reminder before each return deadline.",
+     "A list of item numbers on the wall.",
+     "A form that rejected unknown numbers."
+    ],
+    "exp": "ข้อความระบุว่า “staff added photos beside the most commonly borrowed equipment” เพื่อลดปัญหากรอกเลขผิด ตัวเลือกเตือนซ้ำ/ติดรายการเลข/ฟอร์มปฏิเสธเลขที่ไม่รู้จัก ไม่มีในบทความ"
+   },
+   {
+    "type": "true",
+    "prompt": "Which statement is TRUE according to the passage?",
+    "key": "Fewer items came back overdue at first.",
+    "d": [
+     "The online form hid the return date.",
+     "Deadline reminders were sent a full week in advance.",
+     "Wrong item numbers stopped completely."
+    ],
+    "exp": "บทความระบุว่า “Late returns decreased during the first month.” ส่วนฟอร์ม “showed the return date before a request could be submitted” (ไม่ซ่อน) การเตือนส่ง “one day before the deadline” ไม่ใช่หนึ่งสัปดาห์ และปัญหาเลขผิดแค่ลดลง ไม่ได้หายไปหมด"
+   },
+   {
+    "type": "inference",
+    "prompt": "What can be inferred about the department’s conclusion?",
+    "key": "Good systems prevent errors by design.",
+    "d": [
+     "Students need stricter rules to be careful.",
+     "Reminders are useless in any system.",
+     "Equipment photos should replace paper forms."
+    ],
+    "exp": "ข้อสรุปคือ “a good system should make the correct action easy rather than simply reminding users to be careful” = ออกแบบให้การกระทำที่ถูกทำง่ายซึ่งป้องกันข้อผิดพลาดตั้งแต่ต้น ตัวเลือกกฎเข้มขึ้นจึงตรงข้ามกับแนวทางนี้"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “replaced” is closest in meaning to",
+    "key": "put something new in place of.",
+    "d": [
+     "added several extra pages to.",
+     "returned to the science office.",
+     "copied out by hand."
+    ],
+    "exp": "“The department replaced the sheet with a simple online form” = เลิกใช้ใบลงชื่อแล้วใช้ฟอร์มออนไลน์แทน ตัวเลือกเพิ่มหน้ากระดาษ/ส่งคืนห้องวิทยาศาสตร์/คัดลอกด้วยมือ ไม่ใช่ความหมายของ replaced เพราะใบเดิมถูกเลิกใช้ ไม่ได้ถูกปรับหรือทำสำเนา"
+   }
+  ]
+ },
+ {
+  "first": "S10-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "How did the student team collect its temperature data?",
+    "key": "Measuring surface temperatures at the same afternoon time.",
+    "d": [
+     "Asking residents which streets felt hot.",
+     "Comparing air temperatures each morning.",
+     "Using satellite images of the streets."
+    ],
+    "exp": "บทความระบุว่าทีม “mapped the streets and measured surface temperatures at the same time each afternoon” ตัวเลือกถามชาวบ้าน/วัดอากาศตอนเช้า/ใช้ภาพถ่ายดาวเทียม ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the team not recommend trees everywhere?",
+    "key": "Some spots would block entrances or utilities.",
+    "d": [
+     "The neighborhood committee paid for two streets.",
+     "Mature trees made sidewalks too dark.",
+     "Building height stopped tree growth."
+    ],
+    "exp": "ทีมเลือกเฉพาะจุดที่ “planting could provide shade without blocking entrances or underground utilities” แสดงว่าบางจุดปลูกไม่ได้เพราะขวางทางเข้าหรืองานระบบใต้ดิน ตัวเลือกงบประมาณ/ร่มเกินไป/ตึกสูงขัดการเติบโต ไม่ใช่เหตุผลที่ระบุ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “mature” is closest in meaning to",
+    "key": "fully grown.",
+    "d": [
+     "recently planted.",
+     "carefully trimmed.",
+     "very small and young."
+    ],
+    "exp": "“sidewalks with mature trees were generally cooler” เพราะต้นไม้ที่โตเต็มที่ให้ร่มเงามาก ตัวเลือกเพิ่งปลูก/ต้นเล็กยังอ่อนมีความหมายตรงข้าม ส่วนตัดแต่งกิ่งไม่ใช่ความหมายของ mature"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “They found that sidewalks with mature trees were generally cooler, but the effect varied with building height and street direction.”?",
+    "key": "Trees usually cooled sidewalks, but not in every place.",
+    "d": [
+     "Trees cooled every sidewalk in the same way.",
+     "The height of buildings decided which streets had trees.",
+     "Sidewalks without trees were always cooler."
+    ],
+    "exp": "ใจความคือทางเท้าที่มีไม้ใหญ่โดยทั่วไปเย็นกว่า แต่ผลไม่เท่ากันทุกจุดเพราะขึ้นกับความสูงตึกและทิศถนน ตัวเลือกแรกตรงข้ามกับ “varied” และตัวเลือกสามกลับข้างข้อค้นพบ"
+   },
+   {
+    "type": "main",
+    "prompt": "Which option best summarizes the passage?",
+    "key": "A temperature survey that guided tree planting.",
+    "d": [
+     "Why new neighborhoods feel too hot.",
+     "A committee’s rules for street repairs.",
+     "How students measure surface temperatures outdoors."
+    ],
+    "exp": "แกนเรื่องคือทีมสำรวจอุณหภูมิจนได้แผนที่ซึ่งคณะกรรมการใช้เลือกถนนนำร่องสองสาย พร้อมข้อจำกัดของข้อมูล ตัวเลือกวิธีวัดเป็นเพียงรายละเอียด และไม่มีกฎซ่อมถนนในบทความ"
+   }
+  ]
+ }
+]

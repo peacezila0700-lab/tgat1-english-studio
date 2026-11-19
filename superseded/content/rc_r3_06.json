@@ -1,0 +1,388 @@
+{
+ "R51": {
+  "q0": {
+   "key": "How a supervised trial encouraged safer cycling to school",
+   "d": [
+    "Why the council repainted every road marking",
+    "How families chose the fastest route to school",
+    "Why students should stop cycling when it rains"
+   ],
+   "exp": "ครูและผู้ปกครองทำแผนที่ถนนที่รถน้อย จัดการปั่นทดลองพร้อมผู้ดูแล และรับฟังความเห็น ทำให้นักเรียนลองปั่นมากขึ้น ตัวเลือกอื่นไม่มีในบทอ่านหรือเกินจากบทอ่าน (กลุ่มเพียงขอให้ทาสีใหม่บางจุด)"
+  },
+  "q1": {
+   "prompt": "What did students receive for the trial ride?",
+   "key": "Route cards and reflective bands",
+   "d": [
+    "New bicycles and helmets",
+    "Rain jackets and lights",
+    "Maps showing all the busiest junctions"
+   ],
+   "exp": "บทอ่านบอกว่า “They gave students route cards and reflective bands” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "prompt": "Why did the group contact the local council?",
+   "key": "To ask for faded road markings to be repainted",
+   "d": [
+    "To ask for a new bicycle lane",
+    "To report families who drove to school",
+    "To close the busiest junctions"
+   ],
+   "exp": "บทอ่านบอกว่า ฝนทำให้เครื่องหมายบนถนนบางจุดมองยาก กลุ่มจึงแจ้งตำแหน่งให้สภาและ “asked for the markings to be repainted” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q4": {
+   "key": "A route that seems safe in dry weather may need checking in rain.",
+   "d": [
+    "Rain has no effect on cycling safety.",
+    "Most families still refused to try cycling after the trial.",
+    "The council has already repainted every marking, so the route will not need reviewing again."
+   ],
+   "exp": "ฝนทำให้เครื่องหมายบนถนนมองเห็นยาก และกลุ่มจะทบทวนเส้นทางอีกครั้ง ตัวเลือกอื่นขัดกับบทอ่าน (มีนักเรียนลองปั่นมากขึ้น และยังไม่มีข้อมูลว่าสภาทาสีแล้ว)"
+  }
+ },
+ "R52": {
+  "q0": {
+   "key": "How a school learned to sort food scraps for compost",
+   "d": [
+    "Why plastic wrappers are good for compost",
+    "How the canteen reduced the amount of food it cooked",
+    "Why the school stopped using lidded bins in the dining area"
+   ],
+   "exp": "พนักงานและนักเรียนแยกเศษอาหาร วางถังมีฝาพร้อมป้ายภาพ และได้ปุ๋ยหมัก แต่ยังมีขยะที่ไม่เหมาะปน จึงต้องตรวจและปรับป้าย ตัวเลือกอื่นขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What problem did the bins have after one term?",
+   "key": "Unsuitable items such as plastic wrappers got into them.",
+   "d": [
+    "The garden did not receive any compost.",
+    "Students could not find the lidded bins.",
+    "Picture labels made sorting harder."
+   ],
+   "exp": "บทอ่านบอกว่า “plastic wrappers and other unsuitable items sometimes contaminated the bins.” โรงเรียนได้ปุ๋ยหมักแล้ว และตัวเลือกอื่นขัดกับบทอ่าน"
+  },
+  "q2": {
+   "prompt": "Why will students check the bins at the start of each term?",
+   "key": "To catch sorting mistakes and fix unclear labels",
+   "d": [
+    "To count how much food students waste",
+    "To move the bins away from the dining area",
+    "To collect plastic wrappers for recycling"
+   ],
+   "exp": "นักเรียนวางแผนตรวจถังเดือนแรกของภาคเรียนและเปลี่ยนป้ายที่ไม่ชัด เพราะยังมีสิ่งไม่เหมาะสมปน ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q4": {
+   "key": "Containers are not enough; clear instructions and checks are also needed.",
+   "d": [
+    "Picture labels completely stopped contamination.",
+    "The compost was not useful for the school garden.",
+    "Students believe that adding more bins alone will solve the contamination problem next term."
+   ],
+   "exp": "บทอ่านสรุปว่าระบบรีไซเคิลที่ใช้ได้จริง “depends on clear instructions and regular checks, not simply on providing containers.” ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R53": {
+  "q0": {
+   "key": "How a booking calendar made study rooms fairer to use",
+   "d": [
+    "Why the library built more study rooms",
+    "How students can study without booking a room",
+    "Why groups should be allowed to stay as long as they want"
+   ],
+   "exp": "ผู้ช่วยห้องสมุดใช้ปฏิทินจองและจำกัดเวลา ทำให้ใช้ห้องอย่างเป็นธรรมขึ้น แต่บางกลุ่มยังใช้เกินเวลา จึงจะส่งข้อความเตือน ตัวเลือกอื่นไม่มีในบทอ่านหรือขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What problem continued after the calendar was introduced?",
+   "key": "Some groups stayed after their booking ended.",
+   "d": [
+    "Students could not see when the rooms were free.",
+    "Nobody used the study rooms.",
+    "The shared screen often stopped working."
+   ],
+   "exp": "บทอ่านบอกว่า “some groups continued working after their reserved time had ended.” ตัวเลือกอื่นขัดกับบทอ่านหรือไม่มีข้อมูล"
+  },
+  "q2": {
+   "prompt": "Why will staff send a reminder five minutes before each booking ends?",
+   "key": "To help groups leave on time",
+   "d": [
+    "To invite new groups to book",
+    "To remind students to bring books back",
+    "To check how many students are in each room"
+   ],
+   "exp": "ปัญหาที่เหลือคือกลุ่มใช้ห้องเกินเวลา การเตือนก่อนหมดเวลาห้านาทีจึงช่วยให้ออกตรงเวลา ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q4": {
+   "key": "A visible schedule helps, but time limits need reminders to work.",
+   "d": [
+    "Time limits made the rooms harder to book.",
+    "Reminder signs on the doors solved the problem completely.",
+    "Staff have decided to remove the time limits because students did not follow them at first."
+   ],
+   "exp": "การใช้ห้องเป็นธรรมขึ้นแต่ยังมีกลุ่มใช้เกินเวลา จึงต้องเพิ่มการเตือน ตัวเลือกอื่นขัดกับบทอ่าน (ยังมีปัญหาเหลือ และจะทบทวนเวลาตอนสิ้นภาค ไม่ได้ยกเลิก)"
+  }
+ },
+ "R54": {
+  "q0": {
+   "key": "How a council made its survey easier for residents to answer",
+   "d": [
+    "Why the council stopped holding public meetings",
+    "How residents can vote on council decisions",
+    "Why online surveys are always better than paper ones for residents"
+   ],
+   "exp": "สภาจัดแบบสำรวจทั้งออนไลน์และกระดาษหลายภาษา ได้ความเห็นมากขึ้น แล้วพบว่าคำถามบางข้อเข้าใจยาก จึงทบทวนและทดสอบคำถามใหม่ ตัวเลือกอื่นไม่มีในบทอ่านหรือขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What happened after the first round of the survey?",
+   "key": "More residents responded, but some questions were confusing.",
+   "d": [
+    "Fewer residents responded than before.",
+    "Residents refused to use the paper forms.",
+    "The council stopped translating the questions."
+   ],
+   "exp": "บทอ่านบอกว่า “more residents submitted ideas, but some questions were difficult to understand.” ตัวเลือกอื่นขัดกับบทอ่าน"
+  },
+  "q2": {
+   "key": "To find confusing wording before the next survey.",
+   "dmap": {
+    "To raise extra funds to expand the public feedback survey to neighboring towns.": "To decide whether to stop offering the survey on paper.",
+    "To prove the public feedback survey had already solved every participant’s problem.": "To choose which languages to remove from the survey.",
+    "To replace the public feedback survey before reviewing any participant feedback.": "To ask residents to attend more council meetings."
+   }
+  },
+  "q4": {
+   "key": "More ways to respond help, but questions must also be clear.",
+   "d": [
+    "Paper surveys were no longer needed once the online form was ready.",
+    "Translating the questions made them harder to understand.",
+    "The council will send the next survey without testing it because most people understood the questions."
+   ],
+   "exp": "การมีหลายช่องทางช่วยให้คนตอบมากขึ้น แต่ต้องปรับคำถามให้เข้าใจง่ายและทดสอบก่อน ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R55": {
+  "q0": {
+   "key": "How a free lesson helped commuters handle small bike problems",
+   "d": [
+    "Why commuters should repair every fault themselves",
+    "How to open a bicycle repair shop",
+    "Why cycling to work is safer than driving"
+   ],
+   "exp": "นักปั่นที่มีประสบการณ์สอนการตรวจความปลอดภัยพื้นฐาน ผู้เรียนมั่นใจขึ้น แต่กลุ่มย้ำว่างานซ่อมซับซ้อนต้องให้ผู้เชี่ยวชาญ ตัวเลือกอื่นขัดกับบทอ่านหรือไม่มีข้อมูล"
+  },
+  "q1": {
+   "prompt": "What did participants learn first?",
+   "key": "How to inspect tires and brakes",
+   "d": [
+    "How to repair complex faults",
+    "How to choose a repair shop",
+    "How to explain the steps to others"
+   ],
+   "exp": "บทอ่านบอกว่า “Participants first learned how to inspect tires and brakes” การอธิบายขั้นตอนเกิดตอนท้ายแต่ละรอบ งานซับซ้อนให้ผู้เชี่ยวชาญ และรายชื่อร้านเป็นแผนในอนาคต"
+  },
+  "q2": {
+   "key": "To check learners knew basic repairs and when to get expert help.",
+   "dmap": {
+    "To raise extra funds to expand the bicycle repair lesson to neighboring towns.": "To decide which participants should become instructors.",
+    "To prove the bicycle repair lesson had already solved every participant’s problem.": "To find out which bicycles needed new tires.",
+    "To replace the bicycle repair lesson before reviewing any participant feedback.": "To choose the best repair kits to sell to commuters."
+   }
+  },
+  "q4": {
+   "key": "Basic skills help with minor faults but do not replace mechanics.",
+   "d": [
+    "Participants can now carry out any repair themselves.",
+    "The lesson made commuters less confident.",
+    "The group will stop offering lessons because most learners already knew how to check their brakes."
+   ],
+   "exp": "ผู้เรียนมั่นใจกับปัญหาเล็กน้อย แต่กลุ่มเน้นว่างานซับซ้อนควรไปหาผู้เชี่ยวชาญ และจะสอนอีกครั้ง ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R56": {
+  "q0": {
+   "key": "How refill points reduced the need for bottled water in a park",
+   "d": [
+    "Why bottled water is cheaper than tap water",
+    "How the park cleaned its fountains every day",
+    "Why visitors stopped walking in the park"
+   ],
+   "exp": "ผู้จัดการสวนติดตั้งจุดเติมน้ำ ทำเครื่องหมายบนแผนที่ และติดป้าย ทำให้คนเติมขวดมากขึ้น แต่ต้องดูแลความสะอาดสม่ำเสมอ ตัวเลือกอื่นไม่มีในบทอ่านหรือขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What problem did one station have?",
+   "key": "It needed frequent cleaning.",
+   "d": [
+    "It was not marked on the map.",
+    "Its water was not filtered.",
+    "Nobody used it during walks."
+   ],
+   "exp": "บทอ่านบอกว่า “one station needed frequent cleaning.” ตัวเลือกอื่นขัดกับบทอ่าน (จุดเติมน้ำมีบนแผนที่และใช้ระบบกรอง)"
+  },
+  "q2": {
+   "key": "To see if people used the refill points and if cleaning kept them usable.",
+   "dmap": {
+    "To raise extra funds to expand the public drinking-water station to neighboring towns.": "To decide where to sell bottled water in the park.",
+    "To prove the public drinking-water station had already solved every participant’s problem.": "To count how many visitors brought their own food.",
+    "To replace the public drinking-water station before reviewing any participant feedback.": "To choose a new design for the park map."
+   }
+  },
+  "q4": {
+   "key": "Refill stations reduce plastic only if they are kept clean.",
+   "d": [
+    "Signs alone stopped visitors from buying bottled water.",
+    "The refill stations are rarely used by visitors.",
+    "The managers believe the stations need no more checks because only one of them had problems."
+   ],
+   "exp": "คนเติมขวดมากขึ้น แต่สถานีหนึ่งต้องทำความสะอาดบ่อย ผู้จัดการจึงเพิ่มการตรวจทำความสะอาด ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R57": {
+  "q0": {
+   "key": "How practice helped job seekers describe their skills",
+   "d": [
+    "Why interviews should be replaced by written tests",
+    "How advisers find jobs for every participant",
+    "Why general claims impress employers more than examples"
+   ],
+   "exp": "ที่ปรึกษาจัดเวิร์กช็อปให้ฝึกตอบคำถามสัมภาษณ์ด้วยตัวอย่างที่เจาะจง และพบว่าผู้เข้าร่วมอธิบายประสบการณ์ได้ชัดขึ้น ตัวเลือกอื่นขัดกับบทอ่านหรือไม่มีข้อมูล"
+  },
+  "q1": {
+   "prompt": "How did role-play cards help participants?",
+   "key": "They encouraged specific examples instead of general claims.",
+   "d": [
+    "They listed jobs that were available.",
+    "They replaced sample resumes.",
+    "They showed which questions to avoid."
+   ],
+   "exp": "บทอ่านบอกว่า “Role-play cards helped them give specific examples instead of making general claims.” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "key": "To see if practice improved answers and if more mock interviews were needed.",
+   "dmap": {
+    "To raise extra funds to expand the local job workshop to neighboring towns.": "To decide which participants should receive job offers.",
+    "To prove the local job workshop had already solved every participant’s problem.": "To choose which companies to invite to the workshop.",
+    "To replace the local job workshop before reviewing any participant feedback.": "To rewrite every participant’s resume for them."
+   }
+  },
+  "q4": {
+   "key": "Rehearsing helps, but some applicants need more practice.",
+   "d": [
+    "All participants are now ready for any interview.",
+    "Sample resumes were more useful than practice answers.",
+    "The advisers will stop the workshop because many participants already described their experience clearly."
+   ],
+   "exp": "ผู้เข้าร่วมหลายคนอธิบายได้ชัดขึ้น แต่บางคนยังต้องการประสบการณ์สัมภาษณ์มากขึ้น จึงจะจัดสัมภาษณ์จำลองต่อ ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R58": {
+  "q0": {
+   "key": "How a film night helped neighbors meet new people",
+   "d": [
+    "Why the group bought a new projector",
+    "How to choose films for a community event",
+    "Why large rooms are always the best places for watching films"
+   ],
+   "exp": "ผู้จัดจัดฉายภาพยนตร์ฟรีและให้คุยเป็นกลุ่มผสม ทำให้เพื่อนบ้านได้รู้จักกัน แต่เสียงในห้องใหญ่ไม่สม่ำเสมอ ตัวเลือกอื่นขัดกับบทอ่าน (ยืมเครื่องฉาย และห้องใหญ่มีปัญหาเสียง)"
+  },
+  "q1": {
+   "prompt": "How did the organizers keep costs low?",
+   "key": "They borrowed a projector and used a public room.",
+   "d": [
+    "They charged a small entry fee.",
+    "They showed the film outdoors.",
+    "They asked each guest to bring a chair."
+   ],
+   "exp": "บทอ่านบอกว่า “They borrowed a projector and used a public room to keep costs low.” งานจัดฟรี และตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "key": "To see if the event connected neighbors and find sound problems.",
+   "dmap": {
+    "To raise extra funds to expand the community film night to neighboring towns.": "To choose which film to show at the next event.",
+    "To replace the community film night before reviewing any participant feedback.": "To decide whether to charge for tickets next time.",
+    "To prove the community film night had already solved every participant’s problem.": "To find a larger room for the next screening."
+   }
+  },
+  "q4": {
+   "key": "Shared events can connect neighbors, but sound affects who can take part.",
+   "d": [
+    "The discussion groups were less popular than the film.",
+    "Everyone could hear the film clearly in the large room.",
+    "The organizers will hold the next event without testing the equipment because the first one went well."
+   ],
+   "exp": "ผู้คนได้คุยกับเพื่อนบ้านใหม่ แต่บางคนได้ยินฉากเงียบไม่ชัด ผู้จัดจึงจะทดสอบอุปกรณ์และการจัดห้องก่อนครั้งต่อไป ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R59": {
+  "q0": {
+   "key": "How measuring standby power helped families save energy",
+   "d": [
+    "Why all appliances should be unplugged at night",
+    "How families chose new energy-saving devices",
+    "Why every home saves exactly the same amount of electricity"
+   ],
+   "exp": "อาสาสมัครสาธิตไฟสแตนด์บายด้วยมิเตอร์และให้ครอบครัวเปรียบเทียบค่าหนึ่งเดือน พบว่าการประหยัดต่างกันตามบ้าน ตัวเลือกอื่นไม่มีในบทอ่านหรือขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "What did the plug meters show?",
+   "key": "The difference between switching devices off and leaving them on",
+   "d": [
+    "The cost of buying new appliances",
+    "Which homes used the most water",
+    "How long each device had been used"
+   ],
+   "exp": "บทอ่านบอกว่า “plug meters allowed volunteers to show the difference between switching a device off and leaving it on.” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "key": "To find which changes worked for different homes.",
+   "dmap": {
+    "To raise extra funds to expand the home energy checklist to neighboring towns.": "To decide which families should receive new appliances.",
+    "To replace the home energy checklist before reviewing any participant feedback.": "To prove that standby power is not important.",
+    "To prove the home energy checklist had already solved every participant’s problem.": "To calculate the total electricity used by the town."
+   }
+  },
+  "q4": {
+   "key": "Energy advice should come from measured use, not one rule for every home.",
+   "d": [
+    "Leaving devices on standby uses no electricity.",
+    "All households saved the same amount of energy.",
+    "The volunteers will keep the checklist unchanged because it already worked well in every home."
+   ],
+   "exp": "การประหยัดต่างกันตามอุปกรณ์และกิจวัตร อาสาสมัครจึงจะปรับรายการตรวจตามผลที่วัดได้ ตัวเลือกอื่นขัดกับบทอ่าน"
+  }
+ },
+ "R60": {
+  "q0": {
+   "key": "How a survey revealed why some families drove short distances",
+   "d": [
+    "Why the school built new pedestrian crossings",
+    "How students cycled to school safely",
+    "Why every family prefers driving to walking"
+   ],
+   "exp": "นักวิจัยนักเรียนสำรวจผู้ปกครองและพบว่าบางครอบครัวกังวลเรื่องการจราจรและทางข้ามที่ไม่ปลอดภัย ตัวเลือกอื่นไม่มีในบทอ่านหรือขัดกับบทอ่าน"
+  },
+  "q1": {
+   "prompt": "How did the researchers avoid collecting unnecessary personal details?",
+   "key": "They used anonymous forms and a simple route map.",
+   "d": [
+    "They only asked teachers for information.",
+    "They interviewed families by phone.",
+    "They used school attendance records."
+   ],
+   "exp": "บทอ่านบอกว่า “Anonymous forms and a simple route map helped them collect responses without asking for unnecessary personal details.” ตัวเลือกอื่นไม่มีในบทอ่าน"
+  },
+  "q2": {
+   "key": "To see if a shorter survey could get more families to reply.",
+   "dmap": {
+    "To raise extra funds to expand the school transport survey to neighboring towns.": "To find out which families live closest to the school gates.",
+    "To prove the school transport survey had already solved every participant’s problem.": "To ask families to stop driving to school.",
+    "To replace the school transport survey before reviewing any participant feedback.": "To choose a new location for the school crossing."
+   }
+  },
+  "q4": {
+   "key": "The findings may not represent every family because some did not reply.",
+   "d": [
+    "All families walk or cycle when journeys are short.",
+    "Traffic was not a concern for any of the families.",
+    "The survey has proven exactly which routes are unsafe for every student at the school."
+   ],
+   "exp": "ไม่ใช่ทุกครอบครัวที่ส่งแบบสำรวจคืน ผลจึงอาจไม่ครอบคลุมทุกครอบครัว และนักเรียนจะทำซ้ำ ตัวเลือกอื่นขัดกับบทอ่านหรือเกินกว่าหลักฐาน"
+  }
+ }
+}

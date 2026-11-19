@@ -1,0 +1,342 @@
+[
+ {
+  "set": 1,
+  "passage": "A",
+  "genre": "news",
+  "topic": "A late-night bus route",
+  "context": "City transport officials have (1) ____ a late-night bus route along the river road, where shift workers previously struggled to get home. The idea (2) ____ from a petition signed by two thousand residents. Buses now run hourly (3) ____ midnight and four in the morning, and fares stay the same as daytime services. The council promised (4) ____ passenger numbers for six months before making a final decision. Riders must (5) ____ their tickets at the machine before boarding because there is no conductor on night services. Only time will tell (6) ____ the route becomes permanent. (7) ____ the first weekend alone, more than six hundred people rode the new buses.",
+  "tip": "ข่าวชิ้นนี้สลับเรื่องที่เกิดแล้วกับแผนในอนาคต คำบอกเวลาและโครงสร้าง around each ช่องเป็นเบาะแสสำคัญ ส่วนช่องศัพท์ให้ดูคำที่ครองคู่กัน เช่น arise from, validate a ticket",
+  "items": [
+   {
+    "type": "tense",
+    "key": "launched",
+    "d": [
+     "launch",
+     "launching",
+     "launches"
+    ],
+    "exp": "ช่อง (1) ตามหลัง have ใน present perfect (have + V3) จึงต้องใช้ launched ส่วน launch, launching, launches เป็นรูปกริยาที่ใช้หลัง have ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "arose",
+    "d": [
+     "argued",
+     "arranged",
+     "admitted"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ arose เพราะ arise from เป็น collocation แปลว่า เกิดจาก (ความคิดเกิดจากคำร้องเรียน) ส่วน argued, arranged, admitted ไม่ใช้คู่กับ from ในความหมายนี้"
+   },
+   {
+    "type": "conn",
+    "key": "between",
+    "d": [
+     "among",
+     "during",
+     "throughout"
+    ],
+    "exp": "ช่อง (3) อยู่ระหว่างจุดเวลาสองจุด (midnight and four in the morning) จึงต้องใช้ between...and ส่วน among ใช้กับตั้งแต่สามสิ่งขึ้นไป และ during, throughout ไม่จับคู่กับ and แบบนี้"
+   },
+   {
+    "type": "verb",
+    "key": "to review",
+    "d": [
+     "review",
+     "reviewing",
+     "to be reviewed"
+    ],
+    "exp": "ช่อง (4) หลัง promised ต้องใช้ to-infinitive แบบ active เพราะสภาเป็นผู้ทบทวนตัวเลขเอง (promised to review passenger numbers) ส่วน review, reviewing ใช้ตามหลัง promise โดยตรงไม่ได้ และ to be reviewed เป็น passive ซึ่งจะแปลว่าสภาถูกทบทวน แถมมีกรรม passenger numbers ตามหลังไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "validate",
+    "d": [
+     "violate",
+     "vacate",
+     "veto"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ validate their tickets เพราะ validate a ticket เป็น collocation แปลว่า ตรวจ/ทำให้ตั๋วใช้งานได้ที่เครื่อง ส่วน violate (ละเมิด), vacate (ย้ายออก), veto (ยับยั้ง) ใช้กับตั๋วไม่ได้"
+   },
+   {
+    "type": "clause",
+    "key": "whether",
+    "d": [
+     "what",
+     "which",
+     "whichever"
+    ],
+    "exp": "ช่อง (6) ต้องการ noun clause แสดงทางเลือกว่าจะเป็นจริงหรือไม่ (Only time will tell whether...) ส่วน what, which, whichever ทำให้ความหมายและโครงสร้างผิด"
+   },
+   {
+    "type": "vocab",
+    "key": "Over",
+    "d": [
+     "Above",
+     "Against",
+     "Beyond"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ Over the first weekend ซึ่งหมายถึง ตลอดช่วงสุดสัปดาห์แรก ส่วน Above (สูงกว่า), Against (ต่อต้าน), Beyond (พ้นไป) ไม่ใช้กับช่วงเวลาในลักษณะนี้"
+   }
+  ]
+ },
+ {
+  "set": 1,
+  "passage": "B",
+  "genre": "notice",
+  "topic": "Riverside night market notice",
+  "context": "Notice to visitors — Riverside Night Market, open Fridays 18:00–23:00 at the east pier. Not only (1) ____ entry free, but the first fifty guests each week also receive a discount voucher. Stalls (2) ____ a wide range of handmade crafts, street food and second-hand books. Please (3) ____ your own bags, because vendors no longer give out plastic ones. The committee (4) ____ the market three years ago to support local makers after the floods. Few visitors (5) ____ that the market began as a fundraiser; most simply come for the food. Park in the school lot, (6) ____ is free after seven in the evening. (7) ____ to the notice board beside the gate, tickets for the cooking shows must be booked online. Anyone who wants to (8) ____ a stall for next season must apply through the website before the end of the month.",
+  "tip": "ประกาศนี้มีทั้งโครงสร้าง inversion (Not only...) และคำคู่คงที่ เช่น a wide range of, according to, reserve a stall ให้ตรวจทั้งไวยากรณ์รอบช่องและความหมายของวลี",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "is",
+    "d": [
+     "does",
+     "did",
+     "has"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Not only ต้องสลับกริยาช่วยมาไว้หน้าประธาน: Not only is entry free (กริยา is มาก่อนประธาน) ส่วน does, did, has ใช้กับ entry free ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "offer",
+    "d": [
+     "afford",
+     "refer",
+     "prefer"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ offer a wide range of (มีให้บริการหลากหลาย) ซึ่งเป็น collocation ส่วน afford (มีเงินพอซื้อ), refer (อ้างอิง), prefer (ชอบกว่า) ไม่เข้ากับ a wide range of ในความหมายนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "bring",
+    "d": [
+     "take",
+     "fetch",
+     "lift"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ bring your own bags เพราะ bring = พามาด้วยสู่สถานที่ที่ผู้พูดอยู่ ส่วน take = พาออกไปที่อื่น, fetch = ไปเอามา, lift = ยก ไม่ตรงความหมายของประกาศ"
+   },
+   {
+    "type": "tense",
+    "key": "established",
+    "d": [
+     "establish",
+     "establishing",
+     "establishes"
+    ],
+    "exp": "ช่อง (4) มีคำบอกเวลา three years ago จึงต้องใช้ past simple established ส่วนรูปอื่นขัดกับคำบอกอดีต"
+   },
+   {
+    "type": "vocab",
+    "key": "realise",
+    "d": [
+     "rise",
+     "raise",
+     "arise"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ realise (ตระหนัก/รู้ว่า) ตามด้วย that-clause ส่วน rise (สูงขึ้น), raise (ยก/เพิ่ม something), arise (เกิดขึ้น) เป็นคำคนละความหมายที่มักสับสนกัน"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "what",
+     "whereas"
+    ],
+    "exp": "ช่อง (6) เป็น non-defining relative clause ขยาย the school lot จึงต้องใช้ which ส่วน it ทำให้เกิด comma splice (สองประโยคสมบูรณ์คั่นด้วยจุลภาค) และ what, whereas ใช้แทน which ไม่ได้"
+   },
+   {
+    "type": "conn",
+    "key": "According",
+    "d": [
+     "Regardless",
+     "Owing",
+     "Comparing"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ According to ซึ่งเป็นวลีคงที่ แปลว่า ตาม(ข้อมูลที่ระบุ) ส่วน Owing to แปลว่า เนื่องจาก ซึ่งทำให้ความหมายเพี้ยน Regardless ต้องใช้คู่กับ of ไม่ใช่ to และ Comparing to ไม่ใช่สำนวนบอกแหล่งข้อมูล"
+   },
+   {
+    "type": "vocab",
+    "key": "reserve",
+    "d": [
+     "conserve",
+     "observe",
+     "deserve"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ reserve a stall (จองล็อกขายของ) ส่วน conserve (อนุรักษ์), observe (สังเกต), deserve (สมควรได้) เป็นคำหน้าตาคล้ายกันแต่ความหมายคนละเรื่อง"
+   }
+  ]
+ },
+ {
+  "set": 2,
+  "passage": "A",
+  "genre": "news",
+  "topic": "Clock tower repairs",
+  "context": "The century-old clock tower in the old town will chime again next spring, (1) ____ months of careful repair work. A team of specialists spent the winter (2) ____ the mechanism piece by piece, because many gears had not been serviced since 1975. The original bronze hands were badly worn, so the city decided (3) ____ exact copies of them rather than install modern parts. Repairs had to (4) ____ place without closing the market below, which doubled the cost. A historian issued a (5) ____ of caution: the clock may still lose about a minute each month. Nobody knows exactly (6) ____ the first tower stood on the site; records mention a wooden structure as early as 1820. When the scaffolding comes down, visitors will be able to (7) ____ the staircase to the top and see the new mechanism.",
+  "tip": "ข่าวการบูรณะหอนี้มีโครงสร้างกริยาตามหลังคำหลัก (spent...V-ing, decided to...) และคำคู่คงที่ เช่น take place, a note of caution ให้ดูคำก่อนและหลังช่องเป็นหลัก",
+  "items": [
+   {
+    "type": "conn",
+    "key": "after",
+    "d": [
+     "during",
+     "since",
+     "for"
+    ],
+    "exp": "ช่อง (1) ต้องใช้ after เพราะหอจะกลับมาตีระฆัง หลัง จากซ่อมเสร็จหลายเดือน ส่วน during (ระหว่างที่ยังซ่อมอยู่) ขัดกับความหมาย, since ต้องใช้กับ perfect tense และ for months of work ทำให้ประโยคไม่สมบูรณ์"
+   },
+   {
+    "type": "verb",
+    "key": "cleaning",
+    "d": [
+     "to clean",
+     "being cleaned",
+     "clean"
+    ],
+    "exp": "ช่อง (2) หลัง spent + ช่วงเวลา ต้องใช้ V-ing แบบ active (spent the winter cleaning the mechanism) เพราะทีมเป็นผู้ทำความสะอาด ส่วน to clean, clean ใช้ในโครงสร้าง spend time + V-ing ไม่ได้ และ being cleaned เป็น passive ซึ่งตามด้วยกรรม the mechanism ไม่ได้"
+   },
+   {
+    "type": "verb",
+    "key": "to cast",
+    "d": [
+     "casting",
+     "cast",
+     "to be cast"
+    ],
+    "exp": "ช่อง (3) หลัง decided ต้องใช้ to-infinitive แบบ active (decided to cast exact copies) เพราะเมืองเป็นผู้หล่อ ส่วน casting, cast ใช้ตามหลัง decide โดยตรงไม่ได้ และ to be cast เป็น passive ซึ่งตามด้วยกรรม exact copies ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "take",
+    "d": [
+     "make",
+     "do",
+     "get"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ take place ซึ่งเป็น collocation คงที่ แปลว่า เกิดขึ้น ส่วน make, do, get place ไม่เป็นสำนวนในภาษาอังกฤษ"
+   },
+   {
+    "type": "vocab",
+    "key": "note",
+    "d": [
+     "notion",
+     "notice",
+     "novel"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ a note of caution ซึ่งเป็นวลีคงที่ แปลว่า คำเตือน ส่วน notion (มโนทัศน์), notice (ประกาศ), novel (นิยาย) ไม่เข้าคู่กับ of caution"
+   },
+   {
+    "type": "clause",
+    "key": "when",
+    "d": [
+     "what",
+     "which",
+     "whose"
+    ],
+    "exp": "ช่อง (6) ต้องการ noun clause บอกเวลา (Nobody knows exactly when the first tower stood) ส่วน what, which, whose ทำให้ clause ขาดหรือเกินส่วนประกอบ"
+   },
+   {
+    "type": "vocab",
+    "key": "climb",
+    "d": [
+     "claim",
+     "calm",
+     "camp"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ climb the staircase (ปีน/ขึ้นบันได) ส่วน claim (อ้าง), calm (ทำให้สงบ), camp (ตั้งแคมป์) เป็นคำที่สะกดคล้ายกันแต่ใช้กับบันไดไม่ได้"
+   }
+  ]
+ },
+ {
+  "set": 2,
+  "passage": "B",
+  "genre": "blog interview",
+  "topic": "A family bakery",
+  "context": "Every Saturday a queue forms outside Mali's bakery before the doors even open. Mali, who learned to bake from her grandmother, (1) ____ the same sourdough starter for twenty-two years. “It is alive,” she laughs. “You have to feed it flour and water every day, (2) ____?” Last year a food blogger posted about the shop, and suddenly customers (3) ____ from every part of the city. Mali refuses to open a second branch: “Bread should not (4) ____ in a hurry.” The most popular item, a chewy sesame roll, costs only twenty baht, (5) ____ surprises visitors who expect city prices. Critics agreed that it was the best roll they (6) ____ all year. Mali's daughter now runs the website, where customers can (7) ____ an order a day ahead. “People keep asking about the queues,” Mali says, “but nobody leaves (8) ____ — we always bake extra loaves.”",
+  "tip": "บทสัมภาษณ์นี้มีการพูดอ้างอิง (question tag อยู่ในคำพูด) และการลำดับเวลาในอดีตกาล (past perfect ก่อน past simple) ส่วนช่องศัพท์เป็น phrasal verb และคำคู่คงที่ เช่น turned up, place an order",
+  "items": [
+   {
+    "type": "tense",
+    "key": "has kept",
+    "d": [
+     "keeps",
+     "kept",
+     "is keeping"
+    ],
+    "exp": "ช่อง (1) มี for twenty-two years และเธอยังเก็บหัวเชื้ออยู่จนถึงปัจจุบัน จึงต้องใช้ present perfect has kept ส่วน keeps, kept, is keeping ไม่สื่อความต่อเนื่องจากอดีตถึงปัจจุบัน"
+   },
+   {
+    "type": "tag",
+    "key": "don't you",
+    "d": [
+     "do you",
+     "haven't you",
+     "won't you"
+    ],
+    "exp": "ช่อง (2) เป็น question tag ของ You have to feed it... ซึ่ง have to เป็นกริยาหลัก (ไม่ใช่กริยาช่วย have) จึงต้องใช้ tag ด้วย don't you ส่วน do you ใช้กับประโยคปฏิเสธไม่ได้ และ haven't you, won't you ไม่ตรงกับ have to"
+   },
+   {
+    "type": "vocab",
+    "key": "turned up",
+    "d": [
+     "turned down",
+     "turned in",
+     "turned off"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ turned up ซึ่งเป็น phrasal verb แปลว่า มาถึง/ปรากฏตัว ส่วน turned down (ปฏิเสธ), turned in (ส่งงาน), turned off (ปิดเครื่อง) ความหมายไม่เข้ากับลูกค้าที่เดินทางมาซื้อขนมปัง"
+   },
+   {
+    "type": "verb",
+    "key": "be made",
+    "d": [
+     "make",
+     "being made",
+     "been made"
+    ],
+    "exp": "ช่อง (4) หลัง should not ต้องใช้กริยารูปฐาน และเป็น passive เพราะขนมปังถูกทำ (Bread should not be made) ส่วน make เป็น active, being made ใช้หลัง modal ไม่ได้ และ been made ต้องมี have นำ"
+   },
+   {
+    "type": "clause",
+    "key": "which",
+    "d": [
+     "it",
+     "that",
+     "what"
+    ],
+    "exp": "ช่อง (5) เป็น non-defining relative clause ที่ which อ้างถึงทั้งข้อความก่อนหน้า (ราคาเพียงยี่สิบบาททำให้ผู้มาเยือนแปลกใจ) ส่วน it ทำให้เกิด comma splice และ that, what ใช้หลังจุลภาคในลักษณะนี้ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "had tasted",
+    "d": [
+     "have tasted",
+     "taste",
+     "would taste"
+    ],
+    "exp": "ช่อง (6) เล่าอดีตซ้อนอดีต: นักวิจารณ์ agreed (อดีต) ว่านี่คือโรลที่ดีที่สุดที่พวกเขา เคยชิม (เกิดก่อน agreed) จึงต้องใช้ past perfect had tasted ส่วน have tasted ผิดลำดับเวลาในประโยคอดีต"
+   },
+   {
+    "type": "vocab",
+    "key": "place",
+    "d": [
+     "put",
+     "lay",
+     "set"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ place an order ซึ่งเป็น collocation คงที่ แปลว่า สั่งซื้อ ส่วน put, lay, set ไม่เข้าคู่กับ an order"
+   },
+   {
+    "type": "vocab",
+    "key": "empty-handed",
+    "d": [
+     "hand in hand",
+     "behind schedule",
+     "in demand"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ empty-handed (มือเปล่า) เข้ากับ nobody leaves... เพราะร้านอบเผื่อเสมอ ส่วน hand in hand (จับมือกัน), behind schedule (ช้ากว่ากำหนด), in demand (เป็นที่ต้องการ) ไม่เข้ากับความหมายของประโยค"
+   }
+  ]
+ }
+]

@@ -1,0 +1,305 @@
+[
+ {
+  "first": "S16-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Which task is part of the job?",
+    "key": "Running a weekly reading time for children.",
+    "d": [
+     "Teaching computer classes to older visitors.",
+     "Buying new books for the library each month.",
+     "Checking applications from other volunteers."
+    ],
+    "exp": "ประกาศระบุหน้าที่หลักว่า “running a weekly reading hour for children aged six to nine” จึงตอบว่าจัดกิจกรรมอ่านหนังสือให้เด็กทุกสัปดาห์ ตัวเลือกสอนคอมพิวเตอร์ ซื้อหนังสือใหม่ และตรวจใบสมัคร ไม่ใช่หน้าที่ที่ระบุไว้"
+   },
+   {
+    "type": "detail",
+    "prompt": "What must applicants include with their letter?",
+    "key": "Details of someone who knows their work.",
+    "d": [
+     "A copy of their library card.",
+     "Proof that they have worked in a library before.",
+     "A list of the books they have recently borrowed."
+    ],
+    "exp": "ประกาศบอกให้ส่งจดหมายพร้อม “the name of one person who can describe your work or study” = ชื่อคนที่รู้จักผลงานของผู้สมัคร ตัวเลือกหลักฐานเคยทำงานห้องสมุดขัดกับ “helpful but not required” ส่วนบัตรห้องสมุดและรายชื่อหนังสือไม่ได้ขอ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Previous library experience is helpful but not required”?",
+    "key": "Newcomers to library work may still apply.",
+    "d": [
+     "Experienced applicants will be interviewed first.",
+     "Training is needed before anyone can apply.",
+     "The library prefers applicants who studied abroad."
+    ],
+    "exp": "ประโยคนี้หมายความว่าประสบการณ์ช่วยได้แต่ไม่จำเป็น คนที่ไม่เคยทำงานห้องสมุดจึงสมัครได้ ตัวเลือกสัมภาษณ์คนมีประสบการณ์ก่อนและเรียนต่างประเทศไม่มีในประกาศ ส่วนการฝึกอบรมจัดให้หลังได้งาน (“full training will be provided during the first month”) ไม่ใช่ก่อนสมัคร"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main purpose of the text?",
+    "key": "To invite people to apply for a job.",
+    "d": [
+     "To describe the history of the library.",
+     "To announce new opening hours on Saturdays.",
+     "To explain how to borrow fifteen items."
+    ],
+    "exp": "ข้อความเป็นประกาศรับสมัครงาน บอกหน้าที่ คุณสมบัติ ค่าตอบแทน และวิธีสมัคร จึงมีจุดประสงค์เพื่อเชิญชวนให้สมัครงาน ตัวเลือกประวัติห้องสมุดไม่มีในบท ส่วนวันเสาร์และการยืม fifteen items เป็นเพียงรายละเอียดของงาน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “duties” is closest in meaning to",
+    "key": "tasks the job involves.",
+    "d": [
+     "taxes paid on wages.",
+     "rules for library users.",
+     "hours the library is open."
+    ],
+    "exp": "“The main duties include helping visitors find books” = หน้าที่ของงานนี้ คำว่า duty แปลว่าภาษีได้ในบริบทอื่น แต่ในประกาศรับสมัครงานหมายถึงงานที่ต้องทำ ไม่ใช่กฎของผู้ใช้หรือเวลาเปิดห้องสมุด"
+   }
+  ],
+  "context": "Part-time library assistant wanted: Riverside Public Library is looking for a part-time assistant to work on Saturdays and two weekday evenings. The main duties include helping visitors find books, returning items to the shelves, and running a weekly reading hour for children aged six to nine. Applicants should be at least eighteen, enjoy working with people, and feel comfortable using a computer catalog. Previous library experience is helpful but not required, as full training will be provided during the first month. The position pays 120 baht per hour, and staff may borrow up to fifteen items at a time. To apply, send a short letter explaining why you would like the job, together with the name of one person who can describe your work or study. Applications close on 30 April, and interviews will take place the following week.",
+  "topic": "A part-time library job",
+  "genre": "advertisement"
+ },
+ {
+  "first": "S16-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did restaurant managers do with the kitchen staff?",
+    "key": "They prepared a guide and trained the servers.",
+    "d": [
+     "They changed the recipes on the menu.",
+     "They asked customers to list their own allergens.",
+     "They printed new menus each month."
+    ],
+    "exp": "บทความระบุว่าผู้จัดการ “worked with kitchen staff to prepare a clear ingredient guide and train servers to answer questions accurately” ตัวเลือกเปลี่ยนทุกสูตร/พิมพ์เมนูใหม่ทุกเดือน ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why did the guide need regular attention?",
+    "key": "Ingredients changed with missed deliveries.",
+    "d": [
+     "Servers forgot the training they received.",
+     "Customers refused to read the printed guide.",
+     "Recipes were checked against old menus."
+    ],
+    "exp": "ข้อความระบุว่า “it needed regular attention: ingredients sometimes changed when a delivery was unavailable” ผู้จัดการจึงจะตรวจคู่มือทุกครั้งที่สูตรหรือผู้ส่งของเปลี่ยน"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “accurately” is closest in meaning to",
+    "key": "correctly and without mistakes.",
+    "d": [
+     "politely and in a friendly manner.",
+     "briefly, using as few words as possible.",
+     "confidently, without checking the guide."
+    ],
+    "exp": "ผู้จัดการ “train servers to answer questions accurately” เพราะเรื่องสารก่อภูมิแพ้ต้องตอบให้ถูกต้อง และยังมีการ “Updated recipes were checked against printed menus” ตัวเลือกสุภาพ/สั้น/มั่นใจโดยไม่ดูคู่มือ ไม่ใช่ความหมายของ accurately"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the passage suggest about allergen information?",
+    "key": "It must be updated as menus change.",
+    "d": [
+     "It is best kept away from customers.",
+     "It never changes once a guide is printed.",
+     "It can only be given by kitchen staff."
+    ],
+    "exp": "การที่ผู้จัดการวางแผน “check the guide whenever a recipe or supplier changes” สะท้อนว่าข้อมูลสารก่อภูมิแพ้เปลี่ยนตามวัตถุดิบจึงต้องอัปเดตสม่ำเสมอ ตัวเลือกพิมพ์ครั้งเดียวจบจึงตรงข้ามกับข้อความ"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They worked with kitchen staff” refer to?",
+    "key": "The restaurant managers.",
+    "d": [
+     "The diners with allergies.",
+     "The servers in the restaurant.",
+     "The suppliers of the ingredients."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “Restaurant managers noticed that diners often had to ask several questions” ผู้ที่ทำงานร่วมกับพนักงานครัวจึงคือผู้จัดการร้าน ไม่ใช่ลูกค้าหรือบริกร"
+   }
+  ]
+ },
+ {
+  "first": "S16-Q056",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the volunteers install at the start of the project?",
+    "key": "Covered barrels with marked water levels.",
+    "d": [
+     "A pump to move stored water to the garden.",
+     "A filter to clean the rainwater.",
+     "A tank beside the maintenance room."
+    ],
+    "exp": "บทความระบุว่า “They began by installing covered barrels and marking the water levels so that use could be measured.” ตัวเลือกปั๊ม/เครื่องกรอง/ถังข้างห้อง ไม่มีในบทความ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the team record instead of assuming results?",
+    "key": "Amounts of rain and of use.",
+    "d": [
+     "The cost of the treated tap water.",
+     "The number of secure containers.",
+     "How often debris was cleared."
+    ],
+    "exp": "ข้อความระบุว่า “The volunteers recorded both rainfall and water use rather than assuming the system would work equally well in every season.” ตัวเลือกค่าน้ำประปา/จำนวนถัง/ความถี่การกำจัดเศษสิ่ง ไม่มีข้อมูล"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why will the volunteers keep a backup watering schedule?",
+    "key": "Because rainfall varied from week to week.",
+    "d": [
+     "Because the barrels were not secure.",
+     "Because the school garden needed treated water.",
+     "Because use could not be measured."
+    ],
+    "exp": "บทความระบุว่า “rainfall varied from week to week” และทีมจะเก็บตารางรดน้ำสำรองไว้ “for dry periods” = เผื่อช่วงฝนน้อย ตัวเลือกถังไม่มั่นคง/วัดการใช้ไม่ได้ ตรงข้ามกับสิ่งที่ทีมทำ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “debris” is closest in meaning to",
+    "key": "loose pieces of dirt and waste.",
+    "d": [
+     "rainwater from the roof.",
+     "insects that bite people.",
+     "plants growing around the garden beds."
+    ],
+    "exp": "อาสาสมัครดูแลให้ถังเก็บน้ำ “kept clear of debris” = ไม่มีเศษขยะ ใบไม้ หรือสิ่งสกปรกตกลงไป น้ำฝนคือสิ่งที่ตั้งใจเก็บจึงไม่ใช่ debris ส่วนแมลง/ต้นไม้ไม่ใช่ความหมายของคำ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the central point of the passage?",
+    "key": "A school garden that collects and measures rainwater.",
+    "d": [
+     "Why gardens should stop using tap water.",
+     "A plan to build barrels for the community.",
+     "How rainfall changes across the seasons."
+    ],
+    "exp": "แกนเรื่องคืออาสาสมัครติดตั้งถังเก็บน้ำฝนให้สวนโรงเรียน แล้ววัดทั้งปริมาณฝนและการใช้น้ำเพื่อดูผลและตัดสินใจขยายระบบ ตัวเลือกเลิกใช้น้ำประปาทั้งหมด/สร้างถังให้ชุมชน ไม่ใช่สาระที่บทความเสนอ"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q046",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What did the question box allow students to do?",
+    "key": "Raise concerns without speaking publicly.",
+    "d": [
+     "Choose the topics for each session.",
+     "Send the practice sheets to the peer mentors.",
+     "Ask the teacher for a review."
+    ],
+    "exp": "บทความระบุว่า “a question box so students could raise concerns without speaking in front of everyone” ตัวเลือกเลือกหัวข้อ/ส่งใบฝึกหัด/ขออนุญาตครู ไม่ใช่หน้าที่ของกล่องคำถาม"
+   },
+   {
+    "type": "detail",
+    "prompt": "What did the mentors find after several weeks?",
+    "key": "Some explanations needed a teacher’s review.",
+    "d": [
+     "Students stopped correcting their own mistakes.",
+     "The practice sheets were too difficult to use.",
+     "Fewer participants asked questions."
+    ],
+    "exp": "ข้อความระบุว่า “The mentors also found that complicated explanations sometimes needed a teacher’s review.” ส่วนผลก่อนหน้านั้นคือผู้เข้าร่วมถามมากขึ้นและแก้ผิดเองได้ จึงไม่ใช่คำถามน้อยลง"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “hesitated” is closest in meaning to",
+    "key": "felt unsure and waited.",
+    "d": [
+     "were not permitted by the teacher.",
+     "were too busy with other work.",
+     "were eager and quick."
+    ],
+    "exp": "“Some students hesitated to ask questions in a large class, even when they did not understand” = ลังเล ไม่กล้าถามทันที ตัวเลือกกระตือรือร้นมีความหมายตรงข้าม ส่วนครูไม่อนุญาต/ยุ่งกับงานอื่นไม่มีในบท"
+   },
+   {
+    "type": "true",
+    "prompt": "Which of these statements is TRUE?",
+    "key": "More learners started to speak up.",
+    "d": [
+     "Sessions were held during the large class.",
+     "Peer mentors gave formal lectures to the class.",
+     "The question box was removed later."
+    ],
+    "exp": "บทความระบุว่า “more participants began asking questions and correcting their own mistakes” ส่วนเซสชันเป็นกลุ่มย่อยแยกจากชั้นเรียนใหญ่ ผู้เรียนอธิบายกันเอง (ไม่ใช่เมนเตอร์อธิบายให้ทุกอย่าง) และกล่องคำถามจะถูกใช้ปรับเซสชันต่อไป"
+   },
+   {
+    "type": "inference",
+    "prompt": "What does the plan to invite a teacher suggest?",
+    "key": "Peer sessions cannot cover every topic.",
+    "d": [
+     "Mentors were not trusted by the students.",
+     "Students preferred teachers to the peer mentors.",
+     "The program would soon be cancelled."
+    ],
+    "exp": "การเชิญครูมา “check difficult topics” เพราะคำอธิบายที่ซับซ้อนบางเรื่องต้องการการตรวจจากผู้เชี่ยวชาญ = เซสชันเพื่อนช่วยเพื่อนครอบคลุมไม่ได้ทุกหัวข้อ ตัวเลือกนักเรียนไม่เชื่อใจเมนเตอร์/ชอบครูมากกว่า/โครงการจะถูกยกเลิก ไม่มีข้อมูลรองรับ"
+   }
+  ]
+ },
+ {
+  "first": "S17-Q051",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What materials did the volunteers use to plan the route?",
+    "key": "Photographs and records from the archive.",
+    "d": [
+     "Stories told by young residents.",
+     "Maps printed by the local museum.",
+     "Notes left by previous walkers."
+    ],
+    "exp": "บทความระบุว่า “Museum volunteers planned a short walking route using photographs and records from the local archive.” ตัวเลือกเรื่องที่เยาวชนเล่า/แผนที่พิมพ์/โน้ตผู้เดินคนก่อน ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "Why do the volunteers plan to add outdoor displays?",
+    "key": "Some buildings were closed to the public.",
+    "d": [
+     "Visitors could not read the old photographs.",
+     "The archive had too few records.",
+     "Weekend walks were cancelled by rain."
+    ],
+    "exp": "ข้อความระบุว่า “Some buildings were closed to the public, so the volunteers plan to add outdoor displays nearby.” ตัวเลือกอ่านรูปไม่ออก/บันทึกน้อย/ฝนยกเลิก ไม่มีข้อมูลในบทความ"
+   },
+   {
+    "type": "reference",
+    "prompt": "What does “They” in “They began by selecting several buildings” refer to?",
+    "key": "The museum volunteers.",
+    "d": [
+     "The young residents.",
+     "The walking participants.",
+     "The people in the archive."
+    ],
+    "exp": "ประโยคก่อนหน้าคือ “Museum volunteers planned a short walking route” ผู้ที่เริ่มเลือกอาคารและเตรียมเรื่องเล่าจึงคืออาสาสมัครพิพิธภัณฑ์ ไม่ใช่ผู้เข้าร่วมเดินหรือเยาวชนในพื้นที่"
+   },
+   {
+    "type": "purpose",
+    "prompt": "Why did participants compare old photos with today’s streets?",
+    "key": "To connect the buildings with local history.",
+    "d": [
+     "To check whether the local archive was accurate.",
+     "To find which buildings had changed most.",
+     "To decide which route was shortest."
+    ],
+    "exp": "ผลตอบรับคือ “visitors made stronger connections between the buildings and the area’s history” การเทียบภาพเก่ากับปัจจุบันจึงช่วยให้เห็นความเชื่อมโยงทางประวัติศาสตร์ ตัวเลือกตรวจความถูกต้องของหอจดหมายเหตุ/เลือกระยะทาง ไม่ใช่จุดประสงค์ที่ระบุ"
+   },
+   {
+    "type": "wic",
+    "prompt": "In the passage, the word “awareness” is closest in meaning to",
+    "key": "knowledge and understanding.",
+    "d": [
+     "number of tourists visiting.",
+     "money for repairing buildings.",
+     "interest in buying old photographs."
+    ],
+    "exp": "ตอนต้นบอกว่าคนหนุ่มสาว “knew little about the stories behind them” และตอนท้าย “The project has improved local awareness” = ความรู้ความเข้าใจเรื่องประวัติท้องถิ่นเพิ่มขึ้น ไม่ใช่จำนวนนักท่องเที่ยว เงินซ่อมแซม หรือการซื้อภาพ"
+   }
+  ]
+ }
+]

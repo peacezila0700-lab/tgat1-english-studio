@@ -1,0 +1,342 @@
+[
+ {
+  "set": 5,
+  "passage": "A",
+  "genre": "health leaflet",
+  "topic": "Sleep clinic leaflet",
+  "context": "This leaflet explains (1) ____ patients can improve their sleep without medication. Doctors at the clinic suggest (2) ____ a regular bedtime, even at weekends. Bright screens should (3) ____ switched off an hour before sleep, because blue light delays the body clock. Most patients (4) ____ to the new routine within two weeks. One patient kept a sleep diary for a month; her notes showed that caffeine after lunch (5) ____ her sleep far more than late exercise. The clinic's programme is now (6) ____ as a model by two other hospitals. (7) ____ joining the programme, patients fill in a short form about their daily habits.",
+  "tip": "แผ่นพับคลินิกนี้ทดสอบโครงสร้างตามหลังคำหลัก (suggest + V-ing, should + be + V3) และคำคู่คงที่ เช่น adjust to, regarded as",
+  "items": [
+   {
+    "type": "clause",
+    "key": "how",
+    "d": [
+     "what",
+     "which",
+     "whose"
+    ],
+    "exp": "ช่อง (1) ต้องการ noun clause บอกวิธี (explains how patients can improve their sleep) ส่วน what, which, whose ทำหน้าที่เป็นประธาน/กรรมซึ่งประโยคมีครบแล้ว จึงผิดโครงสร้าง"
+   },
+   {
+    "type": "verb",
+    "key": "keeping",
+    "d": [
+     "keep",
+     "to keep",
+     "being kept"
+    ],
+    "exp": "ช่อง (2) หลัง suggest ในความหมายแนะนำการทำอะไร ต้องใช้ gerund แบบ active (suggest keeping a regular bedtime) ส่วน keep, to keep ใช้ตามหลัง suggest โดยตรงไม่ได้ และ being kept เป็น passive ซึ่งตามด้วยกรรม a regular bedtime ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "be",
+    "d": [
+     "being",
+     "been",
+     "to be"
+    ],
+    "exp": "ช่อง (3) เป็น passive หลังกริยาช่วย should ซึ่งต้องตามด้วยกริยารูปฐาน: should be switched off ส่วน being ใช้หลัง should ไม่ได้, been ต้องมี have/be นำ และ to be เกินมา"
+   },
+   {
+    "type": "vocab",
+    "key": "adjust",
+    "d": [
+     "adopt",
+     "admit",
+     "adore"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ adjust to ซึ่งเป็น collocation แปลว่า ปรับตัวเข้ากับ ส่วน adopt (รับมาใช้) ไม่ใช้กับ to ในความหมายนี้, admit (ยอมรับสารภาพ) และ adore (หลงรัก) ไม่เข้ากับความหมายการปรับตัว"
+   },
+   {
+    "type": "vocab",
+    "key": "disturbed",
+    "d": [
+     "distributed",
+     "discovered",
+     "disguised"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ disturbed her sleep (รบกวนการนอน) ตามผลที่บันทึกในสมุด ส่วน distributed (แจกจ่าย), discovered (ค้นพบ), disguised (ปลอมแปลง) เป็นคำหน้าตาคล้ายแต่ใช้กับ sleep ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "regarded",
+    "d": [
+     "rewarded",
+     "recorded",
+     "reserved"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ regarded as ซึ่งเป็นสำนวน แปลว่า ถูกมองว่าเป็น (ต้นแบบ) ส่วน rewarded (ให้รางวัล), recorded (บันทึก), reserved (จอง/สงวน) ไม่เข้าคู่กับ as a model"
+   },
+   {
+    "type": "conn",
+    "key": "Before",
+    "d": [
+     "Although",
+     "Whereas",
+     "Unless"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ Before joining (ก่อนเข้าร่วม) เพราะกริยาเติม -ing ได้หลังคำเชื่อมนี้ ส่วน Although, Whereas ต้องตามด้วยประโยคสมบูรณ์ที่มีประธานและกริยาแท้ และ Unless joining ไม่เข้ากับลำดับขั้นตอน"
+   }
+  ]
+ },
+ {
+  "set": 5,
+  "passage": "B",
+  "genre": "safety notice",
+  "topic": "Charger recall notice",
+  "context": "Safety notice: Voltix laptop chargers, model VX-220. Under no circumstances (1) ____ you continue using a VX-220 charger if its cable feels warm. The company announced a recall last week after customers (2) ____ three chargers overheating. Owners should (3) ____ the serial number on the charger's base; affected units were made between March and June. Voltix will replace every returned charger free of (4) ____, even without a receipt. The fault affects only the VX-220; all other models remain on (5) ____. Customers who bought the charger online will (6) ____ an email with return instructions within five days. Never (7) ____ a recalled charger unattended overnight, the company warns. So far, no injuries (8) ____ reported in Thailand.",
+  "tip": "ประกาศเรียกคืนสินค้ามี inversion หลัง Under no circumstances และ passive หลายจุด (were made, have been reported) ส่วนช่องศัพท์เป็นคำคู่คงที่ เช่น free of charge, on sale",
+  "items": [
+   {
+    "type": "inversion",
+    "key": "should",
+    "d": [
+     "to",
+     "that",
+     "for"
+    ],
+    "exp": "ช่อง (1) เมื่อขึ้นต้นด้วย Under no circumstances ต้องสลับกริยาช่วยมาหน้าประธาน (should you continue) ส่วน to, that, for ไม่ใช่กริยาช่วยจึงใช้ทำ inversion ไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "reported",
+    "d": [
+     "report",
+     "reporting",
+     "reports"
+    ],
+    "exp": "ช่อง (2) เล่าเหตุการณ์สัปดาห์ที่แล้วต่อจาก announced จึงต้องใช้ past simple reported ส่วน report, reports เป็นปัจจุบัน และ reporting ไม่ใช่กริยาแท้ของประโยค"
+   },
+   {
+    "type": "vocab",
+    "key": "check",
+    "d": [
+     "claim",
+     "change",
+     "chase"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ check the serial number (ตรวจดูหมายเลขซีเรียล) ตามคำแนะนำของประกาศ ส่วน claim (อ้างสิทธิ์), change (เปลี่ยน), chase (ไล่ตาม) ไม่เข้ากับบริบทการตรวจสอบสินค้า"
+   },
+   {
+    "type": "vocab",
+    "key": "charge",
+    "d": [
+     "price",
+     "tax",
+     "fine"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ free of charge ซึ่งเป็นวลีคงที่ แปลว่า โดยไม่คิดค่าใช้จ่าย ส่วน free of price, free of tax, free of fine ไม่เป็นสำนวนนี้"
+   },
+   {
+    "type": "vocab",
+    "key": "sale",
+    "d": [
+     "stock",
+     "shelf",
+     "trade"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ remain on sale (ยังวางขายตามปกติ) ซึ่งเป็น collocation ส่วน on stock ต้องใช้ in stock, on shelf ต้องใช้ on shelves และ on trade ไม่เป็นสำนวน"
+   },
+   {
+    "type": "verb",
+    "key": "receive",
+    "d": [
+     "received",
+     "receiving",
+     "to receive"
+    ],
+    "exp": "ช่อง (6) หลัง will ต้องใช้กริยารูปฐาน receive ส่วน received เป็นอดีต, receiving ต้องมี be นำ และ to receive ใช้หลัง will ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "leave",
+    "d": [
+     "live",
+     "lend",
+     "lean"
+    ],
+    "exp": "ช่อง (7) ต้องใช้ leave a charger unattended (ทิ้งที่ชาร์จไว้โดยไม่มีคนดู) ซึ่งเป็น collocation ส่วน live (อาศัย), lend (ให้ยืม), lean (พิง) เป็นคำหน้าตาคล้ายแต่ความหมายไม่เข้า"
+   },
+   {
+    "type": "tense",
+    "key": "have been",
+    "d": [
+     "were",
+     "are being",
+     "would have been"
+    ],
+    "exp": "ช่อง (8) มี So far (จนถึงขณะนี้) จึงต้องใช้ present perfect passive: no injuries have been reported ส่วน were เป็นอดีตที่จบแล้ว, are being สื่อว่ากำลังเกิดขึ้นตอนนี้ และ would have been ใช้กับเหตุการณ์สมมติ ไม่ใช่การรายงานข้อเท็จจริงจนถึงปัจจุบัน"
+   }
+  ]
+ },
+ {
+  "set": 6,
+  "passage": "A",
+  "genre": "app review",
+  "topic": "Weather app review",
+  "context": "Review: SkyWatch, the free weather app. I (1) ____ SkyWatch for three months, and it has changed how I plan my weekends. The hourly rain radar is the feature I love most, because it shows storms moving in (2) ____ time. Setup took two minutes: the app asked (3) ____ I wanted rain notifications, and added a widget to my home screen. Unlike the paid apps I have tried, SkyWatch does not (4) ____ users with advertisements between forecasts. One small problem: the wind speeds sometimes (5) ____ from the official figures. SkyWatch has no hidden (6) ____, which is rare among free apps. If you cycle or run outdoors, the app is worth (7) ____ a try.",
+  "tip": "รีวิวแอปนี้ทดสอบ present perfect กับ for + ช่วงเวลา คำคู่คงที่ (in real time, differ from, hidden charges) และ gerund หลัง worth",
+  "items": [
+   {
+    "type": "tense",
+    "key": "have used",
+    "d": [
+     "used",
+     "am going to use",
+     "am using"
+    ],
+    "exp": "ช่อง (1) มี for three months และผลยังอยู่ถึงปัจจุบัน (it has changed...) จึงต้องใช้ present perfect have used ส่วน used เป็นอดีตที่จบแล้ว, am using เป็นเหตุการณ์ชั่วคราว และ am going to use เป็นอนาคต ขัดกับการใช้งานที่ผ่านมาแล้วสามเดือน"
+   },
+   {
+    "type": "vocab",
+    "key": "real",
+    "d": [
+     "true",
+     "actual",
+     "present"
+    ],
+    "exp": "ช่อง (2) ต้องใช้ in real time ซึ่งเป็นวลีคงที่ แปลว่า แบบเรียลไทม์/ทันทีที่เกิด ส่วน in true time, in actual time, in present time ไม่เป็นสำนวนในภาษาอังกฤษ"
+   },
+   {
+    "type": "clause",
+    "key": "whether",
+    "d": [
+     "what",
+     "which",
+     "whichever"
+    ],
+    "exp": "ช่อง (3) หลัง asked ต้องการ noun clause แบบใช่/ไม่ใช่ (asked whether I wanted notifications) ส่วน what, which, whichever ทำให้ clause เกินหรือขาดส่วนประกอบ"
+   },
+   {
+    "type": "verb",
+    "key": "bombard",
+    "d": [
+     "bombarding",
+     "bombarded",
+     "to bombard"
+    ],
+    "exp": "ช่อง (4) หลัง does not ต้องใช้กริยารูปฐาน bombard ส่วน bombarding ต้องมี be นำ, bombarded เป็นอดีต และ to bombard ใช้หลัง does not ไม่ได้"
+   },
+   {
+    "type": "vocab",
+    "key": "differ",
+    "d": [
+     "defer",
+     "offer",
+     "suffer"
+    ],
+    "exp": "ช่อง (5) ต้องใช้ differ from ซึ่งเป็น collocation แปลว่า แตกต่างจาก ส่วน defer (เลื่อน), offer (เสนอ), suffer (ทนทุกข์) เป็นคำที่ออกเสียง/สะกดคล้ายกันแต่คนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "charges",
+    "d": [
+     "challenges",
+     "changes",
+     "chances"
+    ],
+    "exp": "ช่อง (6) ต้องใช้ hidden charges (ค่าใช้จ่ายแฝง) ตรงกับบริบทแอปฟรี ส่วน challenges (ความท้าทาย), changes (การเปลี่ยนแปลง), chances (โอกาส) เป็นคำหน้าตาคล้ายแต่ไม่เข้ากับ hidden ในความหมายนี้"
+   },
+   {
+    "type": "verb",
+    "key": "giving",
+    "d": [
+     "give",
+     "to give",
+     "gave"
+    ],
+    "exp": "ช่อง (7) หลัง worth ต้องใช้ gerund (worth giving a try) ส่วน give, to give, gave ใช้ตามหลัง worth ไม่ได้"
+   }
+  ]
+ },
+ {
+  "set": 6,
+  "passage": "B",
+  "genre": "podcast transcript",
+  "topic": "Balcony gardening podcast",
+  "context": "Podcast transcript — Balcony Gardening, episode 12. Host: Our guest today runs a seed library from her balcony. Welcome! You started with just one tomato plant, (1) ____? Guest: Yes, and now I grow forty species. Host: Listeners keep asking (2) ____ small a balcony can be and still support a garden. Guest: Almost any balcony works. You don't need expensive (3) ____, either. Host: Another listener (4) ____ the same thing last week. Guest: Then she is right. Plants (5) ____ at least four hours of direct sun. Host: What about water? Guest: Water deeply but not often. Last summer I (6) ____ every day, and my herbs died. Host: Any final tips? Guest: Keep a notebook. (7) ____ down what works helps you remember it. The seed library (8) ____ its doors every Sunday morning at the market — come and see us.",
+  "tip": "บทสัมภาษณ์นี้มี question tag ในคำถามเปิด และทดสอบ say/tell, กริยาพ้องรูปกับประธานพหูพจน์ และ gerund ทำหน้าที่ประธาน",
+  "items": [
+   {
+    "type": "tag",
+    "key": "didn't you",
+    "d": [
+     "wouldn't you",
+     "don't you",
+     "hadn't you"
+    ],
+    "exp": "ช่อง (1) เป็น question tag ของ You started... ซึ่งเป็น past simple บอกเล่า tag จึงต้องเป็น didn't you ส่วน don't you, hadn't you ไม่ตรงกับกริยา started และ wouldn't you ใช้กับประโยคที่มี would ไม่ใช่ past simple"
+   },
+   {
+    "type": "clause",
+    "key": "how",
+    "d": [
+     "what",
+     "why",
+     "whose"
+    ],
+    "exp": "ช่อง (2) ต้องการ noun clause บอกระดับ (asking how small a balcony can be) ส่วน what, why, whose ไม่เข้าโครงสร้าง how + คำคุณศัพท์ + ประธาน + กริยา"
+   },
+   {
+    "type": "vocab",
+    "key": "equipment",
+    "d": [
+     "environment",
+     "entertainment",
+     "encouragement"
+    ],
+    "exp": "ช่อง (3) ต้องใช้ expensive equipment (อุปกรณ์แพง ๆ) ตรงกับเรื่องการปลูกต้นไม้บนระเบียง ส่วน environment (สิ่งแวดล้อม), entertainment (ความบันเทิง), encouragement (กำลังใจ) เป็นคำนามคนละความหมาย"
+   },
+   {
+    "type": "vocab",
+    "key": "said",
+    "d": [
+     "told",
+     "spoke",
+     "talked"
+    ],
+    "exp": "ช่อง (4) ต้องใช้ said เพราะ say + สิ่งที่พูด ได้โดยตรง ส่วน told ต้องมีกรรมบุคคล (told us), spoke และ talked ต้องใช้กับ about/to ไม่รับข้อความตรง ๆ แบบนี้"
+   },
+   {
+    "type": "verb",
+    "key": "need",
+    "d": [
+     "needs",
+     "needing",
+     "to need"
+    ],
+    "exp": "ช่อง (5) ประธาน Plants เป็นพหูพจน์ กริยาในปัจจุบันจึงใช้รูป need ไม่เติม s ส่วน needs เป็นเอกพจน์, needing ไม่ใช่กริยาแท้ และ to need ใช้เป็นกริยาหลักไม่ได้"
+   },
+   {
+    "type": "tense",
+    "key": "watered",
+    "d": [
+     "have watered",
+     "water",
+     "am watering"
+    ],
+    "exp": "ช่อง (6) มีคำบอกเวลา Last summer และผลตามมาคือ my herbs died (อดีต) จึงต้องใช้ past simple watered ส่วน have watered เชื่อมถึงปัจจุบันซึ่งขัดกับบริบท และรูปอื่นไม่ใช่อดีต"
+   },
+   {
+    "type": "verb",
+    "key": "Writing",
+    "d": [
+     "Write",
+     "Wrote",
+     "Writes"
+    ],
+    "exp": "ช่อง (7) ต้องการ gerund ทำหน้าที่ประธานของประโยค (Writing down what works helps you remember it) ส่วน Write, Wrote, Writes เป็นกริยาแท้ซึ่งทำให้ประโยคมีกริยาสองตัวซ้อนกันผิดโครงสร้าง"
+   },
+   {
+    "type": "vocab",
+    "key": "opens",
+    "d": [
+     "opts",
+     "owns",
+     "owes"
+    ],
+    "exp": "ช่อง (8) ต้องใช้ opens its doors (เปิดให้บริการ) ซึ่งเป็นสำนวนเข้ากับห้องสมุดเมล็ดพันธุ์ที่ตลาด ส่วน opts (เลือก), owns (เป็นเจ้าของ), owes (เป็นหนี้) เป็นคำสะกดคล้ายแต่คนละความหมาย"
+   }
+  ]
+ }
+]
