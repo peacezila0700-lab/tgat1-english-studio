@@ -37,3 +37,30 @@
 
 ## Next
 - C4 (new reading genres) → S4 → 7 `check_quotes.py` misses.
+
+## C4 COMPLETE (2026-11-19)
+
+**RC: 30/30 passages rewritten in new genres** (news/announcement/ad/email/knowledge article/job ad/schedule/review)
+- Batches a-e committed: `3d4b3fb` → `ac12e2b`
+- Overlap gate fix: reworded answer keys to synonyms not in context → 105/300 = 0.350 (gate ≤0.35)
+- Batch b reconstructed (S06-S10: email/ad/news/knowledge article/announcement) — never committed originally
+- Cross-passage word-overlap ≤0.25: **0 violations**
+- Genres covered: 7 (≥5 required)
+- RC word counts: 106–158 (gate 100–200)
+
+**TC: 20/20 new-genre passages added** (news/announcement/ad/email/article/review/schedule)
+- Specs: `content/tc_v43_k.json` (10 A-passages) + `content/tc_v43_l.json` (10 B-passages)
+- Applier updated: `seen` override pattern, glob `[a-l]`, assert `_loaded==60`
+- Commit: `c733594`
+
+**Regression: 59/59 PASSED** — all gates clean
+**check_quotes.py: 0 not found** (7 misses RESOLVED)
+
+## S4 COMPLETE (2026-11-19)
+
+`qa/RESEARCH-S4.md` — 38 high-frequency idioms for TGAT1/CTEST/CUET/CDS with Thai meanings and source links. Commit `827d9f0`.
+
+## All work order items COMPLETE
+
+T1–T5, A3, A4 (triaged), A5, C4, S4, check_quotes.py misses — all done and committed.
+HEAD: `827d9f0`
