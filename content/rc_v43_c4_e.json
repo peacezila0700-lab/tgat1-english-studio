@@ -1,0 +1,312 @@
+[
+ {
+  "first": "S01-Q051",
+  "topic": "News report: city launches a repair-and-reuse fair",
+  "context": "The city will host its first repair-and-reuse fair next month, bringing together local repair workers, crafters, and residents who want to give old items a second life. The fair will feature stalls where visitors can have small appliances, clothing, and bicycles repaired on the spot for a small fee, as well as demonstrations of how to mend, paint, and upcycle household goods. Organizer Aree Saetang said the event grew out of a community survey in which residents said they threw away items that could easily be fixed. The fair will also include a swap table where people can exchange goods they no longer need. Organizers expect the event to reduce waste, support local repair skills, and help residents save money. The fair will take place at the central park on a Saturday from ten in the morning to five in the afternoon, with free entry.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What can visitors have repaired at the fair?",
+    "key": "Small appliances, clothing, and bicycles.",
+    "d": [
+     "Cars and motorcycles.",
+     "Electronics of any size.",
+     "Building materials."
+    ],
+    "exp": "ข่าวระบุว่าผู้เยี่ยมชมสามารถ “have small appliances, clothing, and bicycles repaired on the spot” จึงตอบเครื่องใช้เล็ก เสื้อผ้า จักรยาน ตัวเลือกเฟอร์นิเจอร์ใหญ่/รถยนต์/อิเล็กทรอนิกส์ทุกขนาด/วัสดุก่อสร้าง ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What was the community survey result that led to the fair?",
+    "key": "Residents threw away items that could be fixed.",
+    "d": [
+     "Residents asked for lower taxes.",
+     "Residents complained about traffic.",
+     "Residents requested more parks."
+    ],
+    "exp": "ข่าวระบุว่างานเกิดจากการสำรวจ “in which residents said they threw away items that could easily be fixed” จึงตอบผู้คนทิ้งของที่ซ่อมได้ ตัวเลือกห้างสรรพสินค้า/ลดภาษี/ปัญหาจราจร/สวนสาธารณะ ไม่มีข้อมูล"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “the event” refer to?",
+    "key": "The repair-and-reuse fair.",
+    "d": [
+     "The swap table.",
+     "The repair demonstrations.",
+     "The central park location."
+    ],
+    "exp": "ข้อความ “Organizers expect the event to reduce waste” อ้างถึงงานซ่อมและนำกลับมาใช้ใหม่ ตัวเลือกการสำรวจ/โต๊ะแลกเปลี่ยน/การสาธิต/สวนสาธารณะ ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The fair will also include a swap table where people can exchange goods they no longer need.”?",
+    "key": "People can exchange unwanted goods at a swap table.",
+    "d": [
+     "People must pay to use the swap table.",
+     "The swap table sells goods at low prices.",
+     "People can only swap clothes at the table."
+    ],
+    "exp": "ใจความคือผู้คนสามารถแลกเปลี่ยนสิ่งของที่ไม่ต้องการแล้วได้ที่โต๊ะ swap ตัวเลือกเสียเงิน/เฉพาะของใหม่/ขายของ/เฉพาะเสื้อผ้า ขัดกับข่าว"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the organizers' attitude toward the fair?",
+    "key": "Hopeful that it will reduce waste and support skills.",
+    "d": [
+     "Indifferent to the results",
+     "Certain it will make money",
+     "Reluctant to hold it again"
+    ],
+    "exp": "ข่าวระบุว่าผู้จัดคาดว่างาน “to reduce waste, support local repair skills, and help residents save money” แสดงความหวังว่าจะลดขยะและส่งเสริมทักษะ ตัวเลือกสงสัย/ไม่ใส่ใจ/แน่ใจว่าทำเงิน/ไม่อยากจัดอีก ขัดกับข่าว"
+   }
+  ]
+ },
+ {
+  "first": "S02-Q051",
+  "topic": "Email: follow-up on a job interview",
+  "context": "Dear Ms. Lin, thank you once again for taking the time to meet with us last week to discuss the marketing assistant position. It was a pleasure to learn more about your experience and the ideas you shared for our upcoming campaign. The team has completed its deliberation, and we would like to offer you the role, subject to the usual reference checks. The position is a twelve-month contract with a starting salary of 22,000 baht per month, and you would begin on the first of next month if you accept. Please review the attached terms and let us know your decision by the end of this week. If you have any questions about the role, the team, or the terms, please feel free to call me directly. We are delighted to extend this offer and look forward to welcoming you to the company.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "What position is being offered?",
+    "key": "A marketing assistant position.",
+    "d": [
+     "A graphic design position.",
+     "A finance assistant position.",
+     "An administrative secretary position."
+    ],
+    "exp": "อีเมลระบุ “to discuss the marketing assistant position” และ “we would like to offer you the role” จึงตอบตำแหน่งผู้ช่วยการตลาด ตัวเลือกผู้จัดการขาย/กราฟิก/ผู้ช่วยการเงิน/เลขานุการ ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What is the starting salary for the role?",
+    "key": "22,000 baht per month.",
+    "d": [
+     "18,000 baht per month.",
+     "25,000 baht per month.",
+     "20,000 baht per month."
+    ],
+    "exp": "อีเมลระบุ “a starting salary of 22,000 baht per month” จึงตอบ 22,000 บาทต่อเดือน ตัวเลือก 18,000/25,000/20,000/ตัดสินทีหลัง ขัดกับอีเมล"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “the role” refer to?",
+    "key": "The marketing assistant position being offered.",
+    "d": [
+     "The attached terms document.",
+     "The upcoming campaign.",
+     "The interview discussion."
+    ],
+    "exp": "ข้อความ “we would like to offer you the role” อ้างถึงตำแหน่งผู้ช่วยการตลาดที่เสนอ ตัวเลือกตรวจสอบประวัติ/เอกสารเงื่อนไข/แคมเปญ/การสัมภาษณ์ ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “Please review the attached terms and let us know your decision by the end of this week.”?",
+    "key": "The candidate should review the terms and reply this week.",
+    "d": [
+     "The decision can be made after next week.",
+     "No decision is needed at all.",
+     "The terms are not attached to the email."
+    ],
+    "exp": "ใจความคือผู้สมัครควรอ่านเงื่อนไขที่แนบมาและแจ้งคำตอบภายในสัปดาห์นี้ ตัวเลือกรับเงื่อนไขแล้ว/ตัดสินใจหลังสัปดาห์หน้า/ไม่ต้องตัดสินใจ/ไม่มีเอกสารแนบ ขัดกับอีเมล"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the sender's attitude toward the candidate?",
+    "key": "Positive and delighted to make the offer.",
+    "d": [
+     "Indifferent to the candidate's decision",
+     "Reluctant to offer the role",
+     "Critical of the candidate's interview"
+    ],
+    "exp": "อีเมลระบุ “We are delighted to extend this offer and look forward to welcoming you” แสดงทัศนะเชิงบวกและยินดีเสนอตำแหน่ง ตัวเลือกไม่แน่ใจ/ไม่ใส่ใจ/ไม่อยากเสนอ/วิจารณ์การสัมภาษณ์ ขัดกับอีเมล"
+   }
+  ]
+ },
+ {
+  "first": "S03-Q051",
+  "topic": "Announcement: new safety rules for the riverside jogging path",
+  "context": "The riverside jogging path will have new safety rules from next week, following a rise in accidents during the early-morning hours. The rules require all joggers and walkers to wear reflective bands between five and seven in the morning, when visibility is lowest. Cyclists are no longer permitted on the path during these hours and must use the parallel cycle lane. The path will also be closed for one hour each evening for maintenance, with signs posted two days in advance at both entrances. Volunteers will be present on the path during the morning hours to remind users of the rules and assist anyone who needs help. The city emphasizes that these measures are intended to protect everyone who uses the path, and asks for cooperation from all visitors.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Who must wear reflective bands on the path?",
+    "key": "Joggers and walkers between five and seven in the morning.",
+    "d": [
+     "Only joggers after seven.",
+     "Walkers in the evening only.",
+     "Volunteers on duty."
+    ],
+    "exp": "ประกาศระบุ “all joggers and walkers to wear reflective bands between five and seven in the morning” จึงตอบนักวิ่งและคนเดินช่วง 5–7 โมงเช้า ตัวเลือกนักจักรยาน/เฉพาะนักวิ่งหลัง 7/เฉพาะตอนเย็น/อาสาสมัคร ขัดกับประกาศ"
+   },
+   {
+    "type": "detail",
+    "prompt": "What must cyclists do during the morning hours?",
+    "key": "Use the parallel cycle lane instead.",
+    "d": [
+     "Share the jogging path carefully.",
+     "Stop cycling entirely.",
+     "Use the river ferry instead."
+    ],
+    "exp": "ประกาศระบุ “Cyclists are no longer permitted on the path during these hours and must use the parallel cycle lane” จึงตอบใช้เลนจักรยานขนาน ตัวเลือกใช้ทางร่วมกัน/ขี่หลัง 7/หยุดขี่/ใช้เรือ ขัดกับประกาศ"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “these measures” refer to?",
+    "key": "The new safety rules for the jogging path.",
+    "d": [
+     "The volunteer program.",
+     "The parallel cycle lane.",
+     "The river ferry service."
+    ],
+    "exp": "ข้อความ “these measures are intended to protect everyone who uses the path” อ้างถึงกฎความปลอดภัยใหม่ทั้งหมด ตัวเลือกตารางซ่อมบำรุง/อาสาสมัคร/เลนจักรยาน/เรือข้ามฟาก ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The path will also be closed for one hour each evening for maintenance.”?",
+    "key": "The path closes for maintenance for one hour every evening.",
+    "d": [
+     "Maintenance happens only on weekends.",
+     "The path is closed for one hour each morning.",
+     "Maintenance is done without closing the path."
+    ],
+    "exp": "ใจความคือทางปิดหนึ่งชั่วโมงทุกเย็นเพื่อซ่อมบำรุง ตัวเลือกปิดทั้งเย็น/เฉพาะสุดสัปดาห์/ปิดตอนเช้า/ซ่อมโดยไม่ปิด ขัดกับประกาศ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the city's attitude toward the safety rules?",
+    "key": "Emphasizing that they are for everyone's protection.",
+    "d": [
+     "Indifferent to user safety",
+     "Certain the rules will not work",
+     "Unwilling to enforce the rules"
+    ],
+    "exp": "ประกาศระบุ “The city emphasizes that these measures are intended to protect everyone” แสดงว่าเน้นย้ำว่าเพื่อความปลอดภัยของทุกคน ตัวเลือกขอโทษ/ไม่ใส่ใจ/แน่ใจว่าไม่เวิร์ก/ไม่อยากบังคับ ขัดกับประกาศ"
+   }
+  ]
+ },
+ {
+  "first": "S04-Q051",
+  "topic": "Article: why walking meetings are gaining ground",
+  "context": "Walking meetings are becoming a popular alternative to the traditional conference room, and managers say the change brings unexpected benefits. Instead of sitting around a table, participants take a walk outdoors while discussing the topic, which many report makes the conversation more focused and creative. The change also encourages shorter meetings, since walking at a steady pace naturally limits how long a discussion can run. Health experts add that even light walking improves energy, mood, and concentration, making the practice a healthy habit rather than just a novelty. Companies that have adopted walking meetings report that teams feel more relaxed and that decisions are often reached faster. The practice works best for small groups and topics that do not require detailed notes, but organizers say it is easy to combine with a short written summary afterwards.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "According to the article, what makes walking meetings more focused?",
+    "key": "Walking outdoors while discussing.",
+    "d": [
+     "Standing still during the talk.",
+     "Using a screen to present.",
+     "Writing detailed notes."
+    ],
+    "exp": "บทความระบุว่าการเดินนอกอาคารขณะคุย “makes the conversation more focused and creative” จึงตอบการเดิน outdoors ขณะคุย ตัวเลือกนั่งโต๊ะใหญ่/ยืนนิ่ง/ใช้จอ/เขียนบันทึก ไม่มีข้อมูล"
+   },
+   {
+    "type": "detail",
+    "prompt": "What do health experts say about light walking?",
+    "key": "It improves energy, mood, and concentration.",
+    "d": [
+     "It only benefits older people.",
+     "It has no effect on work.",
+     "It should be done alone."
+    ],
+    "exp": "บทความระบุว่า “even light walking improves energy, mood, and concentration” จึงตอบเพิ่มพลังงาน อารมณ์ สมาธิ ตัวเลือกแทนการออกกำลังกาย/เฉพาะผู้สูงอายุ/ไร้ผล/ต้องทำคนเดียว ขัดกับบทความ"
+   },
+   {
+    "type": "main",
+    "prompt": "What is the main idea of the article?",
+    "key": "Walking meetings offer benefits beyond the traditional meeting room.",
+    "d": [
+     "Walking meetings take much longer.",
+     "Walking is only for exercise, not work.",
+     "Companies are banning walking meetings."
+    ],
+    "exp": "บทความรายงานว่าการประชุมแบบเดินให้ประโยชน์เกินกว่าห้องประชุมปกติ ตัวเลือกห้องประชุมดีที่สุด/นานกว่า/เดินเพื่อออกกำลังกาย/บริษัทห้าม ขัดกับบทความ"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The change also encourages shorter meetings, since walking at a steady pace naturally limits how long a discussion can run.”?",
+    "key": "Walking naturally keeps meetings shorter.",
+    "d": [
+     "Walking has no effect on meeting length.",
+     "Meetings are shorter only in the afternoon.",
+     "Only fast walking shortens meetings."
+    ],
+    "exp": "ใจความคือการเดินทำให้การประชุมสั้นลงโดยธรรมชาติ ตัวเลือกทำให้นาน/ไร้ผล/เฉพาะบ่าย/เฉพาะเดินเร็ว ขัดกับบทความ"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the article's attitude toward walking meetings?",
+    "key": "Positive, presenting them as beneficial and practical.",
+    "d": [
+     "Neutral, with no recommendation",
+     "Skeptical of the health claims",
+     "Certain they will replace all meetings"
+    ],
+    "exp": "บทความระบุประโยชน์หลายด้านและ “it is easy to combine” แสดงทัศนะเชิงบวก ตัวเลือกเชิงลบ/เป็นกลาง/สงสัย/แทนที่ทุกการประชุม ขัดกับบทความ"
+   }
+  ]
+ },
+ {
+  "first": "S05-Q051",
+  "topic": "Advertisement: weekend photography tour of the old town",
+  "context": "Discover the old town through your camera on our weekend photography tour, designed for amateur photographers who want to capture the area's history and street life. The tour begins at the riverside pier at eight in the morning, where you will learn to photograph the early-morning light on the temples and the busy market scene. A local guide who is also a professional photographer will lead the group along the narrow lanes, pointing out the best angles and explaining the stories behind the old buildings. The tour includes a stop at a rooftop café for a break and a review of the morning's photos. The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch. Participants should bring their own camera or phone and comfortable shoes for two hours of walking.",
+  "items": [
+   {
+    "type": "detail",
+    "prompt": "Where does the tour begin?",
+    "key": "At the riverside pier.",
+    "d": [
+     "At the old temple entrance.",
+     "At the central market.",
+     "At the guide's studio."
+    ],
+    "exp": "โฆษณาระบุ “The tour begins at the riverside pier” จึงตอบท่าเรือริมน้ำ ตัวเลือกคาเฟ่ดาดฟ้า/วัด/ตลาดกลาง/สตูดิโอ ขัดกับโฆษณา"
+   },
+   {
+    "type": "detail",
+    "prompt": "What will the guide do during the tour?",
+    "key": "Lead the group and point out the best angles.",
+    "d": [
+     "Take formal portraits of each person.",
+     "Teach advanced editing software.",
+     "Sell photography equipment."
+    ],
+    "exp": "โฆษณาระบุว่าไกด์จะ “lead the group along the narrow lanes, pointing out the best angles” จึงตอบนำกลุ่มและชี้มุมที่ดีที่สุด ตัวเลือกถือกล้องให้/ถ่ายภาพบุคคล/สอนโปรแกรม/ขายอุปกรณ์ ขัดกับโฆษณา"
+   },
+   {
+    "type": "reference",
+    "prompt": "In the passage, what does “the morning's photos” refer to?",
+    "key": "The photos participants take during the tour.",
+    "d": [
+     "Photos from previous tours.",
+     "Old photographs of the buildings.",
+     "Photos in the printed map."
+    ],
+    "exp": "ข้อความ “a review of the morning's photos” อ้างถึงภาพที่ผู้ร่วมทริปถ่ายในช่วงเช้า ตัวเลือกผลงานไกด์/ภาพทริปก่อน/ภาพเก่า/ภาพในแผนที่ ไม่ใช่สิ่งถูกอ้างถึง"
+   },
+   {
+    "type": "paraphrase",
+    "prompt": "Which option best restates: “The fee of 1,800 baht covers the guide, a printed map of photo spots, and a light lunch.”?",
+    "key": "The 1,800 baht fee includes the guide, map, and lunch.",
+    "d": [
+     "The map is charged separately.",
+     "Lunch is not included in the fee.",
+     "The fee includes a camera rental."
+    ],
+    "exp": "ใจความคือค่า 1,800 บาทรวมไกด์ แผนที่ และอาหารกลางวัน ตัวเลือกรวมแค่ไกด์/แผนที่คิดเพิ่ม/ไม่มีอาหาร/รวมเช่ากล้อง ขัดกับโฆษณา"
+   },
+   {
+    "type": "attitude",
+    "prompt": "What is the advertisement's purpose?",
+    "key": "To attract amateur photographers to join the tour.",
+    "d": [
+     "To compare photography cameras",
+     "To teach professional photography",
+     "To sell photographic equipment"
+    ],
+    "exp": "โฆษณาเสนอ tour พร้อมรายละเอียดและข้อความชวนเข้าร่วม จุดประสงค์คือดึงช่างภาพสมัครเล่น ตัวเลือกรายงานประวัติศาสตร์/เปรียบเทียบกล้อง/สอนมืออาชีพ/ขายอุปกรณ์ ขัดกับโฆษณา"
+   }
+  ]
+ }
+]
