@@ -1,0 +1,146 @@
+[
+ {
+  "id": "S01-Q004",
+  "slot": 3,
+  "old": "In the science lab.",
+  "new": "In the lab next door."
+ },
+ {
+  "id": "S02-Q004",
+  "slot": 0,
+  "old": "At the library.",
+  "new": "At the study room."
+ },
+ {
+  "id": "S03-Q004",
+  "slot": 1,
+  "old": "At the main gate.",
+  "new": "At platform two."
+ },
+ {
+  "id": "S04-Q004",
+  "slot": 3,
+  "old": "At the cafeteria.",
+  "new": "At the lecture hall."
+ },
+ {
+  "id": "S05-Q004",
+  "slot": 1,
+  "old": "In the music room.",
+  "new": "In the main auditorium."
+ },
+ {
+  "id": "S10-Q004",
+  "slot": 2,
+  "old": "At the sports hall.",
+  "new": "At the community center."
+ },
+ {
+  "id": "S11-Q004",
+  "slot": 0,
+  "old": "In the meeting room.",
+  "new": "In the east wing."
+ },
+ {
+  "id": "S11-Q007",
+  "slot": 2,
+  "old": "They are near the entrance.",
+  "new": "The plants are by the window."
+ },
+ {
+  "id": "S11-Q010",
+  "slot": 0,
+  "old": "The hall is at the far end.",
+  "new": "The deadline was last Friday."
+ },
+ {
+  "id": "S12-Q004",
+  "slot": 1,
+  "old": "At the student center.",
+  "new": "At the conference room."
+ },
+ {
+  "id": "S13-Q004",
+  "slot": 3,
+  "old": "At the clinic.",
+  "new": "At the north stand."
+ },
+ {
+  "id": "S13-Q008",
+  "slot": 0,
+  "old": "I asked someone about it yesterday, as planned.",
+  "new": "The front desk has two phone lines for guests."
+ },
+ {
+  "id": "S14-Q004",
+  "slot": 2,
+  "old": "At the bookshop.",
+  "new": "At the front desk."
+ },
+ {
+  "id": "S15-Q004",
+  "slot": 2,
+  "old": "At the park entrance.",
+  "new": "At the main hall."
+ },
+ {
+  "id": "S16-Q004",
+  "slot": 0,
+  "old": "In the language lab.",
+  "new": "In the exhibition hall."
+ },
+ {
+  "id": "S17-Q004",
+  "slot": 0,
+  "old": "At the auditorium.",
+  "new": "At the ticket counter."
+ },
+ {
+  "id": "S18-Q004",
+  "slot": 0,
+  "old": "At the train station.",
+  "new": "At the training ground."
+ },
+ {
+  "id": "S18-Q007",
+  "slot": 2,
+  "old": "The room is near the entrance.",
+  "new": "The meeting has six agenda items."
+ },
+ {
+  "id": "S19-Q004",
+  "slot": 1,
+  "old": "In the garden.",
+  "new": "In the seminar room."
+ },
+ {
+  "id": "S19-Q008",
+  "slot": 2,
+  "old": "It was printed at noon.",
+  "new": "The poster has six sections."
+ },
+ {
+  "id": "S20-Q004",
+  "slot": 1,
+  "old": "At the information desk.",
+  "new": "At the reception counter."
+ },
+ {
+  "id": "S20-Q007",
+  "slot": 1,
+  "old": "The bus always leaves on weekdays.",
+  "new": "The museum opens on weekdays."
+ },
+ {
+  "id": "S20-Q008",
+  "slot": 3,
+  "old": "We started at noon.",
+  "new": "We arranged them last week."
+ },
+ {
+  "id": "S20-Q010",
+  "slot": 0,
+  "old": "The office is at the far end.",
+  "new": "The appointment was on Monday."
+ }
+]

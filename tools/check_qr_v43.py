@@ -44,7 +44,7 @@ def category_problem(prompt, new):
 
 V = json.load(open('data/vault.json', encoding='utf-8'))
 by = {q['id']: q for q in V}
-errs, pending, applied = [], 0, 0
+errs, pending, applied, superseded = [], 0, 0, 0
 new_by_id = collections.defaultdict(dict)
 entries = []
 files = sorted(glob.glob('content/qr_v43_[a-z].json'))
@@ -54,7 +54,11 @@ for f in files:
 
 # simulated bank after applying every entry
 sim = {qid: list(q['options']) for qid, q in by.items() if q['kind'] == 'qr'}
-for f, e in entries:
+# a later spec file may patch the same (id, slot) again; the earlier entry is then superseded
+last = {}
+for i, (f, e) in enumerate(entries):
+    last[(e['id'], e['slot'])] = i
+for i, (f, e) in enumerate(entries):
     q = by.get(e['id'])
     if q is None:
         errs.append(f'{f}: unknown id {e["id"]}'); continue
@@ -69,6 +73,8 @@ for f, e in entries:
     elif cur == e['old']:
         pending += 1
         sim[e['id']][s] = e['new']
+    elif last[(e['id'], s)] != i:
+        superseded += 1; continue          # a later spec entry replaced this slot again
     else:
         errs.append(f'{f}: {e["id"]} slot {s} is neither old nor new -> {cur[:60]}'); continue
     new_by_id[e['id']][s] = e['new']
@@ -118,9 +124,9 @@ if max(er_ans, er_dis) > 1.5 * min(er_ans, er_dis) + 1e-9:
 
 # reuse across the whole Q-R bank after applying
 cnt = collections.Counter(o for qid, opts in sim.items() for i, o in enumerate(opts) if i != by[qid]['answer'])
-reuse = [(n, s) for s, n in cnt.items() if n >= 3]
-print(f'{len(files)} spec files, {len(entries)} entries ({pending} pending, {applied} already applied)')
-print(f'distractor sentences reused >=3 times after patch: {len(reuse)}')
+reuse = [(n, s) for s, n in cnt.items() if n >= 2]
+print(f'{len(files)} spec files, {len(entries)} entries ({pending} pending, {applied} already applied, {superseded} superseded by a later file)')
+print(f'distractor sentences reused >=2 times after patch: {len(reuse)}')
 for n, s in sorted(reuse, reverse=True)[:10]:
     print(f'  x{n}: {s[:70]}')
 if errs:

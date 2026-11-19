@@ -71,7 +71,7 @@
    "The club has only twenty members.",
    "8:15 a.m.",
    "For about ten minutes.",
-   "In the science lab."
+   "In the lab next door."
   ],
   "answer": 1,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “8:15 a.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -1268,7 +1268,7 @@
   "prompt": "Q: What time does the workshop begin?",
   "context": "",
   "options": [
-   "At the library.",
+   "At the study room.",
    "For about half an hour.",
    "The workshop has only fifteen places.",
    "9:30 a.m."
@@ -2469,7 +2469,7 @@
   "context": "",
   "options": [
    "10:45 a.m.",
-   "At the main gate.",
+   "At platform two.",
    "This train never stops at the market.",
    "The journey takes less than an hour."
   ],
@@ -3671,7 +3671,7 @@
    "12:20 p.m.",
    "For about twenty minutes.",
    "The lecture always covers two chapters.",
-   "At the cafeteria."
+   "At the lecture hall."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “12:20 p.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -4869,7 +4869,7 @@
   "context": "",
   "options": [
    "The film always runs ninety minutes.",
-   "In the music room.",
+   "In the main auditorium.",
    "1:15 p.m.",
    "We watched it twice."
   ],
@@ -10870,7 +10870,7 @@
   "options": [
    "For about three hours.",
    "Thirty volunteers joined us.",
-   "At the sports hall.",
+   "At the community center.",
    "6:00 p.m."
   ],
   "answer": 3,
@@ -12068,7 +12068,7 @@
   "prompt": "Q: What time does the market open?",
   "context": "",
   "options": [
-   "In the meeting room.",
+   "In the east wing.",
    "The market has forty stalls.",
    "For about twenty-five minutes.",
    "7:15 a.m."
@@ -12130,7 +12130,7 @@
   "options": [
    "I water them in the morning.",
    "At 7:15 a.m.",
-   "They are near the entrance.",
+   "The plants are by the window.",
    "Twenty-five minutes."
   ],
   "answer": 3,
@@ -12188,7 +12188,7 @@
   "prompt": "Q: What should you do if your group misses a deadline?",
   "context": "",
   "options": [
-   "The hall is at the far end.",
+   "The deadline was last Friday.",
    "Tell the team and agree on a realistic new deadline.",
    "We missed one last month.",
    "I finished my part three days ago and told the others."
@@ -13269,7 +13269,7 @@
   "context": "",
   "options": [
    "For about ninety minutes.",
-   "At the student center.",
+   "At the conference room.",
    "7:45 p.m.",
    "Only twelve people are presenting."
   ],
@@ -14471,7 +14471,7 @@
    "8:50 a.m.",
    "For about one week.",
    "Our team never lost last season.",
-   "At the clinic."
+   "At the north stand."
   ],
   "answer": 0,
   "explanation": "คำถามนี้ถามเวลา จึงต้องตอบด้วยเวลา/กำหนดเวลาที่เกี่ยวข้อง คำตอบที่ถูกคือ “8:50 a.m.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -14548,7 +14548,7 @@
   "prompt": "Q: Could you possibly call the front desk?",
   "context": "",
   "options": [
-   "I asked someone about it yesterday, as planned.",
+   "The front desk has two phone lines for guests.",
    "The desk is on the third floor.",
    "Of course. I’ll call the front desk now.",
    "They closed at noon."
@@ -15670,7 +15670,7 @@
   "options": [
    "The session always has two parts.",
    "For about a couple of days.",
-   "At the bookshop.",
+   "At the front desk.",
    "11:10 a.m."
   ],
   "answer": 3,
@@ -16870,7 +16870,7 @@
   "options": [
    "Only two speakers were invited.",
    "12:35 p.m.",
-   "At the park entrance.",
+   "At the main hall.",
    "For about just under an hour."
   ],
   "answer": 1,
@@ -18068,7 +18068,7 @@
   "prompt": "Q: What time does the science fair begin?",
   "context": "",
   "options": [
-   "In the language lab.",
+   "In the exhibition hall.",
    "2:05 p.m.",
    "For about five minutes.",
    "All nine schools are taking part."
@@ -19268,7 +19268,7 @@
   "prompt": "Q: What time does the museum tour begin?",
   "context": "",
   "options": [
-   "At the auditorium.",
+   "At the ticket counter.",
    "For about three weeks.",
    "3:55 p.m.",
    "The tour covers all three floors."
@@ -20468,7 +20468,7 @@
   "prompt": "Q: What time does the practice session begin?",
   "context": "",
   "options": [
-   "At the train station.",
+   "At the training ground.",
    "For about one month.",
    "4:45 p.m.",
    "All ten players are practising."
@@ -20530,7 +20530,7 @@
   "options": [
    "About an hour.",
    "At 4:45 p.m.",
-   "The room is near the entrance.",
+   "The meeting has six agenda items.",
    "We meet in the main hall."
   ],
   "answer": 0,
@@ -21669,7 +21669,7 @@
   "context": "",
   "options": [
    "For about two school days.",
-   "In the garden.",
+   "In the seminar room.",
    "All six students are in the group.",
    "6:20 p.m."
   ],
@@ -21750,7 +21750,7 @@
   "options": [
    "The poster is on the wall.",
    "Someone photographed it yesterday.",
-   "It was printed at noon.",
+   "The poster has six sections.",
    "Sure. I’ll take a photo now."
   ],
   "answer": 3,
@@ -22869,7 +22869,7 @@
   "context": "",
   "options": [
    "For about forty-five minutes.",
-   "At the information desk.",
+   "At the reception counter.",
    "7:05 p.m.",
    "The clinic has only two rooms."
   ],
@@ -22929,7 +22929,7 @@
   "context": "",
   "options": [
    "At 7:05 p.m.",
-   "The bus always leaves on weekdays.",
+   "The museum opens on weekdays.",
    "Forty-five minutes.",
    "The museum is two stops away."
   ],
@@ -22951,7 +22951,7 @@
    "Someone asked me to help with them yesterday.",
    "They are on the third floor.",
    "Of course. I’ll help you arrange the tables.",
-   "We started at noon."
+   "We arranged them last week."
   ],
   "answer": 2,
   "explanation": "ประโยคนี้เป็นคำขอร้องอย่างสุภาพ คำตอบที่เหมาะควรตอบรับ/ปฏิเสธคำขอหรือแจ้งว่าจะดำเนินการอย่างไร คำตอบที่ถูกคือ “Of course. I’ll help you arrange the tables.” เพราะตอบตรงหน้าที่ดังกล่าวและต่อบทสนทนาได้เป็นธรรมชาติ.",
@@ -22988,7 +22988,7 @@
   "prompt": "Q: What should you do if you need to change an appointment?",
   "context": "",
   "options": [
-   "The office is at the far end.",
+   "The appointment was on Monday.",
    "I heard about it yesterday.",
    "Contact the office to reschedule.",
    "I changed my own appointment three days ago."
