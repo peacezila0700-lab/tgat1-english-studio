@@ -11,6 +11,8 @@ if os.path.exists('qa/r3-vocab-example-spec.json'):
     for a in json.load(open('qa/r3-vocab-example-spec.json')):
         auth.setdefault((a['w'],a['old']['example']),a)
 H=json.load(open('content/headword_triage_r3.json'));pl,un=set(H['plausible']),set(H['uncertain'])
+# Arena round 2: editor decisions on the UNCERTAIN headwords (content/headword_triage_r3_decisions.json)
+DEC=json.load(open('content/headword_triage_r3_decisions.json'))['decisions']
 cnt=collections.Counter()
 for r in R:
     if r['category']=='example-quality':
@@ -30,8 +32,19 @@ for r in R:
             r['status']='round 3 triage: needs human rewrite ('+t['why']+') · not auto-edited';cnt['ex-human']+=1
     elif r['category']=='headword-validity':
         h=r['headword']
-        if h in pl: r['status']='round 3 triage: PLAUSIBLE collocation · keep after human confirmation';cnt['hw-plausible']+=1
-        elif h in un: r['status']='round 3 triage: UNCERTAIN · needs editor decision (keep / rename / retire)';cnt['hw-uncertain']+=1
+        if h in pl:
+            r['status']='round 3 triage decision (Arena): PLAUSIBLE collocation — editor confirmed KEEP';cnt['hw-plausible']+=1
+        elif h in un:
+            d=DEC.get(h,{})
+            act=d.get('action','keep')
+            note=d.get('note','')
+            if act=='keep':
+                r['status']='round 3 triage decision (Arena): UNCERTAIN headword — editor decided KEEP'+(' · '+note if note else '')
+            elif act=='rename':
+                r['status']='round 3 triage decision (Arena): UNCERTAIN headword — editor decided RENAME'+(' · '+note if note else '')
+            else:
+                r['status']='round 3 triage decision (Arena): UNCERTAIN headword — editor decided RETIRE (word kept in bank, flagged)'+(' · '+note if note else '')
+            cnt['hw-uncertain-decided']+=1
         else: r['status']='round 3 triage: NOT an established collocation (category label + noun) · recommend retire or rename · not deleted (would shift stored progress indices)';cnt['hw-definite']+=1
     elif r['category']=='human review: regenerated practice contexts':
         r['status']='round 3: LC rewritten/revised (200), TC 84 ambiguity/off-topic fixes + 300 Thai explanations, RC 180 items rewritten + 74 length fixes · still needs human English/Thai proofreading'
