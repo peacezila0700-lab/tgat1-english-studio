@@ -905,18 +905,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What do members of the seed library agree to do?",
-  "context": "At a small community center, residents created a seed library after several families began growing vegetables on balconies. Instead of selling seeds, the library lends small packets to members who agree to return some seeds from the next harvest. During the first month, the organizers recorded which plants grew well in containers and which needed more space. They then added simple notes to each packet so new gardeners would know what to expect. The project has also encouraged residents to exchange growing advice. One organizer said the most useful result was not the number of vegetables produced but the conversations between people who had rarely spoken before. The organizers now plan to add herbs and flowers because they can grow in smaller containers.",
+  "prompt": "What was the main reason the rail link took so long to build?",
+  "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "Return some seeds from their next harvest.",
-   "Pay a small fee for each seed packet.",
-   "Record which plants grow well in containers.",
-   "Exchange vegetables with the other members."
+   "Disputes over land and shortages of materials.",
+   "The city refused to approve the route.",
+   "Construction crews were hard to find.",
+   "The design had to be changed repeatedly."
   ],
   "answer": 0,
-  "explanation": "ข้อความบอกว่าห้องสมุดให้ยืมถุงเมล็ดแก่สมาชิก “who agree to return some seeds from the next harvest” จึงตอบคืนเมล็ดจากการเก็บเกี่ยวครั้งหน้า ตัวเลือกเก็บค่าธรรมเนียมขัดกับ “Instead of selling seeds” ตัวเลือกจดบันทึกพืชเป็นงานของ organizers ไม่ใช่สมาชิก ตัวเลือก “Pay a small fee for each seed packet.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Record which plants grow well in containers.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Exchange vegetables with the other members.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "explanation": "บทความระบุว่าการก่อสร้างล่าช้าสองครั้งเพราะ “land disputes and material shortages” จึงตอบข้อพิพาทเรื่องที่ดินและขาดแคลนวัสดุ ตัวเลือกค่าโดยสาร/การไม่อนุมัติเส้นทาง/ขาดคนงาน ไม่มีข้อมูลในบทความ ตัวเลือก “The city refused to approve the route.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Construction crews were hard to find.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The design had to be changed repeatedly.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A neighborhood seed library",
+  "topic": "News report: new airport rail link opens",
   "diff": 2
  },
  {
@@ -925,18 +925,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "According to the passage, why do the organizers plan to add herbs and flowers?",
-  "context": "At a small community center, residents created a seed library after several families began growing vegetables on balconies. Instead of selling seeds, the library lends small packets to members who agree to return some seeds from the next harvest. During the first month, the organizers recorded which plants grew well in containers and which needed more space. They then added simple notes to each packet so new gardeners would know what to expect. The project has also encouraged residents to exchange growing advice. One organizer said the most useful result was not the number of vegetables produced but the conversations between people who had rarely spoken before. The organizers now plan to add herbs and flowers because they can grow in smaller containers.",
+  "prompt": "What is the main idea of the passage?",
+  "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "They produce more food than vegetables.",
-   "They do not need much room in pots.",
-   "Members asked for them at the center.",
-   "They are cheaper than vegetable seeds."
+   "A long-delayed rail link is now open to passengers.",
+   "A new rail service has opened and may ease highway congestion.",
+   "Fares for airport transport have been lowered.",
+   "The transport minister plans to retire soon."
   ],
   "answer": 1,
-  "explanation": "ประโยคสุดท้ายบอกว่า “The organizers now plan to add herbs and flowers because they can grow in smaller containers.” จึงตอบว่าปลูกในกระถางเล็กได้ ตัวเลือกให้ผลผลิตมากกว่า/สมาชิกขอ/ราคาถูกกว่า ไม่มีข้อมูลในบทความ",
-  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A neighborhood seed library",
+  "explanation": "แกนเรื่องคือทางรถไฟสายใหม่เปิดให้บริการแล้ว และอาจช่วยลดปัญหารถติดบนทางหลวง ตัวเลือกขยายอาคารสนามบิน/ลดค่าโดยสาร/รัฐมนตรีจะเกษียณ ไม่ใช่ประเด็นหลัก ตัวเลือก “A long-delayed rail link is now open to passengers.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Fares for airport transport have been lowered.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The transport minister plans to retire soon.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
+  "topic": "News report: new airport rail link opens",
   "diff": 1
  },
  {
@@ -945,18 +945,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the passage mainly about?",
-  "context": "At a small community center, residents created a seed library after several families began growing vegetables on balconies. Instead of selling seeds, the library lends small packets to members who agree to return some seeds from the next harvest. During the first month, the organizers recorded which plants grew well in containers and which needed more space. They then added simple notes to each packet so new gardeners would know what to expect. The project has also encouraged residents to exchange growing advice. One organizer said the most useful result was not the number of vegetables produced but the conversations between people who had rarely spoken before. The organizers now plan to add herbs and flowers because they can grow in smaller containers.",
+  "prompt": "According to the passage, who can get a discounted fare?",
+  "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "A study of which vegetables grow best on small city balconies.",
-   "A new way for shops to sell seeds to families.",
-   "A community project that shares seeds and growing advice.",
-   "A plan to build vegetable gardens at a center."
+   "People who travel in groups of four.",
+   "Anyone who buys a ticket online.",
+   "Students and senior citizens.",
+   "Passengers who use the service before dawn."
   ],
   "answer": 2,
-  "explanation": "ทั้งเรื่องเล่าโครงการ seed library ของชุมชน: ให้ยืมเมล็ด จดบันทึกผล ติดป้ายคำแนะนำ และ “encouraged residents to exchange growing advice” ตัวเลือกศึกษาผักบนระเบียงเป็นแค่รายละเอียดช่วงแรก ตัวเลือกขายเมล็ดขัดกับ “Instead of selling seeds” และไม่มีแผนสร้างสวนที่ศูนย์",
-  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A neighborhood seed library",
+  "explanation": "บทความบอกว่า “discounted cards are available for students and senior citizens” จึงตอบนักเรียนและผู้สูงอายุ ตัวเลือกนักท่องเที่ยว/กลุ่มสี่คน/ซื้อออนไลน์/ก่อนรุ่งสาง ไม่ได้กล่าวไว้ ตัวเลือก “People who travel in groups of four.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Anyone who buys a ticket online.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Passengers who use the service before dawn.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
+  "topic": "News report: new airport rail link opens",
   "diff": 3
  },
  {
@@ -965,18 +965,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does the word “They” in “They then added simple notes” refer to?",
-  "context": "At a small community center, residents created a seed library after several families began growing vegetables on balconies. Instead of selling seeds, the library lends small packets to members who agree to return some seeds from the next harvest. During the first month, the organizers recorded which plants grew well in containers and which needed more space. They then added simple notes to each packet so new gardeners would know what to expect. The project has also encouraged residents to exchange growing advice. One organizer said the most useful result was not the number of vegetables produced but the conversations between people who had rarely spoken before. The organizers now plan to add herbs and flowers because they can grow in smaller containers.",
+  "prompt": "Which option best restates: “Transport groups have asked the operator to review the schedule after the first month of operation.”?",
+  "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "The member families.",
-   "The packets.",
-   "The visiting new gardeners.",
-   "The organizers."
+   "Transport groups will run the service themselves.",
+   "The schedule will not be reviewed at all.",
+   "One month of data will be used to judge the schedule.",
+   "Transport groups want the schedule to be checked after one month."
   ],
   "answer": 3,
-  "explanation": "ประโยคก่อนหน้าคือ “the organizers recorded which plants grew well in containers” ดังนั้น They ในประโยคถัดมา = the organizers ผู้จดบันทึก ตัวเลือก families/packets/new gardeners ไม่ใช่ผู้ทำ action นี้",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A neighborhood seed library",
+  "explanation": "ใจความคือกลุ่มขนส่งอยากให้ผู้ประกอบการทบทวนตารางเวลาหลังจากเปิดให้บริการครบหนึ่งเดือน ตัวเลือกเปลี่ยนตารางแล้วสองครั้ง/กลุ่มจะวิ่งบริการเอง/ไม่ทบทวน ไม่มีข้อมูลรองรับ ตัวเลือก “Transport groups will run the service themselves.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The schedule will not be reviewed at all.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “One month of data will be used to judge the schedule.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "News report: new airport rail link opens",
   "diff": 2
  },
  {
@@ -985,18 +985,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the phrase “what to expect” on the packet notes is closest in meaning to",
-  "context": "At a small community center, residents created a seed library after several families began growing vegetables on balconies. Instead of selling seeds, the library lends small packets to members who agree to return some seeds from the next harvest. During the first month, the organizers recorded which plants grew well in containers and which needed more space. They then added simple notes to each packet so new gardeners would know what to expect. The project has also encouraged residents to exchange growing advice. One organizer said the most useful result was not the number of vegetables produced but the conversations between people who had rarely spoken before. The organizers now plan to add herbs and flowers because they can grow in smaller containers.",
+  "prompt": "What is the transport minister's attitude toward the new line?",
+  "context": "The new airport rail link opened to passengers on Friday morning, cutting the journey between the city centre and the international terminal to under thirty minutes. Officials said the line had been planned for more than a decade, with construction delayed twice by land disputes and material shortages. At the opening ceremony, the transport minister said the service would ease congestion on the highway, where average travel times had grown by nearly forty percent in five years. Fares are set at a flat sixty baht for all stations, and discounted cards are available for students and senior citizens. Early-morning trains run every ten minutes, with the first service leaving the city at five thirty. Station staff reported long queues at the ticket machines during the first hour, but said the crowds eased by midday. Transport groups have asked the operator to review the schedule after the first month of operation.",
   "options": [
-   "how a plant is likely to grow.",
-   "when the seed library will open.",
-   "which seed packets cost the most.",
-   "where to plant the seeds."
+   "Supportive and optimistic about its benefits.",
+   "Confident that it will ease highway traffic.",
+   "Indifferent to how passengers use it.",
+   "Disappointed by the long delays."
   ],
   "answer": 0,
-  "explanation": "โน้ตบนถุงช่วยให้นักสวนมือใหม่รู้ว่าพืชจะโตอย่างไร เหมาะกับกระถางหรือต้องการที่กว้าง ซึ่งตรงกับ “which plants grew well in containers and which needed more space” ตัวเลือกเวลาเปิด/ราคา/ตำแหน่งปลูกไม่ใช่ข้อมูลบนโน้ต",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A neighborhood seed library",
+  "explanation": "รัฐมนตรีกล่าวว่าบริการจะช่วยลดปัญหารถติดบนทางหลวง แสดงทัศนะสนับสนุนและมองในแง่ดี ตัวเลือกสงสัย/ไม่สนใจ/ผิดหวัง ไม่สอดคล้องกับถ้อยคำในบทความ ตัวเลือก “Confident that it will ease highway traffic.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Indifferent to how passengers use it.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Disappointed by the long delays.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "News report: new airport rail link opens",
   "diff": 2
  },
  {
@@ -2105,18 +2105,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "According to the passage, what caused most delays in the old queue?",
-  "context": "Students at one school often spent the first ten minutes of lunch waiting in a single line. A student committee studied the queue and noticed that many delays happened when students had to stop twice: once to choose a meal and again to collect a drink. The committee suggested placing drinks at the end of each serving station and displaying the day’s menu before students entered the line. After the changes were introduced, the queue moved faster on most days. The committee also discovered that speed was not the only concern. Students said the new arrangement made it easier to see what was available before reaching the counter. The school plans to keep the layout but will review it again after exams, when the number of students eating at school usually changes.",
+  "prompt": "Why is the road being closed?",
+  "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "Students arrived before the food was ready.",
-   "The menu changed while students waited.",
-   "Only one drink station served everyone at lunch.",
-   "Students had to stop twice in the line."
+   "The bridge is being painted.",
+   "A new canal is being dug nearby.",
+   "The road is too narrow for buses.",
+   "The bridge deck has cracks that need full replacement."
   ],
   "answer": 3,
-  "explanation": "บทความบอกว่าดีเลย์เกิด “when students had to stop twice: once to choose a meal and again to collect a drink” ตัวเลือกอื่นไม่มีข้อมูลในบทความ",
+  "explanation": "ประกาศระบุว่าโครงสะพานมีรอยร้าวซึ่ง “cannot be repaired without a full replacement” จึงต้องปิดถนนเพื่อเปลี่ยน deck ทั้งหมด ตัวเลือกขูดผิวถนน/ทาสีสะพาน/ขุดคลองใหม่/ถนนแคบ ไม่มีข้อมูล ตัวเลือก “The bridge is being painted.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A new canal is being dug nearby.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The road is too narrow for buses.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A school lunch queue redesign",
+  "topic": "Announcement: road closure for bridge repairs",
   "diff": 2
  },
  {
@@ -2125,18 +2125,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which change did the student committee suggest?",
-  "context": "Students at one school often spent the first ten minutes of lunch waiting in a single line. A student committee studied the queue and noticed that many delays happened when students had to stop twice: once to choose a meal and again to collect a drink. The committee suggested placing drinks at the end of each serving station and displaying the day’s menu before students entered the line. After the changes were introduced, the queue moved faster on most days. The committee also discovered that speed was not the only concern. Students said the new arrangement made it easier to see what was available before reaching the counter. The school plans to keep the layout but will review it again after exams, when the number of students eating at school usually changes.",
+  "prompt": "What will happen to buses that normally use the closed road?",
+  "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "Moving beverages to the last point of each counter.",
-   "Displaying the menu inside the serving area.",
-   "Serving lunch ten minutes earlier than before.",
-   "Letting students collect their drinks before the meal."
+   "They will use the alternate route and stop near the temple gate.",
+   "They will stop running during the closure.",
+   "They will use the closed road at night.",
+   "They will not stop anywhere near the area."
   ],
   "answer": 0,
-  "explanation": "ข้อเสนอคือ “placing drinks at the end of each serving station and displaying the day’s menu before students entered the line” ตัวเลือกแสดงเมนูข้างในขัดกับ before entered ส่วนอีกสองตัวเลือกไม่มีในบทความ",
+  "explanation": "ประกาศบอกว่ารถโดยสาร “will use the alternate route and stop at the temporary bus stop near the temple gate” จึงตอบใช้เส้นทางเลี่ยงและจอดใกล้ประตูวัด ตัวเลือกหยุดวิ่ง/ขึ้นค่าโดยสาร/วิ่งถนนเดิมตอนกลางคืน/ไม่จอด ขัดกับประกาศ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A school lunch queue redesign",
+  "topic": "Announcement: road closure for bridge repairs",
   "diff": 2
  },
  {
@@ -2145,18 +2145,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the main idea of the passage?",
-  "context": "Students at one school often spent the first ten minutes of lunch waiting in a single line. A student committee studied the queue and noticed that many delays happened when students had to stop twice: once to choose a meal and again to collect a drink. The committee suggested placing drinks at the end of each serving station and displaying the day’s menu before students entered the line. After the changes were introduced, the queue moved faster on most days. The committee also discovered that speed was not the only concern. Students said the new arrangement made it easier to see what was available before reaching the counter. The school plans to keep the layout but will review it again after exams, when the number of students eating at school usually changes.",
+  "prompt": "In the passage, what does “the area” refer to?",
+  "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "Schools should give students a longer lunch break.",
-   "Students studied the lunch queue and made it faster.",
-   "Students eat better meals when the queues are shorter.",
-   "A committee decided what food the school should serve."
+   "The temple gate.",
+   "The closed section of Khao San Road.",
+   "The side streets used for diversion.",
+   "The temporary bus stop."
   ],
   "answer": 1,
-  "explanation": "แกนของเรื่องคือคณะกรรมการนักเรียนศึกษาแถวและปรับจน “the queue moved faster on most days” ตัวเลือกขยายเวลาพัก/อาหารดีขึ้น/เลือกเมนู ไม่ใช่ประเด็นหลักของบทความ ตัวเลือก “Schools should give students a longer lunch break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Students eat better meals when the queues are shorter.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A committee decided what food the school should serve.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
-  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A school lunch queue redesign",
+  "explanation": "ข้อความ “Emergency vehicles will still be able to reach the area at all times” อ้างถึงพื้นที่ปิดการจราจรของถนน Khao San Road ตัวเลือกสำนักงานเทศบาล/ประตูวัด/ถนนลัด/ป้ายจอดรถชั่วคราว ไม่ใช่สิ่งถูกอ้างถึง ตัวเลือก “The temple gate.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The side streets used for diversion.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The temporary bus stop.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
+  "topic": "Announcement: road closure for bridge repairs",
   "diff": 3
  },
  {
@@ -2165,18 +2165,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does “it” in “will review it again after exams” refer to?",
-  "context": "Students at one school often spent the first ten minutes of lunch waiting in a single line. A student committee studied the queue and noticed that many delays happened when students had to stop twice: once to choose a meal and again to collect a drink. The committee suggested placing drinks at the end of each serving station and displaying the day’s menu before students entered the line. After the changes were introduced, the queue moved faster on most days. The committee also discovered that speed was not the only concern. Students said the new arrangement made it easier to see what was available before reaching the counter. The school plans to keep the layout but will review it again after exams, when the number of students eating at school usually changes.",
+  "prompt": "What is the main purpose of this notice?",
+  "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "The student committee.",
-   "The school exam timetable.",
-   "The new lunch layout.",
-   "The day’s menu."
+   "To invite residents to a public meeting.",
+   "To announce a change in municipal office hours.",
+   "To inform people about a temporary road closure and changes to traffic.",
+   "To collect feedback on traffic problems."
   ],
   "answer": 2,
-  "explanation": "ประโยคก่อนหน้าคือ “The school plans to keep the layout but will review it again after exams” สิ่งที่ทบทวนคือ layout ใหม่ ตัวเลือกคณะกรรมการ/ตารางสอบ/เมนู ไม่ใช่วัตถุของการ review",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A school lunch queue redesign",
+  "explanation": "ใจความของประกาศคือการแจ้งปิดถนนชั่วคราวและการเปลี่ยนแปลงการจราจร ตัวเลือกโฆษณาบริการ/เชิญประชุม/เปลี่ยนเวลาทำการ/รับฟังความคิดเห็น ไม่ใช่จุดประสงค์หลัก ตัวเลือก “To invite residents to a public meeting.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “To announce a change in municipal office hours.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To collect feedback on traffic problems.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
+  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
+  "topic": "Announcement: road closure for bridge repairs",
   "diff": 2
  },
  {
@@ -2185,18 +2185,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the word “arrangement” is closest in meaning to",
-  "context": "Students at one school often spent the first ten minutes of lunch waiting in a single line. A student committee studied the queue and noticed that many delays happened when students had to stop twice: once to choose a meal and again to collect a drink. The committee suggested placing drinks at the end of each serving station and displaying the day’s menu before students entered the line. After the changes were introduced, the queue moved faster on most days. The committee also discovered that speed was not the only concern. Students said the new arrangement made it easier to see what was available before reaching the counter. The school plans to keep the layout but will review it again after exams, when the number of students eating at school usually changes.",
+  "prompt": "What support will shop owners on the closed section receive?",
+  "context": "Notice to residents and businesses: Khao San Road will be closed to all traffic from Monday, 22 March, until Friday, 3 April, while crews replace the bridge deck over the canal. The closure is necessary because the current deck has developed cracks that engineers say cannot be repaired without a full replacement. Traffic will be diverted to the side streets, and signboards have been placed at every main junction. Buses that normally pass along the road will use the alternate route and stop at the temporary bus stop near the temple gate. Emergency vehicles will still be able to reach the area at all times. Shop owners on the closed section have been notified directly and will receive a month's reduced rental from the municipality. Residents are asked to plan deliveries and visits in advance and to follow the instructions of traffic staff on site. For further information, call the municipal hotline during office hours.",
   "options": [
-   "the speed of the lunch queue.",
-   "the printed list of meals being served.",
-   "the plan for the exam period.",
-   "the way the serving area is organized."
+   "Free delivery services from the municipality.",
+   "An extension of their business licenses.",
+   "A temporary stall in the market.",
+   "A month's reduced rental from the municipality."
   ],
   "answer": 3,
-  "explanation": "“the new arrangement made it easier to see what was available” หมายถึงการจัดวางพื้นที่เสิร์ฟใหม่ (เครื่องดื่มท้ายสถานีเสิร์ฟ + เมนูหน้าแถว) ไม่ใช่ความเร็ว รายการอาหาร หรือแผนสอบ ตัวเลือก “the speed of the lunch queue.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “the printed list of meals being served.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “the plan for the exam period.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A school lunch queue redesign",
+  "explanation": "ประกาศระบุว่าร้านค้า “will receive a month's reduced rental from the municipality” จึงตอบลดค่าเช่าหนึ่งเดือน ตัวเลือกบริการจัดส่ง/เงินช่วยเหลือเต็มจำนวน/ต่อใบอนุญาต/ซุ้มชั่วคราว ไม่ได้กล่าวไว้",
+  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
+  "topic": "Announcement: road closure for bridge repairs",
   "diff": 2
  },
  {
@@ -3305,18 +3305,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What problem with new volunteers did the organizers notice?",
-  "context": "At a repair café, volunteers normally fix small household items such as lamps, bags, and loose chair joints. Recently, the organizers noticed that new volunteers often knew how to use tools but were less confident when explaining repairs to visitors. They introduced a short training day focused on communication. Volunteers practiced describing a problem in simple language, explaining the safest next step, and telling visitors when an item was beyond repair. The organizers also asked volunteers to explain why they chose a particular method instead of simply doing the work themselves. After the training, visitors reported that they better understood what had happened to their items. The organizers concluded that teaching people about a repair can be almost as valuable as completing the repair.",
+  "prompt": "What is required of the ideal candidate?",
+  "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "They could not use the tools properly.",
-   "They refused to talk to the visitors.",
-   "They were not confident explaining repairs.",
-   "They broke items that were already beyond repair."
+   "Years of experience as a manager.",
+   "The ability to speak three languages.",
+   "Enthusiasm for coffee and comfort with a fast pace.",
+   "A personal coffee machine at home."
   ],
   "answer": 2,
-  "explanation": "บทความบอกว่าอาสาสมัครใหม่ “knew how to use tools but were less confident when explaining repairs to visitors” ตัวเลือกใช้เครื่องมือไม่เป็นจึงตรงข้ามกับข้อความ",
+  "explanation": "ประกาศระบุว่าผู้สมัครควร “enthusiastic about coffee” และ “comfortable working in a fast-paced environment” จึงตอบรักกาแฟและทำงานเร็วได้ ตัวเลือกปริญญา/ประสบการณ์ผู้จัดการ/สามภาษา/เครื่องชงส่วนตัว ไม่ได้กล่าวไว้",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A repair café training day",
+  "topic": "Advertisement: barista wanted for a downtown café",
   "diff": 3
  },
  {
@@ -3325,18 +3325,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which skill did volunteers practice on the training day?",
-  "context": "At a repair café, volunteers normally fix small household items such as lamps, bags, and loose chair joints. Recently, the organizers noticed that new volunteers often knew how to use tools but were less confident when explaining repairs to visitors. They introduced a short training day focused on communication. Volunteers practiced describing a problem in simple language, explaining the safest next step, and telling visitors when an item was beyond repair. The organizers also asked volunteers to explain why they chose a particular method instead of simply doing the work themselves. After the training, visitors reported that they better understood what had happened to their items. The organizers concluded that teaching people about a repair can be almost as valuable as completing the repair.",
+  "prompt": "What training will the café provide?",
+  "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "Repairing lamps, bags and loose chair joints.",
-   "Choosing the cheapest repair method.",
-   "Writing weekly reports for the organizers.",
-   "Describing a problem in simple language."
+   "Training in accounting for new staff.",
+   "No training is offered at all.",
+   "Training only for senior baristas.",
+   "Full training on the coffee machine and recipes."
   ],
   "answer": 3,
-  "explanation": "วันฝึกเน้นการสื่อสาร: อาสาสมัคร “practiced describing a problem in simple language, explaining the safest next step” ส่วนการซ่อมเป็นงานปกติของร้าน ไม่ใช่เนื้อหาการฝึก ตัวเลือก “Repairing lamps, bags and loose chair joints.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Choosing the cheapest repair method.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Writing weekly reports for the organizers.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "explanation": "ประกาศบอกว่า “we provide full training on our coffee machine and recipes during the first two weeks” จึงตอบฝึกเครื่องชงและสูตรเต็ม ตัวเลือกฝึกการตลาด/บัญชี/ไม่มีฝึก/ฝึกเฉพาะรุ่นพี่ ขัดกับประกาศ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A repair café training day",
+  "topic": "Advertisement: barista wanted for a downtown café",
   "diff": 2
  },
  {
@@ -3345,18 +3345,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does the passage mainly describe?",
-  "context": "At a repair café, volunteers normally fix small household items such as lamps, bags, and loose chair joints. Recently, the organizers noticed that new volunteers often knew how to use tools but were less confident when explaining repairs to visitors. They introduced a short training day focused on communication. Volunteers practiced describing a problem in simple language, explaining the safest next step, and telling visitors when an item was beyond repair. The organizers also asked volunteers to explain why they chose a particular method instead of simply doing the work themselves. After the training, visitors reported that they better understood what had happened to their items. The organizers concluded that teaching people about a repair can be almost as valuable as completing the repair.",
+  "prompt": "Which option best restates: “We will contact shortlisted candidates for a trial shift within one week.”?",
+  "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "A repair café that trains volunteers to communicate.",
-   "How volunteers learn to fix items faster.",
-   "Why visitors complain about slow repairs.",
-   "A café that decides which items to repair."
+   "Shortlisted candidates will be offered a trial shift within a week.",
+   "Trial shifts will last for one week.",
+   "Only experienced candidates will be contacted.",
+   "Shortlisted candidates must wait several weeks."
   ],
   "answer": 0,
-  "explanation": "แกนเรื่องคือ “They introduced a short training day focused on communication” และข้อสรุปว่าการสอนผู้มาเยือนมีค่าพอ ๆ กับการซ่อม ตัวเลือกซ่อมเร็วขึ้น/ผู้เยี่ยมชมบ่น/เลือกรับซ่อม ไม่ใช่ประเด็นหลัก ตัวเลือก “How volunteers learn to fix items faster.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Why visitors complain about slow repairs.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A café that decides which items to repair.” ขัดกับข้อมูลที่บทความให้ไว้",
-  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A repair café training day",
+  "explanation": "ใจความคือผู้สมัครที่ผ่านการคัดเลือกจะได้รับการติดต่อให้มาทดลองงานภายในหนึ่งสัปดาห์ ตัวเลือกทดลองทันที/ทดลองนานหนึ่งสัปดาห์/ติดต่อเฉพาะมีประสบการณ์/รอหลายสัปดาห์ ไม่ตรงกับข้อความ ตัวเลือก “Trial shifts will last for one week.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Only experienced candidates will be contacted.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Shortlisted candidates must wait several weeks.” ขัดกับข้อมูลที่บทความให้ไว้",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "Advertisement: barista wanted for a downtown café",
   "diff": 1
  },
  {
@@ -3365,18 +3365,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does “They” in “They introduced a short training day” refer to?",
-  "context": "At a repair café, volunteers normally fix small household items such as lamps, bags, and loose chair joints. Recently, the organizers noticed that new volunteers often knew how to use tools but were less confident when explaining repairs to visitors. They introduced a short training day focused on communication. Volunteers practiced describing a problem in simple language, explaining the safest next step, and telling visitors when an item was beyond repair. The organizers also asked volunteers to explain why they chose a particular method instead of simply doing the work themselves. After the training, visitors reported that they better understood what had happened to their items. The organizers concluded that teaching people about a repair can be almost as valuable as completing the repair.",
+  "prompt": "What is the café's attitude toward applicants without experience?",
+  "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "The new volunteers.",
-   "The organizers.",
-   "The visitors.",
-   "The household items."
+   "Applicants without experience will not be considered.",
+   "Experience is welcome but not required.",
+   "Experience matters more than personality.",
+   "Experience is the only quality that matters."
   ],
   "answer": 1,
-  "explanation": "ประโยคก่อนหน้าคือ “the organizers noticed that new volunteers...” ผู้ที่สังเกตเห็นจึงเป็นผู้ introduced วันฝึก = the organizers",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A repair café training day",
+  "explanation": "ประกาศระบุ “Previous experience is welcome but not required” แสดงว่าไม่เน้นประสบการณ์เป็นเงื่อนไขเดียว ตัวเลือกไม่รับผู้ที่ไม่มีประสบการณ์/ประสบการณ์สำคัญกว่าบุคลิก/มีแค่ประสบการณ์ ขัดกับประกาศ",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "Advertisement: barista wanted for a downtown café",
   "diff": 2
  },
  {
@@ -3385,18 +3385,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the phrase “beyond repair” is closest in meaning to",
-  "context": "At a repair café, volunteers normally fix small household items such as lamps, bags, and loose chair joints. Recently, the organizers noticed that new volunteers often knew how to use tools but were less confident when explaining repairs to visitors. They introduced a short training day focused on communication. Volunteers practiced describing a problem in simple language, explaining the safest next step, and telling visitors when an item was beyond repair. The organizers also asked volunteers to explain why they chose a particular method instead of simply doing the work themselves. After the training, visitors reported that they better understood what had happened to their items. The organizers concluded that teaching people about a repair can be almost as valuable as completing the repair.",
+  "prompt": "What benefit is offered besides the monthly salary?",
+  "context": "Now hiring: A growing downtown café is looking for a friendly barista to join our team. The ideal candidate is enthusiastic about coffee, enjoys chatting with customers, and is comfortable working in a fast-paced environment. Previous experience is welcome but not required, as we provide full training on our coffee machine and recipes during the first two weeks. The role involves preparing drinks, serving customers, and keeping the counter clean and stocked. We offer a monthly salary of 18,000 baht, a weekly day off, and a free coffee allowance of two drinks per shift. Shifts run in two teams, morning and afternoon, with rotating weekend cover. Applicants should send a short message describing why they want to work at our café, along with their availability. We will contact shortlisted candidates for a trial shift within one week. Join us and help us grow our little corner of the city.",
   "options": [
-   "expensive to replace.",
-   "waiting for new parts.",
-   "impossible to fix.",
-   "still under guarantee."
+   "Free meals at every shift.",
+   "A bonus for every new customer.",
+   "A weekly day off and a free coffee allowance.",
+   "Transport allowance to the café."
   ],
   "answer": 2,
-  "explanation": "อาสาสมัครฝึก “telling visitors when an item was beyond repair” = บอกเมื่อของซ่อมไม่ได้แล้ว ตัวเลือกเปลี่ยนแพง/รออะไหล่/ยังอยู่ในประกัน ไม่ใช่ความหมายของสำนวนนี้ ตัวเลือก “expensive to replace.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “waiting for new parts.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “still under guarantee.” ขัดกับข้อมูลที่บทความให้ไว้",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A repair café training day",
+  "explanation": "ประกาศระบุว่าเสนอ “a weekly day off, and a free coffee allowance of two drinks per shift” จึงตอบวันหยุดประจำสัปดาห์และเครื่องดื่มฟรี ตัวเลือกอาหารฟรี/ประกันสุขภาพ/โบนัสลูกค้า/ค่าเดินทาง ไม่ได้กล่าวไว้",
+  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
+  "topic": "Advertisement: barista wanted for a downtown café",
   "diff": 3
  },
  {
@@ -4505,18 +4505,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What problem did the market have before the numbering system?",
-  "context": "A weekend market had a recurring problem: customers often walked to the wrong stall after hearing an announcement. The market manager tested a numbering system in which every stall received a large number that matched a simple map at the entrance. Vendors were asked to include the number on their signs as well. During the first two weekends, customers still asked questions, but the questions became more specific, such as “Where is stall 18?” rather than “Where can I find the bread?” The manager considered this a sign that the map was helping. The system was later expanded to delivery drivers, who used the numbers when collecting orders. The manager plans to keep the numbers but add colors to the map so visitors can identify food, clothing, and craft areas more quickly.",
+  "prompt": "When will the dinner sets be prepared for shipment?",
+  "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
-   "Announcements could not be heard clearly.",
-   "Shoppers often reached the wrong booth.",
-   "Vendors refused to display their new numbers.",
-   "Delivery drivers collected the wrong orders."
+   "Within two weeks of the order.",
+   "Within five working days of receiving the order.",
+   "Only after the damaged items are reported.",
+   "On the day the tracking number is sent."
   ],
   "answer": 1,
-  "explanation": "ประโยคแรกระบุปัญหา “customers often walked to the wrong stall after hearing an announcement” ตัวเลือกเสียงประกาศไม่ชัด/ร้านค้านไม่ติดเลข/คนขับหยิบผิด ไม่มีในบทความ",
+  "explanation": "อีเมลระบุว่าสินค้า “will be prepared for shipment within five working days” นับจากที่ได้รับคำสั่งซื้อ ตัวเลือกหลังชำระเงิน/สองสัปดาห์/หลังแจ้งของเสีย/วันที่ส่งเลขพัสดุ ไม่ตรงกับข้อความ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A market stall numbering system",
+  "topic": "Business email: order confirmation and delivery details",
   "diff": 3
  },
  {
@@ -4525,18 +4525,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does the manager plan to add to the map next?",
-  "context": "A weekend market had a recurring problem: customers often walked to the wrong stall after hearing an announcement. The market manager tested a numbering system in which every stall received a large number that matched a simple map at the entrance. Vendors were asked to include the number on their signs as well. During the first two weekends, customers still asked questions, but the questions became more specific, such as “Where is stall 18?” rather than “Where can I find the bread?” The manager considered this a sign that the map was helping. The system was later expanded to delivery drivers, who used the numbers when collecting orders. The manager plans to keep the numbers but add colors to the map so visitors can identify food, clothing, and craft areas more quickly.",
+  "prompt": "In the passage, what does “the goods” refer to?",
+  "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
-   "Numbers printed on the delivery vans.",
-   "Bigger signs at the market entrance.",
-   "Colors marking the food, clothing and craft areas.",
-   "Photos of the vendors’ stalls."
+   "The invoice for payment.",
+   "The damaged item photographs.",
+   "The three hundred ceramic dinner sets ordered.",
+   "The courier's delivery schedule."
   ],
   "answer": 2,
-  "explanation": "แผนต่อไปคือ “add colors to the map so visitors can identify food, clothing, and craft areas more quickly” ตัวเลือกอื่นไม่มีข้อมูลในบทความ ตัวเลือก “Numbers printed on the delivery vans.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Bigger signs at the market entrance.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Photos of the vendors’ stalls.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
-  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A market stall numbering system",
+  "explanation": "ข้อความ “the goods are available and will be prepared for shipment” อ้างถึงชุดจานชามเซรามิกสามร้อยชุดที่สั่งซื้อ ตัวเลือกเลขพัสดุ/ใบแจ้งหนี้/รูปของเสีย/ตารางส่งของ ไม่ใช่สิ่งถูกอ้างถึง ตัวเลือก “The invoice for payment.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The damaged item photographs.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The courier's delivery schedule.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
+  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
+  "topic": "Business email: order confirmation and delivery details",
   "diff": 2
  },
  {
@@ -4545,18 +4545,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "Which option best summarizes the passage?",
-  "context": "A weekend market had a recurring problem: customers often walked to the wrong stall after hearing an announcement. The market manager tested a numbering system in which every stall received a large number that matched a simple map at the entrance. Vendors were asked to include the number on their signs as well. During the first two weekends, customers still asked questions, but the questions became more specific, such as “Where is stall 18?” rather than “Where can I find the bread?” The manager considered this a sign that the map was helping. The system was later expanded to delivery drivers, who used the numbers when collecting orders. The manager plans to keep the numbers but add colors to the map so visitors can identify food, clothing, and craft areas more quickly.",
+  "prompt": "What should Mr. Tanaka do if items arrive damaged?",
+  "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
-   "Why weekend markets should sell more craft items.",
-   "A manager’s plan to enlarge the market.",
-   "How market vendors choose their stall locations.",
-   "How stall numbers helped market visitors."
+   "Wait for the factory to contact him.",
+   "Pay for a replacement order.",
+   "Call the courier to file a complaint.",
+   "Send photographs within three days of delivery."
   ],
   "answer": 3,
-  "explanation": "ทั้งเรื่องเล่าการทดลองระบบหมายเลขร้านค้าซึ่งช่วยให้ลูกค้าถามเจาะจงขึ้นและขยายไปถึงคนส่งของ ตัวเลือกขยายตลาด/เลือกทำเล/ขายงานคราฟต์ไม่ใช่แกนเรื่อง ตัวเลือก “Why weekend markets should sell more craft items.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A manager’s plan to enlarge the market.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “How market vendors choose their stall locations.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
-  "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A market stall numbering system",
+  "explanation": "อีเมลระบุ “please send us photographs within three days of delivery” เพื่อให้จัดหาสินค้าทดแทน ตัวเลือกส่งคืนทั้งรายการ/รอโรงงานติดต่อ/จ่ายเงินซื้อใหม่/โทรร้องเรียนบริษัทขนส่ง ไม่ได้กล่าวไว้ ตัวเลือก “Wait for the factory to contact him.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Pay for a replacement order.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Call the courier to file a complaint.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
+  "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
+  "topic": "Business email: order confirmation and delivery details",
   "diff": 1
  },
  {
@@ -4565,18 +4565,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does “this” in “The manager considered this a sign” refer to?",
-  "context": "A weekend market had a recurring problem: customers often walked to the wrong stall after hearing an announcement. The market manager tested a numbering system in which every stall received a large number that matched a simple map at the entrance. Vendors were asked to include the number on their signs as well. During the first two weekends, customers still asked questions, but the questions became more specific, such as “Where is stall 18?” rather than “Where can I find the bread?” The manager considered this a sign that the map was helping. The system was later expanded to delivery drivers, who used the numbers when collecting orders. The manager plans to keep the numbers but add colors to the map so visitors can identify food, clothing, and craft areas more quickly.",
+  "prompt": "Which option best restates: “Payment terms remain thirty days from the date of the invoice.”?",
+  "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
-   "Customers asking more specific questions.",
-   "The map placed at the entrance.",
-   "The loud volume of the announcement system.",
-   "The first weekend’s low sales."
+   "Payment is due thirty days after the invoice date.",
+   "The invoice is valid for thirty days only.",
+   "A thirty-day discount is offered for early payment.",
+   "Payment can be delayed without any limit."
   ],
   "answer": 0,
-  "explanation": "ประโยคก่อนหน้าเล่าว่าคำถามเปลี่ยนเป็นเจาะจงขึ้น เช่น “Where is stall 18?” ผู้จัดการจึงมอง การเปลี่ยนแปลงนี้ = this ว่าแผนที่ช่วยได้ ตัวเลือกอื่นไม่ใช่สิ่งที่ถูกอ้างถึง ตัวเลือก “The map placed at the entrance.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The loud volume of the announcement system.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The first weekend’s low sales.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A market stall numbering system",
+  "explanation": "ใจความคือชำระเงินภายในสามสิบวันนับจากวันที่ออกใบแจ้งหนี้ ตัวเลือกชำระก่อนส่งของ/ใบแจ้งหนี้มีอายุสามสิบวัน/ส่วนลดสามสิบวัน/ยืดเวลาได้ไม่จำกัด ไม่ตรงกับข้อความ ตัวเลือก “The invoice is valid for thirty days only.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A thirty-day discount is offered for early payment.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Payment can be delayed without any limit.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "Business email: order confirmation and delivery details",
   "diff": 2
  },
  {
@@ -4585,18 +4585,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the word “recurring” is closest in meaning to",
-  "context": "A weekend market had a recurring problem: customers often walked to the wrong stall after hearing an announcement. The market manager tested a numbering system in which every stall received a large number that matched a simple map at the entrance. Vendors were asked to include the number on their signs as well. During the first two weekends, customers still asked questions, but the questions became more specific, such as “Where is stall 18?” rather than “Where can I find the bread?” The manager considered this a sign that the map was helping. The system was later expanded to delivery drivers, who used the numbers when collecting orders. The manager plans to keep the numbers but add colors to the map so visitors can identify food, clothing, and craft areas more quickly.",
+  "prompt": "What is the sender's attitude toward the business relationship?",
+  "context": "Dear Mr. Tanaka, thank you for your order of three hundred ceramic dinner sets, which we received this morning. We are pleased to confirm that the goods are available and will be prepared for shipment within five working days. The items will be delivered by our courier to your warehouse in Chiang Rai, and you will receive a tracking number by email once the shipment leaves our factory. Please note that delivery will take around seven days, and someone will need to be present at the destination to receive and check the goods. If any items arrive damaged, please send us photographs within three days of delivery so that we can arrange a replacement. Payment terms remain thirty days from the date of the invoice, which you will receive separately. Should you need any further details, please reply to this email or call our sales office during business hours. We look forward to a long and successful partnership.",
   "options": [
-   "difficult for visitors to understand.",
-   "happening again and again.",
-   "surprising to almost everyone.",
-   "quickly fixed."
+   "Reluctant to work with new clients.",
+   "Hopeful and eager for a long partnership.",
+   "Disappointed by the large order.",
+   "Unwilling to accept further orders."
   ],
   "answer": 1,
-  "explanation": "“a recurring problem: customers often walked to the wrong stall” คือปัญหาที่เกิดซ้ำ ๆ ตัวเลือกเข้าใจยาก/น่าประหลาดใจ/แก้เร็ว ไม่ใช่ความหมายของ recurring ตัวเลือก “difficult for visitors to understand.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “surprising to almost everyone.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “quickly fixed.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A market stall numbering system",
+  "explanation": "อีเมลปิดท้ายด้วย “We look forward to a long and successful partnership” แสดงความหวังและอยากร่วมงานระยะยาว ตัวเลือกไม่แน่ใจ/ไม่อยากรับลูกค้าใหม่/ผิดหวัง/ไม่รับคำสั่งซื้อเพิ่ม ขัดกับอีเมล ตัวเลือก “Reluctant to work with new clients.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Disappointed by the large order.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Unwilling to accept further orders.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "Business email: order confirmation and delivery details",
   "diff": 2
  },
  {
@@ -5705,18 +5705,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What did the teacher count during the experiment?",
-  "context": "A teacher wanted to know whether changing classroom seating would affect group discussion. For one month, students sat in rows; for the next month, desks were arranged in small circles. The teacher counted how often students spoke during group tasks and also asked them how comfortable they felt. Participation increased during circle seating, but a few students said they found it harder to concentrate when nearby groups were talking. The teacher therefore decided not to keep one arrangement permanently. Instead, the class will use circles for discussion activities and rows for individual tests. The experiment did not show that one layout was always better. It showed that the best arrangement depended on the task students were doing.",
+  "prompt": "According to the article, what helps water sink into the soil?",
+  "context": "Each year, the rainy season brings both relief and challenge to the city. As rainfall arrives, the ground soaks up water, plants turn green, and reservoirs begin to refill after the hot months. Experts explain that a healthy water cycle depends on keeping some rain where it falls, through rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil. This year, the city has widened several drainage channels and repaired old pipes that used to block during heavy storms. Volunteers have also cleaned canals and cleared rubbish that would otherwise slow the flow. Officials warn, however, that no system can prevent every flood, and that residents in low-lying areas should watch weather reports and prepare emergency kits. The key message is that preparation, rather than fear, makes the season easier to manage. Small actions by many households add up to a real difference when the heavy rain comes.",
   "options": [
-   "How much each learner talked.",
-   "How long each group task took.",
-   "How many circles the desks formed.",
-   "How many tests the class passed."
+   "Permeable surfaces and tree planting.",
+   "A single large reservoir.",
+   "Water from the tap supply.",
+   "Drainage pipes under the roads."
   ],
   "answer": 0,
-  "explanation": "บทความระบุว่า “The teacher counted how often students spoke during group tasks” และถามความรู้สึกสบายแยกต่างหาก ตัวเลือกจับเวลางาน/นับวงกลม/นับผลสอบ ไม่มีในบทความ",
+  "explanation": "บทความระบุว่าการเก็บน้ำไว้ที่ต้นทางทำได้ผ่าน “rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil” จึงตอบพื้นผิวซึมน้ำและปลูกต้นไม้ ตัวเลือกถนนคอนกรีต/อ่างเก็บน้ำเดียว/น้ำประปา/ท่อระบายใต้ถนน ไม่ใช่สิ่งที่ช่วยให้น้ำซึม",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A classroom seating experiment",
+  "topic": "Article: how the city is preparing for the rainy season",
   "diff": 2
  },
  {
@@ -5725,18 +5725,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What was one disadvantage of the circle seating?",
-  "context": "A teacher wanted to know whether changing classroom seating would affect group discussion. For one month, students sat in rows; for the next month, desks were arranged in small circles. The teacher counted how often students spoke during group tasks and also asked them how comfortable they felt. Participation increased during circle seating, but a few students said they found it harder to concentrate when nearby groups were talking. The teacher therefore decided not to keep one arrangement permanently. Instead, the class will use circles for discussion activities and rows for individual tests. The experiment did not show that one layout was always better. It showed that the best arrangement depended on the task students were doing.",
+  "prompt": "What has the city done this year to handle heavy rain?",
+  "context": "Each year, the rainy season brings both relief and challenge to the city. As rainfall arrives, the ground soaks up water, plants turn green, and reservoirs begin to refill after the hot months. Experts explain that a healthy water cycle depends on keeping some rain where it falls, through rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil. This year, the city has widened several drainage channels and repaired old pipes that used to block during heavy storms. Volunteers have also cleaned canals and cleared rubbish that would otherwise slow the flow. Officials warn, however, that no system can prevent every flood, and that residents in low-lying areas should watch weather reports and prepare emergency kits. The key message is that preparation, rather than fear, makes the season easier to manage. Small actions by many households add up to a real difference when the heavy rain comes.",
   "options": [
-   "Participation dropped during group tasks.",
-   "Some students found it harder to concentrate.",
-   "Most students asked to return to rows permanently.",
-   "The teacher could not see the whole class clearly."
+   "Replaced every roof in the city.",
+   "Widened drainage channels and repaired old pipes.",
+   "Stopped all volunteer clean-up work.",
+   "Moved residents out of low-lying areas."
   ],
   "answer": 1,
-  "explanation": "ข้อความบอกว่า “a few students said they found it harder to concentrate when nearby groups were talking” ส่วนการมีส่วนร่วมกลับเพิ่มขึ้น ไม่ได้มีใครขอให้กลับไปใช้แถวถาวร",
+  "explanation": "บทความบอกว่าเมือง “has widened several drainage channels and repaired old pipes” 选项สร้างเขื่อนใหม่/เปลี่ยนหลังคาทุกหลัง/หยุดงานอาสา/ย้ายประชาชน ไม่มีข้อมูล ตัวเลือก “Replaced every roof in the city.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Stopped all volunteer clean-up work.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Moved residents out of low-lying areas.” ไม่มีข้อมูลใดในบทความรองรับ",
   "tip": "โจทย์ถามข้อมูลตรง ๆ ให้ย้อนหาประโยคที่ระบุข้อมูลนั้นในบทอ่าน แล้วเทียบทีละตัวเลือก ตัดข้อที่บทอ่านไม่ได้กล่าวถึง",
-  "topic": "A classroom seating experiment",
+  "topic": "Article: how the city is preparing for the rainy season",
   "diff": 1
  },
  {
@@ -5745,18 +5745,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What is the central point of the passage?",
-  "context": "A teacher wanted to know whether changing classroom seating would affect group discussion. For one month, students sat in rows; for the next month, desks were arranged in small circles. The teacher counted how often students spoke during group tasks and also asked them how comfortable they felt. Participation increased during circle seating, but a few students said they found it harder to concentrate when nearby groups were talking. The teacher therefore decided not to keep one arrangement permanently. Instead, the class will use circles for discussion activities and rows for individual tests. The experiment did not show that one layout was always better. It showed that the best arrangement depended on the task students were doing.",
+  "prompt": "What is the main idea of the article?",
+  "context": "Each year, the rainy season brings both relief and challenge to the city. As rainfall arrives, the ground soaks up water, plants turn green, and reservoirs begin to refill after the hot months. Experts explain that a healthy water cycle depends on keeping some rain where it falls, through rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil. This year, the city has widened several drainage channels and repaired old pipes that used to block during heavy storms. Volunteers have also cleaned canals and cleared rubbish that would otherwise slow the flow. Officials warn, however, that no system can prevent every flood, and that residents in low-lying areas should watch weather reports and prepare emergency kits. The key message is that preparation, rather than fear, makes the season easier to manage. Small actions by many households add up to a real difference when the heavy rain comes.",
   "options": [
-   "Circle seating is always better than rows.",
-   "Teachers should count student participation daily.",
-   "The best seating depends on the task being done.",
-   "Comfort matters more than participation."
+   "The rainy season causes more damage than the dry season.",
+   "Residents should avoid the rainy season entirely.",
+   "Preparation, not fear, makes the rainy season easier to manage.",
+   "Only experts can prepare for the rainy season."
   ],
   "answer": 2,
-  "explanation": "ประโยคสรุปคือ “It showed that the best arrangement depended on the task students were doing.” ตัวเลือกวงกลมดีกว่าเสมอขัดกับข้อความ และอีกสองตัวเลือกเป็นเพียงรายละเอียด ตัวเลือก “Circle seating is always better than rows.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Teachers should count student participation daily.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Comfort matters more than participation.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "explanation": "บทความสรุปด้วย “the key message is that preparation, rather than fear, makes the season easier to manage” จึงตอบเตรียมพร้อมแทนความกลัว ตัวเลือกทำความเสียหายมากกว่า/แก้ปัญหาน้ำท่วมหมด/หลีกเลี่ยงฤดูฝน/มีผู้เชี่ยวชาญเท่านั้น ขัดกับบทความ",
   "tip": "โจทย์ถามใจความหลัก ให้เลือกข้อที่ครอบคลุมทั้งเรื่อง ไม่ใช่รายละเอียดเพียงประโยคเดียว ตัดตัวเลือกที่แคบเกินหรือกว้างเกิน",
-  "topic": "A classroom seating experiment",
+  "topic": "Article: how the city is preparing for the rainy season",
   "diff": 2
  },
  {
@@ -5765,18 +5765,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "What does “It” in “It showed that the best arrangement depended on the task” refer to?",
-  "context": "A teacher wanted to know whether changing classroom seating would affect group discussion. For one month, students sat in rows; for the next month, desks were arranged in small circles. The teacher counted how often students spoke during group tasks and also asked them how comfortable they felt. Participation increased during circle seating, but a few students said they found it harder to concentrate when nearby groups were talking. The teacher therefore decided not to keep one arrangement permanently. Instead, the class will use circles for discussion activities and rows for individual tests. The experiment did not show that one layout was always better. It showed that the best arrangement depended on the task students were doing.",
+  "prompt": "Which option best restates: “Small actions by many households add up to a real difference when the heavy rain comes.”?",
+  "context": "Each year, the rainy season brings both relief and challenge to the city. As rainfall arrives, the ground soaks up water, plants turn green, and reservoirs begin to refill after the hot months. Experts explain that a healthy water cycle depends on keeping some rain where it falls, through rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil. This year, the city has widened several drainage channels and repaired old pipes that used to block during heavy storms. Volunteers have also cleaned canals and cleared rubbish that would otherwise slow the flow. Officials warn, however, that no system can prevent every flood, and that residents in low-lying areas should watch weather reports and prepare emergency kits. The key message is that preparation, rather than fear, makes the season easier to manage. Small actions by many households add up to a real difference when the heavy rain comes.",
   "options": [
-   "The group task.",
-   "The circle seating.",
-   "The one-month count.",
-   "The experiment."
+   "Households should wait for the city to act first.",
+   "Only wealthy households can make a difference.",
+   "Small actions have no effect on flooding at all.",
+   "Many small household efforts together make a real difference."
   ],
   "answer": 3,
-  "explanation": "ประโยคก่อนหน้าคือ “The experiment did not show that one layout was always better.” แล้วตามด้วย “It showed that...” ดังนั้น It = the experiment ทั้งการทดลอง ไม่ใช่การจัดโต๊ะหรืองานกลุ่ม ตัวเลือก “The group task.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The circle seating.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The one-month count.” ไม่มีข้อมูลใดในบทความรองรับ",
-  "tip": "โจทย์ถามคำอ้างอิง ให้อ่านประโยคก่อนหน้าคำสรรพนามนั้น แล้วแทนคำนามที่ตรงทั้งจำนวนและบทบาทในประโยคกลับไปอ่านอีกครั้ง",
-  "topic": "A classroom seating experiment",
+  "explanation": "ใจความคือการกระทำเล็ก ๆ ของหลายบ้านรวมกันสร้างความแตกต่างจริงเมื่อฝนตกหนัก ตัวเลือกโครงการใหญ่ไม่กี่อย่าง/รอเมืองทำก่อน/มีเฉพาะบ้านรวย/การกระทำเล็กไร้ผล ขัดกับบทความ ตัวเลือก “Households should wait for the city to act first.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Only wealthy households can make a difference.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Small actions have no effect on flooding at all.” ไม่มีข้อมูลใดในบทความรองรับ",
+  "tip": "โจทย์ถามการกล่าวซ้ำความหมาย ให้เทียบใจความตัวเลือกกับประโยคในโจทย์ เลือกข้อที่ไม่เพิ่ม ไม่ลด และไม่กลับความหมายเดิม",
+  "topic": "Article: how the city is preparing for the rainy season",
   "diff": 2
  },
  {
@@ -5785,18 +5785,18 @@
   "kind": "rc",
   "label": "Reading Comprehension",
   "section": "Reading",
-  "prompt": "In the passage, the word “permanently” is closest in meaning to",
-  "context": "A teacher wanted to know whether changing classroom seating would affect group discussion. For one month, students sat in rows; for the next month, desks were arranged in small circles. The teacher counted how often students spoke during group tasks and also asked them how comfortable they felt. Participation increased during circle seating, but a few students said they found it harder to concentrate when nearby groups were talking. The teacher therefore decided not to keep one arrangement permanently. Instead, the class will use circles for discussion activities and rows for individual tests. The experiment did not show that one layout was always better. It showed that the best arrangement depended on the task students were doing.",
+  "prompt": "What is the article's attitude toward flood prevention?",
+  "context": "Each year, the rainy season brings both relief and challenge to the city. As rainfall arrives, the ground soaks up water, plants turn green, and reservoirs begin to refill after the hot months. Experts explain that a healthy water cycle depends on keeping some rain where it falls, through rooftop gardens, tree planting, and permeable surfaces that let water sink into the soil. This year, the city has widened several drainage channels and repaired old pipes that used to block during heavy storms. Volunteers have also cleaned canals and cleared rubbish that would otherwise slow the flow. Officials warn, however, that no system can prevent every flood, and that residents in low-lying areas should watch weather reports and prepare emergency kits. The key message is that preparation, rather than fear, makes the season easier to manage. Small actions by many households add up to a real difference when the heavy rain comes.",
   "options": [
-   "for all time from now on.",
-   "for only one school term.",
-   "during the group discussions.",
-   "without asking the students."
+   "Realistic: systems help, but no solution prevents every flood.",
+   "Skeptical that any preparation helps.",
+   "Confident that the city has no flood risk.",
+   "Indifferent to residents' safety."
   ],
   "answer": 0,
-  "explanation": "“decided not to keep one arrangement permanently” = ไม่ใช้รูปแบบใดรูปแบบหนึ่งตลอดไป เพราะจะสลับตามกิจกรรม ตัวเลือกอื่นไม่ใช่ความหมายของ permanently ตัวเลือก “for only one school term.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “during the group discussions.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “without asking the students.” ไม่มีข้อมูลใดในบทความรองรับ",
-  "tip": "โจทย์ถามความหมายคำในบริบท ให้แทนความหมายของแต่ละตัวเลือกลงในประโยคที่พบคำนั้น แล้วเลือกข้อที่เข้ากับบริบทที่สุด",
-  "topic": "A classroom seating experiment",
+  "explanation": "บทความระบุ “no system can prevent every flood” แสดงทัศนะสมจริงว่าระบบช่วยได้แต่ป้องกันทุกน้ำท่วมไม่ได้ ตัวเลือกป้องกันได้หมด/ไม่เชื่อการเตรียมการ/เมืองไร้ความเสี่ยง/ไม่ใส่ใจ ขัดกับบทความ",
+  "tip": "โจทย์ถามท่าทีหรือมุมมอง ให้ดูคำแสดงน้ำเสียง เช่น however, still, not perfect, practical, hope แล้วสรุปว่าบุคคลนั้นรู้สึกอย่างไร",
+  "topic": "Article: how the city is preparing for the rainy season",
   "diff": 3
  },
  {

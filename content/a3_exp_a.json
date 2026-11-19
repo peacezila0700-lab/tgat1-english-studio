@@ -5,7 +5,23 @@
  },
  {
   "id": "S01-Q046",
-  "exp": "ข้อความบอกว่าห้องสมุดให้ยืมถุงเมล็ดแก่สมาชิก “who agree to return some seeds from the next harvest” จึงตอบคืนเมล็ดจากการเก็บเกี่ยวครั้งหน้า ตัวเลือกเก็บค่าธรรมเนียมขัดกับ “Instead of selling seeds” ตัวเลือกจดบันทึกพืชเป็นงานของ organizers ไม่ใช่สมาชิก ตัวเลือก “Pay a small fee for each seed packet.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Record which plants grow well in containers.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Exchange vegetables with the other members.” ไม่มีข้อมูลใดในบทความรองรับ"
+  "exp": "บทความระบุว่าการก่อสร้างล่าช้าสองครั้งเพราะ “land disputes and material shortages” จึงตอบข้อพิพาทเรื่องที่ดินและขาดแคลนวัสดุ ตัวเลือกค่าโดยสาร/การไม่อนุมัติเส้นทาง/ขาดคนงาน ไม่มีข้อมูลในบทความ ตัวเลือก “The city refused to approve the route.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Construction crews were hard to find.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The design had to be changed repeatedly.” ไม่มีข้อมูลใดในบทความรองรับ"
+ },
+ {
+  "id": "S01-Q047",
+  "exp": "แกนเรื่องคือทางรถไฟสายใหม่เปิดให้บริการแล้ว และอาจช่วยลดปัญหารถติดบนทางหลวง ตัวเลือกขยายอาคารสนามบิน/ลดค่าโดยสาร/รัฐมนตรีจะเกษียณ ไม่ใช่ประเด็นหลัก ตัวเลือก “A long-delayed rail link is now open to passengers.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Fares for airport transport have been lowered.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The transport minister plans to retire soon.” ไม่มีข้อมูลใดในบทความรองรับ"
+ },
+ {
+  "id": "S01-Q048",
+  "exp": "บทความบอกว่า “discounted cards are available for students and senior citizens” จึงตอบนักเรียนและผู้สูงอายุ ตัวเลือกนักท่องเที่ยว/กลุ่มสี่คน/ซื้อออนไลน์/ก่อนรุ่งสาง ไม่ได้กล่าวไว้ ตัวเลือก “People who travel in groups of four.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Anyone who buys a ticket online.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Passengers who use the service before dawn.” ไม่มีข้อมูลใดในบทความรองรับ"
+ },
+ {
+  "id": "S01-Q049",
+  "exp": "ใจความคือกลุ่มขนส่งอยากให้ผู้ประกอบการทบทวนตารางเวลาหลังจากเปิดให้บริการครบหนึ่งเดือน ตัวเลือกเปลี่ยนตารางแล้วสองครั้ง/กลุ่มจะวิ่งบริการเอง/ไม่ทบทวน ไม่มีข้อมูลรองรับ ตัวเลือก “Transport groups will run the service themselves.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The schedule will not be reviewed at all.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “One month of data will be used to judge the schedule.” ไม่มีข้อมูลใดในบทความรองรับ"
+ },
+ {
+  "id": "S01-Q050",
+  "exp": "รัฐมนตรีกล่าวว่าบริการจะช่วยลดปัญหารถติดบนทางหลวง แสดงทัศนะสนับสนุนและมองในแง่ดี ตัวเลือกสงสัย/ไม่สนใจ/ผิดหวัง ไม่สอดคล้องกับถ้อยคำในบทความ ตัวเลือก “Confident that it will ease highway traffic.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Indifferent to how passengers use it.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Disappointed by the long delays.” ไม่มีข้อมูลใดในบทความรองรับ"
  },
  {
   "id": "S01-Q053",
@@ -24,12 +40,16 @@
   "exp": "ช่อง (7) ต้องใช้ place an order ซึ่งเป็น collocation คงที่ แปลว่า สั่งซื้อ ส่วน put, lay, set ไม่เข้าคู่กับ an order ตัวเลือก “put” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “lay” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “set” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
-  "id": "S02-Q048",
-  "exp": "แกนของเรื่องคือคณะกรรมการนักเรียนศึกษาแถวและปรับจน “the queue moved faster on most days” ตัวเลือกขยายเวลาพัก/อาหารดีขึ้น/เลือกเมนู ไม่ใช่ประเด็นหลักของบทความ ตัวเลือก “Schools should give students a longer lunch break.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Students eat better meals when the queues are shorter.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “A committee decided what food the school should serve.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "id": "S02-Q046",
+  "exp": "ประกาศระบุว่าโครงสะพานมีรอยร้าวซึ่ง “cannot be repaired without a full replacement” จึงต้องปิดถนนเพื่อเปลี่ยน deck ทั้งหมด ตัวเลือกขูดผิวถนน/ทาสีสะพาน/ขุดคลองใหม่/ถนนแคบ ไม่มีข้อมูล ตัวเลือก “The bridge is being painted.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “A new canal is being dug nearby.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The road is too narrow for buses.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
-  "id": "S02-Q050",
-  "exp": "“the new arrangement made it easier to see what was available” หมายถึงการจัดวางพื้นที่เสิร์ฟใหม่ (เครื่องดื่มท้ายสถานีเสิร์ฟ + เมนูหน้าแถว) ไม่ใช่ความเร็ว รายการอาหาร หรือแผนสอบ ตัวเลือก “the speed of the lunch queue.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “the printed list of meals being served.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “the plan for the exam period.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+  "id": "S02-Q048",
+  "exp": "ข้อความ “Emergency vehicles will still be able to reach the area at all times” อ้างถึงพื้นที่ปิดการจราจรของถนน Khao San Road ตัวเลือกสำนักงานเทศบาล/ประตูวัด/ถนนลัด/ป้ายจอดรถชั่วคราว ไม่ใช่สิ่งถูกอ้างถึง ตัวเลือก “The temple gate.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The side streets used for diversion.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “The temporary bus stop.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
+ },
+ {
+  "id": "S02-Q049",
+  "exp": "ใจความของประกาศคือการแจ้งปิดถนนชั่วคราวและการเปลี่ยนแปลงการจราจร ตัวเลือกโฆษณาบริการ/เชิญประชุม/เปลี่ยนเวลาทำการ/รับฟังความคิดเห็น ไม่ใช่จุดประสงค์หลัก ตัวเลือก “To invite residents to a public meeting.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “To announce a change in municipal office hours.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “To collect feedback on traffic problems.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ"
  },
  {
   "id": "S02-Q054",
@@ -60,16 +80,8 @@
   "exp": "ช่อง (8) ต้องใช้ take pride in ซึ่งเป็น collocation คงที่ แปลว่า ภูมิใจใน... ประธาน the team เป็นเอกพจน์จึงเติม s ส่วน make, give, get pride ไม่เป็นสำนวน ตัวเลือก “makes” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “gives” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “gets” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
-  "id": "S03-Q047",
-  "exp": "วันฝึกเน้นการสื่อสาร: อาสาสมัคร “practiced describing a problem in simple language, explaining the safest next step” ส่วนการซ่อมเป็นงานปกติของร้าน ไม่ใช่เนื้อหาการฝึก ตัวเลือก “Repairing lamps, bags and loose chair joints.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Choosing the cheapest repair method.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Writing weekly reports for the organizers.” ขัดกับข้อมูลที่บทความให้ไว้"
- },
- {
   "id": "S03-Q048",
-  "exp": "แกนเรื่องคือ “They introduced a short training day focused on communication” และข้อสรุปว่าการสอนผู้มาเยือนมีค่าพอ ๆ กับการซ่อม ตัวเลือกซ่อมเร็วขึ้น/ผู้เยี่ยมชมบ่น/เลือกรับซ่อม ไม่ใช่ประเด็นหลัก ตัวเลือก “How volunteers learn to fix items faster.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Why visitors complain about slow repairs.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A café that decides which items to repair.” ขัดกับข้อมูลที่บทความให้ไว้"
- },
- {
-  "id": "S03-Q050",
-  "exp": "อาสาสมัครฝึก “telling visitors when an item was beyond repair” = บอกเมื่อของซ่อมไม่ได้แล้ว ตัวเลือกเปลี่ยนแพง/รออะไหล่/ยังอยู่ในประกัน ไม่ใช่ความหมายของสำนวนนี้ ตัวเลือก “expensive to replace.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “waiting for new parts.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “still under guarantee.” ขัดกับข้อมูลที่บทความให้ไว้"
+  "exp": "ใจความคือผู้สมัครที่ผ่านการคัดเลือกจะได้รับการติดต่อให้มาทดลองงานภายในหนึ่งสัปดาห์ ตัวเลือกทดลองทันที/ทดลองนานหนึ่งสัปดาห์/ติดต่อเฉพาะมีประสบการณ์/รอหลายสัปดาห์ ไม่ตรงกับข้อความ ตัวเลือก “Trial shifts will last for one week.” ไม่มีข้อมูลใดในบทความรองรับ ตัวเลือก “Only experienced candidates will be contacted.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Shortlisted candidates must wait several weeks.” ขัดกับข้อมูลที่บทความให้ไว้"
  },
  {
   "id": "S03-Q051",
@@ -97,19 +109,19 @@
  },
  {
   "id": "S04-Q047",
-  "exp": "แผนต่อไปคือ “add colors to the map so visitors can identify food, clothing, and craft areas more quickly” ตัวเลือกอื่นไม่มีข้อมูลในบทความ ตัวเลือก “Numbers printed on the delivery vans.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Bigger signs at the market entrance.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Photos of the vendors’ stalls.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
+  "exp": "ข้อความ “the goods are available and will be prepared for shipment” อ้างถึงชุดจานชามเซรามิกสามร้อยชุดที่สั่งซื้อ ตัวเลือกเลขพัสดุ/ใบแจ้งหนี้/รูปของเสีย/ตารางส่งของ ไม่ใช่สิ่งถูกอ้างถึง ตัวเลือก “The invoice for payment.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The damaged item photographs.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The courier's delivery schedule.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
  },
  {
   "id": "S04-Q048",
-  "exp": "ทั้งเรื่องเล่าการทดลองระบบหมายเลขร้านค้าซึ่งช่วยให้ลูกค้าถามเจาะจงขึ้นและขยายไปถึงคนส่งของ ตัวเลือกขยายตลาด/เลือกทำเล/ขายงานคราฟต์ไม่ใช่แกนเรื่อง ตัวเลือก “Why weekend markets should sell more craft items.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A manager’s plan to enlarge the market.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “How market vendors choose their stall locations.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
+  "exp": "อีเมลระบุ “please send us photographs within three days of delivery” เพื่อให้จัดหาสินค้าทดแทน ตัวเลือกส่งคืนทั้งรายการ/รอโรงงานติดต่อ/จ่ายเงินซื้อใหม่/โทรร้องเรียนบริษัทขนส่ง ไม่ได้กล่าวไว้ ตัวเลือก “Wait for the factory to contact him.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Pay for a replacement order.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Call the courier to file a complaint.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
  },
  {
   "id": "S04-Q049",
-  "exp": "ประโยคก่อนหน้าเล่าว่าคำถามเปลี่ยนเป็นเจาะจงขึ้น เช่น “Where is stall 18?” ผู้จัดการจึงมอง การเปลี่ยนแปลงนี้ = this ว่าแผนที่ช่วยได้ ตัวเลือกอื่นไม่ใช่สิ่งที่ถูกอ้างถึง ตัวเลือก “The map placed at the entrance.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “The loud volume of the announcement system.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The first weekend’s low sales.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
+  "exp": "ใจความคือชำระเงินภายในสามสิบวันนับจากวันที่ออกใบแจ้งหนี้ ตัวเลือกชำระก่อนส่งของ/ใบแจ้งหนี้มีอายุสามสิบวัน/ส่วนลดสามสิบวัน/ยืดเวลาได้ไม่จำกัด ไม่ตรงกับข้อความ ตัวเลือก “The invoice is valid for thirty days only.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “A thirty-day discount is offered for early payment.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Payment can be delayed without any limit.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
  },
  {
   "id": "S04-Q050",
-  "exp": "“a recurring problem: customers often walked to the wrong stall” คือปัญหาที่เกิดซ้ำ ๆ ตัวเลือกเข้าใจยาก/น่าประหลาดใจ/แก้เร็ว ไม่ใช่ความหมายของ recurring ตัวเลือก “difficult for visitors to understand.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “surprising to almost everyone.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “quickly fixed.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
+  "exp": "อีเมลปิดท้ายด้วย “We look forward to a long and successful partnership” แสดงความหวังและอยากร่วมงานระยะยาว ตัวเลือกไม่แน่ใจ/ไม่อยากรับลูกค้าใหม่/ผิดหวัง/ไม่รับคำสั่งซื้อเพิ่ม ขัดกับอีเมล ตัวเลือก “Reluctant to work with new clients.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “Disappointed by the large order.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Unwilling to accept further orders.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
  },
  {
   "id": "S04-Q053",
@@ -132,16 +144,12 @@
   "exp": "“combined both kinds of evidence” หมายถึงข้อมูลทั้งสองแบบ (ความทรงจำ + ภาพถ่าย) ที่ใช้สนับสนุนข้อสรุปของงาน ไม่ใช่ความเห็นเพื่อน รูปภาพอย่างเดียว หรือคำตอบในชั้นเรียน ตัวเลือก “opinions collected from a few close friends.” ใช้คำศัพท์นี้ ซึ่งข้อความไม่ได้กล่าวไว้ จึงไม่ใช่คำตอบ ตัวเลือก “photographs kept in a local archive.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “answers written during a class.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง"
  },
  {
-  "id": "S05-Q048",
-  "exp": "ประโยคสรุปคือ “It showed that the best arrangement depended on the task students were doing.” ตัวเลือกวงกลมดีกว่าเสมอขัดกับข้อความ และอีกสองตัวเลือกเป็นเพียงรายละเอียด ตัวเลือก “Circle seating is always better than rows.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Teachers should count student participation daily.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Comfort matters more than participation.” ไม่มีข้อมูลใดในบทความรองรับ"
+  "id": "S05-Q047",
+  "exp": "บทความบอกว่าเมือง “has widened several drainage channels and repaired old pipes” 选项สร้างเขื่อนใหม่/เปลี่ยนหลังคาทุกหลัง/หยุดงานอาสา/ย้ายประชาชน ไม่มีข้อมูล ตัวเลือก “Replaced every roof in the city.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Stopped all volunteer clean-up work.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Moved residents out of low-lying areas.” ไม่มีข้อมูลใดในบทความรองรับ"
  },
  {
   "id": "S05-Q049",
-  "exp": "ประโยคก่อนหน้าคือ “The experiment did not show that one layout was always better.” แล้วตามด้วย “It showed that...” ดังนั้น It = the experiment ทั้งการทดลอง ไม่ใช่การจัดโต๊ะหรืองานกลุ่ม ตัวเลือก “The group task.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “The circle seating.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “The one-month count.” ไม่มีข้อมูลใดในบทความรองรับ"
- },
- {
-  "id": "S05-Q050",
-  "exp": "“decided not to keep one arrangement permanently” = ไม่ใช้รูปแบบใดรูปแบบหนึ่งตลอดไป เพราะจะสลับตามกิจกรรม ตัวเลือกอื่นไม่ใช่ความหมายของ permanently ตัวเลือก “for only one school term.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “during the group discussions.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “without asking the students.” ไม่มีข้อมูลใดในบทความรองรับ"
+  "exp": "ใจความคือการกระทำเล็ก ๆ ของหลายบ้านรวมกันสร้างความแตกต่างจริงเมื่อฝนตกหนัก ตัวเลือกโครงการใหญ่ไม่กี่อย่าง/รอเมืองทำก่อน/มีเฉพาะบ้านรวย/การกระทำเล็กไร้ผล ขัดกับบทความ ตัวเลือก “Households should wait for the city to act first.” ขัดกับข้อมูลที่บทความให้ไว้ ตัวเลือก “Only wealthy households can make a difference.” ไม่ตรงกับเนื้อหาที่บทความกล่าวถึง ตัวเลือก “Small actions have no effect on flooding at all.” ไม่มีข้อมูลใดในบทความรองรับ"
  },
  {
   "id": "S05-Q060",

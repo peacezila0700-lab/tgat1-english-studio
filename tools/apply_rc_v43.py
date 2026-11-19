@@ -14,7 +14,13 @@ V=json.load(open('data/vault.json'));by={q['id']:q for q in V};order=[q['id'] fo
 rc=[q for q in V if q['kind']=='rc']
 assert len(rc)==300,len(rc)
 P=[]
-for f in sorted(glob.glob('content/rc_v43_[a-k].json')): P+=json.load(open(f))
+seen={}
+for f in sorted(glob.glob('content/rc_v43_*.json')):
+    data=json.load(open(f))
+    if isinstance(data,list):  # skip dict files like rc_v43_tips.json
+        for p in data:
+            seen[p['first']]=p  # later files (e.g. rc_v43_c4_*) override earlier specs
+P=[seen[k] for k in seen]
 assert len(P)==60,len(P)
 TIPS=json.load(open('content/rc_v43_tips.json'))
 REASON=('RC v43 question-type mix: v42.0.2 repeated the same five question types on every '
