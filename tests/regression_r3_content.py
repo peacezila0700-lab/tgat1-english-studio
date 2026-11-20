@@ -119,7 +119,7 @@ check('extreme-word rate: answer vs distractor within 1.5x in rc/long/short/qr (
 import itertools as _it
 _st=set('the a an of to in for and or is are was were be been with that this it they as at on by from their more some had but not when which than so who could would can also each one two its after before then them other only did over into about'.split())
 _P={q['id']:{w for w in re.findall(r"[a-z]+",q['context'].lower()) if w not in _st and len(w)>2} for q in rc[::5]}
-_mx=max((len(_P[a]&_P[b])/len(_P[a]|_P[b]),a,b) for a,b in _it.combinations(_P,2))
+_mx=max(((len(_P[a]&_P[b])/len(_P[a]|_P[b]) if (_P[a]|_P[b]) else 0.0,a,b) for a,b in _it.combinations(_P,2)), default=(0.0,None,None))
 check('RC: no passage pair with word overlap >0.25 (v43 Arena: 0.309)',_mx[0]<=0.25,f'{_mx[0]:.3f} {_mx[1]}/{_mx[2]}')
 _gen=collections.Counter(_p.get('genre','project report') for _f in _glob.glob(os.path.join(ROOT,'content','rc_v43_[a-k].json')) for _p in json.load(open(_f,encoding='utf-8')))
 check('RC: at least 5 passage genres (C4)',len(_gen)>=5,dict(_gen))
@@ -141,7 +141,7 @@ check('Q-R: key is the shortest option <=30% (v43 Claude 0.270)',_qsh<=0.30,f'{_
 _sc=collections.Counter(q['context'] for q in by['short'])
 check('Short: 60 distinct dialogues for 200 items (Arena round 2: 20)',len(_sc)==60,len(_sc))
 _SW={c:{w for w in re.findall(r"[a-z]+",c.lower()) if w not in _st and len(w)>2} for c in _sc}
-_smx=max((len(_SW[a]&_SW[b])/len(_SW[a]|_SW[b]),a[:24],b[:24]) for a,b in _it.combinations(_SW,2))
+_smx=max(((len(_SW[a]&_SW[b])/len(_SW[a]|_SW[b]) if (_SW[a]|_SW[b]) else 0.0,a[:24],b[:24]) for a,b in _it.combinations(_SW,2)), default=(0.0,None,None))
 check('Short: no dialogue pair with word overlap >0.30 (Arena round 2: 0.939)',_smx[0]<=0.30,f'{_smx[0]:.3f}')
 _sl=sum(len(q['options'][q['answer']])==max(map(len,q['options'])) for q in by['short'])/len(by['short'])
 check('Short: key is the longest option <=10% (Arena round 2: 0.000)',_sl<=0.10,f'{_sl:.3f}')
