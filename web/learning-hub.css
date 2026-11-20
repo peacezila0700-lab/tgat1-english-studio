@@ -248,3 +248,7 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 .lh-mot-icon{font-size:22px;line-height:1;flex-shrink:0}
 .lh-mot-text{font-size:14px;line-height:1.5;margin:0}
 .lh-mot-title{display:block;font-size:12px;font-weight:700;margin-top:2px;color:var(--pk-primary,#4f46e5)}
+
+/* Motivation wrapper card */
+.lh-motivation-wrap{margin:16px 0;padding:16px;border-radius:12px;background:var(--pk-surface,#fff);border:1px solid var(--pk-border,#e0e0e0)}
+.lh-motivation-wrap .lh-h{font-size:15px;margin-bottom:10px}
