@@ -213,3 +213,6 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 :root[data-theme="dark"] .lh-trend{background:#1a1a3a;border-color:#3a3a6a}
 :root[data-theme="dark"] .lh-trend-label{color:#9fa8da}
 :root[data-theme="dark"] .lh-xunit{background:#0d1a2a;border-color:#1976d2;color:#b3d9ff}
+
+/* lh-learn: learn view and mini-quiz container */
+.lh-learn{padding:20px}
