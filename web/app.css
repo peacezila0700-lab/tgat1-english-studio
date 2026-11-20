@@ -1635,7 +1635,7 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 /* --- premium card --- */
 .pk-card{background:var(--pk-paper);border:1px solid var(--pk-line);border-radius:20px;box-shadow:var(--pk-depth);padding:clamp(15px,2.3vw,21px);margin-bottom:14px;animation:pkFadeUp .35s ease both}
 .pk-card-h{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
-.pk-eyebrow{font-size:10.5px;letter-spacing:1.4px;font-weight:800;color:#7a6bd0;text-transform:uppercase}
+.pk-eyebrow{font-size:10.5px;letter-spacing:1.4px;font-weight:800;color:#5b4ad4;text-transform:uppercase}
 :root[data-theme="dark"] .pk-eyebrow{color:#a9b0e8}
 .pk-card h2{margin:0;font-size:17px;font-weight:800;color:var(--ink,#24334c)}
 .pk-muted{color:var(--mute,#66738f);font-size:12.5px}
@@ -1741,3 +1741,6 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 /* hub hero progress bars: white track/fill for contrast on gradient */
 .pk-hero .lh-bar{background:rgba(255,255,255,.28)}
 .pk-hero .lh-bar>i{background:#fff}
+/* dark-theme overrides for pk-mission accents */
+:root[data-theme="dark"] .pk-mission .pk-mi-go,:root[data-theme="dark"] .pk-mission .pk-mi-icon{color:#a9b0e8}
+:root[data-theme="dark"] .pk-mission.done .pk-mi-go,:root[data-theme="dark"] .pk-mission.done .pk-mi-icon{color:#54d6a2}
