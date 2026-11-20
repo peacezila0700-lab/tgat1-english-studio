@@ -24,6 +24,12 @@
 <link href="./icon-192.png" rel="icon" type="image/png"/>
 <link href="./apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 
+<!-- Speed optimization (v43.1.0): preload critical resources, prefetch lazy data chunks -->
+<link rel="preload" href="./data.js" as="script"/>
+<link rel="preload" href="./app.js" as="script"/>
+<link rel="prefetch" href="./data-vault.js" as="script"/>
+<link rel="prefetch" href="./data-senses.js" as="script"/>
+
 
 </head>
 <body>
@@ -70,6 +76,6 @@
 <div aria-live="polite" class="tgat-v18-update" id="tgat-v18-update" role="status"><span>มีแอปเวอร์ชันใหม่พร้อมใช้งาน</span><button id="tgat-v18-reload" type="button">อัปเดตแอป</button><button aria-label="ปิดการแจ้งเตือน" id="tgat-v18-later" type="button">ไว้ก่อน</button></div>
 
 <!-- Offline cache is managed by sw.js; do not unregister it during startup. -->
-<script src="./data.js"></script><script src="./data-real-exam.js"></script><!-- data-vault.js and data-senses.js load on demand. --><script src="./app.js"></script><!-- T4: learning-hub*.js load lazily via window.TGAT1_loadHub() on first hub entry (SW-cached for offline). -->
+<script defer src="./data.js"></script><script defer src="./data-real-exam.js"></script><!-- data-vault.js and data-senses.js load on demand. --><script defer src="./app.js"></script><!-- T4: learning-hub*.js load lazily via window.TGAT1_loadHub() on first hub entry (SW-cached for offline). -->
 </body>
 </html>
