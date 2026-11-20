@@ -309,18 +309,21 @@ function tgat1SpeechSpeak(text,options={}){
         const utterance=new Utterance(value),voice=vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang));
         if(voice){utterance.voice=voice;utterance.lang=voice.lang}else utterance.lang='en-US';
         utterance.rate=Number.isFinite(Number(options.rate))?Math.max(.6,Math.min(1.3,Number(options.rate))):.9;
-        utterance.onerror=()=>{if(typeof toast==='function')toast('เสียงไม่ออก ลองเช็กระดับเสียงและโหมดเงียบของเครื่อง')};
+        utterance.onerror=()=>{if(typeof toast==='function')toast('เสียงไม่ออก ลองเช็กระดับเสียงและโหมดเงียบของเครื่อง');if(typeof soundHelp==='function')soundHelp()};
         if(typeof synth.resume==='function')synth.resume();synth.speak(utterance);return true;
       };
       var _tries=0;
       var _wait=function(){
         vs=synth.getVoices()||[];
-        if(vs.length||_tries>10){return _speakVoice()}
-        _tries++;setTimeout(_wait,50);
+        if(vs.length){return _speakVoice()}
+        _tries++;
+        if(_tries>10){toast('ยังไม่พบเสียงอ่านภาษาอังกฤษ ดูวิธีแก้ไขด้านล่าง');return false}
+        setTimeout(_wait,50);
       };
       setTimeout(_wait,30);
-      return true;
+      return false;
     }
+    if(!vs.length){toast('ยังไม่พบเสียงอ่านภาษาอังกฤษ ดูวิธีแก้ไขด้านล่าง');return false}
     const utterance=new Utterance(value),voice=vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang));
     if(voice){utterance.voice=voice;utterance.lang=voice.lang}else utterance.lang='en-US';
     utterance.rate=Number.isFinite(Number(options.rate))?Math.max(.6,Math.min(1.3,Number(options.rate))):.9;
