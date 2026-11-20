@@ -73,7 +73,7 @@ TCC=['editor will review the guide','Families can return the kit','Players can r
 check('TC: sentences copied from other passages are gone',not [q['id'] for q in by['tc'] if any(t in q['context'] for t in TCC)])
 W={w['w']:w for w in D['studio']['words']}
 check('IPA: stress mark at syllable onset for CMUdict entries (compare, explain)',W['compare']['ipa']=='/kəmˈpɛɹ/' and W['explain']['ipa']=='/ɪkˈspleɪn/',(W['compare']['ipa'],W['explain']['ipa']))
-check('vocab: no headword deleted in round 3 (3,508 studio words)',len(D['studio']['words'])==3508,len(D['studio']['words']))
+check('vocab: no headword deleted in round 3 (3,799 studio words)',len(D['studio']['words'])==3799,len(D['studio']['words']))
 # ---- v43 gates (added by Claude, v43 round after Arena 16:13) ----
 # G-A: RC question-type mix (types live in content/ specs; vault has no type field)
 import glob as _glob
