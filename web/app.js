@@ -806,7 +806,7 @@ function studioProfile(){const app=document.getElementById('app'),p=STUDIO_PROFI
    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">
      <span class="pk-level"><span class="pk-lv-dot">Lv</span>${lv}</span>
      <span class="pk-streak-big"><span class="pk-flame" aria-hidden="true"></span>${streak} วัน</span>
-     <span style="background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);padding:5px 12px;border-radius:999px;font-weight:800;font-size:13.5px">${xp.toLocaleString()} XP</span>
+     <span class="pk-streak" style="font-size:13.5px">${xp.toLocaleString()} XP</span>
    </div>
    <div style="margin-top:14px;font-size:12px;opacity:.9">เลเวล ${xpPct}% — อีก ${Math.max(0,(xpNext-xp)).toLocaleString()} XP ขึ้นเลเวล ${lv+1}</div>
  </section>

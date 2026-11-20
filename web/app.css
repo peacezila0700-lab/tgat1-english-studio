@@ -1615,7 +1615,7 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 .pk-hero-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 
 /* streak flame */
-.pk-streak{display:inline-flex;align-items:center;gap:5px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.35);padding:4px 11px 4px 8px;border-radius:999px;font-weight:800;font-size:14px}
+.pk-streak{display:inline-flex;align-items:center;gap:5px;background:#fff;border:1px solid rgba(255,255,255,.5);padding:4px 11px 4px 8px;border-radius:999px;font-weight:800;font-size:14px;color:#3a46b0;box-shadow:0 2px 8px rgba(20,30,80,.14)}
 .pk-flame{width:17px;height:17px;display:inline-block;background:var(--pk-flame2);border-radius:50% 50% 50% 50%/60% 60% 40% 40%;transform-origin:center bottom;animation:pkFlame .9s ease-in-out infinite alternate}
 @keyframes pkFlame{
   0%{transform:scale(.92) rotate(-3deg);background:var(--pk-flame2)}
@@ -1734,3 +1734,10 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 .pk-path-wrap .pk-node-circle{width:48px;height:48px;font-size:19px}
 .pk-path-wrap .pk-node-title{font-size:12px;max-width:110px}
 .pk-path-wrap .pk-node-meta{font-size:10.5px;max-width:110px}
+/* locked badges: keep text readable for axe (same treatment as pf-badge.locked) */
+.pk-badge.locked{opacity:1!important;filter:grayscale(1);border-style:dashed}
+.pk-badge.locked b{color:#5f6673!important}
+:root[data-theme="dark"] .pk-badge.locked b{color:#6c7690!important}
+/* hub hero progress bars: white track/fill for contrast on gradient */
+.pk-hero .lh-bar{background:rgba(255,255,255,.28)}
+.pk-hero .lh-bar>i{background:#fff}
