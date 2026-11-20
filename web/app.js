@@ -786,6 +786,24 @@ function studioHome(){/* T1 merge: v9 personal home renderer folded in. */if(win
  <div class="st-section-head"><div><h2>ความคืบหน้าการสอบ</h2><p>แยกตามทักษะจากผลชุดจำลองที่ส่งแล้วเท่านั้น</p></div><button class="st-link" data-action="studioNav" data-arg="analytics">ดูรายละเอียด →</button></div><div class="st-card">${studioPartStats().some(x=>x.total)?studioPartStats().map(x=>`<div class="st-bar-row"><span class="name">${studioEsc(x.name)}</span><div class="st-chart-bar"><i style="width:${Math.max(0,Math.min(100,Number(x.acc)||0))}%"></i></div><b>${x.acc}%</b></div>`).join(''):'<div class="st-empty">ยังไม่มีข้อมูลแยกทักษะ · ทำชุดจำลองเต็มเพื่อเริ่มเก็บสถิติ</div>'}</div>
  <p class="st-footer-note">คะแนนและการวิเคราะห์เป็นผลจากข้อมูลฝึกภายในแอป ไม่ใช่คะแนนทางการหรือการรับประกันผลสอบ · คะแนนความพร้อมจะไม่แสดงจนกว่าจะมีผลสอบจำลองที่บันทึกจริง</p>`;
 }
+ /* v43.1 premium home: hero + missions + heatmap + KPIs */
+ const PK_MISSION_KEY='tgat1_studio_daily_v1';
+ function pkDaily(){try{const x=JSON.parse(localStorage.getItem(PK_MISSION_KEY)||'null');if(x&&x.date===todayKey())return x}catch(e){}const o={date:todayKey(),ans:0,flash:0,games:0};try{localStorage.setItem(PK_MISSION_KEY,JSON.stringify(o))}catch(e){}return o}
+ function pkBump(k,n){try{const d=pkDaily();d[k]=(Number(d[k])||0)+(n||1);window.__PK_DIRTY=true}catch(e){}}
+ function pkFlush(){try{if(window.__PK_DIRTY){const d=pkDaily();localStorage.setItem(PK_MISSION_KEY,JSON.stringify(d));window.__PK_DIRTY=false}}catch(e){}}
+ function pkRingSvg(pct,size,stroke){const r=(size/2)-(stroke/2),c=2*Math.PI*r,off=c*(1-Math.max(0,Math.min(1,pct||0)));return `<span class="pk-ring" style="width:${size}px;height:${size}px"><svg width="${size}" height="${size}" aria-hidden="true"><circle class="pk-ring-bg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}"/><circle class="pk-ring-fg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/></svg><span class="pk-ring-label">${pct}%</span></span>`}
+ function pkHeatmap(){
+   const days=safeRead(DAY_KEY,[]);
+   const map={};
+   (VLT_STATE.history||[]).forEach(h=>{const k=(h.at||'').slice(0,10);if(k)map[k]=(map[k]||0)+(h.mode==='mock'?3:1)});
+   days.forEach(k=>{if(!map[k])map[k]=1;else map[k]+=1});
+   const cells=[];const today=new Date();
+   for(let i=41;i>=0;i--){const d=new Date(today.getTime()-i*86400000),k=todayKey(d),n=map[k]||0;let lv=0;if(n>=8)lv=4;else if(n>=5)lv=3;else if(n>=3)lv=2;else if(n>=1)lv=1;cells.push({d,lv,k})}
+   const weeks=[];for(let w=0;w<5;w++){const col=cells.slice(w*7,w*7+7);weeks.push(col.map(c=>`<div class="pk-hm-cell l${c.lv}" title="${c.k}: ${c.lv?c.k+' · มีกิจกรรม':c.k+' · ไม่มีกิจกรรม'}"></div>`).join(''))}
+   const labels=['จันทร์','อังคาร','พุธ','พฤหัส','ศุกร์','เสาร์','อาทิตย์'].map(x=>`<span class="pk-hm-label">${x.slice(0,2)}</span>`).join('');
+   return `<div class="pk-hm-weeks"><div class="pk-hm-col">${weeks[0]}${labels}</div>${weeks.slice(1).map(w=>`<div class="pk-hm-col">${w}</div>`).join('')}</div>`;
+ }
+ 
 function studioProfile(){const app=document.getElementById('app'),p=STUDIO_PROFILE,history=studioMockHistory(),acc=studioAccuracy();
  const badges=[['first','🌱','เริ่มฝึกแล้ว'],['100','💯','ทำครบ 100 ข้อ'],['500','🏅','ทำครบ 500 ข้อ'],['perfect','✨','คะแนนเต็มในรอบฝึก'],['sets5','📘','พิชิต 5 ชุด'],['sets20','🏆','พิชิตครบ 20 ชุด'],['streak3','🔥','ฝึกต่อเนื่อง 3 วัน']];
  const lv=studioLevel(),xp=studioXP(),streak=studioStreak();
@@ -1351,24 +1369,7 @@ window.TGAT1_VLT_RUN_KEY=VLT_RUN_KEY;
    const day=Math.floor(new Date().setHours(0,0,0,0)/86400000);
    return {x:list[day%list.length],i:day%list.length};
  }
- /* v43.1 premium home: hero + missions + heatmap + KPIs */
- const PK_MISSION_KEY='tgat1_studio_daily_v1';
- function pkDaily(){try{const x=JSON.parse(localStorage.getItem(PK_MISSION_KEY)||'null');if(x&&x.date===todayKey())return x}catch(e){}const o={date:todayKey(),ans:0,flash:0,games:0};try{localStorage.setItem(PK_MISSION_KEY,JSON.stringify(o))}catch(e){}return o}
- function pkBump(k,n){try{const d=pkDaily();d[k]=(Number(d[k])||0)+(n||1);window.__PK_DIRTY=true}catch(e){}}
- function pkFlush(){try{if(window.__PK_DIRTY){const d=pkDaily();localStorage.setItem(PK_MISSION_KEY,JSON.stringify(d));window.__PK_DIRTY=false}}catch(e){}}
- function pkRingSvg(pct,size,stroke){const r=(size/2)-(stroke/2),c=2*Math.PI*r,off=c*(1-Math.max(0,Math.min(1,pct||0)));return `<span class="pk-ring" style="width:${size}px;height:${size}px"><svg width="${size}" height="${size}" aria-hidden="true"><circle class="pk-ring-bg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}"/><circle class="pk-ring-fg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/></svg><span class="pk-ring-label">${pct}%</span></span>`}
- function pkHeatmap(){
-   const days=safeRead(DAY_KEY,[]);
-   const map={};
-   (VLT_STATE.history||[]).forEach(h=>{const k=(h.at||'').slice(0,10);if(k)map[k]=(map[k]||0)+(h.mode==='mock'?3:1)});
-   days.forEach(k=>{if(!map[k])map[k]=1;else map[k]+=1});
-   const cells=[];const today=new Date();
-   for(let i=41;i>=0;i--){const d=new Date(today.getTime()-i*86400000),k=todayKey(d),n=map[k]||0;let lv=0;if(n>=8)lv=4;else if(n>=5)lv=3;else if(n>=3)lv=2;else if(n>=1)lv=1;cells.push({d,lv,k})}
-   const weeks=[];for(let w=0;w<5;w++){const col=cells.slice(w*7,w*7+7);weeks.push(col.map(c=>`<div class="pk-hm-cell l${c.lv}" title="${c.k}: ${c.lv?c.k+' · มีกิจกรรม':c.k+' · ไม่มีกิจกรรม'}"></div>`).join(''))}
-   const labels=['จันทร์','อังคาร','พุธ','พฤหัส','ศุกร์','เสาร์','อาทิตย์'].map(x=>`<span class="pk-hm-label">${x.slice(0,2)}</span>`).join('');
-   return `<div class="pk-hm-weeks"><div class="pk-hm-col">${weeks[0]}${labels}</div>${weeks.slice(1).map(w=>`<div class="pk-hm-col">${w}</div>`).join('')}</div>`;
- }
- function renderHome(){
+function renderHome(){
    recordStudyDay();
    const app=document.getElementById('app');if(!app)return;
    const acc=studioAccuracy(),mocks=studioMockHistory(),latest=mocks[0],due=studioDueWords().length;
