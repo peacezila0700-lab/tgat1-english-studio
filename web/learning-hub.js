@@ -374,6 +374,33 @@ function startFullCoverage(){if(st().active){toast('มีแบบฝึกท�
 function coverageCount(){const s=st();const seen=new Set(Object.keys(s.seen));let total=0,seenCount=0;
   if(bankReady()){total=VLT_BANK.length;VLT_BANK.forEach(q=>{if(seen.has(q.id))seenCount++})}
   return {seen:seenCount,total:total,pct:total?Math.round(seenCount/total*100):0}}
+/* Full Vocabulary Coverage: draw from ALL unseen words in the VocabularyLab pool,
+   so completing the guided path + full-vocab sessions reaches all 4,043 vocab entries. */
+function startFullVocabCoverage(){if(st().active){toast('มีแบบฝึกที่ค้างอยู่ ทำให้จบก่อน');return}withBank(()=>{
+  const vocabLab=W.TGAT1VocabularyLab;if(!vocabLab||typeof vocabLab.list!=='function'){toast('คลังคำศัพท์ยังไม่พร้อม');return}
+  const allWords=vocabLab.list();if(!allWords.length){toast('คลังคำศัพท์ยังว่าง');return}
+  const s=st();const vocabState=STUDIO_VSTATE&&STUDIO_VSTATE.items?STUDIO_VSTATE.items:{};
+  const unseen=allWords.filter(x=>!vocabState[x.w]||!vocabState[x.w].status);
+  const recent=allWords.filter(x=>vocabState[x.w]&&vocabState[x.w].status).sort((a,b)=>{
+    const da=vocabState[a.w].last||0,db=vocabState[b.w].last||0;return db-da});
+  const pool=unseen.concat(recent);
+  // pick 10 words spread across levels/categories
+  const byLevel={};pool.forEach(x=>{const lv=x.level||'?';(byLevel[lv]=byLevel[lv]||[]).push(x)});
+  const levels=Object.keys(byLevel).sort((a,b)=>b.length-a.length);
+  const per=Math.max(1,Math.floor(10/levels.length));let picked=0;const refs=[];
+  levels.forEach(lv=>{const take=Math.min(per,byLevel[lv].length,10-picked);
+    shuffle(byLevel[lv]).slice(0,take).forEach(x=>{
+      // build a vocab item that VocabularyLab can render
+      const opts=vocabLab._optionsFor?vocabLab._optionsFor(x.w):null;
+      if(opts&&opts.length===4){refs.push({word:x,context:x._examSource?x._examSource.text:(Array.isArray(x.senses)&&x.senses[0]?x.senses[0].example:(STUDIO_DATA.examples[x.w]||[])[0]||''),options:opts,answer:opts.findIndex(o=>o===x.th),source:x._examSource||null});picked++}
+    })});
+  if(refs.length<5){toast('คลังคำศัพท์ที่มีตัวเลือกแปลไม่ซ้ำยังไม่พอ');return}
+  s.active=makeRun('vocab',s.unit,shuffle(refs).slice(0,10),{key:'vocab',label:'ฝึกศัพท์ครบทุกคำ'});save();showRun();
+})}
+function vocabCoverageCount(){const vocabLab=W.TGAT1VocabularyLab;if(!vocabLab||typeof vocabLab.list!=='function')return{seen:0,total:0,pct:0};
+  const all=vocabLab.list();const vocabState=STUDIO_VSTATE&&STUDIO_VSTATE.items?STUDIO_VSTATE.items:{};
+  let seen=0;all.forEach(x=>{if(vocabState[x.w]&&vocabState[x.w].status)seen++});
+  return{seen,total:all.length,pct:all.length?Math.round(seen/all.length*100):0}}
 const HINTS={guided:true,remed:true,review:true};
 function current(){const r=st().active;if(!r)return null;const ref=r.items[r.i];return {r,ref,item:getItem(ref),a:r.ans[r.i]||(r.ans[r.i]={})}}
 function needConf(r){return r.conf.includes(r.i)}
@@ -539,6 +566,7 @@ function renderHub(){
   const topErr=Object.entries(errByC).sort((a,b)=>b[1]-a[1]).slice(0,5);
   const sk=skillSummary();
   const cov=coverageCount();
+  const vcov=vocabCoverageCount();
   const actBtn=a.k==='finished'?`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.review">ทบทวนจุดอ่อน</button>`:`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.continue" ${READONLY?'disabled':''}><span>เรียนต่อ</span><small>Continue Learning</small></button>`;
   el.innerHTML=`
   ${NOTICE?`<div class="st-card lh-notice" role="status">${esc(NOTICE)}</div>`:''}
@@ -548,8 +576,10 @@ function renderHub(){
     <p class="st-subtitle">${esc(ph?('ช่วงที่ '+ph.id+' · '+ph.title):'')}${u&&u.en?' · '+esc(u.en):''}</p>
     <div class="lh-progress-row"><span>ผ่านแล้ว <b>${doneUnits}</b> / ${UNITS} หน่วย</span>${bar(doneUnits/UNITS*100)}</div>
     ${cov.total?`<div class="lh-progress-row"><span>ข้อสอบที่เคยทำ <b>${cov.seen}</b> / ${cov.total} ข้อ · ${cov.pct}%</span>${bar(cov.pct)}</div>`:''}
+    ${vcov.total?`<div class="lh-progress-row"><span>คำศัพท์ที่เคยฝึก <b>${vcov.seen}</b> / ${vcov.total} คำ · ${vcov.pct}%</span>${bar(vcov.pct)}</div>`:''}
     <section class="lh-vocab-shortcut"><div><div class="st-eyebrow">TGAT1 EXAM VOCABULARY</div><b>ศัพท์จากบริบทข้อสอบ + ระบบทบทวนแบบเว้นระยะ</b><p class="lh-mini">ฝึกคำที่พบในโจทย์ฝึกและวลีเป้าหมาย · ไม่เปลี่ยนคะแนนหรือเงื่อนไขผ่านหน่วย</p></div><button type="button" class="st-btn small" data-action="TGAT1VocabularyLab.start" data-arg="hub">ฝึกศัพท์ 10 ข้อ →</button></section>
     ${cov.total&&cov.pct<100?`<section class="lh-vocab-shortcut"><div><div class="st-eyebrow">FULL BANK COVERAGE</div><b>ฝึกครบทุก ${cov.total} ข้อสอบในคลัง</b><p class="lh-mini">ดึงข้อสอบที่ยังไม่เคยทำจากทุกหมวดหมู่ · ครบ 1,200 ข้อเมื่อเรียน hub + ฝึกครบทุกข้อ</p></div><button type="button" class="st-btn small" data-action="TGAT1Hub.fullCoverage">ฝึกครบทุกข้อ 10 ข้อ →</button></section>`:''}
+    ${vcov.total&&vcov.pct<100?`<section class="lh-vocab-shortcut"><div><div class="st-eyebrow">FULL VOCABULARY COVERAGE</div><b>ศัพท์จากบริบท · ฝึกครบทุก ${vcov.total} คำ</b><p class="lh-mini">ดึงคำที่ยังไม่เคยฝึกจากทุกหมวดและทุกระดับ · ครบ 4,043 คำเมื่อเรียน hub + ฝึกศัพท์ครบทุกคำ</p></div><button type="button" class="st-btn small" data-action="TGAT1Hub.fullVocab">ฝึกศัพท์ครบทุกคำ 10 คำ →</button></section>`:''}
     <ol class="lh-steps" aria-label="ขั้นตอนของหน่วยที่ ${n}">${sp.map(x=>`<li class="${us.done[x.k]?'done':''}${a.k==='step'&&a.step.k===x.k?' now':''}"><span aria-hidden="true">${us.done[x.k]?'✓':'•'}</span>${esc(x.label)}</li>`).join('')}</ol>
     <div class="lh-next"><div><small>ขั้นต่อไป</small><b>${esc(describe(a))}</b></div>${actBtn}</div>
     ${a.k==='external'?`<p class="lh-mini">กิจกรรมนี้อยู่ในระบบเดิมของแอป ระบบจะนับว่าเสร็จเมื่อทำครบในระบบนั้น · <button type="button" class="lh-link" data-action="TGAT1Hub.cancelPending">ยกเลิกกิจกรรมนี้ไว้ก่อน</button></p>`:''}
@@ -738,7 +768,7 @@ W.TGAT1Hub=Object.freeze({
   continue(){continueToHub()},
   step:(n,k)=>{try{STUDIO_PAGE='hub';W.studioUpdateChrome('hub')}catch(_){}stepEntry(n,k)},openUnit:n=>{try{STUDIO_PAGE='hub';W.studioUpdateChrome('hub')}catch(_){}openUnit(n)},
   learnDone,pick:pickOption,conf:setConf,next:nextQ,pause:pauseRun,fast:fastFinish,review:()=>{if(st().active){showRun();return}startReview()},extra:startExtra,
-  showErrors,cancelPending,fullCoverage:startFullCoverage,coverage:coverageCount,
+  showErrors,cancelPending,fullCoverage:startFullCoverage,coverage:coverageCount,fullVocab:startFullVocabCoverage,vocabCoverage:vocabCoverageCount,
   logVocabulary(n,score,total){const s=st();const u=Number(n);if(!Number.isInteger(u)||u<1||u>UNITS)return false;log({k:'vocab',u,score:clamp(Number(score)||0,0,1000),total:clamp(Number(total)||0,0,1000),pct:Number(total)>0?Math.round(Number(score)/Number(total)*100):0});save();return true},
   // read-only helpers for diagnostics and automated tests
   state:()=>JSON.parse(JSON.stringify(st())),nextAction:()=>{const a=nextAction();return {k:a.k,u:a.u,step:a.step&&a.step.k}},
