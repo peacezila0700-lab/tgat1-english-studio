@@ -516,7 +516,7 @@ function VLT_day(){const d=new Date();return d.getFullYear()+'-'+String(d.getMon
 function VLT_get(id){return VLT_BY_ID.get(id)||null}
 function VLT_toast(s){const old=document.querySelector('.vault-toast');if(old)old.remove();const d=document.createElement('div');d.className='toast vault-toast';d.textContent=s;document.body.appendChild(d);setTimeout(()=>d.remove(),2400)}
 function VLT_updateBadges(){const add=(id,yes)=>{if(yes&&!VLT_STATE.badges.includes(id))VLT_STATE.badges.push(id)};add('first',VLT_STATE.answered>=1);add('100',VLT_STATE.answered>=100);add('500',VLT_STATE.answered>=500);add('perfect',VLT_STATE.history.some(h=>h.total>=10&&h.score===h.total));add('sets5',Object.keys(VLT_STATE.completedSets).filter(k=>VLT_STATE.completedSets[k]).length>=5);add('sets20',Object.keys(VLT_STATE.completedSets).filter(k=>VLT_STATE.completedSets[k]).length>=20);add('streak3',VLT_STATE.streak>=3);}
-function VLT_record(q,ok,saveNow=true){VLT_STATE.answered++;if(ok){VLT_STATE.correct++;VLT_STATE.xp+=8;VLT_STATE.mastered[q.id]=(VLT_STATE.mastered[q.id]||0)+1;if(VLT_STATE.mastered[q.id]>=3)delete VLT_STATE.missed[q.id];}else{VLT_STATE.missed[q.id]=(VLT_STATE.missed[q.id]||0)+1;VLT_STATE.xp+=1;}const d=VLT_day(),y=new Date(Date.now()-86400000),yd=y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0');if(VLT_STATE.lastDay!==d){VLT_STATE.streak=VLT_STATE.lastDay===yd?VLT_STATE.streak+1:1;VLT_STATE.lastDay=d;}VLT_updateBadges();if(saveNow)VLT_save()}
+function VLT_record(q,ok,saveNow=true){VLT_STATE.answered++;if(typeof pkBump==='function')pkBump('ans');if(ok){VLT_STATE.correct++;VLT_STATE.xp+=8;VLT_STATE.mastered[q.id]=(VLT_STATE.mastered[q.id]||0)+1;if(VLT_STATE.mastered[q.id]>=3)delete VLT_STATE.missed[q.id];}else{VLT_STATE.missed[q.id]=(VLT_STATE.missed[q.id]||0)+1;VLT_STATE.xp+=1;}const d=VLT_day(),y=new Date(Date.now()-86400000),yd=y.getFullYear()+'-'+String(y.getMonth()+1).padStart(2,'0')+'-'+String(y.getDate()).padStart(2,'0');if(VLT_STATE.lastDay!==d){VLT_STATE.streak=VLT_STATE.lastDay===yd?VLT_STATE.streak+1:1;VLT_STATE.lastDay=d;}VLT_updateBadges();if(saveNow)VLT_save()}
 function VLT_originalHome(){if(typeof window.VLT_ORIGINAL_HOME==='function')window.VLT_ORIGINAL_HOME()}
 /* v40.8.0: removed an unreachable earlier declaration of VLT_open(); the later declaration below always replaced it (function hoisting). */
 let VLT_HOME_TAB='sets';
@@ -636,7 +636,7 @@ function VLT_exit(){/* T1 merge: v17 draft-save + v19 timing pause folded in. */
 function VLT_finishBase(auto=false){const r=VLT_RUN;if(!r)return;VLT_stopTimer();const isMock=r.mode==='mock',isSprint=r.mode==='sprint';let total=0,score=0,scored=[];
  if(isMock){const rawCorrect=r.qs.filter(q=>r.answers[q.id]===q.answer).length;const speaking=r.qs.filter(q=>['qr','short','long'].includes(q.category));const reading=r.qs.filter(q=>['tc','rc'].includes(q.category));const spOK=speaking.filter(q=>r.answers[q.id]===q.answer).length;const rdOK=reading.filter(q=>r.answers[q.id]===q.answer).length;score=Math.round((speaking.length?spOK/speaking.length*50:0)+(reading.length?rdOK/reading.length*50:0));total=100;scored=r.qs.map(q=>({...q,userAnswer:r.answers[q.id]}));for(const q of r.qs){const answered=Number.isInteger(r.answers[q.id]);if(answered){const ok=r.answers[q.id]===q.answer;VLT_record(q,ok,false);}else{VLT_STATE.missed[q.id]=(VLT_STATE.missed[q.id]||0)+1;}}if(Number(r.setNo)>=1&&Number(r.setNo)<=20){const prev=VLT_STATE.completedSets[r.setNo];VLT_STATE.completedSets[r.setNo]={score,attempts:(prev&&prev.attempts||0)+1,best:Math.max(score,prev&&prev.best||0),date:VLT_day()};}VLT_STATE.scoreScale=100;VLT_STATE.xp+=score;}
  else{total=Object.keys(r.answers).length;score=isSprint?r.score:r.score;scored=r.qs.slice(0,Math.min(r.index+1,r.qs.length)).filter(q=>Number.isInteger(r.answers[q.id])).map(q=>({...q,userAnswer:r.answers[q.id]}));if(r.mode==='daily')VLT_STATE.dailyDone=VLT_day();VLT_STATE.xp+=r.mode==='daily'?20:isSprint?Math.max(5,score*2):5;}
- VLT_STATE.history.push({mode:r.mode,setNo:r.setNo||null,score,total,at:new Date().toISOString(),rawScore:isMock?scored.filter(q=>q.userAnswer===q.answer).length:null,categories:isMock?VLT_CATS.map(c=>({cat:c[0],total:r.qs.filter(q=>q.category===c[0]).length,score:r.qs.filter(q=>q.category===c[0]&&r.answers[q.id]===q.answer).length})):[]});VLT_STATE.history=VLT_STATE.history.slice(-80);VLT_updateBadges();VLT_save();VLT_RUN=null;VLT_RESULT={mode:r.mode,score,total,scored,auto,setNo:r.setNo||null};VLT_renderResult();}
+ VLT_STATE.history.push({mode:r.mode,setNo:r.setNo||null,score,total,at:new Date().toISOString(),rawScore:isMock?scored.filter(q=>q.userAnswer===q.answer).length:null,categories:isMock?VLT_CATS.map(c=>({cat:c[0],total:r.qs.filter(q=>q.category===c[0]).length,score:r.qs.filter(q=>q.category===c[0]&&r.answers[q.id]===q.answer).length})):[]});VLT_STATE.history=VLT_STATE.history.slice(-80);VLT_updateBadges();VLT_save();if(typeof pkFlush==='function')pkFlush();VLT_RUN=null;VLT_RESULT={mode:r.mode,score,total,scored,auto,setNo:r.setNo||null};VLT_renderResult();}
 let VLT_RESULT=null;
 function VLT_renderResult(){const r=VLT_RESULT;if(!r)return VLT_home();const pct=r.total?Math.round(r.score/r.total*100):0;const msg=pct>=90?'เทพมาก! สมควรรับมง 👑':pct>=75?'เก่งมาก อีกนิดเดียวก็แน่นแล้ว 🌟':pct>=50?'กำลังมาถูกทาง ฝึกจุดที่พลาดต่อได้เลย 💪':'ไม่เป็นไร ทุกข้อที่พลาดคือโอกาสเรียนรู้ 🌱';const wrong=r.scored.filter(q=>q.userAnswer!==q.answer);const completedSets=Object.keys(VLT_STATE.completedSets).filter(k=>VLT_STATE.completedSets[k]).length;
  const catResults=r.mode==='mock'?`<div class="vault-grid" style="margin-top:14px">${VLT_CATS.map(c=>{const qs=r.scored.filter(q=>q.category===c[0]),n=qs.filter(q=>q.userAnswer===q.answer).length;return `<div class="vault-stat"><b>${c[1]}</b><div class="num">${n}/${qs.length}</div><div class="vault-progress"><span style="width:${qs.length?n/qs.length*100:0}%"></span></div></div>`}).join('')}</div>`:'';
@@ -746,6 +746,7 @@ window.TGAT1_loadHub=function(){
   });
 };
 function studioNavNow(page){
+  if(typeof pkFlush==='function')pkFlush();
   const before=STUDIO_PAGE;
   /* v382: leaving the reading page clears the legacy-bank mode. */
   if(page!=='reading'&&window.TGAT1_setLegacyReading)window.TGAT1_setLegacyReading(false);
@@ -947,6 +948,7 @@ function studioFlashMark(status){
  STUDIO_FLASH_REVEALED=false;
  if(STUDIO_FLASH.index>=STUDIO_FLASH.pool.length){
   STUDIO_VSTATE.sessions.push({at:new Date().toISOString(),total:STUDIO_FLASH.pool.length});
+  if(typeof pkBump==='function'){pkBump('flash',Math.max(1,STUDIO_FLASH.pool.length));pkBump('games');pkFlush()}
   studioSave('tgat1_studio_vocab_progress_v1',STUDIO_VSTATE);
   STUDIO_FLASH=null;
   studioVocabulary();
@@ -1244,91 +1246,114 @@ window.TGAT1_VLT_RUN_KEY=VLT_RUN_KEY;
    const day=Math.floor(new Date().setHours(0,0,0,0)/86400000);
    return {x:list[day%list.length],i:day%list.length};
  }
+ /* v43.1 premium home: hero + missions + heatmap + KPIs */
+ const PK_MISSION_KEY='tgat1_studio_daily_v1';
+ function pkDaily(){try{const x=JSON.parse(localStorage.getItem(PK_MISSION_KEY)||'null');if(x&&x.date===todayKey())return x}catch(e){}const o={date:todayKey(),ans:0,flash:0,games:0};try{localStorage.setItem(PK_MISSION_KEY,JSON.stringify(o))}catch(e){}return o}
+ function pkBump(k,n){try{const d=pkDaily();d[k]=(Number(d[k])||0)+(n||1);window.__PK_DIRTY=true}catch(e){}}
+ function pkFlush(){try{if(window.__PK_DIRTY){const d=pkDaily();localStorage.setItem(PK_MISSION_KEY,JSON.stringify(d));window.__PK_DIRTY=false}}catch(e){}}
+ function pkRingSvg(pct,size,stroke){const r=(size/2)-(stroke/2),c=2*Math.PI*r,off=c*(1-Math.max(0,Math.min(1,pct||0)));return `<span class="pk-ring" style="width:${size}px;height:${size}px"><svg width="${size}" height="${size}" aria-hidden="true"><circle class="pk-ring-bg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}"/><circle class="pk-ring-fg" cx="${size/2}" cy="${size/2}" r="${r}" fill="none" stroke-width="${stroke}" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"/></svg><span class="pk-ring-label">${pct}%</span></span>`}
+ function pkHeatmap(){
+   const days=safeRead(DAY_KEY,[]);
+   const map={};
+   (VLT_STATE.history||[]).forEach(h=>{const k=(h.at||'').slice(0,10);if(k)map[k]=(map[k]||0)+(h.mode==='mock'?3:1)});
+   days.forEach(k=>{if(!map[k])map[k]=1;else map[k]+=1});
+   const cells=[];const today=new Date();
+   for(let i=41;i>=0;i--){const d=new Date(today.getTime()-i*86400000),k=todayKey(d),n=map[k]||0;let lv=0;if(n>=8)lv=4;else if(n>=5)lv=3;else if(n>=3)lv=2;else if(n>=1)lv=1;cells.push({d,lv,k})}
+   const weeks=[];for(let w=0;w<5;w++){const col=cells.slice(w*7,w*7+7);weeks.push(col.map(c=>`<div class="pk-hm-cell l${c.lv}" title="${c.k}: ${c.lv?c.k+' · มีกิจกรรม':c.k+' · ไม่มีกิจกรรม'}"></div>`).join(''))}
+   const labels=['จันทร์','อังคาร','พุธ','พฤหัส','ศุกร์','เสาร์','อาทิตย์'].map(x=>`<span class="pk-hm-label">${x.slice(0,2)}</span>`).join('');
+   return `<div class="pk-hm-weeks"><div class="pk-hm-col">${weeks[0]}${labels}</div>${weeks.slice(1).map(w=>`<div class="pk-hm-col">${w}</div>`).join('')}</div>`;
+ }
  function renderHome(){
    recordStudyDay();
    const app=document.getElementById('app');if(!app)return;
    const acc=studioAccuracy(),mocks=studioMockHistory(),latest=mocks[0],due=studioDueWords().length;
    const learned=studioWordLearned(),total=STUDIO_DATA.words.length,word=dailyWord();
-   const days=safeRead(DAY_KEY,[]),today=todayKey();
-   const recent=Array.from({length:28},(_,n)=>{const d=new Date();d.setDate(d.getDate()-(27-n));const k=todayKey(d);return `<span class="dash-day${days.includes(k)?' active':''}${k===today?' today':''}" title="${k}">${d.getDate()}</span>`}).join('');
+   const miss=Object.keys(VLT_STATE.missed||{}).length;
+   const done=studioCompleted();
+   const dm=pkDaily();
+   const missions=[
+     {key:'ans',icon:'✎',title:'ตอบข้อสอบ',desc:`10 ข้อ · ตอบไปแล้ว ${Math.min(10,dm.ans)} ข้อ`,pct:Math.min(1,dm.ans/10),act:`data-action="VLT_startQuick"`,done:dm.ans>=10},
+     {key:'flash',icon:'🃏',title:'ทบทวนศัพท์',desc:`${due||10} คำถึงกำหนด · ทบทวนแล้ว ${dm.flash}`,pct:Math.min(1,dm.flash/Math.max(1,due||10)),act:`data-action="studioStartFlashcards"`,done:dm.flash>=Math.max(1,due||10)},
+     {key:'games',icon:'✦',title:'เล่นเกม 1 รอบ',desc:'มินิเกมศัพท์ · เล่นแล้ว '+dm.games+' รอบ',pct:Math.min(1,dm.games),act:`data-action="studioRunVocabGame" data-arg="match"`,done:dm.games>=1},
+     {key:'daily',icon:'🎯',title:'ภารกิจประจำวัน',desc:VLT_STATE.dailyDone===todayKey()?'ทำเสร็จแล้ววันนี้':'ทำชุด TGAT1 10 ข้อ',pct:VLT_STATE.dailyDone===todayKey()?1:0,act:`data-action="VLT_startDaily"`,done:VLT_STATE.dailyDone===todayKey()}
+   ];
+   const missionHtml=missions.map(m=>`<button type="button" class="pk-mission ${m.done?'done':''}" ${m.act} type="button"><span class="pk-mi-icon">${m.icon}</span><b>${m.title}</b><small>${m.desc}</small><span class="pk-mi-go">${m.done?'✓ ทำเสร็จแล้ว':'เริ่มเลย →'}</span></button>`).join('');
    const goal=target(),score=latest?Math.round(latest.score):null;
-   const done=studioCompleted(),miss=Object.keys(VLT_STATE.missed||{}).length;
    const percent=total?Math.round(learned/total*100):0;
    const first=STUDIO_PROFILE.name?`กลับมาแล้ว ${esc(STUDIO_PROFILE.name)}`:'วันนี้มาเก็บศัพท์กัน';
-   const progressAngle=Math.round(percent*3.6);
-   const accuracyLabel=acc===null?'—':acc+'%';
-   const wordLabel=word?studioWordPosLabel(word.x.pos)+' · '+word.x.level:'Vocabulary';
-   app.innerHTML=`<div class="dash-home">
-    <section class="dash-hero">
-      <div class="dash-grid-glow" aria-hidden="true"></div>
-      <div class="dash-hero-copy">
-        <div class="dash-live-pill"><i></i> YOUR PERSONAL EXAM STUDIO <span>·</span> TGAT1</div>
-        <h1>${first}<br/><em>พร้อมอัปเลเวลหรือยัง?</em></h1>
-        <p>ฝึกให้ตรงจุด เห็นพัฒนาการทุกวัน แล้วเปลี่ยนความพยายามให้เป็นคะแนนที่ดีขึ้น</p>
-        <div class="dash-hero-actions">
-          <button class="dash-cta-primary" data-action="VLT_startDaily"><span>เริ่มภารกิจวันนี้</span><b>→</b></button>
-          <button class="dash-cta-glass" data-action="studioNav" data-arg="exam"><span class="dash-cta-play">▶</span> เข้าสนามสอบ</button>
-        </div>
-        <div class="dash-hero-foot"><span>✦ 1,200 ข้อสอบฝึก</span><span>✦ ${total.toLocaleString()} คำศัพท์</span><span>✦ 5 ทักษะหลัก</span></div>
+   const missionsDone=missions.filter(m=>m.done).length;
+   const weak=studioWeakPart();
+   const weakBtn=weak?`<button class="st-btn secondary" data-action="VLT_startCategory" data-arg="${esc(weak.id)}">ฝึก ${esc(weak.name)} →</button>`:'';
+   app.innerHTML=`<div class="pk-wrap">
+    <section class="pk-hero">
+      <div class="pk-hero-top">
+        <div class="pk-eyebrow">PERSONAL EXAM STUDIO · ${new Date().toLocaleDateString('th-TH',{weekday:'long',day:'numeric',month:'long'})}</div>
+        <span class="pk-streak"><span class="pk-flame" aria-hidden="true"></span>${studioStreak()} วันต่อเนื่อง</span>
       </div>
-      <div class="dash-hero-visual" aria-label="ความก้าวหน้าคลังคำศัพท์ ${percent} เปอร์เซ็นต์">
-        <div class="dash-orbit dash-orbit-one"></div><div class="dash-orbit dash-orbit-two"></div>
-        <div class="dash-gauge" style="--dash-angle:${progressAngle}deg">
-          <div class="dash-gauge-inner"><span class="dash-gauge-kicker">WORD POWER</span><strong>${percent}<small>%</small></strong><span class="dash-gauge-label">คลังศัพท์ที่รู้แล้ว</span><div class="dash-gauge-count">${learned.toLocaleString()} / ${total.toLocaleString()} คำ</div></div>
-        </div>
-        <div class="dash-float-card dash-float-xp"><span class="dash-float-icon">⚡</span><div><b>${studioXP().toLocaleString()} XP</b><small>คะแนนสะสม</small></div><span class="dash-float-spark">✦</span></div>
-        <div class="dash-float-card dash-float-streak"><span class="dash-flame">🔥</span><div><b>${studioStreak()} วัน</b><small>ฝึกต่อเนื่อง</small></div></div>
-        <div class="dash-hero-star dash-star-a">✦</div><div class="dash-hero-star dash-star-b">✧</div>
+      <h1 class="pk-greet">${first}</h1>
+      <p class="pk-sub">${weak?('โฟกัสวันนี้: '+esc(weak.name)+(weak.acc!==null?` · ความแม่นยำ ${weak.acc}%`:' · มีข้อที่ต้องทบทวน')):'ฝึกอย่างมีเป้าหมาย เห็นพัฒนาการทุกวัน อัปเลเวลไปพร้อมกัน'}</p>
+      <div class="pk-quick" style="margin-top:14px">
+        <button type="button" class="pk-qb" data-action="VLT_startDaily"><span>🎯</span>ภารกิจวันนี้</button>
+        <button type="button" class="pk-qb alt" data-action="studioStartFlashcards"><span>🃏</span>ทบทวนศัพท์ ${due?`(${due})`:''}</button>
+        <button type="button" class="pk-qb alt" data-action="VLT_startQuick"><span>⚡</span>สอบสั้น 10 ข้อ</button>
       </div>
-      <div class="dash-hero-bottomline"><span>SMALL STEPS. BIG SCORE.</span><span>LET'S MAKE IT COUNT <b>↗</b></span></div>
+      <div style="display:flex;align-items:center;gap:14px;margin-top:16px">
+        ${pkRingSvg(missionsDone/4,64,6)}
+        <div style="font-size:12.5px;opacity:.92;line-height:1.5">ภารกิจวันนี้<br/><b style="font-size:15px">${missionsDone}/4 สำเร็จ</b></div>
+        <div style="margin-left:auto;text-align:right;font-size:12px;opacity:.9">
+          <div><b style="font-size:17px;font-weight:800">${studioXP().toLocaleString()} XP</b> · Lv ${studioLevel()}</div>
+          <div>${learned.toLocaleString()}/${total.toLocaleString()} คำ · ${percent}%</div>
+        </div>
+      </div>
     </section>
 
-    <section class="dash-kpi-grid" aria-label="ภาพรวมความก้าวหน้า">
-      <article class="dash-kpi dash-kpi-xp"><div class="dash-kpi-top"><span class="dash-kpi-icon">⚡</span><span class="dash-kpi-tag">TOTAL XP</span></div><strong>${studioXP().toLocaleString()}</strong><small>คะแนนประสบการณ์สะสม</small><div class="dash-kpi-trail"><i style="width:${Math.min(100,(studioXP()%500)/5)}%"></i></div></article>
-      <article class="dash-kpi dash-kpi-accuracy"><div class="dash-kpi-top"><span class="dash-kpi-icon">◎</span><span class="dash-kpi-tag">ACCURACY</span></div><strong>${accuracyLabel}</strong><small>${VLT_STATE.correct.toLocaleString()} / ${VLT_STATE.answered.toLocaleString()} ข้อที่ตอบถูก</small><div class="dash-kpi-trail"><i style="width:${acc===null?0:acc}%"></i></div></article>
-      <article class="dash-kpi dash-kpi-sets"><div class="dash-kpi-top"><span class="dash-kpi-icon">🏁</span><span class="dash-kpi-tag">MOCK SETS</span></div><strong>${done}<b>/20</b></strong><small>ชุดจำลองที่ทำครบแล้ว</small><div class="dash-kpi-trail"><i style="width:${done/20*100}%"></i></div></article>
-      <article class="dash-kpi dash-kpi-review"><div class="dash-kpi-top"><span class="dash-kpi-icon">↻</span><span class="dash-kpi-tag">READY TO REVIEW</span></div><strong>${due.toLocaleString()}</strong><small>คำศัพท์ที่ถึงเวลาทบทวน</small><div class="dash-kpi-action" data-action="studioStartFlashcards">ทบทวนตอนนี้ <b>→</b></div></article>
+    <section class="pk-card">
+      <div class="pk-card-h"><div><div class="pk-eyebrow">DAILY MISSIONS</div><h2>ภารกิจวันนี้ — แตะแล้วเริ่มได้เลย</h2></div><span class="pk-muted">${missionsDone}/4 สำเร็จ</span></div>
+      <div class="pk-missions">${missionHtml}</div>
+      ${weakBtn?`<div style="margin-top:12px"><button class="st-btn secondary" data-action="VLT_startCategory" data-arg="${esc(weak.id)}">🧭 ฝึกจุดอ่อน: ${esc(weak.name)} →</button></div>`:''}
     </section>
 
-    <section class="dash-section-head"><div><span class="dash-section-kicker">PICK YOUR NEXT MOVE</span><h2>เริ่มฝึกตรงนี้</h2><p>เลือกโหมดที่เหมาะกับเวลาของคุณ แล้วไปต่อได้เลย</p></div><span class="dash-section-mark">01 <i>/ 02</i></span></section>
-    <section class="dash-quick-grid">
-      <button class="dash-quick-card quick-vocab" data-action="studioNav" data-arg="vocab"><span class="dash-quick-icon">📚</span><span class="dash-quick-arrow">↗</span><b>คลังคำศัพท์</b><small>${total.toLocaleString()} คำ · วลี · collocations</small><span class="dash-quick-link">EXPLORE WORDS <i>→</i></span></button>
-      <button class="dash-quick-card quick-flash" data-action="studioStartFlashcards"><span class="dash-quick-icon">🃏</span><span class="dash-quick-arrow">↗</span><b>Flashcards</b><small>${due?due+' คำถึงเวลาทบทวน':'ฝึกจำคำที่ยังไม่คล่อง'}</small><span class="dash-quick-link">TRAIN YOUR MEMORY <i>→</i></span></button>
-      <button class="dash-quick-card quick-game" data-action="studioNav" data-arg="game"><span class="dash-quick-icon">🎮</span><span class="dash-quick-arrow">↗</span><b>เกมฝึกทักษะ</b><small>เกมศัพท์ ภาพ และประโยค</small><span class="dash-quick-link">PLAY & LEARN <i>→</i></span></button>
-      <button class="dash-quick-card quick-exam" data-action="studioNav" data-arg="exam"><span class="dash-quick-icon">📝</span><span class="dash-quick-arrow">↗</span><b>สนามสอบ TGAT1</b><small>20 ชุดเต็ม · 60 ข้อต่อชุด</small><span class="dash-quick-link">ENTER EXAM HALL <i>→</i></span></button>
+    <section class="pk-kpis" aria-label="ภาพรวมความก้าวหน้า">
+      <div class="pk-kpi"><span class="pk-k-ico">◎</span><div class="pk-k-label">ความแม่นยำ</div><div class="pk-k-val">${acc===null?'—':acc+'%'}</div><div class="pk-k-foot">${VLT_STATE.answered.toLocaleString()} ข้อที่ตอบ</div></div>
+      <div class="pk-kpi"><span class="pk-k-ico">🏆</span><div class="pk-k-label">ชุดสอบที่พิชิต</div><div class="pk-k-val">${done}<span style="font-size:15px;color:var(--mute,#66738f)">/20</span></div><div class="pk-k-foot">${latest?`ล่าสุด ${latest.score}/100`:'ยังไม่มีคะแนน'}</div></div>
+      <div class="pk-kpi"><span class="pk-k-ico">📖</span><div class="pk-k-label">คำศัพท์ที่รู้แล้ว</div><div class="pk-k-val">${learned.toLocaleString()}</div><div class="pk-k-foot">${percent}% ของคลัง</div></div>
+      <div class="pk-kpi"><span class="pk-k-ico">↻</span><div class="pk-k-label">ทบทวนที่รออยู่</div><div class="pk-k-val">${due.toLocaleString()}</div><div class="pk-k-foot">คำถึงกำหนด · ${miss} ข้อที่เคยผิด</div></div>
     </section>
 
-    <section class="dash-section-head dash-section-spaced"><div><span class="dash-section-kicker">YOUR DAILY MOMENTUM</span><h2>พัฒนาการของคุณ</h2><p>ความสม่ำเสมอเล็ก ๆ สร้างผลลัพธ์ระยะยาว</p></div><span class="dash-section-mark">02 <i>/ 02</i></span></section>
-    <section class="dash-feature-grid">
-      <article class="dash-feature-card dash-word-card">
-        <div class="dash-feature-top"><span class="dash-feature-icon">✦</span><span class="dash-feature-label">WORD OF THE DAY</span><span class="dash-feature-index">TODAY'S PICK</span></div>
-        <div class="dash-word-body"><div class="dash-word-text"><h3>${word?esc(word.x.w):'Ready?'}</h3><p>${word?esc(word.x.th):'เริ่มเรียนรู้คำศัพท์วันนี้'}</p><span class="dash-word-chip">${esc(wordLabel)}</span></div><div class="dash-word-orbit" aria-hidden="true"><span>W</span><i>✦</i><b>Aa</b></div></div>
-        <button class="dash-feature-link" ${word?`data-action="studioWordDetail" data-arg="${word.i}"`:`data-action="studioNav" data-arg="vocab"`} type="button">เปิดคำนี้ในคลังศัพท์ <b>↗</b></button>
-      </article>
-      <article class="dash-feature-card dash-goal-card">
-        <div class="dash-feature-top"><span class="dash-feature-icon goal-icon">◎</span><span class="dash-feature-label">YOUR SCORE TARGET</span><button class="dash-goal-edit" data-action="studioNav" data-arg="profile" type="button">แก้ไขเป้าหมาย ↗</button></div>
-        <div class="dash-goal-main"><div><span class="dash-goal-caption">เป้าคะแนน TGAT1</span><strong>${goal}<small>/100</small></strong></div><div class="dash-goal-medal">🏆</div></div>
-        <div class="dash-goal-track"><i style="width:${score===null?0:Math.min(100,score/goal*100)}%"></i></div>
-        <div class="dash-goal-foot"><span>${score===null?'ยังไม่มีคะแนนจำลองล่าสุด':`คะแนนล่าสุด ${score}/100`}</span><b>${score===null?'เริ่มจากชุดแรกได้เลย':score>=goal?'ถึงเป้าหมายแล้ว!':`อีก ${goal-score} คะแนน`}</b></div>
-      </article>
+    <section class="pk-card">
+      <div class="pk-card-h"><div><div class="pk-eyebrow">WEEKLY ACTIVITY</div><h2>กิจกรรม 5 สัปดาห์ล่าสุด</h2></div><span class="pk-muted">ความสม่ำเสมอสร้างผลลัพธ์</span></div>
+      ${pkHeatmap()}
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px;font-size:11px;color:var(--mute,#66738f)"><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:rgba(48,63,130,.09);vertical-align:middle"></i> ไม่มี</span><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:rgba(79,110,247,.35);vertical-align:middle"></i> เล็กน้อย</span><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:rgba(79,110,247,.6);vertical-align:middle"></i> ปานกลาง</span><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:rgba(122,92,245,.85);vertical-align:middle"></i> มาก</span><span><i style="display:inline-block;width:10px;height:10px;border-radius:3px;background:linear-gradient(135deg,#7a5cf5,#4f6ef7);vertical-align:middle"></i> มากที่สุด</span></div>
     </section>
 
-    <section class="dash-bottom-grid">
-      <article class="dash-feature-card dash-calendar-card">
-        <div class="dash-feature-top"><span class="dash-feature-label">STUDY STREAK</span><span class="dash-streak-badge">🔥 ${studioStreak()} วันต่อเนื่อง</span></div>
-        <div class="dash-calendar-heading"><div><h3>Keep showing up.</h3><p>ปฏิทินการเข้าใช้งาน 28 วันที่ผ่านมา</p></div><span class="dash-calendar-spark">✺</span></div>
-        <div class="dash-calendar-grid">${recent}</div>
-        <div class="dash-calendar-legend"><span><i></i> วันที่มีกิจกรรม</span><span>CONSISTENCY IS KEY</span></div>
-      </article>
-      <article class="dash-feature-card dash-focus-card">
-        <div class="dash-feature-top"><span class="dash-feature-label">YOUR NEXT FOCUS</span><span class="dash-focus-pulse"><i></i> READY</span></div>
-        <h3>กลับมาเก็บจุดที่ยังไม่แม่น</h3>
-        <p>มีคำศัพท์ถึงกำหนด ${due.toLocaleString()} คำ และข้อสอบที่เคยตอบผิด ${miss.toLocaleString()} ข้อ เลือกทบทวนต่อได้เลย</p>
-        <div class="dash-focus-actions"><button data-action="studioStartFlashcards" type="button">↻ ทบทวนศัพท์</button><button data-action="studioOpenErrors" type="button">เปิดสมุดข้อผิด ↗</button></div>
-        <div class="dash-focus-footer"><button data-action="studioNav" data-arg="analytics" type="button">ดูสถิติพัฒนาการทั้งหมด <b>→</b></button><button data-action="studioV9Grammar" type="button">Grammar <b>↗</b></button></div>
-      </article>
+    <section class="pk-head"><div><div class="pk-eyebrow">TODAY'S PICK</div><h2>คำศัพท์ประจำวัน</h2></div><button type="button" class="st-link" data-action="studioNav" data-arg="vocab">คลังคำศัพท์ →</button></section>
+    <section class="pk-card">
+      <div style="display:flex;gap:14px;align-items:center">
+        <div style="width:56px;height:56px;border-radius:16px;background:var(--pk-grad-soft);display:grid;place-items:center;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:22px;color:#5b4ad4;flex:none">${word?esc(word.x.w.slice(0,2).toUpperCase()):'Aa'}</div>
+        <div style="min-width:0">
+          <div class="pk-eyebrow">${word?studioWordPosLabel(word.x.pos)+' · '+word.x.level:'VOCABULARY'}</div>
+          <h2 style="font-size:20px">${word?esc(word.x.w):'พร้อมเรียนรู้คำใหม่'}</h2>
+          <p class="pk-muted" style="margin:2px 0 0">${word?esc(word.x.th):'เปิดคลังคำศัพท์เพื่อเริ่มฝึก'}</p>
+        </div>
+      </div>
+      <button type="button" class="st-btn secondary" style="margin-top:14px" ${word?`data-action="studioWordDetail" data-arg="${word.i}"`:`data-action="studioNav" data-arg="vocab"`}>📖 ดูความหมายและตัวอย่าง →</button>
     </section>
-    <div class="dash-settings-row"><span>ทุกความก้าวหน้าถูกเก็บไว้ในอุปกรณ์นี้</span><button data-action="studioNav" data-arg="settings" type="button">⚙ ตั้งค่าและสำรองข้อมูล</button></div>
+
+    <section class="pk-head"><div><div class="pk-eyebrow">PICK YOUR NEXT MOVE</div><h2>ศูนย์การเรียน</h2></div></section>
+    <div class="st-grid three">
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="vocab"><span class="st-icon-box">▤</span><span><b>Vocabulary Center</b><small>${total.toLocaleString()} คำ · วลี · flashcards & SRS</small></span></button>
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="exam"><span class="st-icon-box">✎</span><span><b>Exam Center</b><small>1,200 ข้อฝึก · 20 ชุดเต็ม · 5 ทักษะ</small></span></button>
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="game"><span class="st-icon-box">✦</span><span><b>Game Center</b><small>มินิเกมศัพท์ · ภารกิจ · สปรินต์</small></span></button>
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="hub"><span class="st-icon-box">◈</span><span><b>Learning Hub</b><small>เส้นทาง 70 หน่วย · เรียนครบทั้งคลัง</small></span></button>
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="reading"><span class="st-icon-box">文</span><span><b>Reading Trainer</b><small>กลยุทธ์อ่าน + บทอ่าน + โจทย์จริง</small></span></button>
+      <button type="button" class="st-action-card" data-action="studioNav" data-arg="analytics"><span class="st-icon-box">◷</span><span><b>สถิติพัฒนาการ</b><small>คะแนน · แนวโน้ม · แยกตามทักษะ</small></span></button>
+    </div>
+    <div class="pk-card" style="margin-top:14px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="font-size:18px">📌</span>
+        <p class="pk-muted" style="margin:0">โจทย์ฝึกที่จัดทำขึ้น ไม่ใช่ข้อสอบทางการหรือข้อสอบย้อนหลัง · ความคืบหน้าบันทึกในอุปกรณ์นี้</p>
+      </div>
+    </div>
    </div>`;
  }
  window.studioV9SetTarget=()=>{const el=document.getElementById('st9Target');setTarget(el&&el.value)};
@@ -2009,7 +2034,7 @@ const prompt=recall?`<div class="v15-recall-prompt"><div class="st-eyebrow">THAI
 const revealed=recall?!!f.checked:STUDIO_FLASH_REVEALED;
 app.innerHTML=`<div class="st-inline" style="justify-content:space-between"><div><div class="st-eyebrow">SMART SPACED REPETITION</div><h1 class="st-title">${recall?'ทดสอบจำคำศัพท์ย้อนหลัง':'ทบทวนคำศัพท์'}</h1><p class="st-subtitle">${f.kind==='due'?'คำที่ถึงกำหนดแล้ว':f.kind==='new'?'คำศัพท์ใหม่':f.kind==='dueRecall'?'ทดสอบคำที่ถึงกำหนด':'ทดสอบคำที่เคยเรียนหรือเคยฝึกแล้ว'}</p></div><button class="st-btn ghost" data-action="V15_exit">✕ ออก</button></div><div class="st-card" style="max-width:760px;margin:18px auto"><div class="st-inline" style="justify-content:space-between"><span class="st-tag blue">${n}/${total}</span><span class="st-tag">${esc(x.level)} · ${esc(x.pos||x.cat||'')}</span></div><div class="v15-sessionbar" style="margin:12px 0 18px"><i style="width:${n/total*100}%"></i></div>${prompt}${revealed?detail:''}${revealed?`<p class="st-subtitle" style="text-align:center;margin:13px 0 0">${recall?'ประเมินตามที่ตอบได้จริง':'ประเมินตามความจำจริง ไม่ใช่ความรู้สึกว่าเคยเห็นคำนี้'}</p><div class="v15-rating"><button data-action="V15_grade" data-arg="again">อีกครั้ง<small>จำไม่ได้ · 10 นาที</small></button><button data-action="V15_grade" data-arg="hard">ยาก<small>ต้องใช้แรงคิด</small></button><button data-action="V15_grade" data-arg="good">ดี<small>จำได้</small></button><button data-action="V15_grade" data-arg="easy">ง่าย<small>จำได้ทันที</small></button></div>`:(!recall?`<div class="v15-flash-detail"><b>ความหมาย</b><p>แตะการ์ดหรือปุ่มเพื่อเปิดความหมาย</p></div><div class="st-inline" style="justify-content:center;margin-top:10px"><button class="st-btn" data-action="studioFlashFlip">เปิดความหมาย</button></div>`:'')}</div>`};
 window.V15_grade=function(rating){const f=STUDIO_FLASH;if(!f||!STUDIO_FLASH_REVEALED)return;const key=f.pool[f.index],old=STUDIO_VSTATE.items[key]||{reps:0,interval:0},prev=Math.max(0,Number(old.interval)||0);let days=0,status='learning';if(rating==='again'){days=10/(24*60);status='learning';f.graded.again++}else if(rating==='hard'){days=Math.max(1,prev?prev*1.2:1);status='learning';f.graded.hard++}else if(rating==='good'){days=Math.max(2,prev?prev*2:3);status='known';f.graded.good++}else{days=Math.max(4,prev?prev*2.8:7);status='known';f.graded.easy++}const next=Date.now()+days*DAY;STUDIO_VSTATE.items[key]={...old,status,reps:(Number(old.reps)||0)+1,interval:days,due:next,last:Date.now(),lastGrade:rating,reviewCount:(Number(old.reviewCount)||0)+1};STUDIO_VSTATE.reviewLog=STUDIO_VSTATE.reviewLog||[];STUDIO_VSTATE.reviewLog.push({word:key,grade:rating,at:Date.now(),nextDue:next,intervalDays:Math.round(days*100)/100});if(STUDIO_VSTATE.reviewLog.length>2000)STUDIO_VSTATE.reviewLog=STUDIO_VSTATE.reviewLog.slice(-2000);save();f.index++;f.checked=false;f.userTyped=null;f.recallCorrect=null;STUDIO_FLASH_REVEALED=false;if(f.index>=f.pool.length)V15_finish();else V15_render()};
-function V15_finish(){const f=STUDIO_FLASH;if(!f)return;STUDIO_VSTATE.sessions=STUDIO_VSTATE.sessions||[];STUDIO_VSTATE.sessions.push({at:new Date().toISOString(),total:f.pool.length,kind:f.kind,graded:{...f.graded},durationMs:Date.now()-(f.started||Date.now())});if(STUDIO_VSTATE.sessions.length>500)STUDIO_VSTATE.sessions=STUDIO_VSTATE.sessions.slice(-500);save();const g=f.graded;STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false;const rec=(g.good||0)+(g.easy||0),done=Math.max(1,f.pool.length);document.getElementById('app').innerHTML=`${TG_summary({kicker:'สรุปการทบทวน SRS',score:rec,total:f.pool.length,pct:Math.round(rec/done*100),msg:'จำไม่ได้ '+(g.again||0)+' · ยาก '+(g.hard||0)+' · ดี '+(g.good||0)+' · ง่าย '+(g.easy||0),chips:['ทบทวนแล้ว '+f.pool.length+' คำ'],actions:'<button class="st-btn" data-action="studioVocabulary">กลับคลังคำศัพท์</button>'})}`;studioUpdateChrome('vocab')}
+function V15_finish(){const f=STUDIO_FLASH;if(!f)return;STUDIO_VSTATE.sessions=STUDIO_VSTATE.sessions||[];STUDIO_VSTATE.sessions.push({at:new Date().toISOString(),total:f.pool.length,kind:f.kind,graded:{...f.graded},durationMs:Date.now()-(f.started||Date.now())});if(STUDIO_VSTATE.sessions.length>500)STUDIO_VSTATE.sessions=STUDIO_VSTATE.sessions.slice(-500);save();if(typeof pkBump==='function'){pkBump('flash',Math.max(1,f.pool.length));pkBump('games');pkFlush()}const g=f.graded;STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false;const rec=(g.good||0)+(g.easy||0),done=Math.max(1,f.pool.length);document.getElementById('app').innerHTML=`${TG_summary({kicker:'สรุปการทบทวน SRS',score:rec,total:f.pool.length,pct:Math.round(rec/done*100),msg:'จำไม่ได้ '+(g.again||0)+' · ยาก '+(g.hard||0)+' · ดี '+(g.good||0)+' · ง่าย '+(g.easy||0),chips:['ทบทวนแล้ว '+f.pool.length+' คำ'],actions:'<button class="st-btn" data-action="studioVocabulary">กลับคลังคำศัพท์</button>'})}`;studioUpdateChrome('vocab')}
 window.V15_exit=()=>{if(STUDIO_FLASH&&STUDIO_FLASH.index>0){TGConfirm('ออกจากรอบนี้? คำที่ประเมินไปแล้วบันทึกไว้แล้ว').then(ok=>{if(ok){STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false;studioVocabulary()}});return}STUDIO_FLASH=null;STUDIO_FLASH_REVEALED=false;studioVocabulary()};
 // Keep the established flip gesture but route card rendering through the new scheduler.
 /* T1 merge: studioFlashFlip v15 wrapper folded into base. */
