@@ -253,3 +253,6 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 /* Motivation wrapper card */
 .lh-motivation-wrap{margin:16px 0;padding:16px;border-radius:12px;background:var(--pk-surface,#fff);border:1px solid var(--pk-border,#e0e0e0)}
 .lh-motivation-wrap .lh-h{font-size:15px;margin-bottom:10px}
+/* Fix(v44.0.1): CTA label contrast — white on accent button bg in dark mode. */
+:root[data-theme="dark"] #app button.pk-btn.lh-cta,:root[data-theme="dark"] #app button.pk-btn.lh-cta > small,:root[data-theme="dark"] #app button.pk-btn.lh-cta span{color:#fff!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app button.pk-btn.lh-cta,:root:not([data-theme="light"]) #app button.pk-btn.lh-cta > small,:root:not([data-theme="light"]) #app button.pk-btn.lh-cta span{color:#fff!important}}
