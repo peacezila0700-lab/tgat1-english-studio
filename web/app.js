@@ -303,6 +303,24 @@ function tgat1SpeechSpeak(text,options={}){
   try{
     if(options.cancel!==false)tgat1SpeechCancel();
     if(!vs.length&&typeof synth.getVoices==='function')vs=synth.getVoices()||[];
+    /* If voices not yet loaded, wait briefly for them to populate */
+    if(!vs.length&&typeof synth.getVoices==='function'){
+      var _speakVoice=function(){
+        const utterance=new Utterance(value),voice=vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang));
+        if(voice){utterance.voice=voice;utterance.lang=voice.lang}else utterance.lang='en-US';
+        utterance.rate=Number.isFinite(Number(options.rate))?Math.max(.6,Math.min(1.3,Number(options.rate))):.9;
+        utterance.onerror=()=>{if(typeof toast==='function')toast('เสียงไม่ออก ลองเช็กระดับเสียงและโหมดเงียบของเครื่อง')};
+        if(typeof synth.resume==='function')synth.resume();synth.speak(utterance);return true;
+      };
+      var _tries=0;
+      var _wait=function(){
+        vs=synth.getVoices()||[];
+        if(vs.length||_tries>10){return _speakVoice()}
+        _tries++;setTimeout(_wait,50);
+      };
+      setTimeout(_wait,30);
+      return true;
+    }
     const utterance=new Utterance(value),voice=vs.find(v=>/^en[-_]US/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang));
     if(voice){utterance.voice=voice;utterance.lang=voice.lang}else utterance.lang='en-US';
     utterance.rate=Number.isFinite(Number(options.rate))?Math.max(.6,Math.min(1.3,Number(options.rate))):.9;
@@ -783,7 +801,7 @@ function studioHome(){/* T1 merge: v9 personal home renderer folded in. */if(win
  <div class="pk-card"><div class="pk-eyebrow">LATEST EXAM RESULT</div><h2 style="font-size:17px;margin:5px 0 8px">ผลสอบจำลองล่าสุด</h2>${latestCard}<div style="height:1px;background:var(--pk-line);margin:14px 0"></div><div class="pk-row"><div><b>ชุดที่พิชิตแล้ว</b><small>Full mock sets</small></div><div class="right"><b>${done}/20</b></div></div><div class="pk-progress"><i style="width:${done/20*100}%"></i></div><div style="margin-top:13px"><button class="pk-btn secondary" style="width:100%" data-action="studioNav" data-arg="analytics">ดูสถิติทั้งหมด →</button></div></div></div>
  <div class="pk-section-head"><div><h2>เลือกศูนย์การเรียน</h2><p>ทุกเครื่องมืออยู่ในแถบเดียว ไม่ต้องย้อนหาหน้าเดิม</p></div></div>
  <div class="pk-grid three"><button class="pk-action" data-action="studioNav" data-arg="vocab"><span class="pk-ico-box">▤</span><span><b>Vocabulary Center</b><small>${STUDIO_DATA.words.length.toLocaleString()} คำ · ${STUDIO_DATA.phrases.length} วลี · flashcards & spaced repetition</small></span></button><button class="pk-action" data-action="studioNav" data-arg="exam"><span class="pk-ico-box">✎</span><span><b>Exam Center</b><small>1,200 ข้อฝึก · 20 ชุดเต็ม · 5 ทักษะ</small></span></button><button class="pk-action" data-action="studioNav" data-arg="game"><span class="pk-ico-box">✦</span><span><b>Game Center</b><small>มินิเกมศัพท์ · ภารกิจ · สปรินต์</small></span></button></div>
- <div class="pk-section-head"><div><h2>ความคืบหน้าการสอบ</h2><p>แยกตามทักษะจากผลชุดจำลองที่ส่งแล้วเท่านั้น</p></div><button class="pk-link" data-action="studioNav" data-arg="analytics">ดูรายละเอียด →</button></div><div class="pk-card">${studioPartStats().some(x=>x.total)?studioPartStats().map(x=>`<div class="st-bar-row"><span class="name">${studioEsc(x.name)}</span><div class="st-chart-bar"><i style="width:${Math.max(0,Math.min(100,Number(x.acc)||0))}%"></i></div><b>${x.acc}%</b></div>`).join(''):'<div class="pk-empty">ยังไม่มีข้อมูลแยกทักษะ · ทำชุดจำลองเต็มเพื่อเริ่มเก็บสถิติ</div>'}</div>
+ <div class="pk-section-head"><div><h2>ความคืบหน้าการสอบ</h2><p>แยกตามทักษะจากผลชุดจำลองที่ส่งแล้วเท่านั้น</p></div><button class="pk-link" data-action="studioNav" data-arg="analytics">ดูรายละเอียด →</button></div><div class="pk-card">${studioPartStats().some(x=>x.total)?studioPartStats().map(x=>`<div class="pk-bar-row"><span class="name">${studioEsc(x.name)}</span><div class="pk-chart-bar"><i style="width:${Math.max(0,Math.min(100,Number(x.acc)||0))}%"></i></div><b>${x.acc}%</b></div>`).join(''):'<div class="pk-empty">ยังไม่มีข้อมูลแยกทักษะ · ทำชุดจำลองเต็มเพื่อเริ่มเก็บสถิติ</div>'}</div>
  <p class="pk-note">คะแนนและการวิเคราะห์เป็นผลจากข้อมูลฝึกภายในแอป ไม่ใช่คะแนนทางการหรือการรับประกันผลสอบ · คะแนนความพร้อมจะไม่แสดงจนกว่าจะมีผลสอบจำลองที่บันทึกจริง</p>`;
 }
  /* v43.1 premium home: hero + missions + heatmap + KPIs */
@@ -1247,7 +1265,7 @@ function studioRenderTools(){
   const due=Object.values(queue).filter(x=>(x.due||0)<=Date.now()).length;
   if(STUDIO_PAGE==='errors'){
     app.innerHTML=`<div class="pk-section-head"><div><div class="pk-eyebrow">LEARNING FROM MISTAKES</div><h1 style="margin:4px 0">Error Notebook</h1><p class="pk-subtitle">เก็บโจทย์ที่ตอบผิดหรือเว้นว่าง พร้อมเหตุผลและจำนวนครั้งที่พลาด</p></div></div>
-    <div class="st-tool-grid"><div class="pk-kpi"><div class="pk-k-label">รายการข้อผิด</div><div class="pk-k-val">${entries.length}</div></div><div class="pk-kpi"><div class="pk-k-label">ถึงเวลาทบทวน</div><div class="pk-k-val">${due}</div></div></div>
+    <div class="pk-tool-grid"><div class="pk-kpi"><div class="pk-k-label">รายการข้อผิด</div><div class="pk-k-val">${entries.length}</div></div><div class="pk-kpi"><div class="pk-k-label">ถึงเวลาทบทวน</div><div class="pk-k-val">${due}</div></div></div>
     <div class="pk-inline" style="margin:14px 0"><button class="pk-btn" data-action="studioOpenReview">เปิด Smart Review →</button><button class="pk-btn secondary" data-action="studioOpenAdvanced">บทเรียนขั้นสูง</button></div>
     <div class="pk-card">${entries.length?entries.map((x,i)=>`<article class="st-error-item"><b>${i+1}. ${studioEsc(String(x.prompt||'').slice(0,220))}</b><div class="st-error-meta"><span class="st-pill">${studioEsc(x.category||'Practice')}</span><span class="st-pill">พลาด ${x.mistakes||1} ครั้ง</span><span class="st-pill">${studioFormatDue((queue[x.id]||{}).due)}</span></div>${x.context?`<p>${studioEsc(String(x.context).slice(0,500))}</p>`:''}<p><b>คำตอบที่ถูก:</b> ${Number.isInteger(x.answer)&&x.options?.[x.answer]!==undefined?studioEsc(x.options[x.answer]):'ดูเฉลยในชุดต้นทาง'}</p>${Number.isInteger(x.selected)&&x.options?.[x.selected]!==undefined?`<p><b>คำตอบที่เลือก:</b> ${studioEsc(x.options[x.selected])}</p>`:'<p>ไม่ได้ตอบ</p>'}<p>${studioEsc(x.explanation||'ยังไม่มีคำอธิบายแนบมากับข้อมูลข้อนี้')}</p><div class="st-error-actions"><button class="pk-btn secondary small" data-action="TGAT1_c_reviewResult" data-arg="${String(x.id).replace(/'/g,"")}" data-arg2="again">ทบทวนอีกครั้ง</button><button class="pk-btn ghost small" data-action="TGAT1_c_errorResolve" data-arg="${String(x.id).replace(/'/g,"")}">ทำเครื่องหมายว่าแก้ได้แล้ว</button></div></article>`).join(''):'<div class="pk-empty-state">ยังไม่มีข้อผิดที่บันทึกจากระบบใหม่นี้<br>ทำแบบฝึกหรือชุดจำลอง แล้วข้อที่ผิดจะถูกเพิ่มที่นี่</div>'}</div>`;
     return;
@@ -1256,14 +1274,14 @@ function studioRenderTools(){
     const dueItems=Object.values(queue).filter(x=>(x.due||0)<=Date.now()).sort((a,b)=>(a.due||0)-(b.due||0));
     const item=dueItems[0],error=item&&book[item.id];
     app.innerHTML=`<div class="pk-section-head"><div><div class="pk-eyebrow">SPACED REPETITION</div><h1 style="margin:4px 0">Smart Review</h1><p class="pk-subtitle">จัดลำดับทบทวนตามเวลาที่ถึงกำหนดและประวัติการตอบ</p></div></div>
-    <div class="st-tool-grid"><div class="pk-kpi"><div class="pk-k-label">ถึงเวลาทบทวน</div><div class="pk-k-val">${dueItems.length}</div></div><div class="pk-kpi"><div class="pk-k-label">อยู่ในตารางทบทวน</div><div class="pk-k-val">${Object.keys(queue).length}</div></div></div>
+    <div class="pk-tool-grid"><div class="pk-kpi"><div class="pk-k-label">ถึงเวลาทบทวน</div><div class="pk-k-val">${dueItems.length}</div></div><div class="pk-kpi"><div class="pk-k-label">อยู่ในตารางทบทวน</div><div class="pk-k-val">${Object.keys(queue).length}</div></div></div>
     ${error?`<div class="pk-card" style="margin-top:14px"><div class="pk-eyebrow">NEXT REVIEW</div><h2 style="font-size:19px">${studioEsc(error.prompt||'โจทย์ทบทวน')}</h2>${error.context?`<p>${studioEsc(error.context)}</p>`:''}<div style="height:1px;background:var(--pk-line);margin:14px 0"></div>${(error.options||[]).map((o,i)=>`<div class="pk-row"><span>${String.fromCharCode(65+i)}. ${studioEsc(o)}</span>${i===error.answer?'<span class="pk-tag">คำตอบถูก</span>':''}</div>`).join('')}<p style="margin-top:12px"><b>เหตุผล:</b> ${studioEsc(error.explanation||'ไม่มีคำอธิบาย')}</p><p class="pk-subtitle">ให้ประเมินว่าจำหลักการได้แค่ไหน แล้วเลือกระดับการทบทวน</p><div class="pk-inline"><button class="pk-btn" data-action="TGAT1_c_reviewResult" data-arg="${String(item.id).replace(/'/g,"")}" data-arg2="again">ยังจำไม่ได้ · 10 นาที</button><button class="pk-btn secondary" data-action="TGAT1_c_reviewResult" data-arg="${String(item.id).replace(/'/g,"")}" data-arg2="hard">ยังไม่คล่อง · ช่วงสั้น</button><button class="pk-btn ghost" data-action="TGAT1_c_reviewResult" data-arg="${String(item.id).replace(/'/g,"")}" data-arg2="good">จำได้ · เว้นระยะ</button></div></div>`:`<div class="pk-card st-empty-state">${Object.keys(queue).length?'ยังไม่มีรายการถึงกำหนดในตอนนี้ กลับมาทบทวนตามเวลาที่ระบบจัดไว้':'ยังไม่มีรายการทบทวน ลองทำข้อสอบให้ระบบเก็บข้อผิดก่อน'}<div style="margin-top:14px"><button class="pk-btn secondary" data-action="studioOpenErrors">ไป Error Notebook</button></div></div>`}
     <div class="pk-card" style="margin-top:14px"><h3>รายการถัดไป</h3>${Object.values(queue).sort((a,b)=>(a.due||0)-(b.due||0)).slice(0,8).map(x=>`<div class="pk-row"><b>${studioEsc((book[x.id]||{}).prompt||x.id).slice(0,80)}</b><small>${studioFormatDue(x.due)}</small></div>`).join('')||'<p class="pk-subtitle">ไม่มีรายการในคิว</p>'}</div>`;
     return;
   }
   if(STUDIO_PAGE==='advanced'){
     app.innerHTML=`<div class="pk-section-head"><div><div class="pk-eyebrow">ADVANCED LEARNING</div><h1 style="margin:4px 0">บทเรียนและเกมขั้นสูง</h1><p class="pk-subtitle">ฝึกการอ่านเชิงอนุมาน การจับน้ำเสียง และการใช้คำเชื่อมในบริบทที่ซับซ้อน</p></div></div>
-    <div class="st-tool-grid">
+    <div class="pk-tool-grid">
       <div class="pk-card"><div class="pk-ico-box">🧠</div><h2>Inference Lab</h2><p class="pk-subtitle">ฝึกแยกข้อเท็จจริง ข้ออนุมาน และข้อสรุปที่เกินหลักฐาน</p><button class="pk-btn" data-action="VLT_startCategory" data-arg="rc">ฝึก Reading Comprehension</button></div>
       <div class="pk-card"><div class="pk-ico-box">🧩</div><h2>Context & Cohesion</h2><p class="pk-subtitle">ฝึกคำเชื่อม ความสัมพันธ์ระหว่างประโยค และความต่อเนื่องของย่อหน้า</p><button class="pk-btn" data-action="VLT_startCategory" data-arg="tc">ฝึก Text Completion</button></div>
       <div class="pk-card"><div class="pk-ico-box">🎧</div><h2>Conversation Strategy</h2><p class="pk-subtitle">ฝึกเจตนาผู้พูด การตอบรับ การปฏิเสธอย่างสุภาพ และบริบทบทสนทนา</p><button class="pk-btn" data-action="VLT_startCategory" data-arg="long">ฝึก Long Conversations</button></div>
@@ -1307,7 +1325,7 @@ function studioRenderTools(){
     if(!target || target.disabled) return;
     const rect=target.getBoundingClientRect();
     const ripple=document.createElement('span');
-    ripple.className='st-ripple';
+    ripple.className='pk-ripple';
     ripple.style.left=(ev.clientX-rect.left)+'px';
     ripple.style.top=(ev.clientY-rect.top)+'px';
     target.appendChild(ripple);
@@ -1756,7 +1774,7 @@ const studioAnalyticsOriginalV12=studioAnalytics;
 window.__TGAT1_ANALYTICS_BASE__=studioAnalyticsOriginalV12;
 window.__TGAT1_ANALYTICS_HOOKS__=[];
 window.TGAT1_addAnalyticsHook=function(fn){if(typeof fn==='function')window.__TGAT1_ANALYTICS_HOOKS__.push(fn);return fn};
-window.TGAT1_addAnalyticsHook(function(){const app=document.getElementById('app');if(!app||app.querySelector('.v12-skill-panel'))return;const rows=v12SkillRows();const has=rows.some(x=>x.total>0);const html=`<section class="pk-card v12-skill-panel" style="margin-top:16px"><div class="pk-eyebrow">SKILL INSIGHTS</div><h2 style="font-size:18px;margin:5px 0">วิเคราะห์จุดอ่อนตามทักษะ</h2><p class="pk-subtitle">รวมผลจากชุดจำลองที่ส่งแล้วในประวัติที่บันทึกไว้ (เก็บประวัติล่าสุดไม่เกิน 80 รอบ) โดยรวม Short + Long Conversation เป็นทักษะเดียว</p>${has?rows.map(x=>`<div class="st-bar-row"><span class="name">${v12Esc(x.name)}</span><div class="st-chart-bar"><i style="width:${x.accuracy||0}%"></i></div><b>${x.accuracy}%</b></div><small class="pk-muted">${x.correct}/${x.total} ข้อ</small>`).join(''):'<div class="pk-empty">ยังไม่มีข้อมูลจากชุดจำลองเต็ม ผลจะปรากฏหลังส่งชุดสอบ</div>'}<div class="v12-skill-coach">${has?`<b>ทักษะที่ควรโฟกัส:</b> ${v12Esc(rows.filter(x=>x.total>0).sort((a,b)=>a.accuracy-b.accuracy)[0].name)} (คะแนนต่ำสุดจากข้อมูลที่มี)`: 'เริ่มจากทำชุดจำลองเต็มหนึ่งชุดเพื่อให้ระบบมีข้อมูลวิเคราะห์'}</div></section>`;app.insertAdjacentHTML('beforeend',html)});
+window.TGAT1_addAnalyticsHook(function(){const app=document.getElementById('app');if(!app||app.querySelector('.v12-skill-panel'))return;const rows=v12SkillRows();const has=rows.some(x=>x.total>0);const html=`<section class="pk-card v12-skill-panel" style="margin-top:16px"><div class="pk-eyebrow">SKILL INSIGHTS</div><h2 style="font-size:18px;margin:5px 0">วิเคราะห์จุดอ่อนตามทักษะ</h2><p class="pk-subtitle">รวมผลจากชุดจำลองที่ส่งแล้วในประวัติที่บันทึกไว้ (เก็บประวัติล่าสุดไม่เกิน 80 รอบ) โดยรวม Short + Long Conversation เป็นทักษะเดียว</p>${has?rows.map(x=>`<div class="pk-bar-row"><span class="name">${v12Esc(x.name)}</span><div class="pk-chart-bar"><i style="width:${x.accuracy||0}%"></i></div><b>${x.accuracy}%</b></div><small class="pk-muted">${x.correct}/${x.total} ข้อ</small>`).join(''):'<div class="pk-empty">ยังไม่มีข้อมูลจากชุดจำลองเต็ม ผลจะปรากฏหลังส่งชุดสอบ</div>'}<div class="v12-skill-coach">${has?`<b>ทักษะที่ควรโฟกัส:</b> ${v12Esc(rows.filter(x=>x.total>0).sort((a,b)=>a.accuracy-b.accuracy)[0].name)} (คะแนนต่ำสุดจากข้อมูลที่มี)`: 'เริ่มจากทำชุดจำลองเต็มหนึ่งชุดเพื่อให้ระบบมีข้อมูลวิเคราะห์'}</div></section>`;app.insertAdjacentHTML('beforeend',html)});
 
 // Improve mock result retry button label for the random pool and correct route.
 
@@ -5350,7 +5368,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
     if(!art)art=A.document;
     const bg={blue:'#EEF6FF',teal:'#E8FAF5',green:'#EDF8ED',orange:'#FFF5E3',red:'#FFF0EF',purple:'#F4F0FF',navy:'#EEF2F7',pink:'#FFF0F5'};
     const color=type==='wave'||type==='water'||type==='plane'||type==='train'||type==='laptop'?'blue':type==='fire'||type==='warning'||type==='siren'?'orange':type==='heart'||type==='angry'||type==='pill'?'pink':type==='tree'||type==='leaf'||type==='recycle'||type==='frog'?'green':type==='graduation'||type==='book'||type==='books'?'purple':'teal';
-    return `<div class="st-picture-stage" role="img" aria-label="ภาพประกอบคำศัพท์"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" aria-hidden="true"><defs><linearGradient id="pg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="${bg[color]||'#EEF6FF'}"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs><rect x="8" y="8" width="304" height="224" rx="28" fill="url(#pg)"/><circle cx="267" cy="46" r="13" fill="${COLORS[color]||COLORS.teal}" opacity=".13"/><circle cx="48" cy="197" r="20" fill="${COLORS[color]||COLORS.teal}" opacity=".1"/>${art}</svg></div>`;
+    return `<div class="pk-picture-stage" role="img" aria-label="ภาพประกอบคำศัพท์"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" aria-hidden="true"><defs><linearGradient id="pg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="${bg[color]||'#EEF6FF'}"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs><rect x="8" y="8" width="304" height="224" rx="28" fill="url(#pg)"/><circle cx="267" cy="46" r="13" fill="${COLORS[color]||COLORS.teal}" opacity=".13"/><circle cx="48" cy="197" r="20" fill="${COLORS[color]||COLORS.teal}" opacity=".1"/>${art}</svg></div>`;
   }
   const keys=Object.keys(MAP);
   try{if(typeof E==='object'&&E)keys.forEach(k=>{if(!E[k])E[k]='🖼️'});}catch(_){}

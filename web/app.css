@@ -1892,3 +1892,23 @@ body .pk-modal-box .v12-word-meta small{color:#4a5568!important}
 /* ===== Fix: v12-word-meta direct small labels — highest specificity ===== */
 :root[data-theme="dark"] #studioModal .v12-word-meta > div > small,:root[data-theme="dark"] .pk-modal-box .v12-word-meta > div > small{color:#c5cde8!important;font-weight:600!important}
 :root[data-theme="dark"] #studioModal .v12-word-meta .v12-chips small,:root[data-theme="dark"] .pk-modal-box .v12-word-meta .v12-chips small{color:#c5cde8!important}
+/* ===== Add missing pk- CSS classes ===== */
+.pk-divider{height:1px;background:var(--pk-line,rgba(48,63,130,.12));margin:14px 0}
+.pk-flash{cursor:pointer;padding:24px;border-radius:20px;background:var(--pk-grad,linear-gradient(135deg,#4f6ef7,#7a5cf5));color:#fff;text-align:center;transition:transform .2s ease,box-shadow .2s ease;box-shadow:var(--pk-depth,0 12px 32px rgba(48,63,130,.18));min-height:200px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.pk-flash:hover{transform:translateY(-2px);box-shadow:var(--pk-depth-lg,0 18px 44px rgba(48,63,130,.22))}
+.pk-flash-word{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:32px;margin:8px 0;color:#fff;word-break:break-word}
+:root[data-theme="dark"] .pk-flash{background:linear-gradient(135deg,#2a3a6e,#3d2a6e)}
+.pk-lang-example-en{font-size:15px;color:var(--ink,#24334c);margin-top:4px}
+.pk-lang-example-th{font-size:13px;color:var(--mute,#66738f);margin-top:2px}
+.pk-main-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:760px){.pk-main-grid{grid-template-columns:1fr 1fr}}
+.pk-poly-example{font-size:14px;color:var(--ink,#24334c);margin-top:4px;font-style:italic}
+.pk-title{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:24px;margin:4px 0;color:var(--ink,#24334c)}
+/* pk-tool-grid for analytics tools */
+.pk-tool-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}
+@media(max-width:520px){.pk-tool-grid{grid-template-columns:1fr}}
+/* pk-ripple for ripple effect */
+.pk-ripple{position:absolute;border-radius:50%;background:rgba(91,74,212,.25);transform:scale(0);animation:pkRipple .6s ease-out;pointer-events:none}
+@keyframes pkRipple{to{transform:scale(4);opacity:0}}
+/* pk-picture-stage for vocabulary picture game */
+.pk-picture-stage{width:100%;max-width:320px;margin:0 auto;border-radius:20px;overflow:hidden;background:var(--pk-paper,#fff);box-shadow:var(--pk-depth,0 8px 24px rgba(48,63,130,.12))}
