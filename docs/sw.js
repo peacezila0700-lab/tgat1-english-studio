@@ -16,8 +16,10 @@ const isAppEntry = url => { const scope=new URL(self.registration.scope);return 
 const isAppAsset = url => /\/(app|learning-hub(?:-curriculum)?)\.(js|css)$/.test(url.pathname);
 function fresh(url){return new Request(url,{cache:'reload'});}
 
-// Precache app shell on install; fetch lazy chunks in background
-self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL.map(fresh)).then(()=>Promise.allSettled(LAZY_CHUNKS.map(url=>fetch(fresh(url)).then(r=>r&&r.ok?cache.put(url,r):undefined)))))));
+// Precache app shell on install; fetch lazy chunks in background.
+// skipWaiting: activate the new SW immediately so a freshly-deployed build takes
+// over on the next navigation without requiring a manual 'update' click.
+self.addEventListener('install',event=>{self.skipWaiting();event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(APP_SHELL.map(fresh)).then(()=>Promise.allSettled(LAZY_CHUNKS.map(url=>fetch(fresh(url)).then(r=>r&&r.ok?cache.put(url,r):undefined))))))});
 self.addEventListener('message',event=>{if(event.data&&event.data.type==='SKIP_WAITING')self.skipWaiting();});
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('tgat1-studio-')&&k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 
