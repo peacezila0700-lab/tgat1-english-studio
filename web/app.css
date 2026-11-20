@@ -1727,3 +1727,10 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 @media(prefers-reduced-motion:reduce){
   .pk-hero,.pk-card,.pk-kpi,.pk-badge,.pk-mission{animation:none!important}
 }
+/* path nodes wrap variant (hub map) */
+.pk-path-wrap{display:flex;flex-wrap:wrap;gap:14px 10px;padding:6px 2px}
+.pk-path-wrap .pk-node{margin-bottom:0}
+.pk-path-wrap .pk-node:not(:last-child):after{display:none}
+.pk-path-wrap .pk-node-circle{width:48px;height:48px;font-size:19px}
+.pk-path-wrap .pk-node-title{font-size:12px;max-width:110px}
+.pk-path-wrap .pk-node-meta{font-size:10.5px;max-width:110px}

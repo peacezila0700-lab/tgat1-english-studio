@@ -570,13 +570,15 @@ function renderHub(){
   const actBtn=a.k==='finished'?`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.review">ทบทวนจุดอ่อน</button>`:`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.continue" ${READONLY?'disabled':''}><span>เรียนต่อ</span><small>Continue Learning</small></button>`;
   el.innerHTML=`
   ${NOTICE?`<div class="st-card lh-notice" role="status">${esc(NOTICE)}</div>`:''}
-  <section class="st-card lh-main" aria-labelledby="lhHeroTitle">
-    <div class="st-eyebrow">PERSONALIZED 70-UNIT PATH</div>
-    <h1 class="st-title" id="lhHeroTitle">หน่วยที่ ${n} · ${esc(u?u.title:'')}</h1>
-    <p class="st-subtitle">${esc(ph?('ช่วงที่ '+ph.id+' · '+ph.title):'')}${u&&u.en?' · '+esc(u.en):''}</p>
-    <div class="lh-progress-row"><span>ผ่านแล้ว <b>${doneUnits}</b> / ${UNITS} หน่วย</span>${bar(doneUnits/UNITS*100)}</div>
-    ${cov.total?`<div class="lh-progress-row"><span>ข้อสอบที่เคยทำ <b>${cov.seen}</b> / ${cov.total} ข้อ · ${cov.pct}%</span>${bar(cov.pct)}</div>`:''}
-    ${vcov.total?`<div class="lh-progress-row"><span>คำศัพท์ที่เคยฝึก <b>${vcov.seen}</b> / ${vcov.total} คำ · ${vcov.pct}%</span>${bar(vcov.pct)}</div>`:''}
+  <section class="pk-hero" aria-labelledby="lhHeroTitle">
+    <div class="pk-hero-top"><div class="pk-eyebrow">PERSONALIZED 70-UNIT PATH</div><span class="pk-streak"><span class="pk-flame" aria-hidden="true"></span>เรียนต่อเนื่อง · หน่วยที่ ${n}</span></div>
+    <h1 class="pk-greet" id="lhHeroTitle">${esc(u?u.title:'')}</h1>
+    <p class="pk-sub">${esc(ph?('ช่วงที่ '+ph.id+' · '+ph.title):'')}${u&&u.en?' · '+esc(u.en):''}</p>
+    <div class="lh-progress-row" style="margin-top:14px"><span style="color:#fff">ผ่านแล้ว <b>${doneUnits}</b> / ${UNITS} หน่วย</span>${bar(doneUnits/UNITS*100)}</div>
+    ${cov.total?`<div class="lh-progress-row" style="color:#fff"><span>ข้อสอบที่เคยทำ <b>${cov.seen}</b> / ${cov.total} ข้อ · ${cov.pct}%</span>${bar(cov.pct)}</div>`:''}
+    ${vcov.total?`<div class="lh-progress-row" style="color:#fff"><span>คำศัพท์ที่เคยฝึก <b>${vcov.seen}</b> / ${vcov.total} คำ · ${vcov.pct}%</span>${bar(vcov.pct)}</div>`:''}
+  </section>
+  <section class="pk-card" aria-label="กิจกรรมหน่วยที่ ${n}">
     <section class="lh-vocab-shortcut"><div><div class="st-eyebrow">TGAT1 EXAM VOCABULARY</div><b>ศัพท์จากบริบทข้อสอบ + ระบบทบทวนแบบเว้นระยะ</b><p class="lh-mini">ฝึกคำที่พบในโจทย์ฝึกและวลีเป้าหมาย · ไม่เปลี่ยนคะแนนหรือเงื่อนไขผ่านหน่วย</p></div><button type="button" class="st-btn small" data-action="TGAT1VocabularyLab.start" data-arg="hub">ฝึกศัพท์ 10 ข้อ →</button></section>
     ${cov.total&&cov.pct<100?`<section class="lh-vocab-shortcut"><div><div class="st-eyebrow">FULL BANK COVERAGE</div><b>ฝึกครบทุก ${cov.total} ข้อสอบในคลัง</b><p class="lh-mini">ดึงข้อสอบที่ยังไม่เคยทำจากทุกหมวดหมู่ · ครบ 1,200 ข้อเมื่อเรียน hub + ฝึกครบทุกข้อ</p></div><button type="button" class="st-btn small" data-action="TGAT1Hub.fullCoverage">ฝึกครบทุกข้อ 10 ข้อ →</button></section>`:''}
     ${vcov.total&&vcov.pct<100?`<section class="lh-vocab-shortcut"><div><div class="st-eyebrow">FULL VOCABULARY COVERAGE</div><b>ศัพท์จากบริบท · ฝึกครบทุก ${vcov.total} คำ</b><p class="lh-mini">ดึงคำที่ยังไม่เคยฝึกจากทุกหมวดและทุกระดับ · ครบ 4,043 คำเมื่อเรียน hub + ฝึกศัพท์ครบทุกคำ</p></div><button type="button" class="st-btn small" data-action="TGAT1Hub.fullVocab">ฝึกศัพท์ครบทุกคำ 10 คำ →</button></section>`:''}
@@ -606,9 +608,12 @@ function renderHub(){
   </div>
   <section class="st-card lh-card" aria-labelledby="lhMap"><h2 id="lhMap">แผนที่ 70 หน่วย</h2>
     <p class="lh-mini">เรียนตามลำดับ หน่วยถัดไปจะเปิดเมื่อผ่านแบบทดสอบท้ายหน่วยก่อนหน้า หน่วยที่ผ่านแล้วเปิดทบทวนได้เสมอ</p>
-    ${(cur().phases||[]).map(p=>`<details class="lh-phase" ${n>=p.from&&n<=p.to?'open':''}><summary>ช่วงที่ ${p.id} · ${esc(p.title)} <small>หน่วย ${p.from}–${p.to}</small></summary><div class="lh-units">${
-      Array.from({length:p.to-p.from+1},(_,i)=>p.from+i).map(k=>{const uu=unitDef(k),ust=s.units[k],dn=ust&&ust.st==='done',lk=locked(k);
-        return `<button type="button" class="lh-unit ${dn?'done':lk?'locked':'current'}" data-action="TGAT1Hub.openUnit" data-arg="${k}" ${lk?'aria-disabled="true"':''} ><span class="lh-unit-n" aria-hidden="true">${dn?'✓':lk?'🔒':k}</span><span class="lh-unit-t">${k}. ${esc(uu?uu.title:'')}</span><span class="lh-sr"> · ${dn?'ผ่านแล้ว':lk?'ยังล็อก':'กำลังเรียน'}</span></button>`}).join('')}</div></details>`).join('')}
+    ${(cur().phases||[]).map(p=>{
+      const pUnits=Array.from({length:p.to-p.from+1},(_,i)=>p.from+i);
+      const nodeHtml=pUnits.map(k=>{const uu=unitDef(k),ust=s.units[k],dn=ust&&ust.st==='done',lk=locked(k);
+        const cls=dn?'done':lk?'':'current';
+        return `<button type="button" class="pk-node ${cls}" data-action="TGAT1Hub.openUnit" data-arg="${k}" ${lk?'aria-disabled="true"':''}><span class="pk-node-circle" aria-hidden="true">${dn?'✓':lk?'🔒':k}</span><span class="pk-node-title">${k}. ${esc(uu?uu.title:'')}</span><span class="pk-node-meta">${dn?'✓ ผ่านแล้ว':lk?'ยังล็อก':'แตะเพื่อเรียน'}</span></button>`}).join('');
+      return `<details class="lh-phase" ${n>=p.from&&n<=p.to?'open':''}><summary>ช่วงที่ ${p.id} · ${esc(p.title)} <small>หน่วย ${p.from}–${p.to} · ผ่าน ${pUnits.filter(k=>s.units[k]&&s.units[k].st==='done').length}/${pUnits.length}</small></summary><div class="pk-path-wrap">${nodeHtml}</div></details>`}).join('')}
   </section>`;
 }
 function histText(h){switch(h.k){case'unit':return 'ผ่านหน่วยที่ '+h.u;case'assess':return 'แบบทดสอบหน่วยที่ '+h.u+' · '+h.pct+'% '+(h.pass?'ผ่าน':'ยังไม่ผ่าน');case'guided':return 'ฝึกพร้อมคำใบ้ หน่วยที่ '+h.u+' · '+h.score+'/'+h.total;
