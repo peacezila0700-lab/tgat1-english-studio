@@ -1,0 +1,23 @@
+
+=== VOCAB FLASHCARDS ===
+flashcard clicked: ทวนคำที่ถึงกำหนด (0)
+flashcard view: SMART VOCABULARY REVIEW | ทบทวนศัพท์ตามความจำ |  | เลือกความยากหลังเปิดความหมาย ระบบจะคำนวณวันทบทวนครั้งถัดไปให้แต่ละคำ |  | 0 | ถึงกำหนดทบทวน | 0 | ทำเครื่องหมายว่าจำได้ | 4024 | ยังไม่เคยประเมิน | ทวนคำที่ถึงกำหนด (0) | 🧠 
+
+=== VOCAB WORD DETAIL ===
+word detail clicked: hello สวัสดีn/interj · A · แตะ
+modal: ✕ | การสนทนาและชีวิตประจำวัน | hello | n/interj | กลุ่มความยาก A · ภายในแอป | ที่มา: เพิ่มใหม่ | สวัสดี | IPA · ที่มา/สำเนียงตามรายการ | /həˈloʊ/ | CMUdict · US English
+
+=== READING TRAINER ===
+reading trainer: TGAT1 READING LAB · BLUEPRINT-ALIGNED | 🔥 0 วันต่อเนื่อง | Reading Trainer |  | ฝึกอ่านจับใจความ อนุมาน คำศัพท์ในบริบท และเติมข้อความให้สมบูรณ์ ด้วยบทอ่านที่เขียนขึ้นใหม่สำหรับการฝึก |  | 📚 | คลัง Reading เดิม 1,20
+
+=== HUB UNIT LEARN ===
+hub continue: เรียนต่อContinue Learning
+hub learn view: ← หน่วยที่ 1 | หน่วยที่ 1 · เรียนแนวคิด | ประธานและกริยาแท้ (S + V) | เป้าหมาย | หาประธานจริงของประโยคได้ แม้มีวลียาวคั่น | แยกกริยาแท้ออกจาก V-ing / to V / V3 ที่ทำหน้าที่ขยาย | ใช้ S + V ตรวจว่าประโยคสมบูรณ์หรือยัง | OPTIONAL · TGAT1 VOCABULARY | ศัพท์เป้าหมายของห
+
+=== SETTINGS EXPORT ===
+export clicked: ⚙ตั้งค่าและสำรองข้อมูลSettings
+after export: PREFERENCES & DATA | บันทึกในอุปกรณ์นี้ | ตั้งค่าและสำรองข้อมูล |  | จัดการการแสดงผลและดูแลความคืบหน้าการเรียนของคุณ |  | การแสดงผล | ธีมหน้าจอ | เลือกโหมดสว่างหรือมืด | สว่าง | มืด | สำรองและกู้คืนข้อมูล |  | ข้อมูลเวอร์ชันนี
+
+=== PROFILE SAVE ===
+profile save clicked: None
+toast: บันทึกโปรไฟล์แล้ว

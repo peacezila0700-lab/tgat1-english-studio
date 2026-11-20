@@ -1,0 +1,31 @@
+
+=== [1] HOME ===
+  home: 46 buttons, 15 nav items
+
+=== [2] VOCAB ===
+  navigated to vocab
+  WARN: no search input on vocab page
+
+=== [3] EXAM ===
+  navigated to exam
+
+=== [4] GAME ===
+  navigated to game
+
+=== [5] ANALYTICS ===
+  navigated to analytics
+
+=== [6] SETTINGS ===
+  navigated to settings
+
+=== [7] PROFILE ===
+  navigated to profile
+
+=== [8] HUB ===
+  navigated to hub
+
+=== CONSOLE ERRORS ===
+  (none)
+
+=== STORAGE KEYS ===
+  ["tgat1_personal_study_days_v1","tgat1_studio_daily_v1","tgat1_studio_health_v1","tgat1_learning_hub_v1","engdaily_vault_v1"]

@@ -1,0 +1,18 @@
+{
+  "voices_count": 0,
+  "voices_sample": [],
+  "first_word": "abide by ปฏิบัติตาม (กฎ/ข้อตกล",
+  "modal_opened": true,
+  "tts_button_found": true,
+  "synth_state": {
+    "hasSynth": true,
+    "hasUtterance": true,
+    "speaking": false,
+    "pending": false
+  },
+  "after_click_state": {
+    "speaking": false,
+    "pending": false
+  },
+  "help_modal_shown": false
+}
