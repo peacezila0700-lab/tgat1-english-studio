@@ -1745,3 +1745,150 @@ body .st-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
 :root[data-theme="dark"] .pk-mission .pk-mi-go,:root[data-theme="dark"] .pk-mission .pk-mi-icon{color:#a9b0e8}
 :root[data-theme="dark"] .pk-mission.done .pk-mi-go,:root[data-theme="dark"] .pk-mission.done .pk-mi-icon{color:#54d6a2}
 :root[data-theme="dark"] #app .st-coach-note p{color:#c5cde8!important}
+
+/* ===== pk- utility classes for vocab/exam/settings body ===== */
+.pk-search{display:flex;align-items:center;gap:8px;background:var(--pk-paper,#fff);border:1px solid var(--pk-line,rgba(48,63,130,.12));border-radius:14px;padding:0 12px;box-shadow:var(--pk-depth,0 2px 8px rgba(48,63,130,.05))}
+.pk-search>span{font-size:18px;color:var(--mute,#66738f);flex:none}
+.pk-search input{flex:1;min-width:0;border:0;outline:0;background:transparent;padding:12px 4px;font:16px "Noto Sans Thai",sans-serif;color:var(--ink,#24334c)}
+.pk-link{border:0;background:transparent;color:var(--acc,#5b4ad4);font:700 14px "Noto Sans Thai",sans-serif;cursor:pointer;padding:8px 4px;white-space:nowrap}
+.pk-link:hover{text-decoration:underline}
+.pk-tabs{display:flex;gap:6px;flex-wrap:wrap;overflow-x:auto;padding-bottom:2px}
+.pk-tab{padding:8px 14px;border-radius:999px;border:1px solid var(--pk-line,rgba(48,63,130,.12));background:var(--pk-paper,#fff);color:var(--mute,#66738f);font:700 13px "Noto Sans Thai",sans-serif;cursor:pointer;white-space:nowrap;transition:all .15s ease}
+.pk-tab:hover{color:var(--ink,#24334c)}
+.pk-tab.active{background:var(--pk-grad,linear-gradient(135deg,#4f6ef7,#7a5cf5));color:#fff;border-color:transparent;box-shadow:0 4px 12px rgba(79,110,247,.2)}
+:root[data-theme="dark"] .pk-tab.active{color:#fff}
+.pk-word-grid{display:grid;grid-template-columns:1fr;gap:8px}
+@media(min-width:560px){.pk-word-grid{grid-template-columns:1fr 1fr}}
+.pk-empty{border:1px dashed var(--pk-line,rgba(48,63,130,.12));border-radius:14px;padding:24px;text-align:center;color:var(--mute,#66738f);font-size:14px;line-height:1.6}
+.pk-inline{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pk-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:12px 16px;border-radius:14px;border:2px solid var(--acc,#5b4ad4);background:var(--acc,#5b4ad4);color:#fff;font:700 15px "Noto Sans Thai",sans-serif;cursor:pointer;min-height:44px;transition:transform .12s ease,filter .12s ease}
+.pk-btn:hover{filter:brightness(1.05)}
+.pk-btn:active{transform:scale(.98)}
+.pk-btn.secondary{background:transparent;color:var(--acc,#5b4ad4)}
+.pk-btn.ghost{background:transparent;color:var(--mute,#66738f);border-color:var(--pk-line,rgba(48,63,130,.12))}
+.pk-btn.small{padding:8px 12px;font-size:13px;min-height:36px}
+.pk-tag{font-size:11px;font-weight:800;color:var(--mute,#66738f);white-space:nowrap;background:var(--pk-grad-soft,linear-gradient(135deg,#eef2ff,#f5f0ff));padding:3px 10px;border-radius:999px}
+:root[data-theme="dark"] .pk-tag{color:#a8b4cc;background:rgba(255,255,255,.08)}
+.pk-select{padding:10px 12px;border-radius:12px;border:1px solid var(--pk-line,rgba(48,63,130,.12));background:var(--pk-paper,#fff);color:var(--ink,#24334c);font:600 14px "Noto Sans Thai",sans-serif;cursor:pointer;min-height:44px}
+.pk-subtitle{font-size:13px;color:var(--mute,#66738f);margin:4px 0 0;line-height:1.55}
+.pk-grid{display:grid;gap:10px}
+.pk-grid.two{grid-template-columns:1fr 1fr}
+.pk-grid.three{grid-template-columns:1fr 1fr 1fr}
+@media(max-width:520px){.pk-grid.two,.pk-grid.three{grid-template-columns:1fr}}
+.pk-muted{font-size:13px;color:var(--mute,#66738f);line-height:1.55}
+.pk-note{font-size:12px;color:var(--mute,#66738f);line-height:1.55;margin-top:14px;padding:10px 14px;border-radius:12px;background:var(--pk-grad-soft,linear-gradient(135deg,#eef2ff,#f5f0ff))}
+:root[data-theme="dark"] .pk-note{color:#a8b4cc;background:rgba(255,255,255,.06)}
+/* pk-word item (vocab list item) */
+.pk-word-grid .st-word{display:flex;flex-direction:column;gap:3px;padding:12px 14px;border-radius:14px;border:1px solid var(--pk-line,rgba(48,63,130,.12));background:var(--pk-paper,#fff);text-align:left;cursor:pointer;transition:border-color .15s ease,box-shadow .15s ease}
+.pk-word-grid .st-word:hover{border-color:var(--acc,#5b4ad4);box-shadow:var(--pk-depth,0 2px 8px rgba(48,63,130,.05))}
+.pk-word-grid .st-word b{font-size:16px;font-weight:800;color:var(--ink,#24334c)}
+.pk-word-grid .st-word small{font-size:12.5px;color:var(--mute,#66738f)}
+.pk-word-grid .st-word em{font-size:11px;color:var(--acc,#5b4ad4);font-style:normal;font-weight:700}
+:root[data-theme="dark"] .pk-word-grid .st-word em{color:#8da8ff}
+/* ===== pk-group / pk-row for settings ===== */
+.pk-group{margin-bottom:16px}
+.pk-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.pk-row>div{min-width:0}
+.pk-row b{font-size:14.5px;font-weight:800;color:var(--ink,#24334c);display:block}
+.pk-row small{font-size:12px;color:var(--mute,#66738f)}
+.pk-btn.danger{border-color:#c93c3c;background:#c93c3c}
+:root[data-theme="dark"] .pk-btn.danger{border-color:#ff7a7a;background:#ff7a7a}
+/* ===== pk-bar-row / pk-chart-bar for analytics ===== */
+.pk-bar-row{display:grid;grid-template-columns:1fr 80px 50px;align-items:center;gap:10px;padding:6px 0}
+.pk-bar-name{font-size:13px;font-weight:700;color:var(--ink,#24334c);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pk-chart-bar{height:8px;border-radius:99px;background:var(--pk-line,rgba(48,63,130,.12));overflow:hidden}
+.pk-chart-bar i{display:block;height:100%;border-radius:99px;background:var(--pk-grad,linear-gradient(135deg,#4f6ef7,#7a5cf5));transition:width .4s ease}
+.pk-bar-row b{font-size:13px;font-weight:800;color:var(--ink,#24334c);text-align:right}
+.pk-bar-row small{font-size:10.5px;color:var(--mute,#66738f);display:block;text-align:right;margin-top:2px}
+/* ===== pk-action / pk-ico-box / pk-progress for game ===== */
+.pk-action{display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px 10px;border-radius:16px;border:1px solid var(--pk-line,rgba(48,63,130,.12));background:var(--pk-paper,#fff);text-align:center;cursor:pointer;color:var(--ink,#24334c);font:inherit;transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease}
+.pk-action:hover{transform:translateY(-2px);box-shadow:var(--pk-depth-lg,0 18px 44px rgba(48,63,130,.13));border-color:var(--acc,#5b4ad4)}
+.pk-action:active{transform:scale(.98)}
+.pk-action b{font-size:14px;font-weight:800}
+.pk-action small{font-size:11px;color:var(--mute,#66738f);line-height:1.4}
+.pk-ico-box{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:22px;background:var(--pk-grad-soft,linear-gradient(135deg,#eef2ff,#f5f0ff));color:#5b4ad4}
+:root[data-theme="dark"] .pk-ico-box{background:#232d4d;color:#b9c0ee}
+.pk-progress{height:10px;border-radius:99px;background:var(--pk-line,rgba(48,63,130,.12));overflow:hidden}
+.pk-progress i{display:block;height:100%;border-radius:99px;background:var(--pk-grad,linear-gradient(135deg,#4f6ef7,#7a5cf5));transition:width .4s ease}
+/* ===== pk-form / pk-field / pk-input (profile) ===== */
+.pk-form{display:flex;flex-direction:column;gap:12px}
+.pk-field{display:flex;flex-direction:column;gap:4px}
+.pk-field label{font-size:13px;font-weight:700;color:var(--ink,#24334c)}
+.pk-field small{font-size:11px;color:var(--mute,#66738f)}
+.pk-full{width:100%}
+.pk-input{padding:12px;border-radius:12px;border:1px solid var(--pk-line,rgba(48,63,130,.12));background:var(--pk-paper,#fff);color:var(--ink,#24334c);font:15px "Noto Sans Thai",sans-serif;min-height:44px;outline:0}
+.pk-input:focus{border-color:var(--acc,#5b4ad4);box-shadow:0 0 0 3px rgba(91,74,212,.12)}
+.pk-foot{display:flex;align-items:center;gap:12px;margin-top:6px}
+.pk-saved{font-size:12px;color:var(--mute,#66738f)}
+.pk-hint{font-size:11px;color:var(--mute,#66738f)}
+/* ===== pk-section-head ===== */
+.pk-section-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0 12px}
+.pk-section-head h2{margin:0;font-size:17px;font-weight:800;color:var(--ink,#24334c)}
+.pk-section-head p{margin:2px 0 0;font-size:12.5px;color:var(--mute,#66738f)}
+/* ===== pk-grid four ===== */
+.pk-grid.four{grid-template-columns:repeat(4,1fr)}
+@media(max-width:520px){.pk-grid.four{grid-template-columns:1fr 1fr}}
+/* ===== Contrast fixes for dark theme ===== */
+/* pk-word em: use theme-aware color */
+:root[data-theme="dark"] .pk-word-grid .st-word em{color:#c5cde8!important}
+/* word-detail modal em (light inner card in dark): use darker color for contrast */
+:root[data-theme="dark"] #studioModal .st-word em,:root[data-theme="dark"] .pk-modal-box .st-word em{color:#5a6b9e!important}
+/* pk-btn primary (no variant): darker accent for white-text contrast */
+:root[data-theme="dark"] .pk-btn:not(.secondary):not(.ghost):not(.danger){background:#3a56e8!important;border-color:#3a56e8!important;color:#fff!important}
+:root[data-theme="dark"] .pk-btn:not(.secondary):not(.ghost):not(.danger):hover{filter:brightness(1.1)!important}
+/* pk-btn secondary: keep transparent bg, brighter text for contrast */
+:root[data-theme="dark"] .pk-btn.secondary{color:#b8c5ff!important;background:transparent!important;border-color:#4a5a8a!important}
+/* pk-btn ghost: transparent bg, light text on dark card */
+:root[data-theme="dark"] .pk-btn.ghost{color:#c5cde8!important;background:transparent!important;border-color:#3a4a6a!important}
+/* pk-btn danger: darker red for white-text contrast */
+:root[data-theme="dark"] .pk-btn.danger{background:#cc3333!important;border-color:#cc3333!important;color:#fff!important}
+/* pk-btn small in dark: ensure secondary/ghost still readable */
+:root[data-theme="dark"] .pk-btn.small.secondary{color:#a8b4e8!important}
+:root[data-theme="dark"] .pk-btn.small.ghost{color:#b0bcd8!important}
+/* ===== Light theme contrast fixes ===== */
+/* st-word em: darken slightly for 4.5:1+ on light bg */
+#app .st-word em{color:#52608a!important}
+/* word-detail modal small text: darken for 4.5:1+ on white */
+#app .st-word small{color:#4a5568!important}
+:root[data-theme="light"] #app .st-word small{color:#4a5568!important}
+/* flashcards/detail small text in modals */
+#studioModal small,.pk-modal-box small{color:#4a5568!important}
+/* ===== Word-detail contrast fixes ===== */
+/* v12-meta-grid small labels: darken for contrast on grey bg */
+#app .v12-meta-grid small{color:#2d3654!important}
+:root[data-theme="dark"] #app .v12-meta-grid small{color:#c5cde8!important}
+/* v12-meta-grid b values: ensure contrast on grey bg */
+#app .v12-meta-grid b{color:#1a2440!important}
+:root[data-theme="dark"] #app .v12-meta-grid b{color:#eef3ff!important}
+/* pk-subtitle inside dark-themed status area: brighten */
+:root[data-theme="dark"] #studioModal .pk-subtitle,:root[data-theme="dark"] .pk-modal-box .pk-subtitle{color:#d5deec!important}
+/* word-detail modal small text on grey meta grid */
+#studioModal .v12-meta-grid small,.pk-modal-box .v12-meta-grid small{color:#2d3654!important}
+:root[data-theme="dark"] #studioModal .v12-meta-grid small,:root[data-theme="dark"] .pk-modal-box .v12-meta-grid small{color:#c5cde8!important}
+/* ===== Fix: st-modal-box → pk-modal-box CSS selectors ===== */
+body .pk-modal-box{background:var(--st-white,#fff)!important;color:var(--st-ink,#17233d)!important;border-color:var(--st-line,#e2e7f0)!important}
+body .pk-modal-box .v12-meta-grid{background:var(--st-paper,#f5f7fb)!important;color:var(--st-ink,#17233d)!important;border-color:var(--st-line,#e2e7f0)!important}
+body .pk-modal-box .st-poly-translation{color:var(--st-muted,#66738f)!important}
+:root[data-theme="dark"] body .pk-modal-box{background:var(--st-white,#192640)!important;color:var(--st-ink,#eef3ff)!important;border-color:var(--st-line,#2b3a57)!important}
+:root[data-theme="dark"] body .pk-modal-box .v12-meta-grid{background:var(--st-paper,#101a2b)!important;color:var(--st-ink,#eef3ff)!important;border-color:var(--st-line,#2b3a57)!important}
+:root[data-theme="dark"] body .pk-modal-box .st-poly-translation{color:var(--st-muted,#a2b0ca)!important}
+:root[data-theme="dark"] .pk-modal-box .st-eyebrow,:root[data-theme="dark"] body .pk-modal-box .pk-eyebrow{color:#aab6cc!important}
+/* v12-meta-grid small/b contrast on grey bg (light) */
+body .pk-modal-box .v12-meta-grid small{color:#2d3654!important}
+body .pk-modal-box .v12-meta-grid b{color:#1a2440!important}
+/* v12-meta-grid small/b contrast on dark bg */
+:root[data-theme="dark"] body .pk-modal-box .v12-meta-grid small{color:#c5cde8!important}
+:root[data-theme="dark"] body .pk-modal-box .v12-meta-grid b{color:#eef3ff!important}
+/* pk-subtitle on dark navy bg in modal: brighten */
+:root[data-theme="dark"] body .pk-modal-box .pk-subtitle{color:#d5deec!important}
+/* v12-muted text in modal: ensure contrast */
+body .pk-modal-box .v12-muted{color:#4a5568!important}
+:root[data-theme="dark"] body .pk-modal-box .v12-muted{color:#c5cde8!important}
+/* ===== Fix: v12-word-meta small labels in dark theme ===== */
+:root[data-theme="dark"] body .pk-modal-box .v12-word-meta small{color:#c5cde8!important}
+:root[data-theme="dark"] body .pk-modal-box .v12-word-meta .v12-muted{color:#c5cde8!important}
+/* Light theme: ensure v12-word-meta small labels have enough contrast */
+body .pk-modal-box .v12-word-meta small{color:#4a5568!important}
+/* ===== Fix: v12-word-meta direct small labels — highest specificity ===== */
+:root[data-theme="dark"] #studioModal .v12-word-meta > div > small,:root[data-theme="dark"] .pk-modal-box .v12-word-meta > div > small{color:#c5cde8!important;font-weight:600!important}
+:root[data-theme="dark"] #studioModal .v12-word-meta .v12-chips small,:root[data-theme="dark"] .pk-modal-box .v12-word-meta .v12-chips small{color:#c5cde8!important}

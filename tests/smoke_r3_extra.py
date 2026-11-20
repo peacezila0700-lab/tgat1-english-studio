@@ -73,7 +73,7 @@ def main(webdir):
         @check('flashcards: open and flip by keyboard')
         def t():
             fresh(pg,base);nav(pg,'vocab');pg.evaluate("studioStartFlashcards()");pg.wait_for_timeout(400)
-            ok(pg.locator('.st-flash').count()>0,'no card');pg.focus('.st-flash');before=pg.inner_text('#app');pg.keyboard.press('Enter');pg.wait_for_timeout(300)
+            ok(pg.locator('.pk-flash').count()>0,'no card');pg.focus('.pk-flash');before=pg.inner_text('#app');pg.keyboard.press('Enter');pg.wait_for_timeout(300)
             ok(pg.inner_text('#app')!=before,'flip did not change content')
         t()
         @check('vocabulary lab starts with 4 options')
