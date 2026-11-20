@@ -41,6 +41,7 @@
 .lh-unit:focus-visible,.lh-opt:focus-visible,.lh-chip:focus-visible,.lh-phase>summary:focus-visible{outline:3px solid var(--acc,#4b63e8);outline-offset:2px}
 .lh-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
 .lh-count{font-size:14px;color:var(--mute);font-weight:700}
+.lh-flag-on{background:var(--pk-accent);color:#fff;border-color:var(--pk-accent)!important}
 .lh-obj,.lh-reason,.lh-rules,.lh-traps{line-height:1.75;color:var(--ink);padding-left:22px}
 .lh-traps li::marker{content:'⚠ '}
 .lh-p{line-height:1.75;color:var(--ink)}
