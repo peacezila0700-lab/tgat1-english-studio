@@ -134,3 +134,82 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 .lh-tip-card{background:#f3e5f5;border:1px solid #ce93d8;border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:.9rem}
 .lh-tip-card b{color:#7b1fa2}
 .lh-en mark{background:#fff59d;padding:1px 3px;border-radius:3px;font-weight:600}
+
+/* ===== Pedagogical improvements batch 2 ===== */
+
+/* Real-world context */
+.lh-real{background:#e8f5e9;border-left:3px solid #2e7d32;padding:8px 12px;margin:8px 0;border-radius:0 6px 6px 0;font-size:.9rem}
+
+/* Concept connections */
+.lh-concepts{margin:16px 0;padding:14px;background:#f5f0ff;border:1px solid #d4c4f0;border-radius:10px}
+.lh-concept-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.lh-chip{display:inline-block;padding:4px 12px;background:#fff;border:1px solid #b39ddb;border-radius:20px;font-size:.82rem;color:#5e35b1;font-weight:500}
+
+/* Metacognition — how to think */
+.lh-think{margin:16px 0;padding:14px;background:#e0f7fa;border:1px solid #80deea;border-radius:10px}
+.lh-think-list{margin:8px 0 0 0;padding-left:20px}
+.lh-think-list li{margin:6px 0;font-size:.9rem;line-height:1.5}
+.lh-think-list li::marker{color:#00838f;font-weight:700}
+
+/* Mini-quiz */
+.lh-mq{margin:16px 0;padding:14px;background:#fff;border:1px solid #b3d9ff;border-radius:10px}
+.lh-mq-opts{display:flex;flex-direction:column;gap:8px;margin:10px 0}
+.lh-mq-opts .pk-btn.opt{text-align:left;font-size:.9rem;padding:10px 14px}
+.lh-mq-opts .pk-btn.opt.correct{background:#c8e6c9;border-color:#66bb6a;color:#1b5e20}
+.lh-mq-opts .pk-btn.opt.wrong{background:#ffcdd2;border-color:#ef5350;color:#b71c1c}
+.lh-mq-fb{margin-top:8px}
+.lh-mq-ok{color:#2e7d32;font-weight:500;font-size:.9rem;margin:4px 0}
+.lh-mq-no{color:#c62828;font-weight:500;font-size:.9rem;margin:4px 0}
+.lh-mq-exp{color:#555;font-size:.88rem;margin:4px 0 8px 0;line-height:1.5}
+
+/* Post-unit summary */
+.lh-summary{background:#fff3e0;border:1px solid #ffcc80;border-radius:10px;padding:16px;margin:16px 0}
+.lh-summary .pk-eyebrow{color:#e65100;font-size:.75rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.lh-sum-list{margin:8px 0 0 0;padding-left:20px}
+.lh-sum-list li{margin:8px 0;font-size:.92rem;line-height:1.5;color:#3e2723}
+.lh-sum-list li::marker{color:#e65100;font-weight:700}
+
+/* Mistake pattern analysis */
+.lh-pattern{margin:16px 0;padding:14px;background:#fce4ec;border:1px solid #f48fb1;border-radius:10px}
+.lh-pattern-bars{display:flex;flex-direction:column;gap:10px;margin-top:8px}
+.lh-pb{display:flex;align-items:center;gap:10px}
+.lh-pb-label{min-width:140px;font-size:.85rem;color:#4a1b3a;font-weight:500;text-align:right}
+.lh-pb-bar{flex:1;height:10px;background:#f8bbd0;border-radius:5px;overflow:hidden}
+.lh-pb-fill{height:100%;background:linear-gradient(90deg,#ec407a,#ad1457);border-radius:5px;transition:width .4s}
+.lh-pb-count{min-width:70px;font-size:.8rem;color:#880e4f;font-weight:500}
+
+/* Readiness estimate */
+.lh-readiness{margin:10px 0;padding:10px 14px;background:#f5f5f5;border:1px solid #ddd;border-radius:8px}
+.lh-readiness-bar{height:10px;background:#e0e0e0;border-radius:5px;overflow:hidden;margin-bottom:6px}
+.lh-readiness-fill{height:100%;background:linear-gradient(90deg,#66bb6a,#2e7d32);border-radius:5px;transition:width .4s}
+.lh-readiness-text{font-size:.82rem;color:#333;font-weight:500}
+
+/* Progress trend */
+.lh-trend{margin-top:8px;padding:8px 12px;background:#e8eaf6;border-radius:6px}
+.lh-trend-label{font-size:.8rem;color:#5c6bc0;font-weight:500}
+
+/* Cross-unit connection */
+.lh-xunit{margin:8px 0;padding:8px 12px;background:#e3f2fd;border-left:3px solid #1976d2;border-radius:0 6px 6px 0;font-size:.85rem}
+.lh-xunit .lh-mini{margin:0}
+
+/* Dark mode */
+:root[data-theme="dark"] .lh-real{background:#1b3a23;border-color:#4caf50;color:#c8e6c9}
+:root[data-theme="dark"] .lh-concepts{background:#1a1a2e;border-color:#4a3a6a}
+:root[data-theme="dark"] .lh-chip{background:#1d2e48;border-color:#7e57c2;color:#b39ddb}
+:root[data-theme="dark"] .lh-think{background:#0d2a30;border-color:#26a69a;color:#b2dfdb}
+:root[data-theme="dark"] .lh-mq{background:#1d2e48;border-color:#4a7a9a}
+:root[data-theme="dark"] .lh-mq-opts .pk-btn.opt{background:#18263d;color:#f2f5fc}
+:root[data-theme="dark"] .lh-mq-opts .pk-btn.opt.correct{background:#1b3a23;border-color:#66bb6a;color:#c8e6c9}
+:root[data-theme="dark"] .lh-mq-opts .pk-btn.opt.wrong{background:#3a1a1a;border-color:#ef5350;color:#ffcdd2}
+:root[data-theme="dark"] .lh-summary{background:#2a1f15;border-color:#ffcc80;color:#ffe0b2}
+:root[data-theme="dark"] .lh-sum-list li{color:#ffe0b2}
+:root[data-theme="dark"] .lh-pattern{background:#2a1520;border-color:#f48fb1;color:#f8bbd0}
+:root[data-theme="dark"] .lh-pb-label{color:#f8bbd0}
+:root[data-theme="dark"] .lh-pb-bar{background:#3a2030}
+:root[data-theme="dark"] .lh-pb-fill{background:linear-gradient(90deg,#ec407a,#ff6090)}
+:root[data-theme="dark"] .lh-pb-count{color:#f8bbd0}
+:root[data-theme="dark"] .lh-readiness{background:#1a1a2e;border-color:#444;color:#ccc}
+:root[data-theme="dark"] .lh-readiness-bar{background:#2a2a3e}
+:root[data-theme="dark"] .lh-trend{background:#1a1a3a;border-color:#3a3a6a}
+:root[data-theme="dark"] .lh-trend-label{color:#9fa8da}
+:root[data-theme="dark"] .lh-xunit{background:#0d1a2a;border-color:#1976d2;color:#b3d9ff}
