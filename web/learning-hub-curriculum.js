@@ -64,7 +64,7 @@ concepts:{
  'rd.main':{t:'ใจความหลัก',skill:'reading',bank:['rc.main']},
  'rd.detail':{t:'รายละเอียดและลำดับ',skill:'reading',bank:['rc.sequence','rc.detail']},
  'rd.vocab':{t:'ศัพท์ในบริบทของบทอ่าน',skill:'reading',bank:['rc.vocab']},
- 'rd.ref':{t:'การอ้างถึงในบทอ่าน',skill:'reading'},
+ 'rd.ref':{t:'การอ้างถึงในบทอ่าน',skill:'reading',bank:['rc.reference']},
  'rd.infer':{t:'การอนุมาน',skill:'reading',bank:['rc.inference']},
  'rd.purpose':{t:'เหตุผลและจุดประสงค์',skill:'reading',bank:['rc.reason']},
  'rd.fact':{t:'ข้อเท็จจริงกับความคิดเห็น',skill:'reading'},

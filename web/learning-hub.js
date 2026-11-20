@@ -351,6 +351,29 @@ function startExtra(n){const u=unitDef(n);if(st().active){toast('มีแบบ
   if(!refs.length){toast('ยังไม่มีโจทย์เพิ่มสำหรับหน่วยนี้');return}
   const s=st();s.active=makeRun('extra',n,shuffle(refs).slice(0,6),{key:'extra'});save();showRun();
 })}
+/* Full Coverage Practice: draw from ALL unseen bank items across every family, so
+   completing the guided path + full-coverage sessions reaches all 1,200 questions. */
+function startFullCoverage(){if(st().active){toast('มีแบบฝึกที่ค้างอยู่ ทำให้จบก่อน');return}withBank(()=>{
+  const s=st(),used=new Set(),seenIds=new Set(Object.keys(s.seen));
+  // collect all bank item ids across every concept family
+  const allIds=[];const seenAll=new Set();
+  Object.keys(idx().concepts).forEach(c=>{bankPool(c).forEach(id=>{if(!seenAll.has(id)){seenAll.add(id);allIds.push(id)}})});
+  // filter: unseen first, then least recently seen
+  const unseen=allIds.filter(id=>!seenIds.has(id));
+  const recent=allIds.filter(id=>seenIds.has(id)).sort((a,b)=>{const sa=s.seen[a],sb=s.seen[b];return (sb.t-sa.t)});
+  const refs=[];const pool=unseen.concat(recent).filter(id=>!used.has(id));
+  // pick 10 items spread across families
+  const byFam={};pool.forEach(id=>{const q=W.VLT_get(id);if(q){const f=family(q);(byFam[f]=byFam[f]||[]).push(id)}});
+  const fams=Object.keys(byFam).sort((a,b)=>b.length-a.length);
+  const per=Math.max(1,Math.floor(10/fams.length));let picked=0;
+  fams.forEach(f=>{const take=Math.min(per,byFam[f].length,10-picked);shuffle(byFam[f]).slice(0,take).forEach(id=>{const q=W.VLT_get(id);if(q){refs.push({id,src:'bank',c:(idx().concepts[Object.keys(idx().concepts).find(c=>bankPool(c).includes(id))]||{}).t||'',o:shuffle([...Array(q.options.length).keys()])});picked++}})});
+  if(refs.length<4){toast('ไม่มีโจทย์เพิ่มเติมให้ฝึกครบทุกข้อ');return}
+  s.active=makeRun('extra',s.unit,shuffle(refs).slice(0,10),{key:'extra',label:'ฝึกครบทุกข้อ'});save();showRun();
+})}
+/* Count how many of the 1,200 bank items have been seen at least once. */
+function coverageCount(){const s=st();const seen=new Set(Object.keys(s.seen));let total=0,seenCount=0;
+  if(bankReady()){total=VLT_BANK.length;VLT_BANK.forEach(q=>{if(seen.has(q.id))seenCount++})}
+  return {seen:seenCount,total:total,pct:total?Math.round(seenCount/total*100):0}}
 const HINTS={guided:true,remed:true,review:true};
 function current(){const r=st().active;if(!r)return null;const ref=r.items[r.i];return {r,ref,item:getItem(ref),a:r.ans[r.i]||(r.ans[r.i]={})}}
 function needConf(r){return r.conf.includes(r.i)}
@@ -515,6 +538,7 @@ function renderHub(){
   const errByC={};errs.forEach(e=>{errByC[e.c]=(errByC[e.c]||0)+e.wrong});
   const topErr=Object.entries(errByC).sort((a,b)=>b[1]-a[1]).slice(0,5);
   const sk=skillSummary();
+  const cov=coverageCount();
   const actBtn=a.k==='finished'?`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.review">ทบทวนจุดอ่อน</button>`:`<button type="button" class="st-btn lh-cta" data-action="TGAT1Hub.continue" ${READONLY?'disabled':''}><span>เรียนต่อ</span><small>Continue Learning</small></button>`;
   el.innerHTML=`
   ${NOTICE?`<div class="st-card lh-notice" role="status">${esc(NOTICE)}</div>`:''}
@@ -523,7 +547,9 @@ function renderHub(){
     <h1 class="st-title" id="lhHeroTitle">หน่วยที่ ${n} · ${esc(u?u.title:'')}</h1>
     <p class="st-subtitle">${esc(ph?('ช่วงที่ '+ph.id+' · '+ph.title):'')}${u&&u.en?' · '+esc(u.en):''}</p>
     <div class="lh-progress-row"><span>ผ่านแล้ว <b>${doneUnits}</b> / ${UNITS} หน่วย</span>${bar(doneUnits/UNITS*100)}</div>
+    ${cov.total?`<div class="lh-progress-row"><span>ข้อสอบที่เคยทำ <b>${cov.seen}</b> / ${cov.total} ข้อ · ${cov.pct}%</span>${bar(cov.pct)}</div>`:''}
     <section class="lh-vocab-shortcut"><div><div class="st-eyebrow">TGAT1 EXAM VOCABULARY</div><b>ศัพท์จากบริบทข้อสอบ + ระบบทบทวนแบบเว้นระยะ</b><p class="lh-mini">ฝึกคำที่พบในโจทย์ฝึกและวลีเป้าหมาย · ไม่เปลี่ยนคะแนนหรือเงื่อนไขผ่านหน่วย</p></div><button type="button" class="st-btn small" data-action="TGAT1VocabularyLab.start" data-arg="hub">ฝึกศัพท์ 10 ข้อ →</button></section>
+    ${cov.total&&cov.pct<100?`<section class="lh-vocab-shortcut"><div><div class="st-eyebrow">FULL BANK COVERAGE</div><b>ฝึกครบทุก ${cov.total} ข้อสอบในคลัง</b><p class="lh-mini">ดึงข้อสอบที่ยังไม่เคยทำจากทุกหมวดหมู่ · ครบ 1,200 ข้อเมื่อเรียน hub + ฝึกครบทุกข้อ</p></div><button type="button" class="st-btn small" data-action="TGAT1Hub.fullCoverage">ฝึกครบทุกข้อ 10 ข้อ →</button></section>`:''}
     <ol class="lh-steps" aria-label="ขั้นตอนของหน่วยที่ ${n}">${sp.map(x=>`<li class="${us.done[x.k]?'done':''}${a.k==='step'&&a.step.k===x.k?' now':''}"><span aria-hidden="true">${us.done[x.k]?'✓':'•'}</span>${esc(x.label)}</li>`).join('')}</ol>
     <div class="lh-next"><div><small>ขั้นต่อไป</small><b>${esc(describe(a))}</b></div>${actBtn}</div>
     ${a.k==='external'?`<p class="lh-mini">กิจกรรมนี้อยู่ในระบบเดิมของแอป ระบบจะนับว่าเสร็จเมื่อทำครบในระบบนั้น · <button type="button" class="lh-link" data-action="TGAT1Hub.cancelPending">ยกเลิกกิจกรรมนี้ไว้ก่อน</button></p>`:''}
@@ -712,7 +738,7 @@ W.TGAT1Hub=Object.freeze({
   continue(){continueToHub()},
   step:(n,k)=>{try{STUDIO_PAGE='hub';W.studioUpdateChrome('hub')}catch(_){}stepEntry(n,k)},openUnit:n=>{try{STUDIO_PAGE='hub';W.studioUpdateChrome('hub')}catch(_){}openUnit(n)},
   learnDone,pick:pickOption,conf:setConf,next:nextQ,pause:pauseRun,fast:fastFinish,review:()=>{if(st().active){showRun();return}startReview()},extra:startExtra,
-  showErrors,cancelPending,
+  showErrors,cancelPending,fullCoverage:startFullCoverage,coverage:coverageCount,
   logVocabulary(n,score,total){const s=st();const u=Number(n);if(!Number.isInteger(u)||u<1||u>UNITS)return false;log({k:'vocab',u,score:clamp(Number(score)||0,0,1000),total:clamp(Number(total)||0,0,1000),pct:Number(total)>0?Math.round(Number(score)/Number(total)*100):0});save();return true},
   // read-only helpers for diagnostics and automated tests
   state:()=>JSON.parse(JSON.stringify(st())),nextAction:()=>{const a=nextAction();return {k:a.k,u:a.u,step:a.step&&a.step.k}},
