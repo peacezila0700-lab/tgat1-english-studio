@@ -787,6 +787,15 @@ function studioHome(){/* T1 merge: v9 personal home renderer folded in. */if(win
  <p class="st-footer-note">คะแนนและการวิเคราะห์เป็นผลจากข้อมูลฝึกภายในแอป ไม่ใช่คะแนนทางการหรือการรับประกันผลสอบ · คะแนนความพร้อมจะไม่แสดงจนกว่าจะมีผลสอบจำลองที่บันทึกจริง</p>`;
 }
  /* v43.1 premium home: hero + missions + heatmap + KPIs */
+ /* global todayKey (also used by pkDaily/pkHeatmap at global scope) */
+ function todayKey(d=new Date()){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
+ /* global safeRead/safeWrite (used by pkHeatmap at global scope) */
+ const safeRead=(k,fb)=>{try{const v=JSON.parse(localStorage.getItem(k)||'null');return v==null?fb:v}catch(e){return fb}};
+ const safeWrite=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){return false}};
+ /* global DAY_KEY / TARGET_KEY (used by pkHeatmap at global scope) */
+ const TARGET_KEY='tgat1_personal_target_score_v1';
+ const DAY_KEY='tgat1_personal_study_days_v1';
+
  const PK_MISSION_KEY='tgat1_studio_daily_v1';
  function pkDaily(){try{const x=JSON.parse(localStorage.getItem(PK_MISSION_KEY)||'null');if(x&&x.date===todayKey())return x}catch(e){}const o={date:todayKey(),ans:0,flash:0,games:0};try{localStorage.setItem(PK_MISSION_KEY,JSON.stringify(o))}catch(e){}return o}
  function pkBump(k,n){try{const d=pkDaily();d[k]=(Number(d[k])||0)+(n||1);window.__PK_DIRTY=true}catch(e){}}
