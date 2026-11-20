@@ -1,0 +1,7 @@
+Passage pairs with content-word Jaccard >= 0.18 (heuristic theme overlap), LC/TC/RC contexts: 3
+(0.31, 'rc', 'S14-Q056', 'A community energy plan', 'rc', 'S20-Q051', 'A home energy checklist')
+(0.22, 'tc', 'S01-Q031', 'Neighborhood seed exchange', 'rc', 'S01-Q046', 'A neighborhood seed library')
+(0.21, 'rc', 'S07-Q046', 'A lost-and-found data review', 'rc', 'S16-Q046', 'A campus lost-property desk')
+long: 11/40 passages follow the “try/test → measure/compare → adjust” narrative
+tc: 11/40 passages follow the “try/test → measure/compare → adjust” narrative
+rc: 9/60 passages follow the “try/test → measure/compare → adjust” narrative

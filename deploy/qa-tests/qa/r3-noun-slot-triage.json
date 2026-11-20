@@ -1,0 +1,3892 @@
+[
+ {
+  "i": 126,
+  "j": 0,
+  "w": "anxiety",
+  "pos": "n",
+  "old": "The report highlighted anxieties as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 135,
+  "j": 0,
+  "w": "appetite",
+  "pos": "n",
+  "old": "The survey measured changes related to appetites.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 147,
+  "j": 0,
+  "w": "aptitude",
+  "pos": "n",
+  "old": "The survey measured changes related to aptitudes.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 181,
+  "j": 0,
+  "w": "atmosphere",
+  "pos": "n",
+  "old": "The report highlighted atmospheres as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 184,
+  "j": 0,
+  "w": "attainment",
+  "pos": "n",
+  "old": "The school provided guidance about attainments to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 210,
+  "j": 0,
+  "w": "balanced diet",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with balanced diets.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 272,
+  "j": 0,
+  "w": "capacity",
+  "pos": "n",
+  "old": "The survey measured changes related to capacities.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 315,
+  "j": 0,
+  "w": "clarification",
+  "pos": "n",
+  "old": "The policy addresses concerns about clarifications.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 321,
+  "j": 0,
+  "w": "climate change",
+  "pos": "n",
+  "old": "The report highlighted climate change as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 406,
+  "j": 0,
+  "w": "confirmation",
+  "pos": "n",
+  "old": "The team collected information about confirmations before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 437,
+  "j": 0,
+  "w": "consumer behavior",
+  "pos": "n",
+  "old": "The community discussed consumer behaviors after the announcement.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 448,
+  "j": 0,
+  "w": "contention",
+  "pos": "n",
+  "old": "The policy addresses concerns about contentions.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 482,
+  "j": 0,
+  "w": "cost of living",
+  "pos": "n",
+  "old": "The team collected information about cost of livings before making a decision.",
+  "new": "The team collected information about the cost of living before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“cost of livings”)"
+ },
+ {
+  "i": 489,
+  "j": 0,
+  "w": "courtesy",
+  "pos": "n",
+  "old": "The survey measured changes related to courtesies.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 512,
+  "j": 0,
+  "w": "cuisine",
+  "pos": "n",
+  "old": "The policy addresses concerns about cuisines.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 525,
+  "j": 0,
+  "w": "curriculum",
+  "pos": "n",
+  "old": "The report highlighted curriculums as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 536,
+  "j": 0,
+  "w": "cynicism",
+  "pos": "n",
+  "old": "The team collected information about cynicisms before making a decision.",
+  "new": "The team collected information about cynicism before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“cynicisms”)"
+ },
+ {
+  "i": 560,
+  "j": 0,
+  "w": "deficiency",
+  "pos": "n",
+  "old": "The community discussed deficiencies after the announcement.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 563,
+  "j": 0,
+  "w": "deflation",
+  "pos": "n",
+  "old": "The team collected information about deflations before making a decision.",
+  "new": "The team collected information about deflation before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“deflations”)"
+ },
+ {
+  "i": 572,
+  "j": 0,
+  "w": "deliberation",
+  "pos": "n",
+  "old": "The team collected information about deliberations before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 587,
+  "j": 0,
+  "w": "derivation",
+  "pos": "n",
+  "old": "The report highlighted derivations as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 599,
+  "j": 0,
+  "w": "deterioration",
+  "pos": "n",
+  "old": "The team collected information about deteriorations before making a decision.",
+  "new": "The team collected information about deterioration before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“deteriorations”)"
+ },
+ {
+  "i": 621,
+  "j": 0,
+  "w": "digital divide",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with digital divides.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 637,
+  "j": 0,
+  "w": "discrepancy",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with discrepancies.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 639,
+  "j": 0,
+  "w": "discretion",
+  "pos": "n",
+  "old": "The team collected information about discretions before making a decision.",
+  "new": "The team collected information about discretion before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“discretions”)"
+ },
+ {
+  "i": 687,
+  "j": 0,
+  "w": "economy",
+  "pos": "n",
+  "old": "The policy addresses concerns about economies.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 702,
+  "j": 0,
+  "w": "elimination",
+  "pos": "n",
+  "old": "The study compared the effects of eliminations across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 813,
+  "j": 0,
+  "w": "facilitation",
+  "pos": "n",
+  "old": "The team collected information about facilitations before making a decision.",
+  "new": "The team collected information about facilitation before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“facilitations”)"
+ },
+ {
+  "i": 842,
+  "j": 0,
+  "w": "finance",
+  "pos": "n",
+  "old": "The team collected information about finances before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 856,
+  "j": 0,
+  "w": "flavor",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with flavors.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 877,
+  "j": 0,
+  "w": "forgiveness",
+  "pos": "n",
+  "old": "The team collected information about forgivenesses before making a decision.",
+  "new": "The team collected information about forgiveness before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“forgivenesses”)"
+ },
+ {
+  "i": 881,
+  "j": 0,
+  "w": "formulation",
+  "pos": "n",
+  "old": "The policy addresses concerns about formulations.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 897,
+  "j": 0,
+  "w": "frustration",
+  "pos": "n",
+  "old": "The survey measured changes related to frustrations.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 906,
+  "j": 0,
+  "w": "gender",
+  "pos": "n",
+  "old": "The team collected information about genders before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 921,
+  "j": 0,
+  "w": "global warming",
+  "pos": "n",
+  "old": "The team collected information about global warmings before making a decision.",
+  "new": "The team collected information about global warming before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“global warmings”)"
+ },
+ {
+  "i": 932,
+  "j": 0,
+  "w": "greenhouse gas",
+  "pos": "n",
+  "old": "The study compared the effects of greenhouse gases across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 977,
+  "j": 0,
+  "w": "hypothesis",
+  "pos": "n",
+  "old": "The team collected information about hypothesises before making a decision.",
+  "new": "The team collected information about hypotheses before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“hypothesises”)"
+ },
+ {
+  "i": 995,
+  "j": 0,
+  "w": "immense pressure",
+  "pos": "n",
+  "old": "The school provided guidance about immense pressures to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1010,
+  "j": 0,
+  "w": "implementation",
+  "pos": "n",
+  "old": "The study compared the effects of implementations across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1073,
+  "j": 0,
+  "w": "inequality",
+  "pos": "n",
+  "old": "The policy addresses concerns about inequalities.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1074,
+  "j": 0,
+  "w": "inequity",
+  "pos": "n",
+  "old": "The survey measured changes related to inequities.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1095,
+  "j": 0,
+  "w": "inhibition",
+  "pos": "n",
+  "old": "The school provided guidance about inhibitions to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1122,
+  "j": 0,
+  "w": "intense pressure",
+  "pos": "n",
+  "old": "The school provided guidance about intense pressures to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1124,
+  "j": 0,
+  "w": "intensity",
+  "pos": "n",
+  "old": "The study compared the effects of intensities across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1209,
+  "j": 0,
+  "w": "limitation of the study",
+  "pos": "n",
+  "old": "The team collected information about limitation of the studies before making a decision.",
+  "new": "The team collected information about the limitations of the study before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“limitation of the studies”)"
+ },
+ {
+  "i": 1228,
+  "j": 0,
+  "w": "magnitude",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with magnitudes.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1234,
+  "j": 0,
+  "w": "majority",
+  "pos": "n",
+  "old": "The policy addresses concerns about majorities.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1309,
+  "j": 0,
+  "w": "motivation",
+  "pos": "n",
+  "old": "The school provided guidance about motivations to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1353,
+  "j": 0,
+  "w": "obesity",
+  "pos": "n",
+  "old": "The team collected information about obesities before making a decision.",
+  "new": "The team collected information about obesity before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“obesities”)"
+ },
+ {
+  "i": 1407,
+  "j": 0,
+  "w": "overconsumption",
+  "pos": "n",
+  "old": "The team collected information about overconsumptions before making a decision.",
+  "new": "The team collected information about overconsumption before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“overconsumptions”)"
+ },
+ {
+  "i": 1447,
+  "j": 0,
+  "w": "perception",
+  "pos": "n",
+  "old": "The policy addresses concerns about perceptions.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1461,
+  "j": 0,
+  "w": "personality",
+  "pos": "n",
+  "old": "The report highlighted personalities as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1464,
+  "j": 0,
+  "w": "persuasion",
+  "pos": "n",
+  "old": "The team collected information about persuasions before making a decision.",
+  "new": "The team collected information about persuasion before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“persuasions”)"
+ },
+ {
+  "i": 1476,
+  "j": 0,
+  "w": "physical activity",
+  "pos": "n",
+  "old": "The policy addresses concerns about physical activities.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1506,
+  "j": 0,
+  "w": "postponement",
+  "pos": "n",
+  "old": "The school provided guidance about postponements to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1519,
+  "j": 0,
+  "w": "prejudice",
+  "pos": "n",
+  "old": "The study compared the effects of prejudices across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1540,
+  "j": 0,
+  "w": "prey",
+  "pos": "n",
+  "old": "The team collected information about preys before making a decision.",
+  "new": "The team collected information about prey before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“preys”)"
+ },
+ {
+  "i": 1638,
+  "j": 0,
+  "w": "reassessment",
+  "pos": "n",
+  "old": "The policy addresses concerns about reassessments.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1653,
+  "j": 0,
+  "w": "recovery",
+  "pos": "n",
+  "old": "The team collected information about recoveries before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1660,
+  "j": 0,
+  "w": "reduction",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with reductions.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1664,
+  "j": 0,
+  "w": "refinement",
+  "pos": "n",
+  "old": "The report highlighted refinements as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1715,
+  "j": 0,
+  "w": "reproduction",
+  "pos": "n",
+  "old": "The school provided guidance about reproductions to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1755,
+  "j": 0,
+  "w": "restoration",
+  "pos": "n",
+  "old": "The team collected information about restorations before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1762,
+  "j": 0,
+  "w": "retirement",
+  "pos": "n",
+  "old": "The community discussed retirements after the announcement.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1768,
+  "j": 0,
+  "w": "revenge",
+  "pos": "n",
+  "old": "The team collected information about revenges before making a decision.",
+  "new": "The team collected information about revenge before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“revenges”)"
+ },
+ {
+  "i": 1769,
+  "j": 0,
+  "w": "revenue",
+  "pos": "n",
+  "old": "The survey measured changes related to revenues.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1868,
+  "j": 0,
+  "w": "sleep deprivation",
+  "pos": "n",
+  "old": "The team collected information about sleep deprivations before making a decision.",
+  "new": "The team collected information about sleep deprivation before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“sleep deprivations”)"
+ },
+ {
+  "i": 1897,
+  "j": 0,
+  "w": "speculation",
+  "pos": "n",
+  "old": "The company reviewed the risks associated with speculations.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1905,
+  "j": 0,
+  "w": "standard of living",
+  "pos": "n",
+  "old": "The team collected information about standard of livings before making a decision.",
+  "new": "The team collected information about standards of living before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“standard of livings”)"
+ },
+ {
+  "i": 1920,
+  "j": 0,
+  "w": "stress",
+  "pos": "n",
+  "old": "The team collected information about stresses before making a decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1975,
+  "j": 0,
+  "w": "sympathy",
+  "pos": "n",
+  "old": "The policy addresses concerns about sympathies.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 1995,
+  "j": 0,
+  "w": "tendency",
+  "pos": "n",
+  "old": "The survey measured changes related to tendencies.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2042,
+  "j": 0,
+  "w": "transformation",
+  "pos": "n",
+  "old": "The study compared the effects of transformations across two groups.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2123,
+  "j": 0,
+  "w": "validation",
+  "pos": "n",
+  "old": "The school provided guidance about validations to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2137,
+  "j": 0,
+  "w": "verification",
+  "pos": "n",
+  "old": "The school provided guidance about verifications to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2158,
+  "j": 0,
+  "w": "vulnerability",
+  "pos": "n",
+  "old": "The report highlighted vulnerabilities as an important factor in the discussion.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2164,
+  "j": 0,
+  "w": "waste disposal",
+  "pos": "n",
+  "old": "The team collected information about waste disposals before making a decision.",
+  "new": "The team collected information about waste disposal before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“waste disposals”)"
+ },
+ {
+  "i": 2189,
+  "j": 0,
+  "w": "work-life balance",
+  "pos": "n",
+  "old": "The school provided guidance about work-life balance to students.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2190,
+  "j": 0,
+  "w": "workforce",
+  "pos": "n",
+  "old": "The team collected information about workforces before making a decision.",
+  "new": "The team collected information about the workforce before making a decision.",
+  "cls": "definite",
+  "why": "uncountable/fixed noun wrongly pluralised (“workforces”)"
+ },
+ {
+  "i": 2340,
+  "j": 0,
+  "w": "practice",
+  "pos": "n",
+  "old": "The practice affected the team’s final decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2541,
+  "j": 0,
+  "w": "performance",
+  "pos": "n",
+  "old": "The performance affected the team’s final decision.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2898,
+  "j": 0,
+  "w": "academic achievement",
+  "pos": "phrase",
+  "old": "The researchers discussed academic achievement before deciding how to proceed.",
+  "new": "The researchers discussed academic achievements before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic achievement”)"
+ },
+ {
+  "i": 2899,
+  "j": 0,
+  "w": "academic performance",
+  "pos": "phrase",
+  "old": "The researchers discussed academic performance before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2902,
+  "j": 0,
+  "w": "academic year",
+  "pos": "phrase",
+  "old": "The researchers discussed academic year before deciding how to proceed.",
+  "new": "The researchers discussed academic years before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic year”)"
+ },
+ {
+  "i": 2903,
+  "j": 0,
+  "w": "academic journal",
+  "pos": "phrase",
+  "old": "The researchers discussed academic journal before deciding how to proceed.",
+  "new": "The researchers discussed academic journals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic journal”)"
+ },
+ {
+  "i": 2904,
+  "j": 0,
+  "w": "academic conference",
+  "pos": "phrase",
+  "old": "The researchers discussed academic conference before deciding how to proceed.",
+  "new": "The researchers discussed academic conferences before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic conference”)"
+ },
+ {
+  "i": 2905,
+  "j": 0,
+  "w": "academic skill",
+  "pos": "phrase",
+  "old": "The researchers discussed academic skill before deciding how to proceed.",
+  "new": "The researchers discussed academic skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic skill”)"
+ },
+ {
+  "i": 2906,
+  "j": 0,
+  "w": "academic standard",
+  "pos": "phrase",
+  "old": "The researchers discussed academic standard before deciding how to proceed.",
+  "new": "The researchers discussed academic standards before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic standard”)"
+ },
+ {
+  "i": 2909,
+  "j": 0,
+  "w": "academic pressure",
+  "pos": "phrase",
+  "old": "The researchers discussed academic pressure before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2910,
+  "j": 0,
+  "w": "academic goal",
+  "pos": "phrase",
+  "old": "The researchers discussed academic goal before deciding how to proceed.",
+  "new": "The researchers discussed academic goals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic goal”)"
+ },
+ {
+  "i": 2911,
+  "j": 0,
+  "w": "academic background",
+  "pos": "phrase",
+  "old": "The researchers discussed academic background before deciding how to proceed.",
+  "new": "The researchers discussed academic backgrounds before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic background”)"
+ },
+ {
+  "i": 2912,
+  "j": 0,
+  "w": "academic career",
+  "pos": "phrase",
+  "old": "The researchers discussed academic career before deciding how to proceed.",
+  "new": "The researchers discussed academic careers before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic career”)"
+ },
+ {
+  "i": 2913,
+  "j": 0,
+  "w": "academic subject",
+  "pos": "phrase",
+  "old": "The researchers discussed academic subject before deciding how to proceed.",
+  "new": "The researchers discussed academic subjects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic subject”)"
+ },
+ {
+  "i": 2914,
+  "j": 0,
+  "w": "academic discussion",
+  "pos": "phrase",
+  "old": "The researchers discussed academic discussion before deciding how to proceed.",
+  "new": "The researchers discussed academic discussions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic discussion”)"
+ },
+ {
+  "i": 2915,
+  "j": 0,
+  "w": "academic language",
+  "pos": "phrase",
+  "old": "The researchers discussed academic language before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2916,
+  "j": 0,
+  "w": "academic task",
+  "pos": "phrase",
+  "old": "The researchers discussed academic task before deciding how to proceed.",
+  "new": "The researchers discussed academic tasks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic task”)"
+ },
+ {
+  "i": 2918,
+  "j": 0,
+  "w": "academic policy",
+  "pos": "phrase",
+  "old": "The researchers discussed academic policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2919,
+  "j": 0,
+  "w": "academic community",
+  "pos": "phrase",
+  "old": "The researchers discussed academic community before deciding how to proceed.",
+  "new": "The researchers discussed academic communities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic community”)"
+ },
+ {
+  "i": 2920,
+  "j": 0,
+  "w": "academic program",
+  "pos": "phrase",
+  "old": "The researchers discussed academic program before deciding how to proceed.",
+  "new": "The researchers discussed academic programs before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic program”)"
+ },
+ {
+  "i": 2922,
+  "j": 0,
+  "w": "academic challenge",
+  "pos": "phrase",
+  "old": "The researchers discussed academic challenge before deciding how to proceed.",
+  "new": "The researchers discussed academic challenges before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic challenge”)"
+ },
+ {
+  "i": 2923,
+  "j": 0,
+  "w": "academic outcome",
+  "pos": "phrase",
+  "old": "The researchers discussed academic outcome before deciding how to proceed.",
+  "new": "The researchers discussed academic outcomes before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic outcome”)"
+ },
+ {
+  "i": 2924,
+  "j": 0,
+  "w": "academic result",
+  "pos": "phrase",
+  "old": "The researchers discussed academic result before deciding how to proceed.",
+  "new": "The researchers discussed academic results before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic result”)"
+ },
+ {
+  "i": 2925,
+  "j": 0,
+  "w": "academic method",
+  "pos": "phrase",
+  "old": "The researchers discussed academic method before deciding how to proceed.",
+  "new": "The researchers discussed academic methods before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic method”)"
+ },
+ {
+  "i": 2926,
+  "j": 0,
+  "w": "academic source",
+  "pos": "phrase",
+  "old": "The researchers discussed academic source before deciding how to proceed.",
+  "new": "The researchers discussed academic sources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“academic source”)"
+ },
+ {
+  "i": 2928,
+  "j": 0,
+  "w": "public policy",
+  "pos": "phrase",
+  "old": "The researchers discussed public policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2931,
+  "j": 0,
+  "w": "public opinion",
+  "pos": "phrase",
+  "old": "The researchers discussed public opinion before deciding how to proceed.",
+  "new": "The researchers discussed public opinions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public opinion”)"
+ },
+ {
+  "i": 2932,
+  "j": 0,
+  "w": "public space",
+  "pos": "phrase",
+  "old": "The researchers discussed public space before deciding how to proceed.",
+  "new": "The researchers discussed public spaces before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public space”)"
+ },
+ {
+  "i": 2933,
+  "j": 0,
+  "w": "public library",
+  "pos": "phrase",
+  "old": "The researchers discussed public library before deciding how to proceed.",
+  "new": "The researchers discussed public libraries before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public library”)"
+ },
+ {
+  "i": 2937,
+  "j": 0,
+  "w": "public budget",
+  "pos": "phrase",
+  "old": "The researchers discussed public budget before deciding how to proceed.",
+  "new": "The researchers discussed public budgets before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public budget”)"
+ },
+ {
+  "i": 2938,
+  "j": 0,
+  "w": "public campaign",
+  "pos": "phrase",
+  "old": "The researchers discussed public campaign before deciding how to proceed.",
+  "new": "The researchers discussed public campaigns before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public campaign”)"
+ },
+ {
+  "i": 2940,
+  "j": 0,
+  "w": "public response",
+  "pos": "phrase",
+  "old": "The researchers discussed public response before deciding how to proceed.",
+  "new": "The researchers discussed public responses before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public response”)"
+ },
+ {
+  "i": 2941,
+  "j": 0,
+  "w": "public interest",
+  "pos": "phrase",
+  "old": "The researchers discussed public interest before deciding how to proceed.",
+  "new": "The researchers discussed public interests before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public interest”)"
+ },
+ {
+  "i": 2942,
+  "j": 0,
+  "w": "public debate",
+  "pos": "phrase",
+  "old": "The researchers discussed public debate before deciding how to proceed.",
+  "new": "The researchers discussed public debates before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public debate”)"
+ },
+ {
+  "i": 2943,
+  "j": 0,
+  "w": "public project",
+  "pos": "phrase",
+  "old": "The researchers discussed public project before deciding how to proceed.",
+  "new": "The researchers discussed public projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“public project”)"
+ },
+ {
+  "i": 2950,
+  "j": 0,
+  "w": "public development",
+  "pos": "phrase",
+  "old": "The researchers discussed public development before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2952,
+  "j": 0,
+  "w": "public rights",
+  "pos": "phrase",
+  "old": "The researchers discussed public rights before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2954,
+  "j": 0,
+  "w": "digital payment",
+  "pos": "phrase",
+  "old": "The researchers discussed digital payment before deciding how to proceed.",
+  "new": "The researchers discussed digital payments before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital payment”)"
+ },
+ {
+  "i": 2955,
+  "j": 0,
+  "w": "digital platform",
+  "pos": "phrase",
+  "old": "The researchers discussed digital platform before deciding how to proceed.",
+  "new": "The researchers discussed digital platforms before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital platform”)"
+ },
+ {
+  "i": 2961,
+  "j": 0,
+  "w": "digital skill",
+  "pos": "phrase",
+  "old": "The researchers discussed digital skill before deciding how to proceed.",
+  "new": "The researchers discussed digital skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital skill”)"
+ },
+ {
+  "i": 2962,
+  "j": 0,
+  "w": "digital service",
+  "pos": "phrase",
+  "old": "The researchers discussed digital service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2963,
+  "j": 0,
+  "w": "digital resource",
+  "pos": "phrase",
+  "old": "The researchers discussed digital resource before deciding how to proceed.",
+  "new": "The researchers discussed digital resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital resource”)"
+ },
+ {
+  "i": 2966,
+  "j": 0,
+  "w": "digital tool",
+  "pos": "phrase",
+  "old": "The researchers discussed digital tool before deciding how to proceed.",
+  "new": "The researchers discussed digital tools before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital tool”)"
+ },
+ {
+  "i": 2968,
+  "j": 0,
+  "w": "digital system",
+  "pos": "phrase",
+  "old": "The researchers discussed digital system before deciding how to proceed.",
+  "new": "The researchers discussed digital systems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital system”)"
+ },
+ {
+  "i": 2969,
+  "j": 0,
+  "w": "digital network",
+  "pos": "phrase",
+  "old": "The researchers discussed digital network before deciding how to proceed.",
+  "new": "The researchers discussed digital networks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital network”)"
+ },
+ {
+  "i": 2970,
+  "j": 0,
+  "w": "digital application",
+  "pos": "phrase",
+  "old": "The researchers discussed digital application before deciding how to proceed.",
+  "new": "The researchers discussed digital applications before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital application”)"
+ },
+ {
+  "i": 2971,
+  "j": 0,
+  "w": "digital identity",
+  "pos": "phrase",
+  "old": "The researchers discussed digital identity before deciding how to proceed.",
+  "new": "The researchers discussed digital identities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital identity”)"
+ },
+ {
+  "i": 2973,
+  "j": 0,
+  "w": "digital account",
+  "pos": "phrase",
+  "old": "The researchers discussed digital account before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2974,
+  "j": 0,
+  "w": "digital course",
+  "pos": "phrase",
+  "old": "The researchers discussed digital course before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2975,
+  "j": 0,
+  "w": "digital practice",
+  "pos": "phrase",
+  "old": "The researchers discussed digital practice before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2976,
+  "j": 0,
+  "w": "digital assessment",
+  "pos": "phrase",
+  "old": "The researchers discussed digital assessment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2977,
+  "j": 0,
+  "w": "digital data",
+  "pos": "phrase",
+  "old": "The researchers discussed digital data before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2978,
+  "j": 0,
+  "w": "digital information",
+  "pos": "phrase",
+  "old": "The researchers discussed digital information before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2979,
+  "j": 0,
+  "w": "digital support",
+  "pos": "phrase",
+  "old": "The researchers discussed digital support before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 2980,
+  "j": 0,
+  "w": "digital community",
+  "pos": "phrase",
+  "old": "The researchers discussed digital community before deciding how to proceed.",
+  "new": "The researchers discussed digital communities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“digital community”)"
+ },
+ {
+  "i": 2982,
+  "j": 0,
+  "w": "environmental impact",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental impact before deciding how to proceed.",
+  "new": "The researchers discussed environmental impacts before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental impact”)"
+ },
+ {
+  "i": 2984,
+  "j": 0,
+  "w": "environmental problem",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental problem before deciding how to proceed.",
+  "new": "The researchers discussed environmental problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental problem”)"
+ },
+ {
+  "i": 2985,
+  "j": 0,
+  "w": "environmental policy",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2988,
+  "j": 0,
+  "w": "environmental change",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental change before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 2990,
+  "j": 0,
+  "w": "environmental risk",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental risk before deciding how to proceed.",
+  "new": "The researchers discussed environmental risks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental risk”)"
+ },
+ {
+  "i": 2992,
+  "j": 0,
+  "w": "environmental standard",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental standard before deciding how to proceed.",
+  "new": "The researchers discussed environmental standards before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental standard”)"
+ },
+ {
+  "i": 2993,
+  "j": 0,
+  "w": "environmental project",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental project before deciding how to proceed.",
+  "new": "The researchers discussed environmental projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental project”)"
+ },
+ {
+  "i": 2995,
+  "j": 0,
+  "w": "environmental benefit",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental benefit before deciding how to proceed.",
+  "new": "The researchers discussed environmental benefits before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental benefit”)"
+ },
+ {
+  "i": 2996,
+  "j": 0,
+  "w": "environmental cost",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental cost before deciding how to proceed.",
+  "new": "The researchers discussed environmental costs before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental cost”)"
+ },
+ {
+  "i": 2997,
+  "j": 0,
+  "w": "environmental action",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental action before deciding how to proceed.",
+  "new": "The researchers discussed environmental actions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental action”)"
+ },
+ {
+  "i": 2998,
+  "j": 0,
+  "w": "environmental campaign",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental campaign before deciding how to proceed.",
+  "new": "The researchers discussed environmental campaigns before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental campaign”)"
+ },
+ {
+  "i": 2999,
+  "j": 0,
+  "w": "environmental issue",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental issue before deciding how to proceed.",
+  "new": "The researchers discussed environmental issues before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental issue”)"
+ },
+ {
+  "i": 3000,
+  "j": 0,
+  "w": "environmental solution",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental solution before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3001,
+  "j": 0,
+  "w": "environmental challenge",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental challenge before deciding how to proceed.",
+  "new": "The researchers discussed environmental challenges before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“environmental challenge”)"
+ },
+ {
+  "i": 3002,
+  "j": 0,
+  "w": "environmental energy",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental energy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3003,
+  "j": 0,
+  "w": "environmental waste",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental waste before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3004,
+  "j": 0,
+  "w": "environmental pollution",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental pollution before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3005,
+  "j": 0,
+  "w": "environmental climate",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental climate before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3006,
+  "j": 0,
+  "w": "environmental resource",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental resource before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3008,
+  "j": 0,
+  "w": "environmental safety",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental safety before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3010,
+  "j": 0,
+  "w": "environmental development",
+  "pos": "phrase",
+  "old": "The researchers discussed environmental development before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3012,
+  "j": 0,
+  "w": "social change",
+  "pos": "phrase",
+  "old": "The researchers discussed social change before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3013,
+  "j": 0,
+  "w": "social responsibility",
+  "pos": "phrase",
+  "old": "The researchers discussed social responsibility before deciding how to proceed.",
+  "new": "The researchers discussed social responsibilities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social responsibility”)"
+ },
+ {
+  "i": 3017,
+  "j": 0,
+  "w": "social interaction",
+  "pos": "phrase",
+  "old": "The researchers discussed social interaction before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3018,
+  "j": 0,
+  "w": "social pressure",
+  "pos": "phrase",
+  "old": "The researchers discussed social pressure before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3019,
+  "j": 0,
+  "w": "social problem",
+  "pos": "phrase",
+  "old": "The researchers discussed social problem before deciding how to proceed.",
+  "new": "The researchers discussed social problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social problem”)"
+ },
+ {
+  "i": 3021,
+  "j": 0,
+  "w": "social network",
+  "pos": "phrase",
+  "old": "The researchers discussed social network before deciding how to proceed.",
+  "new": "The researchers discussed social networks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social network”)"
+ },
+ {
+  "i": 3022,
+  "j": 0,
+  "w": "social policy",
+  "pos": "phrase",
+  "old": "The researchers discussed social policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3023,
+  "j": 0,
+  "w": "social service",
+  "pos": "phrase",
+  "old": "The researchers discussed social service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3025,
+  "j": 0,
+  "w": "social identity",
+  "pos": "phrase",
+  "old": "The researchers discussed social identity before deciding how to proceed.",
+  "new": "The researchers discussed social identities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social identity”)"
+ },
+ {
+  "i": 3026,
+  "j": 0,
+  "w": "social relationship",
+  "pos": "phrase",
+  "old": "The researchers discussed social relationship before deciding how to proceed.",
+  "new": "The researchers discussed social relationships before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social relationship”)"
+ },
+ {
+  "i": 3027,
+  "j": 0,
+  "w": "social issue",
+  "pos": "phrase",
+  "old": "The researchers discussed social issue before deciding how to proceed.",
+  "new": "The researchers discussed social issues before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social issue”)"
+ },
+ {
+  "i": 3028,
+  "j": 0,
+  "w": "social impact",
+  "pos": "phrase",
+  "old": "The researchers discussed social impact before deciding how to proceed.",
+  "new": "The researchers discussed social impacts before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“social impact”)"
+ },
+ {
+  "i": 3032,
+  "j": 0,
+  "w": "social culture",
+  "pos": "phrase",
+  "old": "The researchers discussed social culture before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3033,
+  "j": 0,
+  "w": "social diversity",
+  "pos": "phrase",
+  "old": "The researchers discussed social diversity before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3035,
+  "j": 0,
+  "w": "social safety",
+  "pos": "phrase",
+  "old": "The researchers discussed social safety before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3039,
+  "j": 0,
+  "w": "social opportunity",
+  "pos": "phrase",
+  "old": "The researchers discussed social opportunity before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3043,
+  "j": 0,
+  "w": "financial decision",
+  "pos": "phrase",
+  "old": "The researchers discussed financial decision before deciding how to proceed.",
+  "new": "The researchers discussed financial decisions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial decision”)"
+ },
+ {
+  "i": 3044,
+  "j": 0,
+  "w": "financial problem",
+  "pos": "phrase",
+  "old": "The researchers discussed financial problem before deciding how to proceed.",
+  "new": "The researchers discussed financial problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial problem”)"
+ },
+ {
+  "i": 3045,
+  "j": 0,
+  "w": "financial pressure",
+  "pos": "phrase",
+  "old": "The researchers discussed financial pressure before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3047,
+  "j": 0,
+  "w": "financial service",
+  "pos": "phrase",
+  "old": "The researchers discussed financial service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3048,
+  "j": 0,
+  "w": "financial institution",
+  "pos": "phrase",
+  "old": "The researchers discussed financial institution before deciding how to proceed.",
+  "new": "The researchers discussed financial institutions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial institution”)"
+ },
+ {
+  "i": 3049,
+  "j": 0,
+  "w": "financial market",
+  "pos": "phrase",
+  "old": "The researchers discussed financial market before deciding how to proceed.",
+  "new": "The researchers discussed financial markets before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial market”)"
+ },
+ {
+  "i": 3050,
+  "j": 0,
+  "w": "financial risk",
+  "pos": "phrase",
+  "old": "The researchers discussed financial risk before deciding how to proceed.",
+  "new": "The researchers discussed financial risks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial risk”)"
+ },
+ {
+  "i": 3051,
+  "j": 0,
+  "w": "financial cost",
+  "pos": "phrase",
+  "old": "The researchers discussed financial cost before deciding how to proceed.",
+  "new": "The researchers discussed financial costs before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial cost”)"
+ },
+ {
+  "i": 3052,
+  "j": 0,
+  "w": "financial benefit",
+  "pos": "phrase",
+  "old": "The researchers discussed financial benefit before deciding how to proceed.",
+  "new": "The researchers discussed financial benefits before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial benefit”)"
+ },
+ {
+  "i": 3053,
+  "j": 0,
+  "w": "financial goal",
+  "pos": "phrase",
+  "old": "The researchers discussed financial goal before deciding how to proceed.",
+  "new": "The researchers discussed financial goals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial goal”)"
+ },
+ {
+  "i": 3054,
+  "j": 0,
+  "w": "financial report",
+  "pos": "phrase",
+  "old": "The researchers discussed financial report before deciding how to proceed.",
+  "new": "The researchers discussed financial reports before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial report”)"
+ },
+ {
+  "i": 3056,
+  "j": 0,
+  "w": "financial resource",
+  "pos": "phrase",
+  "old": "The researchers discussed financial resource before deciding how to proceed.",
+  "new": "The researchers discussed financial resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“financial resource”)"
+ },
+ {
+  "i": 3062,
+  "j": 0,
+  "w": "financial saving",
+  "pos": "phrase",
+  "old": "The researchers discussed financial saving before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3063,
+  "j": 0,
+  "w": "financial investment",
+  "pos": "phrase",
+  "old": "The researchers discussed financial investment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3064,
+  "j": 0,
+  "w": "financial budget",
+  "pos": "phrase",
+  "old": "The researchers discussed financial budget before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3065,
+  "j": 0,
+  "w": "financial debt",
+  "pos": "phrase",
+  "old": "The researchers discussed financial debt before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3068,
+  "j": 0,
+  "w": "financial consumer",
+  "pos": "phrase",
+  "old": "The researchers discussed financial consumer before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3072,
+  "j": 0,
+  "w": "health service",
+  "pos": "phrase",
+  "old": "The researchers discussed health service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3073,
+  "j": 0,
+  "w": "health risk",
+  "pos": "phrase",
+  "old": "The researchers discussed health risk before deciding how to proceed.",
+  "new": "The researchers discussed health risks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health risk”)"
+ },
+ {
+  "i": 3074,
+  "j": 0,
+  "w": "health problem",
+  "pos": "phrase",
+  "old": "The researchers discussed health problem before deciding how to proceed.",
+  "new": "The researchers discussed health problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health problem”)"
+ },
+ {
+  "i": 3075,
+  "j": 0,
+  "w": "health benefit",
+  "pos": "phrase",
+  "old": "The researchers discussed health benefit before deciding how to proceed.",
+  "new": "The researchers discussed health benefits before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health benefit”)"
+ },
+ {
+  "i": 3077,
+  "j": 0,
+  "w": "health condition",
+  "pos": "phrase",
+  "old": "The researchers discussed health condition before deciding how to proceed.",
+  "new": "The researchers discussed health conditions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health condition”)"
+ },
+ {
+  "i": 3078,
+  "j": 0,
+  "w": "health policy",
+  "pos": "phrase",
+  "old": "The researchers discussed health policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3081,
+  "j": 0,
+  "w": "health practice",
+  "pos": "phrase",
+  "old": "The researchers discussed health practice before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3082,
+  "j": 0,
+  "w": "health outcome",
+  "pos": "phrase",
+  "old": "The researchers discussed health outcome before deciding how to proceed.",
+  "new": "The researchers discussed health outcomes before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health outcome”)"
+ },
+ {
+  "i": 3084,
+  "j": 0,
+  "w": "health system",
+  "pos": "phrase",
+  "old": "The researchers discussed health system before deciding how to proceed.",
+  "new": "The researchers discussed health systems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health system”)"
+ },
+ {
+  "i": 3086,
+  "j": 0,
+  "w": "health program",
+  "pos": "phrase",
+  "old": "The researchers discussed health program before deciding how to proceed.",
+  "new": "The researchers discussed health programs before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health program”)"
+ },
+ {
+  "i": 3087,
+  "j": 0,
+  "w": "health resource",
+  "pos": "phrase",
+  "old": "The researchers discussed health resource before deciding how to proceed.",
+  "new": "The researchers discussed health resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health resource”)"
+ },
+ {
+  "i": 3088,
+  "j": 0,
+  "w": "health campaign",
+  "pos": "phrase",
+  "old": "The researchers discussed health campaign before deciding how to proceed.",
+  "new": "The researchers discussed health campaigns before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“health campaign”)"
+ },
+ {
+  "i": 3089,
+  "j": 0,
+  "w": "health nutrition",
+  "pos": "phrase",
+  "old": "The researchers discussed health nutrition before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3093,
+  "j": 0,
+  "w": "health wellbeing",
+  "pos": "phrase",
+  "old": "The researchers discussed health wellbeing before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3095,
+  "j": 0,
+  "w": "health prevention",
+  "pos": "phrase",
+  "old": "The researchers discussed health prevention before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3096,
+  "j": 0,
+  "w": "health recovery",
+  "pos": "phrase",
+  "old": "The researchers discussed health recovery before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3098,
+  "j": 0,
+  "w": "health access",
+  "pos": "phrase",
+  "old": "The researchers discussed health access before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3099,
+  "j": 0,
+  "w": "learning strategy",
+  "pos": "phrase",
+  "old": "The researchers discussed learning strategy before deciding how to proceed.",
+  "new": "The researchers discussed learning strategies before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning strategy”)"
+ },
+ {
+  "i": 3100,
+  "j": 0,
+  "w": "learning habit",
+  "pos": "phrase",
+  "old": "The researchers discussed learning habit before deciding how to proceed.",
+  "new": "The researchers discussed learning habits before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning habit”)"
+ },
+ {
+  "i": 3101,
+  "j": 0,
+  "w": "learning environment",
+  "pos": "phrase",
+  "old": "The researchers discussed learning environment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3102,
+  "j": 0,
+  "w": "learning outcome",
+  "pos": "phrase",
+  "old": "The researchers discussed learning outcome before deciding how to proceed.",
+  "new": "The researchers discussed learning outcomes before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning outcome”)"
+ },
+ {
+  "i": 3103,
+  "j": 0,
+  "w": "learning goal",
+  "pos": "phrase",
+  "old": "The researchers discussed learning goal before deciding how to proceed.",
+  "new": "The researchers discussed learning goals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning goal”)"
+ },
+ {
+  "i": 3106,
+  "j": 0,
+  "w": "learning resource",
+  "pos": "phrase",
+  "old": "The researchers discussed learning resource before deciding how to proceed.",
+  "new": "The researchers discussed learning resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning resource”)"
+ },
+ {
+  "i": 3107,
+  "j": 0,
+  "w": "learning activity",
+  "pos": "phrase",
+  "old": "The researchers discussed learning activity before deciding how to proceed.",
+  "new": "The researchers discussed learning activities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning activity”)"
+ },
+ {
+  "i": 3108,
+  "j": 0,
+  "w": "learning method",
+  "pos": "phrase",
+  "old": "The researchers discussed learning method before deciding how to proceed.",
+  "new": "The researchers discussed learning methods before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning method”)"
+ },
+ {
+  "i": 3109,
+  "j": 0,
+  "w": "learning task",
+  "pos": "phrase",
+  "old": "The researchers discussed learning task before deciding how to proceed.",
+  "new": "The researchers discussed learning tasks before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning task”)"
+ },
+ {
+  "i": 3110,
+  "j": 0,
+  "w": "learning skill",
+  "pos": "phrase",
+  "old": "The researchers discussed learning skill before deciding how to proceed.",
+  "new": "The researchers discussed learning skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning skill”)"
+ },
+ {
+  "i": 3111,
+  "j": 0,
+  "w": "learning practice",
+  "pos": "phrase",
+  "old": "The researchers discussed learning practice before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3112,
+  "j": 0,
+  "w": "learning plan",
+  "pos": "phrase",
+  "old": "The researchers discussed learning plan before deciding how to proceed.",
+  "new": "The researchers discussed learning plans before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning plan”)"
+ },
+ {
+  "i": 3113,
+  "j": 0,
+  "w": "learning result",
+  "pos": "phrase",
+  "old": "The researchers discussed learning result before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3114,
+  "j": 0,
+  "w": "learning challenge",
+  "pos": "phrase",
+  "old": "The researchers discussed learning challenge before deciding how to proceed.",
+  "new": "The researchers discussed learning challenges before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning challenge”)"
+ },
+ {
+  "i": 3115,
+  "j": 0,
+  "w": "learning style",
+  "pos": "phrase",
+  "old": "The researchers discussed learning style before deciding how to proceed.",
+  "new": "The researchers discussed learning styles before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning style”)"
+ },
+ {
+  "i": 3116,
+  "j": 0,
+  "w": "learning material",
+  "pos": "phrase",
+  "old": "The researchers discussed learning material before deciding how to proceed.",
+  "new": "The researchers discussed learning materials before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“learning material”)"
+ },
+ {
+  "i": 3117,
+  "j": 0,
+  "w": "learning experience",
+  "pos": "phrase",
+  "old": "The researchers discussed learning experience before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3119,
+  "j": 0,
+  "w": "learning assessment",
+  "pos": "phrase",
+  "old": "The researchers discussed learning assessment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3120,
+  "j": 0,
+  "w": "learning motivation",
+  "pos": "phrase",
+  "old": "The researchers discussed learning motivation before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3121,
+  "j": 0,
+  "w": "learning concentration",
+  "pos": "phrase",
+  "old": "The researchers discussed learning concentration before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3122,
+  "j": 0,
+  "w": "learning memory",
+  "pos": "phrase",
+  "old": "The researchers discussed learning memory before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3123,
+  "j": 0,
+  "w": "learning reading",
+  "pos": "phrase",
+  "old": "The researchers discussed learning reading before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3124,
+  "j": 0,
+  "w": "learning speaking",
+  "pos": "phrase",
+  "old": "The researchers discussed learning speaking before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3125,
+  "j": 0,
+  "w": "learning writing",
+  "pos": "phrase",
+  "old": "The researchers discussed learning writing before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3126,
+  "j": 0,
+  "w": "learning vocabulary",
+  "pos": "phrase",
+  "old": "The researchers discussed learning vocabulary before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3127,
+  "j": 0,
+  "w": "learning grammar",
+  "pos": "phrase",
+  "old": "The researchers discussed learning grammar before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3128,
+  "j": 0,
+  "w": "learning success",
+  "pos": "phrase",
+  "old": "The researchers discussed learning success before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3129,
+  "j": 0,
+  "w": "community service",
+  "pos": "phrase",
+  "old": "The researchers discussed community service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3130,
+  "j": 0,
+  "w": "community project",
+  "pos": "phrase",
+  "old": "The researchers discussed community project before deciding how to proceed.",
+  "new": "The researchers discussed community projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community project”)"
+ },
+ {
+  "i": 3131,
+  "j": 0,
+  "w": "community center",
+  "pos": "phrase",
+  "old": "The researchers discussed community center before deciding how to proceed.",
+  "new": "The researchers discussed community centers before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community center”)"
+ },
+ {
+  "i": 3137,
+  "j": 0,
+  "w": "community library",
+  "pos": "phrase",
+  "old": "The researchers discussed community library before deciding how to proceed.",
+  "new": "The researchers discussed community libraries before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community library”)"
+ },
+ {
+  "i": 3138,
+  "j": 0,
+  "w": "community event",
+  "pos": "phrase",
+  "old": "The researchers discussed community event before deciding how to proceed.",
+  "new": "The researchers discussed community events before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community event”)"
+ },
+ {
+  "i": 3139,
+  "j": 0,
+  "w": "community program",
+  "pos": "phrase",
+  "old": "The researchers discussed community program before deciding how to proceed.",
+  "new": "The researchers discussed community programs before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community program”)"
+ },
+ {
+  "i": 3140,
+  "j": 0,
+  "w": "community member",
+  "pos": "phrase",
+  "old": "The researchers discussed community member before deciding how to proceed.",
+  "new": "The researchers discussed community members before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community member”)"
+ },
+ {
+  "i": 3141,
+  "j": 0,
+  "w": "community resource",
+  "pos": "phrase",
+  "old": "The researchers discussed community resource before deciding how to proceed.",
+  "new": "The researchers discussed community resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community resource”)"
+ },
+ {
+  "i": 3142,
+  "j": 0,
+  "w": "community activity",
+  "pos": "phrase",
+  "old": "The researchers discussed community activity before deciding how to proceed.",
+  "new": "The researchers discussed community activities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community activity”)"
+ },
+ {
+  "i": 3143,
+  "j": 0,
+  "w": "community issue",
+  "pos": "phrase",
+  "old": "The researchers discussed community issue before deciding how to proceed.",
+  "new": "The researchers discussed community issues before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community issue”)"
+ },
+ {
+  "i": 3144,
+  "j": 0,
+  "w": "community need",
+  "pos": "phrase",
+  "old": "The researchers discussed community need before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3145,
+  "j": 0,
+  "w": "community action",
+  "pos": "phrase",
+  "old": "The researchers discussed community action before deciding how to proceed.",
+  "new": "The researchers discussed community actions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community action”)"
+ },
+ {
+  "i": 3146,
+  "j": 0,
+  "w": "community leader",
+  "pos": "phrase",
+  "old": "The researchers discussed community leader before deciding how to proceed.",
+  "new": "The researchers discussed community leaders before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community leader”)"
+ },
+ {
+  "i": 3147,
+  "j": 0,
+  "w": "community group",
+  "pos": "phrase",
+  "old": "The researchers discussed community group before deciding how to proceed.",
+  "new": "The researchers discussed community groups before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community group”)"
+ },
+ {
+  "i": 3148,
+  "j": 0,
+  "w": "community network",
+  "pos": "phrase",
+  "old": "The researchers discussed community network before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3149,
+  "j": 0,
+  "w": "community volunteer",
+  "pos": "phrase",
+  "old": "The researchers discussed community volunteer before deciding how to proceed.",
+  "new": "The researchers discussed community volunteers before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“community volunteer”)"
+ },
+ {
+  "i": 3150,
+  "j": 0,
+  "w": "community charity",
+  "pos": "phrase",
+  "old": "The researchers discussed community charity before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3152,
+  "j": 0,
+  "w": "community transport",
+  "pos": "phrase",
+  "old": "The researchers discussed community transport before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3153,
+  "j": 0,
+  "w": "community culture",
+  "pos": "phrase",
+  "old": "The researchers discussed community culture before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3154,
+  "j": 0,
+  "w": "community family",
+  "pos": "phrase",
+  "old": "The researchers discussed community family before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3157,
+  "j": 0,
+  "w": "community welfare",
+  "pos": "phrase",
+  "old": "The researchers discussed community welfare before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3160,
+  "j": 0,
+  "w": "workplace culture",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace culture before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3162,
+  "j": 0,
+  "w": "workplace policy",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3164,
+  "j": 0,
+  "w": "workplace skill",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace skill before deciding how to proceed.",
+  "new": "The researchers discussed workplace skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace skill”)"
+ },
+ {
+  "i": 3166,
+  "j": 0,
+  "w": "workplace pressure",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace pressure before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3167,
+  "j": 0,
+  "w": "workplace performance",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace performance before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3168,
+  "j": 0,
+  "w": "workplace experience",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace experience before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3169,
+  "j": 0,
+  "w": "workplace goal",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace goal before deciding how to proceed.",
+  "new": "The researchers discussed workplace goals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace goal”)"
+ },
+ {
+  "i": 3170,
+  "j": 0,
+  "w": "workplace environment",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace environment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3171,
+  "j": 0,
+  "w": "workplace relationship",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace relationship before deciding how to proceed.",
+  "new": "The researchers discussed workplace relationships before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace relationship”)"
+ },
+ {
+  "i": 3172,
+  "j": 0,
+  "w": "workplace problem",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace problem before deciding how to proceed.",
+  "new": "The researchers discussed workplace problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace problem”)"
+ },
+ {
+  "i": 3173,
+  "j": 0,
+  "w": "workplace solution",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace solution before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3174,
+  "j": 0,
+  "w": "workplace meeting",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace meeting before deciding how to proceed.",
+  "new": "The researchers discussed workplace meetings before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace meeting”)"
+ },
+ {
+  "i": 3175,
+  "j": 0,
+  "w": "workplace project",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace project before deciding how to proceed.",
+  "new": "The researchers discussed workplace projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace project”)"
+ },
+ {
+  "i": 3176,
+  "j": 0,
+  "w": "workplace role",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace role before deciding how to proceed.",
+  "new": "The researchers discussed workplace roles before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“workplace role”)"
+ },
+ {
+  "i": 3177,
+  "j": 0,
+  "w": "workplace balance",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace balance before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3180,
+  "j": 0,
+  "w": "workplace leadership",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace leadership before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3181,
+  "j": 0,
+  "w": "workplace teamwork",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace teamwork before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3183,
+  "j": 0,
+  "w": "workplace workload",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace workload before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3187,
+  "j": 0,
+  "w": "workplace employment",
+  "pos": "phrase",
+  "old": "The researchers discussed workplace employment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3188,
+  "j": 0,
+  "w": "research method",
+  "pos": "phrase",
+  "old": "The researchers discussed research method before deciding how to proceed.",
+  "new": "The researchers discussed research methods before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research method”)"
+ },
+ {
+  "i": 3189,
+  "j": 0,
+  "w": "research result",
+  "pos": "phrase",
+  "old": "The researchers discussed research result before deciding how to proceed.",
+  "new": "The researchers discussed research results before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research result”)"
+ },
+ {
+  "i": 3190,
+  "j": 0,
+  "w": "research question",
+  "pos": "phrase",
+  "old": "The researchers discussed research question before deciding how to proceed.",
+  "new": "The researchers discussed research questions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research question”)"
+ },
+ {
+  "i": 3191,
+  "j": 0,
+  "w": "research design",
+  "pos": "phrase",
+  "old": "The researchers discussed research design before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3194,
+  "j": 0,
+  "w": "research finding",
+  "pos": "phrase",
+  "old": "The researchers discussed research finding before deciding how to proceed.",
+  "new": "The researchers discussed research findings before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research finding”)"
+ },
+ {
+  "i": 3195,
+  "j": 0,
+  "w": "research sample",
+  "pos": "phrase",
+  "old": "The researchers discussed research sample before deciding how to proceed.",
+  "new": "The researchers discussed research samples before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research sample”)"
+ },
+ {
+  "i": 3196,
+  "j": 0,
+  "w": "research topic",
+  "pos": "phrase",
+  "old": "The researchers discussed research topic before deciding how to proceed.",
+  "new": "The researchers discussed research topics before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research topic”)"
+ },
+ {
+  "i": 3197,
+  "j": 0,
+  "w": "research purpose",
+  "pos": "phrase",
+  "old": "The researchers discussed research purpose before deciding how to proceed.",
+  "new": "The researchers discussed research purposes before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research purpose”)"
+ },
+ {
+  "i": 3199,
+  "j": 0,
+  "w": "research project",
+  "pos": "phrase",
+  "old": "The researchers discussed research project before deciding how to proceed.",
+  "new": "The researchers discussed research projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research project”)"
+ },
+ {
+  "i": 3200,
+  "j": 0,
+  "w": "research report",
+  "pos": "phrase",
+  "old": "The researchers discussed research report before deciding how to proceed.",
+  "new": "The researchers discussed research reports before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research report”)"
+ },
+ {
+  "i": 3201,
+  "j": 0,
+  "w": "research study",
+  "pos": "phrase",
+  "old": "The researchers discussed research study before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3202,
+  "j": 0,
+  "w": "research outcome",
+  "pos": "phrase",
+  "old": "The researchers discussed research outcome before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3204,
+  "j": 0,
+  "w": "research source",
+  "pos": "phrase",
+  "old": "The researchers discussed research source before deciding how to proceed.",
+  "new": "The researchers discussed research sources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research source”)"
+ },
+ {
+  "i": 3206,
+  "j": 0,
+  "w": "research conclusion",
+  "pos": "phrase",
+  "old": "The researchers discussed research conclusion before deciding how to proceed.",
+  "new": "The researchers discussed research conclusions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research conclusion”)"
+ },
+ {
+  "i": 3207,
+  "j": 0,
+  "w": "research limitation",
+  "pos": "phrase",
+  "old": "The researchers discussed research limitation before deciding how to proceed.",
+  "new": "The researchers discussed research limitations before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research limitation”)"
+ },
+ {
+  "i": 3208,
+  "j": 0,
+  "w": "research survey",
+  "pos": "phrase",
+  "old": "The researchers discussed research survey before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3209,
+  "j": 0,
+  "w": "research experiment",
+  "pos": "phrase",
+  "old": "The researchers discussed research experiment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3210,
+  "j": 0,
+  "w": "research observation",
+  "pos": "phrase",
+  "old": "The researchers discussed research observation before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3211,
+  "j": 0,
+  "w": "research evaluation",
+  "pos": "phrase",
+  "old": "The researchers discussed research evaluation before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3212,
+  "j": 0,
+  "w": "research assessment",
+  "pos": "phrase",
+  "old": "The researchers discussed research assessment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3213,
+  "j": 0,
+  "w": "research variable",
+  "pos": "phrase",
+  "old": "The researchers discussed research variable before deciding how to proceed.",
+  "new": "The researchers discussed research variables before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research variable”)"
+ },
+ {
+  "i": 3214,
+  "j": 0,
+  "w": "research pattern",
+  "pos": "phrase",
+  "old": "The researchers discussed research pattern before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3215,
+  "j": 0,
+  "w": "research trend",
+  "pos": "phrase",
+  "old": "The researchers discussed research trend before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3217,
+  "j": 0,
+  "w": "research interpretation",
+  "pos": "phrase",
+  "old": "The researchers discussed research interpretation before deciding how to proceed.",
+  "new": "The researchers discussed research interpretations before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“research interpretation”)"
+ },
+ {
+  "i": 3222,
+  "j": 0,
+  "w": "urban design",
+  "pos": "phrase",
+  "old": "The researchers discussed urban design before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3224,
+  "j": 0,
+  "w": "urban policy",
+  "pos": "phrase",
+  "old": "The researchers discussed urban policy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3225,
+  "j": 0,
+  "w": "urban service",
+  "pos": "phrase",
+  "old": "The researchers discussed urban service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3226,
+  "j": 0,
+  "w": "urban population",
+  "pos": "phrase",
+  "old": "The researchers discussed urban population before deciding how to proceed.",
+  "new": "The researchers discussed urban populations before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban population”)"
+ },
+ {
+  "i": 3227,
+  "j": 0,
+  "w": "urban space",
+  "pos": "phrase",
+  "old": "The researchers discussed urban space before deciding how to proceed.",
+  "new": "The researchers discussed urban spaces before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban space”)"
+ },
+ {
+  "i": 3228,
+  "j": 0,
+  "w": "urban environment",
+  "pos": "phrase",
+  "old": "The researchers discussed urban environment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3229,
+  "j": 0,
+  "w": "urban problem",
+  "pos": "phrase",
+  "old": "The researchers discussed urban problem before deciding how to proceed.",
+  "new": "The researchers discussed urban problems before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban problem”)"
+ },
+ {
+  "i": 3230,
+  "j": 0,
+  "w": "urban project",
+  "pos": "phrase",
+  "old": "The researchers discussed urban project before deciding how to proceed.",
+  "new": "The researchers discussed urban projects before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban project”)"
+ },
+ {
+  "i": 3231,
+  "j": 0,
+  "w": "urban community",
+  "pos": "phrase",
+  "old": "The researchers discussed urban community before deciding how to proceed.",
+  "new": "The researchers discussed urban communities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban community”)"
+ },
+ {
+  "i": 3232,
+  "j": 0,
+  "w": "urban area",
+  "pos": "phrase",
+  "old": "The researchers discussed urban area before deciding how to proceed.",
+  "new": "The researchers discussed urban areas before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban area”)"
+ },
+ {
+  "i": 3233,
+  "j": 0,
+  "w": "urban center",
+  "pos": "phrase",
+  "old": "The researchers discussed urban center before deciding how to proceed.",
+  "new": "The researchers discussed urban centers before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“urban center”)"
+ },
+ {
+  "i": 3234,
+  "j": 0,
+  "w": "urban change",
+  "pos": "phrase",
+  "old": "The researchers discussed urban change before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3235,
+  "j": 0,
+  "w": "urban future",
+  "pos": "phrase",
+  "old": "The researchers discussed urban future before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3236,
+  "j": 0,
+  "w": "urban need",
+  "pos": "phrase",
+  "old": "The researchers discussed urban need before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3238,
+  "j": 0,
+  "w": "urban road",
+  "pos": "phrase",
+  "old": "The researchers discussed urban road before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3239,
+  "j": 0,
+  "w": "urban building",
+  "pos": "phrase",
+  "old": "The researchers discussed urban building before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3241,
+  "j": 0,
+  "w": "urban access",
+  "pos": "phrase",
+  "old": "The researchers discussed urban access before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3243,
+  "j": 0,
+  "w": "urban energy",
+  "pos": "phrase",
+  "old": "The researchers discussed urban energy before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3244,
+  "j": 0,
+  "w": "urban waste",
+  "pos": "phrase",
+  "old": "The researchers discussed urban waste before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3245,
+  "j": 0,
+  "w": "urban health",
+  "pos": "phrase",
+  "old": "The researchers discussed urban health before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3246,
+  "j": 0,
+  "w": "urban quality",
+  "pos": "phrase",
+  "old": "The researchers discussed urban quality before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3248,
+  "j": 0,
+  "w": "online course",
+  "pos": "phrase",
+  "old": "The researchers discussed online course before deciding how to proceed.",
+  "new": "The researchers discussed online courses before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online course”)"
+ },
+ {
+  "i": 3249,
+  "j": 0,
+  "w": "online service",
+  "pos": "phrase",
+  "old": "The researchers discussed online service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3250,
+  "j": 0,
+  "w": "online payment",
+  "pos": "phrase",
+  "old": "The researchers discussed online payment before deciding how to proceed.",
+  "new": "The researchers discussed online payments before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online payment”)"
+ },
+ {
+  "i": 3253,
+  "j": 0,
+  "w": "online resource",
+  "pos": "phrase",
+  "old": "The researchers discussed online resource before deciding how to proceed.",
+  "new": "The researchers discussed online resources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online resource”)"
+ },
+ {
+  "i": 3254,
+  "j": 0,
+  "w": "online community",
+  "pos": "phrase",
+  "old": "The researchers discussed online community before deciding how to proceed.",
+  "new": "The researchers discussed online communities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online community”)"
+ },
+ {
+  "i": 3255,
+  "j": 0,
+  "w": "online discussion",
+  "pos": "phrase",
+  "old": "The researchers discussed online discussion before deciding how to proceed.",
+  "new": "The researchers discussed online discussions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online discussion”)"
+ },
+ {
+  "i": 3257,
+  "j": 0,
+  "w": "online application",
+  "pos": "phrase",
+  "old": "The researchers discussed online application before deciding how to proceed.",
+  "new": "The researchers discussed online applications before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online application”)"
+ },
+ {
+  "i": 3258,
+  "j": 0,
+  "w": "online account",
+  "pos": "phrase",
+  "old": "The researchers discussed online account before deciding how to proceed.",
+  "new": "The researchers discussed online accounts before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online account”)"
+ },
+ {
+  "i": 3259,
+  "j": 0,
+  "w": "online support",
+  "pos": "phrase",
+  "old": "The researchers discussed online support before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3260,
+  "j": 0,
+  "w": "online activity",
+  "pos": "phrase",
+  "old": "The researchers discussed online activity before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3261,
+  "j": 0,
+  "w": "online meeting",
+  "pos": "phrase",
+  "old": "The researchers discussed online meeting before deciding how to proceed.",
+  "new": "The researchers discussed online meetings before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online meeting”)"
+ },
+ {
+  "i": 3262,
+  "j": 0,
+  "w": "online assessment",
+  "pos": "phrase",
+  "old": "The researchers discussed online assessment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3263,
+  "j": 0,
+  "w": "online practice",
+  "pos": "phrase",
+  "old": "The researchers discussed online practice before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3264,
+  "j": 0,
+  "w": "online tool",
+  "pos": "phrase",
+  "old": "The researchers discussed online tool before deciding how to proceed.",
+  "new": "The researchers discussed online tools before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online tool”)"
+ },
+ {
+  "i": 3270,
+  "j": 0,
+  "w": "online information",
+  "pos": "phrase",
+  "old": "The researchers discussed online information before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3272,
+  "j": 0,
+  "w": "online identity",
+  "pos": "phrase",
+  "old": "The researchers discussed online identity before deciding how to proceed.",
+  "new": "The researchers discussed online identities before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“online identity”)"
+ },
+ {
+  "i": 3273,
+  "j": 0,
+  "w": "online network",
+  "pos": "phrase",
+  "old": "The researchers discussed online network before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3275,
+  "j": 0,
+  "w": "consumer choice",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer choice before deciding how to proceed.",
+  "new": "The researchers discussed consumer choices before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer choice”)"
+ },
+ {
+  "i": 3276,
+  "j": 0,
+  "w": "consumer demand",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer demand before deciding how to proceed.",
+  "new": "The researchers discussed consumer demands before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer demand”)"
+ },
+ {
+  "i": 3278,
+  "j": 0,
+  "w": "consumer service",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer service before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3280,
+  "j": 0,
+  "w": "consumer product",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer product before deciding how to proceed.",
+  "new": "The researchers discussed consumer products before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer product”)"
+ },
+ {
+  "i": 3282,
+  "j": 0,
+  "w": "consumer right",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer right before deciding how to proceed.",
+  "new": "The researchers discussed consumer rights before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer right”)"
+ },
+ {
+  "i": 3283,
+  "j": 0,
+  "w": "consumer decision",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer decision before deciding how to proceed.",
+  "new": "The researchers discussed consumer decisions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer decision”)"
+ },
+ {
+  "i": 3285,
+  "j": 0,
+  "w": "consumer habit",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer habit before deciding how to proceed.",
+  "new": "The researchers discussed consumer habits before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer habit”)"
+ },
+ {
+  "i": 3286,
+  "j": 0,
+  "w": "consumer preference",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer preference before deciding how to proceed.",
+  "new": "The researchers discussed consumer preferences before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer preference”)"
+ },
+ {
+  "i": 3287,
+  "j": 0,
+  "w": "consumer market",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer market before deciding how to proceed.",
+  "new": "The researchers discussed consumer markets before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer market”)"
+ },
+ {
+  "i": 3288,
+  "j": 0,
+  "w": "consumer trend",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer trend before deciding how to proceed.",
+  "new": "The researchers discussed consumer trends before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer trend”)"
+ },
+ {
+  "i": 3289,
+  "j": 0,
+  "w": "consumer cost",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer cost before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3290,
+  "j": 0,
+  "w": "consumer benefit",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer benefit before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3291,
+  "j": 0,
+  "w": "consumer experience",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer experience before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3293,
+  "j": 0,
+  "w": "consumer survey",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer survey before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3295,
+  "j": 0,
+  "w": "consumer quality",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer quality before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3296,
+  "j": 0,
+  "w": "consumer price",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer price before deciding how to proceed.",
+  "new": "The researchers discussed consumer prices before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer price”)"
+ },
+ {
+  "i": 3297,
+  "j": 0,
+  "w": "consumer brand",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer brand before deciding how to proceed.",
+  "new": "The researchers discussed consumer brands before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer brand”)"
+ },
+ {
+  "i": 3298,
+  "j": 0,
+  "w": "consumer advertising",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer advertising before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3299,
+  "j": 0,
+  "w": "consumer purchase",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer purchase before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3300,
+  "j": 0,
+  "w": "consumer payment",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer payment before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3301,
+  "j": 0,
+  "w": "consumer support",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer support before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3302,
+  "j": 0,
+  "w": "consumer complaint",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer complaint before deciding how to proceed.",
+  "new": "The researchers discussed consumer complaints before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“consumer complaint”)"
+ },
+ {
+  "i": 3303,
+  "j": 0,
+  "w": "consumer refund",
+  "pos": "phrase",
+  "old": "The researchers discussed consumer refund before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3304,
+  "j": 0,
+  "w": "career path",
+  "pos": "phrase",
+  "old": "The researchers discussed career path before deciding how to proceed.",
+  "new": "The researchers discussed career paths before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“career path”)"
+ },
+ {
+  "i": 3305,
+  "j": 0,
+  "w": "career goal",
+  "pos": "phrase",
+  "old": "The researchers discussed career goal before deciding how to proceed.",
+  "new": "The researchers discussed career goals before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“career goal”)"
+ },
+ {
+  "i": 3307,
+  "j": 0,
+  "w": "career choice",
+  "pos": "phrase",
+  "old": "The researchers discussed career choice before deciding how to proceed.",
+  "new": "The researchers discussed career choices before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“career choice”)"
+ },
+ {
+  "i": 3308,
+  "j": 0,
+  "w": "career opportunity",
+  "pos": "phrase",
+  "old": "The researchers discussed career opportunity before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3309,
+  "j": 0,
+  "w": "career skill",
+  "pos": "phrase",
+  "old": "The researchers discussed career skill before deciding how to proceed.",
+  "new": "The researchers discussed career skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“career skill”)"
+ },
+ {
+  "i": 3312,
+  "j": 0,
+  "w": "career experience",
+  "pos": "phrase",
+  "old": "The researchers discussed career experience before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3315,
+  "j": 0,
+  "w": "career change",
+  "pos": "phrase",
+  "old": "The researchers discussed career change before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "plural/countability is acceptable only in some senses; needs a human judgement"
+ },
+ {
+  "i": 3316,
+  "j": 0,
+  "w": "career decision",
+  "pos": "phrase",
+  "old": "The researchers discussed career decision before deciding how to proceed.",
+  "new": "The researchers discussed career decisions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“career decision”)"
+ },
+ {
+  "i": 3325,
+  "j": 0,
+  "w": "career promotion",
+  "pos": "phrase",
+  "old": "The researchers discussed career promotion before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3326,
+  "j": 0,
+  "w": "career qualification",
+  "pos": "phrase",
+  "old": "The researchers discussed career qualification before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3330,
+  "j": 0,
+  "w": "career leadership",
+  "pos": "phrase",
+  "old": "The researchers discussed career leadership before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3332,
+  "j": 0,
+  "w": "career communication",
+  "pos": "phrase",
+  "old": "The researchers discussed career communication before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3334,
+  "j": 0,
+  "w": "data source",
+  "pos": "phrase",
+  "old": "The researchers discussed data source before deciding how to proceed.",
+  "new": "The researchers discussed data sources before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data source”)"
+ },
+ {
+  "i": 3336,
+  "j": 0,
+  "w": "data collection",
+  "pos": "phrase",
+  "old": "The researchers discussed data collection before deciding how to proceed.",
+  "new": "The researchers discussed data collections before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data collection”)"
+ },
+ {
+  "i": 3339,
+  "j": 0,
+  "w": "data point",
+  "pos": "phrase",
+  "old": "The researchers discussed data point before deciding how to proceed.",
+  "new": "The researchers discussed data points before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data point”)"
+ },
+ {
+  "i": 3340,
+  "j": 0,
+  "w": "data trend",
+  "pos": "phrase",
+  "old": "The researchers discussed data trend before deciding how to proceed.",
+  "new": "The researchers discussed data trends before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data trend”)"
+ },
+ {
+  "i": 3341,
+  "j": 0,
+  "w": "data set",
+  "pos": "phrase",
+  "old": "The researchers discussed data set before deciding how to proceed.",
+  "new": "The researchers discussed data sets before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data set”)"
+ },
+ {
+  "i": 3343,
+  "j": 0,
+  "w": "data report",
+  "pos": "phrase",
+  "old": "The researchers discussed data report before deciding how to proceed.",
+  "new": "The researchers discussed data reports before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data report”)"
+ },
+ {
+  "i": 3345,
+  "j": 0,
+  "w": "data pattern",
+  "pos": "phrase",
+  "old": "The researchers discussed data pattern before deciding how to proceed.",
+  "new": "The researchers discussed data patterns before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data pattern”)"
+ },
+ {
+  "i": 3346,
+  "j": 0,
+  "w": "data value",
+  "pos": "phrase",
+  "old": "The researchers discussed data value before deciding how to proceed.",
+  "new": "The researchers discussed data values before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data value”)"
+ },
+ {
+  "i": 3347,
+  "j": 0,
+  "w": "data error",
+  "pos": "phrase",
+  "old": "The researchers discussed data error before deciding how to proceed.",
+  "new": "The researchers discussed data errors before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data error”)"
+ },
+ {
+  "i": 3349,
+  "j": 0,
+  "w": "data sample",
+  "pos": "phrase",
+  "old": "The researchers discussed data sample before deciding how to proceed.",
+  "new": "The researchers discussed data samples before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data sample”)"
+ },
+ {
+  "i": 3350,
+  "j": 0,
+  "w": "data comparison",
+  "pos": "phrase",
+  "old": "The researchers discussed data comparison before deciding how to proceed.",
+  "new": "The researchers discussed data comparisons before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data comparison”)"
+ },
+ {
+  "i": 3351,
+  "j": 0,
+  "w": "data interpretation",
+  "pos": "phrase",
+  "old": "The researchers discussed data interpretation before deciding how to proceed.",
+  "new": "The researchers discussed data interpretations before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data interpretation”)"
+ },
+ {
+  "i": 3352,
+  "j": 0,
+  "w": "data measurement",
+  "pos": "phrase",
+  "old": "The researchers discussed data measurement before deciding how to proceed.",
+  "new": null,
+  "cls": "uncertain",
+  "why": "headword itself is in the headword-validity queue (likely non-collocation); fix or retire the headword first"
+ },
+ {
+  "i": 3355,
+  "j": 0,
+  "w": "data table",
+  "pos": "phrase",
+  "old": "The researchers discussed data table before deciding how to proceed.",
+  "new": "The researchers discussed data tables before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“data table”)"
+ },
+ {
+  "i": 3362,
+  "j": 0,
+  "w": "reading strategy",
+  "pos": "phrase",
+  "old": "The researchers discussed reading strategy before deciding how to proceed.",
+  "new": "The researchers discussed reading strategies before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading strategy”)"
+ },
+ {
+  "i": 3363,
+  "j": 0,
+  "w": "reading skill",
+  "pos": "phrase",
+  "old": "The researchers discussed reading skill before deciding how to proceed.",
+  "new": "The researchers discussed reading skills before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading skill”)"
+ },
+ {
+  "i": 3364,
+  "j": 0,
+  "w": "reading passage",
+  "pos": "phrase",
+  "old": "The researchers discussed reading passage before deciding how to proceed.",
+  "new": "The researchers discussed reading passages before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading passage”)"
+ },
+ {
+  "i": 3365,
+  "j": 0,
+  "w": "reading question",
+  "pos": "phrase",
+  "old": "The researchers discussed reading question before deciding how to proceed.",
+  "new": "The researchers discussed reading questions before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading question”)"
+ },
+ {
+  "i": 3369,
+  "j": 0,
+  "w": "reading context",
+  "pos": "phrase",
+  "old": "The researchers discussed reading context before deciding how to proceed.",
+  "new": "The researchers discussed reading contexts before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading context”)"
+ },
+ {
+  "i": 3370,
+  "j": 0,
+  "w": "reading purpose",
+  "pos": "phrase",
+  "old": "The researchers discussed reading purpose before deciding how to proceed.",
+  "new": "The researchers discussed reading purposes before deciding how to proceed.",
+  "cls": "definite",
+  "why": "countable singular noun phrase without a determiner (“reading purpose”)"
+ }
+]

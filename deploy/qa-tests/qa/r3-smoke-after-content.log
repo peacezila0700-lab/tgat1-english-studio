@@ -1,0 +1,51 @@
+PASS content: every word has a Thai meaning
+PASS content: no half-translated "word + word" meanings
+PASS content: example translations are not Thai/English glued
+PASS page home @1280px renders
+PASS page hub @1280px renders
+PASS page profile @1280px renders
+PASS page vocab @1280px renders
+PASS page exam @1280px renders
+PASS page reading @1280px renders
+PASS page game @1280px renders
+PASS page analytics @1280px renders
+PASS page settings @1280px renders
+PASS no JavaScript errors @1280px
+PASS page home @390px renders
+PASS page hub @390px renders
+PASS page profile @390px renders
+PASS page vocab @390px renders
+PASS page exam @390px renders
+PASS page reading @390px renders
+PASS page game @390px renders
+PASS page analytics @390px renders
+PASS page settings @390px renders
+PASS no JavaScript errors @390px
+PASS fresh launch: Daily mission opens a question
+PASS fresh launch: Quick 10 opens a question
+PASS fresh launch: 90-second sprint opens a question
+PASS fresh launch: Practice by part (rc) opens a question
+PASS fresh launch: Mock set 1 opens a question
+PASS fresh launch: Random full mock opens a question
+PASS fresh launch: Adaptive diagnostic opens a question
+PASS answering: page height stays stable
+PASS answering: one coach box per question
+PASS a full 10-question run reaches the results page
+PASS vocab game from Home has no Home blocks inside
+PASS hub: exactly 70 sequential units, each with concepts, lesson, practice (guided or full mock) and an assessment
+PASS hub: Continue Learning on a fresh launch opens Unit 1
+PASS hub: guided practice shows a question with 4 options
+PASS hub: a first wrong answer gives a hint and a second chance (answer not revealed)
+PASS hub: an unfinished activity is resumed after reload
+PASS hub: later units stay locked (no skipping)
+PASS versions: index, app, manifest and service worker agree
+PASS service worker caches the Learning Hub files
+PASS content audit: no placeholder Thai meanings or mismatched placeholder translations
+FAIL content audit: no punctuation-cue, fragment-key or generic-distractor questions in the bank  [{'structuralCueCount': 4, 'fragmentKeyCount': 1, 'genericDistractorCount': 0}]
+PASS content audit: Reading Lab answers use all four positions
+PASS no JavaScript errors in Learning Hub checks
+PASS first visit does not reload the page by itself
+PASS offline: exam question bank loads from cache
+PASS offline: Learning Hub opens from cache
+
+48/49 checks passed

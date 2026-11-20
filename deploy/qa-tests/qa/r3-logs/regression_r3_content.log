@@ -1,0 +1,4 @@
+FAIL RC: recycled template distractors removed  []
+FAIL RC: no “problem/concern” stem answered by a purpose infinitive  [['S02-Q048']]
+
+regression_r3_content: 18/20 passed

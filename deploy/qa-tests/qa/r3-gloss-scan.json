@@ -1,0 +1,549 @@
+{
+ "main-gloss-not-in-senses0": [
+  [
+   "account",
+   "บัญชี; รายงานหรือคำอธิบาย; อธิบายหรือคิดเป็นสัดส่วน",
+   "คำบอกเล่า; รายงานเหตุการณ์"
+  ],
+  [
+   "address",
+   "ที่อยู่; กล่าวถึงหรือจัดการปัญหา; กล่าวปราศรัย",
+   "จัดการ (ปัญหา); กล่าวถึง"
+  ],
+  [
+   "application",
+   "แอปพลิเคชัน; การประยุกต์ใช้",
+   "ใบสมัครหรือการสมัคร (เรียน งาน ทุน)"
+  ],
+  [
+   "availability",
+   "ความพร้อมใช้",
+   "ความพร้อมหรือการมีสินค้า/บริการ/ทรัพยากรให้ใช้"
+  ],
+  [
+   "available",
+   "ว่าง; มีให้ใช้",
+   "มีอยู่หรือหาได้ / มีสินค้าให้ซื้อ"
+  ],
+  [
+   "bank",
+   "ธนาคาร; ตลิ่ง; สะสมหรือฝากเงิน",
+   "สถาบันการเงิน"
+  ],
+  [
+   "charge",
+   "ตั้งข้อหา; ค่าธรรมเนียม",
+   "เรียกเก็บเงิน / คิดค่าบริการ"
+  ],
+  [
+   "close",
+   "ใกล้ชิดหรือใกล้; ปิด; จบการดำเนินงาน",
+   "ใกล้หรือสนิทสนม"
+  ],
+  [
+   "course",
+   "หลักสูตรหรือวิชา; เส้นทาง; แนวทางดำเนินการ; คอร์สอาหาร",
+   "หลักสูตรหรือรายวิชา"
+  ],
+  [
+   "cover",
+   "ปกหรือสิ่งคลุม; ครอบคลุมหัวข้อ; จ่ายแทน/ทำหน้าที่แทน",
+   "ปกหนังสือหรือสิ่งที่ใช้คลุม"
+  ],
+  [
+   "fine",
+   "ปรับเงิน; ค่าปรับ",
+   "สบายดีหรือไม่มีปัญหา"
+  ],
+  [
+   "flat",
+   "แบนหรือเรียบ; ไม่มีลม/หมดแรง; ห้องชุด",
+   "แบน เรียบ หรือไม่มีส่วนโค้ง"
+  ],
+  [
+   "local",
+   "ท้องถิ่น; คนในพื้นที่",
+   "ที่เกี่ยวข้องกับพื้นที่หรือชุมชนใดชุมชนหนึ่ง"
+  ],
+  [
+   "note",
+   "บันทึกสั้น ๆ; ธนบัตร; โน้ตดนตรี; สังเกตหรือจดบันทึก",
+   "บันทึกหรือข้อความสั้น"
+  ],
+  [
+   "notwithstanding",
+   "แม้ว่า; อย่างไรก็ตาม",
+   "แม้จะมี; ทั้ง ๆ ที่"
+  ],
+  [
+   "plan",
+   "แผนหรือแบบแปลน; วางแผนหรือมีเจตนา",
+   "แผนหรือแนวทางปฏิบัติ"
+  ],
+  [
+   "policy",
+   "นโยบายหรือแนวปฏิบัติ; กรมธรรม์ประกันภัย",
+   "นโยบายหรือแผนปฏิบัติที่องค์กรกำหนด"
+  ],
+  [
+   "project",
+   "คาดการณ์",
+   "โครงการหรืองานที่มีเป้าหมายและระยะเวลา"
+  ],
+  [
+   "range",
+   "ช่วงหรือขอบเขต; ความหลากหลาย; ระยะทาง; มีค่าตั้งแต่...ถึง...",
+   "ช่วงของตัวเลขหรือระดับ"
+  ],
+  [
+   "record",
+   "บันทึกหรือข้อมูล; สถิติ/ผลงาน; บันทึกเสียงหรือข้อมูล",
+   "บันทึกหรือเอกสารที่เก็บข้อมูล"
+  ],
+  [
+   "reserve",
+   "จองไว้; สำรอง; เงินหรือทรัพยากรสำรอง",
+   "จองที่นั่ง ห้องพัก หรือบริการล่วงหน้า"
+  ],
+  [
+   "scarce",
+   "หายาก / ไม่บ่อย",
+   "ขาดแคลน; มีน้อย"
+  ],
+  [
+   "straightforward",
+   "ง่าย",
+   "ตรงไปตรงมา; ไม่ซับซ้อน"
+  ],
+  [
+   "subject",
+   "หัวข้อหรือเรื่อง; วิชา; ผู้ที่อยู่ภายใต้; ทำให้ต้องเผชิญ",
+   "หัวข้อหรือประเด็นที่กำลังพูดถึง"
+  ],
+  [
+   "work",
+   "งานหรือการทำงาน; ผลงาน; ใช้งานได้; แก้ปัญหาหรือได้ผล",
+   "งานหรือการจ้างงาน"
+  ],
+  [
+   "classical",
+   "เกี่ยวกับศิลปะหรือดนตรีคลาสสิก; แบบดั้งเดิม",
+   "เกี่ยวกับดนตรีหรือศิลปะคลาสสิก"
+  ],
+  [
+   "raise",
+   "ยก; ทำให้สูงขึ้น (ต้องมีกรรม)",
+   "ทำให้เพิ่มขึ้น; ขึ้น (ราคา เงินเดือน)"
+  ],
+  [
+   "continuous",
+   "ต่อเนื่องไม่หยุด",
+   "ต่อเนื่องไม่ขาดตอน"
+  ],
+  [
+   "all together",
+   "ทุกคนหรือทุกสิ่งพร้อมกัน",
+   "ทุกคนพร้อมกัน; อยู่ด้วยกันทั้งหมด"
+  ],
+  [
+   "immigrate",
+   "ย้ายเข้ามาอยู่ในประเทศ",
+   "ย้ายเข้ามาตั้งถิ่นฐานในประเทศ"
+  ],
+  [
+   "emigrate",
+   "ย้ายออกจากประเทศ",
+   "ย้ายออกไปอยู่ต่างประเทศ"
+  ],
+  [
+   "it’s",
+   "มัน (เป็น/มี)",
+   "มันเป็น; มันมี (รูปย่อ)"
+  ],
+  [
+   "they’re",
+   "พวกเขา (เป็น/อยู่)",
+   "พวกเขาเป็น; พวกเขากำลัง (รูปย่อ)"
+  ],
+  [
+   "elicit",
+   "กระตุ้นให้เกิด; ดึงคำตอบ",
+   "กระตุ้นให้ได้คำตอบหรือปฏิกิริยา"
+  ],
+  [
+   "clothe",
+   "ให้เสื้อผ้าสวมใส่",
+   "จัดหาเสื้อผ้าให้"
+  ]
+ ],
+ "dup-part": [
+  [
+   "publish",
+   "ตีพิมพ์; เผยแพร่; ตีพิมพ์"
+  ]
+ ],
+ "phrase-not-in-example": [
+  [
+   "apply for",
+   "She applied for a scholarship."
+  ],
+  [
+   "apply to",
+   "The rule applies to everyone."
+  ],
+  [
+   "be associated with",
+   "High sugar intake is often associated with an increased risk of tooth decay."
+  ],
+  [
+   "be based on",
+   "The report is based on research."
+  ],
+  [
+   "be capable of",
+   "She is capable of solving it."
+  ],
+  [
+   "be committed to",
+   "The school is committed to providing equal access to education."
+  ],
+  [
+   "be concerned about",
+   "They are concerned about climate change."
+  ],
+  [
+   "be exposed to",
+   "Children are exposed to advertising."
+  ],
+  [
+   "be faced with",
+   "The city is faced with a serious problem."
+  ],
+  [
+   "be familiar with",
+   "Are you familiar with the system?"
+  ],
+  [
+   "be involved in",
+   "He is involved in the project."
+  ],
+  [
+   "be likely to",
+   "People are more likely to use the bus when services are reliable."
+  ],
+  [
+   "be related to",
+   "The topic is related to health."
+  ],
+  [
+   "be responsible for",
+   "She is responsible for the project."
+  ],
+  [
+   "be willing to",
+   "Residents were willing to help newcomers settle into the neighborhood."
+  ],
+  [
+   "come to a decision",
+   "They came to a decision quickly."
+  ],
+  [
+   "give rise to",
+   "The policy gave rise to debate."
+  ],
+  [
+   "have an impact on",
+   "Sleep has an impact on health."
+  ],
+  [
+   "make progress",
+   "She has made progress."
+  ],
+  [
+   "take part in",
+   "She took part in the competition."
+  ],
+  [
+   "be in charge of",
+   "She is in charge of the project."
+  ],
+  [
+   "bring to light",
+   "The study brought the issue to light."
+  ],
+  [
+   "come to terms with",
+   "He came to terms with the result."
+  ],
+  [
+   "I’ll get back to you.",
+   "I'll get back to you tomorrow."
+  ],
+  [
+   "I’m on my way.",
+   "I'm on my way now."
+  ],
+  [
+   "I’m sorry to hear that.",
+   "I'm sorry to hear that."
+  ],
+  [
+   "That’s a relief.",
+   "A: The doctor said it's nothing serious. B: That's a relief."
+  ],
+  [
+   "That’s not the point.",
+   "That's not the point."
+  ],
+  [
+   "break down",
+   "The car broke down."
+  ],
+  [
+   "break into",
+   "Someone broke into the house."
+  ],
+  [
+   "bring about",
+   "The new policy brought about significant changes in public transport."
+  ],
+  [
+   "bring up",
+   "She brought up an important issue."
+  ],
+  [
+   "carry on",
+   "Despite the interruption, the speaker carried on with the presentation."
+  ],
+  [
+   "carry out",
+   "They carried out a survey."
+  ],
+  [
+   "come across",
+   "I came across an interesting article."
+  ],
+  [
+   "come up with",
+   "She came up with a solution."
+  ],
+  [
+   "find out",
+   "I found out the truth."
+  ],
+  [
+   "get over",
+   "She got over the illness."
+  ],
+  [
+   "go through",
+   "He went through a difficult time."
+  ],
+  [
+   "make up",
+   "He made up an excuse."
+  ],
+  [
+   "run into",
+   "I ran into my old friend."
+  ],
+  [
+   "run out of",
+   "The hospital ran out of clean water during the emergency."
+  ],
+  [
+   "take off",
+   "The plane took off."
+  ],
+  [
+   "take up",
+   "She took up painting."
+  ],
+  [
+   "That’s not necessarily true.",
+   "That's not necessarily true; the figures show a different trend."
+  ],
+  [
+   "I’m afraid I can’t.",
+   "I'm afraid I can't attend the meeting tomorrow."
+  ],
+  [
+   "be bound to",
+   "Prices are bound to change."
+  ],
+  [
+   "be prone to",
+   "Older devices are prone to failure."
+  ],
+  [
+   "be supposed to",
+   "Students are supposed to submit their assignments by Monday."
+  ],
+  [
+   "I’m used to + V-ing/noun",
+   "I'm used to waking up early for work."
+  ],
+  [
+   "take over",
+   "A new manager took over the department last month."
+  ],
+  [
+   "break out",
+   "A fire broke out in the storage area."
+  ],
+  [
+   "take measures to",
+   "The city took measures to reduce traffic congestion."
+  ],
+  [
+   "take steps to",
+   "The school took steps to improve campus safety."
+  ],
+  [
+   "be involved with",
+   "She is involved with a local environmental group."
+  ],
+  [
+   "be dependent on",
+   "The region is heavily dependent on tourism."
+  ],
+  [
+   "be expected to",
+   "Prices are expected to rise next year."
+  ],
+  [
+   "be required to",
+   "Applicants are required to provide identification."
+  ],
+  [
+   "bring back",
+   "The song brought back memories of her childhood."
+  ],
+  [
+   "carry on with",
+   "The team carried on with the project despite the delay."
+  ],
+  [
+   "come up",
+   "A new problem came up during the meeting."
+  ],
+  [
+   "give in",
+   "After a long discussion, he finally gave in."
+  ],
+  [
+   "give out",
+   "The volunteers gave out free meals."
+  ],
+  [
+   "grow up",
+   "She grew up in a small town."
+  ],
+  [
+   "take on",
+   "The company is taking on new employees."
+  ],
+  [
+   "wind up",
+   "We wound up staying at home because of the storm."
+  ],
+  [
+   "identify a pattern",
+   "The researchers identified a pattern in the survey results."
+  ],
+  [
+   "be interested in",
+   "I’m interested in learning more about the topic."
+  ],
+  [
+   "be good at",
+   "He is good at explaining difficult ideas."
+  ],
+  [
+   "be different from",
+   "The new method is different from the old one."
+  ],
+  [
+   "be similar to",
+   "The two approaches are similar to each other."
+  ],
+  [
+   "be satisfied with",
+   "Most users were satisfied with the service."
+  ],
+  [
+   "be proud of",
+   "She is proud of her progress."
+  ],
+  [
+   "be afraid of",
+   "Some students are afraid of making mistakes."
+  ],
+  [
+   "be ready for",
+   "Are you ready for the next question?"
+  ],
+  [
+   "be late for",
+   "I was late for the meeting."
+  ],
+  [
+   "It’s worth it",
+   "The extra practice is worth it."
+  ],
+  [
+   "It’s not worth it",
+   "The extra cost is not worth it."
+  ],
+  [
+   "be unable to",
+   "Several students were unable to access the online lesson."
+  ],
+  [
+   "come to an agreement",
+   "After discussing the costs, both groups came to an agreement."
+  ],
+  [
+   "run out of",
+   "We ran out of paper during the meeting."
+  ],
+  [
+   "carry out",
+   "The researchers carried out a survey."
+  ],
+  [
+   "bring up",
+   "She brought up an important issue at the meeting."
+  ],
+  [
+   "take part in",
+   "Many students took part in the science fair."
+  ],
+  [
+   "come across",
+   "I came across an interesting article online."
+  ],
+  [
+   "break down",
+   "The printer broke down before the exam."
+  ],
+  [
+   "have an effect on",
+   "Sleep has an effect on memory and concentration."
+  ]
+ ],
+ "phrase-latin-gloss": [
+  [
+   "look forward to",
+   "ตั้งตารอ (ตามด้วยคำนาม/V-ing)"
+  ],
+  [
+   "despite",
+   "ทั้ง ๆ ที่ (ตามด้วยคำนาม/V-ing)"
+  ],
+  [
+   "in spite of",
+   "ทั้ง ๆ ที่ (ตามด้วยคำนาม/V-ing)"
+  ]
+ ]
+}

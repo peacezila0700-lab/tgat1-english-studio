@@ -1,0 +1,63 @@
+PASS content: 3,508 unique headwords and 3,400 lazy sense sets preserved
+PASS content: 535 phrases preserved
+PASS content: main Thai glosses contain no English (comparisons live in note)
+PASS content: no antonym pair (A - B) inside a main gloss
+PASS content: no spurious "(ใช้ในบริบทของ…)" tags in glosses
+PASS content: no template sentence used as a gloss/meaning
+PASS content: no truncated/unbalanced gloss
+PASS content: no meta-language examples ("The adjective X gives…")
+PASS content: no adjective/adverb/verb filler templates
+PASS content: no template Thai translations
+PASS content: every sense has pos, meaning, example and translation
+PASS content: confusable-category senses no longer mislabelled as verbs
+PASS content: polysemy split (account/address/claim/issue ≥3 senses; attempt/relative ≥2)
+PASS content: no category label implying official/past-paper TGAT1 content
+PASS Round 2: all 492 researchers translations name researcher(s), not team
+PASS Round 2: no four confirmed glued Thai-English translations remain
+PASS Round 2: seven confirmed meta-language examples are removed
+PASS Round 2: five adjective example translations are not gloss-only
+PASS Round 2: Reading Lab TC counts exclude numbered blanks
+PASS Round 2: Reading Lab levels are explicitly approximate, not CEFR
+PASS Round 2: phrase taxonomy normalized to at most 10 labels
+INFO HUMAN-REVIEW queue: 1217 noun-slot filler examples remain (grammatical-but-generic or missing article) — see REVIEW-QUEUE.csv
+PASS versions: app/meta/cache/sw/manifest all 42.0.1
+PASS bank: 1,200 unique questions, 4 distinct non-empty options, valid answer
+PASS bank: 20 sets × (QR10/Short10/Long10/TC15/RC15) blueprint split
+PASS Round 2: 40 unique Long Conversation contexts and 40 unique Text Completion passages
+PASS Round 2: TC answer positions are balanced 75/75/75/75
+PASS bank: RC passages 100–200 words
+PASS match game: 12 generated rounds each contain 5 unique words, unique first-gloss meanings and balanced columns
+PASS match game: correct word–meaning pairs complete the round without mismatch penalties
+PASS vocab lab: options are Thai-only, 4 distinct, exactly one matches the target
+PASS vocab lab: no two options share a meaning segment (single defensible answer)
+PASS vocab lab: distractors drawn from a wide pool (not a fixed handful)
+PASS vocab: search finds "deteriorate"
+PASS vocab detail: main meaning is "แย่ลง" (not "ดีขึ้น - แย่ลง") and comparison is shown as a note
+PASS vocab detail: level shown as internal difficulty group, not CEFR
+PASS vocab lab: full round writes one SRS log entry per item and persists to storage
+PASS vocab lab: SRS grades survive a reload (regression for the lost-progress bug)
+PASS vocab lab: does not change mock history or completed sets
+PASS vocab lab: exit returns to the vocabulary page
+PASS no JavaScript errors in vocabulary flows
+PASS hub: unit-1 vocabulary activity runs (≥5 items) and is logged
+PASS hub: vocabulary practice does not mark the unit complete
+PASS no JavaScript errors in Hub vocabulary flow
+PASS save/resume: an in-progress mock is saved and survives a reload
+PASS mock: a complete 60-question mock finishes and scores 100/100 on the /100 scale
+PASS no JavaScript errors in mock/resume flows
+PASS export: backup JSON is produced with app id, version, timestamp and the vocabulary progress
+PASS import: backup restores vocabulary progress after confirmation
+PASS no JavaScript errors in export/import
+PASS layout @1280px: no horizontal overflow on 9 routes + Vocabulary Lab + word detail
+PASS no console/page errors @1280px
+PASS layout @390px: no horizontal overflow on 9 routes + Vocabulary Lab + word detail
+PASS no console/page errors @390px
+PASS keyboard: first Tab reaches the "skip to content" link
+PASS keyboard: skip link moves focus to main content
+PASS keyboard: focused controls show a visible focus indicator
+PASS keyboard: a Vocabulary Lab option can be answered with Enter
+PASS PWA: v42 cache installed with app shell + data-senses + data-vault
+PASS offline: word detail with lazy senses opens and shows corrected gloss
+PASS a11y (axe-core): no critical/serious violations on 9 routes + Vocabulary Lab (1280 light, 390 light, 390 dark)
+
+60/60 checks passed · 2026-11-19T09:46:58+07:00
