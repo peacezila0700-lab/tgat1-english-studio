@@ -1912,3 +1912,20 @@ body .pk-modal-box .v12-word-meta small{color:#4a5568!important}
 @keyframes pkRipple{to{transform:scale(4);opacity:0}}
 /* pk-picture-stage for vocabulary picture game */
 .pk-picture-stage{width:100%;max-width:320px;margin:0 auto;border-radius:20px;overflow:hidden;background:var(--pk-paper,#fff);box-shadow:var(--pk-depth,0 8px 24px rgba(48,63,130,.12))}
+
+/* === Deep-search round 2: missing pk-/tg- class definitions === */
+.pk-wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+.pk-empty-state{padding:32px 20px;text-align:center;color:var(--mute);font-size:15px;line-height:1.7}
+.pk-lang-section{margin-top:14px}
+.pk-lang-section b{display:block;font-size:13px;font-weight:700;color:var(--pk-accent);text-transform:uppercase;letter-spacing:.04em;margin-bottom:6px}
+.pk-lang-section p{margin:6px 0;color:var(--ink);line-height:1.65}
+.pk-muted-note{color:var(--mute);font-size:13px;font-style:italic}
+.pk-poly-index{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--pk-accent);color:#fff;font-size:12px;font-weight:700;margin-right:8px}
+.pk-sentence-token{display:inline-flex;align-items:center;gap:4px;margin:3px}
+.pk-table{width:100%;border-collapse:collapse;font-size:14px}
+.pk-table th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--pk-line);color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.pk-table td{padding:10px 12px;border-bottom:1px solid var(--pk-line);color:var(--ink)}
+.pk-table tbody tr:hover{background:var(--pk-grad-soft)}
+.pk-vocab-levels{display:flex;gap:8px;margin:14px 0}
+.tg36-evidence{margin-top:14px}
+.tgat-vocab-context{margin:10px 0;padding:16px 20px;border-left:4px solid var(--pk-accent);background:var(--pk-grad-soft);color:var(--ink);border-radius:10px;line-height:1.75;font-size:16px}
