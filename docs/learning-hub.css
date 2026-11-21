@@ -121,7 +121,7 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 .lh-vocab-word small{color:var(--mute);line-height:1.45}
 :root[data-theme="dark"] .lh-vocab-shortcut,:root[data-theme="dark"] .lh-vocab-block{background:var(--ink);border-color:var(--mute)}
 :root[data-theme="dark"] .lh-vocab-word{background:var(--ink);border-color:var(--mute);color:var(--bg)}
-:root[data-theme="dark"] .lh-vocab-word small{color:var(--line)}
+:root[data-theme="dark"] .lh-vocab-word small{color:var(--bg)}
 @media(max-width:640px){.lh-vocab-shortcut{align-items:flex-start;flex-direction:column}.lh-vocab-shortcut .st-btn{width:100%}}
 
 /* v41.0.0 a11y: status text for screen readers (replaces an aria-label that did not contain the visible label) */
@@ -270,7 +270,7 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 :root[data-theme="dark"] .lh-ctx{background:linear-gradient(180deg,var(--ink),var(--ink));border-color:var(--mute);border-left-color:var(--acc)}
 :root[data-theme="dark"] .lh-example{background:linear-gradient(180deg,var(--ink),var(--ink));border-color:var(--mute);border-left-color:var(--acc2)}
 :root[data-theme="dark"] .lh-stem{background:linear-gradient(180deg,var(--ink),var(--ink));border-color:var(--ink)}
-:root[data-theme="dark"] .lh-card{background:var(--ink);border-color:var(--ink)}
+:root[data-theme="dark"] .lh-card{background:var(--card);border-color:var(--line)}
 :root[data-theme="dark"] .lh-opt{background:var(--ink);border-color:var(--ink)}
 :root[data-theme="dark"] .lh-opt:hover:not(:disabled){background:var(--ink)}
 /* === UX overhaul: zero-friction CTA, mini-game separation, persona === */
@@ -307,3 +307,259 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 .lh-qa-item .lh-reason li{font-size:13px;line-height:1.7;margin:3px 0}
 :root[data-theme="dark"] .lh-qa-item{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.07)}
 :root[data-theme="dark"] .lh-qa-item .lh-qa-a{color:var(--line)}
+
+/* === DARK MODE V7: targeted fixes === */
+/* .lh-card in dark → --card (fixes .pk-card.lh-card bg override) */
+:root[data-theme="dark"] .lh-card{background:var(--card)!important;border-color:var(--line)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .lh-card{background:var(--card)!important;border-color:var(--line)!important}}
+/* .v15-panel .pk-eyebrow on dark card → --mute (not --bg) */
+:root[data-theme="dark"] .v15-panel .pk-eyebrow{color:var(--mute)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .v15-panel .pk-eyebrow{color:var(--mute)!important}}
+/* button > small on --ink bg → --bg (broader: catch all button small) */
+:root[data-theme="dark"] button>small,:root[data-theme="dark"] button small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) button>small,:root:not([data-theme="light"]) button small{color:var(--bg)!important}}
+/* .tgat-safety-grid small on --ink bg → --bg */
+:root[data-theme="dark"] .tgat-safety-grid small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tgat-safety-grid small{color:var(--bg)!important}}
+/* .vocab-translation .btn in dark → --bg text (btn has white bg in dark) */
+:root[data-theme="dark"] .vocab-translation .btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .vocab-translation .btn{color:var(--bg)!important}}
+
+/* === DARK MODE V8: precise contrast fixes === */
+/* .lh-vocab-block .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] .lh-vocab-block .pk-eyebrow,:root[data-theme="dark"] .lh-vocab-shortcut .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .lh-vocab-block .pk-eyebrow,:root:not([data-theme="light"]) .lh-vocab-shortcut .pk-eyebrow{color:var(--bg)!important}}
+/* .v15-panel .pk-eyebrow on --card bg → --mute */
+:root[data-theme="dark"] .v15-panel .pk-eyebrow{color:var(--mute)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .v15-panel .pk-eyebrow{color:var(--mute)!important}}
+/* .pk-card .pk-eyebrow on --card bg → --mute */
+:root[data-theme="dark"] .pk-card .pk-eyebrow{color:var(--mute)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-card .pk-eyebrow{color:var(--mute)!important}}
+/* sidebar nav-item small on light gradient bg → --bg */
+:root[data-theme="dark"] .studio-sidebar .nav-item small{color:var(--bg)!important}
+:root[data-theme="dark"] .studio-sidebar .nav-item.active small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){
+:root:not([data-theme="light"]) .studio-sidebar .nav-item small{color:var(--bg)!important}
+:root:not([data-theme="light"]) .studio-sidebar .nav-item.active small{color:var(--bg)!important}
+}
+/* .tgat-safety-grid small on --ink bg → --bg */
+:root[data-theme="dark"] .tgat-safety-grid small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tgat-safety-grid small{color:var(--bg)!important}}
+/* .vocab-translation .btn on white bg → --bg */
+:root[data-theme="dark"] .vocab-translation .btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .vocab-translation .btn{color:var(--bg)!important}}
+/* .st-word small on --ink bg → --bg */
+:root[data-theme="dark"] .st-word small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-word small{color:var(--bg)!important}}
+
+/* === DARK MODE V10: direct root-cause fixes === */
+/* .lh-vocab-word small on --ink bg → --bg (override base --mute) */
+:root[data-theme="dark"] #app .lh-vocab-word small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .lh-vocab-word small{color:var(--bg)!important}}
+/* .tgat-safety-grid small on --ink bg → --bg */
+:root[data-theme="dark"] #app .tgat-safety-grid small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tgat-safety-grid small{color:var(--bg)!important}}
+/* .st-word small on --ink bg → --bg */
+:root[data-theme="dark"] #app .st-word small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .st-word small{color:var(--bg)!important}}
+/* .vocab-translation .btn on white bg → --bg */
+:root[data-theme="dark"] #app .vocab-translation .btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .vocab-translation .btn{color:var(--bg)!important}}
+/* .lh-vocab-block .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] #app .lh-vocab-block .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .lh-vocab-block .pk-eyebrow{color:var(--bg)!important}}
+
+/* === DARK MODE V11: modal box text fixes === */
+/* Modal boxes have --ink (light) bg in dark → text must be --bg (dark) */
+:root[data-theme="dark"] .st-modal-box,:root[data-theme="dark"] .pk-modal-box{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box,:root:not([data-theme="light"]) .pk-modal-box{color:var(--bg)!important}}
+/* .pk-title inside modal on --ink bg → --bg */
+:root[data-theme="dark"] .st-modal-box .pk-title,:root[data-theme="dark"] .pk-modal-box .pk-title{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .pk-title,:root:not([data-theme="light"]) .pk-modal-box .pk-title{color:var(--bg)!important}}
+/* .pk-tag on --ink bg → --bg */
+:root[data-theme="dark"] .st-modal-box .pk-tag,:root[data-theme="dark"] .pk-modal-box .pk-tag{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .pk-tag,:root:not([data-theme="light"]) .pk-modal-box .pk-tag{color:var(--bg)!important}}
+/* .pk-eyebrow inside modal on --ink bg → --bg */
+:root[data-theme="dark"] .st-modal-box .pk-eyebrow,:root[data-theme="dark"] .pk-modal-box .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .pk-eyebrow,:root:not([data-theme="light"]) .pk-modal-box .pk-eyebrow{color:var(--bg)!important}}
+/* .pk-subtitle inside modal on --ink bg → --bg */
+:root[data-theme="dark"] .st-modal-box .pk-subtitle,:root[data-theme="dark"] .pk-modal-box .pk-subtitle{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .pk-subtitle,:root:not([data-theme="light"]) .pk-modal-box .pk-subtitle{color:var(--bg)!important}}
+/* .secondary.pk-btn inside modal on --ink bg → --bg */
+:root[data-theme="dark"] .st-modal-box .secondary.pk-btn,:root[data-theme="dark"] .pk-modal-box .secondary.pk-btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .secondary.pk-btn,:root:not([data-theme="light"]) .pk-modal-box .secondary.pk-btn{color:var(--bg)!important}}
+/* #tgcTitle on --ink bg → --bg */
+:root[data-theme="dark"] #tgcTitle{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #tgcTitle{color:var(--bg)!important}}
+/* .vocab-translation .btn on white bg → --bg */
+:root[data-theme="dark"] .vocab-translation .btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .vocab-translation .btn{color:var(--bg)!important}}
+/* .secondary on --ink bg → --bg (hub-unit) */
+:root[data-theme="dark"] .secondary{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .secondary{color:var(--bg)!important}}
+
+/* === DARK MODE V12: modal box text — higher specificity === */
+/* Modal boxes have white bg in dark → all text must be --bg (dark) */
+:root[data-theme="dark"] #app .st-modal-box,:root[data-theme="dark"] #app .pk-modal-box,:root[data-theme="dark"] body .st-modal-box,:root[data-theme="dark"] body .pk-modal-box{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){
+:root:not([data-theme="light"]) #app .st-modal-box,:root:not([data-theme="light"]) #app .pk-modal-box,:root:not([data-theme="light"]) body .st-modal-box,:root:not([data-theme="light"]) body .pk-modal-box{color:var(--bg)!important}
+}
+/* All text inside modal boxes on white bg → --bg */
+/* .v12-word-meta small / .v12-muted on light modal bg → --bg */
+:root[data-theme="dark"] body .pk-modal-box .v12-word-meta small,:root[data-theme="dark"] body .pk-modal-box .v12-muted{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) body .pk-modal-box .v12-word-meta small,:root:not([data-theme="light"]) body .pk-modal-box .v12-muted{color:var(--bg)!important}}
+/* h3 inside modal on white bg → --bg */
+:root[data-theme="dark"] .pk-modal-box h3,:root[data-theme="dark"] .st-modal-box h3{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-modal-box h3,:root:not([data-theme="light"]) .st-modal-box h3{color:var(--bg)!important}}
+/* .pk-subtitle inside modal on white bg → --bg */
+:root[data-theme="dark"] #app .st-modal-box .pk-subtitle,:root[data-theme="dark"] #app .pk-modal-box .pk-subtitle,:root[data-theme="dark"] body .st-modal-box .pk-subtitle,:root[data-theme="dark"] body .pk-modal-box .pk-subtitle{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .st-modal-box .pk-subtitle,:root:not([data-theme="light"]) #app .pk-modal-box .pk-subtitle,:root:not([data-theme="light"]) body .st-modal-box .pk-subtitle,:root:not([data-theme="light"]) body .pk-modal-box .pk-subtitle{color:var(--bg)!important}}
+/* .vocab-translation .btn → find actual element */
+:root[data-theme="dark"] #app .vocab-translation button{color:var(--bg)!important}
+:root[data-theme="dark"] #app .vocab-translation .pk-btn{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .vocab-translation button,:root:not([data-theme="light"]) #app .vocab-translation .pk-btn{color:var(--bg)!important}}
+/* .secondary on --ink bg → --bg */
+:root[data-theme="dark"] #app .secondary{color:var(--bg)!important}
+:root[data-theme="dark"] .pk-btn.secondary{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .secondary,:root:not([data-theme="light"]) .pk-btn.secondary{color:var(--bg)!important}}
+
+/* === DARK MODE V13: targeted modal/text fixes === */
+/* Modal box text on white bg → --bg (targeted, not blanket) */
+:root[data-theme="dark"] .st-modal-box,:root[data-theme="dark"] .pk-modal-box{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box,:root:not([data-theme="light"]) .pk-modal-box{color:var(--bg)!important}}
+/* .pk-subtitle in modal on white bg → --bg */
+:root[data-theme="dark"] .st-modal-box .pk-subtitle,:root[data-theme="dark"] .pk-modal-box .pk-subtitle{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-modal-box .pk-subtitle,:root:not([data-theme="light"]) .pk-modal-box .pk-subtitle{color:var(--bg)!important}}
+/* .v12-word-meta small / .v12-muted in modal on light bg → --bg */
+:root[data-theme="dark"] .pk-modal-box .v12-word-meta small,:root[data-theme="dark"] .pk-modal-box .v12-muted{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-modal-box .v12-word-meta small,:root:not([data-theme="light"]) .pk-modal-box .v12-muted{color:var(--bg)!important}}
+/* .btn.alt on white bg → --bg text (vocab-translation) */
+:root[data-theme="dark"] .btn.alt{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.alt{color:var(--bg)!important}}
+/* .vocab-translation .btn on white bg → --bg */
+:root[data-theme="dark"] .vocab-translation .btn,:root[data-theme="dark"] .qt .btn.alt{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .vocab-translation .btn,:root:not([data-theme="light"]) .qt .btn.alt{color:var(--bg)!important}}
+/* Fix V12 regression: buttons with --bg text on --card bg → --ink */
+:root[data-theme="dark"] .pk-card .pk-note{color:var(--ink)!important}
+:root[data-theme="dark"] .pk-card>p{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-card .pk-note,:root:not([data-theme="light"]) .pk-card>p{color:var(--ink)!important}}
+/* Fix: buttons with data-action on --card bg → --ink text */
+:root[data-theme="dark"] button[data-action]{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) button[data-action]{color:var(--ink)!important}}
+/* Fix: .secondary.pk-btn on --card bg → --ink text (not --bg) */
+:root[data-theme="dark"] .secondary.pk-btn{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .secondary.pk-btn{color:var(--ink)!important}}
+/* Fix: .secondary on --ink bg → --bg (hub-unit sidebar) */
+:root[data-theme="dark"] .studio-sidebar .secondary{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .studio-sidebar .secondary{color:var(--bg)!important}}
+
+/* === DARK MODE V14: max-specificity modal fixes === */
+/* .v12-word-meta small inside #studioModal on light bg → --bg */
+:root[data-theme="dark"] #studioModal .v12-word-meta small{color:var(--bg)!important}
+:root[data-theme="dark"] body #studioModal .v12-word-meta small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #studioModal .v12-word-meta small,:root:not([data-theme="light"]) body #studioModal .v12-word-meta small{color:var(--bg)!important}}
+/* .v12-muted inside #studioModal on light bg → --bg */
+:root[data-theme="dark"] #studioModal .v12-muted{color:var(--bg)!important}
+:root[data-theme="dark"] body #studioModal .v12-muted{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #studioModal .v12-muted,:root:not([data-theme="light"]) body #studioModal .v12-muted{color:var(--bg)!important}}
+/* .pk-subtitle inside #studioModal on white bg → --bg */
+:root[data-theme="dark"] #studioModal .pk-subtitle{color:var(--bg)!important}
+:root[data-theme="dark"] body #studioModal .pk-subtitle{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #studioModal .pk-subtitle,:root:not([data-theme="light"]) body #studioModal .pk-subtitle{color:var(--bg)!important}}
+/* .pk-btn.secondary on --card bg → --ink (light text on dark card) */
+:root[data-theme="dark"] .pk-btn.secondary,:root[data-theme="dark"] .pk-btn.small.secondary{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-btn.secondary,:root:not([data-theme="light"]) .pk-btn.small.secondary{color:var(--ink)!important}}
+/* button[data-action] on --card bg → --ink */
+:root[data-theme="dark"] .pk-btn.secondary[data-action]{color:var(--ink)!important}
+:root[data-theme="dark"] button.pk-btn.secondary[data-action]{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-btn.secondary[data-action],:root:not([data-theme="light"]) button.pk-btn.secondary[data-action]{color:var(--ink)!important}}
+/* .secondary.pk-btn on --card bg → --ink */
+:root[data-theme="dark"] .secondary.pk-btn{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .secondary.pk-btn{color:var(--ink)!important}}
+
+/* === DARK MODE V15: context-specific button text === */
+/* .pk-btn.secondary on --card bg → --ink (light text on dark card) */
+:root[data-theme="dark"] .pk-card .pk-btn.secondary,:root[data-theme="dark"] .pk-card .pk-btn.small.secondary{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-card .pk-btn.secondary,:root:not([data-theme="light"]) .pk-card .pk-btn.small.secondary{color:var(--ink)!important}}
+/* .pk-btn.ghost on white bg (inside modal) → --bg (dark text on white) */
+:root[data-theme="dark"] #studioModal .pk-btn.ghost,:root[data-theme="dark"] .pk-modal-box .pk-btn.ghost{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #studioModal .pk-btn.ghost,:root:not([data-theme="light"]) .pk-modal-box .pk-btn.ghost{color:var(--bg)!important}}
+/* .pk-btn.secondary on white bg (inside modal) → --bg (dark text on white) */
+:root[data-theme="dark"] #studioModal .pk-btn.secondary,:root[data-theme="dark"] .pk-modal-box .pk-btn.secondary{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #studioModal .pk-btn.secondary,:root:not([data-theme="light"]) .pk-modal-box .pk-btn.secondary{color:var(--bg)!important}}
+/* .st-btn.danger on --card bg → --ink */
+:root[data-theme="dark"] .pk-card .st-btn.danger,:root[data-theme="dark"] .pk-card .btn.danger{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-card .st-btn.danger,:root:not([data-theme="light"]) .pk-card .btn.danger{color:var(--ink)!important}}
+/* .secondary.pk-btn on --card bg → --ink */
+:root[data-theme="dark"] .pk-card .secondary.pk-btn{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .pk-card .secondary.pk-btn{color:var(--ink)!important}}
+
+/* === DARK MODE V16: max specificity button fix === */
+/* .pk-btn.secondary on --card bg → --ink (override --bg with max specificity) */
+:root[data-theme="dark"] #app .pk-card .pk-btn.secondary,:root[data-theme="dark"] #app .pk-card .pk-btn.small.secondary,:root[data-theme="dark"] body .pk-card .pk-btn.secondary,:root[data-theme="dark"] body .pk-card .pk-btn.small.secondary{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){
+:root:not([data-theme="light"]) #app .pk-card .pk-btn.secondary,:root:not([data-theme="light"]) #app .pk-card .pk-btn.small.secondary,:root:not([data-theme="light"]) body .pk-card .pk-btn.secondary,:root:not([data-theme="light"]) body .pk-card .pk-btn.small.secondary{color:var(--ink)!important}
+}
+/* .secondary.pk-btn on --card bg → --ink */
+:root[data-theme="dark"] #app .pk-card .secondary.pk-btn,:root[data-theme="dark"] body .pk-card .secondary.pk-btn{color:var(--ink)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .pk-card .secondary.pk-btn,:root:not([data-theme="light"]) body .pk-card .secondary.pk-btn{color:var(--ink)!important}}
+
+/* === DARK MODE V17: tg-ai-card text fixes === */
+/* .tg-ai-card has --ink (light) bg in dark → all text must be --bg (dark) */
+:root[data-theme="dark"] .tg-ai-head .pk-eyebrow{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-tag{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-summary small{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-summary .tg-ai-row small{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-muted{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-disclaimer{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-time{color:var(--bg)!important}
+:root[data-theme="dark"] .tg-ai-head p{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){
+:root:not([data-theme="light"]) .tg-ai-head .pk-eyebrow,:root:not([data-theme="light"]) .tg-ai-tag,:root:not([data-theme="light"]) .tg-ai-summary small,:root:not([data-theme="light"]) .tg-ai-summary .tg-ai-row small,:root:not([data-theme="light"]) .tg-ai-muted,:root:not([data-theme="light"]) .tg-ai-disclaimer,:root:not([data-theme="light"]) .tg-ai-time,:root:not([data-theme="light"]) .tg-ai-head p{color:var(--bg)!important}
+}
+
+/* === DARK MODE V18: st-word em and tg-ai text fixes === */
+/* .st-word em on --ink bg → --bg (use #app prefix for max specificity) */
+:root[data-theme="dark"] #app .st-word em{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .st-word em{color:var(--bg)!important}}
+/* .tg-ai-head .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] #app .tg-ai-head .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tg-ai-head .pk-eyebrow{color:var(--bg)!important}}
+/* .tg-ai-summary small on light bg → --bg */
+:root[data-theme="dark"] #app .tg-ai-summary small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tg-ai-summary small{color:var(--bg)!important}}
+/* .tg-ai-muted on --ink bg → --bg */
+:root[data-theme="dark"] #app .tg-ai-muted{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tg-ai-muted{color:var(--bg)!important}}
+/* .tg-ai-disclaimer on --ink bg → --bg */
+:root[data-theme="dark"] #app .tg-ai-disclaimer{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .tg-ai-disclaimer{color:var(--bg)!important}}
+/* .v16-head .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] #app .v16-head .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .v16-head .pk-eyebrow{color:var(--bg)!important}}
+/* .v16-task small on --ink/white bg → --bg */
+:root[data-theme="dark"] #app .v16-task small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .v16-task small{color:var(--bg)!important}}
+
+/* .st-word em on --ink bg → --bg (dark text on light bg) */
+:root[data-theme="dark"] .st-word em{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .st-word em{color:var(--bg)!important}}
+/* .tg-ai-head .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] .tg-ai-head .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tg-ai-head .pk-eyebrow{color:var(--bg)!important}}
+/* .tg-ai-summary small on light bg → --bg */
+:root[data-theme="dark"] .tg-ai-summary small{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tg-ai-summary small{color:var(--bg)!important}}
+/* .tg-ai-muted on --ink bg → --bg */
+:root[data-theme="dark"] .tg-ai-muted{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tg-ai-muted{color:var(--bg)!important}}
+/* .tg-ai-disclaimer on --ink bg → --bg */
+:root[data-theme="dark"] .tg-ai-disclaimer{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tg-ai-disclaimer{color:var(--bg)!important}}
+/* .v16-head .pk-eyebrow on --ink bg → --bg */
+:root[data-theme="dark"] .v16-head .pk-eyebrow{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .v16-head .pk-eyebrow{color:var(--bg)!important}}
+
+/* === DARK MODE V19: v16-footnote fix === */
+:root[data-theme="dark"] #app .v16-footnote{color:var(--bg)!important}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app .v16-footnote{color:var(--bg)!important}}
