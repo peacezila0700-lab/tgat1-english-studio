@@ -1,0 +1,39 @@
+name: CI
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+permissions:
+  contents: read
+jobs:
+  lint-test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Syntax check JS
+        run: |
+          for f in $(find web -name '*.js'); do
+            node --check "$f" || exit 1
+          done
+      - name: Syntax check HTML
+        run: |
+          python3 -c "
+import glob
+for f in glob.glob('web/*.html'):
+  open(f,encoding='utf-8').read()
+print('HTML files readable')
+"
+      - name: Content integrity check
+        run: |
+          python3 -c "
+import json,glob
+n=0
+for f in glob.glob('content/*.json'):
+  json.load(open(f,encoding='utf-8')); n+=1
+print(f'{n} JSON content files valid')
+"
