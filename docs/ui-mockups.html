@@ -7,12 +7,12 @@
 <style>
 :root{
   --bg:#0d1326;--surface:#161d38;--elevated:#1c2548;
-  --ink:#f5f5f7;--mute:#b4bcd4;--dim:#6b7494;
-  --acc1:#5b5fd6;--acc2:#8b5cf6;--acc3:#22d3ee;
-  --grad:linear-gradient(135deg,#5b5fd6,#8b5cf6 50%,#22d3ee);
+  --ink:#f5f5f7;--mute:#9aa3bd;--dim:#6b7494;
+  --acc1:#6366f1;--acc2:#8b5cf6;--acc3:#22d3ee;
+  --grad:linear-gradient(135deg,#6366f1,#8b5cf6 50%,#22d3ee);
   --border:rgba(140,150,190,.12);--border-hi:rgba(140,150,190,.22);
-  --glow:rgba(91,95,214,.25);
-  --ok:#4cd39b;--warn:#f4c568;--bad:#c84040;
+  --glow:rgba(99,102,241,.25);
+  --ok:#4cd39b;--warn:#f4c568;--bad:#ff7a7a;
   --radius:16px;--radius-lg:24px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
@@ -245,47 +245,6 @@ a{color:inherit;text-decoration:none}
 .mock-footer{
   margin-top:40px;padding:24px;text-align:center;
   border-top:1px solid var(--border);font-size:13px;color:var(--dim);
-}
-
-/* ===== CARD ENTRANCE ===== */
-.exam-card,.vocab-card,.vault-entry,.hub-card,.game-card{
-  animation:mockFadeUp .4s ease both;
-}
-.exam-card:nth-child(2){animation-delay:.1s}
-.exam-card:nth-child(3){animation-delay:.2s}
-@keyframes mockFadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-
-/* ===== OPTION HOVER ===== */
-.exam-opt,.vocab-word{
-  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
-}
-.exam-opt:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(91,95,214,.12)}
-.vocab-word:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(91,95,214,.12)}
-
-/* ===== GRADIENT PULSE ===== */
-.app-avatar,.exam-side-card .dot{
-  animation:dotPulse 2s ease infinite;
-}
-@keyframes dotPulse{0%,100%{box-shadow:0 0 8px var(--acc2)}50%{box-shadow:0 0 14px var(--acc2)}}
-
-/* ===== BTN HOVER GLOW ===== */
-.btn-primary,.nav-cta{
-  position:relative;overflow:hidden;
-}
-.btn-primary::after,.nav-cta::after{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
-  transform:translateX(-100%);
-  transition:transform .6s ease;
-}
-.btn-primary:hover::after,.nav-cta:hover::after{
-  transform:translateX(100%);
-}
-
-@media(prefers-reduced-motion:reduce){
-  .exam-card,.vocab-card,.vault-entry,.hub-card,.game-card{animation:none}
-  .app-avatar,.exam-side-card .dot{animation:none}
-  .btn-primary::after,.nav-cta::after{display:none}
 }
 </style>
 </head>

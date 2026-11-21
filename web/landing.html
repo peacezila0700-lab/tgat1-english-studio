@@ -11,18 +11,18 @@
   --surface:#161d38;
   --elevated:#1c2548;
   --ink:#f5f5f7;
-  --mute:#b4bcd4;
+  --mute:#9aa3bd;
   --dim:#6b7494;
-  --acc1:#5b5fd6;
+  --acc1:#6366f1;
   --acc2:#8b5cf6;
   --acc3:#22d3ee;
-  --grad:linear-gradient(135deg,#5b5fd6,#8b5cf6 50%,#22d3ee);
+  --grad:linear-gradient(135deg,#6366f1,#8b5cf6 50%,#22d3ee);
   --border:rgba(140,150,190,.12);
   --border-hi:rgba(140,150,190,.22);
-  --glow:rgba(91,95,214,.25);
+  --glow:rgba(99,102,241,.25);
   --ok:#4cd39b;
   --warn:#f4c568;
-  --bad:#c84040;
+  --bad:#ff7a7a;
   --radius:16px;
   --radius-lg:24px;
   --container:1180px;
@@ -413,68 +413,9 @@ a{color:inherit;text-decoration:none}
 /* ===== SCROLL FADE ===== */
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
-
-/* ===== CARD ENTRANCE ===== */
-.feat-card,.testi-card,.price-card,.viz-card{
-  animation:cardFadeUp .5s ease both;
-}
-.feat-card:nth-child(2){animation-delay:.1s}
-.feat-card:nth-child(3){animation-delay:.2s}
-.feat-card:nth-child(4){animation-delay:.1s}
-.feat-card:nth-child(5){animation-delay:.2s}
-.feat-card:nth-child(6){animation-delay:.3s}
-.testi-card:nth-child(2){animation-delay:.1s}
-.testi-card:nth-child(3){animation-delay:.2s}
-.price-card:nth-child(2){animation-delay:.1s}
-.price-card:nth-child(3){animation-delay:.2s}
-.viz-card:nth-child(2){animation-delay:.1s}
-@keyframes cardFadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
-
-/* ===== GRADIENT FLOW ===== */
-.hero-badge{animation:badgePulse 2s ease infinite}
-@keyframes badgePulse{0%,100%{box-shadow:0 0 0 0 rgba(91,95,214,.25)}50%{box-shadow:0 0 0 8px rgba(91,95,214,.05)}}
-
-/* ===== BUTTON HOVER GLOW ===== */
-.btn-primary,.nav-cta,.price-cta{
-  position:relative;overflow:hidden;
-}
-.btn-primary::after,.nav-cta::after,.price-cta::after{
-  content:"";position:absolute;inset:0;
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
-  transform:translateX(-100%);
-  transition:transform .6s ease;
-}
-.btn-primary:hover::after,.nav-cta:hover::after,.price-cta:hover::after{
-  transform:translateX(100%);
-}
-
-/* ===== FADE-IN SECTION HEADERS ===== */
-.section-head{animation:headFade .8s ease both}
-.section-head.reveal{animation:none}
-@keyframes headFade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-
-/* ===== NAV SHRINK ON SCROLL ===== */
-.nav.scrolled{
-  background:rgba(13,19,38,.92);
-  box-shadow:0 4px 24px rgba(0,0,0,.15);
-}
-
-/* ===== STRIP SLIDE ===== */
-.strip-pill{animation:slideUp .6s ease .3s both}
-@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-
-/* ===== FAQ ITEM EXPAND ===== */
-.faq-item{transition:border-color .3s}
-.faq-item:hover{border-color:var(--border-hi)}
-
 @media(prefers-reduced-motion:reduce){
   .reveal{opacity:1;transform:none;transition:none}
   .chart-bars span{animation:none}
-  .feat-card,.testi-card,.price-card,.viz-card{animation:none}
-  .hero-badge{animation:none}
-  .section-head{animation:none}
-  .strip-pill{animation:none}
-  .btn-primary::after,.nav-cta::after,.price-cta::after{display:none}
 }
 </style>
 </head>
@@ -855,28 +796,11 @@ const io=new IntersectionObserver((entries)=>{
 },{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-// Nav scroll shrink
+// Nav scroll border
 window.addEventListener('scroll',()=>{
   const nav=document.querySelector('.nav');
-  if(window.scrollY>20){nav.classList.add('scrolled')}
-  else{nav.classList.remove('scrolled')}
-});
-
-// FAQ accordion
-document.querySelectorAll('.faq-q').forEach(q=>{
-  q.addEventListener('click',()=>{
-    const item=q.closest('.faq-item');
-    const answer=item.querySelector('.faq-a');
-    const isOpen=item.classList.contains('open');
-    document.querySelectorAll('.faq-item').forEach(i=>{
-      i.classList.remove('open');
-      i.querySelector('.faq-a').style.maxHeight=null;
-    });
-    if(!isOpen){
-      item.classList.add('open');
-      answer.style.maxHeight=answer.scrollHeight+'px';
-    }
-  });
+  if(window.scrollY>20){nav.style.borderBottomColor='var(--border-hi)'}
+  else{nav.style.borderBottomColor='var(--border)'}
 });
 </script>
 </body>
