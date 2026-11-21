@@ -13,3 +13,10 @@
 :root[data-theme="dark"] .pk-card>p,:root[data-theme="dark"] .pk-card > p{background:var(--pk-paper)!important;color:var(--ink)!important}
 :root[data-theme="dark"] .crumb{color:#aebbd0!important}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .crumb{color:#aebbd0!important}}
+.pk-k-val.ring-wrap{display:flex;justify-content:center;align-items:center;min-height:68px;padding:4px 0 2px}.pk-k-ring{display:inline-block;line-height:0}.pk-k-ring svg{display:block}.pk-k-ring text{font-family:"Bricolage Grotesque","Noto Sans Thai",sans-serif}
+
+/* v44.2.0 — whole-passage "listen all" button for Learning Hub blocks */
+.lh-whole-audio,.st-audio-whole{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:6px 12px;margin-top:8px;border-radius:99px;border:1.5px solid var(--pk-accent,#4f6ef7);background:var(--pk-accent-soft,#eef2ff);color:var(--pk-accent,#4f6ef7);font:inherit;font-size:13px;font-weight:700;cursor:pointer;line-height:1}
+.lh-whole-audio:hover,.st-audio-whole:hover{background:var(--pk-accent,#4f6ef7);color:#fff}
+:root[data-theme="dark"] .lh-whole-audio,:root[data-theme="dark"] .st-audio-whole{background:rgba(91,124,255,.16);border-color:#5b7cff;color:#9db4ff}
+:root[data-theme="dark"] .lh-whole-audio:hover,:root[data-theme="dark"] .st-audio-whole:hover{background:#5b7cff;color:#fff}

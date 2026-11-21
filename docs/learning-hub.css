@@ -256,3 +256,20 @@ body.lh-has-return .studio-content{padding-bottom:84px}
 /* Fix(v44.0.1): CTA label contrast — white on accent button bg in dark mode. */
 :root[data-theme="dark"] #app button.pk-btn.lh-cta,:root[data-theme="dark"] #app button.pk-btn.lh-cta > small,:root[data-theme="dark"] #app button.pk-btn.lh-cta span{color:#fff!important}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]) #app button.pk-btn.lh-cta,:root:not([data-theme="light"]) #app button.pk-btn.lh-cta > small,:root:not([data-theme="light"]) #app button.pk-btn.lh-cta span{color:#fff!important}}
+
+/* ===== v44.2.0 readability: distinct, higher-contrast backgrounds for lesson blocks =====
+   The passage, example box, question stem, options, and card previously shared one flat
+   var(--bg) color and were hard to scan. Each block now gets its own tint + accent edge so
+   the reader can tell "read this" vs "example" vs "question" vs "pick an answer" at a glance. */
+.lh-ctx{background:linear-gradient(180deg,#eef4ff,#e7eeff);border:1.5px solid #b9c6f0;border-left:4px solid #4f6ef7;padding:16px;font-size:15.5px;line-height:1.85;box-shadow:inset 0 1px 0 #fff}
+.lh-example{background:linear-gradient(180deg,#f4f0ff,#eee8ff);border:1.5px solid #cfc6f5;border-left:4px solid #7a5cf5;padding:14px 16px}
+.lh-stem{background:linear-gradient(180deg,#fff7f0,#fff1e6);border:1px solid #ffd9b8;border-radius:12px;padding:12px 14px;margin:14px 0;font-weight:600}
+.lh-card{background:var(--card,#fff);border:1px solid var(--line,#d5deee)}
+.lh-opt{background:var(--card,#fff);border:1.5px solid var(--line,#d5deee)}
+.lh-opt:hover:not(:disabled){border-color:var(--acc,#4b63e8);background:#f4f7ff}
+:root[data-theme="dark"] .lh-ctx{background:linear-gradient(180deg,#1a2742,#16223a);border-color:#34507d;border-left-color:#5b7cff}
+:root[data-theme="dark"] .lh-example{background:linear-gradient(180deg,#201a36,#1c1730);border-color:#463a78;border-left-color:#8a6eff}
+:root[data-theme="dark"] .lh-stem{background:linear-gradient(180deg,#2a1f15,#241a12);border-color:#5a4030}
+:root[data-theme="dark"] .lh-card{background:#17243a;border-color:#30415c}
+:root[data-theme="dark"] .lh-opt{background:#17243a;border-color:#30415c}
+:root[data-theme="dark"] .lh-opt:hover:not(:disabled){background:#1d2c45}
