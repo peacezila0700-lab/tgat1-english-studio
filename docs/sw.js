@@ -1,9 +1,10 @@
-/* TGAT1 English Studio v44.0.0 offline service worker — network-first app assets. */
+/* TGAT1 English Studio v45.0.0 offline service worker — network-first app assets. */
 'use strict';
-const CACHE_NAME = 'tgat1-studio-v44.0.0';
+const CACHE_NAME = 'tgat1-studio-v45.0.0';
 const APP_SHELL = [
   './', './index.html', './app.css', './app.js', './data.js',
   './learning-hub.css', './learning-hub.js', './learning-hub-curriculum.js',
+  './landing.html',
   './manifest.webmanifest', './icon-192.png', './icon-512.png',
   './icon-maskable-192.png', './icon-maskable-512.png', './apple-touch-icon.png'
 ];
