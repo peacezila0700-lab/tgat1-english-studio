@@ -5,32 +5,33 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>TGAT1 English Studio — เตรียมสอบอย่างมั่นใจ</title>
 <style>
-/* ===== DESIGN TOKENS ===== */
+/* ===== DESIGN TOKENS (dark, per design brief) ===== */
 :root{
-  --bg:#0d1326;
-  --surface:#161d38;
-  --elevated:#1c2548;
-  --ink:#f5f5f7;
-  --mute:#9aa3bd;
-  --dim:#6b7494;
-  --acc1:#6366f1;
-  --acc2:#8b5cf6;
-  --acc3:#22d3ee;
-  --grad:linear-gradient(135deg,#6366f1,#8b5cf6 50%,#22d3ee);
-  --border:rgba(140,150,190,.12);
-  --border-hi:rgba(140,150,190,.22);
-  --glow:rgba(99,102,241,.25);
-  --ok:#4cd39b;
-  --warn:#f4c568;
-  --bad:#ff7a7a;
-  --radius:16px;
-  --radius-lg:24px;
+  --bg:#08081A;
+  --surface:#0E0E2A;
+  --elevated:#14143A;
+  --ink:#FFFFFF;
+  --mute:#A0A0C8;
+  --dim:#6B6B9E;
+  --acc1:#6D34FF;
+  --acc2:#00C4FF;
+  --grad:linear-gradient(135deg,#6D34FF,#00C4FF);
+  --grad-soft:linear-gradient(135deg,rgba(109,52,255,.15),rgba(0,196,255,.1));
+  --border:rgba(160,160,200,.12);
+  --border-hi:rgba(160,160,200,.25);
+  --glow:rgba(109,52,255,.30);
+  --glow-cyan:rgba(0,196,255,.20);
+  --ok:#4CD39B;
+  --warn:#F4C568;
+  --bad:#FF6B6B;
+  --radius:12px;
+  --radius-lg:20px;
   --container:1180px;
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans Thai",sans-serif;
+  font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Thai",sans-serif;
   background:var(--bg);
   color:var(--ink);
   line-height:1.6;
@@ -44,11 +45,12 @@ a{color:inherit;text-decoration:none}
 /* ===== NAV ===== */
 .nav{
   position:fixed;top:0;left:0;right:0;z-index:100;
-  background:rgba(13,19,38,.72);
+  background:rgba(8,8,26,.72);
   backdrop-filter:blur(16px);
   border-bottom:1px solid var(--border);
-  transition:border-color .3s;
+  transition:border-color .3s,box-shadow .3s;
 }
+.nav.scrolled{border-color:var(--border-hi);box-shadow:0 4px 24px rgba(0,0,0,.3)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px}
 .brand-mark{
@@ -67,51 +69,51 @@ a{color:inherit;text-decoration:none}
   border:0;cursor:pointer;
   box-shadow:0 4px 16px var(--glow);
   transition:transform .2s,box-shadow .2s;
+  position:relative;overflow:hidden;
+}
+.nav-cta::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+  transform:translateX(-100%);transition:transform .6s ease;
 }
 .nav-cta:hover{transform:translateY(-1px);box-shadow:0 6px 22px var(--glow)}
+.nav-cta:hover::after{transform:translateX(100%)}
 .nav-signin{font-size:14px;color:var(--mute)}
 .nav-signin:hover{color:var(--ink)}
 @media(max-width:860px){.nav-links,.nav-signin{display:none}}
 
 /* ===== HERO ===== */
-.hero{
-  position:relative;
-  padding:140px 0 90px;
-  text-align:center;
-  overflow:hidden;
-}
+.hero{position:relative;padding:140px 0 90px;text-align:center;overflow:hidden}
 .hero-bg{
   position:absolute;inset:0;z-index:0;
   background:
-    radial-gradient(ellipse 80% 50% at 50% 0%,rgba(99,102,241,.18),transparent 70%),
-    radial-gradient(ellipse 50% 40% at 80% 20%,rgba(139,92,246,.12),transparent 60%),
-    radial-gradient(ellipse 50% 40% at 20% 30%,rgba(34,211,238,.08),transparent 60%);
+    radial-gradient(ellipse 80% 50% at 50% 0%,rgba(109,52,255,.22),transparent 70%),
+    radial-gradient(ellipse 50% 40% at 80% 20%,rgba(0,196,255,.12),transparent 60%),
+    radial-gradient(ellipse 50% 40% at 20% 30%,rgba(109,52,255,.10),transparent 60%);
 }
 .hero-bg::after{
   content:"";position:absolute;inset:0;
-  background-image:
-    radial-gradient(circle at 1px 1px,rgba(140,150,190,.06) 1px,transparent 0);
+  background-image:radial-gradient(circle at 1px 1px,rgba(160,160,200,.06) 1px,transparent 0);
   background-size:32px 32px;
 }
 .hero .container{position:relative;z-index:1}
 .hero-badge{
   display:inline-flex;align-items:center;gap:8px;
   padding:6px 14px;border-radius:999px;
-  background:rgba(99,102,241,.12);border:1px solid rgba(99,102,241,.3);
-  color:var(--acc3);font-size:13px;font-weight:500;
+  background:rgba(109,52,255,.12);border:1px solid rgba(109,52,255,.35);
+  color:var(--acc2);font-size:13px;font-weight:500;
   margin-bottom:28px;
+  animation:badgePulse 2s ease infinite;
 }
-.hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--acc3);box-shadow:0 0 8px var(--acc3)}
+@keyframes badgePulse{0%,100%{box-shadow:0 0 0 0 rgba(109,52,255,.25)}50%{box-shadow:0 0 0 8px rgba(109,52,255,.05)}}
+.hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--acc2);box-shadow:0 0 8px var(--acc2)}
 .hero h1{
-  font-size:clamp(40px,6vw,64px);
-  font-weight:800;line-height:1.1;letter-spacing:-.02em;
+  font-size:clamp(40px,6vw,64px);font-weight:800;line-height:1.1;letter-spacing:-.02em;
   max-width:900px;margin:0 auto 24px;
 }
 .hero h1 .muted{color:var(--mute);font-weight:300}
-.hero-sub{
-  font-size:clamp(16px,2vw,19px);
-  color:var(--mute);max-width:580px;margin:0 auto 36px;
-}
+.hero-sub{font-size:clamp(16px,2vw,19px);color:var(--mute);max-width:580px;margin:0 auto 36px}
+.hero-sub .en{display:block;font-size:.8em;color:var(--dim);margin-top:6px}
 .hero-cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn-primary{
   padding:14px 28px;border-radius:12px;
@@ -119,27 +121,34 @@ a{color:inherit;text-decoration:none}
   border:0;cursor:pointer;
   box-shadow:0 8px 28px var(--glow);
   transition:transform .2s,box-shadow .2s;
+  position:relative;overflow:hidden;
+}
+.btn-primary::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+  transform:translateX(-100%);transition:transform .6s ease;
 }
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 36px var(--glow)}
+.btn-primary:hover::after{transform:translateX(100%)}
 .btn-ghost{
   padding:14px 28px;border-radius:12px;
   background:transparent;color:var(--ink);font-weight:600;font-size:15px;
   border:1px solid var(--border-hi);cursor:pointer;
   transition:border-color .2s,background .2s;
 }
-.btn-ghost:hover{border-color:var(--acc2);background:rgba(139,92,246,.08)}
+.btn-ghost:hover{border-color:var(--acc2);background:rgba(0,196,255,.08)}
 .hero-note{margin-top:22px;font-size:13px;color:var(--dim)}
 
 /* ===== TOOLS STRIP ===== */
-.strip{
-  padding:0 0 80px;
-}
+.strip{padding:0 0 80px}
 .strip-pill{
   display:inline-flex;align-items:center;gap:18px;
   padding:10px 20px;border-radius:999px;
-  background:rgba(22,29,56,.6);border:1px solid var(--border);
+  background:rgba(14,14,42,.6);border:1px solid var(--border);
   font-size:13px;color:var(--mute);
+  animation:slideUp .6s ease .3s both;
 }
+@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
 .strip-pill b{color:var(--ink);font-weight:600}
 .strip-tools{display:flex;gap:18px;align-items:center}
 .strip-tool{
@@ -151,13 +160,15 @@ a{color:inherit;text-decoration:none}
 
 /* ===== SECTION GENERAL ===== */
 .section{padding:80px 0}
-.section-head{margin-bottom:48px}
+.section-head{margin-bottom:48px;animation:headFade .8s ease both}
+@keyframes headFade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 .section-head h2{
   font-size:clamp(30px,4vw,42px);font-weight:700;
   letter-spacing:-.02em;line-height:1.2;max-width:680px;
 }
 .section-head h2 .muted{color:var(--mute);font-weight:300}
 .section-head p{margin-top:16px;font-size:16px;color:var(--mute);max-width:560px}
+.section-head .en{display:block;font-size:.7em;color:var(--dim);margin-top:6px}
 
 /* ===== FEATURE VIZ ===== */
 .viz{display:grid;grid-template-columns:1fr 1fr;gap:24px}
@@ -166,22 +177,22 @@ a{color:inherit;text-decoration:none}
   background:var(--surface);border:1px solid var(--border);
   border-radius:var(--radius-lg);padding:28px;
   position:relative;overflow:hidden;
+  animation:cardFadeUp .5s ease both;
 }
+.viz-card:nth-child(2){animation-delay:.1s}
+@keyframes cardFadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 .viz-card::before{
   content:"";position:absolute;top:0;left:0;right:0;height:1px;
   background:linear-gradient(90deg,transparent,var(--acc2),transparent);
 }
 .viz-card h3{font-size:18px;font-weight:700;margin-bottom:6px}
 .viz-card .viz-sub{font-size:13px;color:var(--mute);margin-bottom:20px}
-.viz-mock{
-  background:var(--bg);border:1px solid var(--border);
-  border-radius:12px;padding:20px;
-}
+.viz-mock{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:20px}
 .viz-mock-title{font-size:12px;color:var(--dim);margin-bottom:14px;font-family:monospace}
 .chart-bars{display:flex;align-items:flex-end;gap:10px;height:120px;margin-bottom:14px}
 .chart-bars span{
   flex:1;border-radius:6px 6px 0 0;
-  background:linear-gradient(180deg,var(--acc2),rgba(99,102,241,.3));
+  background:linear-gradient(180deg,var(--acc1),rgba(109,52,255,.3));
   min-height:20px;
   animation:growBar .8s ease-out backwards;
 }
@@ -190,13 +201,12 @@ a{color:inherit;text-decoration:none}
 .chart-bars span:nth-child(3){height:48%;animation-delay:.3s}
 .chart-bars span:nth-child(4){height:88%;animation-delay:.4s}
 .chart-bars span:nth-child(5){height:64%;animation-delay:.5s}
-.chart-bars span:nth-child(6){height:95%;animation-delay:.6s;background:linear-gradient(180deg,var(--acc3),rgba(34,211,238,.3))}
+.chart-bars span:nth-child(6){height:95%;animation-delay:.6s;background:linear-gradient(180deg,var(--acc2),rgba(0,196,255,.3))}
 @keyframes growBar{from{height:0}}
 .chart-labels{display:flex;justify-content:space-between;font-size:10px;color:var(--dim);font-family:monospace}
 .viz-metrics{display:flex;gap:18px;margin-top:16px}
 .viz-metric{flex:1}
 .viz-metric .v-num{font-size:22px;font-weight:700}
-.viz-metric .v-num.grad-text{font-size:22px}
 .viz-metric .v-lbl{font-size:11px;color:var(--dim)}
 
 /* ===== FEATURES GRID ===== */
@@ -206,18 +216,25 @@ a{color:inherit;text-decoration:none}
   background:var(--surface);border:1px solid var(--border);
   border-radius:var(--radius);padding:28px;
   transition:transform .25s,border-color .25s,box-shadow .25s;
+  animation:cardFadeUp .5s ease both;
 }
-.feat-card:hover{transform:translateY(-4px);border-color:var(--border-hi);box-shadow:0 12px 32px rgba(99,102,241,.12)}
+.feat-card:nth-child(2){animation-delay:.1s}
+.feat-card:nth-child(3){animation-delay:.2s}
+.feat-card:nth-child(4){animation-delay:.1s}
+.feat-card:nth-child(5){animation-delay:.2s}
+.feat-card:nth-child(6){animation-delay:.3s}
+.feat-card:hover{transform:translateY(-4px);border-color:var(--border-hi);box-shadow:0 12px 32px rgba(109,52,255,.15)}
 .feat-icon{
   width:44px;height:44px;border-radius:12px;
-  background:linear-gradient(135deg,rgba(99,102,241,.2),rgba(139,92,246,.15));
-  border:1px solid rgba(99,102,241,.3);
+  background:linear-gradient(135deg,rgba(109,52,255,.2),rgba(0,196,255,.12));
+  border:1px solid rgba(109,52,255,.3);
   display:flex;align-items:center;justify-content:center;
   font-size:20px;margin-bottom:18px;
 }
 .feat-card h3{font-size:17px;font-weight:700;margin-bottom:8px}
 .feat-card p{font-size:14px;color:var(--mute)}
-.feat-link{display:inline-block;margin-top:14px;font-size:13px;color:var(--acc3);font-weight:500}
+.feat-card .en{display:block;font-size:12px;color:var(--dim);margin-top:8px}
+.feat-link{display:inline-block;margin-top:14px;font-size:13px;color:var(--acc2);font-weight:500}
 .feat-link:hover{color:var(--ink)}
 
 /* ===== SOLUTION (alternating) ===== */
@@ -226,6 +243,7 @@ a{color:inherit;text-decoration:none}
 .solution-text h2{font-size:clamp(28px,3.5vw,38px);font-weight:700;line-height:1.2;letter-spacing:-.02em}
 .solution-text h2 .muted{color:var(--mute);font-weight:300}
 .solution-text p{margin-top:16px;font-size:15px;color:var(--mute)}
+.solution-text .en{display:block;font-size:.75em;color:var(--dim);margin-top:6px}
 .solution-list{margin-top:24px;display:flex;flex-direction:column;gap:14px}
 .solution-item{display:flex;gap:12px;align-items:flex-start}
 .solution-item .chk{
@@ -240,16 +258,14 @@ a{color:inherit;text-decoration:none}
   background:var(--surface);border:1px solid var(--border);
   border-radius:var(--radius-lg);padding:24px;
 }
-.solution-panel{
-  background:var(--bg);border:1px solid var(--border);
-  border-radius:12px;padding:18px;
-}
+.solution-panel{background:var(--bg);border:1px solid var(--border);border-radius:12px;padding:18px}
 .solution-panel .panel-title{font-size:12px;color:var(--dim);font-family:monospace;margin-bottom:12px}
 .flow-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--border)}
 .flow-row:last-child{border:0}
-.flow-dot{width:10px;height:10px;border-radius:50%;background:var(--acc2);box-shadow:0 0 8px var(--acc2);flex-shrink:0}
+.flow-dot{width:10px;height:10px;border-radius:50%;background:var(--acc1);box-shadow:0 0 8px var(--acc1);flex-shrink:0}
 .flow-dot.ok{background:var(--ok);box-shadow:0 0 8px var(--ok)}
 .flow-dot.warn{background:var(--warn);box-shadow:0 0 8px var(--warn)}
+.flow-dot.cyan{background:var(--acc2);box-shadow:0 0 8px var(--acc2)}
 .flow-name{font-size:13px;font-weight:600}
 .flow-stat{margin-left:auto;font-size:12px;color:var(--mute);font-family:monospace}
 
@@ -259,9 +275,12 @@ a{color:inherit;text-decoration:none}
 .testi-card{
   background:var(--surface);border:1px solid var(--border);
   border-radius:var(--radius);padding:26px;
+  animation:cardFadeUp .5s ease both;
 }
+.testi-card:nth-child(2){animation-delay:.1s}
+.testi-card:nth-child(3){animation-delay:.2s}
 .testi-quote{font-size:15px;color:var(--ink);line-height:1.7;margin-bottom:18px}
-.testi-quote::before{content:"\201C";color:var(--acc2);font-size:28px;line-height:0;vertical-align:-10px;margin-right:4px}
+.testi-quote::before{content:"\201C";color:var(--acc1);font-size:28px;line-height:0;vertical-align:-10px;margin-right:4px}
 .testi-author{display:flex;align-items:center;gap:12px}
 .testi-avatar{
   width:40px;height:40px;border-radius:50%;
@@ -272,108 +291,12 @@ a{color:inherit;text-decoration:none}
 .testi-name{font-size:14px;font-weight:600}
 .testi-role{font-size:12px;color:var(--dim)}
 
-/* ===== PRICING ===== */
-.price-toggle{display:flex;justify-content:center;align-items:center;gap:14px;margin:20px 0 8px}
-.price-toggle-inner{
-  display:flex;padding:4px;border-radius:10px;
-  background:var(--surface);border:1px solid var(--border);
-}
-.price-toggle button{
-  padding:8px 18px;border-radius:7px;font-size:14px;font-weight:600;
-  border:0;cursor:pointer;color:var(--mute);background:transparent;
-  transition:all .2s;
-}
-.price-toggle button.active{background:var(--grad);color:#fff}
-.price-badge{
-  padding:3px 10px;border-radius:999px;
-  background:rgba(244,197,104,.15);border:1px solid rgba(244,197,104,.4);
-  color:var(--warn);font-size:12px;font-weight:600;
-}
-.price-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
-@media(max-width:860px){.price-grid{grid-template-columns:1fr}}
-.price-card{
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius-lg);padding:30px;
-  display:flex;flex-direction:column;
-  transition:transform .25s,border-color .25s;
-}
-.price-card:hover{transform:translateY(-4px);border-color:var(--border-hi)}
-.price-card.featured{
-  border-color:rgba(139,92,246,.5);
-  box-shadow:0 0 40px rgba(99,102,241,.18),0 0 0 1px rgba(139,92,246,.3);
-  position:relative;
-}
-.price-card.featured::before{
-  content:"แนะนำ";position:absolute;top:-12px;left:50%;transform:translateX(-50%);
-  padding:4px 14px;border-radius:999px;
-  background:var(--grad);color:#fff;font-size:12px;font-weight:600;
-  box-shadow:0 4px 14px var(--glow);
-}
-.price-name{font-size:16px;font-weight:700;color:var(--mute)}
-.price-amount{font-size:42px;font-weight:800;margin:14px 0 4px;letter-spacing:-.02em}
-.price-amount .per{font-size:15px;font-weight:400;color:var(--dim)}
-.price-desc{font-size:13px;color:var(--dim);margin-bottom:20px}
-.price-cta{
-  width:100%;padding:12px;border-radius:10px;
-  background:var(--grad);color:#fff;font-weight:600;font-size:14px;
-  border:0;cursor:pointer;transition:transform .2s;
-}
-.price-cta:hover{transform:translateY(-1px)}
-.price-card.featured .price-cta{box-shadow:0 6px 20px var(--glow)}
-.price-divider{height:1px;background:var(--border);margin:22px 0}
-.price-features{display:flex;flex-direction:column;gap:12px}
-.price-feat{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--mute)}
-.price-feat .chk{
-  width:18px;height:18px;border-radius:5px;flex-shrink:0;
-  background:rgba(76,211,155,.12);border:1px solid rgba(76,211,155,.3);
-  display:flex;align-items:center;justify-content:center;
-  color:var(--ok);font-size:10px;font-weight:700;
-}
-.price-footnote{text-align:center;margin-top:28px;font-size:13px;color:var(--dim)}
-
-/* ===== FAQ ===== */
-.faq-grid{display:grid;grid-template-columns:1fr 1.4fr;gap:48px;align-items:start}
-@media(max-width:860px){.faq-grid{grid-template-columns:1fr;gap:32px}}
-.faq-left h2{font-size:clamp(30px,4vw,42px);font-weight:700;letter-spacing:-.02em}
-.faq-left h2 .muted{color:var(--mute);font-weight:300}
-.faq-left p{margin-top:16px;font-size:15px;color:var(--mute)}
-.faq-left .contact-note{margin-top:20px;font-size:14px;color:var(--acc3)}
-.faq-deco{
-  width:120px;height:120px;margin-top:28px;
-  border:1.5px dashed rgba(139,92,246,.3);border-radius:50%;
-  display:flex;align-items:center;justify-content:center;
-  position:relative;
-}
-.faq-deco::before{
-  content:"";position:absolute;inset:20px;border-radius:50%;
-  border:1px solid rgba(34,211,238,.15);
-}
-.faq-deco::after{
-  content:"?";font-size:32px;font-weight:800;color:var(--acc2);
-}
-.faq-list{display:flex;flex-direction:column}
-.faq-item{border-bottom:1px solid var(--border)}
-.faq-item:first-child{border-top:1px solid var(--border)}
-.faq-q{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:20px 0;cursor:pointer;font-size:16px;font-weight:600;
-}
-.faq-q .ico{
-  width:28px;height:28px;border-radius:8px;flex-shrink:0;
-  background:var(--surface);border:1px solid var(--border);
-  display:flex;align-items:center;justify-content:center;
-  font-size:18px;color:var(--mute);transition:all .25s;
-}
-.faq-item.open .faq-q .ico{background:var(--grad);color:#fff;transform:rotate(45deg);border-color:transparent}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
-.faq-a-inner{padding:0 0 20px;font-size:14px;color:var(--mute);max-width:540px}
-
-/* ===== CLOSING CTA ===== */
+/* ===== FINAL CTA ===== */
 .closing{padding:100px 0}
 .closing-panel{
   background:
-    radial-gradient(ellipse 60% 80% at 50% 0%,rgba(139,92,246,.2),transparent 70%),
-    radial-gradient(ellipse 40% 60% at 80% 50%,rgba(34,211,238,.1),transparent 60%),
+    radial-gradient(ellipse 60% 80% at 50% 0%,rgba(109,52,255,.25),transparent 70%),
+    radial-gradient(ellipse 40% 60% at 80% 50%,rgba(0,196,255,.12),transparent 60%),
     var(--surface);
   border:1px solid var(--border);border-radius:32px;
   padding:64px 40px;text-align:center;position:relative;overflow:hidden;
@@ -401,14 +324,6 @@ a{color:inherit;text-decoration:none}
 .footer-col a{display:block;font-size:14px;color:var(--mute);margin-bottom:10px;transition:color .2s}
 .footer-col a:hover{color:var(--ink)}
 .footer-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding-top:24px;border-top:1px solid var(--border);font-size:13px;color:var(--dim)}
-.footer-social{display:flex;gap:12px}
-.footer-social a{
-  width:36px;height:36px;border-radius:9px;
-  background:var(--surface);border:1px solid var(--border);
-  display:flex;align-items:center;justify-content:center;
-  font-size:14px;color:var(--mute);transition:all .2s;
-}
-.footer-social a:hover{color:var(--ink);border-color:var(--acc2)}
 
 /* ===== SCROLL FADE ===== */
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
@@ -416,6 +331,11 @@ a{color:inherit;text-decoration:none}
 @media(prefers-reduced-motion:reduce){
   .reveal{opacity:1;transform:none;transition:none}
   .chart-bars span{animation:none}
+  .feat-card,.testi-card,.viz-card{animation:none}
+  .hero-badge{animation:none}
+  .section-head{animation:none}
+  .strip-pill{animation:none}
+  .btn-primary::after,.nav-cta::after{display:none}
 }
 </style>
 </head>
@@ -431,8 +351,8 @@ a{color:inherit;text-decoration:none}
     <div class="nav-links">
       <a href="#features">ฟีเจอร์</a>
       <a href="#solution">วิธีใช้</a>
-      <a href="#pricing">ราคา</a>
-      <a href="#faq">คำถาม</a>
+      <a href="#testimonials">รีวิว</a>
+      <a href="#start">เริ่มต้น</a>
     </div>
     <div style="display:flex;align-items:center;gap:18px">
       <a href="#" class="nav-signin">ลงชื่อเข้า</a>
@@ -447,65 +367,76 @@ a{color:inherit;text-decoration:none}
   <div class="container">
     <div class="hero-badge"><span class="dot"></span> เตรียมสอบ TGAT1 อย่างมั่นใจ ตั้งแต่วันนี้</div>
     <h1>ฝึกภาษาอังกฤษให้<span class="muted"> มั่นใจทุกสนาม</span><br>ที่ TGAT1 Studio</h1>
-    <p class="hero-sub">แพลตฟอร์มฝึกข้อสอบ คำศัพท์ และทักษะการอ่าน สำหรับ TGAT1 ครบจบในที่เดียว ออกแบบมาให้คุณอ่านได้เพลิน ไม่อึดอัด ไม่จำเจ</p>
+    <p class="hero-sub">
+      แพลตฟอร์มฝึกข้อสอบ คำศัพท์ และทักษะการอ่านสำหรับ TGAT1 ครบจบในที่เดียว
+      <span class="en">Practice MCQ tests, vocabulary, and reading skills for TGAT1 — all in one place.</span>
+    </p>
     <div class="hero-cta">
-      <button class="btn-primary">เริ่มฝึกฟรี</button>
+      <button class="btn-primary">เริ่มฝึกฟรี →</button>
       <button class="btn-ghost">ดูฟีเจอร์</button>
     </div>
-    <p class="hero-note">ใช้งานได้ฟรี · ไม่ต้องใช้บัตรเครดิต · ไม่ต้องผูกแอป</p>
+    <p class="hero-note">ไม่ต้องสมัคร · ฝึกได้ทันที · ฟรี</p>
   </div>
 </section>
 
 <!-- TOOLS STRIP -->
 <section class="strip">
-  <div class="container" style="display:flex;flex-direction:column;align-items:center;gap:24px">
+  <div class="container">
     <div class="strip-pill">
-      <b>รองรับทุกทักษะ TGAT1</b>
-      <span class="strip-tools">
+      <div class="strip-tools">
         <span class="strip-tool">MCQ</span>
-        <span class="strip-tool">VOCAB</span>
-        <span class="strip-tool">READ</span>
-        <span class="strip-tool">WRITE</span>
-        <span class="strip-tool">LISTEN</span>
-      </span>
+        <span class="strip-tool">Vocab</span>
+        <span class="strip-tool">Read</span>
+        <span class="strip-tool">Plan</span>
+        <span class="strip-tool">Track</span>
+      </div>
+      <span>เครื่องมือครบชุดสำหรับเตรียมสอบ <b>TGAT1</b></span>
     </div>
   </div>
 </section>
 
 <!-- FEATURE VIZ -->
-<section class="section" id="features">
+<section class="section" id="viz">
   <div class="container">
     <div class="section-head reveal">
-      <h2>เห็นความก้าวหน้า<span class="muted"> ทุกการฝึก</span></h2>
-      <p>ติดตามคะแนน คำศัพท์ และทักษะแบบเรียลไทม์ รู้ว่าควรฝึกอะไรต่อ</p>
+      <h2>ดูความคืบหน้า<span class="muted"> แบบเรียลไทม์</span></h2>
+      <p>แดชบอร์ดที่แสดงผลการฝึกของคุณอย่างชัดเจน — คะแนน ความแม่นยำ และจุดที่ต้องพัฒนา
+        <span class="en">A real-time dashboard tracking your progress, accuracy, and areas for improvement.</span>
+      </p>
     </div>
     <div class="viz">
       <div class="viz-card reveal">
-        <h3>คะแนนที่พัฒนาขึ้น</h3>
-        <p class="viz-sub">เปรียบเทียบคะแนนทุกสัปดาห์</p>
+        <h3>ความแม่นยำในการตอบ</h3>
+        <p class="viz-sub">Accuracy across all question types</p>
         <div class="viz-mock">
-          <div class="viz-mock-title">// score-trend</div>
+          <div class="viz-mock-title">// weekly_accuracy</div>
           <div class="chart-bars">
             <span></span><span></span><span></span><span></span><span></span><span></span>
           </div>
           <div class="chart-labels"><span>W1</span><span>W2</span><span>W3</span><span>W4</span><span>W5</span><span>W6</span></div>
           <div class="viz-metrics">
-            <div class="viz-metric"><div class="v-num grad-text">+34%</div><div class="v-lbl">คะแนนเพิ่ม</div></div>
-            <div class="viz-metric"><div class="v-num">92</div><div class="v-lbl">คะแนนล่าสุด</div></div>
+            <div class="viz-metric"><div class="v-num grad-text">92%</div><div class="v-lbl">แม่นยำสูงสุด</div></div>
+            <div class="viz-metric"><div class="v-num">+18%</div><div class="v-lbl">พัฒนาใน 6 สัปดาห์</div></div>
           </div>
         </div>
       </div>
       <div class="viz-card reveal">
-        <h3>ความพร้อมทุกทักษะ</h3>
-        <p class="viz-sub">ดูภาพรวม 5 ทักษะ TGAT1</p>
+        <h3>คลังคำศัพท์ที่เชี่ยวชาญ</h3>
+        <p class="viz-sub">Vocabulary mastery by level</p>
         <div class="viz-mock">
-          <div class="viz-mock-title">// skill-radar</div>
-          <div style="display:flex;flex-direction:column;gap:12px">
-            <div><div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px"><span>คำศัพท์</span><span style="color:var(--acc3)">88%</span></div><div style="height:8px;border-radius:4px;background:var(--bg);overflow:hidden"><div style="width:88%;height:100%;background:var(--grad);border-radius:4px"></div></div></div>
-            <div><div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px"><span>การอ่าน</span><span style="color:var(--acc3)">76%</span></div><div style="height:8px;border-radius:4px;background:var(--bg);overflow:hidden"><div style="width:76%;height:100%;background:var(--grad);border-radius:4px"></div></div></div>
-            <div><div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px"><span>การฟัง</span><span style="color:var(--acc3)">81%</span></div><div style="height:8px;border-radius:4px;background:var(--bg);overflow:hidden"><div style="width:81%;height:100%;background:var(--grad);border-radius:4px"></div></div></div>
-            <div><div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px"><span>ไวยากรณ์</span><span style="color:var(--acc3)">72%</span></div><div style="height:8px;border-radius:4px;background:var(--bg);overflow:hidden"><div style="width:72%;height:100%;background:var(--grad);border-radius:4px"></div></div></div>
-            <div><div style="display:flex;justify-content:space-between;font-size:12px;margin-bottom:5px"><span>การเขียน</span><span style="color:var(--acc3)">65%</span></div><div style="height:8px;border-radius:4px;background:var(--bg);overflow:hidden"><div style="width:65%;height:100%;background:var(--grad);border-radius:4px"></div></div></div>
+          <div class="viz-mock-title">// vocab_progress</div>
+          <div class="chart-bars">
+            <span style="height:40%"></span>
+            <span style="height:65%"></span>
+            <span style="height:50%"></span>
+            <span style="height:80%"></span>
+            <span style="height:72%"></span>
+            <span style="height:95%"></span>
+          </div>
+          <div class="chart-labels"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+          <div class="viz-metrics">
+            <div class="viz-metric"><div class="v-num grad-text">248</div><div class="v-lbl">คำที่ฝึกแล้ว</div></div>
+            <div class="viz-metric"><div class="v-num">87%</div><div class="v-lbl">อัตราการจำ</div></div>
           </div>
         </div>
       </div>
@@ -514,48 +445,56 @@ a{color:inherit;text-decoration:none}
 </section>
 
 <!-- FEATURES GRID -->
-<section class="section">
+<section class="section" id="features">
   <div class="container">
     <div class="section-head reveal">
-      <h2>ทุกอย่างที่คุณ<span class="muted"> ต้องฝึก</span></h2>
-      <p>ฟีเจอร์หลักที่ออกแบบมาให้ใช้ง่าย อ่านง่าย ไม่อึดอัด</p>
+      <h2>ฟีเจอร์ที่<span class="muted"> ครบทุกการฝึก</span></h2>
+      <p>เครื่องมือที่ออกแบบมาเพื่อการเตรียมสอบ TGAT1 โดยเฉพาะ
+        <span class="en">Tools designed specifically for TGAT1 exam preparation.</span>
+      </p>
     </div>
     <div class="feat-grid">
       <div class="feat-card reveal">
         <div class="feat-icon">📝</div>
-        <h3>ข้อสอบ MCQ จำลอง</h3>
-        <p>ฝึกข้อสอบปรนัยแบบเต็มรูปแบบ พร้อมคำอธิบายและเฉลยทันทีหลังตอบ</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
+        <h3>ข้อสอบ MCQ</h3>
+        <p>ฝึกข้อสอบปรนัยแบบเต็มรูปแบบ พร้อมคำอธิบายและเฉลยทุกข้อ</p>
+        <span class="en">Full MCQ practice with explanations and answers for every question.</span>
+        <a href="#" class="feat-link">ลองฝึก →</a>
       </div>
       <div class="feat-card reveal">
         <div class="feat-icon">📚</div>
-        <h3>คลังคำศัพท์อัจฉริยะ</h3>
-        <p>คำศัพท์ TGAT1 คัดมาแล้ว แบ่งระดับ พร้อมตัวอย่างประโยคและคำแปล</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
+        <h3>คลังคำศัพท์</h3>
+        <p>คำศัพท์ TGAT1 กว่า 500 คำ พร้อมความหมาย ประโยคตัวอย่าง และการออกเสียง</p>
+        <span class="en">500+ TGAT1 words with meanings, example sentences, and pronunciation.</span>
+        <a href="#" class="feat-link">ดูคำศัพท์ →</a>
       </div>
       <div class="feat-card reveal">
         <div class="feat-icon">📖</div>
         <h3>ฝึกการอ่าน</h3>
-        <p>บทความพร้อมคำถาม ฝึกจับใจความและความเร็วในการอ่านแบบจับเวลา</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
-      </div>
-      <div class="feat-card reveal">
-        <div class="feat-icon">🎧</div>
-        <h3>ฝึกการฟัง</h3>
-        <p>ไฟล์เสียงพูดชัด พร้อม transcript และคำถามแบบ TGAT1 จริง</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
+        <p>บทความฝึกอ่านพร้อมคำถาม comprehension พัฒนาทักษะการอ่านเร็วและแม่นยำ</p>
+        <span class="en">Reading passages with comprehension questions to build speed and accuracy.</span>
+        <a href="#" class="feat-link">เริ่มอ่าน →</a>
       </div>
       <div class="feat-card reveal">
         <div class="feat-icon">🎯</div>
-        <h3>แผนการฝึกอัจฉริยะ</h3>
-        <p>ระบบแนะนำว่าควรฝึกอะไรต่อจากจุดอ่อนของคุณ ไม่ต้องคิดเอง</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
+        <h3>แผนการฝึกส่วนตัว</h3>
+        <p>ระบบแนะนำเส้นทางการฝึกตามระดับและจุดอ่อนของคุณโดยเฉพาะ</p>
+        <span class="en">Personalized study paths tailored to your level and weak areas.</span>
+        <a href="#" class="feat-link">ดูแผน →</a>
       </div>
       <div class="feat-card reveal">
         <div class="feat-icon">📊</div>
-        <h3>ติดตามความก้าวหน้า</h3>
-        <p>เห็นคะแนน  streak และคำศัพท์ที่เรียนรู้แบบเรียลไทม์ รู้จุดที่พัฒนา</p>
-        <a href="#" class="feat-link">ดูตัวอย่าง →</a>
+        <h3>ติดตามความคืบหน้า</h3>
+        <p>แดชบอร์ดแสดงคะแนน ความแม่นยำ และสถิติการฝึกแบบเรียลไทม์</p>
+        <span class="en">Dashboard showing scores, accuracy, and study stats in real time.</span>
+        <a href="#" class="feat-link">เปิดแดชบอร์ด →</a>
+      </div>
+      <div class="feat-card reveal">
+        <div class="feat-icon">🎮</div>
+        <h3>มินิเกมฝึกคำ</h3>
+        <p>เกมจับคู่ สะกดคำ และเรียงประโยค — ฝึกคำศัพท์แบบสนุก ไม่น่าเบื่อ</p>
+        <span class="en">Match, spell, and build-sentence mini-games for fun vocabulary practice.</span>
+        <a href="#" class="feat-link">เล่นเกม →</a>
       </div>
     </div>
   </div>
@@ -566,22 +505,33 @@ a{color:inherit;text-decoration:none}
   <div class="container">
     <div class="solution">
       <div class="solution-text reveal">
-        <h2>ใช้ง่าย<span class="muted"> ไม่ต้องเรียนรู้ใหม่</span></h2>
-        <p>เริ่มฝึกได้ทันที ไม่ต้องตั้งค่าซับซ้อน ระบบจัดลำดับการฝึกให้คุณเอง</p>
+        <h2>ใช้งานง่าย<span class="muted"> ฝึกได้ทันที</span></h2>
+        <p>ไม่ต้องติดตั้ง ไม่ต้องสมัคร — เปิดแล้วฝึกได้ทันที
+          <span class="en">No installation, no sign-up — open and start practicing instantly.</span>
+        </p>
         <div class="solution-list">
-          <div class="solution-item"><div class="chk">✓</div><div><b>เริ่มได้เลย</b><span>ไม่ต้องสมัครซับซ้อน เข้าหน้าก็ฝึกได้ทันที</span></div></div>
-          <div class="solution-item"><div class="chk">✓</div><div><b>ระบบแนะนำแบบส่วนตัว</b><span>วิเคราะห์จุดอ่อน แนะนำเนื้อหาที่ควรฝึกต่อ</span></div></div>
-          <div class="solution-item"><div class="chk">✓</div><div><b>อธิบายทันที</b><span>ทุกข้อมีคำอธิบายและเฉลย เข้าใจได้ว่าผิดเพราะอะไร</span></div></div>
+          <div class="solution-item">
+            <div class="chk">✓</div>
+            <div><b>เลือกเลเวลที่เหมาะกับคุณ</b><span>เริ่มต้นจากพื้นฐาน ไปจนถึงระดับสูง — ระบบจะแนะนำเส้นทางการฝึก</span></div>
+          </div>
+          <div class="solution-item">
+            <div class="chk">✓</div>
+            <div><b>ฝึกแบบเจาะจงจุดอ่อน</b><span>ระบบวิเคราะห์ข้อที่ผิดและแนะนำแบบฝึกหัดที่ตรงจุด</span></div>
+          </div>
+          <div class="solution-item">
+            <div class="chk">✓</div>
+            <div><b>ดูผลและพัฒนาต่อ</b><span>ติดตามความคืบหน้าทุกวัน พัฒนาได้อย่างต่อเนื่องไม่มีสะดุด</span></div>
+          </div>
         </div>
       </div>
       <div class="solution-visual reveal">
         <div class="solution-panel">
-          <div class="panel-title">// your-practice-flow</div>
-          <div class="flow-row"><div class="flow-dot ok"></div><div class="flow-name">ข้อสอบ MCQ</div><div class="flow-stat">85%</div></div>
-          <div class="flow-row"><div class="flow-dot warn"></div><div class="flow-name">คำศัพท์ใหม่</div><div class="flow-stat">12/20</div></div>
-          <div class="flow-row"><div class="flow-dot"></div><div class="flow-name">การอ่านจับใจความ</div><div class="flow-stat">72%</div></div>
-          <div class="flow-row"><div class="flow-dot ok"></div><div class="flow-name">การฟัง</div><div class="flow-stat">81%</div></div>
-          <div class="flow-row"><div class="flow-dot"></div><div class="flow-name">การเขียน</div><div class="flow-stat">65%</div></div>
+          <div class="panel-title">// study_flow</div>
+          <div class="flow-row"><div class="flow-dot cyan"></div><div class="flow-name">เลือกเลเวล</div><div class="flow-stat">step 1</div></div>
+          <div class="flow-row"><div class="flow-dot"></div><div class="flow-name">ฝึกข้อสอบ / คำศัพท์</div><div class="flow-stat">step 2</div></div>
+          <div class="flow-row"><div class="flow-dot warn"></div><div class="flow-name">ระบบวิเคราะห์จุดอ่อน</div><div class="flow-stat">step 3</div></div>
+          <div class="flow-row"><div class="flow-dot ok"></div><div class="flow-name">แนะนำแบบฝึกหัด</div><div class="flow-stat">step 4</div></div>
+          <div class="flow-row"><div class="flow-dot cyan"></div><div class="flow-name">ติดตามความคืบหน้า</div><div class="flow-stat">step 5</div></div>
         </div>
       </div>
     </div>
@@ -589,137 +539,54 @@ a{color:inherit;text-decoration:none}
 </section>
 
 <!-- TESTIMONIALS -->
-<section class="section">
+<section class="section" id="testimonials">
   <div class="container">
     <div class="section-head reveal">
-      <h2>ผู้ใช้งานจริง<span class="muted"> พูดว่าอย่างไร</span></h2>
-      <p>จากนักเรียนที่ฝึกกับ TGAT1 Studio</p>
+      <h2>ผู้เรียนพูดว่า<span class="muted"> ยังไงบ้าง</span></h2>
+      <p>ประสบการณ์จริงจากผู้ที่ใช้ TGAT1 Studio เตรียมสอบ
+        <span class="en">Real experiences from students who used TGAT1 Studio to prepare.</span>
+      </p>
     </div>
     <div class="testi-grid">
       <div class="testi-card reveal">
-        <p class="testi-quote">เว็บอ่านง่ายมาก ไม่อึดอัดเหมือนเว็บอื่นๆที่เคยใช้ ฝึกทุกวันแล้วคะแนนขึ้นจริง</p>
-        <div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">อันนา</div><div class="testi-role">นักเรียน ม.6</div></div></div>
+        <p class="testi-quote">"จากที่เคยกลัวข้อสอบ TGAT1 มาก พอมาฝึกที่นี่ทุกวัน คะแนนขึ้นไปเยอะมาก อ่านโจทย์เร็วขึ้นและเข้าใจมากขึ้น"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">มิน</div>
+          <div><div class="testi-name">มินตรา</div><div class="testi-role">นักเรียน ม.6 · คะแนน TGAT1 ขึ้น 40 คะแนน</div></div>
+        </div>
       </div>
       <div class="testi-card reveal">
-        <p class="testi-quote">ระบบแนะนำว่าควรฝึกอะไรต่อได้ตรงจุด ไม่ต้องเดาเองว่าต้องทำอะไรดี</p>
-        <div class="testi-author"><div class="testi-avatar">B</div><div><div class="testi-name">บอส</div><div class="testi-role">นักเรียน เตรียมฯ</div></div></div>
+        <p class="testi-quote">"คลังคำศัพท์มีประโยชน์มาก แต่ละคำมีประโยคตัวอย่าง ทำให้จำได้ง่ายกว่าการท่องแบบเก่า"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">ก้อ</div>
+          <div><div class="testi-name">ก้อง</div><div class="testi-role">นักเรียน ม.5 · ฝึกคำศัพท์ 300+ คำ</div></div>
+        </div>
       </div>
       <div class="testi-card reveal">
-        <p class="testi-quote">โทนสีสบายตา อ่านเพลิน ไม่แสบตา ฝึกได้นานๆ ไม่เหนื่อย</p>
-        <div class="testi-author"><div class="testi-avatar">C</div><div><div class="testi-name">เคน</div><div class="testi-role">นักเรียน ม.5</div></div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- PRICING -->
-<section class="section" id="pricing">
-  <div class="container">
-    <div class="section-head reveal" style="text-align:center;margin:0 auto 0">
-      <h2 style="margin:0 auto">เลือกแพ็กเกจ<span class="muted"> ที่เหมาะสม</span></h2>
-      <p style="margin:16px auto 0">เริ่มต้นใช้งานได้ฟรี ไม่ต้องใช้บัตรเครดิต</p>
-    </div>
-    <div class="price-toggle reveal">
-      <div class="price-toggle-inner">
-        <button class="active" data-period="monthly">รายเดือน</button>
-        <button data-period="yearly">รายปี</button>
-      </div>
-      <span class="price-badge">ลด 20%</span>
-    </div>
-    <div class="price-grid">
-      <div class="price-card reveal">
-        <div class="price-name">Free</div>
-        <div class="price-amount">0<span class="per">/เดือน</span></div>
-        <div class="price-desc">เริ่มฝึกได้ทันที</div>
-        <button class="price-cta">เริ่มใช้ฟรี</button>
-        <div class="price-divider"></div>
-        <div class="price-features">
-          <div class="price-feat"><div class="chk">✓</div><span>ข้อสอบ MCQ 5 ชุด</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>คำศัพท์ 100 คำ</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ติดตามความก้าวหน้า</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ไม่มีโฆษณา</span></div>
-        </div>
-      </div>
-      <div class="price-card featured reveal">
-        <div class="price-name">Pro</div>
-        <div class="price-amount" data-monthly="149" data-yearly="149">149<span class="per">/เดือน</span></div>
-        <div class="price-desc">สำหรับผู้ที่ต้องการฝึกเต็มที่</div>
-        <button class="price-cta">เลือก Pro</button>
-        <div class="price-divider"></div>
-        <div class="price-features">
-          <div class="price-feat"><div class="chk">✓</div><span>ข้อสอบ MCQ ไม่จำกัด</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>คำศัพท์ทั้งหมด 2,000+</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ฝึกการอ่าน/ฟัง/เขียน</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>แผนการฝึกอัจฉริยะ</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>คำอธิบายและเฉลยทุกข้อ</span></div>
-        </div>
-      </div>
-      <div class="price-card reveal">
-        <div class="price-name">Team</div>
-        <div class="price-amount" data-monthly="499" data-yearly="499">499<span class="per">/เดือน</span></div>
-        <div class="price-desc">สำหรับกลุ่มหรือโรงเรียน</div>
-        <button class="price-cta">ติดต่อทีม</button>
-        <div class="price-divider"></div>
-        <div class="price-features">
-          <div class="price-feat"><div class="chk">✓</div><span>ทุกอย่างใน Pro</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ผู้ใช้ได้ 10 คน</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ติดตามคะแนนทีม</span></div>
-          <div class="price-feat"><div class="chk">✓</div><span>ดูแลเฉพาะกลุ่ม</span></div>
-        </div>
-      </div>
-    </div>
-    <p class="price-footnote">ราคาเป็นบาทก่อนภาษี · สามารถยกเลิกได้ทุกเมื่อ</p>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="section" id="faq">
-  <div class="container">
-    <div class="faq-grid">
-      <div class="faq-left reveal">
-        <h2>คำถามที่<span class="muted"> พบบ่อย</span></h2>
-        <p>ถ้ามีคำถามเพิ่มเติม สามารถติดต่อเราได้เสมอ</p>
-        <a href="#" class="contact-note">→ ติดต่อทีมงาน</a>
-        <div class="faq-deco"></div>
-      </div>
-      <div class="faq-list reveal">
-        <div class="faq-item">
-          <div class="faq-q">ต้องใช้บัญชีก่อนฝึกไหม?<div class="ico">+</div></div>
-          <div class="faq-a"><div class="faq-a-inner">ไม่ต้อง สามารถเริ่มฝึกได้ทันทีโดยไม่ต้องสมัครบัญชี แต่ถ้าต้องการบันทึกความก้าวหน้า สามารถสมัครได้ฟรี</div></div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">เนื้อหาตรงกับข้อสอบ TGAT1 จริงไหม?<div class="ico">+</div></div>
-          <div class="faq-a"><div class="faq-a-inner">ตรง เนื้อหาและรูปแบบข้อสอบออกแบบตามโครงสร้าง TGAT1 ใหม่ ครอบคลุมทุกทักษะที่ออกสอบ</div></div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">สามารถใช้งานบนมือถือได้ไหม?<div class="ico">+</div></div>
-          <div class="faq-a"><div class="faq-a-inner">ได้ เว็บรองรับการใช้งานทุกอุปกรณ์ ไม่ว่าจะเป็นคอมพิวเตอร์ แท็บเล็ต หรือมือถือ</div></div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">แพ็กเกจ Pro คุ้มไหม?<div class="ico">+</div></div>
-          <div class="faq-a"><div class="faq-a-inner">คุ้ม ถ้าคุณต้องฝึกอย่างจริงจังและต้องการเข้าถึงเนื้อหาทั้งหมด ทั้งข้อสอบ คำศัพท์ และทุกทักษะ</div></div>
-        </div>
-        <div class="faq-item">
-          <div class="faq-q">ยกเลิกสมาชิกได้ไหม?<div class="ico">+</div></div>
-          <div class="faq-a"><div class="faq-a-inner">ได้ สามารถยกเลิกได้ทุกเมื่อ โดยไม่มีค่าใช้จ่ายเพิ่มเติม</div></div>
+        <p class="testi-quote">"ชอบมากที่ฝึกได้ฟรีและไม่ต้องสมัคร เปิดใช้ได้เลย ระบบแนะนำจุดที่ต้องฝึกช่วยได้เยอะ"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">อล</div>
+          <div><div class="testi-name">อร</div><div class="testi-role">นักเรียน ม.6 · ฝึกต่อเนื่อง 8 สัปดาห์</div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CLOSING CTA -->
-<section class="closing">
+<!-- FINAL CTA -->
+<section class="closing" id="start">
   <div class="container">
     <div class="closing-panel reveal">
       <div class="closing-mark">T</div>
-      <h2>พร้อมจะ<span class="muted"> ฝึก TGAT1 แล้วหรือยัง?</span></h2>
-      <p>เริ่มต้นฝึกได้ฟรีวันนี้ ไม่ต้องผูกบัตรเครดิต ไม่ต้องติดตั้ง</p>
+      <h2>พร้อมจะ<span class="muted"> เริ่มต้นแล้วใช่ไหม</span></h2>
+      <p>ฝึกได้ฟรี ไม่ต้องสมัคร — เริ่มเตรียมสอบ TGAT1 ของคุณตั้งแต่วันนี้
+        <span class="en" style="display:block;font-size:.75em;color:var(--dim);margin-top:6px">Practice for free, no sign-up — start your TGAT1 prep today.</span>
+      </p>
       <div class="closing-cta">
-        <button class="btn-primary">เริ่มฝึกฟรี</button>
-        <button class="btn-ghost">ดูราคา</button>
+        <button class="btn-primary">เริ่มฝึกฟรี →</button>
+        <button class="btn-ghost">ติดต่อเรา</button>
       </div>
-      <p class="closing-note">ใช้งานได้ฟรี · รองรับทุกอุปกรณ์</p>
+      <p class="closing-note">ไม่มีค่าใช้จ่าย · ฝึกได้ไม่จำกัด · เหมาะกับทุกระดับ</p>
     </div>
   </div>
 </section>
@@ -747,60 +614,32 @@ a{color:inherit;text-decoration:none}
         <a href="#">ติดต่อ</a>
       </div>
       <div class="footer-col">
-        <h4>资源</h4>
+        <h4>แหล่งข้อมูล</h4>
         <a href="#">คู่มือใช้งาน</a>
-        <a href="#">เคล็ดลับการสอบ</a>
-        <a href="#">隐私政策</a>
-        <a href="#">服务条款</a>
+        <a href="#">แนวทางการฝึก</a>
+        <a href="#">คำแนะนำ</a>
+        <a href="#">คำถามที่พบบ่อย</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 TGAT1 Studio. สงวนลิขสิทธิ์.</span>
-      <div class="footer-social">
-        <a href="#">Fb</a>
-        <a href="#">Ig</a>
-        <a href="#">X</a>
-        <a href="#">Yt</a>
-      </div>
-      <span>ไม่มีการเก็บข้อมูลส่วนตัว</span>
+      <span>© 2025 TGAT1 Studio. ทุกสิทธิ์สงวน.</span>
+      <span>ออกแบบเพื่อการเตรียมสอบ TGAT1</span>
     </div>
   </div>
 </footer>
 
 <script>
-// FAQ accordion
-document.querySelectorAll('.faq-item').forEach(item=>{
-  item.querySelector('.faq-q').addEventListener('click',()=>{
-    const open=item.classList.contains('open');
-    document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-a').style.maxHeight=null});
-    if(!open){item.classList.add('open');const a=item.querySelector('.faq-a');a.style.maxHeight=a.scrollHeight+'px'}
-  });
-});
-
-// Pricing toggle
-document.querySelectorAll('.price-toggle button').forEach(btn=>{
-  btn.addEventListener('click',()=>{
-    document.querySelectorAll('.price-toggle button').forEach(b=>b.classList.remove('active'));
-    btn.classList.add('active');
-    const period=btn.dataset.period;
-    document.querySelectorAll('.price-amount').forEach(el=>{
-      const val=el.dataset[period];
-      if(val){el.innerHTML=val+'<span class="per">/เดือน</span>'}
-    });
-  });
-});
-
 // Scroll reveal
 const io=new IntersectionObserver((entries)=>{
   entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')});
 },{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-// Nav scroll border
+// Nav scroll shrink
 window.addEventListener('scroll',()=>{
   const nav=document.querySelector('.nav');
-  if(window.scrollY>20){nav.style.borderBottomColor='var(--border-hi)'}
-  else{nav.style.borderBottomColor='var(--border)'}
+  if(window.scrollY>20){nav.classList.add('scrolled')}
+  else{nav.classList.remove('scrolled')}
 });
 </script>
 </body>
